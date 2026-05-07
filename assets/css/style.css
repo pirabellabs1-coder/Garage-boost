@@ -1225,22 +1225,34 @@ select.form-control option { background: var(--bg); color: var(--white); }
 .rdv-summary li i { color: var(--accent); font-size: 0.78rem; margin-top: 5px; flex-shrink: 0; }
 
 @media (max-width: 1000px) {
-  .rdv-grid { grid-template-columns: 1fr; gap: 24px; }
+  .rdv-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .rdv-grid > * { min-width: 0; }
   .rdv-aside { position: static; }
   .rdv-steps { grid-template-columns: 1fr; gap: 8px; margin-bottom: 24px; }
   .service-picker { grid-template-columns: 1fr; }
 }
 @media (max-width: 700px) {
-  .rdv-grid { padding: 0; gap: 18px; }
-  .rdv-step { padding: 12px 12px 12px 48px; min-width: 0; }
-  .rdv-step-num { top: 14px; left: 12px; width: 26px; height: 26px; font-size: 0.78rem; }
-  .rdv-step strong { font-size: 0.86rem; }
-  .rdv-step span { font-size: 0.74rem; }
+  .rdv-grid { padding: 0; gap: 14px; }
+  .rdv-step { padding: 10px 10px 10px 42px; min-width: 0; }
+  .rdv-step-num { top: 12px; left: 10px; width: 24px; height: 24px; font-size: 0.74rem; }
+  .rdv-step strong { font-size: 0.82rem; }
+  .rdv-step span { font-size: 0.72rem; }
   .service-picker { gap: 6px; grid-template-columns: 1fr; }
   .service-pick-label { padding: 10px 12px; font-size: 0.82rem; gap: 10px; min-width: 0; }
-  .rdv-summary { padding: 14px 12px; max-width: 100%; border-radius: 14px; margin-bottom: 12px; }
-  .rdv-summary h3 { font-size: 0.95rem; margin-bottom: 10px; }
-  .rdv-summary li { font-size: 0.78rem; padding: 8px 0; gap: 10px; }
+  .rdv-summary { padding: 14px 14px; max-width: 100%; width: 100%; box-sizing: border-box; border-radius: 12px; margin-bottom: 10px; }
+  .rdv-summary h3 { font-size: 0.92rem; margin-bottom: 8px; line-height: 1.3; }
+  .rdv-summary ul { padding: 0; margin: 0; }
+  .rdv-summary li { font-size: 0.76rem; padding: 7px 0; gap: 8px; line-height: 1.4; }
+  .rdv-summary li i { font-size: 0.7rem; }
+}
+
+@media (max-width: 700px) {
+  .info-banner { padding: 12px 14px; margin: 10px 0; gap: 10px; border-radius: 12px; max-width: 100%; width: 100%; box-sizing: border-box; }
+  .info-banner-icon { width: 30px; height: 30px; font-size: 0.85rem; border-radius: 8px; }
+  .info-banner-text { font-size: 0.78rem; line-height: 1.45; min-width: 0; word-break: break-word; }
+  .info-banner-text strong { font-size: 0.82rem; }
+  .rdv-aside { width: 100%; box-sizing: border-box; min-width: 0; }
+  .rdv-aside > * { min-width: 0; }
 }
 
 /* ========================================================================
