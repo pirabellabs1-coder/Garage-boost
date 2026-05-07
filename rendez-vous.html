@@ -179,14 +179,8 @@
           Tous les champs marqués <span style="color:var(--accent)">*</span> sont obligatoires.
         </p>
 
-        <form action="https://formsubmit.co/masgarage7@gmail.com" method="POST" id="rdvForm">
-
-          <!-- FormSubmit configuration -->
-          <input type="hidden" name="_subject" value="📅 Nouvelle prise de rendez-vous - Garage Boost">
-          <input type="hidden" name="_template" value="box">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://garageboost.fr/merci.html?type=rdv">
-          <input type="hidden" name="_autoresponse" value="Bonjour, votre demande de rendez-vous a bien été enregistrée chez Garage Boost. Nous validons votre créneau sous 2 heures ouvrées et vous envoyons une confirmation par email + SMS avec l'adresse, l'heure et la durée estimée de l'intervention. Pour toute urgence, appelez-nous au 06 63 21 63 50. — L'équipe Garage Boost.">
+        <form action="/api/form" method="POST" id="rdvForm">
+          <input type="hidden" name="_type" value="rdv">
           <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
 
           <h3 style="font-family:var(--font-display);font-weight:800;font-size:0.92rem;color:var(--accent);text-transform:uppercase;letter-spacing:0.08em;margin:8px 0 14px">

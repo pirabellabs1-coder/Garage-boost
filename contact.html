@@ -240,15 +240,8 @@
           Réponse garantie sous 24h ouvrées. Tous les champs marqués d'un <span style="color:var(--accent)">*</span> sont obligatoires.
         </p>
 
-        <form action="https://formsubmit.co/masgarage7@gmail.com" method="POST" id="contactForm">
-
-          <!-- FormSubmit configuration -->
-          <input type="hidden" name="_subject" value="🔔 Nouveau message - Garage Boost (Contact)">
-          <input type="hidden" name="_template" value="box">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://garageboost.fr/merci.html">
-          <input type="hidden" name="_autoresponse" value="Bonjour, nous avons bien reçu votre message au Garage Boost. Notre équipe vous répondra dans les 24 heures ouvrées. Pour toute urgence, appelez-nous au 06 63 21 63 50. À très bientôt — L'équipe Garage Boost.">
-          <!-- Honeypot anti-spam -->
+        <form action="/api/form" method="POST" id="contactForm">
+          <input type="hidden" name="_type" value="contact">
           <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
 
           <div class="form-row">
