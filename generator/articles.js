@@ -4,7 +4,7 @@
 // =====================================================================
 
 // Helpers pour générer images et CTA internes facilement dans le contenu
-const figure = (img, caption) => `<figure><img src="${img}" alt="${caption}" loading="lazy"><figcaption>${caption}</figcaption></figure>`;
+const figure = (img, caption) => `<figure><img src="${img}" alt="${caption}" loading="lazy" title="${caption}"><figcaption>${caption}</figcaption></figure>`;
 const cta = (icon, title, desc, href, btnText) =>
   `<div class="article-cta"><div class="article-cta-icon"><i class="fa-solid fa-${icon}"></i></div><div class="article-cta-text"><strong>${title}</strong><p>${desc}</p></div><a href="${href}" class="btn btn-primary">${btnText} <span class="btn-arrow"><i class="fa-solid fa-arrow-right"></i></span></a></div>`;
 

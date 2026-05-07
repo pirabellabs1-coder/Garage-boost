@@ -13,7 +13,7 @@ const articles = require('./articles.js');
 // =====================================================================
 // Helpers réutilisés dans l'appendice
 // =====================================================================
-const fig = (img, caption) => `<figure><img src="${img}" alt="${caption}" loading="lazy"><figcaption>${caption}</figcaption></figure>`;
+const fig = (img, caption) => `<figure><img src="${img}" alt="${caption}" loading="lazy" title="${caption}"><figcaption>${caption}</figcaption></figure>`;
 const ctaBox = (icon, title, desc, href, btnText) =>
   `<div class="article-cta"><div class="article-cta-icon"><i class="fa-solid fa-${icon}"></i></div><div class="article-cta-text"><strong>${title}</strong><p>${desc}</p></div><a href="../${href}" class="btn btn-primary">${btnText} <span class="btn-arrow"><i class="fa-solid fa-arrow-right"></i></span></a></div>`;
 
@@ -335,7 +335,7 @@ function buildRelated(relatedSlugs, currentSlug) {
     return `
       <a class="blog-card" href="${slug}.html">
         <div class="blog-card-img">
-          <img src="${a.cover}" alt="${a.coverAlt}" loading="lazy">
+          <img src="${a.cover}" alt="${a.coverAlt}" loading="lazy" title="${a.coverAlt}">
           <span class="blog-card-cat">${a.category}</span>
         </div>
         <div class="blog-card-body">
@@ -402,7 +402,7 @@ const sorted = [...articles].sort((a, b) => new Date(b.dateModified) - new Date(
 const cardsHTML = sorted.map(a => `
   <a class="blog-card" href="blog/${a.slug}.html" data-cat="${a.category}">
     <div class="blog-card-img">
-      <img src="${a.cover}" alt="${a.coverAlt}" loading="lazy">
+      <img src="${a.cover}" alt="${a.coverAlt}" loading="lazy" title="${a.coverAlt}">
       <span class="blog-card-cat">${a.category}</span>
     </div>
     <div class="blog-card-body">
