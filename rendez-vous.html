@@ -191,39 +191,19 @@
             Service souhaité
           </h3>
 
-          <div class="service-picker">
-            <label class="service-pick">
-              <input type="radio" name="Service" value="Diagnostic moteur" required>
-              <span class="service-pick-label"><i class="fa-solid fa-microchip"></i> Diagnostic moteur</span>
-            </label>
-            <label class="service-pick">
-              <input type="radio" name="Service" value="Reprogrammation moteur">
-              <span class="service-pick-label"><i class="fa-solid fa-bolt"></i> Reprogrammation moteur</span>
-            </label>
-            <label class="service-pick">
-              <input type="radio" name="Service" value="Décalaminage hydrogène">
-              <span class="service-pick-label"><i class="fa-solid fa-fire-flame-curved"></i> Décalaminage H2</span>
-            </label>
-            <label class="service-pick">
-              <input type="radio" name="Service" value="Nettoyage FAP / EGR">
-              <span class="service-pick-label"><i class="fa-solid fa-filter"></i> Nettoyage FAP / EGR</span>
-            </label>
-            <label class="service-pick">
-              <input type="radio" name="Service" value="Entretien / mécanique">
-              <span class="service-pick-label"><i class="fa-solid fa-screwdriver-wrench"></i> Entretien / mécanique</span>
-            </label>
-            <label class="service-pick">
-              <input type="radio" name="Service" value="Carrosserie / peinture">
-              <span class="service-pick-label"><i class="fa-solid fa-spray-can"></i> Carrosserie / peinture</span>
-            </label>
-            <label class="service-pick">
-              <input type="radio" name="Service" value="Pare-brise">
-              <span class="service-pick-label"><i class="fa-solid fa-square"></i> Pare-brise</span>
-            </label>
-            <label class="service-pick">
-              <input type="radio" name="Service" value="Location véhicule">
-              <span class="service-pick-label"><i class="fa-solid fa-car"></i> Location véhicule</span>
-            </label>
+          <div class="form-group">
+            <label for="service" class="sr-only">Service souhaité</label>
+            <select name="Service" id="service" class="form-control" required>
+              <option value="">— Choisir le service —</option>
+              <option value="Diagnostic moteur">Diagnostic moteur</option>
+              <option value="Reprogrammation moteur">Reprogrammation moteur</option>
+              <option value="Décalaminage hydrogène">Décalaminage hydrogène</option>
+              <option value="Nettoyage FAP / EGR">Nettoyage FAP / EGR</option>
+              <option value="Entretien / mécanique">Entretien / mécanique</option>
+              <option value="Carrosserie / peinture">Carrosserie / peinture</option>
+              <option value="Pare-brise">Pare-brise</option>
+              <option value="Location véhicule">Location véhicule</option>
+            </select>
           </div>
 
           <h3 style="font-family:var(--font-display);font-weight:800;font-size:0.92rem;color:var(--accent);text-transform:uppercase;letter-spacing:0.08em;margin:28px 0 14px">
