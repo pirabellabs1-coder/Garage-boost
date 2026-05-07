@@ -502,9 +502,25 @@ const blogIndexHTML = `<!DOCTYPE html>
       Guides techniques et pédagogiques pour mieux comprendre votre véhicule, anticiper les pannes et économiser
       sur l'entretien. Rédigés par notre équipe technique avec données 2026 vérifiées.
     </p>
-    <div class="blog-filter" style="display:inline-flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:24px">
-      <button class="zone-pill blog-filter-btn active" data-cat="all"><i class="fa-solid fa-folder-open"></i> Tous</button>
-      ${categories.map(cat => `<button class="zone-pill blog-filter-btn" data-cat="${cat}"><i class="fa-solid fa-folder"></i> ${cat}</button>`).join('\n')}
+    <!-- Mobile : select natif (compact) -->
+    <div class="blog-filter-mobile">
+      <i class="fa-solid fa-filter"></i>
+      <select id="blogFilterSelect">
+        <option value="all">Tous les articles</option>
+        ${categories.map(cat => `<option value="${cat}">${cat}</option>`).join('\n')}
+      </select>
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+
+    <!-- Desktop : pills horizontales scrollables -->
+    <div class="blog-filter-wrap">
+      <div class="blog-filter">
+        <button class="blog-filter-btn active" data-cat="all"><i class="fa-solid fa-grid-2"></i> Tous <span class="blog-filter-count">${articles.length}</span></button>
+        ${categories.map(cat => {
+          const count = articles.filter(a => a.category === cat).length;
+          return `<button class="blog-filter-btn" data-cat="${cat}">${cat} <span class="blog-filter-count">${count}</span></button>`;
+        }).join('\n')}
+      </div>
     </div>
   </div></div>
 </section>
@@ -521,25 +537,36 @@ const blogIndexHTML = `<!DOCTYPE html>
 </section>
 
 <script>
-// Filtre catégories blog
-document.querySelectorAll('.blog-filter-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const cat = btn.dataset.cat;
-    document.querySelectorAll('.blog-filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    let visible = 0;
-    document.querySelectorAll('.blog-grid .blog-card').forEach(card => {
-      const cardCat = card.dataset.cat;
-      if (cat === 'all' || cardCat === cat) {
-        card.style.display = '';
-        visible++;
-      } else {
-        card.style.display = 'none';
-      }
-    });
-    document.getElementById('blogEmpty').style.display = visible === 0 ? 'block' : 'none';
+// Fonction de filtrage partagée
+function filterBlog(cat) {
+  let visible = 0;
+  document.querySelectorAll('.blog-grid .blog-card').forEach(card => {
+    const cardCat = card.dataset.cat;
+    if (cat === 'all' || cardCat === cat) {
+      card.style.display = '';
+      visible++;
+    } else {
+      card.style.display = 'none';
+    }
   });
+  document.getElementById('blogEmpty').style.display = visible === 0 ? 'block' : 'none';
+
+  // Sync entre desktop pills et mobile select
+  document.querySelectorAll('.blog-filter-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.cat === cat);
+  });
+  const sel = document.getElementById('blogFilterSelect');
+  if (sel && sel.value !== cat) sel.value = cat;
+}
+
+// Pills desktop
+document.querySelectorAll('.blog-filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => filterBlog(btn.dataset.cat));
 });
+
+// Select mobile
+const selectMobile = document.getElementById('blogFilterSelect');
+if (selectMobile) selectMobile.addEventListener('change', e => filterBlog(e.target.value));
 </script>
 
 <section class="cta-banner">

@@ -11,7 +11,40 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
-  /* ---------- Mobile menu ---------- */
+  /* ---------- Mobile menu (auto-injection sur toutes les pages) ---------- */
+  // 1. Inject le bouton menu-toggle dans .nav-cta s'il manque
+  const navCta = document.querySelector('.nav-cta');
+  if (navCta && !navCta.querySelector('.menu-toggle')) {
+    const btn = document.createElement('button');
+    btn.className = 'menu-toggle';
+    btn.setAttribute('aria-label', 'Menu');
+    btn.innerHTML = '<i class="fa-solid fa-bars"></i>';
+    navCta.appendChild(btn);
+  }
+
+  // 2. Inject le .mobile-menu dans le body s'il manque (paths absolus)
+  if (!document.querySelector('.mobile-menu')) {
+    const mm = document.createElement('div');
+    mm.className = 'mobile-menu';
+    mm.innerHTML = `
+      <button class="mobile-menu-close" aria-label="Fermer"><i class="fa-solid fa-xmark"></i></button>
+      <ul class="mobile-menu-list">
+        <li><a href="/tarifs.html">Tarifs</a></li>
+        <li><a href="/rendez-vous.html">Prise de rendez-vous</a></li>
+        <li><a href="/entretien-assistance.html">Entretien & assistance</a></li>
+        <li><a href="/maintenance-moteur.html">Maintenance moteur & anti-pollution</a></li>
+        <li><a href="/carrosserie.html">Carrosserie</a></li>
+        <li><a href="/location.html">Location de véhicules</a></li>
+        <li><a href="/villes.html">Villes desservies</a></li>
+        <li><a href="/faq.html">FAQ</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    `;
+    document.body.appendChild(mm);
+  }
+
+  // 3. Brancher les events
   const menuToggle = document.querySelector('.menu-toggle');
   const mobileMenu = document.querySelector('.mobile-menu');
   const mobileClose = document.querySelector('.mobile-menu-close');

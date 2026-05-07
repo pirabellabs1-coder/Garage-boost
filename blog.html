@@ -80,17 +80,38 @@
       Guides techniques et pédagogiques pour mieux comprendre votre véhicule, anticiper les pannes et économiser
       sur l'entretien. Rédigés par notre équipe technique avec données 2026 vérifiées.
     </p>
-    <div class="blog-filter" style="display:inline-flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:24px">
-      <button class="zone-pill blog-filter-btn active" data-cat="all"><i class="fa-solid fa-folder-open"></i> Tous</button>
-      <button class="zone-pill blog-filter-btn" data-cat="Anti-pollution"><i class="fa-solid fa-folder"></i> Anti-pollution</button>
-<button class="zone-pill blog-filter-btn" data-cat="Reprogrammation"><i class="fa-solid fa-folder"></i> Reprogrammation</button>
-<button class="zone-pill blog-filter-btn" data-cat="Diagnostic"><i class="fa-solid fa-folder"></i> Diagnostic</button>
-<button class="zone-pill blog-filter-btn" data-cat="Mécanique"><i class="fa-solid fa-folder"></i> Mécanique</button>
-<button class="zone-pill blog-filter-btn" data-cat="Comparatif"><i class="fa-solid fa-folder"></i> Comparatif</button>
-<button class="zone-pill blog-filter-btn" data-cat="Conseils"><i class="fa-solid fa-folder"></i> Conseils</button>
-<button class="zone-pill blog-filter-btn" data-cat="Actualité"><i class="fa-solid fa-folder"></i> Actualité</button>
-<button class="zone-pill blog-filter-btn" data-cat="Technologie"><i class="fa-solid fa-folder"></i> Technologie</button>
-<button class="zone-pill blog-filter-btn" data-cat="À propos"><i class="fa-solid fa-folder"></i> À propos</button>
+    <!-- Mobile : select natif (compact) -->
+    <div class="blog-filter-mobile">
+      <i class="fa-solid fa-filter"></i>
+      <select id="blogFilterSelect">
+        <option value="all">Tous les articles</option>
+        <option value="Anti-pollution">Anti-pollution</option>
+<option value="Reprogrammation">Reprogrammation</option>
+<option value="Diagnostic">Diagnostic</option>
+<option value="Mécanique">Mécanique</option>
+<option value="Comparatif">Comparatif</option>
+<option value="Conseils">Conseils</option>
+<option value="Actualité">Actualité</option>
+<option value="Technologie">Technologie</option>
+<option value="À propos">À propos</option>
+      </select>
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+
+    <!-- Desktop : pills horizontales scrollables -->
+    <div class="blog-filter-wrap">
+      <div class="blog-filter">
+        <button class="blog-filter-btn active" data-cat="all"><i class="fa-solid fa-grid-2"></i> Tous <span class="blog-filter-count">20</span></button>
+        <button class="blog-filter-btn" data-cat="Anti-pollution">Anti-pollution <span class="blog-filter-count">5</span></button>
+<button class="blog-filter-btn" data-cat="Reprogrammation">Reprogrammation <span class="blog-filter-count">1</span></button>
+<button class="blog-filter-btn" data-cat="Diagnostic">Diagnostic <span class="blog-filter-count">3</span></button>
+<button class="blog-filter-btn" data-cat="Mécanique">Mécanique <span class="blog-filter-count">3</span></button>
+<button class="blog-filter-btn" data-cat="Comparatif">Comparatif <span class="blog-filter-count">3</span></button>
+<button class="blog-filter-btn" data-cat="Conseils">Conseils <span class="blog-filter-count">1</span></button>
+<button class="blog-filter-btn" data-cat="Actualité">Actualité <span class="blog-filter-count">1</span></button>
+<button class="blog-filter-btn" data-cat="Technologie">Technologie <span class="blog-filter-count">2</span></button>
+<button class="blog-filter-btn" data-cat="À propos">À propos <span class="blog-filter-count">1</span></button>
+      </div>
     </div>
   </div></div>
 </section>
@@ -446,25 +467,36 @@
 </section>
 
 <script>
-// Filtre catégories blog
-document.querySelectorAll('.blog-filter-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const cat = btn.dataset.cat;
-    document.querySelectorAll('.blog-filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    let visible = 0;
-    document.querySelectorAll('.blog-grid .blog-card').forEach(card => {
-      const cardCat = card.dataset.cat;
-      if (cat === 'all' || cardCat === cat) {
-        card.style.display = '';
-        visible++;
-      } else {
-        card.style.display = 'none';
-      }
-    });
-    document.getElementById('blogEmpty').style.display = visible === 0 ? 'block' : 'none';
+// Fonction de filtrage partagée
+function filterBlog(cat) {
+  let visible = 0;
+  document.querySelectorAll('.blog-grid .blog-card').forEach(card => {
+    const cardCat = card.dataset.cat;
+    if (cat === 'all' || cardCat === cat) {
+      card.style.display = '';
+      visible++;
+    } else {
+      card.style.display = 'none';
+    }
   });
+  document.getElementById('blogEmpty').style.display = visible === 0 ? 'block' : 'none';
+
+  // Sync entre desktop pills et mobile select
+  document.querySelectorAll('.blog-filter-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.cat === cat);
+  });
+  const sel = document.getElementById('blogFilterSelect');
+  if (sel && sel.value !== cat) sel.value = cat;
+}
+
+// Pills desktop
+document.querySelectorAll('.blog-filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => filterBlog(btn.dataset.cat));
 });
+
+// Select mobile
+const selectMobile = document.getElementById('blogFilterSelect');
+if (selectMobile) selectMobile.addEventListener('change', e => filterBlog(e.target.value));
 </script>
 
 <section class="cta-banner">
