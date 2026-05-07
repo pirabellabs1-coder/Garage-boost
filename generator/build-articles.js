@@ -424,6 +424,8 @@ const blogIndexHTML = `<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/favicon.svg">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Blog Garage Boost Marseille | Conseils auto, FAP, reprogrammation, anti-pollution</title>
 <meta name="description" content="Blog Garage Boost : guides pédagogiques sur le décalaminage hydrogène, le nettoyage FAP, la reprogrammation moteur et l'entretien automobile à Marseille.">
