@@ -5,11 +5,11 @@
 // puis poussez sur GitHub : Vercel redéploiera automatiquement
 // =====================================================================
 window.GB_CONFIG = {
-  GA4_ID: '',                  // ex: 'G-XXXXXXXXXX' (analytics.google.com)
-  GSC_VERIFICATION: '',        // code Google Search Console (meta tag)
-  BING_VERIFICATION: '',       // code Bing Webmaster Tools
-  CLARITY_ID: '',              // ID Microsoft Clarity (heatmaps gratuits)
-  FB_PIXEL_ID: ''              // ID Meta/Facebook Pixel
+  GA4_ID: 'G-8HDRPLXLRD',       // Garage Boost — flux web garageboost.fr
+  GSC_VERIFICATION: '',         // déjà vérifié (propriété existante en GSC)
+  BING_VERIFICATION: '',        // code Bing Webmaster Tools (optionnel)
+  CLARITY_ID: '',               // ID Microsoft Clarity (heatmaps gratuits)
+  FB_PIXEL_ID: ''               // ID Meta/Facebook Pixel
 };
 
 // =====================================================================
