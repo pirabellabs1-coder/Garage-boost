@@ -103,7 +103,7 @@ const html = `<!DOCTYPE html>
 <footer class="footer"><div class="container">
 <div class="footer-bottom" style="border:none;padding:30px 0">
 <div>© 2026 Garage Boost — Tous droits réservés</div>
-<div><a href="mentions-legales.html">Mentions légales</a> · <a href="politique-confidentialite.html">Confidentialité</a> · Site by <a href="https://pirabellabs.com" style="color:var(--accent)">Pirabel Labs</a></div>
+<div><a href="mentions-legales.html">Mentions légales</a> · <a href="politique-confidentialite.html">Confidentialité</a> · Réalisé par <a href="https://pirabellabs.com" style="color:var(--accent)">Pirabel Labs</a>, agence web marketing et SEO</div>
 </div>
 </div></footer>
 
