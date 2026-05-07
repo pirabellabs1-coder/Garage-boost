@@ -1,0 +1,12 @@
+# Garage Boost Marseille — Politique de sécurité
+# Conforme RFC 9116
+
+Contact: mailto:masgarage7@gmail.com
+Expires: 2027-01-01T00:00:00.000Z
+Preferred-Languages: fr, en
+Canonical: https://garageboost.fr/.well-known/security.txt
+Policy: https://garageboost.fr/politique-confidentialite.html
+
+# Si vous avez identifié une vulnérabilité de sécurité sur garageboost.fr,
+# merci de nous contacter par email avec une description précise.
+# Nous traitons ces demandes sous 7 jours.

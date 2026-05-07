@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{title}} | Blog Garage Boost Marseille</title>
+<meta name="description" content="{{metaDesc}}">
+<meta name="keywords" content="{{keywords}}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://garageboost.fr/blog/{{slug}}.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{metaDesc}}">
+<meta property="og:url" content="https://garageboost.fr/blog/{{slug}}.html">
+<meta property="og:image" content="{{coverImage}}">
+<meta property="article:published_time" content="{{datePublished}}">
+<meta property="article:modified_time" content="{{dateModified}}">
+<meta property="article:author" content="Équipe Garage Boost">
+<meta property="article:section" content="{{category}}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Accueil","item":"https://garageboost.fr/"},
+{"@type":"ListItem","position":2,"name":"Blog","item":"https://garageboost.fr/blog.html"},
+{"@type":"ListItem","position":3,"name":"{{title}}","item":"https://garageboost.fr/blog/{{slug}}.html"}]}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{title}}",
+  "description": "{{metaDesc}}",
+  "image": "{{coverImage}}",
+  "datePublished": "{{datePublished}}",
+  "dateModified": "{{dateModified}}",
+  "author": {
+    "@type": "Organization",
+    "name": "Garage Boost Marseille",
+    "url": "https://garageboost.fr"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Garage Boost",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://garageboost.fr/assets/img/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://garageboost.fr/blog/{{slug}}.html"
+  },
+  "articleSection": "{{category}}",
+  "wordCount": {{wordCount}}
+}
+</script>
+</head>
+<body>
+
+<div class="topbar"><div class="container topbar-inner">
+<div class="topbar-socials">
+<a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+<a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+<a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+<a href="#" aria-label="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
+</div>
+<div class="topbar-info">
+<span><i class="fa-solid fa-location-dot"></i> Plan-de-Cuques – 13380 Marseille</span>
+<span><i class="fa-solid fa-envelope"></i> masgarage7@gmail.com</span>
+<span><i class="fa-solid fa-phone"></i> 6 63 21 63 50</span>
+</div>
+</div></div>
+
+<header class="header"><div class="container"><nav class="nav">
+<a href="../index.html" class="logo"><span class="logo-text">Garage</span><span class="logo-text logo-text-bold">B<span class="logo-leaf"><i class="fa-solid fa-bolt"></i></span>ost</span></a>
+<ul class="nav-menu">
+<li><a href="../tarifs.html">Tarifs</a></li>
+<li><a href="../rendez-vous.html">Prise de rendez-vous</a></li>
+<li><a href="../entretien-assistance.html">Entretien & assistance</a></li>
+<li><a href="../maintenance-moteur.html">Maintenance moteur</a></li>
+<li><a href="../carrosserie.html">Carrosserie</a></li>
+<li><a href="../location.html">Location</a></li>
+<li><a href="../faq.html">FAQ</a></li>
+<li><a href="../blog.html" style="color:var(--accent)">Blog</a></li>
+</ul>
+<div class="nav-cta"><a href="../contact.html" class="btn btn-outline">Contactez-nous</a></div>
+</nav></div></header>
+
+<!-- Article hero -->
+<section class="article-hero">
+  <div class="article-hero-inner">
+    <nav class="breadcrumb" style="justify-content:center">
+      <a href="../index.html">Accueil</a>
+      <i class="fa-solid fa-chevron-right"></i>
+      <a href="../blog.html">Blog</a>
+      <i class="fa-solid fa-chevron-right"></i>
+      <span class="current">{{title}}</span>
+    </nav>
+    <span class="article-cat">{{category}}</span>
+    <h1 class="article-title">{{title}}</h1>
+    <div class="article-meta">
+      <span><i class="fa-solid fa-calendar"></i> {{dateDisplay}}</span>
+      <span><i class="fa-solid fa-clock"></i> {{readTime}} min de lecture</span>
+      <span><i class="fa-solid fa-user"></i> Équipe Garage Boost</span>
+    </div>
+  </div>
+</section>
+
+<!-- Cover image -->
+<div class="article-cover">
+  <img src="{{coverImage}}" alt="{{coverAlt}}" loading="eager">
+</div>
+
+<!-- Article body -->
+<article class="article-body">
+  {{contentHTML}}
+
+  <!-- Author box -->
+  <div class="article-author-box">
+    <div class="article-author-avatar">GB</div>
+    <div class="article-author-info">
+      <strong>Équipe Garage Boost</strong>
+      <p>
+        L'équipe de Garage Boost rassemble des techniciens automobiles avec plus de 10 ans d'expérience à
+        Plan-de-Cuques (Marseille). Notre rédaction technique partage des conseils éprouvés sur le terrain pour
+        aider les automobilistes à mieux comprendre leur véhicule.
+      </p>
+    </div>
+  </div>
+</article>
+
+<!-- CTA -->
+<section class="cta-banner">
+  <div class="container">
+    <div class="cta-inner">
+      <div>
+        <h2 class="cta-title">Une question sur cet article ?<br><span class="gradient-text">On y répond.</span></h2>
+        <p class="cta-text">Notre équipe est à votre disposition pour tout conseil personnalisé. Devis gratuit sous 24h.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="../contact.html" class="btn btn-primary">Nous contacter<span class="btn-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
+        <a href="tel:+33663216350" class="btn btn-ghost"><i class="fa-solid fa-phone"></i> 06 63 21 63 50</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Related articles -->
+<section style="padding:60px 0;background:linear-gradient(180deg,var(--bg) 0%,#0c1310 50%,var(--bg) 100%)">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:40px">
+      <span class="eyebrow" style="justify-content:center">À lire aussi</span>
+      <h2 class="section-title">Articles similaires</h2>
+    </div>
+    <div class="blog-grid">{{relatedHTML}}</div>
+  </div>
+</section>
+
+<footer class="footer"><div class="container">
+<div class="footer-bottom" style="border:none;padding:30px 0">
+<div>© 2026 Garage Boost — Tous droits réservés</div>
+<div><a href="../mentions-legales.html">Mentions légales</a> · <a href="../politique-confidentialite.html">Confidentialité</a> · Site by <a href="https://pirabellabs.com" style="color:var(--accent)">Pirabel Labs</a></div>
+</div>
+</div></footer>
+
+<a href="https://wa.me/33663216350" target="_blank" rel="noopener" class="wa-float" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

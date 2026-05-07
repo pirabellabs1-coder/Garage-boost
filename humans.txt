@@ -1,0 +1,16 @@
+/* TEAM */
+
+Garage Boost Marseille
+Garage automobile spécialisé moteur & anti-pollution
+Site: garageboost.fr
+Location: Plan-de-Cuques (13380), France
+
+/* SITE */
+
+Last update: 2026-05-07
+Language: Français (fr-FR)
+Doctype: HTML5
+Standards: HTML5, CSS3, Schema.org, ES6+
+Components: Vanilla JS, Font Awesome, Google Fonts (Roboto, Poppins)
+Hosting: Hostinger International Ltd.
+Built by: Pirabel Labs (https://pirabellabs.com)

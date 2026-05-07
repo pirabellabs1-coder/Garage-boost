@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Merci — Votre demande a bien été reçue | Garage Boost Marseille</title>
+<meta name="description" content="Votre demande a bien été reçue. L'équipe Garage Boost vous répond sous 24 heures ouvrées.">
+<meta name="robots" content="noindex, nofollow">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<style>
+  .thanks-wrap {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    background:
+      radial-gradient(ellipse 60% 40% at 50% 30%, rgba(189, 227, 45, 0.10), transparent 60%),
+      var(--bg);
+  }
+  .thanks-card {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 40px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    position: relative;
+    overflow: hidden;
+  }
+  .thanks-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 4px;
+    background: linear-gradient(90deg, var(--accent), #d4ff5e, var(--accent));
+  }
+  .thanks-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: var(--bg);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    animation: bump 1.5s ease;
+    box-shadow: 0 0 50px var(--accent-glow);
+  }
+  @keyframes bump {
+    0% { transform: scale(0); }
+    60% { transform: scale(1.15); }
+    100% { transform: scale(1); }
+  }
+  .thanks-title {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 2rem;
+    color: var(--white);
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+  }
+  .thanks-title .accent { color: var(--accent); }
+  .thanks-text {
+    color: var(--text-muted);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+  .thanks-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 36px;
+  }
+  .thanks-meta {
+    padding-top: 28px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+  .thanks-meta strong { color: var(--white); display: block; margin-bottom: 6px; }
+  .thanks-meta a { color: var(--accent); }
+  @media (max-width: 600px) {
+    .thanks-card { padding: 50px 24px; }
+    .thanks-title { font-size: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===================== TOP BAR ===================== -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="topbar-socials">
+      <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" aria-label="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
+    </div>
+    <div class="topbar-info">
+      <span><i class="fa-solid fa-location-dot"></i> Plan-de-Cuques – 13380 Marseille</span>
+      <span><i class="fa-solid fa-envelope"></i> masgarage7@gmail.com</span>
+      <span><i class="fa-solid fa-phone"></i> 6 63 21 63 50</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== HEADER ===================== -->
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a href="index.html" class="logo" aria-label="Garage Boost">
+        <span class="logo-text">Garage</span>
+        <span class="logo-text logo-text-bold">B<span class="logo-leaf"><i class="fa-solid fa-bolt"></i></span>ost</span>
+      </a>
+      <div></div>
+      <div class="nav-cta">
+        <a href="index.html" class="btn btn-outline">Retour à l'accueil</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- ===================== THANKS ===================== -->
+<section class="thanks-wrap">
+  <div class="container">
+    <div class="thanks-card">
+      <div class="thanks-icon"><i class="fa-solid fa-check"></i></div>
+      <h1 class="thanks-title">Merci, votre message <span class="accent">est bien arrivé.</span></h1>
+      <p class="thanks-text">
+        Notre équipe a reçu votre demande et vous répondra dans les <strong>24 heures ouvrées</strong> par email
+        ou téléphone. Pour toute urgence ou information complémentaire, vous pouvez nous joindre directement
+        avec les coordonnées ci-dessous.
+      </p>
+
+      <div class="thanks-actions">
+        <a href="tel:+33663216350" class="btn btn-primary">
+          <i class="fa-solid fa-phone"></i> 06 63 21 63 50
+        </a>
+        <a href="https://wa.me/33663216350" target="_blank" rel="noopener" class="btn btn-ghost">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="index.html" class="btn btn-ghost">Retour à l'accueil</a>
+      </div>
+
+      <div class="thanks-meta">
+        <strong>Pendant que vous attendez notre retour…</strong>
+        <p style="line-height:1.6">
+          Découvrez nos <a href="tarifs.html">tarifs détaillés</a>, parcourez notre
+          <a href="faq.html">FAQ complète</a> ou consultez nos
+          <a href="maintenance-moteur.html">spécialités moteur</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom" style="border:none;padding:30px 0">
+      <div>© 2026 Garage Boost — Tous droits réservés</div>
+      <div>1 Avenue des Pères Blancs, 13380 Plan-de-Cuques · 06 63 21 63 50</div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/33663216350" target="_blank" rel="noopener" class="wa-float" aria-label="WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
