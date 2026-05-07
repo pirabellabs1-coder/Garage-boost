@@ -1,5 +1,73 @@
 /* Garage Boost — main interactions */
 
+// =====================================================================
+// CONFIG ANALYTICS — modifiez UNIQUEMENT les valeurs ci-dessous
+// puis poussez sur GitHub : Vercel redéploiera automatiquement
+// =====================================================================
+window.GB_CONFIG = {
+  GA4_ID: '',                  // ex: 'G-XXXXXXXXXX' (analytics.google.com)
+  GSC_VERIFICATION: '',        // code Google Search Console (meta tag)
+  BING_VERIFICATION: '',       // code Bing Webmaster Tools
+  CLARITY_ID: '',              // ID Microsoft Clarity (heatmaps gratuits)
+  FB_PIXEL_ID: ''              // ID Meta/Facebook Pixel
+};
+
+// =====================================================================
+// ANALYTICS LOADER — ne pas modifier
+// =====================================================================
+(function() {
+  const cfg = window.GB_CONFIG;
+
+  // Google Analytics 4
+  if (cfg.GA4_ID && cfg.GA4_ID.startsWith('G-')) {
+    const s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + cfg.GA4_ID;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){ window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', cfg.GA4_ID, { anonymize_ip: true });
+  }
+
+  // Google Search Console verification
+  if (cfg.GSC_VERIFICATION) {
+    const m = document.createElement('meta');
+    m.name = 'google-site-verification';
+    m.content = cfg.GSC_VERIFICATION;
+    document.head.appendChild(m);
+  }
+
+  // Bing Webmaster verification
+  if (cfg.BING_VERIFICATION) {
+    const m = document.createElement('meta');
+    m.name = 'msvalidate.01';
+    m.content = cfg.BING_VERIFICATION;
+    document.head.appendChild(m);
+  }
+
+  // Microsoft Clarity
+  if (cfg.CLARITY_ID) {
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", cfg.CLARITY_ID);
+  }
+
+  // Facebook Pixel
+  if (cfg.FB_PIXEL_ID) {
+    !function(f,b,e,v,n,t,s){
+      if(f.fbq)return; n=f.fbq=function(){n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n; n.push=n; n.loaded=!0; n.version='2.0'; n.queue=[];
+      t=b.createElement(e); t.async=!0; t.src=v;
+      s=b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);
+    }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    window.fbq('init', cfg.FB_PIXEL_ID);
+    window.fbq('track', 'PageView');
+  }
+})();
+
 document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------- Header scroll state ---------- */
