@@ -8,7 +8,7 @@ window.GB_CONFIG = {
   GA4_ID: 'G-8HDRPLXLRD',       // Garage Boost — flux web garageboost.fr
   GSC_VERIFICATION: '',         // déjà vérifié (propriété existante en GSC)
   BING_VERIFICATION: '',        // code Bing Webmaster Tools (optionnel)
-  CLARITY_ID: '',               // ID Microsoft Clarity (heatmaps gratuits)
+  CLARITY_ID: 'wnmzotfs2x',     // ID Microsoft Clarity (heatmaps gratuits)
   FB_PIXEL_ID: ''               // ID Meta/Facebook Pixel
 };
 
