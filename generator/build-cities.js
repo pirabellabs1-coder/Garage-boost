@@ -141,8 +141,9 @@ for (const city of cities) {
 console.log(`\nDone — ${generated} pages ville-hub générées.`);
 const avg = Math.round(summary.reduce((a, b) => a + b.words, 0) / summary.length);
 console.log(`Moyenne mots/page : ${avg}`);
-const tooShort = summary.filter(s => s.words < 3000);
+// Seuil qualité : on vise du contenu utile et non du bourrage. ~1200 mots de contenu réel suffisent.
+const tooShort = summary.filter(s => s.words < 1200);
 if (tooShort.length) {
-  console.log(`\n⚠️  ${tooShort.length} page(s) sous 3000 mots`);
+  console.log(`\n⚠️  ${tooShort.length} page(s) sous 1200 mots (contenu potentiellement trop mince)`);
   tooShort.forEach(s => console.log(`     ${s.file} (${s.words})`));
 }

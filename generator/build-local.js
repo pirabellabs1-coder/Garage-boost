@@ -157,6 +157,7 @@ for (const [categorySlug, category] of Object.entries(data.categories)) {
         citiesText,
         areaServedJSON,
         accessText: zone.access,
+        localContext: zone.localContext,
         title: `${service.name} ${zone.label} | Garage Boost Marseille`,
         metaDesc: `${service.name} dans la zone ${zone.label} (${citiesText}). Garage Boost à Plan-de-Cuques. Tarif ${service.price}, garantie 12 mois, devis sous 24h. Récupération à domicile.`,
         keywords: `${service.name.toLowerCase()} ${zone.firstCity}, ${service.name.toLowerCase()} ${zone.cities[1] || ''}, garage ${zone.firstCity}, ${service.name.toLowerCase()} ${zone.label.toLowerCase()}`,
@@ -197,8 +198,9 @@ for (const [categorySlug, category] of Object.entries(data.categories)) {
 console.log(`\nDone — ${generated} pages SEO locales générées.`);
 const avg = Math.round(summary.reduce((a, b) => a + b.words, 0) / summary.length);
 console.log(`Moyenne mots/page : ${avg}`);
-const tooShort = summary.filter(s => s.words < 3000);
+// Seuil qualité : on vise du contenu utile et non du bourrage. ~1200 mots de contenu réel suffisent.
+const tooShort = summary.filter(s => s.words < 1200);
 if (tooShort.length) {
-  console.log(`\n⚠️  ${tooShort.length} page(s) sous 3000 mots`);
+  console.log(`\n⚠️  ${tooShort.length} page(s) sous 1200 mots (contenu potentiellement trop mince)`);
   console.log(`Min: ${Math.min(...summary.map(s => s.words))} mots`);
 }
