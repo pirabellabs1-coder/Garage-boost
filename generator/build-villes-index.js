@@ -20,7 +20,10 @@ const html = `<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="apple-touch-icon" href="/favicon.svg">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#0a0e0c">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Villes desservies | Garage Boost Marseille — 19 villes en Provence</title>
 <meta name="description" content="Garage Boost intervient dans 19 villes de la métropole Aix-Marseille-Provence : Marseille, Aubagne, Vitrolles, Aix-en-Provence, Salon-de-Provence, Toulon et plus.">
