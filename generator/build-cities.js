@@ -27,11 +27,11 @@ const SERVICE_ICONS = {
 };
 
 const IMAGES = [
-  'https://images.unsplash.com/photo-1486006920555-c77dcf18193c?auto=format&fit=crop&w=1400&q=80',
-  'https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1400&q=80',
-  'https://images.unsplash.com/photo-1599256872237-5dcc0fbe9668?auto=format&fit=crop&w=1400&q=80',
-  'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1400&q=80',
-  'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80'
+  '/assets/img/1486006920555-c77dcf18193c.webp',
+  '/assets/img/1487754180451-c456f719a1fc.webp',
+  '/assets/img/1599256872237-5dcc0fbe9668.webp',
+  '/assets/img/1492144534655-ae79c964c9d7.webp',
+  '/assets/img/1503376780353-7e6692767b70.webp'
 ];
 
 function render(template, vars) {

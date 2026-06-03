@@ -20,7 +20,7 @@ const ctaBox = (icon, title, desc, href, btnText) =>
 // Mapping catégorie → service principal + image illustrative + CTA
 const CATEGORY_MAP = {
   'Anti-pollution': {
-    img: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1400&q=80',
+    img: '/assets/img/1492144534655-ae79c964c9d7.webp',
     imgCaption: "Atelier spécialisé anti-pollution moteur à Plan-de-Cuques",
     servicePage: 'maintenance-moteur.html',
     serviceTitle: 'Tous nos services anti-pollution',
@@ -28,7 +28,7 @@ const CATEGORY_MAP = {
     btnText: 'Découvrir nos services'
   },
   'Reprogrammation': {
-    img: 'https://images.unsplash.com/photo-1486006920555-c77dcf18193c?auto=format&fit=crop&w=1400&q=80',
+    img: '/assets/img/1486006920555-c77dcf18193c.webp',
     imgCaption: "Banc de reprogrammation moteur professionnel",
     servicePage: 'maintenance-moteur/reprogrammation-moteur.html',
     serviceTitle: 'Reprogrammation moteur Stage 1 & 2',
@@ -36,7 +36,7 @@ const CATEGORY_MAP = {
     btnText: 'En savoir plus'
   },
   'Diagnostic': {
-    img: 'https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1400&q=80',
+    img: '/assets/img/1487754180451-c456f719a1fc.webp',
     imgCaption: "Diagnostic électronique multimarque sur véhicule",
     servicePage: 'maintenance-moteur/diagnostic-moteur.html',
     serviceTitle: 'Diagnostic moteur électronique',
@@ -44,7 +44,7 @@ const CATEGORY_MAP = {
     btnText: 'Diagnostiquer mon véhicule'
   },
   'Mécanique': {
-    img: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1400&q=80',
+    img: '/assets/img/1583121274602-3e2820c69888.webp',
     imgCaption: "Atelier mécanique générale Garage Boost",
     servicePage: 'entretien-assistance/mecanique-generale.html',
     serviceTitle: 'Mécanique générale toutes marques',
@@ -52,7 +52,7 @@ const CATEGORY_MAP = {
     btnText: 'Voir nos prestations'
   },
   'Comparatif': {
-    img: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80',
+    img: '/assets/img/1503376780353-7e6692767b70.webp',
     imgCaption: "Atelier indépendant moderne à Plan-de-Cuques",
     servicePage: 'tarifs.html',
     serviceTitle: 'Nos tarifs transparents',
@@ -60,7 +60,7 @@ const CATEGORY_MAP = {
     btnText: 'Consulter les tarifs'
   },
   'Conseils': {
-    img: 'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1400&q=80',
+    img: '/assets/img/1494976388531-d1058494cdd8.webp',
     imgCaption: "Conseils techniques de notre équipe",
     servicePage: 'rendez-vous.html',
     serviceTitle: 'Demander un conseil personnalisé',
@@ -68,7 +68,7 @@ const CATEGORY_MAP = {
     btnText: 'Prendre rendez-vous'
   },
   'Actualité': {
-    img: 'https://images.unsplash.com/photo-1607706189992-eae578626c86?auto=format&fit=crop&w=1400&q=80',
+    img: '/assets/img/1607706189992-eae578626c86.webp',
     imgCaption: "Suivez l'actualité automobile à Marseille",
     servicePage: 'contact.html',
     serviceTitle: 'Une question sur cette actualité ?',
@@ -76,7 +76,7 @@ const CATEGORY_MAP = {
     btnText: 'Nous contacter'
   },
   'Technologie': {
-    img: 'https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?auto=format&fit=crop&w=1400&q=80',
+    img: '/assets/img/1517524206127-48bbd363f3d7.webp',
     imgCaption: "Technologies modernes de mécanique automobile",
     servicePage: 'maintenance-moteur.html',
     serviceTitle: 'Notre expertise technique',
@@ -84,7 +84,7 @@ const CATEGORY_MAP = {
     btnText: 'Découvrir nos services'
   },
   'À propos': {
-    img: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80',
+    img: '/assets/img/1503376780353-7e6692767b70.webp',
     imgCaption: "Notre atelier de Plan-de-Cuques",
     servicePage: 'contact.html',
     serviceTitle: 'Venez nous rencontrer',
@@ -162,7 +162,7 @@ mécanicien explique ce qu'il va faire, justifie chaque ligne du devis, et propo
 elles existent. Si vous sentez qu'on vous cache quelque chose, changez d'atelier.
 </p>
 
-${fig('https://images.unsplash.com/photo-1607706189992-eae578626c86?auto=format&fit=crop&w=1400&q=80', "Diagnostic professionnel sur véhicule moderne")}
+${fig('/assets/img/1607706189992-eae578626c86.webp', "Diagnostic professionnel sur véhicule moderne")}
 
 <h2>Les bons gestes au quotidien</h2>
 
@@ -438,9 +438,6 @@ const blogIndexHTML = `<!DOCTYPE html>
 <meta property="og:description" content="Guides techniques et pédagogiques sur l'automobile.">
 <meta property="og:url" content="https://garageboost.fr/blog.html">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://images.unsplash.com">
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-900.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/poppins-400.woff2" crossorigin>

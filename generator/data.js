@@ -4,17 +4,17 @@
 
 // Images Unsplash vérifiées (toutes testées et fonctionnelles)
 const IMG = {
-  engineBay: 'https://images.unsplash.com/photo-1486006920555-c77dcf18193c?auto=format&fit=crop&w=1400&q=80',
-  mechanic: 'https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1400&q=80',
-  fap: 'https://images.unsplash.com/photo-1599256872237-5dcc0fbe9668?auto=format&fit=crop&w=1400&q=80',
-  carEngine: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1400&q=80',
-  garage: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80',
-  workshop: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1400&q=80',
-  body: 'https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?auto=format&fit=crop&w=1400&q=80',
-  paint: 'https://images.unsplash.com/photo-1615906655593-ad0386982a0f?auto=format&fit=crop&w=1400&q=80',
-  diagnostic: 'https://images.unsplash.com/photo-1607706189992-eae578626c86?auto=format&fit=crop&w=1400&q=80',
-  carInterior: 'https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=1400&q=80',
-  service: 'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1400&q=80'
+  engineBay: '/assets/img/1486006920555-c77dcf18193c.webp',
+  mechanic: '/assets/img/1487754180451-c456f719a1fc.webp',
+  fap: '/assets/img/1599256872237-5dcc0fbe9668.webp',
+  carEngine: '/assets/img/1492144534655-ae79c964c9d7.webp',
+  garage: '/assets/img/1503376780353-7e6692767b70.webp',
+  workshop: '/assets/img/1583121274602-3e2820c69888.webp',
+  body: '/assets/img/1517524206127-48bbd363f3d7.webp',
+  paint: '/assets/img/1615906655593-ad0386982a0f.webp',
+  diagnostic: '/assets/img/1607706189992-eae578626c86.webp',
+  carInterior: '/assets/img/1493238792000-8113da705763.webp',
+  service: '/assets/img/1494976388531-d1058494cdd8.webp'
 };
 
 // Helper FAQ items réutilisables
