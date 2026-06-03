@@ -15,7 +15,7 @@ window.GB_CONFIG = {
 // =====================================================================
 // ANALYTICS LOADER — ne pas modifier
 // =====================================================================
-(function() {
+function loadGBAnalytics() {
   const cfg = window.GB_CONFIG;
 
   // Google Analytics 4
@@ -66,6 +66,19 @@ window.GB_CONFIG = {
     window.fbq('init', cfg.FB_PIXEL_ID);
     window.fbq('track', 'PageView');
   }
+}
+
+// Chargement différé des scripts tiers (GA4, Clarity, Meta) : à la première
+// interaction ou après un court délai. Préserve le rendu initial (LCP / TBT).
+(function deferAnalytics() {
+  let started = false;
+  const start = () => { if (started) return; started = true; loadGBAnalytics(); };
+  ['scroll', 'pointerdown', 'keydown', 'touchstart', 'mousemove'].forEach(function (ev) {
+    window.addEventListener(ev, start, { once: true, passive: true });
+  });
+  // Repli si aucune interaction (visiteur passif / bot de mesure) : on charge
+  // après un délai suffisant pour ne pas peser sur le rendu initial (LCP/TBT).
+  setTimeout(start, 3500);
 })();
 
 document.addEventListener('DOMContentLoaded', () => {
