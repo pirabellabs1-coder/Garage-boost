@@ -142,6 +142,20 @@ module.exports = {
     { q: "Quelles prestations propose Garage Boost ?", a: "Maintenance moteur et anti-pollution (décalaminage, FAP, EGR, reprogrammation), entretien et dépannage, carrosserie/peinture/pare-brise, et location de véhicules. Toutes marques, toutes motorisations." },
     { q: "Quelle zone Garage Boost dessert-il ?", a: "Toute la métropole Aix-Marseille-Provence : Marseille, Allauch, Aubagne, La Ciotat, Cassis, Vitrolles, Marignane, Aix-en-Provence, Salon-de-Provence et plus, avec récupération du véhicule à domicile offerte au-delà de 200 € d'intervention." },
     { q: "Quels sont les horaires et contacts ?", a: "Ouvert du lundi au samedi de 8h à 19h, dépannage 7j/7. Téléphone et WhatsApp au 06 63 21 63 50, atelier au 1 Avenue des Pères Blancs, 13380 Plan-de-Cuques. Devis gratuit sous 24h." }
+  ],
+
+  'prix-revision-auto-marseille': [
+    { q: "Quelle différence entre une révision et un contrôle technique ?", a: "La révision est un entretien préventif (vidange, filtres, contrôles) réalisé par un garage selon le carnet constructeur. Le contrôle technique est une inspection réglementaire obligatoire, réalisée par un centre agréé indépendant, qui vérifie la conformité et la sécurité du véhicule. Les deux sont complémentaires mais distincts." },
+    { q: "Puis-je faire ma révision hors concession sans perdre la garantie ?", a: "Oui. Le règlement européen autorise l'entretien dans le garage de votre choix sans perte de garantie constructeur, à condition de respecter le plan d'entretien et d'utiliser des pièces de qualité équivalente. Un atelier indépendant sérieux tamponne votre carnet et conserve les justificatifs." },
+    { q: "Tous les combien faut-il faire une révision ?", a: "Selon le carnet d'entretien, généralement une fois par an ou tous les 15 000 à 30 000 km, le premier des deux atteint. La condition de temps compte autant que le kilométrage : une vidange annuelle reste nécessaire même sur un véhicule peu roulé, car l'huile vieillit." },
+    { q: "Comment éviter de payer trop cher une révision à Marseille ?", a: "Demandez un devis écrit détaillé, comparez le périmètre exact des opérations (un forfait à 99 € ne couvre souvent que la vidange), privilégiez un indépendant sérieux (-30 à -40 % vs concession) et exigez les références des pièces. Chez Garage Boost, devis personnalisé gratuit sous 24h." }
+  ],
+
+  'preparer-voiture-ete-chaleur-marseille': [
+    { q: "Quand faire vérifier sa climatisation ?", a: "Idéalement au printemps, avant les fortes chaleurs et la ruée estivale. Si l'air est moins froid qu'avant, une recharge de gaz s'impose (le circuit perd environ 10 % de gaz par an). Pensez aussi au remplacement du filtre habitacle et à l'assainissement du circuit contre les odeurs." },
+    { q: "Pourquoi la chaleur use-t-elle la batterie ?", a: "La chaleur accélère l'évaporation de l'électrolyte et la corrosion interne de la batterie. Une batterie fatiguée par les étés lâche souvent brutalement, parfois à l'automne. Au-delà de 4 ans ou en cas de démarrage laborieux, un test de batterie permet d'anticiper avant un long trajet." },
+    { q: "Quelle pression de pneus adopter en été ?", a: "Respectez les valeurs constructeur (portière ou trappe à carburant), mesurées à froid, et ajustez selon la charge si vous partez chargé. La chaleur augmente la pression interne : un pneu sous-gonflé chauffe trop et risque l'éclatement, surtout à vitesse soutenue et en charge." },
+    { q: "Faut-il un check-up avant de partir en vacances ?", a: "Vivement recommandé avant un long trajet chargé : freinage, pneus, niveaux, climatisation, batterie, éclairage et courroies sont vérifiés. Pour un coût modéré, vous évitez l'immobilisation loin de chez vous, toujours plus coûteuse. Garage Boost réalise ce bilan rapidement avec compte-rendu écrit." }
   ]
 
 };

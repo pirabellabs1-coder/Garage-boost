@@ -1456,5 +1456,100 @@ module.exports = [
 <p>Pour planifier une intervention, utilisez notre <a href="../rendez-vous.html">formulaire de prise de rendez-vous</a>. Notre équipe vous répond personnellement sous 24 heures ouvrées.</p>
 <p>Bienvenue chez Garage Boost.</p>
 `
+  },
+
+  // ===================== NOUVEAUX ARTICLES — LOT A =====================
+  {
+    slug: 'prix-revision-auto-marseille',
+    title: 'Combien coûte une révision auto à Marseille en 2026 ?',
+    excerpt: "Prix d'une révision auto à Marseille : ce qu'elle inclut, les fourchettes poste par poste, l'écart indépendant vs concession et comment éviter les devis gonflés.",
+    metaDesc: "Combien coûte une révision auto à Marseille en 2026 ? Détail des prix (vidange, filtres, freins), écart concession vs indépendant, pièges à éviter. Guide complet.",
+    keywords: 'prix révision auto Marseille, coût révision voiture, tarif vidange Marseille, révision constructeur prix, entretien auto pas cher Marseille',
+    category: 'Comparatif',
+    cover: COVERS.service,
+    coverAlt: "Révision automobile en atelier à Plan-de-Cuques",
+    datePublished: '2026-06-04',
+    dateModified: '2026-06-04',
+    readTime: 9,
+    related: ['economiser-1000-euros-an-entretien', 'garage-independant-vs-concession', 'distribution-moteur-quand-changer'],
+    content: `
+<p>« Combien va me coûter ma révision ? » est l'une des questions qu'on nous pose le plus souvent à l'atelier de Plan-de-Cuques. Et pour cause : le mot « révision » recouvre des réalités très différentes selon les véhicules, les garages et ce qu'on y inclut. Résultat, deux devis pour « une révision » peuvent varier du simple au triple sans que cela soit forcément malhonnête — il faut juste comparer ce qui est comparable. Ce guide vous donne les <strong>fourchettes de prix réelles 2026</strong>, poste par poste, et les clés pour ne pas payer trop cher à Marseille.</p>
+
+<h2>Qu'est-ce qu'une révision, exactement ?</h2>
+<p>Une révision (ou entretien périodique) est un ensemble d'opérations d'entretien préventif réalisées à intervalle régulier, défini par le constructeur dans le carnet d'entretien. Son but : maintenir le véhicule en bon état de fonctionnement, préserver la sécurité, et anticiper l'usure avant qu'elle ne devienne une panne coûteuse. Une révision n'est donc pas une réparation : c'est de la maintenance planifiée.</p>
+<p>Le contenu d'une révision varie selon le kilométrage et le type d'entretien prévu. Une « petite » révision se limite souvent à la vidange et à quelques contrôles ; une « grande » révision ajoute le remplacement de plusieurs filtres, parfois des bougies, du liquide de frein, et un contrôle approfondi de nombreux points. C'est ce périmètre variable qui explique l'essentiel des écarts de prix.</p>
+
+<h2>Le prix poste par poste (fourchettes 2026)</h2>
+<p>Pour y voir clair, voici des ordres de grandeur pratiqués en atelier indépendant sérieux dans la région marseillaise. Ils varient selon la motorisation, le modèle et les pièces, mais donnent une base de comparaison utile :</p>
+<ul>
+<li><strong>Vidange + filtre à huile</strong> : 70 à 160 € selon l'huile (la quantité et la norme d'huile font la différence sur les moteurs récents).</li>
+<li><strong>Filtre à air</strong> : 20 à 60 €.</li>
+<li><strong>Filtre habitacle</strong> : 25 à 60 €.</li>
+<li><strong>Filtre à carburant</strong> (diesel surtout) : 40 à 120 €.</li>
+<li><strong>Bougies d'allumage</strong> (essence) : 60 à 200 € selon le nombre et l'accès.</li>
+<li><strong>Liquide de frein</strong> (purge, tous les 2 ans) : 40 à 90 €.</li>
+<li><strong>Plaquettes de frein</strong> (avant) : 90 à 250 € posées.</li>
+<li><strong>Disques + plaquettes</strong> (avant) : 200 à 500 € selon le véhicule.</li>
+</ul>
+<p>Au-delà de ces postes courants viennent les <strong>grosses échéances</strong>, à ne pas confondre avec la révision mais souvent planifiées en parallèle : la <a href="../maintenance-moteur.html">distribution</a> (400 à 900 €), l'embrayage (500 à 1 200 €), ou des opérations anti-pollution (nettoyage <a href="../maintenance-moteur/nettoyage-fap.html">FAP</a>, EGR). Un bon garage vous prévient de ces échéances à venir pour que vous puissiez les anticiper budgétairement.</p>
+
+<h2>Petite révision, grande révision : à quoi s'attendre</h2>
+<p>Concrètement, une <strong>révision simple</strong> (vidange + filtre à huile + contrôle des niveaux et points de sécurité) se situe le plus souvent entre <strong>90 et 200 €</strong>. Une <strong>révision intermédiaire</strong> (avec filtre à air, habitacle, parfois carburant) monte vers <strong>180 à 350 €</strong>. Une <strong>grande révision</strong> (tous filtres + bougies + liquide de frein + contrôles approfondis) peut atteindre <strong>350 à 600 €</strong> selon le véhicule. Sur des modèles premium ou des motorisations complexes, ces montants peuvent être plus élevés.</p>
+<p>L'essentiel est de savoir <strong>ce que contient le forfait</strong>. Un devis « révision à 99 € » qui ne comprend que la vidange n'est pas comparable à une révision complète à 300 € : ce n'est pas le même travail. Demandez toujours le détail des opérations incluses.</p>
+
+<h2>Indépendant ou concession : l'écart de prix</h2>
+<p>À périmètre identique, un garage indépendant sérieux facture généralement <strong>30 à 40 % de moins</strong> qu'une concession. La raison est structurelle : pas de showroom luxueux ni de force commerciale à financer, et des achats directs de pièces de qualité OEM (Bosch, Valeo, Delphi, Continental — souvent les mêmes équipementiers que ceux du constructeur). Et contrairement à une idée tenace, faire entretenir son véhicule hors concession <strong>ne fait pas perdre la garantie constructeur</strong>, à condition de respecter le plan d'entretien et d'utiliser des pièces de qualité équivalente. Sur le coût d'une révision, ce simple choix représente souvent l'essentiel des économies possibles.</p>
+
+<h2>Ce qui fait varier la facture</h2>
+<p>Plusieurs facteurs expliquent qu'un même type de révision coûte plus ou moins cher : la <strong>motorisation</strong> (un diesel récent demande une huile spécifique et un filtre à carburant), la <strong>cylindrée</strong> et la quantité d'huile, l'<strong>accessibilité</strong> des pièces (certains moteurs imposent de démonter des éléments pour accéder aux bougies ou au filtre), et bien sûr la <strong>gamme du véhicule</strong>. Un utilitaire ou un premium n'a pas le même coût d'entretien qu'une citadine. C'est pourquoi un devis personnalisé, établi à partir de votre carte grise, est toujours plus fiable qu'un prix affiché générique.</p>
+
+<h2>Les pièges à éviter</h2>
+<p>Pour ne pas payer plus que nécessaire, gardez quelques réflexes. Méfiez-vous des <strong>forfaits d'appel</strong> très bas qui ne couvrent qu'une vidange et auxquels s'ajoutent ensuite des suppléments. Demandez un <strong>devis écrit détaillé</strong> avant l'intervention, exigez les <strong>références des pièces</strong> posées, et faites-vous expliquer toute opération que vous ne comprenez pas. Refusez les opérations « vendues » sans justification claire : un bon mécanicien recommande ce qui est nécessaire, et sait dire quand quelque chose peut attendre. Un second avis ne coûte rien sur les grosses dépenses.</p>
+
+<h2>À quelle fréquence faire sa révision ?</h2>
+<p>L'intervalle est indiqué dans votre carnet d'entretien, généralement entre <strong>une fois par an ou tous les 15 000 à 30 000 km</strong> selon le modèle et la motorisation. Attention : la condition de temps compte autant que le kilométrage. Un véhicule peu roulé a quand même besoin de sa vidange annuelle, car l'huile vieillit et se dégrade même à l'arrêt. En usage urbain intensif (typique de Marseille, avec petits trajets et embouteillages), il est même recommandé de ne pas dépasser les intervalles, car ces conditions sont plus exigeantes pour le moteur.</p>
+
+<h2>Nos tarifs transparents à Plan-de-Cuques</h2>
+<p>Chez Garage Boost, nous pratiquons une politique tarifaire claire : devis détaillé sous 24h, pièces de qualité OEM, garantie 12 mois, et des prix 30 à 40 % inférieurs à la concession à qualité égale. Vous pouvez consulter notre <a href="../tarifs.html">grille tarifaire complète</a> ou demander un devis personnalisé via notre <a href="../rendez-vous.html">formulaire de prise de rendez-vous</a>. Nous incluons systématiquement un point sur les échéances à venir, pour vous aider à anticiper votre budget plutôt qu'à subir les mauvaises surprises. Une révision bien faite, au juste prix, reste le meilleur investissement pour la longévité de votre véhicule.</p>
+`
+  },
+
+  {
+    slug: 'preparer-voiture-ete-chaleur-marseille',
+    title: "Préparer sa voiture pour l'été et la chaleur à Marseille",
+    excerpt: "Climatisation, refroidissement, batterie, pneus : le guide complet pour préparer votre voiture aux fortes chaleurs marseillaises et partir en vacances l'esprit tranquille.",
+    metaDesc: "Préparer sa voiture pour l'été à Marseille : climatisation, surchauffe moteur, batterie, pneus, niveaux. Checklist complète avant les fortes chaleurs et les départs en vacances.",
+    keywords: 'préparer voiture été, voiture chaleur Marseille, entretien clim voiture, surchauffe moteur été, check-up avant vacances auto',
+    category: 'Conseils',
+    cover: COVERS.diagnostic,
+    coverAlt: "Contrôle avant l'été d'un véhicule à Plan-de-Cuques",
+    datePublished: '2026-06-04',
+    dateModified: '2026-06-04',
+    readTime: 8,
+    related: ['voiture-consomme-trop-12-raisons', 'controle-anti-pollution-passer-sans-stress', 'garage-boost-10-ans-plan-de-cuques'],
+    content: `
+<p>À Marseille et dans toute la région, l'été met les véhicules à rude épreuve : fortes chaleurs, climatisation poussée à fond, longs trajets de vacances chargés, routes embouteillées. Ces conditions révèlent souvent des faiblesses qui passaient inaperçues le reste de l'année. Un peu de préparation avant les grosses chaleurs évite la panne au plus mauvais moment — sur l'autoroute des vacances, en pleine canicule. Voici la <strong>checklist complète</strong> pour aborder l'été sereinement.</p>
+
+<h2>La climatisation : à vérifier avant d'en avoir besoin</h2>
+<p>La clim est le premier organe sollicité l'été, et celui qu'on découvre en panne au pire moment. Avec le temps, le circuit perd naturellement du gaz réfrigérant (environ 10 % par an), ce qui réduit progressivement son efficacité. Si l'air n'est plus aussi froid qu'avant, c'est souvent le signe qu'une <strong>recharge de climatisation</strong> s'impose. Au-delà du gaz, le <strong>filtre habitacle</strong> doit être remplacé régulièrement : encrassé, il réduit le débit d'air, dégrade la qualité de l'air intérieur et peut générer de mauvaises odeurs. Un <strong>assainissement du circuit</strong> élimine bactéries et champignons responsables des odeurs de moisi. Faire contrôler sa clim au printemps, avant la ruée estivale, est le bon réflexe.</p>
+
+<h2>Le refroidissement moteur : éviter la surchauffe</h2>
+<p>La chaleur extérieure ajoutée à la charge moteur (climatisation, bagages, embouteillages) sollicite fortement le système de refroidissement. Une surchauffe peut endommager gravement le moteur, jusqu'au joint de culasse — une réparation très coûteuse. Avant l'été, vérifiez le <strong>niveau de liquide de refroidissement</strong> et son état (un liquide vieux perd ses propriétés). Surveillez l'absence de fuites, l'état des durites, et le bon fonctionnement du ventilateur. Si la jauge de température grimpe anormalement dans les bouchons ou en côte, ne prenez pas de risque : faites diagnostiquer rapidement. Le système de refroidissement est l'assurance-vie de votre moteur en été.</p>
+
+<h2>La batterie : la chaleur l'use plus qu'on ne le croit</h2>
+<p>Contrairement à une idée répandue, ce n'est pas seulement le froid qui tue les batteries : la <strong>chaleur</strong> accélère leur vieillissement en favorisant l'évaporation de l'électrolyte et la corrosion interne. Une batterie fatiguée par les étés successifs peut lâcher brutalement, souvent à l'automne quand les premières fraîcheurs arrivent. Si votre véhicule a plus de 4 ans, ou si vous constatez des démarrages plus laborieux, un <strong>test de batterie</strong> (rapide et souvent gratuit) permet d'anticiper. Mieux vaut remplacer une batterie en fin de vie avant un long trajet que de se retrouver en rade sur une aire d'autoroute.</p>
+
+<h2>Les pneus : pression, usure et chaleur</h2>
+<p>Les pneus sont le seul point de contact avec la route — leur état est crucial, d'autant plus l'été. La chaleur du bitume augmente la pression interne et la contrainte sur la gomme ; un pneu sous-gonflé chauffe davantage et risque l'éclatement, surtout chargé et à vitesse soutenue. Avant un départ, vérifiez la <strong>pression à froid</strong> (et ajustez selon la charge, valeurs indiquées sur la portière ou la trappe à carburant), l'<strong>usure</strong> (témoins, profondeur des rainures) et l'absence de hernies ou de coupures. N'oubliez pas la roue de secours ou le kit anti-crevaison. Des pneus en bon état, bien gonflés, c'est de la sécurité et aussi de l'économie de carburant.</p>
+
+<h2>Les niveaux et la visibilité</h2>
+<p>Quelques vérifications simples complètent la préparation : le <strong>niveau d'huile</strong> (un moteur qui consomme un peu d'huile en souffre davantage l'été), le <strong>lave-glace</strong> (indispensable contre les insectes et la poussière estivale), et l'état des <strong>essuie-glaces</strong> (le caoutchouc se dégrade vite sous le soleil et la chaleur, et les orages d'été peuvent être violents). Pensez aussi à la propreté du <strong>pare-brise</strong> : un impact non réparé risque de s'étendre avec les écarts de température (climatisation froide contre vitre chaude). Un petit impact se répare pour une somme modique tant qu'il est petit ; attendre, c'est souvent devoir remplacer tout le pare-brise.</p>
+
+<h2>Avant un grand départ : le check-up complet</h2>
+<p>Si vous prévoyez un long trajet de vacances chargé, un <strong>contrôle pré-départ</strong> est vivement recommandé. Il passe en revue l'ensemble des points critiques — freinage, pneus, niveaux, climatisation, batterie, éclairage, courroies — et détecte les faiblesses avant qu'elles ne deviennent des pannes. C'est l'inverse de la dépense inutile : pour un coût modéré, vous partez l'esprit tranquille et vous évitez l'immobilisation loin de chez vous, toujours plus coûteuse et stressante. Chez Garage Boost à Plan-de-Cuques, nous réalisons ce type de bilan rapidement et vous remettons un compte-rendu clair de ce qui va et de ce qui mérite attention.</p>
+
+<h2>Rouler malin pendant les fortes chaleurs</h2>
+<p>Enfin, quelques gestes au quotidien aident votre véhicule à mieux supporter la canicule. Stationnez à l'ombre quand c'est possible (le soleil dégrade plastiques, peinture et batterie), aérez l'habitacle avant d'enclencher la clim plutôt que de la pousser au maximum d'emblée, et évitez de surcharger inutilement le véhicule. Dans les longs bouchons par forte chaleur, gardez un œil sur la température moteur. Ces réflexes simples, combinés à une préparation sérieuse en amont, vous garantissent un été sur la route sans mauvaise surprise. Pour toute vérification avant l'été ou avant les vacances, notre équipe est à votre disposition au <strong>06 63 21 63 50</strong> ou via notre <a href="../rendez-vous.html">formulaire de rendez-vous</a>.</p>
+`
   }
 ];
