@@ -9,6 +9,54 @@ const ROOT = path.resolve(__dirname, '..');
 const TEMPLATE = fs.readFileSync(path.join(__dirname, 'template.html'), 'utf8');
 const data = require('./data.js');
 const zones = require('./zones.js');
+const articles = require('./articles.js');
+
+// Maillage interne : service -> articles de blog pertinents (clusters thématiques)
+const ARTICLE_LINKS = {
+  'diagnostic-moteur': ['voyant-moteur-orange-8-causes', 'voiture-consomme-trop-12-raisons', 'controle-avant-achat-voiture-occasion'],
+  'decalaminage-hydrogene': ['decalaminage-hydrogene-guide-complet', 'hydrogene-mecanique-revolution-propre', 'voiture-consomme-trop-12-raisons'],
+  'nettoyage-fap': ['nettoyage-fap-methodes-comparees', 'fap-nettoyage-vs-remplacement', 'controle-anti-pollution-passer-sans-stress'],
+  'nettoyage-catalyseur': ['controle-anti-pollution-passer-sans-stress', 'fumee-noire-echappement', 'voyant-moteur-orange-8-causes'],
+  'reprogrammation-moteur': ['reprogrammation-moteur-stage-1-tout-savoir', 'stage-1-vs-stage-2', 'voiture-consomme-trop-12-raisons'],
+  'suppression-adblue': ['adblue-comprendre-pannes-courantes', 'controle-anti-pollution-passer-sans-stress', 'voyant-moteur-orange-8-causes'],
+  'traitement-egr': ['vanne-egr-symptomes-prix', 'fumee-noire-echappement', 'nettoyage-fap-methodes-comparees'],
+  'voyants-moteur': ['voyant-moteur-orange-8-causes', 'vanne-egr-symptomes-prix', 'adblue-comprendre-pannes-courantes'],
+  'depannage-remorquage': ['batterie-voiture-signes-faiblesse-duree-vie', 'preparer-voiture-ete-chaleur-marseille', 'voyant-moteur-orange-8-causes'],
+  'depannage-scooter': ['batterie-voiture-signes-faiblesse-duree-vie', 'preparer-voiture-ete-chaleur-marseille', 'garage-boost-10-ans-plan-de-cuques'],
+  'electricite-automobile': ['batterie-voiture-signes-faiblesse-duree-vie', 'voyant-moteur-orange-8-causes', 'calibrage-adas-pare-brise'],
+  'mecanique-generale': ['distribution-moteur-quand-changer', 'embrayage-signes-usure', 'prix-revision-auto-marseille'],
+  'ouverture-vehicule': ['batterie-voiture-signes-faiblesse-duree-vie', 'garage-boost-10-ans-plan-de-cuques', 'garage-independant-vs-concession'],
+  'reproduction-cles': ['batterie-voiture-signes-faiblesse-duree-vie', 'garage-boost-10-ans-plan-de-cuques', 'controle-avant-achat-voiture-occasion'],
+  'enlevement-epaves': ['controle-avant-achat-voiture-occasion', 'garage-boost-10-ans-plan-de-cuques', 'garage-independant-vs-concession'],
+  'carrosserie-auto': ['controle-avant-achat-voiture-occasion', 'garage-independant-vs-concession', 'calibrage-adas-pare-brise'],
+  'peinture-automobile': ['controle-avant-achat-voiture-occasion', 'garage-independant-vs-concession', 'garage-boost-10-ans-plan-de-cuques'],
+  'pare-brise': ['calibrage-adas-pare-brise', 'garage-independant-vs-concession', 'controle-avant-achat-voiture-occasion'],
+  'utilitaires': ['prix-revision-auto-marseille', 'controle-avant-achat-voiture-occasion', 'economiser-1000-euros-an-entretien'],
+  'citadines': ['prix-revision-auto-marseille', 'economiser-1000-euros-an-entretien', 'preparer-voiture-ete-chaleur-marseille'],
+  'vans-amenages': ['preparer-voiture-ete-chaleur-marseille', 'controle-avant-achat-voiture-occasion', 'prix-revision-auto-marseille'],
+  'voiture-rallye': ['reprogrammation-moteur-stage-1-tout-savoir', 'stage-1-vs-stage-2', 'distribution-moteur-quand-changer'],
+  'vehicules-occasion': ['controle-avant-achat-voiture-occasion', 'prix-revision-auto-marseille', 'garage-independant-vs-concession']
+};
+
+function buildArticleLinks(serviceSlug) {
+  const slugs = ARTICLE_LINKS[serviceSlug] || [];
+  return slugs.map(s => {
+    const a = articles.find(art => art.slug === s);
+    if (!a) return '';
+    return `
+      <a class="blog-card" href="../blog/${a.slug}.html">
+        <div class="blog-card-img">
+          <img src="${a.cover}" alt="${a.coverAlt}" loading="lazy" title="${a.coverAlt}">
+          <span class="blog-card-cat">${a.category}</span>
+        </div>
+        <div class="blog-card-body">
+          <h3 class="blog-card-title">${a.title}</h3>
+          <p class="blog-card-excerpt">${a.excerpt}</p>
+          <span class="blog-card-link">Lire l'article <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </a>`;
+  }).join('\n');
+}
 
 // Service icon mapping for related cards
 const SERVICE_ICONS = {
@@ -190,6 +238,7 @@ for (const [categorySlug, category] of Object.entries(data.categories)) {
       contentHTML: buildContent(service.content),
       faqHTML: buildFaq(service.faq),
       relatedHTML: buildRelated(service.related, categorySlug),
+      articlesHTML: buildArticleLinks(slug),
       citiesPillsHTML: buildCitiesPills(slug),
       ctaTitle: service.ctaTitle,
       ctaTitleAccent: service.ctaTitleAccent,
