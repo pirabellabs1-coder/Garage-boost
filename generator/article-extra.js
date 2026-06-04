@@ -654,6 +654,25 @@ module.exports = {
 
 <h2>En cas de pépin l'été : ne restez pas bloqué</h2>
 <p>Malgré toute la prévention, une panne estivale peut arriver — batterie qui lâche dans un parking surchauffé, surchauffe dans un bouchon, crevaison sur la route des vacances. Le bon réflexe : ne pas forcer (notamment en cas de surchauffe ou de voyant rouge) et faire appel à un professionnel. Notre service de <strong>dépannage et remorquage est actif 7 jours sur 7</strong>, week-ends et jours fériés compris, dans toute la zone Marseille — Plan-de-Cuques — Aubagne et au-delà. Mieux vaut un appel et une prise en charge rapide qu'une tentative hasardeuse qui aggrave la situation. Avant les départs, enregistrez notre numéro : <strong>06 63 21 63 50</strong>. Et pour partir totalement serein, un simple bilan pré-départ à l'atelier reste le meilleur moyen d'éviter le pépin tout court.</p>
+`,
+
+  'controle-avant-achat-voiture-occasion': `
+<h2>Acheter à un particulier ou à un professionnel ?</h2>
+<p>Le canal d'achat change les garanties et les recours. Chez un <strong>particulier</strong>, le prix est souvent plus bas, mais la vente se fait « en l'état » : aucune garantie légale de conformité, et seul le vice caché (difficile à prouver) peut être invoqué. D'où l'importance cruciale du contrôle avant achat dans ce cas. Chez un <strong>professionnel</strong>, le prix est généralement plus élevé, mais vous bénéficiez de la <strong>garantie légale de conformité</strong> et souvent d'une garantie commerciale ; le véhicule a normalement été contrôlé et préparé. Un contrôle indépendant reste utile pour vérifier ces affirmations, mais le niveau de risque n'est pas le même. Adaptez votre vigilance — et votre négociation — au canal d'achat.</p>
+
+<h2>Se servir du contrôle pour négocier</h2>
+<p>Un contrôle avant achat n'est pas seulement défensif : c'est un puissant <strong>levier de négociation</strong>. Si l'examen révèle une distribution à refaire prochainement, des pneus en limite, des plaquettes usées ou un entretien en retard, vous disposez d'éléments chiffrés et objectifs pour demander une baisse de prix correspondant aux travaux à prévoir. Présenter un compte-rendu technique neutre désamorce les discussions : il ne s'agit plus de marchander à l'aveugle, mais de constater des faits. Beaucoup d'acheteurs rentabilisent largement le coût du contrôle grâce à la remise obtenue — ou évitent purement et simplement un achat qui se serait révélé désastreux.</p>
+`,
+
+  'boite-automatique-entretien-vidange': `
+<h2>Boîte automatique et conduite urbaine à Marseille</h2>
+<p>La circulation urbaine intensive — embouteillages, arrêts et redémarrages incessants, reliefs — est l'un des usages les plus exigeants pour une boîte automatique. Dans les bouchons, la boîte travaille en permanence à basse vitesse, ce qui sollicite fortement le convertisseur ou les embrayages et fait monter la température de l'huile. Sur les boîtes à double embrayage notamment, rester en mode rampage prolongé (avancer au pas en gardant la position D) use prématurément les embrayages. Dans ce contexte typiquement marseillais, il est d'autant plus important de respecter des intervalles de vidange rapprochés et de surveiller le moindre à-coup, car l'usure y est accélérée par rapport à un usage routier.</p>
+
+<h2>Le cas particulier des boîtes CVT</h2>
+<p>Les boîtes à variation continue (CVT), qui n'utilisent pas de rapports fixes mais une courroie ou une chaîne sur des poulies à diamètre variable, offrent une grande douceur mais sont particulièrement sensibles à la qualité et à l'état de leur huile spécifique. Une vidange négligée ou une huile non conforme peut entraîner des glissements et une usure rapide, coûteuse à réparer. Si votre véhicule est équipé d'une CVT, le respect scrupuleux des préconisations d'huile et d'intervalle est essentiel — et c'est précisément le genre de détail que nous vérifions avant toute intervention, pour utiliser exactement le fluide adapté à votre transmission.</p>
+
+<h2>Un entretien rentable face au coût d'un remplacement</h2>
+<p>Le calcul est sans appel : une vidange de boîte automatique représente une dépense modeste au regard du coût d'un remplacement, qui peut atteindre plusieurs milliers d'euros sur une boîte HS. En entretenant régulièrement votre transmission, vous repoussez très loin l'échéance d'une réparation lourde, tout en conservant l'agrément de conduite d'origine (passages doux, réactivité). C'est la même logique que pour la distribution ou l'embrayage : un peu de préventif régulier évite un sinistre majeur. À Plan-de-Cuques, nous vous conseillons l'intervalle adapté à votre boîte et à votre usage, sans dramatiser ni minimiser.</p>
 `
 
 };

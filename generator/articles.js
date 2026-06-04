@@ -1551,5 +1551,129 @@ module.exports = [
 <h2>Rouler malin pendant les fortes chaleurs</h2>
 <p>Enfin, quelques gestes au quotidien aident votre véhicule à mieux supporter la canicule. Stationnez à l'ombre quand c'est possible (le soleil dégrade plastiques, peinture et batterie), aérez l'habitacle avant d'enclencher la clim plutôt que de la pousser au maximum d'emblée, et évitez de surcharger inutilement le véhicule. Dans les longs bouchons par forte chaleur, gardez un œil sur la température moteur. Ces réflexes simples, combinés à une préparation sérieuse en amont, vous garantissent un été sur la route sans mauvaise surprise. Pour toute vérification avant l'été ou avant les vacances, notre équipe est à votre disposition au <strong>06 63 21 63 50</strong> ou via notre <a href="../rendez-vous.html">formulaire de rendez-vous</a>.</p>
 `
+  },
+
+  // ===================== NOUVEAUX ARTICLES — LOT B =====================
+  {
+    slug: 'batterie-voiture-signes-faiblesse-duree-vie',
+    title: "Batterie de voiture : signes de faiblesse, durée de vie et entretien",
+    excerpt: "Comment savoir si votre batterie est en fin de vie ? Signes de faiblesse, durée de vie réelle, causes de défaillance et conseils pour éviter la panne à Marseille.",
+    metaDesc: "Batterie de voiture : reconnaître les signes de faiblesse, durée de vie réelle, causes de panne (chaleur, courts trajets) et comment l'entretenir. Guide pratique Marseille.",
+    keywords: 'batterie voiture faible, durée de vie batterie auto, signes batterie HS, changer batterie voiture Marseille, batterie qui se décharge',
+    category: 'Conseils',
+    cover: COVERS.diag2,
+    coverAlt: "Test de batterie automobile en atelier à Plan-de-Cuques",
+    datePublished: '2026-06-04',
+    dateModified: '2026-06-04',
+    readTime: 8,
+    related: ['voyant-moteur-orange-8-causes', 'voiture-consomme-trop-12-raisons', 'preparer-voiture-ete-chaleur-marseille'],
+    content: `
+<p>La batterie est l'un des composants les plus sollicités et pourtant les plus négligés d'une voiture. Tant qu'elle fonctionne, on n'y pense pas ; le jour où elle lâche, c'est l'immobilisation immédiate, souvent au plus mauvais moment — un matin pressé, un parking isolé, un départ en vacances. La bonne nouvelle, c'est qu'une batterie en fin de vie envoie presque toujours des <strong>signaux avant-coureurs</strong>. Savoir les reconnaître permet d'anticiper le remplacement plutôt que de subir la panne. Voici tout ce qu'il faut savoir sur la durée de vie, les signes de faiblesse et l'entretien d'une batterie auto.</p>
+
+<h2>À quoi sert vraiment la batterie</h2>
+<p>On réduit souvent la batterie à son rôle de démarrage, mais sa fonction est plus large. Elle fournit l'énergie nécessaire au <strong>démarreur</strong> pour lancer le moteur, mais elle alimente aussi l'ensemble de l'électronique de bord au repos (alarme, calculateurs en veille, mémoires) et sert de tampon pour stabiliser la tension pendant que vous roulez. Une fois le moteur lancé, c'est l'<strong>alternateur</strong> qui prend le relais et recharge la batterie. Cette interaction batterie-alternateur est essentielle : une batterie faible peut être le symptôme d'un alternateur défaillant, et inversement. C'est pourquoi un bon diagnostic teste toujours les deux ensemble.</p>
+
+<h2>Les signes d'une batterie en fin de vie</h2>
+<p>Plusieurs symptômes doivent vous alerter. Le plus classique est le <strong>démarrage laborieux</strong> : le moteur tourne plus lentement que d'habitude avant de partir, surtout le matin ou après une nuit fraîche. Vous pouvez aussi remarquer un <strong>éclairage qui faiblit</strong> au ralenti ou des <strong>équipements électriques capricieux</strong> (vitres plus lentes, autoradio qui se réinitialise). Un <strong>voyant batterie</strong> au tableau de bord, des difficultés à démarrer après quelques jours sans rouler, ou le besoin répété de recharger ou de faire démarrer avec des câbles sont des signaux clairs. Enfin, une batterie visiblement gonflée, qui fuit ou dont les cosses sont fortement corrodées est en bout de course.</p>
+
+<h2>Quelle est la durée de vie réelle d'une batterie ?</h2>
+<p>En moyenne, une batterie de voiture dure entre <strong>4 et 6 ans</strong>, mais cette fourchette varie énormément selon les conditions d'usage. Certaines tiennent à peine 3 ans, d'autres dépassent 7 ans. Ce qui fait la différence, ce sont surtout les <strong>conditions de charge et de température</strong>. Une batterie qui n'est jamais complètement rechargée — typiquement sur des véhicules à petits trajets urbains — vieillit prématurément, car l'alternateur n'a pas le temps de la recharger entre deux démarrages. À Marseille, où les trajets courts en ville sont fréquents, ce phénomène est très répandu et explique bon nombre de batteries qui lâchent avant l'heure.</p>
+
+<h2>Pourquoi la chaleur (et le froid) usent la batterie</h2>
+<p>Contrairement à une idée reçue, ce n'est pas seulement le froid qui met les batteries à mal. La <strong>chaleur</strong> — un sujet bien réel sous le soleil marseillais — accélère l'évaporation de l'électrolyte et la corrosion interne, ce qui dégrade la capacité de la batterie de façon irréversible. Le froid, lui, ne « tue » pas la batterie mais <strong>révèle</strong> sa faiblesse : par temps frais, une batterie déjà fatiguée par les étés successifs peine soudain à fournir le courant nécessaire au démarrage. C'est pourquoi beaucoup de batteries rendent l'âme à l'automne ou au premier coup de froid, alors que le mal a été fait pendant l'été.</p>
+
+<h2>Les autres causes de décharge prématurée</h2>
+<p>Au-delà de l'usure naturelle, plusieurs facteurs peuvent vider ou abîmer une batterie. Un <strong>trajet trop court et trop rare</strong> ne permet pas une recharge complète. Une <strong>consommation parasite</strong> (un équipement qui reste alimenté moteur coupé, un faisceau défectueux) décharge la batterie à l'arrêt. Un <strong>alternateur défaillant</strong> ne recharge plus correctement. Des <strong>cosses desserrées ou corrodées</strong> dégradent le contact électrique. Enfin, oublier des consommateurs allumés (feux, plafonnier) achève rapidement une batterie. Un diagnostic électrique permet d'identifier précisément laquelle de ces causes est en jeu, plutôt que de remplacer la batterie pour rien si le vrai coupable est ailleurs.</p>
+
+<h2>Tester plutôt que deviner</h2>
+<p>Devant un doute, il ne faut pas attendre la panne sèche : un <strong>test de batterie</strong> est rapide et permet de connaître son état de santé réel (capacité, tension, capacité de démarrage à froid). Couplé à un contrôle de l'alternateur et du circuit de charge, il indique si la batterie est simplement déchargée, réellement en fin de vie, ou victime d'un autre problème électrique. C'est une opération simple que nous réalisons à l'atelier, et qui évite bien des mauvaises surprises — notamment avant un long trajet ou à l'approche de l'hiver.</p>
+
+<h2>Bien choisir et entretenir sa batterie</h2>
+<p>Au moment du remplacement, il est essentiel de choisir une batterie <strong>adaptée à votre véhicule</strong> : bonne capacité, bon ampérage de démarrage, et technologie conforme à votre voiture. Attention en particulier aux véhicules équipés du <strong>Stop &amp; Start</strong>, qui exigent des batteries spécifiques (AGM ou EFB) plus endurantes ; monter une batterie classique sur ces véhicules réduit fortement sa durée de vie et peut perturber le système. Côté entretien, quelques gestes prolongent la vie de la batterie : rouler suffisamment longtemps pour permettre une recharge complète, maintenir les cosses propres et serrées, et, en cas d'immobilisation prolongée, utiliser un mainteneur de charge.</p>
+
+<h2>Anticiper, c'est éviter la panne</h2>
+<p>Une batterie ne se remplace idéalement pas dans l'urgence, au bord de la route, mais de façon planifiée dès les premiers signes de faiblesse. Si votre batterie a plus de quatre ans, ou si vous constatez des démarrages plus poussifs, faites-la tester : le coût d'un test est dérisoire face à l'immobilisation et au dépannage qu'une panne sèche entraîne. Chez Garage Boost à Plan-de-Cuques, nous testons batterie et circuit de charge, vous conseillons honnêtement sur l'opportunité d'un remplacement, et installons une batterie adaptée à votre véhicule, garantie. Pour un contrôle ou un remplacement, contactez-nous au <strong>06 63 21 63 50</strong> ou via notre <a href="../rendez-vous.html">formulaire de rendez-vous</a> ; et en cas de panne, notre <a href="../entretien-assistance/depannage-remorquage.html">service de dépannage</a> intervient 7j/7 dans toute la zone Marseille.</p>
+`
+  },
+
+  {
+    slug: 'controle-avant-achat-voiture-occasion',
+    title: "Voiture d'occasion : le contrôle avant achat qui évite les pièges",
+    excerpt: "Acheter une voiture d'occasion sans se faire avoir : les points à vérifier absolument, les signaux d'alerte et l'intérêt d'un contrôle professionnel avant achat à Marseille.",
+    metaDesc: "Voiture d'occasion : le guide du contrôle avant achat. Moteur, distribution, embrayage, carrosserie, électronique, kilométrage, documents : tout vérifier pour éviter les pièges.",
+    keywords: 'contrôle avant achat voiture occasion, vérifier voiture occasion, inspection achat auto Marseille, acheter voiture occasion sans se faire avoir, expertise occasion',
+    category: 'Conseils',
+    cover: COVERS.garage,
+    coverAlt: "Inspection d'une voiture d'occasion avant achat à Plan-de-Cuques",
+    datePublished: '2026-06-04',
+    dateModified: '2026-06-04',
+    readTime: 9,
+    related: ['garage-independant-vs-concession', 'prix-revision-auto-marseille', 'distribution-moteur-quand-changer'],
+    content: `
+<p>Acheter une voiture d'occasion, c'est faire une bonne affaire… ou hériter des problèmes du vendeur. Entre les annonces flatteuses, les vices cachés et les compteurs trafiqués, le marché de l'occasion demande de la méthode et un œil averti. Une voiture peut paraître impeccable en surface et cacher une distribution en bout de course, un embrayage fatigué ou un passé d'accident soigneusement masqué. Ce guide vous donne la <strong>liste des points à vérifier</strong> avant de signer, les <strong>signaux d'alerte</strong> qui doivent vous faire fuir, et l'intérêt d'un contrôle professionnel avant achat.</p>
+
+<h2>Avant même de se déplacer : l'annonce et les documents</h2>
+<p>Le contrôle commence dès l'annonce. Méfiez-vous d'un <strong>prix anormalement bas</strong> pour le modèle et le kilométrage : il cache presque toujours quelque chose. Demandez au vendeur l'<strong>historique d'entretien</strong> (carnet, factures), le <strong>nombre de propriétaires</strong>, et la raison de la vente. Sur place, vérifiez la cohérence des <strong>documents</strong> : carte grise au nom du vendeur, certificat de situation administrative (non-gage), procès-verbal du dernier contrôle technique. Un contrôle technique récent ne dispense pas d'un examen approfondi, mais ses observations donnent déjà de précieuses indications sur l'état du véhicule.</p>
+
+<h2>Le moteur : le cœur du contrôle</h2>
+<p>Le moteur est le poste le plus coûteux en cas de problème, donc le plus important à examiner. Démarrez-le <strong>à froid</strong> (méfiez-vous d'un vendeur qui a « préchauffé » la voiture avant votre arrivée — cela peut masquer des difficultés de démarrage). Observez la <strong>couleur des fumées</strong> à l'échappement : une fumée bleue trahit une consommation d'huile, une fumée noire une combustion défaillante, une fumée blanche persistante un possible problème de joint de culasse. Écoutez les bruits anormaux (claquements, sifflements du turbo), vérifiez l'absence de fuites sous le véhicule, et contrôlez les niveaux (une huile au-dessus du maximum ou émulsionnée est suspecte).</p>
+
+<h2>Distribution, embrayage : les grosses échéances cachées</h2>
+<p>Deux postes peuvent transformer une « bonne affaire » en gouffre financier : la <strong>distribution</strong> et l'<strong>embrayage</strong>. Demandez si la courroie de distribution a été remplacée, et exigez la facture : sur un véhicule au kilométrage ou à l'âge proche de l'échéance, c'est une dépense de plusieurs centaines d'euros à prévoir immédiatement (et une rupture détruit le moteur). Pour l'embrayage, un point de patinage très haut ou un régime qui s'emballe en côte signale une usure avancée. Intégrez systématiquement ces échéances dans votre négociation : si la distribution est à refaire, c'est autant à déduire du prix.</p>
+
+<h2>La carrosserie : détecter un passé d'accident</h2>
+<p>Un véhicule accidenté et mal réparé peut cacher des problèmes structurels et de sécurité. Examinez les <strong>jeux entre les éléments de carrosserie</strong> (capot, portières, ailes) : des écarts irréguliers trahissent un remontage après choc. Vérifiez l'<strong>uniformité de la peinture</strong> (différences de teinte, traces de masquage, surpulvérisation), l'état des <strong>bas de caisse</strong> et des points de soudure. Dans le coffre et sous les tapis, recherchez des traces de réparation ou de corrosion anormale. Sur le littoral marseillais, prêtez une attention particulière à la <strong>corrosion</strong> liée à l'air marin. Un véhicule au passé d'accident n'est pas forcément à proscrire, mais doit être expertisé et négocié en conséquence.</p>
+
+<h2>L'électronique et le kilométrage</h2>
+<p>Sur les voitures modernes, l'<strong>électronique</strong> est un poste à ne pas négliger. Un passage à la valise diagnostic révèle les <strong>codes défauts</strong> en mémoire, y compris ceux que le vendeur a pu effacer juste avant la vente (ils peuvent réapparaître). Vérifiez le bon fonctionnement de tous les équipements : clim, vitres, aides à la conduite, multimédia. Le <strong>kilométrage</strong> mérite une vigilance particulière : recoupez-le avec l'usure réelle (volant, sièges, pédalier), l'historique d'entretien et les rapports de contrôle technique successifs. Un compteur trafiqué laisse souvent des incohérences que seul un examen croisé permet de détecter.</p>
+
+<h2>L'essai routier : indispensable</h2>
+<p>Ne jamais acheter sans essayer. Lors de l'essai, soyez attentif au <strong>comportement à froid puis à chaud</strong>, à la tenue de route, aux bruits de suspension sur les irrégularités, à l'efficacité et au ressenti du <strong>freinage</strong> (vibrations = disques voilés), au passage des vitesses, et à la stabilité du véhicule (un volant qui tire d'un côté signale un souci de géométrie ou de pneumatiques). Testez sur différents types de routes si possible. Un vendeur qui refuse l'essai ou le limite à quelques mètres a quelque chose à cacher.</p>
+
+<h2>Pourquoi un contrôle professionnel avant achat change tout</h2>
+<p>Même averti, un acheteur non professionnel ne peut pas tout détecter — certains défauts ne se révèlent qu'avec l'outillage et l'expérience. Faire réaliser un <strong>contrôle avant achat par un garage indépendant</strong> est l'un des meilleurs investissements possibles : pour un coût modéré, un mécanicien examine le véhicule sur le pont, passe la valise diagnostic, vérifie les points structurels et mécaniques, et vous remet un avis objectif. Cela vous évite d'acheter un véhicule à problèmes, ou vous donne des arguments concrets pour négocier le prix. C'est une démarche totalement neutre : le garage n'a aucun intérêt dans la vente, contrairement au vendeur.</p>
+
+<h2>Notre service de contrôle avant achat à Plan-de-Cuques</h2>
+<p>Chez Garage Boost, nous proposons un contrôle avant achat complet : examen mécanique et structurel, diagnostic électronique, vérification des échéances (distribution, embrayage, freins), et compte-rendu honnête de l'état réel du véhicule. Que vous achetiez à un particulier ou à un professionnel, dans la région marseillaise ou ailleurs, ce regard expert vous protège des mauvaises surprises et des vices cachés. Mieux vaut quelques dizaines d'euros de contrôle qu'une réparation à quatre chiffres découverte une semaine après l'achat. Pour organiser un contrôle avant achat, appelez-nous au <strong>06 63 21 63 50</strong> ou passez par notre <a href="../rendez-vous.html">formulaire de rendez-vous</a> : nous vous accompagnons pour acheter l'esprit tranquille.</p>
+`
+  },
+
+  {
+    slug: 'boite-automatique-entretien-vidange',
+    title: "Boîte automatique : entretien, vidange et idées reçues",
+    excerpt: "La boîte automatique ne s'entretient pas ? Faux. Vidange, signes d'usure, types de boîtes (DSG, CVT, convertisseur) : le guide pour préserver votre transmission.",
+    metaDesc: "Boîte automatique : pourquoi et quand faire la vidange, les signes d'usure à surveiller, les différents types (DSG, CVT, convertisseur). Entretien transmission à Marseille.",
+    keywords: 'vidange boîte automatique, entretien boîte auto, boîte DSG vidange, à-coups boîte automatique, durée de vie boîte automatique',
+    category: 'Mécanique',
+    cover: COVERS.workshop,
+    coverAlt: "Entretien de boîte de vitesses automatique en atelier à Plan-de-Cuques",
+    datePublished: '2026-06-04',
+    dateModified: '2026-06-04',
+    readTime: 8,
+    related: ['distribution-moteur-quand-changer', 'embrayage-signes-usure', 'economiser-1000-euros-an-entretien'],
+    content: `
+<p>« La boîte automatique est entretien à vie, il n'y a rien à faire dessus. » Voilà l'une des idées reçues les plus répandues — et les plus coûteuses. Beaucoup de constructeurs ont longtemps présenté leurs boîtes automatiques comme « sans entretien », mais l'expérience des ateliers raconte une autre histoire : une boîte automatique dont l'huile n'est jamais changée s'use prématurément et peut coûter <strong>plusieurs milliers d'euros</strong> à remplacer. Comprendre comment entretenir sa transmission automatique permet d'éviter ce piège et de prolonger nettement sa durée de vie.</p>
+
+<h2>Pourquoi l'huile de boîte automatique compte autant</h2>
+<p>Dans une boîte automatique, l'huile (ATF, pour Automatic Transmission Fluid) ne fait pas que lubrifier : elle <strong>transmet la puissance</strong>, refroidit les composants, et actionne les organes hydrauliques qui pilotent les passages de rapports. C'est un fluide de travail essentiel, soumis à de fortes contraintes thermiques et mécaniques. Avec le temps et les kilomètres, cette huile se dégrade, se charge de particules métalliques et perd ses propriétés. Une huile usée provoque des passages de rapports moins nets, une usure accélérée des composants internes, et à terme des dysfonctionnements coûteux. La maintenir en bon état est donc déterminant pour la longévité de la boîte.</p>
+
+<h2>Les différents types de boîtes automatiques</h2>
+<p>Toutes les boîtes « automatiques » ne fonctionnent pas de la même façon, et l'entretien varie selon le type. La boîte à <strong>convertisseur de couple</strong> (la « classique »), la boîte <strong>robotisée à double embrayage</strong> (DSG chez Volkswagen, PDK, EDC…), et la boîte <strong>à variation continue (CVT)</strong> ont chacune leurs spécificités. Les boîtes à double embrayage, par exemple, combinent l'automatisme avec des embrayages qui s'usent et nécessitent parfois un entretien spécifique (huile, mécatronique). Connaître le type de boîte de votre véhicule est la première étape pour savoir quel entretien lui appliquer et à quelle fréquence.</p>
+
+<h2>Quand faire la vidange de boîte automatique ?</h2>
+<p>Même si le carnet d'entretien reste discret sur le sujet, la plupart des spécialistes recommandent une <strong>vidange de boîte automatique tous les 60 000 à 100 000 km</strong> environ, selon le type de boîte et l'usage. Un usage exigeant — conduite urbaine intensive avec arrêts fréquents, fortes chaleurs marseillaises, remorquage, conduite sportive — justifie des intervalles plus courts, car il sollicite davantage l'huile. La vidange ne se limite pas toujours à remplacer le fluide : selon les boîtes, elle peut inclure le remplacement du <strong>filtre</strong> et du joint de carter. Une vidange réalisée dans les règles, avec l'huile exactement préconisée par le constructeur, est un investissement modeste qui protège un composant très coûteux.</p>
+
+<h2>Les signes d'une boîte automatique fatiguée</h2>
+<p>Plusieurs symptômes doivent vous alerter et justifient un diagnostic rapide : des <strong>à-coups</strong> ou des secousses lors des passages de rapports, des <strong>passages retardés</strong> ou hésitants, un régime moteur qui s'emballe sans accélération franche (signe de patinage), des <strong>bruits anormaux</strong>, un voyant de boîte, ou un passage en mode dégradé (« mode sécurité » bloquant la boîte sur un rapport). Une odeur de brûlé ou une huile très foncée lors d'un contrôle sont aussi de mauvais augure. Ces signes traduisent souvent une huile dégradée ou un début d'usure interne — et plus on intervient tôt, plus la réparation reste limitée.</p>
+
+<h2>L'attention particulière des boîtes à double embrayage</h2>
+<p>Les boîtes robotisées à double embrayage (type DSG) offrent un excellent agrément mais demandent un suivi sérieux. Leurs embrayages et leur <strong>mécatronique</strong> (le module électro-hydraulique qui pilote la boîte) sont des composants sensibles. Une huile négligée ou un usage inadapté (rester en mode rampage prolongé dans les embouteillages, par exemple) accélère l'usure. Sur ces boîtes, le respect des vidanges et un diagnostic au moindre à-coup sont particulièrement importants, car une mécatronique ou des embrayages HS représentent une facture élevée. Bien entretenues, en revanche, ces boîtes peuvent parcourir de très grands kilométrages sans souci.</p>
+
+<h2>Préserver sa boîte au quotidien</h2>
+<p>Quelques habitudes simples prolongent la vie de votre transmission automatique. Laissez le véhicule <strong>chauffer doucement</strong> les premiers kilomètres avant de solliciter fortement la boîte, surtout par temps froid. Marquez un <strong>arrêt complet</strong> avant de passer de la marche avant à la marche arrière (et inversement). Utilisez le frein à main à l'arrêt prolongé plutôt que de maintenir la voiture au frein en position D. Évitez de surcharger ou de tracter au-delà des capacités du véhicule. Et surtout, ne négligez pas la vidange : c'est le geste préventif le plus rentable pour une boîte automatique.</p>
+
+<h2>Vidange et diagnostic de boîte à Plan-de-Cuques</h2>
+<p>Chez Garage Boost, nous réalisons la vidange de boîte automatique avec l'huile précisément préconisée pour votre véhicule, et nous diagnostiquons les dysfonctionnements (à-coups, patinage, mode dégradé) avant qu'ils ne dégénèrent en réparation lourde. Nous vous conseillons honnêtement sur l'intervalle adapté à votre boîte et à votre usage, sans dramatiser ni minimiser. Une boîte automatique bien entretenue est un vrai plaisir de conduite qui dure ; négligée, elle devient l'une des réparations les plus coûteuses d'un véhicule. Pour un entretien ou un diagnostic de votre transmission, contactez notre atelier au <strong>06 63 21 63 50</strong> ou via notre <a href="../rendez-vous.html">formulaire de prise de rendez-vous</a>.</p>
+`
   }
 ];
