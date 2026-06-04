@@ -34,7 +34,7 @@ module.exports = [
     cover: COVERS.hydrogene,
     coverAlt: 'Moteur diesel ouvert pour décalaminage hydrogène',
     datePublished: '2026-04-12',
-    dateModified: '2026-05-01',
+    dateModified: '2026-06-04',
     readTime: 9,
     related: ['nettoyage-fap-methodes-comparees', 'reprogrammation-moteur-stage-1-tout-savoir', 'voiture-consomme-trop-12-raisons'],
     content: `
@@ -173,7 +173,7 @@ module.exports = [
     cover: COVERS.fap,
     coverAlt: 'Filtre à particules diesel démonté',
     datePublished: '2026-04-15',
-    dateModified: '2026-05-02',
+    dateModified: '2026-06-04',
     readTime: 8,
     related: ['decalaminage-hydrogene-guide-complet', 'voyant-moteur-orange-8-causes', 'fap-nettoyage-vs-remplacement'],
     content: `
@@ -264,7 +264,7 @@ module.exports = [
     cover: COVERS.reprog,
     coverAlt: 'Banc de reprogrammation moteur en atelier',
     datePublished: '2026-04-18',
-    dateModified: '2026-05-03',
+    dateModified: '2026-06-04',
     readTime: 10,
     related: ['stage-1-vs-stage-2', 'voiture-consomme-trop-12-raisons', 'decalaminage-hydrogene-guide-complet'],
     content: `
@@ -390,7 +390,7 @@ module.exports = [
     category: 'Anti-pollution',
     cover: COVERS.workshop,
     coverAlt: 'Réservoir AdBlue véhicule diesel',
-    datePublished: '2026-04-20', dateModified: '2026-05-04', readTime: 7,
+    datePublished: '2026-04-20', dateModified: '2026-06-04', readTime: 7,
     related: ['decalaminage-hydrogene-guide-complet', 'voyant-moteur-orange-8-causes', 'controle-anti-pollution-passer-sans-stress'],
     content: `
 <p>Depuis 2015, la quasi-totalité des diesels neufs sont équipés d'un système <strong>SCR (Selective Catalytic Reduction)</strong> qui injecte de l'AdBlue dans la ligne d'échappement pour neutraliser les oxydes d'azote (NOx). Excellente idée écologique, mais la fiabilité de ces systèmes laisse à désirer. Décryptage des pannes courantes et des solutions.</p>
@@ -456,7 +456,7 @@ module.exports = [
     category: 'Anti-pollution',
     cover: COVERS.diagnostic,
     coverAlt: 'Vanne EGR démontée pour nettoyage',
-    datePublished: '2026-04-22', dateModified: '2026-05-05', readTime: 7,
+    datePublished: '2026-04-22', dateModified: '2026-06-04', readTime: 7,
     related: ['decalaminage-hydrogene-guide-complet', 'voyant-moteur-orange-8-causes', 'fumee-noire-echappement'],
     content: `
 <p>La <strong>vanne EGR</strong> (Exhaust Gas Recirculation) est l'un des composants anti-pollution les plus problématiques des moteurs modernes. Encrassement, blocage, panne électrique : les symptômes sont nombreux et les solutions varient de 50€ (additif) à 800€ (remplacement). Voici comment trier les vraies solutions des fausses bonnes idées.</p>
@@ -535,7 +535,7 @@ module.exports = [
     category: 'Diagnostic',
     cover: COVERS.diagnostic,
     coverAlt: 'Tableau de bord avec voyant moteur allumé',
-    datePublished: '2026-04-24', dateModified: '2026-05-06', readTime: 6,
+    datePublished: '2026-04-24', dateModified: '2026-06-04', readTime: 6,
     related: ['voiture-consomme-trop-12-raisons', 'fumee-noire-echappement', 'vanne-egr-symptomes-prix'],
     content: `
 <p>Le voyant moteur orange qui s'allume brutalement sur le tableau de bord est l'un des plus stressants pour l'automobiliste. Bonne nouvelle : dans 80% des cas, ce n'est pas une catastrophe. Voici les <strong>8 causes les plus fréquentes</strong> avec leur coût de réparation moyen en 2026.</p>
@@ -587,7 +587,7 @@ module.exports = [
     metaDesc: "12 causes de surconsommation auto : encrassement, FAP, sondes, pneus, conduite. Diagnostic et solutions chiffrées 2026.",
     keywords: 'voiture consomme trop, surconsommation auto, économiser carburant, causes surconsommation diesel, conso élevée',
     category: 'Diagnostic', cover: COVERS.diag2, coverAlt: 'Compteur consommation voiture',
-    datePublished: '2026-04-26', dateModified: '2026-05-06', readTime: 7,
+    datePublished: '2026-04-26', dateModified: '2026-06-04', readTime: 7,
     related: ['voyant-moteur-orange-8-causes', 'decalaminage-hydrogene-guide-complet', 'economiser-1000-euros-an-entretien'],
     content: `
 <p>Si votre véhicule consomme soudainement plus qu'avant, ce n'est pas une fatalité. Voici les <strong>12 causes les plus courantes</strong> de surconsommation, avec l'impact chiffré et la solution adaptée.</p>
@@ -642,7 +642,7 @@ module.exports = [
     metaDesc: "Fumée noire à l'échappement : causes principales (FAP, EGR, injecteurs, turbo), solutions et tarifs réels en 2026.",
     keywords: 'fumée noire échappement, voiture fume noir, diesel fume, causes fumée noire, problème combustion',
     category: 'Diagnostic', cover: COVERS.fap, coverAlt: 'Pot d\'échappement diesel avec fumée',
-    datePublished: '2026-04-28', dateModified: '2026-05-06', readTime: 5,
+    datePublished: '2026-04-28', dateModified: '2026-06-04', readTime: 5,
     related: ['voyant-moteur-orange-8-causes', 'nettoyage-fap-methodes-comparees', 'controle-anti-pollution-passer-sans-stress'],
     content: `
 <p>De la fumée noire qui sort de votre échappement à l'accélération ? Sur diesel comme sur essence, c'est le signe d'une <strong>combustion incomplète</strong>. Pas de panique : c'est rarement urgent, mais ne tardez pas à traiter pour éviter des dégâts plus graves et des problèmes au contrôle technique.</p>
@@ -685,7 +685,7 @@ module.exports = [
     metaDesc: "Distribution courroie ou chaîne : fréquence remplacement, coût kit complet, signes d'usure. Le guide pratique 2026.",
     keywords: 'distribution moteur, courroie distribution, chaîne distribution, kit distribution prix, remplacement distribution',
     category: 'Mécanique', cover: COVERS.workshop, coverAlt: 'Kit de distribution moteur',
-    datePublished: '2026-04-30', dateModified: '2026-05-06', readTime: 6,
+    datePublished: '2026-04-30', dateModified: '2026-06-04', readTime: 6,
     related: ['plaquettes-frein-signes-usure', 'embrayage-signes-usure', 'economiser-1000-euros-an-entretien'],
     content: `
 <p>La distribution est la pièce mécanique <strong>la plus critique</strong> de votre moteur. Si elle casse, le moteur s'arrête net, les soupapes percutent les pistons, et les dégâts atteignent <strong>3 000 à 8 000€</strong> selon le véhicule. Voici comment anticiper son remplacement intelligemment.</p>
@@ -738,7 +738,7 @@ module.exports = [
     metaDesc: "5 signes d'usure des plaquettes de frein : grincement, vibrations, voyant. Tarif remplacement plaquettes + disques 2026.",
     keywords: 'plaquettes frein usées, changement plaquettes, prix plaquettes frein, signes usure frein, disques frein',
     category: 'Mécanique', cover: COVERS.service, coverAlt: 'Plaquettes de frein neuves vs usées',
-    datePublished: '2026-05-01', dateModified: '2026-05-06', readTime: 5,
+    datePublished: '2026-05-01', dateModified: '2026-06-04', readTime: 5,
     related: ['distribution-moteur-quand-changer', 'embrayage-signes-usure', 'economiser-1000-euros-an-entretien'],
     content: `
 <p>Les plaquettes de frein sont l'organe d'usure le plus critique pour votre sécurité. Voici les <strong>5 signes</strong> qui imposent leur remplacement, et les tarifs réels en 2026 pour ne pas vous faire avoir.</p>
@@ -796,7 +796,7 @@ module.exports = [
     metaDesc: "FAP saturé : nettoyage ou remplacement ? Comparatif coût, durée de vie, fiabilité. Le vrai calcul pour faire le bon choix.",
     keywords: 'FAP nettoyage ou remplacement, prix remplacement FAP, durée vie FAP régénéré, alternative remplacement FAP',
     category: 'Comparatif', cover: COVERS.fap, coverAlt: 'FAP démonté pour nettoyage',
-    datePublished: '2026-05-02', dateModified: '2026-05-06', readTime: 6,
+    datePublished: '2026-05-02', dateModified: '2026-06-04', readTime: 6,
     related: ['nettoyage-fap-methodes-comparees', 'decalaminage-hydrogene-guide-complet', 'economiser-1000-euros-an-entretien'],
     content: `
 <p>Votre FAP est saturé, le concessionnaire propose un remplacement à 2 200€, votre voisin parle de "nettoyage" à 300€. Lequel choisir ? Voici le calcul économique honnête, sans biais commercial.</p>
@@ -845,7 +845,7 @@ module.exports = [
     metaDesc: "Garage indépendant ou concessionnaire : comparatif des prix, qualité, garanties, pièces. Le guide pour faire le bon choix en 2026.",
     keywords: 'garage indépendant vs concession, prix concession voiture, qualité garage indépendant, pièces OEM, garantie garage',
     category: 'Comparatif', cover: COVERS.garage, coverAlt: 'Atelier garage automobile indépendant',
-    datePublished: '2026-05-03', dateModified: '2026-05-06', readTime: 7,
+    datePublished: '2026-05-03', dateModified: '2026-06-04', readTime: 7,
     related: ['economiser-1000-euros-an-entretien', 'nettoyage-fap-methodes-comparees', 'reprogrammation-moteur-stage-1-tout-savoir'],
     content: `
 <p>"-30 à -40% chez le garage indépendant" : argument marketing répété mais souvent peu vérifié. Voici un comparatif honnête, basé sur des devis réels collectés sur 50+ prestations courantes en 2026.</p>
@@ -936,7 +936,7 @@ module.exports = [
     metaDesc: "Reprogrammation Stage 1 vs Stage 2 : différences techniques, gains, coûts, fiabilité. Pour qui chaque option est adaptée.",
     keywords: 'Stage 1 vs Stage 2, reprogrammation comparatif, choix Stage reprog, downpipe intercooler, gain Stage 2',
     category: 'Comparatif', cover: COVERS.reprog, coverAlt: 'Reprogrammation moteur sur banc',
-    datePublished: '2026-05-04', dateModified: '2026-05-06', readTime: 6,
+    datePublished: '2026-05-04', dateModified: '2026-06-04', readTime: 6,
     related: ['reprogrammation-moteur-stage-1-tout-savoir', 'voiture-consomme-trop-12-raisons', 'decalaminage-hydrogene-guide-complet'],
     content: `
 <p>Reprogrammation Stage 1 ou Stage 2 ? La question divise les passionnés. Voici un comparatif factuel pour choisir selon votre profil et votre usage.</p>
@@ -991,7 +991,7 @@ module.exports = [
     metaDesc: "Contrôle technique anti-pollution diesel : préparation, points contrôlés, solutions en cas d'échec. Le guide pratique 2026.",
     keywords: 'contrôle technique pollution, CT anti-pollution diesel, passer contrôle pollution, contre-visite pollution, opacité fumées',
     category: 'Anti-pollution', cover: COVERS.diag2, coverAlt: 'Contrôle technique automobile',
-    datePublished: '2026-05-05', dateModified: '2026-05-06', readTime: 6,
+    datePublished: '2026-05-05', dateModified: '2026-06-04', readTime: 6,
     related: ['decalaminage-hydrogene-guide-complet', 'nettoyage-fap-methodes-comparees', 'fumee-noire-echappement'],
     content: `
 <p>Depuis le renforcement des contrôles anti-pollution en 2018, le contrôle technique fait peur aux propriétaires de diesels. Voici les 7 actions qui maximisent vos chances de passer du premier coup.</p>
@@ -1052,7 +1052,7 @@ module.exports = [
     metaDesc: "8 stratégies pour économiser sur l'entretien auto en 2026 : choix du garage, anticipation, prévention, conduite. Guide pratique.",
     keywords: 'économiser entretien auto, baisser facture garage, prévention auto, conduite économique, conseils entretien',
     category: 'Conseils', cover: COVERS.service, coverAlt: 'Tirelire et clés de voiture',
-    datePublished: '2026-05-05', dateModified: '2026-05-06', readTime: 6,
+    datePublished: '2026-05-05', dateModified: '2026-06-04', readTime: 6,
     related: ['voiture-consomme-trop-12-raisons', 'garage-independant-vs-concession', 'plaquettes-frein-signes-usure'],
     content: `
 <p>L'entretien auto coûte en moyenne <strong>1 200€/an</strong> par véhicule en France (source ACA). Voici 8 stratégies concrètes pour réduire cette facture jusqu'à 50%, sans sacrifier la fiabilité.</p>
@@ -1105,7 +1105,7 @@ module.exports = [
     metaDesc: "ZFE Marseille 2026 : véhicules concernés, calendrier, solutions techniques (Crit'Air, anti-pollution). Guide pratique.",
     keywords: 'ZFE Marseille, zone faibles émissions, Crit\'Air Marseille, restriction circulation Marseille, ZFE 2026',
     category: 'Actualité', cover: COVERS.diag2, coverAlt: 'Centre-ville de Marseille',
-    datePublished: '2026-05-06', dateModified: '2026-05-06', readTime: 6,
+    datePublished: '2026-05-06', dateModified: '2026-06-04', readTime: 6,
     related: ['controle-anti-pollution-passer-sans-stress', 'decalaminage-hydrogene-guide-complet', 'nettoyage-fap-methodes-comparees'],
     content: `
 <p>La <strong>Zone à Faibles Émissions (ZFE)</strong> de la métropole Aix-Marseille-Provence se déploie progressivement depuis 2022. En 2026, de nouvelles restrictions entrent en vigueur. Voici ce qui change pour les automobilistes marseillais et de la région.</p>
@@ -1176,7 +1176,7 @@ module.exports = [
     metaDesc: "L'hydrogène en mécanique automobile : décarbonisation moteur, principe HHO, avantages écologiques. Le guide technique 2026.",
     keywords: 'hydrogène mécanique, HHO décalaminage, technologie nettoyage moteur, oxy-hydrogène auto, décarbonisation écologique',
     category: 'Technologie', cover: COVERS.hydrogene, coverAlt: 'Moteur en cours de décalaminage hydrogène',
-    datePublished: '2026-05-06', dateModified: '2026-05-06', readTime: 6,
+    datePublished: '2026-05-06', dateModified: '2026-06-04', readTime: 6,
     related: ['decalaminage-hydrogene-guide-complet', 'nettoyage-fap-methodes-comparees', 'controle-anti-pollution-passer-sans-stress'],
     content: `
 <p>L'<strong>hydrogène (H₂)</strong> est partout dans l'actualité automobile : voitures à pile à combustible, carburant du futur, vecteur énergétique. Mais saviez-vous qu'il a aussi révolutionné silencieusement <strong>l'entretien des moteurs thermiques classiques</strong> via le décalaminage ? Décryptage de cette technologie.</p>
@@ -1246,7 +1246,7 @@ module.exports = [
     metaDesc: "5 signes d'embrayage usé, prix de remplacement kit complet 2026, durée de vie. Le guide pratique pour conducteurs de boîte manuelle.",
     keywords: 'embrayage usé signes, prix remplacement embrayage, kit embrayage tarif, embrayage qui patine, durée vie embrayage',
     category: 'Mécanique', cover: COVERS.workshop, coverAlt: 'Kit d\'embrayage neuf',
-    datePublished: '2026-05-06', dateModified: '2026-05-06', readTime: 5,
+    datePublished: '2026-05-06', dateModified: '2026-06-04', readTime: 5,
     related: ['plaquettes-frein-signes-usure', 'distribution-moteur-quand-changer', 'voiture-consomme-trop-12-raisons'],
     content: `
 <p>L'embrayage est une pièce d'usure majeure des véhicules à boîte manuelle. Reconnaître ses signes de fin de vie permet d'<strong>anticiper le remplacement avant l'immobilisation totale</strong>. Voici les 5 signes à surveiller et les coûts en 2026.</p>
@@ -1314,7 +1314,7 @@ module.exports = [
     metaDesc: "Calibrage ADAS après remplacement pare-brise : pourquoi c'est obligatoire, méthodes (statique/dynamique), tarifs.",
     keywords: 'calibrage ADAS, ADAS pare-brise, recalibrage caméra voiture, freinage urgence calibrage, ACC régulateur',
     category: 'Technologie', cover: COVERS.body, coverAlt: 'Caméras ADAS dans pare-brise',
-    datePublished: '2026-05-06', dateModified: '2026-05-06', readTime: 5,
+    datePublished: '2026-05-06', dateModified: '2026-06-04', readTime: 5,
     related: ['voyant-moteur-orange-8-causes', 'fap-nettoyage-vs-remplacement', 'garage-independant-vs-concession'],
     content: `
 <p>Vous remplacez votre pare-brise pour 350€ et le centre vous parle de "calibrage ADAS" en supplément à 200€ ? Ce n'est pas une arnaque : c'est <strong>obligatoire et critique pour votre sécurité</strong>. Voici pourquoi.</p>
@@ -1381,7 +1381,7 @@ module.exports = [
     metaDesc: "Garage Boost à Plan-de-Cuques : histoire, équipe, philosophie, services. Pourquoi nous sommes le garage automobile de référence à Marseille.",
     keywords: 'garage Plan-de-Cuques, garage Marseille équipe, histoire Garage Boost, mécanicien Marseille avis, atelier Plan-de-Cuques',
     category: 'À propos', cover: COVERS.garage, coverAlt: 'Atelier Garage Boost Plan-de-Cuques',
-    datePublished: '2026-05-06', dateModified: '2026-05-06', readTime: 5,
+    datePublished: '2026-05-06', dateModified: '2026-06-04', readTime: 5,
     related: ['garage-independant-vs-concession', 'reprogrammation-moteur-stage-1-tout-savoir', 'decalaminage-hydrogene-guide-complet'],
     content: `
 <p>Si vous lisez cet article, c'est probablement que vous cherchez à mieux comprendre <strong>qui se cache derrière Garage Boost</strong>. Voici notre histoire, notre équipe et notre philosophie, sans langue de bois.</p>

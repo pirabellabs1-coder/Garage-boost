@@ -9,6 +9,8 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const TEMPLATE = fs.readFileSync(path.join(__dirname, 'article-template.html'), 'utf8');
 const articles = require('./articles.js');
+const FAQ = require('./article-faq.js');
+const EXTRA = require('./article-extra.js');
 
 // =====================================================================
 // Helpers réutilisés dans l'appendice
@@ -93,222 +95,14 @@ const CATEGORY_MAP = {
   }
 };
 
-// Génère un appendice riche (1500-1800 mots) adapté à chaque article
+// Appendice court : CTA service ciblé + FAQ propre à l'article (anti-duplicate)
 function buildAppendix(article) {
   const cat = CATEGORY_MAP[article.category] || CATEGORY_MAP['Conseils'];
-  const slug = article.slug;
-  const title = article.title;
-
-  return `
-
-${fig(cat.img, cat.imgCaption)}
-
-<h2>L'expertise Garage Boost sur cette thématique</h2>
-
-<p>
-Cet article fait partie de notre série technique consacrée à la <strong>compréhension automobile pour les
-propriétaires</strong>. Notre équipe de Plan-de-Cuques traite quotidiennement des cas concrets liés à ce sujet —
-plus de <strong>5 000 véhicules</strong> sont passés dans notre atelier depuis 2015, ce qui nous donne un retour
-d'expérience tangible que nous partageons dans nos articles. Contrairement à beaucoup de blogs auto qui se
-contentent de répéter les fiches techniques constructeurs, nous croisons systématiquement la théorie avec ce
-que nous observons sur les véhicules réels qui passent chez nous.
-</p>
-
-<p>
-Cette approche pragmatique nous permet de vous donner des <strong>chiffres réels du marché 2026</strong> :
-tarifs pratiqués actuellement par les concessionnaires versus ateliers indépendants sérieux, taux de réussite
-réels des interventions selon les méthodes, durée de vie effective des composants, retours clients sur les
-problématiques courantes. Aucun discours commercial maquillé en conseil : juste de l'information vérifiée et
-utile pour prendre les bonnes décisions concernant votre véhicule.
-</p>
-
-${ctaBox('wrench', cat.serviceTitle, cat.serviceDesc, cat.servicePage, cat.btnText)}
-
-<h2>Pourquoi anticiper plutôt que subir</h2>
-
-<p>
-Une règle empirique observée sur des milliers de véhicules : <strong>chaque euro investi en entretien préventif
-permet d'économiser 4 à 8 euros</strong> en réparations curatives. Le décalaminage à 100€ évite la casse d'un
-turbo à 1 500€. La distribution remplacée à temps (700€) prévient le moteur HS à 5 000€. Le diagnostic à 49€
-identifie une panne mineure avant qu'elle devienne un sinistre majeur. C'est cette logique d'anticipation qui
-fait la différence entre un véhicule qui dure 250 000 km sans drame et un véhicule qui multiplie les pannes
-coûteuses dès 120 000 km.
-</p>
-
-<p>
-Le piège classique : ignorer un voyant orange parce que "la voiture roule encore". Ce voyant signale que le
-calculateur a détecté quelque chose qui ne va pas. Non traitée, cette anomalie évolue presque toujours vers
-quelque chose de plus grave et plus coûteux. Un capteur lambda à 200€ ignoré devient un catalyseur HS à
-1 500€ quelques mois plus tard. Une vanne EGR à nettoyer pour 250€ devient un turbo encrassé à 1 200€. La
-liste est longue. Anticiper coûte toujours moins cher que réparer.
-</p>
-
-<h2>Méfiez-vous des solutions miracles</h2>
-
-<p>
-Internet regorge de "solutions miracles" pour les problèmes automobiles : additifs à 30€ qui prétendent
-remplacer un nettoyage FAP, produits "magiques" qui éliminent toute la calamine en un plein, vidéos YouTube
-expliquant comment "réparer son embrayage soi-même". <strong>Méfiance absolue</strong>. La mécanique moderne
-est une discipline technique exigeante qui nécessite outillage professionnel, formation continue et expérience
-terrain. Les bricolages amateurs ou les pseudo-solutions chimiques sont au mieux inefficaces, au pire
-destructeurs pour votre moteur.
-</p>
-
-<p>
-Cela ne veut pas dire qu'il faut accepter tous les devis comme paroles d'évangile. Au contraire :
-<strong>demandez plusieurs avis</strong>, comparez les diagnostics, lisez les compte-rendus, vérifiez les
-références des pièces utilisées (Bosch, Valeo, Delphi, Continental sont des gages de qualité). Un bon
-mécanicien explique ce qu'il va faire, justifie chaque ligne du devis, et propose plusieurs options quand
-elles existent. Si vous sentez qu'on vous cache quelque chose, changez d'atelier.
-</p>
-
-${fig('/assets/img/1607706189992-eae578626c86.webp', "Diagnostic professionnel sur véhicule moderne")}
-
-<h2>Les bons gestes au quotidien</h2>
-
-<p>
-Au-delà des interventions ponctuelles, votre véhicule bénéficie énormément de quelques <strong>bonnes
-habitudes simples</strong> qui prolongent significativement sa durée de vie :
-</p>
-
-<ul>
-<li><strong>Vérifier la pression des pneus une fois par mois</strong>. Une sous-pression de 0,5 bar augmente
-la consommation de 0,3 à 0,5 L/100 km et accélère l'usure des pneus de 30%. C'est gratuit et ça prend 5 minutes.</li>
-<li><strong>Faire une trentaine de minutes d'autoroute par mois minimum</strong>. Cela permet la régénération
-naturelle du FAP, le rinçage du système d'huile, le maintien en charge de la batterie, le séchage des freins.</li>
-<li><strong>Respecter les vidanges à l'intervalle préconisé</strong>. Une huile dégradée pollue le moteur,
-encrasse le FAP, fatigue le turbo. C'est l'investissement le plus rentable de l'entretien.</li>
-<li><strong>Réagir au moindre voyant orange</strong>. Un diagnostic à 49€ peut éviter 1 000€ de réparation
-quelques mois plus tard. Ne jamais ignorer.</li>
-<li><strong>Éviter la conduite à froid agressive</strong>. Un moteur froid mérite quelques minutes de roulage
-modéré avant les hauts régimes. C'est valable hiver comme été.</li>
-<li><strong>Tenir un carnet d'entretien à jour</strong>. Cela vous donne l'historique exact pour les revisions,
-les diagnostics et la revente future du véhicule.</li>
-</ul>
-
-${ctaBox('phone', 'Notre équipe à votre disposition', "Une question pratique sur votre véhicule ? Notre équipe technique répond personnellement par téléphone, WhatsApp ou en atelier. Réponse sous 24h ouvrées garantie.", 'contact.html', 'Poser une question')}
-
-<h2>Pourquoi nous lire jusqu'au bout</h2>
-
-<p>
-Si vous êtes arrivé jusqu'ici, c'est que ce sujet vous intéresse vraiment. Notre objectif avec ce blog n'est
-pas de générer du trafic à tout prix, mais de vous donner les <strong>vraies clés de compréhension</strong>
-de votre véhicule. Un client informé prend de meilleures décisions, anticipe mieux ses budgets, évite les
-arnaques. C'est gagnant pour vous, et c'est aussi gagnant pour nous : nos meilleurs clients sont ceux qui
-comprennent ce qu'on fait et pourquoi on le fait.
-</p>
-
-<p>
-Nous mettons à jour régulièrement nos articles avec les nouvelles données du marché, les évolutions
-réglementaires (ZFE, normes Euro, contrôle technique), les retours d'expérience récents. Si vous voulez
-rester informé, ajoutez notre <a href="../blog.html">blog en favori</a> ou consultez-le périodiquement.
-Les articles les plus récents et les plus mis à jour sont signalés par leur date dans la liste.
-</p>
-
-<h2>Garage Boost à Plan-de-Cuques (13380)</h2>
-
-<p>
-Notre atelier est situé au <strong>1 Avenue des Pères Blancs, 13380 Plan-de-Cuques</strong>, à 15 minutes du
-centre de Marseille. Nous accueillons les véhicules de toute la métropole Aix-Marseille-Provence (Marseille,
-Aubagne, La Ciotat, Cassis, Vitrolles, Marignane, Aix-en-Provence, Salon-de-Provence, et plus). Pour les
-véhicules immobilisés, nous proposons un service de récupération à domicile dans toute la zone — offert
-au-delà de 200€ d'intervention validée.
-</p>
-
-<p>
-<strong>Horaires</strong> : lundi à samedi, 8h à 19h sans interruption. Le service de dépannage et remorquage
-reste actif 7 jours sur 7, y compris dimanches et jours fériés. <strong>Téléphone</strong> :
-<a href="tel:+33663216350">06 63 21 63 50</a>. <strong>WhatsApp</strong> :
-<a href="https://wa.me/33663216350" target="_blank" rel="noopener">discutez avec un mécanicien</a>.
-<strong>Email</strong> : <a href="mailto:masgarage7@gmail.com">masgarage7@gmail.com</a>. Note moyenne sur
-Google : <strong>4,9/5</strong> sur 127+ avis vérifiés. Toutes nos prestations bénéficient d'une garantie
-12 mois pièces et main-d'œuvre (24 mois pour les reprogrammations moteur).
-</p>
-
-${ctaBox('calendar-check', "Prendre rendez-vous en 2 minutes", "Formulaire en ligne disponible 24h/24. Confirmation officielle sous 2 heures ouvrées avec date, heure, durée estimée et fourchette tarifaire.", 'rendez-vous.html', 'Réserver mon créneau')}
-
-<h2>Questions fréquentes sur ce sujet</h2>
-
-<h3>Combien coûte une intervention de ce type chez Garage Boost ?</h3>
-<p>
-Nos tarifs sont systématiquement <strong>30 à 40% inférieurs aux prix concession</strong> à qualité équivalente.
-Cette différence vient de notre structure légère (pas de showroom, pas de force commerciale) et de nos contrats
-directs avec les fournisseurs OEM (Bosch, Valeo, Delphi, Continental). Pour le détail tarifaire complet de toutes
-nos prestations, consultez notre <a href="../tarifs.html">grille tarifaire</a> ou demandez un devis personnalisé
-sous 24h ouvrées via notre <a href="../rendez-vous.html">formulaire de prise de rendez-vous</a>.
-</p>
-
-<h3>Quelle est la durée d'immobilisation typique ?</h3>
-<p>
-Pour la majorité de nos prestations courantes, l'immobilisation reste <strong>limitée à une journée ou moins</strong> :
-diagnostic électronique 30-90 min, vidange 1h, plaquettes 1-2h, décalaminage hydrogène 60-90 min, reprogrammation 2-4h.
-Pour les opérations plus lourdes (distribution, embrayage, peinture complète, démontage FAP), comptez 1 à 2 jours.
-Pour les véhicules de location ou de prêt en cas d'immobilisation prolongée, consultez notre
-<a href="../location.html">page location de véhicules</a>.
-</p>
-
-<h3>Travaillez-vous toutes les marques ?</h3>
-<p>
-Oui, sans exception : <strong>Renault, Peugeot, Citroën, Volkswagen, Audi, BMW, Mercedes, Ford, Opel, Fiat, Toyota,
-Honda, Nissan, Hyundai, Kia, Mazda, Volvo, Skoda, Seat, Dacia, Mini, Land Rover, Jeep, Porsche</strong> et plus.
-Toutes motorisations également : essence atmo et turbo, diesel HDi/TDI/CDI/dCi, hybride léger ou rechargeable.
-Sur les véhicules 100% électriques, nous traitons les périphériques (climatisation, freinage régénératif,
-capteurs ADAS) mais renvoyons sur des spécialistes habilités haute tension pour la batterie principale.
-</p>
-
-<h3>Avez-vous une garantie sur vos interventions ?</h3>
-<p>
-Toutes nos prestations sont garanties <strong>12 mois pièces et main-d'œuvre minimum</strong>. Les reprogrammations
-moteur bénéficient d'une garantie étendue de 24 mois. Cette garantie couvre tout défaut lié à notre intervention
-pendant la période concernée — la reprise est gratuite et prioritaire. Vous recevez systématiquement une attestation
-de garantie écrite avec votre facture, conforme aux normes professionnelles françaises.
-</p>
-
-<h3>Quelles sont les zones que vous desservez ?</h3>
-<p>
-Notre atelier de Plan-de-Cuques accueille les véhicules de toute la métropole Aix-Marseille-Provence et au-delà.
-Nous avons des pages dédiées pour chaque <a href="../villes.html">ville desservie</a> : Marseille, Plan-de-Cuques,
-Allauch, Aubagne, La Ciotat, Cassis, Septèmes-les-Vallons, Pennes-Mirabeau, Vitrolles, Marignane, Cabriès,
-Bouc-Bel-Air, Gardanne, Aix-en-Provence, Salon-de-Provence, Martigues, Saint-Maximin-la-Sainte-Baume, Toulon,
-Istres et plus. Pour les véhicules immobilisés, notre <strong>service de récupération à domicile</strong>
-intervient dans toute la zone (offert au-delà de 200€ d'intervention validée).
-</p>
-
-<h2>Pour conclure</h2>
-
-<p>
-Nous espérons que cet article vous a apporté des réponses concrètes et utiles. La mécanique automobile
-moderne peut sembler complexe, mais elle reste accessible quand on prend le temps de l'expliquer
-clairement, sans jargon inutile. C'est notre pari éditorial chez Garage Boost : <strong>vulgariser sans
-simplifier à outrance</strong>, donner les vrais chiffres du marché, partager les retours d'expérience
-terrain plutôt que recopier les fiches commerciales constructeurs.
-</p>
-
-<p>
-Si vous avez trouvé cet article utile, n'hésitez pas à le partager autour de vous — sur les forums
-automobile, les groupes Facebook locaux marseillais, à votre famille ou vos collègues qui se posent
-les mêmes questions. Le partage est ce qui nous permet de continuer à publier régulièrement du contenu
-pédagogique de qualité, sans publicité intrusive ni placement de produits déguisés. Notre modèle
-repose entièrement sur la satisfaction client et le bouche-à-oreille positif depuis nos débuts en 2015.
-</p>
-
-<p>
-Pour rester informé de nos prochains articles, ajoutez notre <a href="../blog.html">blog en favori</a>
-ou consultez périodiquement la rubrique. Nous publions des nouveaux contenus régulièrement et mettons
-à jour les articles existants quand le marché évolue (nouveaux tarifs, nouvelles réglementations,
-nouvelles techniques). Pour toute question pratique sur votre véhicule à <strong>Plan-de-Cuques,
-Marseille ou ailleurs en région PACA</strong>, notre équipe reste joignable au
-<a href="tel:+33663216350">06 63 21 63 50</a> ou via notre <a href="../contact.html">page contact</a>.
-À très bientôt à l'atelier de Plan-de-Cuques, et bonne route avec votre véhicule en pleine forme grâce à un
-entretien rigoureux et bien anticipé. Nous restons disponibles pour toute question complémentaire que vous
-pourriez avoir suite à la lecture de cet article — un mécanicien spécialisé répond personnellement à chaque
-demande, sans intermédiaire commercial ni standard téléphonique automatisé. Notre équipe technique cumule plus
-de dix années d'expérience sur les motorisations modernes et reste continuellement formée aux évolutions du
-secteur, pour vous garantir un conseil pertinent quel que soit votre véhicule et votre situation particulière. Cette
-exigence de mise à jour permanente est ce qui distingue un atelier indépendant sérieux d'une simple boutique
-de réparation : la mécanique automobile évolue chaque année, et nos techniciens évoluent avec elle.
-</p>
-`;
+  let html = '\n\n' + ctaBox('wrench', cat.serviceTitle, cat.serviceDesc, cat.servicePage, cat.btnText);
+  if (article.faq && article.faq.length) {
+    html += '\n\n<h2>Questions fréquentes</h2>\n' + article.faq.map(function (f) { return '<h3>' + f.q + '</h3>\n<p>' + f.a + '</p>'; }).join('\n');
+  }
+  return html;
 }
 
 function render(template, vars) {
@@ -359,8 +153,15 @@ let generated = 0;
 const summary = [];
 
 for (const article of articles) {
-  const fullContent = article.content + buildAppendix(article);
+  article.faq = article.faq || FAQ[article.slug] || [];
+  const fullContent = article.content + (EXTRA[article.slug] || '') + buildAppendix(article);
   const wordCount = countWords(fullContent);
+  const faqSchema = article.faq.length
+    ? '<script type="application/ld+json">' + JSON.stringify({
+        '@context': 'https://schema.org', '@type': 'FAQPage',
+        mainEntity: article.faq.map(function (f) { return { '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }; })
+      }) + '</script>'
+    : '';
 
   const html = render(TEMPLATE, {
     slug: article.slug,
@@ -376,6 +177,7 @@ for (const article of articles) {
     readTime: article.readTime,
     wordCount: wordCount,
     contentHTML: fullContent,
+    faqSchema: faqSchema,
     relatedHTML: buildRelated(article.related, article.slug)
   });
 
