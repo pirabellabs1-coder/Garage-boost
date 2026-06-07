@@ -97,6 +97,27 @@ Allow: /
 
 User-agent: cohere-ai
 Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: YouBot
+Allow: /
 `;
 fs.writeFileSync(path.join(ROOT, 'robots.txt'), robots);
 console.log(`✓ robots.txt généré`);

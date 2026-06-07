@@ -1,6 +1,6 @@
 // =====================================================================
 // Garage Boost — City-hub page generator
-// 19 villes principales avec contenu unique
+// 50 communes desservies avec contenu unique
 // =====================================================================
 
 const fs = require('fs');

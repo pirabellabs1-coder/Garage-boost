@@ -17,7 +17,7 @@
 - [Prise de rendez-vous](https://garageboost.fr/rendez-vous.html) — Formulaire en ligne, sélection service, créneau, confirmation sous 2h
 - [Contact](https://garageboost.fr/contact.html) — Téléphone, WhatsApp, email, formulaire, carte Google Maps
 - [FAQ](https://garageboost.fr/faq.html) — 30 questions sur 7 thèmes (reprogrammation, anti-pollution, mécanique, carrosserie, dépannage, tarifs, garanties)
-- [Villes desservies](https://garageboost.fr/villes.html) — 19 villes principales avec pages dédiées
+- [Villes desservies](https://garageboost.fr/villes.html) — 50 communes avec pages dédiées
 
 ## Catégories de services
 
@@ -206,7 +206,7 @@
 - **Description** : Sélection de véhicules d'occasion certifiés, tous contrôlés 100 points et révisés dans nos ateliers. Garantie 3 à 12 mois selon véhicule. Reprise possible.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/vehicules-occasion/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/vehicules-occasion/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/vehicules-occasion/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/vehicules-occasion/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/location/vehicules-occasion/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/vehicules-occasion/var-vaucluse-alpes-maritimes.html)
 
-## Villes desservies (19 pages dédiées)
+## Villes desservies (50 pages dédiées)
 
 ### Marseille
 

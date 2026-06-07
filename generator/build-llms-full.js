@@ -31,7 +31,7 @@ const mainPages = [
   { url: '/rendez-vous.html', title: 'Prise de rendez-vous', desc: 'Formulaire en ligne, sélection service, créneau, confirmation sous 2h' },
   { url: '/contact.html', title: 'Contact', desc: 'Téléphone, WhatsApp, email, formulaire, carte Google Maps' },
   { url: '/faq.html', title: 'FAQ', desc: '30 questions sur 7 thèmes (reprogrammation, anti-pollution, mécanique, carrosserie, dépannage, tarifs, garanties)' },
-  { url: '/villes.html', title: 'Villes desservies', desc: '19 villes principales avec pages dédiées' }
+  { url: '/villes.html', title: 'Villes desservies', desc: `${cities.length} communes avec pages dédiées` }
 ];
 
 mainPages.forEach(p => {
@@ -61,7 +61,7 @@ for (const [catSlug, cat] of Object.entries(data.categories)) {
   }
 }
 
-out += '## Villes desservies (19 pages dédiées)\n\n';
+out += `## Villes desservies (${cities.length} pages dédiées)\n\n`;
 for (const city of cities) {
   out += `### ${city.name}\n\n`;
   out += `- **URL** : ${BASE}/villes/${city.slug}.html\n`;

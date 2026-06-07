@@ -1,5 +1,5 @@
 // =====================================================================
-// 19 villes principales — pages ville-hub
+// 50 communes desservies — pages ville-hub
 // Chaque ville a un contenu unique pour éviter le duplicate content
 // =====================================================================
 
