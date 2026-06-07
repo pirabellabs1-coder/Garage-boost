@@ -488,6 +488,126 @@
 - **Quartiers desservis** : Centre-ville, Les Barjaquets, Le Pélican, Sainte-Anne
 - **Services les plus demandés** : utilitaires, depannage-remorquage, nettoyage-fap, mecanique-generale
 
+### Roquefort-la-Bédoule
+
+- **URL** : https://garageboost.fr/villes/roquefort-la-bedoule.html
+- **Population** : 5 500 habitants
+- **Distance** : 20 km (25 minutes)
+- **Quartiers desservis** : Centre-village, La Bédoule, Les Hauts du Caroux, Le Rouet
+- **Services les plus demandés** : mecanique-generale, pare-brise, carrosserie-auto, depannage-remorquage
+
+### Cuges-les-Pins
+
+- **URL** : https://garageboost.fr/villes/cuges-les-pins.html
+- **Population** : 5 200 habitants
+- **Distance** : 28 km (30 minutes)
+- **Quartiers desservis** : Centre-village, Le Plan, Les Bastides, La Font
+- **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, mecanique-generale, depannage-remorquage
+
+### Rousset
+
+- **URL** : https://garageboost.fr/villes/rousset.html
+- **Population** : 5 000 habitants
+- **Distance** : 33 km (35 minutes)
+- **Quartiers desservis** : Centre-village, Rousset-Gare, La Burlière, Le Pôle d'activités
+- **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, mecanique-generale, carrosserie-auto
+
+### Meyreuil
+
+- **URL** : https://garageboost.fr/villes/meyreuil.html
+- **Population** : 5 500 habitants
+- **Distance** : 28 km (32 minutes)
+- **Quartiers desservis** : Centre-village, Le Canet de Meyreuil, Valbrillant, La Croix de Meyreuil
+- **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, pare-brise
+
+### Saint-Chamas
+
+- **URL** : https://garageboost.fr/villes/saint-chamas.html
+- **Population** : 8 500 habitants
+- **Distance** : 46 km (50 minutes)
+- **Quartiers desservis** : Centre-ville, Le Pont Flavien, La Petite Camargue, Les Baumes
+- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, carrosserie-auto, reprogrammation-moteur
+
+### Eyguières
+
+- **URL** : https://garageboost.fr/villes/eyguieres.html
+- **Population** : 7 000 habitants
+- **Distance** : 55 km (58 minutes)
+- **Quartiers desservis** : Centre-village, Les Alpilles, La Plaine, Roquemartine
+- **Services les plus demandés** : nettoyage-fap, decalaminage-hydrogene, utilitaires, mecanique-generale
+
+### Sénas
+
+- **URL** : https://garageboost.fr/villes/senas.html
+- **Population** : 6 800 habitants
+- **Distance** : 60 km (1h05)
+- **Quartiers desservis** : Centre-village, La Crau, Le Pont de la Durance, Les Garrigues
+- **Services les plus demandés** : nettoyage-fap, utilitaires, depannage-remorquage, mecanique-generale
+
+### Port-de-Bouc
+
+- **URL** : https://garageboost.fr/villes/port-de-bouc.html
+- **Population** : 25 000 habitants
+- **Distance** : 45 km (50 minutes)
+- **Quartiers desservis** : Centre-ville, Les Aigues Douces, La Lèque, Saint-Jean
+- **Services les plus demandés** : utilitaires, nettoyage-fap, depannage-remorquage, traitement-egr
+
+### Fos-sur-Mer
+
+- **URL** : https://garageboost.fr/villes/fos-sur-mer.html
+- **Population** : 15 500 habitants
+- **Distance** : 50 km (55 minutes)
+- **Quartiers desservis** : Centre-ville, Le Mazet, Les Carabins, La Bergerie
+- **Services les plus demandés** : utilitaires, nettoyage-fap, traitement-egr, depannage-remorquage
+
+### Sausset-les-Pins
+
+- **URL** : https://garageboost.fr/villes/sausset-les-pins.html
+- **Population** : 7 600 habitants
+- **Distance** : 35 km (42 minutes)
+- **Quartiers desservis** : Centre-ville, Le Port, La Couronne, Les Tamaris
+- **Services les plus demandés** : carrosserie-auto, electricite-automobile, pare-brise, mecanique-generale
+
+### Carry-le-Rouet
+
+- **URL** : https://garageboost.fr/villes/carry-le-rouet.html
+- **Population** : 6 300 habitants
+- **Distance** : 33 km (40 minutes)
+- **Quartiers desservis** : Centre-ville, Le Rouet, Les Pins, La Tuilière
+- **Services les plus demandés** : carrosserie-auto, peinture-automobile, pare-brise, reprogrammation-moteur
+
+### Gignac-la-Nerthe
+
+- **URL** : https://garageboost.fr/villes/gignac-la-nerthe.html
+- **Population** : 9 700 habitants
+- **Distance** : 25 km (30 minutes)
+- **Quartiers desservis** : Centre-ville, La Nerthe, Laure, Le Pelletan
+- **Services les plus demandés** : mecanique-generale, depannage-remorquage, reprogrammation-moteur, pare-brise
+
+### Saint-Victoret
+
+- **URL** : https://garageboost.fr/villes/saint-victoret.html
+- **Population** : 6 600 habitants
+- **Distance** : 22 km (28 minutes)
+- **Quartiers desservis** : Centre-ville, Le Griffon, Les Plaines, La Palun
+- **Services les plus demandés** : mecanique-generale, depannage-remorquage, reprogrammation-moteur, electricite-automobile
+
+### Velaux
+
+- **URL** : https://garageboost.fr/villes/velaux.html
+- **Population** : 9 000 habitants
+- **Distance** : 35 km (40 minutes)
+- **Quartiers desservis** : Centre-village, Le Pigeonnier, La Coopérative, Les Cadestaux
+- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, reprogrammation-moteur, pare-brise
+
+### Brignoles
+
+- **URL** : https://garageboost.fr/villes/brignoles.html
+- **Population** : 17 500 habitants
+- **Distance** : 60 km (1h05)
+- **Quartiers desservis** : Centre historique, Saint-Jean, La Burlière, Les Censiés
+- **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, reprogrammation-moteur, mecanique-generale
+
 ## Marques travaillées
 
 Renault, Peugeot, Citroën, Volkswagen, Audi, BMW, Mercedes, Ford, Opel, Fiat, Toyota, Honda, Nissan, Hyundai, Kia, Mazda, Volvo, Skoda, Seat, Dacia, Mini, Land Rover, Jeep, Porsche.
