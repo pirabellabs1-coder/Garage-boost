@@ -360,6 +360,134 @@
 - **Quartiers desservis** : Centre-ville, Le Tubé, La Bayanne, Trigance, Rassuen
 - **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, pare-brise, utilitaires
 
+### Roquevaire
+
+- **URL** : https://garageboost.fr/villes/roquevaire.html
+- **Population** : 9 000 habitants
+- **Distance** : 15 km (20 minutes)
+- **Quartiers desservis** : Centre-village, Lascours, Pont-de-l'Étoile, Le Pré de Châteauredon
+- **Services les plus demandés** : mecanique-generale, diagnostic-moteur, depannage-remorquage, pare-brise
+
+### Auriol
+
+- **URL** : https://garageboost.fr/villes/auriol.html
+- **Population** : 12 000 habitants
+- **Distance** : 22 km (25 minutes)
+- **Quartiers desservis** : Centre-village, Moulin de Redon, La Vallée Heureuse, Pont de Joux
+- **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, depannage-remorquage
+
+### Gémenos
+
+- **URL** : https://garageboost.fr/villes/gemenos.html
+- **Population** : 6 500 habitants
+- **Distance** : 17 km (20 minutes)
+- **Quartiers desservis** : Centre-village, Saint-Jean-de-Garguier, Parc d'activités de Gémenos, Coulin
+- **Services les plus demandés** : utilitaires, mecanique-generale, depannage-remorquage, reprogrammation-moteur
+
+### La Penne-sur-Huveaune
+
+- **URL** : https://garageboost.fr/villes/la-penne-sur-huveaune.html
+- **Population** : 6 500 habitants
+- **Distance** : 12 km (15 minutes)
+- **Quartiers desservis** : Centre-ville, Les Pallières, La Millière, Le Pont de l'Étoile
+- **Services les plus demandés** : mecanique-generale, pare-brise, diagnostic-moteur, depannage-remorquage
+
+### Carnoux-en-Provence
+
+- **URL** : https://garageboost.fr/villes/carnoux-en-provence.html
+- **Population** : 7 000 habitants
+- **Distance** : 18 km (22 minutes)
+- **Quartiers desservis** : Centre-ville, La Crémade, Le Vallon, Les Hauts de Carnoux
+- **Services les plus demandés** : carrosserie-auto, pare-brise, reprogrammation-moteur, mecanique-generale
+
+### Simiane-Collongue
+
+- **URL** : https://garageboost.fr/villes/simiane-collongue.html
+- **Population** : 6 000 habitants
+- **Distance** : 14 km (20 minutes)
+- **Quartiers desservis** : Centre-village, Collongue, Le Pavillon, Les Bastides
+- **Services les plus demandés** : mecanique-generale, diagnostic-moteur, pare-brise, electricite-automobile
+
+### Fuveau
+
+- **URL** : https://garageboost.fr/villes/fuveau.html
+- **Population** : 10 000 habitants
+- **Distance** : 26 km (30 minutes)
+- **Quartiers desservis** : Centre-village, La Barque, Bellevue, Château
+- **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, pare-brise
+
+### Trets
+
+- **URL** : https://garageboost.fr/villes/trets.html
+- **Population** : 11 000 habitants
+- **Distance** : 35 km (38 minutes)
+- **Quartiers desservis** : Centre historique, Kirbon, Les Œillets, Bas-Cani
+- **Services les plus demandés** : decalaminage-hydrogene, mecanique-generale, utilitaires, reprogrammation-moteur
+
+### Venelles
+
+- **URL** : https://garageboost.fr/villes/venelles.html
+- **Population** : 8 500 habitants
+- **Distance** : 38 km (42 minutes)
+- **Quartiers desservis** : Centre-village, Le Logis, Les Logissons, Font-Trompette
+- **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, carrosserie-auto, mecanique-generale
+
+### Pertuis
+
+- **URL** : https://garageboost.fr/villes/pertuis.html
+- **Population** : 20 000 habitants
+- **Distance** : 45 km (50 minutes)
+- **Quartiers desservis** : Centre-ville, Saint-Pierre, Le Farigoulier, Les Jean-Jean
+- **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, mecanique-generale, reprogrammation-moteur
+
+### Berre-l'Étang
+
+- **URL** : https://garageboost.fr/villes/berre-letang.html
+- **Population** : 13 500 habitants
+- **Distance** : 38 km (42 minutes)
+- **Quartiers desservis** : Centre-ville, Mauran, La Peyrère, Champ de Mars
+- **Services les plus demandés** : utilitaires, nettoyage-fap, traitement-egr, depannage-remorquage
+
+### Pélissanne
+
+- **URL** : https://garageboost.fr/villes/pelissanne.html
+- **Population** : 10 000 habitants
+- **Distance** : 45 km (48 minutes)
+- **Quartiers desservis** : Centre-village, Le Vallon, Saint-Laurent, La Pousaraque
+- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, reprogrammation-moteur, carrosserie-auto
+
+### Lançon-Provence
+
+- **URL** : https://garageboost.fr/villes/lancon-provence.html
+- **Population** : 9 000 habitants
+- **Distance** : 42 km (45 minutes)
+- **Quartiers desservis** : Centre-village, Cardonne, La Discathe, Le Pont de Rhaud
+- **Services les plus demandés** : nettoyage-fap, decalaminage-hydrogene, utilitaires, mecanique-generale
+
+### Miramas
+
+- **URL** : https://garageboost.fr/villes/miramas.html
+- **Population** : 26 000 habitants
+- **Distance** : 50 km (55 minutes)
+- **Quartiers desservis** : Centre-ville, Miramas-le-Vieux, La Péronne, Les Molières
+- **Services les plus demandés** : utilitaires, nettoyage-fap, depannage-remorquage, mecanique-generale
+
+### Châteauneuf-les-Martigues
+
+- **URL** : https://garageboost.fr/villes/chateauneuf-les-martigues.html
+- **Population** : 17 500 habitants
+- **Distance** : 28 km (35 minutes)
+- **Quartiers desservis** : Centre-ville, La Mède, Les Ventrons, Tamaris
+- **Services les plus demandés** : carrosserie-auto, electricite-automobile, utilitaires, mecanique-generale
+
+### Rognac
+
+- **URL** : https://garageboost.fr/villes/rognac.html
+- **Population** : 12 000 habitants
+- **Distance** : 32 km (38 minutes)
+- **Quartiers desservis** : Centre-ville, Les Barjaquets, Le Pélican, Sainte-Anne
+- **Services les plus demandés** : utilitaires, depannage-remorquage, nettoyage-fap, mecanique-generale
+
 ## Marques travaillées
 
 Renault, Peugeot, Citroën, Volkswagen, Audi, BMW, Mercedes, Ford, Opel, Fiat, Toyota, Honda, Nissan, Hyundai, Kia, Mazda, Volvo, Skoda, Seat, Dacia, Mini, Land Rover, Jeep, Porsche.
