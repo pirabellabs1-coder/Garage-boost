@@ -7,33 +7,69 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains; preload" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-XSS-Protection", "value": "1; mode=block" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "geolocation=(self), microphone=(), camera=(), payment=(), usb=(), interest-cohort=()" },
-        { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms https://*.clarity.ms https://connect.facebook.net; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https://maps.gstatic.com https://maps.googleapis.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src 'self' https://maps.google.com https://www.google.com; connect-src 'self' https://formsubmit.co https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://*.clarity.ms https://*.facebook.com; form-action 'self' https://formsubmit.co; frame-ancestors 'self'; base-uri 'self'" }
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains; preload"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "geolocation=(self), microphone=(), camera=(), payment=(), usb=(), interest-cohort=()"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms https://*.clarity.ms https://connect.facebook.net; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https://maps.gstatic.com https://maps.googleapis.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src 'self' https://maps.google.com https://www.google.com; connect-src 'self' https://formsubmit.co https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://*.clarity.ms https://*.facebook.com; form-action 'self' https://formsubmit.co; frame-ancestors 'self'; base-uri 'self'"
+        }
       ]
     },
     {
       "source": "/assets/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/llms.txt",
       "headers": [
-        { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
-        { "key": "Cache-Control", "value": "public, max-age=3600" }
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
     },
     {
       "source": "/llms-full.txt",
       "headers": [
-        { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
-        { "key": "Cache-Control", "value": "public, max-age=3600" }
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
     }
   ],
@@ -41,6 +77,426 @@
     {
       "source": "/index.html",
       "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/pare-brise/pare-brise-gardanne-aix-en-provence",
+      "destination": "/carrosserie/pare-brise/gardanne-aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/mecanique-generale-garage-plan-de-cuques-marseille/mecanique-generale-var-vaucluse-alpes-maritimes",
+      "destination": "/entretien-assistance/mecanique-generale/var-vaucluse-alpes-maritimes",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/voyants-moteur/voyants-moteur-vitrolles-marignane-martigues",
+      "destination": "/maintenance-moteur/voyants-moteur/vitrolles-marignane-martigues",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/diagnostic-moteur/diagnostic-moteur-var-vaucluse-alpes-maritimes",
+      "destination": "/maintenance-moteur/diagnostic-moteur/var-vaucluse-alpes-maritimes",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/suppression-adblue-scr-plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/suppression-adblue/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/enlevement-depaves",
+      "destination": "/entretien-assistance/enlevement-epaves",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/peinture-automobile/peinture-auto-plan-de-cuques-marseille",
+      "destination": "/carrosserie/peinture-automobile/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/mecanique-generale-garage-plan-de-cuques-marseille",
+      "destination": "/entretien-assistance/mecanique-generale/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/carrosserie-auto/carrosserie-auto-vitrolles-marignane-martigues",
+      "destination": "/carrosserie/carrosserie-auto/vitrolles-marignane-martigues",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/pare-brise/pare-brise-plan-de-cuques-marseille",
+      "destination": "/carrosserie/pare-brise/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/carrosserie-auto/carrosserie-auto-salon-de-provence",
+      "destination": "/carrosserie/carrosserie-auto/salon-de-provence",
+      "permanent": true
+    },
+    {
+      "source": "/decalaminage-moteur-hydrogene-plan-de-cuques",
+      "destination": "/maintenance-moteur/decalaminage-hydrogene/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/ouverture-de-vehicule-cles-perdues-bloquees/ouverture-vehicule-salon-de-provence",
+      "destination": "/entretien-assistance/ouverture-vehicule/salon-de-provence",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/depannage-scooter/depannage-scooter-salon-de-provence",
+      "destination": "/entretien-assistance/depannage-scooter/salon-de-provence",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/enlevement-depaves/enlevement-epaves-var-vaucluse-alpes-maritimes",
+      "destination": "/entretien-assistance/enlevement-epaves/var-vaucluse-alpes-maritimes",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/peinture-automobile/peinture-auto-gardanne-aix-en-provence",
+      "destination": "/carrosserie/peinture-automobile/gardanne-aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/reprogrammation-moteur/reprogrammation-moteur-var-toulon-brignoles",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/var-vaucluse-alpes-maritimes",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/mecanique-generale-garage-plan-de-cuques-marseille/mecanique-generale-salon-de-provence",
+      "destination": "/entretien-assistance/mecanique-generale/salon-de-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/voyants-moteur/voyants-moteur-aubagne-la-ciotat-cassis",
+      "destination": "/maintenance-moteur/voyants-moteur/aubagne-la-ciotat-cassis",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/depannage-remorquage/depannage-remorquage-vitrolles-marignane-martigues",
+      "destination": "/entretien-assistance/depannage-remorquage/vitrolles-marignane-martigues",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/carrosserie-auto/carrosserie-auto-var-vaucluse-alpes-maritimes",
+      "destination": "/carrosserie/carrosserie-auto/var-vaucluse-alpes-maritimes",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/carrosserie-auto/carrosserie-auto-aubagne-la-ciotat-cassis",
+      "destination": "/carrosserie/carrosserie-auto/aubagne-la-ciotat-cassis",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/depannage-remorquage/depannage-remorquage-plan-de-cuques-marseille",
+      "destination": "/entretien-assistance/depannage-remorquage/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/decalaminage-moteur-hydrogene-plan-de-cuques",
+      "destination": "/maintenance-moteur/decalaminage-hydrogene/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/depannage-remorquage/depannage-remorquage-gardanne-aix-en-provence",
+      "destination": "/entretien-assistance/depannage-remorquage/gardanne-aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/reprogrammation-moteur",
+      "destination": "/maintenance-moteur/reprogrammation-moteur",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/peinture-automobile/peinture-auto-salon-de-provence",
+      "destination": "/carrosserie/peinture-automobile/salon-de-provence",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/enlevement-depaves/enlevement-epaves-gardanne-aix-en-provence",
+      "destination": "/entretien-assistance/enlevement-epaves/gardanne-aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/diagnostic-moteur/diagnostic-moteur-plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/diagnostic-moteur/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/traitement-egr-injecteurs/nettoyage-egr-vitrolles-marignane-martigues",
+      "destination": "/maintenance-moteur/traitement-egr/vitrolles-marignane-martigues",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/pare-brise/pare-brise-vitrolles-marignane-martigues",
+      "destination": "/carrosserie/pare-brise/vitrolles-marignane-martigues",
+      "permanent": true
+    },
+    {
+      "source": "/location-de-vehicules/vans-amenages",
+      "destination": "/location/vans-amenages",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/carrosserie-auto/carrosserie-auto-plan-de-cuques-marseille",
+      "destination": "/carrosserie/carrosserie-auto/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/traitement-egr-injecteurs/traitement-egr-injecteurs-plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/traitement-egr/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/enlevement-depaves/enlevement-epaves-aubagne-la-ciotat-cassis",
+      "destination": "/entretien-assistance/enlevement-epaves/aubagne-la-ciotat-cassis",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/electricite-automobile-diagnostic-plan-de-cuques-marseille/electricite-auto-aubagne-la-ciotat-cassis",
+      "destination": "/entretien-assistance/electricite-automobile/aubagne-la-ciotat-cassis",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/electricite-automobile-diagnostic-plan-de-cuques-marseille/electricite-auto-var-vaucluse-alpes-maritimes",
+      "destination": "/entretien-assistance/electricite-automobile/var-vaucluse-alpes-maritimes",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/peinture-automobile/peinture-auto-var-vaucluse-alpes-maritimes",
+      "destination": "/carrosserie/peinture-automobile/var-vaucluse-alpes-maritimes",
+      "permanent": true
+    },
+    {
+      "source": "/suppression-adblue-scr-plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/suppression-adblue/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/electricite-automobile-diagnostic-plan-de-cuques-marseille/electricite-auto-gardanne-aix-en-provence",
+      "destination": "/entretien-assistance/electricite-automobile/gardanne-aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/nettoyage-catalyseur/nettoyage-catalyseur-vitrolles-marignane-martigues",
+      "destination": "/maintenance-moteur/nettoyage-catalyseur/vitrolles-marignane-martigues",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/pare-brise/pare-brise-var-vaucluse-alpes-maritimes",
+      "destination": "/carrosserie/pare-brise/var-vaucluse-alpes-maritimes",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/electricite-automobile-diagnostic-plan-de-cuques-marseille",
+      "destination": "/entretien-assistance/electricite-automobile/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/depannage-scooter/depannage-scooter-var-vaucluse",
+      "destination": "/entretien-assistance/depannage-scooter/var-vaucluse-alpes-maritimes",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/diagnostic-moteur",
+      "destination": "/maintenance-moteur/diagnostic-moteur",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/traitement-egr-injecteurs",
+      "destination": "/maintenance-moteur/traitement-egr",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/ouverture-de-vehicule-cles-perdues-bloquees/ouverture-vehicule-gardanne-aix-en-provence",
+      "destination": "/entretien-assistance/ouverture-vehicule/gardanne-aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/depannage-scooter/depannage-scooter-plan-de-cuques-marseille",
+      "destination": "/entretien-assistance/depannage-scooter/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/mecanique-generale-garage-plan-de-cuques-marseille/mecanique-generale-plan-de-cuques-marseille",
+      "destination": "/entretien-assistance/mecanique-generale/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/traitement-egr-injecteurs/nettoyage-egr-injecteurs-var-vaucluse-alpes-maritimes",
+      "destination": "/maintenance-moteur/traitement-egr/var-vaucluse-alpes-maritimes",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/nettoyage-catalyseur/nettoyage-catalyseur-salon-de-provence",
+      "destination": "/maintenance-moteur/nettoyage-catalyseur/salon-de-provence",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/depannage-scooter/depannage-scooter-gardanne-aix-en-provence",
+      "destination": "/entretien-assistance/depannage-scooter/gardanne-aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/reprogrammation-moteur/reprogrammation-moteur-vitrolles-marignane-martigues",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/vitrolles-marignane-martigues",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/enlevement-depaves/enlevement-epaves-plan-de-cuques-marseille",
+      "destination": "/entretien-assistance/enlevement-epaves/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/traitement-egr-injecteurs/traitement-egr-salon-de-provence",
+      "destination": "/maintenance-moteur/traitement-egr/salon-de-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/voyants-moteur/voyants-moteur-var-vaucluse-alpes-maritimes",
+      "destination": "/maintenance-moteur/voyants-moteur/var-vaucluse-alpes-maritimes",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/pare-brise/pare-brise-salon-de-provence",
+      "destination": "/carrosserie/pare-brise/salon-de-provence",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/ouverture-de-vehicule-cles-perdues-bloquees/ouverture-vehicule-plan-de-cuques-marseille",
+      "destination": "/entretien-assistance/ouverture-vehicule/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/depannage-scooter/depannage-scooter-vitrolles-marignane-martigues",
+      "destination": "/entretien-assistance/depannage-scooter/vitrolles-marignane-martigues",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/mecanique-generale-garage-plan-de-cuques-marseille/mecanique-generale-gardanne-aix-en-provence",
+      "destination": "/entretien-assistance/mecanique-generale/gardanne-aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/peinture-automobile/peinture-auto-aubagne-la-ciotat-cassis",
+      "destination": "/carrosserie/peinture-automobile/aubagne-la-ciotat-cassis",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/nettoyage-catalyseur/nettoyage-catalyseur-plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/nettoyage-catalyseur/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/ouverture-de-vehicule-cles-perdues-bloquees/ouverture-vehicule-vitrolles-marignane-martigues",
+      "destination": "/entretien-assistance/ouverture-vehicule/vitrolles-marignane-martigues",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/depannage-scooter/depannage-scooter-aubagne-la-ciotat-cassis",
+      "destination": "/entretien-assistance/depannage-scooter/aubagne-la-ciotat-cassis",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/nettoyage-catalyseur/nettoyage-catalyseur-gardanne-aix-en-provence",
+      "destination": "/maintenance-moteur/nettoyage-catalyseur/gardanne-aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/enlevement-depaves/enlevement-epaves-salon-de-provence",
+      "destination": "/entretien-assistance/enlevement-epaves/salon-de-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/voyants-moteur/voyants-moteur-plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/voyants-moteur/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/carrosserie-auto/carrosserie-auto-gardanne-aix-en-provence",
+      "destination": "/carrosserie/carrosserie-auto/gardanne-aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/reprogrammation-moteur/reprogrammation-moteur-salon-de-provence",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/salon-de-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/reprogrammation-moteur/reprogrammation-moteur-aubagne-la-ciotat-cassis",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/aubagne-la-ciotat-cassis",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/reprogrammation-moteur/reprogrammation-moteur-plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/depannage-remorquage/depannage-remorquage-aubagne-la-ciotat-cassis",
+      "destination": "/entretien-assistance/depannage-remorquage/aubagne-la-ciotat-cassis",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/ouverture-de-vehicule-cles-perdues-bloquees/ouverture-vehicule-var-vaucluse-alpes-maritimes",
+      "destination": "/entretien-assistance/ouverture-vehicule/var-vaucluse-alpes-maritimes",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/electricite-automobile-diagnostic-plan-de-cuques-marseille/electricite-auto-plan-de-cuques-marseille",
+      "destination": "/entretien-assistance/electricite-automobile/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/voyants-moteur/voyants-moteur-salon-de-provence",
+      "destination": "/maintenance-moteur/voyants-moteur/salon-de-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/voyants-moteur/voyants-moteur-gardanne-aix-en-provence",
+      "destination": "/maintenance-moteur/voyants-moteur/gardanne-aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/nettoyage-fap",
+      "destination": "/maintenance-moteur/nettoyage-fap",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/enlevement-depaves/enlevement-epaves-vitrolles-marignane-martigues",
+      "destination": "/entretien-assistance/enlevement-epaves/vitrolles-marignane-martigues",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/traitement-egr-injecteurs/nettoyage-injecteurs-aubagne-la-ciotat-cassis",
+      "destination": "/maintenance-moteur/traitement-egr/aubagne-la-ciotat-cassis",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/reprogrammation-moteur/reprogrammation-moteur-gardanne-aix-en-provence",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/gardanne-aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/ouverture-de-vehicule-cles-perdues-bloquees/ouverture-vehicule-aubagne-la-ciotat-cassis",
+      "destination": "/entretien-assistance/ouverture-vehicule/aubagne-la-ciotat-cassis",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/traitement-egr-injecteurs/traitement-injecteurs-gardanne-aix-en-provence",
+      "destination": "/maintenance-moteur/traitement-egr/gardanne-aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/diagnostic-moteur/diagnostic-moteur-gardanne-aix-en-provence",
+      "destination": "/maintenance-moteur/diagnostic-moteur/gardanne-aix-en-provence",
       "permanent": true
     }
   ],
