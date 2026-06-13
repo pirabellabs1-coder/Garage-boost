@@ -21,7 +21,10 @@ require('./build-articles.js');
 console.log('\n=== 6/7 — Génération llms-full.txt (GEO/IA) ===\n');
 require('./build-llms-full.js');
 
-console.log('\n=== 7/7 — Génération sitemap + robots ===\n');
+console.log('\n=== 7/8 — Génération sitemap + robots ===\n');
 require('./build-sitemap.js');
+
+console.log('\n=== 8/8 — Normalisation URLs propres (sans .html) ===\n');
+require('./normalize-urls.js');
 
 console.log('\n✓ Build complet terminé.\n');

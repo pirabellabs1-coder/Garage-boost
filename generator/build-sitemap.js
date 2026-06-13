@@ -17,26 +17,26 @@ const urls = [];
 
 // Pages principales
 ['', 'tarifs', 'rendez-vous', 'contact', 'faq', 'blog', 'villes', 'mentions-legales', 'politique-confidentialite']
-  .forEach(slug => urls.push({ loc: `${BASE}/${slug ? slug + '.html' : ''}`, priority: slug === '' ? '1.0' : '0.7' }));
+  .forEach(slug => urls.push({ loc: `${BASE}/${slug || ''}`, priority: slug === '' ? '1.0' : '0.7' }));
 
 // Pages villes-hub
-cities.forEach(c => urls.push({ loc: `${BASE}/villes/${c.slug}.html`, priority: '0.8' }));
+cities.forEach(c => urls.push({ loc: `${BASE}/villes/${c.slug}`, priority: '0.8' }));
 
 // Articles blog
-articles.forEach(a => urls.push({ loc: `${BASE}/blog/${a.slug}.html`, priority: '0.7' }));
+articles.forEach(a => urls.push({ loc: `${BASE}/blog/${a.slug}`, priority: '0.7' }));
 
 // Pages catégories
 ['maintenance-moteur', 'entretien-assistance', 'carrosserie', 'location']
-  .forEach(slug => urls.push({ loc: `${BASE}/${slug}.html`, priority: '0.9' }));
+  .forEach(slug => urls.push({ loc: `${BASE}/${slug}`, priority: '0.9' }));
 
 // Pages services
 for (const [catSlug, cat] of Object.entries(data.categories)) {
   for (const serviceSlug of Object.keys(cat.services)) {
-    urls.push({ loc: `${BASE}/${catSlug}/${serviceSlug}.html`, priority: '0.8' });
+    urls.push({ loc: `${BASE}/${catSlug}/${serviceSlug}`, priority: '0.8' });
 
     // Pages SEO locales
     for (const zone of zones) {
-      urls.push({ loc: `${BASE}/${catSlug}/${serviceSlug}/${zone.slug}.html`, priority: '0.6' });
+      urls.push({ loc: `${BASE}/${catSlug}/${serviceSlug}/${zone.slug}`, priority: '0.6' });
     }
   }
 }
