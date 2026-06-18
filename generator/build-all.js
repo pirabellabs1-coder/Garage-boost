@@ -24,7 +24,10 @@ require('./build-llms-full.js');
 console.log('\n=== 7/8 — Génération sitemap + robots ===\n');
 require('./build-sitemap.js');
 
-console.log('\n=== 8/8 — Normalisation URLs propres (sans .html) ===\n');
+console.log('\n=== 8/9 — Normalisation URLs propres (sans .html) ===\n');
 require('./normalize-urls.js');
+
+console.log('\n=== 9/9 — Normalisation typographique française ===\n');
+require('./typography-fr.js');
 
 console.log('\n✓ Build complet terminé.\n');
