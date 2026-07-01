@@ -190,7 +190,7 @@ export default async function handler(req, res) {
 
   try {
     // To garage
-    await resend.emails.send({
+    const owner = await resend.emails.send({
       from: FROM,
       to: TO_GARAGE,
       cc: CC_GARAGE,
@@ -202,8 +202,9 @@ export default async function handler(req, res) {
     });
 
     // Auto-response to customer
+    let customer = { data: null, error: null };
     if (customerEmail && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(customerEmail)) {
-      await resend.emails.send({
+      customer = await resend.emails.send({
         from: FROM,
         to: customerEmail,
         subject: type === 'rdv'
@@ -213,9 +214,26 @@ export default async function handler(req, res) {
       });
     }
 
+    // Diagnostic temporaire : révèle l'erreur Resend exacte
+    if (data._debug === '1') {
+      return res.status(200).json({
+        ownerError: (owner && owner.error) || null,
+        ownerId: (owner && owner.data && owner.data.id) || null,
+        customerError: (customer && customer.error) || null,
+        customerId: (customer && customer.data && customer.data.id) || null,
+        from: FROM, to: TO_GARAGE, hasApiKey: !!process.env.RESEND_API_KEY,
+      });
+    }
+
+    // Le SDK Resend ne throw PAS : il faut vérifier .error
+    if (owner && owner.error) {
+      console.error('Resend owner error:', owner.error);
+      return res.redirect(303, `/merci.html?type=${type}&error=1`);
+    }
     return res.redirect(303, `/merci.html?type=${type}`);
   } catch (err) {
-    console.error('Resend error:', err);
+    console.error('Resend exception:', err);
+    if (data._debug === '1') return res.status(500).json({ exception: String((err && err.message) || err) });
     return res.redirect(303, '/merci.html?type=' + type + '&error=1');
   }
 }
