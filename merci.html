@@ -185,5 +185,26 @@
 </a>
 
 <script src="assets/js/main.js"></script>
+<script>
+(function () {
+  var p = new URLSearchParams(location.search);
+  var icon = document.querySelector('.thanks-icon');
+  var title = document.querySelector('.thanks-title');
+  var text = document.querySelector('.thanks-text');
+  if (p.get('error') === '1') {
+    if (icon) {
+      icon.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i>';
+      icon.style.background = '#e0533d';
+      icon.style.color = '#fff';
+      icon.style.boxShadow = '0 0 50px rgba(224,83,61,.45)';
+    }
+    if (title) title.innerHTML = "Oups, l'envoi n'a pas abouti…";
+    if (text) text.innerHTML = "Un incident technique a empêché l'envoi de votre demande. Merci de nous appeler directement au <strong>06 63 21 63 50</strong> ou de nous écrire sur WhatsApp — nous prenons le relais tout de suite.";
+    document.title = "Envoi échoué — Garage Boost";
+  } else if (p.get('type') === 'rdv') {
+    if (title) title.innerHTML = 'Merci, votre demande de rendez-vous <span class="accent">est bien arrivée.</span>';
+  }
+})();
+</script>
 </body>
 </html>

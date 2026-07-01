@@ -194,7 +194,7 @@ export default async function handler(req, res) {
       from: FROM,
       to: TO_GARAGE,
       cc: CC_GARAGE,
-      reply_to: customerEmail || undefined,
+      replyTo: customerEmail || undefined,
       subject: type === 'rdv'
         ? `🛠️ Nouvelle demande de RDV — ${data['Prénom'] || ''} ${data['Nom'] || ''}`.trim()
         : `✉️ Nouveau message contact — ${data['Prénom'] || ''} ${data['Nom'] || ''}`.trim(),
