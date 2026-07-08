@@ -167,23 +167,34 @@
   </div>
 </section>
 
-<!-- LOCAL DETAILED CONTENT -->
-<section style="padding:30px 0 60px">
+<!-- INFOS LOCALES (grille de cartes) -->
+<section style="padding:40px 0 60px">
   <div class="container">
-    <div class="content-block">
-      <h2 style="font-family:var(--font-display);font-weight:800;font-size:1.7rem;color:var(--white);margin-bottom:18px">{{serviceName}} dans la zone {{zoneLabel}} : ce qu'il faut savoir</h2>
-
-      <h3>Le contexte automobile à {{zoneFirstCity}} et alentours</h3>
-      <p>{{localContext}}</p>
-
-      <h3>Comment venir à Plan-de-Cuques depuis {{zoneFirstCity}} ?</h3>
-      <p>{{accessText}}</p>
-
-      <h3>Pourquoi nos clients de {{zoneFirstCity}} nous choisissent</h3>
-      <p>{{whyZoneP}}</p>
-
-      <h3>Notre prestation {{serviceName}} en détail</h3>
-      <p>{{servicePresentation}}</p>
+    <div style="max-width:900px;margin:0 auto 36px;text-align:center">
+      <span class="eyebrow" style="justify-content:center">{{serviceName}} à {{zoneFirstCity}}</span>
+      <h2 class="section-title">{{serviceName}} dans la zone {{zoneLabel}} : ce qu'il faut savoir</h2>
+    </div>
+    <div class="city-info-grid">
+      <div class="why-card">
+        <div class="why-icon"><i class="fa-solid fa-location-crosshairs"></i></div>
+        <h3>Le contexte auto à {{zoneFirstCity}}</h3>
+        <p>{{localContext}}</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fa-solid fa-route"></i></div>
+        <h3>Venir à l'atelier depuis {{zoneFirstCity}}</h3>
+        <p>{{accessText}}</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fa-solid fa-medal"></i></div>
+        <h3>Pourquoi ils nous choisissent</h3>
+        <p>{{whyZoneP}}</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+        <h3>Notre prestation {{serviceName}} en détail</h3>
+        <p>{{servicePresentation}}</p>
+      </div>
     </div>
   </div>
 </section>
