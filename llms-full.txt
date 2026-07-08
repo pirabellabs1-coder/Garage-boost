@@ -17,7 +17,7 @@
 - [Prise de rendez-vous](https://garageboost.fr/rendez-vous.html) — Formulaire en ligne, sélection service, créneau, confirmation sous 2h
 - [Contact](https://garageboost.fr/contact.html) — Téléphone, WhatsApp, email, formulaire, carte Google Maps
 - [FAQ](https://garageboost.fr/faq.html) — 30 questions sur 7 thèmes (reprogrammation, anti-pollution, mécanique, carrosserie, dépannage, tarifs, garanties)
-- [Villes desservies](https://garageboost.fr/villes.html) — 50 communes avec pages dédiées
+- [Villes desservies](https://garageboost.fr/villes.html) — 66 communes avec pages dédiées
 
 ## Catégories de services
 
@@ -206,7 +206,7 @@
 - **Description** : Sélection de véhicules d'occasion certifiés, tous contrôlés 100 points et révisés dans nos ateliers. Garantie 3 à 12 mois selon véhicule. Reprise possible.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/vehicules-occasion/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/vehicules-occasion/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/vehicules-occasion/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/vehicules-occasion/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/location/vehicules-occasion/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/vehicules-occasion/var-vaucluse-alpes-maritimes.html)
 
-## Villes desservies (50 pages dédiées)
+## Villes desservies (66 pages dédiées)
 
 ### Marseille
 
@@ -606,6 +606,134 @@
 - **Population** : 17 500 habitants
 - **Distance** : 60 km (1h05)
 - **Quartiers desservis** : Centre historique, Saint-Jean, La Burlière, Les Censiés
+- **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, reprogrammation-moteur, mecanique-generale
+
+### Peypin
+
+- **URL** : https://garageboost.fr/villes/peypin.html
+- **Population** : undefined
+- **Distance** : 18 km (25 minutes)
+- **Quartiers desservis** : Le Village, Les Michels, Valdonne, La Croix de l'Aï, Les Fauyes
+- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, reprogrammation-moteur, depannage-remorquage
+
+### La Bouilladisse
+
+- **URL** : https://garageboost.fr/villes/la-bouilladisse.html
+- **Population** : undefined
+- **Distance** : 22 km (25 minutes)
+- **Quartiers desservis** : Le Village, La Grande Terre, Le Pont de l'Étoile, Le Moulin de Redon, Les Vallons
+- **Services les plus demandés** : nettoyage-fap, decalaminage-hydrogene, mecanique-generale, carrosserie-auto
+
+### Saint-Savournin
+
+- **URL** : https://garageboost.fr/villes/saint-savournin.html
+- **Population** : undefined
+- **Distance** : 16 km (25 minutes)
+- **Quartiers desservis** : Le Village, Les Movies, La Baou, Le Pas de l'Étoile, Les Michels
+- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, voyants-moteur, depannage-remorquage
+
+### Gréasque
+
+- **URL** : https://garageboost.fr/villes/greasque.html
+- **Population** : undefined
+- **Distance** : 18 km (25 minutes)
+- **Quartiers desservis** : Le Village, Le Puits Hély d'Oissel, Les Bertrands, La Grande Bastide, Le Vallon
+- **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, utilitaires
+
+### Mimet
+
+- **URL** : https://garageboost.fr/villes/mimet.html
+- **Population** : undefined
+- **Distance** : 16 km (25 minutes)
+- **Quartiers desservis** : Le Village, La Plaine de Mimet, Le Col Sainte-Anne, Les Bertrands, Peynier
+- **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, depannage-remorquage
+
+### La Destrousse
+
+- **URL** : https://garageboost.fr/villes/la-destrousse.html
+- **Population** : undefined
+- **Distance** : 22 km (25 minutes)
+- **Quartiers desservis** : Le Village, Les Vallons, La Gare, Le Pont de Joux, Les Aires
+- **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, mecanique-generale, carrosserie-auto
+
+### Ceyreste
+
+- **URL** : https://garageboost.fr/villes/ceyreste.html
+- **Population** : undefined
+- **Distance** : 33 km (35 minutes)
+- **Quartiers desservis** : Le Village, Fontsainte, Ceyreste Collines, Le Grand Vallon, Les Rampaux
+- **Services les plus demandés** : carrosserie-auto, pare-brise, electricite-automobile, mecanique-generale
+
+### Saint-Zacharie
+
+- **URL** : https://garageboost.fr/villes/saint-zacharie.html
+- **Population** : undefined
+- **Distance** : 32 km (35 minutes)
+- **Quartiers desservis** : Le Village, Le Moulin, La Source de l'Huveaune, Pré de l'Aï, Les Nayes
+- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, nettoyage-fap, reprogrammation-moteur
+
+### Ensuès-la-Redonne
+
+- **URL** : https://garageboost.fr/villes/ensues-la-redonne.html
+- **Population** : undefined
+- **Distance** : 40 km (40 minutes)
+- **Quartiers desservis** : Le Village, La Redonne, Méjean, La Madrague-de-Gignac, Les Figuières
+- **Services les plus demandés** : carrosserie-auto, peinture-automobile, pare-brise, electricite-automobile
+
+### Éguilles
+
+- **URL** : https://garageboost.fr/villes/eguilles.html
+- **Population** : undefined
+- **Distance** : 30 km (35 minutes)
+- **Quartiers desservis** : Le Village, Les Figons, La Tour d'Aygosi, Le Réal, Granon
+- **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, nettoyage-fap, mecanique-generale
+
+### Ventabren
+
+- **URL** : https://garageboost.fr/villes/ventabren.html
+- **Population** : undefined
+- **Distance** : 38 km (40 minutes)
+- **Quartiers desservis** : Le Vieux Village, Les Cauvets, La Blaque, Roquefavour, Le Grand Vallat
+- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, nettoyage-fap, reprogrammation-moteur
+
+### Saint-Cannat
+
+- **URL** : https://garageboost.fr/villes/saint-cannat.html
+- **Population** : undefined
+- **Distance** : 42 km (45 minutes)
+- **Quartiers desservis** : Le Village, Les Espourtiés, La Trévaresse, Le Puits de Rians, La Chapelle
+- **Services les plus demandés** : mecanique-generale, utilitaires, decalaminage-hydrogene, pare-brise
+
+### Peyrolles-en-Provence
+
+- **URL** : https://garageboost.fr/villes/peyrolles-en-provence.html
+- **Population** : undefined
+- **Distance** : 38 km (40 minutes)
+- **Quartiers desservis** : Le Village, Le Plan, La Roque, Les Bannettes, Le Bosquet
+- **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, mecanique-generale, reprogrammation-moteur
+
+### Le Puy-Sainte-Réparade
+
+- **URL** : https://garageboost.fr/villes/le-puy-sainte-reparade.html
+- **Population** : undefined
+- **Distance** : 40 km (40 minutes)
+- **Quartiers desservis** : Le Village, Saint-Canadet, La Quille, Les Goirands, Le Puy Haut
+- **Services les plus demandés** : mecanique-generale, utilitaires, decalaminage-hydrogene, reprogrammation-moteur
+
+### Rognes
+
+- **URL** : https://garageboost.fr/villes/rognes.html
+- **Population** : undefined
+- **Distance** : 45 km (45 minutes)
+- **Quartiers desservis** : Le Village, Saint-Denis, Le Foussa, Les Bagnols, La Trévaresse
+- **Services les plus demandés** : mecanique-generale, utilitaires, decalaminage-hydrogene, pare-brise
+
+### Lambesc
+
+- **URL** : https://garageboost.fr/villes/lambesc.html
+- **Population** : undefined
+- **Distance** : 48 km (50 minutes)
+- **Quartiers desservis** : Le Village, Bernon, Les Costes, La Vidale, Le Petit Pont
 - **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, reprogrammation-moteur, mecanique-generale
 
 ## Marques travaillées

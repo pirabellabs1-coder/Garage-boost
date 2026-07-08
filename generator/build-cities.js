@@ -84,6 +84,37 @@ function buildOtherCities(currentSlug) {
   ).join('\n');
 }
 
+// FAQPage JSON-LD reflétant les 7 questions VISIBLES du template ville (texte brut, sans HTML)
+function buildCityFaqSchema(city) {
+  const c = city.name, d = city.distance, t = city.travelTime;
+  const qa = [
+    [`Vous intervenez vraiment à ${c} ?`,
+     `Oui, nous accueillons régulièrement des clients de ${c} dans notre atelier de Plan-de-Cuques (situé à ${d}, soit environ ${t} de trajet). Nous proposons aussi un service de récupération à domicile pour les véhicules immobilisés ou les clients ne souhaitant pas se déplacer. Service offert au-delà de 200€ d'intervention validée, sinon facturé 49€ aller-retour.`],
+    [`Combien coûtent vos prestations pour les clients de ${c} ?`,
+     `Nos tarifs sont strictement identiques pour tous les clients, qu'ils habitent Plan-de-Cuques ou ${c}. Pas de tarif client de passage, pas de surcoût lié à la distance dans la zone ${c}. Consultez notre grille tarifaire complète ou demandez un devis personnalisé sous 24 heures ouvrées via notre formulaire de contact.`],
+    [`Quels sont vos délais de RDV pour un client de ${c} ?`,
+     `Pour un diagnostic ou une intervention standard (vidange, plaquettes, diagnostic moteur), nous proposons un créneau sous 48 à 72 heures. Pour une reprogrammation moteur ou une opération lourde (distribution, embrayage, peinture complète), comptez 5 à 10 jours d'attente. Pour le dépannage urgent, intervention sous 30 à 90 minutes selon la zone de ${c}.`],
+    [`Pouvez-vous récupérer mon véhicule à mon domicile à ${c} ?`,
+     `Oui, nous proposons un service de récupération à domicile dans toute la zone ${c}. Notre dépanneuse plateau intervient en journée pour acheminer votre véhicule à l'atelier, puis nous vous le ramenons une fois l'intervention terminée. Service offert pour toute prestation supérieure à 200€ d'intervention validée, sinon facturé 49€ aller-retour. Particulièrement apprécié pour les véhicules non roulants ou les clients ne souhaitant pas se déplacer.`],
+    [`Travaillez-vous avec mon assurance auto ?`,
+     `Oui, nous travaillons en direct avec la majorité des compagnies d'assurance auto françaises (AXA, MAAF, MMA, Macif, Allianz, Generali, Direct Assurance, Groupama, Pacifica, GMF, MAIF, etc.) pour les sinistres carrosserie, bris de glace ou catastrophes naturelles. Vous nous transmettez votre déclaration, nous nous occupons du reste — devis, expertise contradictoire, facturation directe. Aucune avance de trésorerie de votre part dans la majorité des cas.`],
+    [`Puis-je payer en plusieurs fois ?`,
+     `Oui, pour toute prestation supérieure à 500€, nous proposons un paiement en 3 ou 4 fois sans frais via notre partenaire de financement (Alma ou Klarna selon disponibilité), sous réserve d'éligibilité — réponse immédiate en moins de 5 minutes. Aucun supplément, pas de dossier à monter chez votre banque. Carte bancaire, espèces, virement et chèque acceptés.`],
+    [`Vous travaillez sur quelles marques de véhicules ?`,
+     `Toutes les marques européennes, asiatiques et américaines : Renault, Peugeot, Citroën, Volkswagen, Audi, BMW, Mercedes, Ford, Opel, Fiat, Toyota, Honda, Nissan, Hyundai, Kia, Mazda, Volvo, Skoda, Seat, Dacia, Mini, Land Rover, Jeep, Porsche et plus. Toutes motorisations (essence, diesel, hybride léger ou rechargeable). Pour l'électrique 100%, nous traitons les périphériques (climatisation, freinage, capteurs) mais renvoyons sur des spécialistes habilités haute tension pour la batterie principale.`]
+  ];
+  const obj = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: qa.map(([q, a]) => ({
+      '@type': 'Question',
+      name: q,
+      acceptedAnswer: { '@type': 'Answer', text: a }
+    }))
+  };
+  return `<script type="application/ld+json">\n${JSON.stringify(obj).replace(/</g, '\\u003c')}\n</script>`;
+}
+
 function countWords(html) {
   const text = html.replace(/<script[\s\S]*?<\/script>/g, '')
                    .replace(/<style[\s\S]*?<\/style>/g, '')
@@ -100,7 +131,10 @@ let generated = 0;
 const summary = [];
 
 for (const city of cities) {
-  const lead = `Garage Boost intervient à ${city.name} (${city.population}, ${city.distance} de notre atelier de Plan-de-Cuques). Mécanique, reprogrammation, carrosserie, dépannage, location — toutes nos prestations sont disponibles pour les habitants de ${city.name} et environs.`;
+  const distPhrase = /sur\s*place/i.test(city.distance)
+    ? 'directement sur notre commune'
+    : `à ${city.distance} de notre atelier de Plan-de-Cuques`;
+  const lead = `Garage Boost intervient à ${city.name}, ${distPhrase}. Mécanique, reprogrammation, carrosserie, dépannage, location — toutes nos prestations sont disponibles pour les habitants de ${city.name} et des environs.`;
 
   const topServicesIntro = `Au cours des dernières années, certaines prestations sont régulièrement demandées par notre clientèle de ${city.name} en raison du contexte automobile local. Voici les services les plus sollicités :`;
 
@@ -116,7 +150,7 @@ for (const city of cities) {
     trafficNote: city.trafficNote,
     nearbyDistricts: city.nearbyDistricts.join(', '),
     title: `Garage automobile ${city.name} | Garage Boost — Mécanique, carrosserie, dépannage`,
-    metaDesc: `Garage Boost à votre service à ${city.name} (${city.population}). Mécanique, reprogrammation, FAP, carrosserie, dépannage, location. ${city.distance} de Plan-de-Cuques. Devis sous 24h.`,
+    metaDesc: `Garage Boost à votre service à ${city.name}. Mécanique, reprogrammation, FAP, carrosserie, dépannage, location — à ${city.distance} de Plan-de-Cuques. Devis gratuit sous 24h.`,
     keywords: `garage ${city.name}, garage automobile ${city.name}, mécanicien ${city.name}, carrosserie ${city.name}, dépannage ${city.name}`,
     lead,
     image1: IMAGES[0],
@@ -127,7 +161,8 @@ for (const city of cities) {
     categoryEntretienHTML: buildCategoryCards('entretien-assistance', city.zoneSlug),
     categoryCarrosserieHTML: buildCategoryCards('carrosserie', city.zoneSlug),
     categoryLocationHTML: buildCategoryCards('location', city.zoneSlug),
-    otherCitiesHTML: buildOtherCities(city.slug)
+    otherCitiesHTML: buildOtherCities(city.slug),
+    faqSchema: buildCityFaqSchema(city)
   });
 
   const outFile = path.join(outDir, `${city.slug}.html`);

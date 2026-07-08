@@ -38,6 +38,7 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"AutoRepair","@id":"https://garageboost.fr/villes/{{slug}}.html#business","name":"Garage Boost — {{cityName}}","telephone":"+33663216350","email":"masgarage7@gmail.com","priceRange":"€€","url":"https://garageboost.fr/villes/{{slug}}.html","image":"https://garageboost.fr/assets/img/og.jpg","address":{"@type":"PostalAddress","streetAddress":"1 Avenue des Pères Blancs","addressLocality":"Plan-de-Cuques","postalCode":"13380","addressRegion":"Bouches-du-Rhône","addressCountry":"FR"},"geo":{"@type":"GeoCoordinates","latitude":43.3486,"longitude":5.4632},"areaServed":{"@type":"City","name":"{{cityName}}"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"08:00","closes":"19:00"}],"description":"{{metaDesc}}"}
 </script>
+{{faqSchema}}
 </head>
 <body>
 
@@ -101,10 +102,6 @@
         <p>{{localContext}}</p>
 
         <div class="city-stats-grid">
-          <div style="text-align:center;padding:14px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm)">
-            <div style="font-family:var(--font-display);font-weight:900;color:var(--accent);font-size:1.3rem">{{population}}</div>
-            <div style="font-size:0.7rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.04em;margin-top:2px">Population</div>
-          </div>
           <div style="text-align:center;padding:14px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm)">
             <div style="font-family:var(--font-display);font-weight:900;color:var(--accent);font-size:1.3rem">{{distance}}</div>
             <div style="font-size:0.7rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.04em;margin-top:2px">Distance</div>

@@ -74,6 +74,26 @@ function buildProcessSteps(steps) {
   `).join('\n');
 }
 
+// Texte brut (sans HTML) pour le JSON-LD — le schéma doit refléter le contenu visible
+function stripHtml(s) {
+  return String(s).replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+}
+
+// FAQPage JSON-LD construit à partir du MÊME tableau que la FAQ visible → éligibilité résultats enrichis + citations IA
+function buildFaqSchema(faq) {
+  if (!Array.isArray(faq) || !faq.length) return '';
+  const obj = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map(f => ({
+      '@type': 'Question',
+      name: stripHtml(f.q),
+      acceptedAnswer: { '@type': 'Answer', text: stripHtml(f.a) }
+    }))
+  };
+  return `<script type="application/ld+json">\n${JSON.stringify(obj).replace(/</g, '\\u003c')}\n</script>`;
+}
+
 function buildFaq(faq) {
   return faq.map((f, i) => `
     <div class="faq-item${i === 0 ? ' open' : ''}">
@@ -181,6 +201,7 @@ for (const [categorySlug, category] of Object.entries(data.categories)) {
         processIntro: service.processIntro,
         processStepsHTML: buildProcessSteps(service.processSteps),
         faqHTML: buildFaq(service.faq),
+        faqSchema: buildFaqSchema(service.faq),
         relatedHTML: buildRelated(service.related, categorySlug, zone.slug),
         citiesPillsHTML: buildCitiesPills(zone.cities),
         otherZonesHTML: buildOtherZones(zone.slug, serviceSlug, service.name)
