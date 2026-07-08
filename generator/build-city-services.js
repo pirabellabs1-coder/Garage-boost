@@ -88,15 +88,36 @@ for (const city of cities) {
     if (!fs.existsSync(serviceDir)) fs.mkdirSync(serviceDir, { recursive: true });
 
     const svc = service.name.toLowerCase();
-    const lead = `${service.lead.substring(0, 190)} Même prestation pour les habitants de ${city.name}, à ${city.distance} de notre atelier de Plan-de-Cuques.`;
+    const districts = (city.nearbyDistricts || []).slice(0, 4).join(', ');
+    const b0 = (service.benefits && service.benefits[0]) ? service.benefits[0].desc : '';
 
-    const introP1 = `Vous habitez à <strong>${city.name}</strong> et cherchez un atelier spécialisé pour ${svc} ? Garage Boost, à Plan-de-Cuques (à ${city.distance} de ${city.name}, soit environ ${city.travelTime}), reçoit régulièrement des clients de ${city.name} pour cette intervention. Notre atelier est réputé pour sa rigueur technique, ses tarifs justes et sa garantie 12 mois sur l'ensemble de nos prestations mécaniques.`;
+    const lead = `${service.lead.substring(0, 170)} À ${city.distance} de ${city.name} (environ ${city.travelTime}), Garage Boost réalise votre ${svc} avec devis sous 24&nbsp;h et garantie 12 mois.`;
 
-    const introP2 = `${city.localContext} Dans ce contexte, ${svc} fait partie des interventions que les automobilistes de ${city.name} nous confient le plus souvent. La prestation est <strong>strictement identique</strong> pour tous : même protocole, mêmes pièces qualité d'origine, même garantie et même tarif (${service.price}). Nous proposons aussi la <strong>récupération de votre véhicule à domicile</strong> dans toute la zone de ${city.name}, offerte au-delà de 200&nbsp;€ d'intervention validée.`;
+    const introP1 = `Vous cherchez un spécialiste du <strong>${svc} à ${city.name}</strong> ? Garage Boost, atelier indépendant installé à Plan-de-Cuques (à ${city.distance} de ${city.name}, soit environ ${city.travelTime} de route), reçoit chaque semaine des automobilistes de ${city.name} et des quartiers voisins${districts ? ` (${districts})` : ''} pour cette intervention. Notre force tient en un mot : la <strong>spécialisation</strong>. Là où un garage généraliste touche à tout, nous réalisons le ${svc} de façon récurrente, avec l'équipement dédié et l'expérience qui font la différence, y compris sur les cas les plus délicats. C'est ce qui rassure nos clients de ${city.name} : ils confient leur véhicule à un atelier qui maîtrise vraiment cette prestation, pas à un généraliste qui la sous-traite ou l'improvise.`;
 
-    const whyCity = `Vous trouverez sans doute des garages plus proches de chez vous à ${city.name}, mais Garage Boost se distingue par sa <strong>spécialisation</strong> sur ${svc}. Nous réalisons cette intervention plusieurs fois par semaine, avec un équipement dédié et des techniciens formés en continu. Cette expertise concentrée nous permet des tarifs compétitifs (30 à 40&nbsp;% sous le prix concession) et un haut taux de réussite sur les cas délicats. Les habitants de ${city.name} apprécient aussi notre <strong>transparence</strong> : devis envoyé sous 24&nbsp;h, validation écrite obligatoire avant tout démarrage, et aucune surprise sur la facture. Cette exigence nous vaut une note de <strong>4,9/5 sur Google</strong> (plus de 127 avis vérifiés).`;
+    const introP2 = `${city.localContext} C'est précisément dans ce contexte que le <strong>${svc}</strong> prend tout son sens pour les automobilistes de ${city.name}${b0 ? ` : ${b0.charAt(0).toLowerCase()}${b0.slice(1)}` : '.'} La prestation est <strong>strictement identique</strong> pour tous nos clients — même protocole, mêmes pièces qualité d'origine, même garantie et même tarif (${service.price}) — que vous veniez de ${city.name} ou de Plan-de-Cuques. Et pour vous éviter le trajet, nous proposons la <strong>récupération de votre véhicule à domicile</strong> partout à ${city.name}, offerte au-delà de 200&nbsp;€ d'intervention validée.`;
 
-    const servicePresentation = `${service.introTitle ? '<strong>' + service.introTitle + '</strong> ' : ''}${service.introP1 || ''} ${service.introP2 || ''} Pour le détail technique complet, consultez notre <a href="../${serviceSlug}.html" style="color:var(--accent)">page ${service.name}</a>. Pour un devis personnalisé pour votre véhicule à ${city.name}, contactez-nous par téléphone, WhatsApp ou via notre formulaire — un mécanicien spécialisé vous répond directement.`;
+    const whyCity = `Pourquoi choisir Garage Boost pour votre <strong>${svc} à ${city.name}</strong> plutôt qu'un garage de quartier ? D'abord pour la <strong>spécialisation</strong> : nous réalisons cette intervention plusieurs fois par semaine, avec un matériel dédié et des techniciens formés en continu — un savoir-faire concentré qui fait la différence sur les cas complexes. Ensuite pour les <strong>tarifs</strong> : 30 à 40&nbsp;% sous le prix concession à qualité égale. Enfin pour la <strong>transparence</strong> : devis détaillé envoyé sous 24&nbsp;h, validation écrite obligatoire avant tout démarrage, compte-rendu remis à la restitution, et aucune surprise sur la facture. Cette exigence nous vaut une note de <strong>4,9/5 sur Google</strong> (plus de 127 avis vérifiés) auprès de clients de toute la métropole Aix-Marseille-Provence, dont beaucoup viennent de ${city.name} et de ses environs.`;
+
+    const servicePresentation = `<strong>${service.name} à ${city.name} : comment ça se passe ?</strong> ${service.introP1 || ''}</p>` +
+      `<p>${service.introP2 || ''} Pour un automobiliste de ${city.name}, tout commence par un <strong>diagnostic et un devis clairs</strong> : vous savez exactement ce qui sera fait et à quel prix avant que l'on touche au véhicule. L'intervention est ensuite réalisée dans notre atelier de Plan-de-Cuques, à ${city.distance} de ${city.name}, puis nous vous rendons la voiture prête, avec sa garantie 12 mois et son compte-rendu écrit.</p>` +
+      `<p>Beaucoup de nos clients de ${city.name} arrivent en cherchant «&nbsp;<strong>${svc} ${city.name}</strong>&nbsp;», «&nbsp;garage ${svc} près de ${city.name}&nbsp;» ou «&nbsp;prix ${svc} ${city.name}&nbsp;» : notre réponse est la même dans tout le secteur${districts ? ` (${districts})` : ''}, sans surcoût lié à la distance ni tarif «&nbsp;client de passage&nbsp;». Et si vous ne pouvez pas vous déplacer, notre dépanneuse vient chercher votre véhicule directement à ${city.name} et vous le ramène une fois l'intervention terminée.</p>` +
+      `<p>Pour le détail technique complet de la prestation, consultez notre <a href="../${serviceSlug}.html" style="color:var(--accent)">page dédiée ${service.name}</a>, ou demandez dès maintenant votre <strong>devis ${svc} pour ${city.name}</strong> par téléphone, WhatsApp ou via le formulaire en ligne — un mécanicien spécialisé vous répond directement, sans standard téléphonique ni intermédiaire commercial.`;
+
+    // FAQ locale (utile + mots-clés + enrichit le schema FAQPage), en tête de la FAQ service
+    const cityFaq = [
+      { q: `Intervenez-vous à ${city.name} pour un ${svc} ?`,
+        a: `Oui. Notre atelier est à Plan-de-Cuques, à ${city.distance} de ${city.name} (environ ${city.travelTime} de route). Nous recevons régulièrement des clients de ${city.name} pour un ${svc}, et nous proposons la récupération de votre véhicule à domicile, offerte au-delà de 200 € d'intervention validée — idéal si vous préférez ne pas vous déplacer.` },
+      { q: `Combien coûte un ${svc} pour un habitant de ${city.name} ?`,
+        a: `Le tarif est de ${service.price}, identique pour tous nos clients : pas de surcoût lié à la distance ni de tarif « client de passage » pour ${city.name}. ${(service.pricingDesc || '').replace(/<[^>]+>/g, '')} Un devis détaillé et gratuit vous est envoyé sous 24 heures ouvrées, avec validation écrite avant tout démarrage.` },
+      { q: `Quel est le délai pour un rendez-vous ${svc} depuis ${city.name} ?`,
+        a: `Pour une intervention standard, comptez 48 à 72 heures ; pour une opération plus lourde, 5 à 10 jours ; en cas d'urgence, nous faisons au plus vite. Vous réservez en ligne ou par téléphone depuis ${city.name}, avec une confirmation sous 2 heures ouvrées.` },
+      { q: `Sur quelles marques réalisez-vous le ${svc} ?`,
+        a: `Toutes les marques européennes, asiatiques et américaines (Renault, Peugeot, Citroën, Volkswagen, Audi, BMW, Mercedes, Ford, Toyota, Dacia et bien d'autres), toutes motorisations essence, diesel et hybride. Nous intervenons aussi bien sur les véhicules récents des habitants de ${city.name} que sur les modèles plus anciens.` },
+      { q: `Le ${svc} est-il garanti, et puis-je payer en plusieurs fois ?`,
+        a: `Oui : garantie 12 mois pièces et main-d'œuvre (24 mois sur les reprogrammations), avec attestation écrite remise à chaque facture. Et pour toute prestation supérieure à 500 €, le règlement peut se faire en 3 ou 4 fois sans frais, sous réserve d'éligibilité — une facilité appréciée par nos clients de ${city.name}.` }
+    ];
+    const faq = [...cityFaq, ...(service.faq || [])];
 
     const html = render(TEMPLATE, {
       categorySlug,
@@ -132,8 +153,8 @@ for (const city of cities) {
       whatIsP3: service.whatIsP3,
       processIntro: service.processIntro,
       processStepsHTML: buildProcessSteps(service.processSteps),
-      faqHTML: buildFaq(service.faq),
-      faqSchema: buildFaqSchema(service.faq),
+      faqHTML: buildFaq(faq),
+      faqSchema: buildFaqSchema(faq),
       relatedHTML: buildRelated(service.related),
       citiesPillsHTML: buildCitiesPills(city.nearbyDistricts),
       otherZonesHTML: buildOtherAreas(serviceSlug, service.name, city.slug, city.name)
