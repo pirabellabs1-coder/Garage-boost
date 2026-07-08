@@ -78,8 +78,17 @@ function buildTopServicesList(topServices, cityName, zoneSlug) {
   }).join('\n');
 }
 
-function buildOtherCities(currentSlug) {
-  return cities.filter(c => c.slug !== currentSlug).map(c =>
+function buildOtherCities(currentSlug, currentZone) {
+  // Villes de la MÊME zone (proximité géographique) + quelques grandes villes repères — ~12 max.
+  // On évite le mur de 65 pastilles : on privilégie la pertinence locale et un design lisible.
+  const sameZone = cities.filter(c => c.slug !== currentSlug && c.zoneSlug === currentZone);
+  const majorSlugs = ['marseille', 'aix-en-provence', 'aubagne', 'vitrolles', 'salon-de-provence', 'martigues'];
+  const majors = majorSlugs
+    .map(s => cities.find(c => c.slug === s))
+    .filter(c => c && c.slug !== currentSlug && c.zoneSlug !== currentZone);
+  const seen = new Set();
+  const list = [...sameZone, ...majors].filter(c => !seen.has(c.slug) && seen.add(c.slug)).slice(0, 12);
+  return list.map(c =>
     `<a class="zone-pill" href="${c.slug}.html"><i class="fa-solid fa-location-dot"></i> Garage ${c.name}</a>`
   ).join('\n');
 }
@@ -161,7 +170,7 @@ for (const city of cities) {
     categoryEntretienHTML: buildCategoryCards('entretien-assistance', city.zoneSlug),
     categoryCarrosserieHTML: buildCategoryCards('carrosserie', city.zoneSlug),
     categoryLocationHTML: buildCategoryCards('location', city.zoneSlug),
-    otherCitiesHTML: buildOtherCities(city.slug),
+    otherCitiesHTML: buildOtherCities(city.slug, city.zoneSlug),
     faqSchema: buildCityFaqSchema(city)
   });
 
