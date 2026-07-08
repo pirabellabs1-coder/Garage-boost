@@ -4,7 +4,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 const FROM = 'Garage Boost <noreply@garageboost.fr>';
 const TO_GARAGE = 'masgarage7@gmail.com';
-const CC_GARAGE = ['pirabel69@gmail.com'];
+const CC_GARAGE = [];
 const SITE = 'https://garageboost.fr';
 
 const escape = (s = '') =>
@@ -193,7 +193,7 @@ export default async function handler(req, res) {
     const owner = await resend.emails.send({
       from: FROM,
       to: TO_GARAGE,
-      cc: CC_GARAGE,
+      cc: CC_GARAGE.length ? CC_GARAGE : undefined,
       replyTo: customerEmail || undefined,
       subject: type === 'rdv'
         ? `🛠️ Nouvelle demande de RDV — ${data['Prénom'] || ''} ${data['Nom'] || ''}`.trim()
