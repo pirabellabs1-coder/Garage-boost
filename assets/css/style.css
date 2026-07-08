@@ -468,6 +468,21 @@ h1, h2, h3, h4 {
   align-items: center;
 }
 
+.hero-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 14px 0 6px;
+  padding: 7px 15px;
+  background: rgba(189, 227, 45, 0.09);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.hero-rating strong { color: var(--white); }
+.hero-rating-stars { color: #ffc400; letter-spacing: 2px; }
+
 .hero-eyebrow {
   display: inline-flex;
   align-items: center;
