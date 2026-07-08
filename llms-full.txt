@@ -1,6 +1,6 @@
 # Garage Boost Marseille — Index complet pour LLMs
 
-> Garage automobile indépendant à Plan-de-Cuques (13380 Marseille) spécialisé en maintenance moteur, anti-pollution, reprogrammation, carrosserie, dépannage et location. Note Google 4,9/5 sur 127+ avis. Toutes marques.
+> Garage automobile indépendant à Plan-de-Cuques (13380 Marseille) spécialisé en maintenance moteur, anti-pollution, reprogrammation, carrosserie, dépannage et location. Toutes marques.
 
 ## Coordonnées
 
@@ -13,11 +13,11 @@
 ## Pages essentielles
 
 - [Accueil](https://garageboost.fr/) — Page d'accueil avec présentation des 4 catégories de services et zones desservies
-- [Tarifs](https://garageboost.fr/tarifs.html) — Grille tarifaire complète avec 46 prix sur 5 catégories
-- [Prise de rendez-vous](https://garageboost.fr/rendez-vous.html) — Formulaire en ligne, sélection service, créneau, confirmation sous 2h
-- [Contact](https://garageboost.fr/contact.html) — Téléphone, WhatsApp, email, formulaire, carte Google Maps
-- [FAQ](https://garageboost.fr/faq.html) — 30 questions sur 7 thèmes (reprogrammation, anti-pollution, mécanique, carrosserie, dépannage, tarifs, garanties)
-- [Villes desservies](https://garageboost.fr/villes.html) — 66 communes avec pages dédiées
+- [Tarifs](https://garageboost.fr/tarifs) — Grille tarifaire complète avec 46 prix sur 5 catégories
+- [Prise de rendez-vous](https://garageboost.fr/rendez-vous) — Formulaire en ligne, sélection service, créneau, confirmation sous 2h
+- [Contact](https://garageboost.fr/contact) — Téléphone, WhatsApp, email, formulaire, carte Google Maps
+- [FAQ](https://garageboost.fr/faq) — 30 questions sur 7 thèmes (reprogrammation, anti-pollution, mécanique, carrosserie, dépannage, tarifs, garanties)
+- [Villes desservies](https://garageboost.fr/villes) — 66 communes avec pages dédiées
 
 ## Catégories de services
 
@@ -25,713 +25,647 @@
 
 8 services moteur et anti-pollution (diagnostic, décalaminage hydrogène, FAP, EGR, catalyseur, reprogrammation Stage 1/2, AdBlue, voyants moteur)
 
-[Page catégorie](https://garageboost.fr/maintenance-moteur.html)
+[Page catégorie](https://garageboost.fr/maintenance-moteur)
 
 #### Diagnostic moteur
 
-- **URL** : https://garageboost.fr/maintenance-moteur/diagnostic-moteur.html
+- **URL** : https://garageboost.fr/maintenance-moteur/diagnostic-moteur
 - **Tarif** : Dès 49 €
 - **Description** : Voyant moteur allumé, perte de puissance, ralenti instable ? Notre diagnostic électronique multimarque identifie la cause racine en 30 à 90 minutes. OBD2 + valise constructeur, mesures temps réel.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/var-vaucluse-alpes-maritimes)
 
 #### Décalaminage hydrogène
 
-- **URL** : https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene.html
+- **URL** : https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene
 - **Tarif** : Dès 89 €
 - **Description** : Procédé écologique en 60-90 minutes, sans démontage. L'hydrogène délogue la calamine accumulée dans la chambre de combustion, sur les soupapes, dans le turbo et l'EGR. Performances restaurées, conso o
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/var-vaucluse-alpes-maritimes)
 
 #### Nettoyage FAP
 
-- **URL** : https://garageboost.fr/maintenance-moteur/nettoyage-fap.html
+- **URL** : https://garageboost.fr/maintenance-moteur/nettoyage-fap
 - **Tarif** : 250 - 650 €
 - **Description** : FAP saturé, voyant FAP allumé, mode dégradé déclenché ? Notre traitement professionnel restaure 95% de la capacité du filtre, en chimique sans démontage ou en bain ultrason. Économie 70% vs neuf.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/nettoyage-fap/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/nettoyage-fap/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/nettoyage-fap/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/nettoyage-fap/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/nettoyage-fap/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/nettoyage-fap/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/nettoyage-fap/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/nettoyage-fap/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/nettoyage-fap/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/nettoyage-fap/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/nettoyage-fap/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/nettoyage-fap/var-vaucluse-alpes-maritimes)
 
 #### Nettoyage catalyseur
 
-- **URL** : https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur.html
+- **URL** : https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur
 - **Tarif** : Dès 290 €
 - **Description** : Catalyseur en perte d'efficacité, échec au contrôle technique pollution ? Notre traitement professionnel restaure l'efficacité catalytique sans remplacement. Économie massive vs neuf.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/var-vaucluse-alpes-maritimes)
 
 #### Reprogrammation moteur
 
-- **URL** : https://garageboost.fr/maintenance-moteur/reprogrammation-moteur.html
+- **URL** : https://garageboost.fr/maintenance-moteur/reprogrammation-moteur
 - **Tarif** : 350 - 990 €
 - **Description** : Optimisation de la cartographie d'origine pour gagner couple, puissance et réactivité — tout en réduisant la consommation. Cartos testées sur banc, sauvegarde de l'origine, garantie 24 mois.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/var-vaucluse-alpes-maritimes)
 
 #### Suppression AdBlue
 
-- **URL** : https://garageboost.fr/maintenance-moteur/suppression-adblue.html
+- **URL** : https://garageboost.fr/maintenance-moteur/suppression-adblue
 - **Tarif** : 290 - 590 €
 - **Description** : Système AdBlue défectueux ? Capteur de qualité, pompe ou calculateur HS ? Notre suppression logicielle désactive proprement le système SCR sans erreur. Économie de 1 200 à 2 200€ vs remplacement.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/suppression-adblue/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/suppression-adblue/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/suppression-adblue/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/suppression-adblue/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/suppression-adblue/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/suppression-adblue/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/suppression-adblue/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/suppression-adblue/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/suppression-adblue/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/suppression-adblue/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/suppression-adblue/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/suppression-adblue/var-vaucluse-alpes-maritimes)
 
 #### Traitement EGR & injecteurs
 
-- **URL** : https://garageboost.fr/maintenance-moteur/traitement-egr.html
+- **URL** : https://garageboost.fr/maintenance-moteur/traitement-egr
 - **Tarif** : 180 - 290 €
 - **Description** : Vanne EGR encrassée ou injecteurs HS ? Démontage, nettoyage ultrason haute température, remontage avec joints neufs. Restauration des performances pour 180-290€ vs 800-1500€ neuf.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/traitement-egr/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/traitement-egr/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/traitement-egr/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/traitement-egr/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/traitement-egr/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/traitement-egr/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/traitement-egr/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/traitement-egr/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/traitement-egr/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/traitement-egr/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/traitement-egr/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/traitement-egr/var-vaucluse-alpes-maritimes)
 
 #### Voyants moteur
 
-- **URL** : https://garageboost.fr/maintenance-moteur/voyants-moteur.html
+- **URL** : https://garageboost.fr/maintenance-moteur/voyants-moteur
 - **Tarif** : Dès 49 €
 - **Description** : Voyant moteur orange, rouge ou clignotant ? Notre diagnostic identifie la cause précise sous 90 minutes. Lecture multimarque OBD2 + valise constructeur, devis transparent.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/voyants-moteur/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/voyants-moteur/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/voyants-moteur/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/voyants-moteur/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/voyants-moteur/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/voyants-moteur/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/voyants-moteur/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/voyants-moteur/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/voyants-moteur/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/voyants-moteur/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/voyants-moteur/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/voyants-moteur/var-vaucluse-alpes-maritimes)
 
 ### Entretien & assistance
 
 7 services d'entretien et dépannage (mécanique générale, électricité auto, dépannage 7j/7, scooter, ouverture véhicule, reproduction clés, enlèvement épaves)
 
-[Page catégorie](https://garageboost.fr/entretien-assistance.html)
+[Page catégorie](https://garageboost.fr/entretien-assistance)
 
 #### Mécanique générale
 
-- **URL** : https://garageboost.fr/entretien-assistance/mecanique-generale.html
+- **URL** : https://garageboost.fr/entretien-assistance/mecanique-generale
 - **Tarif** : Dès 89 €
 - **Description** : Vidange, freins, distribution, embrayage, suspension, climatisation. Notre équipe couvre toutes les opérations d'entretien programmé et réparations courantes sur toutes marques de véhicules.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/mecanique-generale/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/mecanique-generale/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/mecanique-generale/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/mecanique-generale/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/mecanique-generale/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/mecanique-generale/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/mecanique-generale/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/mecanique-generale/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/mecanique-generale/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/mecanique-generale/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/mecanique-generale/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/mecanique-generale/var-vaucluse-alpes-maritimes)
 
 #### Électricité automobile
 
-- **URL** : https://garageboost.fr/entretien-assistance/electricite-automobile.html
+- **URL** : https://garageboost.fr/entretien-assistance/electricite-automobile
 - **Tarif** : 59 €/h
 - **Description** : Diagnostic des problèmes électriques et électroniques : batterie, alternateur, démarreur, faisceaux, calculateurs, ABS, ESP, capteurs. Notre poste électrique professionnel résout les pannes complexes.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/electricite-automobile/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/electricite-automobile/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/electricite-automobile/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/electricite-automobile/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/electricite-automobile/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/electricite-automobile/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/electricite-automobile/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/electricite-automobile/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/electricite-automobile/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/electricite-automobile/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/electricite-automobile/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/electricite-automobile/var-vaucluse-alpes-maritimes)
 
 #### Dépannage & remorquage
 
-- **URL** : https://garageboost.fr/entretien-assistance/depannage-remorquage.html
+- **URL** : https://garageboost.fr/entretien-assistance/depannage-remorquage
 - **Tarif** : 89 - 149 €
 - **Description** : Panne, accrochage, batterie HS, clé perdue ? Notre service de dépannage intervient en 30 à 60 minutes dans la zone Marseille / Plan-de-Cuques / Aubagne, 7 jours sur 7 y compris week-ends.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/depannage-remorquage/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/depannage-remorquage/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/depannage-remorquage/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/depannage-remorquage/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/depannage-remorquage/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/depannage-remorquage/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/depannage-remorquage/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/depannage-remorquage/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/depannage-remorquage/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/depannage-remorquage/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/depannage-remorquage/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/depannage-remorquage/var-vaucluse-alpes-maritimes)
 
 #### Dépannage scooter
 
-- **URL** : https://garageboost.fr/entretien-assistance/depannage-scooter.html
+- **URL** : https://garageboost.fr/entretien-assistance/depannage-scooter
 - **Tarif** : Dès 69 €
 - **Description** : Démarrage difficile, batterie HS, panne sèche, courroie cassée ? Notre service de dépannage scooter intervient rapidement à Marseille et Plan-de-Cuques. Tous types et marques.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/depannage-scooter/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/depannage-scooter/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/depannage-scooter/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/depannage-scooter/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/depannage-scooter/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/depannage-scooter/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/depannage-scooter/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/depannage-scooter/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/depannage-scooter/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/depannage-scooter/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/depannage-scooter/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/depannage-scooter/var-vaucluse-alpes-maritimes)
 
 #### Ouverture de véhicule
 
-- **URL** : https://garageboost.fr/entretien-assistance/ouverture-vehicule.html
+- **URL** : https://garageboost.fr/entretien-assistance/ouverture-vehicule
 - **Tarif** : Dès 89 €
 - **Description** : Clés perdues, bloquées dans le véhicule, cassées dans la serrure ? Ouverture sans dégradation par technicien certifié serrurier auto. Intervention rapide à Marseille et Plan-de-Cuques.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/ouverture-vehicule/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/ouverture-vehicule/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/ouverture-vehicule/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/ouverture-vehicule/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/ouverture-vehicule/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/ouverture-vehicule/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/ouverture-vehicule/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/ouverture-vehicule/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/ouverture-vehicule/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/ouverture-vehicule/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/ouverture-vehicule/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/ouverture-vehicule/var-vaucluse-alpes-maritimes)
 
 #### Reproduction de clés
 
-- **URL** : https://garageboost.fr/entretien-assistance/reproduction-cles.html
+- **URL** : https://garageboost.fr/entretien-assistance/reproduction-cles
 - **Tarif** : 89 - 290 €
 - **Description** : Reproduction de clés mécaniques et électroniques avec codage du transpondeur. Toutes marques européennes, asiatiques et américaines. Travail rapide à Plan-de-Cuques.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/reproduction-cles/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/reproduction-cles/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/reproduction-cles/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/reproduction-cles/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/reproduction-cles/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/reproduction-cles/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/reproduction-cles/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/reproduction-cles/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/reproduction-cles/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/reproduction-cles/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/reproduction-cles/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/reproduction-cles/var-vaucluse-alpes-maritimes)
 
 #### Enlèvement d'épaves
 
-- **URL** : https://garageboost.fr/entretien-assistance/enlevement-epaves.html
+- **URL** : https://garageboost.fr/entretien-assistance/enlevement-epaves
 - **Tarif** : Sur devis
 - **Description** : Reprise de votre véhicule hors d'usage sur rendez-vous avec certificat de destruction VHU agréé. Démarches préfecture incluses. Devis personnalisé selon état et zone.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/enlevement-epaves/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/enlevement-epaves/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/enlevement-epaves/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/enlevement-epaves/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/enlevement-epaves/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/enlevement-epaves/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/enlevement-epaves/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/enlevement-epaves/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/enlevement-epaves/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/enlevement-epaves/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/enlevement-epaves/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/enlevement-epaves/var-vaucluse-alpes-maritimes)
 
 ### Carrosserie
 
 3 services carrosserie (carrosserie auto, peinture cabine, pare-brise avec calibrage ADAS)
 
-[Page catégorie](https://garageboost.fr/carrosserie.html)
+[Page catégorie](https://garageboost.fr/carrosserie)
 
 #### Carrosserie auto
 
-- **URL** : https://garageboost.fr/carrosserie/carrosserie-auto.html
+- **URL** : https://garageboost.fr/carrosserie/carrosserie-auto
 - **Tarif** : 90 - 890 €
 - **Description** : Réparation après choc, redressage tôle, débosselage marbre traction, remplacement éléments complets (aile, porte, capot, pare-chocs). Toutes marques, toutes assurances.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/carrosserie/carrosserie-auto/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/carrosserie/carrosserie-auto/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/carrosserie/carrosserie-auto/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/carrosserie/carrosserie-auto/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/carrosserie/carrosserie-auto/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/carrosserie/carrosserie-auto/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/carrosserie/carrosserie-auto/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/carrosserie/carrosserie-auto/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/carrosserie/carrosserie-auto/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/carrosserie/carrosserie-auto/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/carrosserie/carrosserie-auto/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/carrosserie/carrosserie-auto/var-vaucluse-alpes-maritimes)
 
 #### Peinture automobile
 
-- **URL** : https://garageboost.fr/carrosserie/peinture-automobile.html
+- **URL** : https://garageboost.fr/carrosserie/peinture-automobile
 - **Tarif** : 290 - 3490 €
 - **Description** : Peinture cabine professionnelle, teinte d'origine constructeur, raccord ombré pour finition invisible. Du retouche-stylo à la peinture complète véhicule. Garantie 24 mois.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/carrosserie/peinture-automobile/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/carrosserie/peinture-automobile/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/carrosserie/peinture-automobile/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/carrosserie/peinture-automobile/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/carrosserie/peinture-automobile/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/carrosserie/peinture-automobile/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/carrosserie/peinture-automobile/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/carrosserie/peinture-automobile/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/carrosserie/peinture-automobile/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/carrosserie/peinture-automobile/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/carrosserie/peinture-automobile/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/carrosserie/peinture-automobile/var-vaucluse-alpes-maritimes)
 
 #### Pare-brise
 
-- **URL** : https://garageboost.fr/carrosserie/pare-brise.html
+- **URL** : https://garageboost.fr/carrosserie/pare-brise
 - **Tarif** : 49 - 590 €
 - **Description** : Réparation impact (résine), remplacement complet pare-brise / vitres latérales / lunette arrière. Calibrage ADAS pour véhicules récents. Pris en charge par votre assurance bris de glace.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/carrosserie/pare-brise/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/carrosserie/pare-brise/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/carrosserie/pare-brise/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/carrosserie/pare-brise/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/carrosserie/pare-brise/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/carrosserie/pare-brise/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/carrosserie/pare-brise/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/carrosserie/pare-brise/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/carrosserie/pare-brise/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/carrosserie/pare-brise/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/carrosserie/pare-brise/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/carrosserie/pare-brise/var-vaucluse-alpes-maritimes)
 
 ### Location de véhicules
 
 5 services location (citadines, utilitaires, vans aménagés, voiture rallye, véhicules occasion certifiés)
 
-[Page catégorie](https://garageboost.fr/location.html)
+[Page catégorie](https://garageboost.fr/location)
 
 #### Location citadines
 
-- **URL** : https://garageboost.fr/location/citadines.html
+- **URL** : https://garageboost.fr/location/citadines
 - **Tarif** : Dès 39 €/j
 - **Description** : Clio, Peugeot 208, Twingo, Sandero. Citadines économiques, agiles, parfaites pour la ville et les courts trajets. À partir de 39€/jour avec assurance tous risques incluse.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/citadines/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/citadines/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/citadines/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/citadines/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/location/citadines/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/citadines/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/citadines/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/citadines/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/citadines/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/citadines/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/location/citadines/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/citadines/var-vaucluse-alpes-maritimes)
 
 #### Location utilitaires
 
-- **URL** : https://garageboost.fr/location/utilitaires.html
+- **URL** : https://garageboost.fr/location/utilitaires
 - **Tarif** : 49 - 79 €/j
 - **Description** : Kangoo, Berlingo (3-6m³), Trafic (8m³), Master/Boxer (12m³). Idéal déménagement, livraison, chantier. Rampe d'accès incluse. À partir de 49€/jour.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/utilitaires/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/utilitaires/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/utilitaires/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/utilitaires/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/location/utilitaires/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/utilitaires/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/utilitaires/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/utilitaires/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/utilitaires/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/utilitaires/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/location/utilitaires/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/utilitaires/var-vaucluse-alpes-maritimes)
 
 #### Location van aménagé
 
-- **URL** : https://garageboost.fr/location/vans-amenages.html
+- **URL** : https://garageboost.fr/location/vans-amenages
 - **Tarif** : Dès 99 €/j
 - **Description** : Vans entièrement équipés pour la vanlife : lit double, kitchenette, panneau solaire, eau, électricité 12V. À partir de 99€/jour avec assurance et assistance.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/vans-amenages/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/vans-amenages/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/vans-amenages/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/vans-amenages/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/location/vans-amenages/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/vans-amenages/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/vans-amenages/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/vans-amenages/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/vans-amenages/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/vans-amenages/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/location/vans-amenages/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/vans-amenages/var-vaucluse-alpes-maritimes)
 
 #### Location voiture rallye
 
-- **URL** : https://garageboost.fr/location/voiture-rallye.html
+- **URL** : https://garageboost.fr/location/voiture-rallye
 - **Tarif** : Sur devis
 - **Description** : Voitures de compétition préparées pour track day, tournages, événements professionnels. Avec assurance dédiée, briefing technique, et logistique optionnelle. Sur devis.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/voiture-rallye/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/voiture-rallye/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/voiture-rallye/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/voiture-rallye/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/location/voiture-rallye/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/voiture-rallye/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/voiture-rallye/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/voiture-rallye/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/voiture-rallye/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/voiture-rallye/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/location/voiture-rallye/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/voiture-rallye/var-vaucluse-alpes-maritimes)
 
 #### Véhicules d'occasion
 
-- **URL** : https://garageboost.fr/location/vehicules-occasion.html
+- **URL** : https://garageboost.fr/location/vehicules-occasion
 - **Tarif** : Variable
 - **Description** : Sélection de véhicules d'occasion certifiés, tous contrôlés 100 points et révisés dans nos ateliers. Garantie 3 à 12 mois selon véhicule. Reprise possible.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/vehicules-occasion/plan-de-cuques-marseille.html) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/vehicules-occasion/aubagne-la-ciotat-cassis.html) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/vehicules-occasion/vitrolles-marignane-martigues.html) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/vehicules-occasion/gardanne-aix-en-provence.html) · [Salon-de-Provence](https://garageboost.fr/location/vehicules-occasion/salon-de-provence.html) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/vehicules-occasion/var-vaucluse-alpes-maritimes.html)
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/vehicules-occasion/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/vehicules-occasion/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/vehicules-occasion/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/vehicules-occasion/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/location/vehicules-occasion/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/vehicules-occasion/var-vaucluse-alpes-maritimes)
 
 ## Villes desservies (66 pages dédiées)
 
 ### Marseille
 
-- **URL** : https://garageboost.fr/villes/marseille.html
-- **Population** : 870 000 habitants
+- **URL** : https://garageboost.fr/villes/marseille
 - **Distance** : 10 km du centre (15 minutes en voiture)
 - **Quartiers desservis** : Vieux-Port, La Joliette, Le Prado, La Timone, Saint-Loup, Saint-Antoine, Mazargues, Castellane, Bonneveine, Endoume
 - **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, mecanique-generale, carrosserie-auto
 
 ### Plan-de-Cuques
 
-- **URL** : https://garageboost.fr/villes/plan-de-cuques.html
-- **Population** : 11 000 habitants
+- **URL** : https://garageboost.fr/villes/plan-de-cuques
 - **Distance** : Sur place (Notre commune)
 - **Quartiers desservis** : Centre-ville, Quartier des Pères Blancs, Quartier de La Galéane, Le Cousin
 - **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, reprogrammation-moteur, pare-brise
 
 ### Allauch
 
-- **URL** : https://garageboost.fr/villes/allauch.html
-- **Population** : 21 000 habitants
+- **URL** : https://garageboost.fr/villes/allauch
 - **Distance** : 5 km (10 minutes)
 - **Quartiers desservis** : Centre historique, Le Logis-Neuf, Pichauris, La Pounche, Le Vieil Allauch
 - **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, depannage-remorquage
 
 ### Aubagne
 
-- **URL** : https://garageboost.fr/villes/aubagne.html
-- **Population** : 46 000 habitants
+- **URL** : https://garageboost.fr/villes/aubagne
 - **Distance** : 15 km (20 minutes)
 - **Quartiers desservis** : Centre-ville, Les Solans, Beaudinard, Camp Major, Les Paluds, La Tourtelle
 - **Services les plus demandés** : mecanique-generale, utilitaires, depannage-remorquage, carrosserie-auto
 
 ### La Ciotat
 
-- **URL** : https://garageboost.fr/villes/la-ciotat.html
-- **Population** : 36 000 habitants
+- **URL** : https://garageboost.fr/villes/la-ciotat
 - **Distance** : 24 km (30 minutes)
 - **Quartiers desservis** : Vieille Ville, Le Port, La Garoupe, Saint-Jean, Le Mugel, Athéna, Les Séveriers
 - **Services les plus demandés** : carrosserie-auto, electricite-automobile, depannage-remorquage, reprogrammation-moteur
 
 ### Cassis
 
-- **URL** : https://garageboost.fr/villes/cassis.html
-- **Population** : 7 200 habitants
+- **URL** : https://garageboost.fr/villes/cassis
 - **Distance** : 24 km (30 minutes)
 - **Quartiers desservis** : Centre village, Le Port, Bestouan, La Couronne, Quartier des Calanques
 - **Services les plus demandés** : carrosserie-auto, peinture-automobile, reprogrammation-moteur, mecanique-generale
 
 ### Septèmes-les-Vallons
 
-- **URL** : https://garageboost.fr/villes/septemes-les-vallons.html
-- **Population** : 11 000 habitants
+- **URL** : https://garageboost.fr/villes/septemes-les-vallons
 - **Distance** : 11 km (15 minutes)
 - **Quartiers desservis** : Centre-ville, Le Logis-Neuf, Les Termes, La Gavotte, Saint-Antoine
 - **Services les plus demandés** : mecanique-generale, pare-brise, depannage-remorquage, electricite-automobile
 
 ### Les Pennes-Mirabeau
 
-- **URL** : https://garageboost.fr/villes/pennes-mirabeau.html
-- **Population** : 21 500 habitants
+- **URL** : https://garageboost.fr/villes/pennes-mirabeau
 - **Distance** : 15 km (20 minutes)
 - **Quartiers desservis** : Centre-ville, La Gavotte, Plan-de-Campagne, Cadenelle, Bonneveine
 - **Services les plus demandés** : mecanique-generale, utilitaires, reprogrammation-moteur, depannage-remorquage
 
 ### Vitrolles
 
-- **URL** : https://garageboost.fr/villes/vitrolles.html
-- **Population** : 34 000 habitants
+- **URL** : https://garageboost.fr/villes/vitrolles
 - **Distance** : 29 km (35 minutes)
 - **Quartiers desservis** : Centre-ville, Le Liourat, Le Pontet, Couperigne, Estroublans, Anjoly
 - **Services les plus demandés** : utilitaires, mecanique-generale, depannage-remorquage, reprogrammation-moteur
 
 ### Marignane
 
-- **URL** : https://garageboost.fr/villes/marignane.html
-- **Population** : 34 000 habitants
+- **URL** : https://garageboost.fr/villes/marignane
 - **Distance** : 20 km (30 minutes)
 - **Quartiers desservis** : Centre-ville, Notre-Dame, La Tapie, Le Jardin du Roy, Saint-Pierre
 - **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, carrosserie-auto, mecanique-generale
 
 ### Cabriès
 
-- **URL** : https://garageboost.fr/villes/cabries.html
-- **Population** : 9 200 habitants
+- **URL** : https://garageboost.fr/villes/cabries
 - **Distance** : 16 km (25 minutes)
 - **Quartiers desservis** : Centre-ville, Plan-de-Campagne, Les Pommiers, Calas
 - **Services les plus demandés** : carrosserie-auto, pare-brise, mecanique-generale, reprogrammation-moteur
 
 ### Bouc-Bel-Air
 
-- **URL** : https://garageboost.fr/villes/bouc-bel-air.html
-- **Population** : 15 000 habitants
+- **URL** : https://garageboost.fr/villes/bouc-bel-air
 - **Distance** : 17 km (25 minutes)
 - **Quartiers desservis** : Centre-ville, Le Pont-de-l'Arc, La Salle, Les Cèdres
 - **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, pare-brise, electricite-automobile
 
 ### Gardanne
 
-- **URL** : https://garageboost.fr/villes/gardanne.html
-- **Population** : 21 000 habitants
+- **URL** : https://garageboost.fr/villes/gardanne
 - **Distance** : 27 km (30 minutes)
 - **Quartiers desservis** : Centre-ville, Notre-Dame, Biver, Valabre, Fontvenelle
 - **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, utilitaires, decalaminage-hydrogene
 
 ### Aix-en-Provence
 
-- **URL** : https://garageboost.fr/villes/aix-en-provence.html
-- **Population** : 143 000 habitants
+- **URL** : https://garageboost.fr/villes/aix-en-provence
 - **Distance** : 30 km (35 minutes)
 - **Quartiers desservis** : Cours Mirabeau, Mazarin, La Duranne, Pont-de-l'Arc, Jas de Bouffan, Encagnane
 - **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, carrosserie-auto, peinture-automobile
 
 ### Salon-de-Provence
 
-- **URL** : https://garageboost.fr/villes/salon-de-provence.html
-- **Population** : 46 000 habitants
+- **URL** : https://garageboost.fr/villes/salon-de-provence
 - **Distance** : 50 km (55 minutes)
 - **Quartiers desservis** : Centre-ville, La Coupole, Les Bressons, Bel Air, La Salle
 - **Services les plus demandés** : reprogrammation-moteur, mecanique-generale, utilitaires, carrosserie-auto
 
 ### Martigues
 
-- **URL** : https://garageboost.fr/villes/martigues.html
-- **Population** : 49 000 habitants
+- **URL** : https://garageboost.fr/villes/martigues
 - **Distance** : 40 km (45 minutes)
 - **Quartiers desservis** : Centre historique, L'Île, Ferrières, Jonquières, La Couronne, Lavéra
 - **Services les plus demandés** : utilitaires, nettoyage-fap, traitement-egr, depannage-remorquage
 
 ### Saint-Maximin-la-Sainte-Baume
 
-- **URL** : https://garageboost.fr/villes/saint-maximin-la-sainte-baume.html
-- **Population** : 17 000 habitants
+- **URL** : https://garageboost.fr/villes/saint-maximin-la-sainte-baume
 - **Distance** : 48 km (55 minutes)
 - **Quartiers desservis** : Centre historique, La Pinède, Rougiers, Châteaurenard
 - **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, mecanique-generale, carrosserie-auto
 
 ### Toulon
 
-- **URL** : https://garageboost.fr/villes/toulon.html
-- **Population** : 171 000 habitants
+- **URL** : https://garageboost.fr/villes/toulon
 - **Distance** : 65 km (1h10)
 - **Quartiers desservis** : Centre-ville, Le Mourillon, La Rode, Saint-Roch, La Serinette, Pont-du-Las
 - **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, voiture-rallye, voiture-rallye
 
 ### Istres
 
-- **URL** : https://garageboost.fr/villes/istres.html
-- **Population** : 43 000 habitants
+- **URL** : https://garageboost.fr/villes/istres
 - **Distance** : 46 km (50 minutes)
 - **Quartiers desservis** : Centre-ville, Le Tubé, La Bayanne, Trigance, Rassuen
 - **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, pare-brise, utilitaires
 
 ### Roquevaire
 
-- **URL** : https://garageboost.fr/villes/roquevaire.html
-- **Population** : 9 000 habitants
+- **URL** : https://garageboost.fr/villes/roquevaire
 - **Distance** : 15 km (20 minutes)
 - **Quartiers desservis** : Centre-village, Lascours, Pont-de-l'Étoile, Le Pré de Châteauredon
 - **Services les plus demandés** : mecanique-generale, diagnostic-moteur, depannage-remorquage, pare-brise
 
 ### Auriol
 
-- **URL** : https://garageboost.fr/villes/auriol.html
-- **Population** : 12 000 habitants
+- **URL** : https://garageboost.fr/villes/auriol
 - **Distance** : 22 km (25 minutes)
 - **Quartiers desservis** : Centre-village, Moulin de Redon, La Vallée Heureuse, Pont de Joux
 - **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, depannage-remorquage
 
 ### Gémenos
 
-- **URL** : https://garageboost.fr/villes/gemenos.html
-- **Population** : 6 500 habitants
+- **URL** : https://garageboost.fr/villes/gemenos
 - **Distance** : 17 km (20 minutes)
 - **Quartiers desservis** : Centre-village, Saint-Jean-de-Garguier, Parc d'activités de Gémenos, Coulin
 - **Services les plus demandés** : utilitaires, mecanique-generale, depannage-remorquage, reprogrammation-moteur
 
 ### La Penne-sur-Huveaune
 
-- **URL** : https://garageboost.fr/villes/la-penne-sur-huveaune.html
-- **Population** : 6 500 habitants
+- **URL** : https://garageboost.fr/villes/la-penne-sur-huveaune
 - **Distance** : 12 km (15 minutes)
 - **Quartiers desservis** : Centre-ville, Les Pallières, La Millière, Le Pont de l'Étoile
 - **Services les plus demandés** : mecanique-generale, pare-brise, diagnostic-moteur, depannage-remorquage
 
 ### Carnoux-en-Provence
 
-- **URL** : https://garageboost.fr/villes/carnoux-en-provence.html
-- **Population** : 7 000 habitants
+- **URL** : https://garageboost.fr/villes/carnoux-en-provence
 - **Distance** : 18 km (22 minutes)
 - **Quartiers desservis** : Centre-ville, La Crémade, Le Vallon, Les Hauts de Carnoux
 - **Services les plus demandés** : carrosserie-auto, pare-brise, reprogrammation-moteur, mecanique-generale
 
 ### Simiane-Collongue
 
-- **URL** : https://garageboost.fr/villes/simiane-collongue.html
-- **Population** : 6 000 habitants
+- **URL** : https://garageboost.fr/villes/simiane-collongue
 - **Distance** : 14 km (20 minutes)
 - **Quartiers desservis** : Centre-village, Collongue, Le Pavillon, Les Bastides
 - **Services les plus demandés** : mecanique-generale, diagnostic-moteur, pare-brise, electricite-automobile
 
 ### Fuveau
 
-- **URL** : https://garageboost.fr/villes/fuveau.html
-- **Population** : 10 000 habitants
+- **URL** : https://garageboost.fr/villes/fuveau
 - **Distance** : 26 km (30 minutes)
 - **Quartiers desservis** : Centre-village, La Barque, Bellevue, Château
 - **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, pare-brise
 
 ### Trets
 
-- **URL** : https://garageboost.fr/villes/trets.html
-- **Population** : 11 000 habitants
+- **URL** : https://garageboost.fr/villes/trets
 - **Distance** : 35 km (38 minutes)
 - **Quartiers desservis** : Centre historique, Kirbon, Les Œillets, Bas-Cani
 - **Services les plus demandés** : decalaminage-hydrogene, mecanique-generale, utilitaires, reprogrammation-moteur
 
 ### Venelles
 
-- **URL** : https://garageboost.fr/villes/venelles.html
-- **Population** : 8 500 habitants
+- **URL** : https://garageboost.fr/villes/venelles
 - **Distance** : 38 km (42 minutes)
 - **Quartiers desservis** : Centre-village, Le Logis, Les Logissons, Font-Trompette
 - **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, carrosserie-auto, mecanique-generale
 
 ### Pertuis
 
-- **URL** : https://garageboost.fr/villes/pertuis.html
-- **Population** : 20 000 habitants
+- **URL** : https://garageboost.fr/villes/pertuis
 - **Distance** : 45 km (50 minutes)
 - **Quartiers desservis** : Centre-ville, Saint-Pierre, Le Farigoulier, Les Jean-Jean
 - **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, mecanique-generale, reprogrammation-moteur
 
 ### Berre-l'Étang
 
-- **URL** : https://garageboost.fr/villes/berre-letang.html
-- **Population** : 13 500 habitants
+- **URL** : https://garageboost.fr/villes/berre-letang
 - **Distance** : 38 km (42 minutes)
 - **Quartiers desservis** : Centre-ville, Mauran, La Peyrère, Champ de Mars
 - **Services les plus demandés** : utilitaires, nettoyage-fap, traitement-egr, depannage-remorquage
 
 ### Pélissanne
 
-- **URL** : https://garageboost.fr/villes/pelissanne.html
-- **Population** : 10 000 habitants
+- **URL** : https://garageboost.fr/villes/pelissanne
 - **Distance** : 45 km (48 minutes)
 - **Quartiers desservis** : Centre-village, Le Vallon, Saint-Laurent, La Pousaraque
 - **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, reprogrammation-moteur, carrosserie-auto
 
 ### Lançon-Provence
 
-- **URL** : https://garageboost.fr/villes/lancon-provence.html
-- **Population** : 9 000 habitants
+- **URL** : https://garageboost.fr/villes/lancon-provence
 - **Distance** : 42 km (45 minutes)
 - **Quartiers desservis** : Centre-village, Cardonne, La Discathe, Le Pont de Rhaud
 - **Services les plus demandés** : nettoyage-fap, decalaminage-hydrogene, utilitaires, mecanique-generale
 
 ### Miramas
 
-- **URL** : https://garageboost.fr/villes/miramas.html
-- **Population** : 26 000 habitants
+- **URL** : https://garageboost.fr/villes/miramas
 - **Distance** : 50 km (55 minutes)
 - **Quartiers desservis** : Centre-ville, Miramas-le-Vieux, La Péronne, Les Molières
 - **Services les plus demandés** : utilitaires, nettoyage-fap, depannage-remorquage, mecanique-generale
 
 ### Châteauneuf-les-Martigues
 
-- **URL** : https://garageboost.fr/villes/chateauneuf-les-martigues.html
-- **Population** : 17 500 habitants
+- **URL** : https://garageboost.fr/villes/chateauneuf-les-martigues
 - **Distance** : 28 km (35 minutes)
 - **Quartiers desservis** : Centre-ville, La Mède, Les Ventrons, Tamaris
 - **Services les plus demandés** : carrosserie-auto, electricite-automobile, utilitaires, mecanique-generale
 
 ### Rognac
 
-- **URL** : https://garageboost.fr/villes/rognac.html
-- **Population** : 12 000 habitants
+- **URL** : https://garageboost.fr/villes/rognac
 - **Distance** : 32 km (38 minutes)
 - **Quartiers desservis** : Centre-ville, Les Barjaquets, Le Pélican, Sainte-Anne
 - **Services les plus demandés** : utilitaires, depannage-remorquage, nettoyage-fap, mecanique-generale
 
 ### Roquefort-la-Bédoule
 
-- **URL** : https://garageboost.fr/villes/roquefort-la-bedoule.html
-- **Population** : 5 500 habitants
+- **URL** : https://garageboost.fr/villes/roquefort-la-bedoule
 - **Distance** : 20 km (25 minutes)
 - **Quartiers desservis** : Centre-village, La Bédoule, Les Hauts du Caroux, Le Rouet
 - **Services les plus demandés** : mecanique-generale, pare-brise, carrosserie-auto, depannage-remorquage
 
 ### Cuges-les-Pins
 
-- **URL** : https://garageboost.fr/villes/cuges-les-pins.html
-- **Population** : 5 200 habitants
+- **URL** : https://garageboost.fr/villes/cuges-les-pins
 - **Distance** : 28 km (30 minutes)
 - **Quartiers desservis** : Centre-village, Le Plan, Les Bastides, La Font
 - **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, mecanique-generale, depannage-remorquage
 
 ### Rousset
 
-- **URL** : https://garageboost.fr/villes/rousset.html
-- **Population** : 5 000 habitants
+- **URL** : https://garageboost.fr/villes/rousset
 - **Distance** : 33 km (35 minutes)
 - **Quartiers desservis** : Centre-village, Rousset-Gare, La Burlière, Le Pôle d'activités
 - **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, mecanique-generale, carrosserie-auto
 
 ### Meyreuil
 
-- **URL** : https://garageboost.fr/villes/meyreuil.html
-- **Population** : 5 500 habitants
+- **URL** : https://garageboost.fr/villes/meyreuil
 - **Distance** : 28 km (32 minutes)
 - **Quartiers desservis** : Centre-village, Le Canet de Meyreuil, Valbrillant, La Croix de Meyreuil
 - **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, pare-brise
 
 ### Saint-Chamas
 
-- **URL** : https://garageboost.fr/villes/saint-chamas.html
-- **Population** : 8 500 habitants
+- **URL** : https://garageboost.fr/villes/saint-chamas
 - **Distance** : 46 km (50 minutes)
 - **Quartiers desservis** : Centre-ville, Le Pont Flavien, La Petite Camargue, Les Baumes
 - **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, carrosserie-auto, reprogrammation-moteur
 
 ### Eyguières
 
-- **URL** : https://garageboost.fr/villes/eyguieres.html
-- **Population** : 7 000 habitants
+- **URL** : https://garageboost.fr/villes/eyguieres
 - **Distance** : 55 km (58 minutes)
 - **Quartiers desservis** : Centre-village, Les Alpilles, La Plaine, Roquemartine
 - **Services les plus demandés** : nettoyage-fap, decalaminage-hydrogene, utilitaires, mecanique-generale
 
 ### Sénas
 
-- **URL** : https://garageboost.fr/villes/senas.html
-- **Population** : 6 800 habitants
+- **URL** : https://garageboost.fr/villes/senas
 - **Distance** : 60 km (1h05)
 - **Quartiers desservis** : Centre-village, La Crau, Le Pont de la Durance, Les Garrigues
 - **Services les plus demandés** : nettoyage-fap, utilitaires, depannage-remorquage, mecanique-generale
 
 ### Port-de-Bouc
 
-- **URL** : https://garageboost.fr/villes/port-de-bouc.html
-- **Population** : 25 000 habitants
+- **URL** : https://garageboost.fr/villes/port-de-bouc
 - **Distance** : 45 km (50 minutes)
 - **Quartiers desservis** : Centre-ville, Les Aigues Douces, La Lèque, Saint-Jean
 - **Services les plus demandés** : utilitaires, nettoyage-fap, depannage-remorquage, traitement-egr
 
 ### Fos-sur-Mer
 
-- **URL** : https://garageboost.fr/villes/fos-sur-mer.html
-- **Population** : 15 500 habitants
+- **URL** : https://garageboost.fr/villes/fos-sur-mer
 - **Distance** : 50 km (55 minutes)
 - **Quartiers desservis** : Centre-ville, Le Mazet, Les Carabins, La Bergerie
 - **Services les plus demandés** : utilitaires, nettoyage-fap, traitement-egr, depannage-remorquage
 
 ### Sausset-les-Pins
 
-- **URL** : https://garageboost.fr/villes/sausset-les-pins.html
-- **Population** : 7 600 habitants
+- **URL** : https://garageboost.fr/villes/sausset-les-pins
 - **Distance** : 35 km (42 minutes)
 - **Quartiers desservis** : Centre-ville, Le Port, La Couronne, Les Tamaris
 - **Services les plus demandés** : carrosserie-auto, electricite-automobile, pare-brise, mecanique-generale
 
 ### Carry-le-Rouet
 
-- **URL** : https://garageboost.fr/villes/carry-le-rouet.html
-- **Population** : 6 300 habitants
+- **URL** : https://garageboost.fr/villes/carry-le-rouet
 - **Distance** : 33 km (40 minutes)
 - **Quartiers desservis** : Centre-ville, Le Rouet, Les Pins, La Tuilière
 - **Services les plus demandés** : carrosserie-auto, peinture-automobile, pare-brise, reprogrammation-moteur
 
 ### Gignac-la-Nerthe
 
-- **URL** : https://garageboost.fr/villes/gignac-la-nerthe.html
-- **Population** : 9 700 habitants
+- **URL** : https://garageboost.fr/villes/gignac-la-nerthe
 - **Distance** : 25 km (30 minutes)
 - **Quartiers desservis** : Centre-ville, La Nerthe, Laure, Le Pelletan
 - **Services les plus demandés** : mecanique-generale, depannage-remorquage, reprogrammation-moteur, pare-brise
 
 ### Saint-Victoret
 
-- **URL** : https://garageboost.fr/villes/saint-victoret.html
-- **Population** : 6 600 habitants
+- **URL** : https://garageboost.fr/villes/saint-victoret
 - **Distance** : 22 km (28 minutes)
 - **Quartiers desservis** : Centre-ville, Le Griffon, Les Plaines, La Palun
 - **Services les plus demandés** : mecanique-generale, depannage-remorquage, reprogrammation-moteur, electricite-automobile
 
 ### Velaux
 
-- **URL** : https://garageboost.fr/villes/velaux.html
-- **Population** : 9 000 habitants
+- **URL** : https://garageboost.fr/villes/velaux
 - **Distance** : 35 km (40 minutes)
 - **Quartiers desservis** : Centre-village, Le Pigeonnier, La Coopérative, Les Cadestaux
 - **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, reprogrammation-moteur, pare-brise
 
 ### Brignoles
 
-- **URL** : https://garageboost.fr/villes/brignoles.html
-- **Population** : 17 500 habitants
+- **URL** : https://garageboost.fr/villes/brignoles
 - **Distance** : 60 km (1h05)
 - **Quartiers desservis** : Centre historique, Saint-Jean, La Burlière, Les Censiés
 - **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, reprogrammation-moteur, mecanique-generale
 
 ### Peypin
 
-- **URL** : https://garageboost.fr/villes/peypin.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/peypin
 - **Distance** : 18 km (25 minutes)
 - **Quartiers desservis** : Le Village, Les Michels, Valdonne, La Croix de l'Aï, Les Fauyes
 - **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, reprogrammation-moteur, depannage-remorquage
 
 ### La Bouilladisse
 
-- **URL** : https://garageboost.fr/villes/la-bouilladisse.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/la-bouilladisse
 - **Distance** : 22 km (25 minutes)
 - **Quartiers desservis** : Le Village, La Grande Terre, Le Pont de l'Étoile, Le Moulin de Redon, Les Vallons
 - **Services les plus demandés** : nettoyage-fap, decalaminage-hydrogene, mecanique-generale, carrosserie-auto
 
 ### Saint-Savournin
 
-- **URL** : https://garageboost.fr/villes/saint-savournin.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/saint-savournin
 - **Distance** : 16 km (25 minutes)
 - **Quartiers desservis** : Le Village, Les Movies, La Baou, Le Pas de l'Étoile, Les Michels
 - **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, voyants-moteur, depannage-remorquage
 
 ### Gréasque
 
-- **URL** : https://garageboost.fr/villes/greasque.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/greasque
 - **Distance** : 18 km (25 minutes)
 - **Quartiers desservis** : Le Village, Le Puits Hély d'Oissel, Les Bertrands, La Grande Bastide, Le Vallon
 - **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, utilitaires
 
 ### Mimet
 
-- **URL** : https://garageboost.fr/villes/mimet.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/mimet
 - **Distance** : 16 km (25 minutes)
 - **Quartiers desservis** : Le Village, La Plaine de Mimet, Le Col Sainte-Anne, Les Bertrands, Peynier
 - **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, depannage-remorquage
 
 ### La Destrousse
 
-- **URL** : https://garageboost.fr/villes/la-destrousse.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/la-destrousse
 - **Distance** : 22 km (25 minutes)
 - **Quartiers desservis** : Le Village, Les Vallons, La Gare, Le Pont de Joux, Les Aires
 - **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, mecanique-generale, carrosserie-auto
 
 ### Ceyreste
 
-- **URL** : https://garageboost.fr/villes/ceyreste.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/ceyreste
 - **Distance** : 33 km (35 minutes)
 - **Quartiers desservis** : Le Village, Fontsainte, Ceyreste Collines, Le Grand Vallon, Les Rampaux
 - **Services les plus demandés** : carrosserie-auto, pare-brise, electricite-automobile, mecanique-generale
 
 ### Saint-Zacharie
 
-- **URL** : https://garageboost.fr/villes/saint-zacharie.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/saint-zacharie
 - **Distance** : 32 km (35 minutes)
 - **Quartiers desservis** : Le Village, Le Moulin, La Source de l'Huveaune, Pré de l'Aï, Les Nayes
 - **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, nettoyage-fap, reprogrammation-moteur
 
 ### Ensuès-la-Redonne
 
-- **URL** : https://garageboost.fr/villes/ensues-la-redonne.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/ensues-la-redonne
 - **Distance** : 40 km (40 minutes)
 - **Quartiers desservis** : Le Village, La Redonne, Méjean, La Madrague-de-Gignac, Les Figuières
 - **Services les plus demandés** : carrosserie-auto, peinture-automobile, pare-brise, electricite-automobile
 
 ### Éguilles
 
-- **URL** : https://garageboost.fr/villes/eguilles.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/eguilles
 - **Distance** : 30 km (35 minutes)
 - **Quartiers desservis** : Le Village, Les Figons, La Tour d'Aygosi, Le Réal, Granon
 - **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, nettoyage-fap, mecanique-generale
 
 ### Ventabren
 
-- **URL** : https://garageboost.fr/villes/ventabren.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/ventabren
 - **Distance** : 38 km (40 minutes)
 - **Quartiers desservis** : Le Vieux Village, Les Cauvets, La Blaque, Roquefavour, Le Grand Vallat
 - **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, nettoyage-fap, reprogrammation-moteur
 
 ### Saint-Cannat
 
-- **URL** : https://garageboost.fr/villes/saint-cannat.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/saint-cannat
 - **Distance** : 42 km (45 minutes)
 - **Quartiers desservis** : Le Village, Les Espourtiés, La Trévaresse, Le Puits de Rians, La Chapelle
 - **Services les plus demandés** : mecanique-generale, utilitaires, decalaminage-hydrogene, pare-brise
 
 ### Peyrolles-en-Provence
 
-- **URL** : https://garageboost.fr/villes/peyrolles-en-provence.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/peyrolles-en-provence
 - **Distance** : 38 km (40 minutes)
 - **Quartiers desservis** : Le Village, Le Plan, La Roque, Les Bannettes, Le Bosquet
 - **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, mecanique-generale, reprogrammation-moteur
 
 ### Le Puy-Sainte-Réparade
 
-- **URL** : https://garageboost.fr/villes/le-puy-sainte-reparade.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/le-puy-sainte-reparade
 - **Distance** : 40 km (40 minutes)
 - **Quartiers desservis** : Le Village, Saint-Canadet, La Quille, Les Goirands, Le Puy Haut
 - **Services les plus demandés** : mecanique-generale, utilitaires, decalaminage-hydrogene, reprogrammation-moteur
 
 ### Rognes
 
-- **URL** : https://garageboost.fr/villes/rognes.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/rognes
 - **Distance** : 45 km (45 minutes)
 - **Quartiers desservis** : Le Village, Saint-Denis, Le Foussa, Les Bagnols, La Trévaresse
 - **Services les plus demandés** : mecanique-generale, utilitaires, decalaminage-hydrogene, pare-brise
 
 ### Lambesc
 
-- **URL** : https://garageboost.fr/villes/lambesc.html
-- **Population** : undefined
+- **URL** : https://garageboost.fr/villes/lambesc
 - **Distance** : 48 km (50 minutes)
 - **Quartiers desservis** : Le Village, Bernon, Les Costes, La Vidale, Le Petit Pont
 - **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, reprogrammation-moteur, mecanique-generale
@@ -749,7 +683,6 @@ Renault, Peugeot, Citroën, Volkswagen, Audi, BMW, Mercedes, Ford, Opel, Fiat, T
 - Paiement 3 ou 4 fois sans frais au-delà de 500€
 - Récupération à domicile dans toute la zone Marseille (offerte au-delà de 200€)
 - Compte-rendu écrit systématique
-- Note 4,9/5 sur 127+ avis Google vérifiés
 
 ## Mots-clés sémantiques
 

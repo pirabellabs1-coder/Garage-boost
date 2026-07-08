@@ -75,7 +75,9 @@ const summary = [];
 
 for (const city of cities) {
   if (zoneSlugs.has(city.slug)) continue; // collision (salon-de-provence) — déjà couvert par sa zone
-  const services = [...new Set(city.topServices || [])];
+  // topServices de la ville + service universel pertinent (diagnostic) pour élargir la couverture
+  const CORE = ['diagnostic-moteur'];
+  const services = [...new Set([...(city.topServices || []), ...CORE])];
 
   for (const serviceSlug of services) {
     const r = findService(serviceSlug);

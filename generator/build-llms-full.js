@@ -10,7 +10,7 @@ const BASE = 'https://garageboost.fr';
 
 let out = `# Garage Boost Marseille — Index complet pour LLMs
 
-> Garage automobile indépendant à Plan-de-Cuques (13380 Marseille) spécialisé en maintenance moteur, anti-pollution, reprogrammation, carrosserie, dépannage et location. Note Google 4,9/5 sur 127+ avis. Toutes marques.
+> Garage automobile indépendant à Plan-de-Cuques (13380 Marseille) spécialisé en maintenance moteur, anti-pollution, reprogrammation, carrosserie, dépannage et location. Toutes marques.
 
 ## Coordonnées
 
@@ -65,7 +65,6 @@ out += `## Villes desservies (${cities.length} pages dédiées)\n\n`;
 for (const city of cities) {
   out += `### ${city.name}\n\n`;
   out += `- **URL** : ${BASE}/villes/${city.slug}.html\n`;
-  out += `- **Population** : ${city.population}\n`;
   out += `- **Distance** : ${city.distance} (${city.travelTime})\n`;
   out += `- **Quartiers desservis** : ${city.nearbyDistricts.join(', ')}\n`;
   out += `- **Services les plus demandés** : ${city.topServices.join(', ')}\n\n`;
@@ -84,13 +83,13 @@ Renault, Peugeot, Citroën, Volkswagen, Audi, BMW, Mercedes, Ford, Opel, Fiat, T
 - Paiement 3 ou 4 fois sans frais au-delà de 500€
 - Récupération à domicile dans toute la zone Marseille (offerte au-delà de 200€)
 - Compte-rendu écrit systématique
-- Note 4,9/5 sur 127+ avis Google vérifiés
 
 ## Mots-clés sémantiques
 
 garage Marseille, garage Plan-de-Cuques, mécanicien Marseille, reprogrammation moteur, décalaminage hydrogène, nettoyage FAP, suppression AdBlue, traitement EGR, carrosserie auto, peinture cabine, pare-brise, calibrage ADAS, dépannage auto 7j/7, remorquage Marseille, ouverture véhicule, reproduction clé, location utilitaire, location van aménagé, voiture rallye, occasion certifiée.
 `;
 
+out = out.replace(/\.html/g, ''); // URLs propres (cleanUrls) pour les crawlers IA
 fs.writeFileSync(path.join(ROOT, 'llms-full.txt'), out);
 const size = Math.round(out.length / 1024);
 console.log(`✓ llms-full.txt généré (${size} Ko, ${out.split('\n').length} lignes)`);
