@@ -69,11 +69,11 @@ function findService(slug) {
   return null;
 }
 
-function buildTopServicesList(topServices, cityName, zoneSlug) {
+function buildTopServicesList(topServices, cityName, citySlug) {
   return topServices.map(slug => {
     const r = findService(slug);
     if (!r) return '';
-    const href = `../${r.categorySlug}/${slug}/${zoneSlug}.html`;
+    const href = `../${r.categorySlug}/${slug}/${citySlug}.html`;
     return `<li><a href="${href}" style="color:var(--accent)"><strong>${r.service.name} ${cityName}</strong></a> — ${r.service.lead.substring(0, 110)}...</li>`;
   }).join('\n');
 }
@@ -165,7 +165,7 @@ for (const city of cities) {
     image1: IMAGES[0],
     image2: IMAGES[1],
     topServicesIntro,
-    topServicesListHTML: buildTopServicesList(city.topServices, city.name, city.zoneSlug),
+    topServicesListHTML: buildTopServicesList(city.topServices, city.name, city.slug),
     categoryMoteurHTML: buildCategoryCards('maintenance-moteur', city.zoneSlug),
     categoryEntretienHTML: buildCategoryCards('entretien-assistance', city.zoneSlug),
     categoryCarrosserieHTML: buildCategoryCards('carrosserie', city.zoneSlug),

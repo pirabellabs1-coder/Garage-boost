@@ -34,12 +34,23 @@ for (const [catSlug, cat] of Object.entries(data.categories)) {
   for (const serviceSlug of Object.keys(cat.services)) {
     urls.push({ loc: `${BASE}/${catSlug}/${serviceSlug}`, priority: '0.8' });
 
-    // Pages SEO locales
+    // Pages SEO locales (service × zone)
     for (const zone of zones) {
       urls.push({ loc: `${BASE}/${catSlug}/${serviceSlug}/${zone.slug}`, priority: '0.6' });
     }
   }
 }
+
+// Pages service × ville (topServices de chaque commune)
+const zoneSlugSet = new Set(zones.map(z => z.slug));
+cities.forEach(c => {
+  if (zoneSlugSet.has(c.slug)) return; // collision (salon-de-provence) déjà couverte par la zone
+  [...new Set(c.topServices || [])].forEach(sSlug => {
+    for (const [catSlug, cat] of Object.entries(data.categories)) {
+      if (cat.services[sSlug]) { urls.push({ loc: `${BASE}/${catSlug}/${sSlug}/${c.slug}`, priority: '0.6' }); break; }
+    }
+  });
+});
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

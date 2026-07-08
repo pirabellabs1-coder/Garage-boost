@@ -9,6 +9,9 @@ require('./build.js');
 console.log('\n=== 2/6 — Génération pages SEO locales ===\n');
 require('./build-local.js');
 
+console.log('\n=== Génération pages service × ville ===\n');
+require('./build-city-services.js');
+
 console.log('\n=== 3/6 — Génération pages ville-hub ===\n');
 require('./build-cities.js');
 
