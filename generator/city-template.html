@@ -88,18 +88,17 @@
   </div>
 </section>
 
-<!-- INTRO + IMAGE 1 + STATS -->
-<section style="padding:70px 0">
+<!-- INTRO : image (gauche) + texte + stats -->
+<section style="padding:70px 0 30px">
   <div class="container">
     <div class="service-intro">
       <div class="service-intro-img reveal">
-        <img src="{{image1}}" alt="Garage automobile à {{cityName}} - Garage Boost" loading="lazy" title="Garage automobile à {{cityName}} - Garage Boost">
+        <img src="{{image1}}" alt="Garage automobile à {{cityName}} — Garage Boost" loading="lazy" title="Garage automobile à {{cityName}} — Garage Boost">
       </div>
       <div class="service-intro-content reveal">
         <span class="eyebrow">Votre garage à {{cityName}}</span>
         <h2>Garage Boost au service de {{cityName}}</h2>
         <p>{{intro}}</p>
-        <p>{{localContext}}</p>
 
         <div class="city-stats-grid">
           <div style="text-align:center;padding:14px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm)">
@@ -111,6 +110,22 @@
             <div style="font-size:0.7rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.04em;margin-top:2px">Trajet</div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTEXTE LOCAL : texte + image (colonnes inversées) -->
+<section style="padding:15px 0 55px">
+  <div class="container">
+    <div class="service-intro service-intro--reverse">
+      <div class="service-intro-content reveal">
+        <span class="eyebrow">Le contexte auto à {{cityName}}</span>
+        <h2>Un entretien pensé pour {{cityName}}</h2>
+        <p>{{localContext}}</p>
+      </div>
+      <div class="service-intro-img reveal">
+        <img src="{{image2}}" alt="Entretien et réparation automobile à {{cityName}}" loading="lazy" title="Entretien et réparation auto à {{cityName}}">
       </div>
     </div>
   </div>

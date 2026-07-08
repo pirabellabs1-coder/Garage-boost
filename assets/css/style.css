@@ -1313,6 +1313,8 @@ select.form-control option { background: var(--bg); color: var(--white); }
   line-height: 1.65;
 }
 .service-intro-content p strong { color: var(--white); }
+.service-intro--reverse { grid-template-columns: 1fr 1.1fr; }
+@media (max-width: 900px) { .service-intro--reverse .service-intro-img { order: -1; } }
 .symptoms-list {
   list-style: none;
   margin-top: 18px;
