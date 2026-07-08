@@ -27,7 +27,10 @@ require('./build-sitemap.js');
 console.log('\n=== 8/9 — Normalisation URLs propres (sans .html) ===\n');
 require('./normalize-urls.js');
 
-console.log('\n=== 9/9 — Normalisation typographique française ===\n');
+console.log('\n=== 9/10 — Normalisation typographique française ===\n');
 require('./typography-fr.js');
+
+console.log('\n=== 10/10 — Cache-busting CSS/JS ===\n');
+require('./asset-version.js');
 
 console.log('\n✓ Build complet terminé.\n');
