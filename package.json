@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "description": "Garage Boost — site statique + Vercel serverless functions",
+  "scripts": {
+    "build": "node generator/build-all.js",
+    "indexnow": "node generator/indexnow.js"
+  },
   "dependencies": {
     "resend": "^4.0.1"
   },

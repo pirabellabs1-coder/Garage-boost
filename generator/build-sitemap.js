@@ -16,7 +16,8 @@ const today = new Date().toISOString().split('T')[0];
 const urls = [];
 
 // Pages principales
-['', 'tarifs', 'rendez-vous', 'contact', 'faq', 'blog', 'villes', 'mentions-legales', 'politique-confidentialite']
+// (mentions-legales et politique-confidentialite sont en noindex : hors sitemap)
+['', 'tarifs', 'rendez-vous', 'contact', 'faq', 'blog', 'villes']
   .forEach(slug => urls.push({ loc: `${BASE}/${slug || ''}`, priority: slug === '' ? '1.0' : '0.7' }));
 
 // Pages villes-hub
@@ -51,6 +52,22 @@ cities.forEach(c => {
     }
   });
 });
+
+// Filet de sécurité : une URL en noindex ne doit JAMAIS figurer dans le sitemap
+// (contradiction qui déclenche des avertissements dans Search Console).
+const kept = [];
+let skippedNoindex = 0, missing = 0;
+for (const u of urls) {
+  const rel = u.loc.replace(`${BASE}/`, '').replace(/\/$/, '');
+  const file = path.join(ROOT, (rel === '' ? 'index' : rel) + '.html');
+  if (!fs.existsSync(file)) { missing++; console.warn(`  ⚠ sitemap : fichier introuvable pour ${u.loc}`); continue; }
+  if (/<meta\s+name="robots"[^>]*noindex/i.test(fs.readFileSync(file, 'utf8'))) { skippedNoindex++; continue; }
+  kept.push(u);
+}
+urls.length = 0;
+urls.push(...kept);
+if (skippedNoindex) console.log(`  ↳ ${skippedNoindex} URL(s) en noindex exclue(s) du sitemap`);
+if (missing) console.log(`  ↳ ${missing} URL(s) sans fichier exclue(s) du sitemap`);
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
