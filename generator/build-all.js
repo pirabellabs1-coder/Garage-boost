@@ -27,6 +27,9 @@ require('./build-llms-full.js');
 console.log('\n=== 7/8 — Génération sitemap + robots ===\n');
 require('./build-sitemap.js');
 
+console.log('\n=== Balises de vérification moteurs (Bing) ===\n');
+require('./site-meta.js');
+
 console.log('\n=== 8/9 — Normalisation URLs propres (sans .html) ===\n');
 require('./normalize-urls.js');
 
