@@ -118,3 +118,47 @@ if (weak.length > 15) console.log(`   … et ${weak.length - 15} autres`);
 
 const deep = idx.filter(k => depth.has(k) && depth.get(k) >= 4).length;
 console.log(`\nRésumé : ${orphans.length} orpheline(s) · ${deep} page(s) à profondeur ≥ 4 · ${weak.length} faiblement liée(s)\n`);
+
+// --- Ventilation par type de page -------------------------------------
+// Les moyennes globales masquent les faiblesses d'un type précis :
+// on segmente pour voir si une famille de pages est mal desservie.
+const zoneSlugs = new Set(require('./zones.js').map(z => z.slug));
+
+function typeOf(k) {
+  if (k === '') return 'accueil';
+  const parts = k.split('/');
+  if (parts[0] === 'villes') return parts.length === 1 ? 'index villes' : 'page ville';
+  if (parts[0] === 'blog') return parts.length === 1 ? 'index blog' : 'article blog';
+  if (parts.length === 3) return zoneSlugs.has(parts[2]) ? 'service × zone' : 'service × ville';
+  if (parts.length === 2) return 'service (hub)';
+  if (['maintenance-moteur', 'entretien-assistance', 'carrosserie', 'location'].includes(k)) return 'catégorie (hub)';
+  return 'page statique';
+}
+
+const stats = new Map();
+for (const k of idx) {
+  const t = typeOf(k);
+  if (!stats.has(t)) stats.set(t, { n: 0, inb: [], depths: [], orph: 0, weak: 0 });
+  const s = stats.get(t);
+  s.n++;
+  const inbN = inbound.get(k).size;
+  s.inb.push(inbN);
+  if (!depth.has(k)) s.orph++;
+  else s.depths.push(depth.get(k));
+  if (inbN <= 1) s.weak++;
+}
+
+const med = a => { if (!a.length) return 0; const s = [...a].sort((x, y) => x - y); return s[Math.floor(s.length / 2)]; };
+
+console.log('— Ventilation par type de page —');
+console.log('   type                    pages   liens entrants (min/médian/max)   prof. moy.   orphelines   ≤1 lien');
+for (const [t, s] of [...stats.entries()].sort((a, b) => b[1].n - a[1].n)) {
+  const mn = Math.min(...s.inb), mx = Math.max(...s.inb);
+  const dm = s.depths.length ? (s.depths.reduce((a, b) => a + b, 0) / s.depths.length).toFixed(1) : '—';
+  const flag = s.orph > 0 ? '  ⚠' : s.weak > s.n * 0.5 ? '  ⚠ faible' : '';
+  console.log(
+    `   ${t.padEnd(20)} ${String(s.n).padStart(6)}   ${String(mn).padStart(6)} /${String(med(s.inb)).padStart(6)} /${String(mx).padStart(6)}        ` +
+    `${String(dm).padStart(6)}   ${String(s.orph).padStart(10)}   ${String(s.weak).padStart(7)}${flag}`
+  );
+}
+console.log('');
