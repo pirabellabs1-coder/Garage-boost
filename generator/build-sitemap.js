@@ -10,6 +10,7 @@ const data = require('./data.js');
 const zones = require('./zones.js');
 const cities = require('./cities.js');
 const articles = require('./articles.js');
+const { servicesForCity } = require('./city-services.js');
 const BASE = 'https://garageboost.fr';
 const today = new Date().toISOString().split('T')[0];
 
@@ -46,7 +47,7 @@ for (const [catSlug, cat] of Object.entries(data.categories)) {
 const zoneSlugSet = new Set(zones.map(z => z.slug));
 cities.forEach(c => {
   if (zoneSlugSet.has(c.slug)) return; // collision (salon-de-provence) déjà couverte par la zone
-  [...new Set([...(c.topServices || []), 'diagnostic-moteur'])].forEach(sSlug => {
+  servicesForCity(c).forEach(sSlug => {
     for (const [catSlug, cat] of Object.entries(data.categories)) {
       if (cat.services[sSlug]) { urls.push({ loc: `${BASE}/${catSlug}/${sSlug}/${c.slug}`, priority: '0.6' }); break; }
     }

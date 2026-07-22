@@ -10,6 +10,7 @@ const ROOT = path.resolve(__dirname, '..');
 const TEMPLATE = fs.readFileSync(path.join(__dirname, 'city-template.html'), 'utf8');
 const data = require('./data.js');
 const cities = require('./cities.js');
+const { servicesForCity } = require('./city-services.js');
 
 const SERVICE_ICONS = {
   'diagnostic-moteur': 'microchip', 'decalaminage-hydrogene': 'fire-flame-curved',
@@ -165,7 +166,9 @@ for (const city of cities) {
     image1: IMAGES[0],
     image2: IMAGES[1],
     topServicesIntro,
-    topServicesListHTML: buildTopServicesList(city.topServices, city.name, city.slug),
+    // servicesForCity (et non city.topServices) : doit couvrir EXACTEMENT les
+    // pages générées, sinon certaines restent orphelines et ne sont pas indexées.
+    topServicesListHTML: buildTopServicesList(servicesForCity(city), city.name, city.slug),
     categoryMoteurHTML: buildCategoryCards('maintenance-moteur', city.zoneSlug),
     categoryEntretienHTML: buildCategoryCards('entretien-assistance', city.zoneSlug),
     categoryCarrosserieHTML: buildCategoryCards('carrosserie', city.zoneSlug),

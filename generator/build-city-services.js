@@ -12,6 +12,7 @@ const TEMPLATE = fs.readFileSync(path.join(__dirname, 'local-template.html'), 'u
 const data = require('./data.js');
 const zones = require('./zones.js');
 const cities = require('./cities.js');
+const { servicesForCity } = require('./city-services.js');
 
 const SERVICE_ICONS = {
   'diagnostic-moteur': 'microchip', 'decalaminage-hydrogene': 'fire-flame-curved',
@@ -75,9 +76,9 @@ const summary = [];
 
 for (const city of cities) {
   if (zoneSlugs.has(city.slug)) continue; // collision (salon-de-provence) — déjà couvert par sa zone
-  // topServices de la ville + service universel pertinent (diagnostic) pour élargir la couverture
-  const CORE = ['diagnostic-moteur'];
-  const services = [...new Set([...(city.topServices || []), ...CORE])];
+  // Source de vérité partagée avec build-cities.js et build-sitemap.js
+  // (voir generator/city-services.js — ne pas redéfinir la liste ici)
+  const services = servicesForCity(city);
 
   for (const serviceSlug of services) {
     const r = findService(serviceSlug);
