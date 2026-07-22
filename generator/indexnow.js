@@ -101,5 +101,7 @@ async function submit(chunk, i, total) {
     if (!done) ok = false;
   }
 
-  process.exit(ok ? 0 : 1);
+  // exitCode plutôt que process.exit() : laisse Node fermer proprement les
+  // connexions HTTP encore ouvertes (sinon assertion libuv sous Windows).
+  process.exitCode = ok ? 0 : 1;
 })();
