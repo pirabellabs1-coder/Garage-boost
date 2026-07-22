@@ -10,6 +10,8 @@ const TEMPLATE = fs.readFileSync(path.join(__dirname, 'template.html'), 'utf8');
 const data = require('./data.js');
 const zones = require('./zones.js');
 const articles = require('./articles.js');
+const cities = require('./cities.js');
+const { servicesForCity } = require('./city-services.js');
 
 // Maillage interne : service -> articles de blog pertinents (clusters thématiques)
 const ARTICLE_LINKS = {
@@ -177,10 +179,28 @@ function buildFaq(faq) {
 }
 
 function buildCitiesPills(serviceSlug) {
-  // Generate clickable links for each zone
-  return zones.map(zone => `
+  // Les 6 zones, en pastilles
+  const zonePills = zones.map(zone => `
     <a class="zone-pill" href="${serviceSlug}/${zone.slug}.html"><i class="fa-solid fa-location-dot"></i> ${zone.label}</a>
   `).join('\n');
+
+  // + les communes où CE service existe. Le hub concentre l'autorité du site
+  // (nav sur les 584 pages) mais n'en reversait rien vers les pages locales :
+  // sans ces liens, certaines pages service × ville n'ont qu'un seul lien
+  // entrant. Liste en ligne (et non en pastilles) pour éviter un mur de 65
+  // éléments sur les services les plus couverts.
+  const zoneSlugs = new Set(zones.map(z => z.slug));
+  const cityLinks = cities
+    .filter(c => !zoneSlugs.has(c.slug) && servicesForCity(c).includes(serviceSlug))
+    .map(c => `<a href="${serviceSlug}/${c.slug}.html">${c.name}</a>`);
+
+  if (!cityLinks.length) return zonePills;
+
+  return `${zonePills}
+    <div class="city-inline-links">
+      <strong>Et dans votre commune</strong>
+      ${cityLinks.join(' · ')}
+    </div>`;
 }
 
 function buildRelated(related, currentCategorySlug) {

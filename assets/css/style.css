@@ -1346,6 +1346,32 @@ select.form-control option { background: var(--bg); color: var(--white); }
   flex-wrap: wrap;
   gap: 8px;
 }
+
+/* Liste en ligne des communes desservies (pages hub service).
+   Pleine largeur dans le conteneur flex : évite un mur de 65 pastilles. */
+.city-inline-links {
+  flex-basis: 100%;
+  margin-top: 12px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  line-height: 2;
+  color: var(--text-muted);
+}
+.city-inline-links strong {
+  display: block;
+  color: var(--white);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+}
+.city-inline-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.city-inline-links a:hover { color: var(--accent); }
 .cities-pills .zone-pill { padding: 7px 14px; }
 
 /* Stats inline */
