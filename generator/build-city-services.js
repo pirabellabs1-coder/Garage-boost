@@ -59,6 +59,36 @@ function buildRelated(related) {
   }).join('\n');
 }
 // Maillage "ce service ailleurs" : les 6 zones (pages qui existent) + retour vers la fiche ville
+// Maillage latéral : le MÊME service dans les communes voisines (même zone).
+// Sans ces liens, chaque page service × ville n'a qu'UN SEUL lien entrant (sa
+// page ville) — signal d'importance trop faible pour être correctement indexée.
+// On ne lie que des pages réellement générées (servicesForCity), donc jamais de
+// lien mort.
+function buildNearbyCities(serviceSlug, serviceName, city) {
+  const neighbours = cities.filter(c =>
+    c.slug !== city.slug &&
+    c.zoneSlug === city.zoneSlug &&
+    !zoneSlugs.has(c.slug) &&
+    servicesForCity(c).includes(serviceSlug)
+  ).slice(0, 12);
+
+  if (!neighbours.length) return '';
+
+  const pills = neighbours.map(c =>
+    `<a class="zone-pill" href="${c.slug}.html"><i class="fa-solid fa-location-dot"></i> ${serviceName} ${c.name}</a>`
+  ).join('\n');
+
+  return `
+      <h3 style="margin-top:40px">${serviceName} dans les communes voisines de ${city.name}</h3>
+      <p style="color:var(--text-muted);margin-bottom:18px">
+        Nous intervenons dans toute la zone. Si vous habitez une commune limitrophe de ${city.name},
+        consultez la page dédiée à votre ville&nbsp;:
+      </p>
+      <div class="cities-pills">
+${pills}
+      </div>`;
+}
+
 function buildOtherAreas(serviceSlug, serviceName, citySlug, cityName) {
   const zoneLinks = zones.map(z => `<a class="zone-pill" href="${z.slug}.html"><i class="fa-solid fa-location-dot"></i> ${serviceName} ${z.label}</a>`).join('\n');
   const cityLink = `<a class="zone-pill" href="../../villes/${citySlug}.html"><i class="fa-solid fa-map-location-dot"></i> Tous nos services à ${cityName}</a>`;
@@ -158,7 +188,8 @@ for (const city of cities) {
       faqSchema: buildFaqSchema(faq),
       relatedHTML: buildRelated(service.related),
       citiesPillsHTML: buildCitiesPills(city.nearbyDistricts),
-      otherZonesHTML: buildOtherAreas(serviceSlug, service.name, city.slug, city.name)
+      otherZonesHTML: buildOtherAreas(serviceSlug, service.name, city.slug, city.name),
+      nearbyCitiesBlock: buildNearbyCities(serviceSlug, service.name, city)
     });
 
     fs.writeFileSync(path.join(serviceDir, `${city.slug}.html`), html);
