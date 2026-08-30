@@ -7,6 +7,113 @@ const TO_GARAGE = 'masgarage7@gmail.com';
 const CC_GARAGE = [];
 const SITE = 'https://garageboost.fr';
 
+// =====================================================================
+// Anti-spam / anti-abus (défense en profondeur)
+// Un formulaire public non protégé peut être inondé par des bots :
+// milliers d'envois → quota Resend épuisé + réputation d'expéditeur abîmée.
+// =====================================================================
+const ALLOWED_ORIGINS = [
+  'https://garageboost.fr',
+  'https://www.garageboost.fr',
+];
+const MIN_FILL_MS = 3000;              // remplissage < 3 s = bot
+const MAX_AGE_MS = 2 * 60 * 60 * 1000; // page ouverte > 2 h = périmé/replay
+const MAX_FIELD_LEN = 3000;            // champ anormalement long = spam
+const RATE_IP_BURST = { max: 3, windowMs: 5 * 60 * 1000 };  // 3 / 5 min / IP
+const RATE_IP_HOUR = { max: 8, windowMs: 60 * 60 * 1000 };  // 8 / h / IP
+const GLOBAL_HOURLY_CAP = 60;          // disjoncteur : envois max / h / instance
+
+// Stores en mémoire (best-effort, par instance chaude). Pour un plafonnage
+// global fiable multi-instances, brancher Vercel KV / Upstash (voir README).
+const ipHits = new Map(); // ip -> [timestamps]
+let globalHits = [];      // [timestamps] de la dernière heure
+
+const prune = (arr, windowMs, now) => arr.filter((t) => now - t < windowMs);
+
+function clientIp(req) {
+  // Sur Vercel, x-vercel-forwarded-for / x-real-ip sont posés par la plateforme
+  // (non spoofables). x-forwarded-for est, lui, fourni par le client : s'y fier
+  // laisserait un bot forger une IP aléatoire par requête et neutraliser le
+  // rate-limit par IP. On n'utilise donc QUE les sources de confiance.
+  const trusted = req.headers['x-vercel-forwarded-for'] || req.headers['x-real-ip'];
+  if (trusted) return String(trusted).split(',')[0].trim();
+  return req.socket?.remoteAddress || 'unknown';
+}
+
+function originAllowed(req) {
+  const allow = new Set(
+    [...ALLOWED_ORIGINS, process.env.ALLOWED_ORIGIN].filter(Boolean)
+  );
+  const origin = req.headers.origin;
+  if (origin) return allow.has(origin);
+  // Pas d'Origin : on retombe sur le Referer (les navigateurs l'envoient
+  // sur un POST de formulaire ; un bot en POST direct n'a souvent ni l'un ni l'autre).
+  const ref = req.headers.referer || req.headers.referrer;
+  if (ref) return [...allow].some((o) => ref === o || ref.startsWith(o + '/'));
+  return false;
+}
+
+function looksSpammy(data) {
+  const vals = Object.entries(data)
+    .filter(([k]) => !k.startsWith('_') && k !== 'cf-turnstile-response')
+    .map(([, v]) => String(v || ''));
+  if (vals.some((v) => v.length > MAX_FIELD_LEN)) return true;
+  const blob = vals.join(' \n ');
+  if (blob.length > 8000) return true;
+  // Un lien dans un message de contact garage = signal de spam très fiable.
+  if (/(https?:\/\/|www\.|\[url|<a\s|\bhref=)/i.test(blob)) return true;
+  if (/\b(viagra|cialis|casino|crypto|bitcoin|forex|loan|escort|porn|seo\s|backlinks?|payday)\b/i.test(blob)) return true;
+  // Trop d'URLs/BBCode encodés
+  if ((blob.match(/xn--|%[0-9a-f]{2}/gi) || []).length > 6) return true;
+  return false;
+}
+
+function rateLimited(ip, now) {
+  let hits = prune(ipHits.get(ip) || [], RATE_IP_HOUR.windowMs, now);
+  const burst = hits.filter((t) => now - t < RATE_IP_BURST.windowMs);
+  if (burst.length >= RATE_IP_BURST.max) return true;
+  if (hits.length >= RATE_IP_HOUR.max) return true;
+  hits.push(now);
+  ipHits.set(ip, hits);
+  if (ipHits.size > 5000) {
+    for (const [k, v] of ipHits) {
+      if (!prune(v, RATE_IP_HOUR.windowMs, now).length) ipHits.delete(k);
+    }
+  }
+  return false;
+}
+
+function globalCapped(now) {
+  globalHits = prune(globalHits, 60 * 60 * 1000, now);
+  if (globalHits.length >= GLOBAL_HOURLY_CAP) return true;
+  globalHits.push(now);
+  return false;
+}
+
+// Cloudflare Turnstile (CAPTCHA invisible, gratuit, RGPD-friendly).
+// Actif uniquement si TURNSTILE_SECRET_KEY est défini côté serveur.
+async function turnstileOk(token, ip) {
+  const secret = process.env.TURNSTILE_SECRET_KEY;
+  if (!secret) return true; // non configuré → couche ignorée
+  if (!token) return false;
+  try {
+    const r = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({ secret, response: token, remoteip: ip }),
+    });
+    const j = await r.json();
+    return !!j.success;
+  } catch (e) {
+    console.error('Turnstile verify error:', e);
+    return false;
+  }
+}
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+// Neutralise les sauts de ligne avant injection dans un sujet d'email.
+const oneLine = (s = '') => String(s).replace(/[\r\n]+/g, ' ').trim();
+
 const escape = (s = '') =>
   String(s).replace(/[&<>"']/g, (c) =>
     ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])
@@ -182,28 +289,65 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'Invalid payload' });
   }
 
-  // Honeypot
-  if (data._honey) return res.redirect(303, '/merci.html');
-
   const type = data._type === 'rdv' ? 'rdv' : 'contact';
+  const now = Date.now();
+  const ip = clientIp(req);
+
+  // Rejet silencieux : on renvoie un "succès" apparent SANS envoyer d'email.
+  // Le bot croit avoir réussi, aucun quota Resend consommé, aucun feedback exploitable.
+  const drop = (reason) => {
+    console.warn(`[form] blocked (${reason})`, ip, req.headers.origin || req.headers.referer || '-');
+    return res.redirect(303, `/merci.html?type=${type}`);
+  };
+
+  // 1) Honeypots (champs invisibles ; un humain ne les remplit jamais)
+  if (data._honey || data.website || data.url) return drop('honeypot');
+
+  // 2) Même origine uniquement (bloque les POST directs / cross-site des bots)
+  if (!originAllowed(req)) return drop('origin');
+
+  // 3) Piège temporel (soumission quasi instantanée = bot)
+  const ts = Number(data._ts);
+  if (ts && (now - ts < MIN_FILL_MS || now - ts > MAX_AGE_MS)) return drop('timetrap');
+
+  // 4) Heuristiques de contenu (liens, mots-clés spam, champs surdimensionnés)
+  if (looksSpammy(data)) return drop('content');
+
+  // 5) Cloudflare Turnstile (si configuré)
+  if (!(await turnstileOk(data['cf-turnstile-response'], ip))) return drop('turnstile');
+
+  // 6) Limitation de débit + disjoncteur global (protège le quota Resend)
+  if (rateLimited(ip, now)) {
+    console.warn('[form] rate limited', ip);
+    return res.redirect(303, `/merci.html?type=${type}&error=1`);
+  }
+  if (globalCapped(now)) {
+    console.error('[form] GLOBAL HOURLY CAP atteint — attaque probable, envois suspendus');
+    return res.redirect(303, `/merci.html?type=${type}&error=1`);
+  }
+
   const customerEmail = (data['Email'] || '').trim();
 
   try {
     // To garage
+    const who = oneLine(`${data['Prénom'] || ''} ${data['Nom'] || ''}`);
     const owner = await resend.emails.send({
       from: FROM,
       to: TO_GARAGE,
       cc: CC_GARAGE.length ? CC_GARAGE : undefined,
-      replyTo: customerEmail || undefined,
+      replyTo: EMAIL_RE.test(customerEmail) ? customerEmail : undefined,
       subject: type === 'rdv'
-        ? `🛠️ Nouvelle demande de RDV — ${data['Prénom'] || ''} ${data['Nom'] || ''}`.trim()
-        : `✉️ Nouveau message contact — ${data['Prénom'] || ''} ${data['Nom'] || ''}`.trim(),
+        ? `🛠️ Nouvelle demande de RDV — ${who}`.trim()
+        : `✉️ Nouveau message contact — ${who}`.trim(),
       html: buildOwnerEmail(data, type),
     });
 
-    // Auto-response to customer
+    // Accusé de réception au client — envoyé UNIQUEMENT si l'email garage est
+    // bien parti (sinon le formulaire deviendrait un relais d'envoi vers des
+    // adresses arbitraires). Désactivable via DISABLE_AUTORESPONSE=1.
     let customer = { data: null, error: null };
-    if (customerEmail && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(customerEmail)) {
+    const autoRespond = process.env.DISABLE_AUTORESPONSE !== '1';
+    if (autoRespond && !(owner && owner.error) && EMAIL_RE.test(customerEmail)) {
       customer = await resend.emails.send({
         from: FROM,
         to: customerEmail,
