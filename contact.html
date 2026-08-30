@@ -118,7 +118,7 @@
             <li><a href="maintenance-moteur/nettoyage-fap">Nettoyage FAP</a></li>
             <li><a href="maintenance-moteur/nettoyage-catalyseur">Nettoyage catalyseur</a></li>
             <li><a href="maintenance-moteur/reprogrammation-moteur">Reprogrammation moteur</a></li>
-            <li><a href="maintenance-moteur/suppression-adblue">Suppression AdBlue</a></li>
+            <li><a href="maintenance-moteur/gestion-adblue">Gestion AdBlue</a></li>
             <li><a href="maintenance-moteur/traitement-egr">Traitement EGR & injecteurs</a></li>
             <li><a href="maintenance-moteur/voyants-moteur">Voyants moteur</a></li>
           </ul>
@@ -253,7 +253,10 @@
 
         <form action="/api/form" method="POST" id="contactForm">
           <input type="hidden" name="_type" value="contact">
-          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+          <!-- Anti-spam : honeypots (invisibles) + horodatage d'ouverture -->
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="hidden" name="_ts" value="">
 
           <div class="form-row">
             <div class="form-group">
@@ -308,6 +311,9 @@
             <input type="checkbox" required>
             <span>J'accepte que mes données soient utilisées pour traiter ma demande, conformément à la <a href="politique-confidentialite">politique de confidentialité</a>.</span>
           </label>
+
+          <!-- Anti-bot Cloudflare Turnstile : coller la clé de site dans data-sitekey pour activer -->
+          <div id="cf-ts" data-sitekey="" style="margin:4px 0 16px"></div>
 
           <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">
             Recevoir mon devis gratuit
@@ -714,6 +720,18 @@
 (function(){
   var f = document.getElementById('contactForm');
   if (!f) return;
+  // Anti-spam : horodatage d'ouverture (le serveur rejette les envois trop rapides)
+  var ts = f.querySelector('input[name="_ts"]');
+  if (ts) ts.value = Date.now();
+  // Anti-bot : charge Turnstile uniquement si une clé de site est renseignée
+  var el = document.getElementById('cf-ts');
+  if (el && el.getAttribute('data-sitekey')) {
+    el.className = 'cf-turnstile';
+    var s = document.createElement('script');
+    s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js';
+    s.async = true; s.defer = true;
+    document.head.appendChild(s);
+  }
   f.addEventListener('submit', function () {
     var b = f.querySelector('button[type="submit"]');
     if (b) { b.disabled = true; b.style.opacity = '0.7'; b.style.cursor = 'wait'; b.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Envoi en cours…'; }

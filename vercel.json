@@ -33,7 +33,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms https://*.clarity.ms https://connect.facebook.net; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https://maps.gstatic.com https://maps.googleapis.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src 'self' https://maps.google.com https://www.google.com; connect-src 'self' https://formsubmit.co https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://*.clarity.ms https://*.facebook.com; form-action 'self' https://formsubmit.co; frame-ancestors 'self'; base-uri 'self'"
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms https://*.clarity.ms https://connect.facebook.net https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https://maps.gstatic.com https://maps.googleapis.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src 'self' https://maps.google.com https://www.google.com https://challenges.cloudflare.com; connect-src 'self' https://formsubmit.co https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://*.clarity.ms https://*.facebook.com https://challenges.cloudflare.com; form-action 'self' https://formsubmit.co; frame-ancestors 'self'; base-uri 'self'"
         }
       ]
     },
@@ -101,7 +101,17 @@
     },
     {
       "source": "/maintenance-moteur-anti-pollution/suppression-adblue-scr-plan-de-cuques-marseille",
-      "destination": "/maintenance-moteur/suppression-adblue/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/gestion-adblue/plan-de-cuques-marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/suppression-adblue",
+      "destination": "/maintenance-moteur/gestion-adblue",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/suppression-adblue/:slug*",
+      "destination": "/maintenance-moteur/gestion-adblue/:slug*",
       "permanent": true
     },
     {
@@ -271,7 +281,7 @@
     },
     {
       "source": "/suppression-adblue-scr-plan-de-cuques-marseille",
-      "destination": "/maintenance-moteur/suppression-adblue/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/gestion-adblue/plan-de-cuques-marseille",
       "permanent": true
     },
     {

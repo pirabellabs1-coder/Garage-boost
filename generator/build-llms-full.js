@@ -87,7 +87,7 @@ Renault, Peugeot, Citroën, Volkswagen, Audi, BMW, Mercedes, Ford, Opel, Fiat, T
 
 ## Mots-clés sémantiques
 
-garage Marseille, garage Plan-de-Cuques, mécanicien Marseille, reprogrammation moteur, décalaminage hydrogène, nettoyage FAP, suppression AdBlue, traitement EGR, carrosserie auto, peinture cabine, pare-brise, calibrage ADAS, dépannage auto 7j/7, remorquage Marseille, ouverture véhicule, reproduction clé, location utilitaire, location van aménagé, voiture rallye, occasion certifiée.
+garage Marseille, garage Plan-de-Cuques, mécanicien Marseille, reprogrammation moteur, décalaminage hydrogène, nettoyage FAP, gestion panne AdBlue, réparation système SCR, traitement EGR, carrosserie auto, peinture cabine, pare-brise, calibrage ADAS, dépannage auto 7j/7, remorquage Marseille, ouverture véhicule, reproduction clé, location utilitaire, location van aménagé, voiture rallye, occasion certifiée.
 `;
 
 out = out.replace(/\.html/g, ''); // URLs propres (cleanUrls) pour les crawlers IA

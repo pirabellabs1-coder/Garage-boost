@@ -15,7 +15,7 @@ const { servicesForCity } = require('./city-services.js');
 const SERVICE_ICONS = {
   'diagnostic-moteur': 'microchip', 'decalaminage-hydrogene': 'fire-flame-curved',
   'nettoyage-fap': 'filter', 'nettoyage-catalyseur': 'circle-nodes',
-  'reprogrammation-moteur': 'bolt', 'suppression-adblue': 'droplet-slash',
+  'reprogrammation-moteur': 'bolt', 'gestion-adblue': 'droplet',
   'traitement-egr': 'recycle', 'voyants-moteur': 'triangle-exclamation',
   'depannage-remorquage': 'truck-pickup', 'depannage-scooter': 'motorcycle',
   'electricite-automobile': 'bolt-lightning', 'mecanique-generale': 'screwdriver-wrench',

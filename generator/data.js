@@ -284,7 +284,7 @@ module.exports = {
           faq: [
             { q: "Mon FAP est-il récupérable ?", a: "Dans 90% des cas oui. Notre diagnostic électronique mesure le taux de saturation et l'état du support céramique. Si la régénération est techniquement possible, nous la proposons. Sinon, nous orientons vers un FAP reconditionné ou neuf, en restant transparent sur les coûts." },
             { q: "Combien de temps tient un FAP régénéré ?", a: "60 000 à 100 000 km en moyenne, selon votre profil de conduite. En usage urbain pur (typique Marseille), plus court (40 000 km). En usage mixte ou autoroutier, plus long (jusqu'à 120 000 km)." },
-            { q: "Peut-on supprimer le FAP au lieu de le régénérer ?", a: "Techniquement oui, mais c'est illégal sur route en France (sanction au contrôle technique). Nous ne pratiquons pas cette suppression sauf pour des véhicules destinés exclusivement à la compétition. La régénération reste la seule solution légale et durable." },
+            { q: "Peut-on retirer le FAP au lieu de le régénérer ?", a: "Techniquement oui, mais c'est illégal sur route en France (sanction au contrôle technique, perte d'homologation). Nous ne pratiquons pas ce retrait, sauf pour des véhicules destinés exclusivement à la compétition. La régénération reste la seule solution légale et durable." },
             { q: "Le voyant disparaît-il après l'intervention ?", a: "Oui, dans la majorité des cas, le voyant FAP s'éteint immédiatement après la régénération réussie et l'effacement des codes défauts. Si une autre cause sous-jacente persiste (ex : vanne EGR hors service), il faudra traiter cette cause séparément." },
             { q: "Le nettoyage FAP est-il pris en charge par l'assurance ?", a: "Non, sauf cas particulier de panne consécutive à un sinistre. C'est considéré comme de l'entretien. En revanche, certaines garanties constructeur peuvent couvrir le FAP en cas de défaillance prématurée — nous vérifions pour vous au cas par cas." },
             COMMON_FAQ_GUARANTEE,
@@ -430,80 +430,80 @@ module.exports = {
             COMMON_FAQ_GUARANTEE,
             COMMON_FAQ_PAYMENT
           ],
-          related: ['decalaminage-hydrogene', 'diagnostic-moteur', 'suppression-adblue'],
+          related: ['decalaminage-hydrogene', 'diagnostic-moteur', 'gestion-adblue'],
           ctaTitle: 'Plus de couple, moins de conso ?',
           ctaTitleAccent: 'Reprogrammation Stage 1.',
           ctaText: 'À partir de 350€ avec garantie 24 mois et sauvegarde de la carto origine.'
         },
 
-        'suppression-adblue': {
-          name: 'Suppression AdBlue',
-          title: 'Suppression AdBlue Marseille | Désactivation logicielle - Garage Boost',
-          metaDesc: "Suppression AdBlue logicielle à Plan-de-Cuques (Marseille). Désactivation propre du système SCR, alternative au remplacement (1500-2500€). Sans erreur calculateur. Dès 290€.",
-          keywords: 'suppression AdBlue Marseille, désactivation AdBlue Plan-de-Cuques, AdBlue défectueux, alternative remplacement AdBlue, défaut SCR diesel',
-          h1Pre: 'Suppression', h1Accent: 'AdBlue logicielle.',
-          lead: "Système AdBlue défectueux ? Capteur de qualité, pompe ou calculateur HS ? Notre suppression logicielle désactive proprement le système SCR sans erreur. Économie de 1 200 à 2 200€ vs remplacement.",
-          image1: IMG.carEngine, imageAlt1: 'Suppression AdBlue diesel Marseille Plan-de-Cuques',
-          image2: IMG.workshop, imageAlt2: 'Désactivation système SCR Garage Boost',
-          price: '290 - 590 €', priceMin: '290',
-          pricingDesc: "À partir de 290€ pour la désactivation logicielle complète. Variable selon véhicule (Mercedes, BMW, Audi, Renault, Peugeot, Citroën). Inclut diagnostic et garantie 12 mois.",
-          introTitle: "AdBlue défectueux : la solution économique.",
-          introP1: "Les véhicules diesel récents (généralement post-2015) sont équipés du système SCR (Selective Catalytic Reduction) qui injecte un additif urée — l'<strong>AdBlue</strong> — dans la ligne d'échappement pour neutraliser les NOx. Problème : ce système tombe régulièrement en panne (capteur de qualité AdBlue, pompe d'injection, calculateur dédié, dépôts cristallins), souvent en dehors de la garantie.",
-          introP2: "Le remplacement complet du système chez le concessionnaire coûte <strong>1 500 à 2 500€</strong>. Notre <strong>suppression logicielle</strong> désactive proprement le système au niveau du calculateur, supprime les voyants associés, et permet au véhicule de rouler normalement sans AdBlue, pour seulement 290 à 590€.",
-          symptoms: ['Voyant AdBlue allumé', 'Compte à rebours avant immobilisation', 'Erreur cristallisation pompe AdBlue', 'Capteur qualité AdBlue défectueux', 'Calculateur SCR HS', 'Refus de démarrage à zéro AdBlue', 'Code défaut système SCR', 'Devis concession exorbitant'],
-          benefitsTitle: 'L\'alternative économique au remplacement.',
-          stats: [{value:'-80%', label:'Économie vs remplacement'}, {value:'2-3h', label:'Durée intervention'}, {value:'12 mois', label:'Garantie incluse'}],
+        'gestion-adblue': {
+          name: 'Gestion AdBlue',
+          title: 'Réparation & diagnostic AdBlue Marseille | Système SCR - Garage Boost',
+          metaDesc: "Panne AdBlue à Plan-de-Cuques (Marseille) ? Diagnostic et réparation du système SCR : capteur qualité, pompe, injecteur, sonde NOx, décristallisation. Remise en conformité, garantie 12 mois. Diagnostic dès 90€.",
+          keywords: 'panne AdBlue Marseille, réparation système SCR Plan-de-Cuques, voyant AdBlue, capteur qualité AdBlue, pompe AdBlue défectueuse, diagnostic AdBlue Marseille',
+          h1Pre: 'Gestion des problèmes', h1Accent: 'AdBlue.',
+          lead: "Voyant AdBlue allumé, compte à rebours avant immobilisation, système SCR en défaut ? On diagnostique la panne réelle et on répare le bon composant — capteur, pompe, injecteur ou sonde NOx — pour vous remettre en conformité, sans le prix d'un remplacement complet en concession.",
+          image1: IMG.carEngine, imageAlt1: 'Diagnostic panne AdBlue diesel Marseille Plan-de-Cuques',
+          image2: IMG.workshop, imageAlt2: 'Réparation système SCR AdBlue Garage Boost',
+          price: '90 - 690 €', priceMin: '90',
+          pricingDesc: "Diagnostic complet du système SCR dès 90€ (déduit en cas de réparation). Réparation ciblée selon le composant fautif : capteur de qualité, sonde NOx, pompe ou injecteur AdBlue, décristallisation. Devis transparent avant toute intervention, garantie 12 mois.",
+          introTitle: "Panne AdBlue : on répare, on ne bricole pas.",
+          introP1: "Les véhicules diesel récents (généralement post-2015) sont équipés du système SCR (Selective Catalytic Reduction) qui injecte un additif urée — l'<strong>AdBlue</strong> — dans la ligne d'échappement pour neutraliser les NOx. Problème : ce système tombe régulièrement en panne (capteur de qualité AdBlue, pompe d'injection, injecteur, sondes NOx, dépôts cristallins), souvent en dehors de la garantie.",
+          introP2: "Le remplacement complet du système chez le concessionnaire est facturé <strong>1 500 à 2 500€</strong>. Pourtant, dans la grande majorité des cas, un <strong>seul composant est défaillant</strong>. Notre approche : diagnostiquer précisément la panne, puis réparer ou remplacer uniquement la pièce fautive. Vous restez en conformité, votre véhicule passe le contrôle technique, et la facture est bien plus légère.",
+          symptoms: ['Voyant AdBlue allumé', 'Compte à rebours avant immobilisation', 'Cristallisation de la pompe ou de l\'injecteur AdBlue', 'Capteur qualité AdBlue défectueux', 'Sonde NOx en défaut', 'Refus de démarrage à zéro AdBlue', 'Code défaut système SCR', 'Devis concession exorbitant'],
+          benefitsTitle: 'La réparation ciblée plutôt que le tout-remplacer.',
+          stats: [{value:'-60%', label:'vs remplacement complet'}, {value:'90€', label:'Diagnostic (déduit)'}, {value:'12 mois', label:'Garantie incluse'}],
           benefits: [
-            {icon:'euro-sign', title:'-80% vs neuf', desc:"Remplacement complet : 1 500-2 500€. Notre suppression logicielle : 290-590€."},
-            {icon:'shield-halved', title:'Sans erreur', desc:"Désactivation propre : aucun voyant, aucune limitation, calculateur stable durablement."},
-            {icon:'rotate-left', title:'Réversible', desc:"Sauvegarde de la programmation initiale. Réactivation possible si revente du véhicule."}
+            {icon:'magnifying-glass-chart', title:'Diagnostic précis', desc:"Valise multimarque : on identifie le composant réellement défaillant avant de toucher au moindre boulon."},
+            {icon:'euro-sign', title:'Facture maîtrisée', desc:"On répare la pièce fautive au lieu de remplacer tout le système : souvent -60% vs le devis concession."},
+            {icon:'shield-halved', title:'En conformité', desc:"Système remis en état de marche : dépollution active, homologation préservée, contrôle technique serein."}
           ],
           whatIsTitle: "Le système AdBlue, c'est quoi ?",
           whatIsP1: "L'<strong>AdBlue</strong> est un additif urée (32,5% d'urée + eau déminéralisée) injecté dans le système d'échappement des diesels modernes. Il réagit avec les oxydes d'azote (NOx) à haute température dans le catalyseur SCR pour les transformer en azote (N₂) et eau (H₂O) — gaz inoffensifs.",
-          whatIsP2: "Le système SCR comprend plusieurs composants : <strong>réservoir AdBlue</strong>, pompe d'injection, capteur de qualité, calculateur dédié, sondes NOx amont et aval, catalyseur SCR. Chacun de ces composants peut tomber en panne, déclenchant un voyant et finalement un compte à rebours avant immobilisation totale du véhicule (300, 200, 100 km, puis impossibilité de démarrer).",
-          whatIsP3: "Notre <strong>suppression logicielle</strong> désactive l'ensemble du système au niveau du calculateur moteur : plus de voyant, plus de compte à rebours, plus de risque d'immobilisation. Le moteur fonctionne normalement, mais les NOx ne sont plus traités. Le véhicule reste roulable, et reste légal en cas de système physiquement défaillant — la suppression devient discutable au CT si le système fonctionnait correctement à l'origine.",
-          processIntro: "Notre processus de suppression AdBlue en 5 étapes pour une désactivation propre et durable de votre système SCR défaillant.",
+          whatIsP2: "Le système SCR comprend plusieurs composants : <strong>réservoir AdBlue</strong>, pompe d'injection, injecteur, capteur de qualité, calculateur dédié, sondes NOx amont et aval, catalyseur SCR. Chacun peut tomber en panne, déclenchant un voyant puis un compte à rebours avant immobilisation totale du véhicule (300, 200, 100 km, puis impossibilité de démarrer).",
+          whatIsP3: "Notre rôle : <strong>identifier lequel de ces composants est en cause</strong> grâce à un diagnostic électronique poussé, puis le réparer ou le remplacer. Une pompe grippée, un injecteur cristallisé ou un capteur de qualité HS se traitent individuellement — inutile de remplacer l'ensemble du système. Une fois la pièce fautive remise en état, on efface les codes défauts et on réinitialise le compte à rebours : votre véhicule dépollue à nouveau normalement.",
+          processIntro: "Notre processus de gestion d'une panne AdBlue en 5 étapes, du diagnostic à la remise en conformité de votre système SCR.",
           processSteps: [
-            {num:'1', title:'Diagnostic complet', desc:'Vérification de la défaillance réelle du système AdBlue/SCR.'},
-            {num:'2', title:'Sauvegarde ECU', desc:'Lecture et sauvegarde de la cartographie d\'origine du calculateur.'},
-            {num:'3', title:'Modification', desc:'Désactivation des paramètres SCR dans le code calculateur.'},
-            {num:'4', title:'Réécriture', desc:'Flash de la nouvelle programmation sans erreurs résiduelles.'},
-            {num:'5', title:'Validation', desc:'Effacement codes défauts, contrôle visuel des voyants, essai routier.'}
+            {num:'1', title:'Diagnostic complet', desc:'Lecture des codes défauts, test des capteurs, de la pompe et des sondes NOx pour localiser la panne exacte.'},
+            {num:'2', title:'Devis transparent', desc:'Identification de la pièce fautive et devis écrit, validé avec vous avant toute intervention.'},
+            {num:'3', title:'Réparation ciblée', desc:'Décristallisation, réparation ou remplacement du seul composant défaillant (capteur, sonde, pompe, injecteur).'},
+            {num:'4', title:'Remise en service', desc:'Contrôle du dosage AdBlue, effacement des codes et réinitialisation du compte à rebours.'},
+            {num:'5', title:'Validation', desc:'Essai routier, vérification de l\'extinction du voyant et de la dépollution active.'}
           ],
-          targetTitle: "À qui s'adresse la suppression AdBlue ?",
-          targetIntro: "La suppression AdBlue concerne les conducteurs de diesels récents confrontés à une défaillance technique du système SCR :",
+          targetTitle: "À qui s'adresse cette intervention ?",
+          targetIntro: "La gestion des pannes AdBlue concerne les conducteurs de diesels récents confrontés à une défaillance du système SCR :",
           targetList: [
-            "Véhicules avec <strong>système AdBlue physiquement défaillant</strong> (pompe, capteur, calculateur)",
+            "Véhicules avec <strong>voyant AdBlue allumé</strong> et code défaut SCR",
             "Diesels avec <strong>compte à rebours d'immobilisation</strong> en cours",
-            "Propriétaires ayant reçu un <strong>devis concession à 2 000€+</strong> pour remplacement",
-            "Conducteurs de <strong>véhicules anciens hors garantie</strong> avec AdBlue capricieux",
-            "Flottes professionnelles souhaitant <strong>éviter les immobilisations</strong> coûteuses",
-            "Véhicules destinés à un <strong>usage off-road ou agricole</strong> où l'AdBlue pose problème"
+            "Propriétaires ayant reçu un <strong>devis concession à 2 000€+</strong> pour un remplacement complet",
+            "Conducteurs de <strong>véhicules hors garantie</strong> avec un système AdBlue capricieux",
+            "Cristallisation de la <strong>pompe ou de l'injecteur</strong> AdBlue après une longue immobilisation",
+            "Flottes professionnelles souhaitant <strong>limiter les immobilisations</strong> coûteuses"
           ],
-          whyP: "Garage Boost réalise des suppressions AdBlue depuis 2019 sur toutes les marques équipées du système SCR. Voici pourquoi nous choisir pour cette intervention sensible.",
+          whyP: "Garage Boost diagnostique et répare les systèmes AdBlue/SCR sur toutes les marques équipées. Voici pourquoi nous confier cette intervention sensible.",
           whyList: [
-            "<strong>Désactivation propre</strong> sans messages d'erreur résiduels",
-            "<strong>Sauvegarde de la programmation</strong> originale pour réactivation possible",
+            "<strong>Diagnostic électronique multimarque</strong> pour cibler la vraie cause de la panne",
+            "<strong>Réparation à la pièce</strong> : on ne remplace que ce qui est défaillant",
             "<strong>Compatible toutes marques</strong> : Mercedes, BMW, Audi, VW, Renault, Peugeot, Citroën",
-            "<strong>Garantie 12 mois</strong> sur la suppression et le résultat",
-            "<strong>Tarif transparent</strong> annoncé avant intervention selon véhicule",
-            "<strong>Conseil honnête</strong> : nous refusons la suppression si le système fonctionne"
+            "<strong>Garantie 12 mois</strong> sur les pièces et la main-d'œuvre",
+            "<strong>Tarif transparent</strong> annoncé et validé avant intervention",
+            "<strong>Conformité respectée</strong> : nous ne désactivons pas les organes anti-pollution"
           ],
           content: [
-            {h:"Légalité et CT : ce qu'il faut savoir", p:"La suppression AdBlue est dans une zone <strong>juridiquement grise</strong>. Légalement, votre véhicule doit respecter les normes Euro de sa génération, mais en cas de système physiquement défaillant, la suppression logicielle est tolérée (alternative au remplacement coûteux). Au CT, l'opacité des fumées est mesurée : si elle reste dans les seuils Euro de votre véhicule, pas de problème. Pour les Mercedes/BMW récents, certains contrôles techniques peuvent détecter la suppression — à évaluer au cas par cas. Nous vous conseillons honnêtement selon votre profil."},
-            {h:"Quand préférer la réparation ?", p:"Si votre système AdBlue est <strong>physiquement réparable</strong> à coût raisonnable (capteur 200€, pompe 400€), nous vous orientons d'abord vers la réparation. La suppression logicielle reste l'option pour les pannes calculateur (3 000€ neuf), les pannes multiples cumulées, ou les véhicules très anciens où le coût de réparation dépasse la valeur résiduelle."}
+            {h:"Pourquoi nous ne désactivons pas le système AdBlue", p:"Certains ateliers proposent de désactiver logiciellement le système SCR pour « faire disparaître » le voyant. C'est <strong>illégal sur route en France</strong> : cela retire un organe anti-pollution, entraîne l'échec au contrôle technique et la perte d'homologation, et expose à des sanctions. Nous ne pratiquons pas cette opération (hors véhicules réservés à la compétition sur circuit fermé). Notre métier, c'est de <strong>réparer</strong> le système pour qu'il fonctionne à nouveau — la seule solution durable et conforme."},
+            {h:"Réparer coûte souvent moins qu'on ne le craint", p:"Le devis à 2 000€+ de la concession correspond au remplacement de tout le système. Or la panne vient généralement d'un <strong>composant unique</strong> : un capteur de qualité (200-400€), une sonde NOx (350-650€), une décristallisation de pompe/injecteur, plus rarement la pompe elle-même. Notre diagnostic identifie précisément la pièce en cause pour vous éviter de payer le remplacement de composants encore sains."}
           ],
           faq: [
-            {q:"La suppression est-elle vraiment réversible ?", a:"Oui, à 100%. Nous conservons une sauvegarde de votre programmation d'origine dans notre base sécurisée. La réactivation se fait en 1-2h pour environ 49-89€ selon le véhicule, par exemple avant une revente."},
-            {q:"Mon véhicule est sous garantie : faut-il attendre ?", a:"Si votre véhicule est encore sous garantie constructeur, exigez la réparation gratuite — c'est leur obligation. La suppression logicielle annule la garantie sur les éléments concernés. Solution : faites valoir vos droits d'abord, suppression seulement si la garantie est expirée."},
-            {q:"Le voyant disparaît immédiatement ?", a:"Oui, dès la fin de l'intervention. Plus de voyant AdBlue, plus de compte à rebours, plus de message dans le combiné. Le véhicule fonctionne comme avant, sans la contrainte AdBlue."},
+            {q:"Peut-on désactiver ou « supprimer » le système AdBlue pour éteindre le voyant ?", a:"Non, et nous ne le proposons pas. Désactiver le système SCR est illégal sur route en France : échec au contrôle technique, perte d'homologation et sanctions possibles. La seule solution conforme est de réparer le composant défaillant, ce qui rétablit durablement le bon fonctionnement."},
+            {q:"Le remplacement complet à 2 000€ est-il vraiment nécessaire ?", a:"Rarement. Dans la majorité des cas, un seul composant est en cause (capteur, sonde NOx, injecteur ou pompe). Notre diagnostic identifie la pièce fautive pour réparer de façon ciblée, à un coût très inférieur au remplacement de l'ensemble du système."},
+            {q:"Le voyant AdBlue s'éteint-il après la réparation ?", a:"Oui. Une fois le composant défaillant remis en état, on efface les codes défauts et on réinitialise le compte à rebours. Le voyant s'éteint et le système dépollue à nouveau normalement — sous réserve qu'aucune autre panne ne subsiste, ce que le diagnostic vérifie."},
             COMMON_FAQ_GUARANTEE,
             COMMON_FAQ_PAYMENT
           ],
           related: ['reprogrammation-moteur', 'diagnostic-moteur', 'voyants-moteur'],
-          ctaTitle: 'AdBlue défectueux ?',
-          ctaTitleAccent: 'On désactive proprement.',
-          ctaText: 'Économie de 1 200-2 200€ vs remplacement complet. Garantie 12 mois.'
+          ctaTitle: 'Voyant AdBlue allumé ?',
+          ctaTitleAccent: 'On diagnostique et on répare.',
+          ctaText: 'Diagnostic dès 90€ (déduit de la réparation). Remise en conformité, garantie 12 mois.'
         },
 
         'traitement-egr': {

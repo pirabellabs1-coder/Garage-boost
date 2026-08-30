@@ -26,7 +26,7 @@ const CATEGORY_MAP = {
     imgCaption: "Atelier spécialisé anti-pollution moteur à Plan-de-Cuques",
     servicePage: 'maintenance-moteur.html',
     serviceTitle: 'Tous nos services anti-pollution',
-    serviceDesc: "Décalaminage hydrogène, nettoyage FAP/EGR, suppression AdBlue, traitement injecteurs. Devis gratuit sous 24h.",
+    serviceDesc: "Décalaminage hydrogène, nettoyage FAP/EGR, gestion des pannes AdBlue, traitement injecteurs. Devis gratuit sous 24h.",
     btnText: 'Découvrir nos services'
   },
   'Reprogrammation': {
@@ -305,7 +305,7 @@ const blogIndexHTML = `<!DOCTYPE html>
 <li><a href="/maintenance-moteur/nettoyage-fap">Nettoyage FAP</a></li>
 <li><a href="/maintenance-moteur/nettoyage-catalyseur">Nettoyage catalyseur</a></li>
 <li><a href="/maintenance-moteur/reprogrammation-moteur">Reprogrammation moteur</a></li>
-<li><a href="/maintenance-moteur/suppression-adblue">Suppression AdBlue</a></li>
+<li><a href="/maintenance-moteur/gestion-adblue">Gestion AdBlue</a></li>
 <li><a href="/maintenance-moteur/traitement-egr">Traitement EGR & injecteurs</a></li>
 <li><a href="/maintenance-moteur/voyants-moteur">Voyants moteur</a></li>
 </ul></li>

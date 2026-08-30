@@ -29,7 +29,7 @@ module.exports = {
     { q: "Pourquoi mon voyant AdBlue s'allume-t-il ?", a: "Les causes fréquentes : réservoir vide (simple appoint), cristallisation de l'AdBlue, injecteur SCR encrassé, sonde NOx défaillante, ou calculateur SCR en défaut. Un diagnostic électronique identifie précisément l'origine avant tout remplacement coûteux." },
     { q: "Que se passe-t-il si je roule sans AdBlue ?", a: "Le véhicule passe en mode dégradé puis refuse de redémarrer une fois le réservoir vide (obligation antipollution). Il faut alors faire l'appoint et parfois forcer une réinitialisation via valise diagnostic." },
     { q: "Combien coûte une réparation du système AdBlue ?", a: "De l'appoint simple (quelques euros) au remplacement d'une sonde NOx ou d'un injecteur SCR (200 à 600 € selon la pièce et le véhicule). Le diagnostic préalable évite de changer une pièce inutilement." },
-    { q: "Peut-on supprimer le système AdBlue ?", a: "C'est illégal sur route en France (sanction au contrôle technique et perte d'homologation). Nous ne pratiquons pas la suppression hors usage compétition. La réparation reste la seule solution conforme." }
+    { q: "Peut-on désactiver le système AdBlue pour éteindre le voyant ?", a: "Non. Désactiver un organe anti-pollution est illégal sur route en France (sanction au contrôle technique et perte d'homologation). Nous ne le pratiquons pas (hors usage compétition). La réparation du composant défaillant reste la seule solution conforme." }
   ],
 
   'vanne-egr-symptomes-prix': [

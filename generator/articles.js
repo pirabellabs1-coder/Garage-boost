@@ -385,8 +385,8 @@ module.exports = [
     slug: 'adblue-comprendre-pannes-courantes',
     title: 'AdBlue : comprendre le système et ses pannes courantes',
     excerpt: "Pompe en panne, capteur défectueux, cristallisation : l'AdBlue est devenu un casse-tête pour les diesels post-2015. Décryptage complet.",
-    metaDesc: "Comprendre l'AdBlue : rôle, pannes les plus courantes (pompe, capteur, calculateur), coûts de remplacement vs suppression logicielle. Le guide 2026.",
-    keywords: 'AdBlue panne, système SCR, suppression AdBlue, pompe AdBlue défaillante, capteur qualité AdBlue',
+    metaDesc: "Comprendre l'AdBlue : rôle, pannes les plus courantes (pompe, capteur, calculateur, sondes NOx) et coûts de réparation. Le guide 2026.",
+    keywords: 'AdBlue panne, système SCR, réparation AdBlue, pompe AdBlue défaillante, capteur qualité AdBlue',
     category: 'Anti-pollution',
     cover: COVERS.workshop,
     coverAlt: 'Réservoir AdBlue véhicule diesel',
@@ -429,11 +429,10 @@ module.exports = [
 <h2>Le compte à rebours : ce qu'il faut savoir</h2>
 <p>Quand le système SCR détecte une anomalie, le calculateur déclenche un <strong>compte à rebours d'avertissement</strong> : 1 500 km, 1 000 km, 500 km, 200 km, puis 100 km avant <strong>impossibilité totale de démarrer</strong>. C'est conçu volontairement pour forcer la réparation. Beaucoup de propriétaires ne s'en aperçoivent qu'au moment où le véhicule refuse de démarrer.</p>
 
-<h2>Suppression AdBlue : alternative économique ?</h2>
-<p>Face aux coûts de remplacement (1 500-3 000€), de plus en plus de propriétaires se tournent vers la <strong>suppression logicielle</strong> : modification du calculateur moteur pour désactiver le système SCR. <strong>Tarif</strong> : 290-590€.</p>
-<p><strong>Avantages</strong> : élimine définitivement le risque de panne AdBlue, économise les recharges régulières, supprime les voyants associés.</p>
-<p><strong>Inconvénients</strong> : zone juridique grise (légal si système physiquement défaillant, plus discutable sinon), peut poser problème au contrôle technique sur certains modèles récents avec mesures NOx, et impact environnemental (NOx non traités).</p>
-<p>Notre conseil : <strong>réserver la suppression aux cas de système réellement défaillant</strong>. Si votre véhicule fonctionne, laissez-le tranquille. Pour plus de détails, consultez notre <a href="../maintenance-moteur/suppression-adblue.html">page dédiée à la suppression AdBlue</a>.</p>
+<h2>Réparer plutôt que « tout remplacer »</h2>
+<p>Face au devis de remplacement complet annoncé en concession (1 500-3 000€), beaucoup de propriétaires paniquent. Pourtant, dans la grande majorité des cas, <strong>un seul composant est en cause</strong> : un capteur de qualité, une sonde NOx, une pompe cristallisée ou un injecteur bouché. Réparer la pièce fautive coûte bien moins cher que de changer tout le système.</p>
+<p><strong>La bonne démarche</strong> : un diagnostic électronique précis pour identifier le composant défaillant, puis une réparation ciblée. C'est la seule solution à la fois durable, économique et <strong>conforme</strong> — votre véhicule continue de dépolluer et passe le contrôle technique sans souci.</p>
+<p>À éviter : les offres de « désactivation » du système AdBlue trouvées en ligne. Retirer ou désactiver un organe anti-pollution est <strong>illégal sur route en France</strong> (échec au contrôle technique, perte d'homologation, sanctions). Pour un diagnostic honnête et une réparation dans les règles, consultez notre <a href="../maintenance-moteur/gestion-adblue.html">page dédiée à la gestion des pannes AdBlue</a>.</p>
 
 <h2>Conseils pour préserver votre système AdBlue</h2>
 <ul>
@@ -511,8 +510,8 @@ module.exports = [
 <tr><td>4. Remplacement</td><td>400-800€</td><td>1/2 jour</td><td>100% (panne mécanique)</td></tr>
 </table>
 
-<h2>Suppression EGR : à éviter</h2>
-<p>Certains ateliers proposent de <strong>supprimer logiciellement</strong> la vanne EGR (désactivation par reprogrammation). Notre position : <strong>fortement déconseillé</strong>. Risques : illégalité au contrôle technique, problèmes mécaniques (le moteur n'est pas conçu pour fonctionner sans EGR à long terme), assurance qui peut refuser la prise en charge en cas de sinistre. Préférez le nettoyage ou le remplacement.</p>
+<h2>Désactiver l'EGR : à proscrire</h2>
+<p>Certains ateliers proposent de <strong>désactiver logiciellement</strong> la vanne EGR (neutralisation par reprogrammation). Notre position : <strong>fortement déconseillé</strong>. Retirer ou neutraliser un organe anti-pollution est illégal sur route en France (échec au contrôle technique, perte d'homologation), pose des problèmes mécaniques (le moteur n'est pas conçu pour fonctionner ainsi à long terme) et peut conduire l'assurance à refuser sa prise en charge en cas de sinistre. La seule bonne approche : le nettoyage ou le remplacement de la vanne.</p>
 
 <h2>Conseils pour prolonger la durée de vie</h2>
 <ul>
