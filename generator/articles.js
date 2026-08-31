@@ -391,7 +391,7 @@ module.exports = [
     cover: COVERS.workshop,
     coverAlt: 'Réservoir AdBlue véhicule diesel',
     datePublished: '2026-04-20', dateModified: '2026-06-04', readTime: 7,
-    related: ['decalaminage-hydrogene-guide-complet', 'voyant-moteur-orange-8-causes', 'controle-anti-pollution-passer-sans-stress'],
+    related: ['zfe-marseille-2026-ce-qui-change', 'voyant-moteur-orange-8-causes', 'controle-anti-pollution-passer-sans-stress'],
     content: `
 <p>Depuis 2015, la quasi-totalité des diesels neufs sont équipés d'un système <strong>SCR (Selective Catalytic Reduction)</strong> qui injecte de l'AdBlue dans la ligne d'échappement pour neutraliser les oxydes d'azote (NOx). Excellente idée écologique, mais la fiabilité de ces systèmes laisse à désirer. Décryptage des pannes courantes et des solutions.</p>
 
@@ -685,7 +685,7 @@ module.exports = [
     keywords: 'distribution moteur, courroie distribution, chaîne distribution, kit distribution prix, remplacement distribution',
     category: 'Mécanique', cover: COVERS.workshop, coverAlt: 'Kit de distribution moteur',
     datePublished: '2026-04-30', dateModified: '2026-06-04', readTime: 6,
-    related: ['plaquettes-frein-signes-usure', 'embrayage-signes-usure', 'economiser-1000-euros-an-entretien'],
+    related: ['plaquettes-frein-signes-usure', 'embrayage-signes-usure', 'boite-automatique-entretien-vidange'],
     content: `
 <p>La distribution est la pièce mécanique <strong>la plus critique</strong> de votre moteur. Si elle casse, le moteur s'arrête net, les soupapes percutent les pistons, et les dégâts atteignent <strong>3 000 à 8 000€</strong> selon le véhicule. Voici comment anticiper son remplacement intelligemment.</p>
 
@@ -991,7 +991,7 @@ module.exports = [
     keywords: 'contrôle technique pollution, CT anti-pollution diesel, passer contrôle pollution, contre-visite pollution, opacité fumées',
     category: 'Anti-pollution', cover: COVERS.diag2, coverAlt: 'Contrôle technique automobile',
     datePublished: '2026-05-05', dateModified: '2026-06-04', readTime: 6,
-    related: ['decalaminage-hydrogene-guide-complet', 'nettoyage-fap-methodes-comparees', 'fumee-noire-echappement'],
+    related: ['zfe-marseille-2026-ce-qui-change', 'nettoyage-fap-methodes-comparees', 'fumee-noire-echappement'],
     content: `
 <p>Depuis le renforcement des contrôles anti-pollution en 2018, le contrôle technique fait peur aux propriétaires de diesels. Voici les 7 actions qui maximisent vos chances de passer du premier coup.</p>
 
@@ -1052,7 +1052,7 @@ module.exports = [
     keywords: 'économiser entretien auto, baisser facture garage, prévention auto, conduite économique, conseils entretien',
     category: 'Conseils', cover: COVERS.service, coverAlt: 'Tirelire et clés de voiture',
     datePublished: '2026-05-05', dateModified: '2026-06-04', readTime: 6,
-    related: ['voiture-consomme-trop-12-raisons', 'garage-independant-vs-concession', 'plaquettes-frein-signes-usure'],
+    related: ['boite-automatique-entretien-vidange', 'garage-independant-vs-concession', 'plaquettes-frein-signes-usure'],
     content: `
 <p>L'entretien auto coûte en moyenne <strong>1 200€/an</strong> par véhicule en France (source ACA). Voici 8 stratégies concrètes pour réduire cette facture jusqu'à 50%, sans sacrifier la fiabilité.</p>
 
@@ -1246,7 +1246,7 @@ module.exports = [
     keywords: 'embrayage usé signes, prix remplacement embrayage, kit embrayage tarif, embrayage qui patine, durée vie embrayage',
     category: 'Mécanique', cover: COVERS.workshop, coverAlt: 'Kit d\'embrayage neuf',
     datePublished: '2026-05-06', dateModified: '2026-06-04', readTime: 5,
-    related: ['plaquettes-frein-signes-usure', 'distribution-moteur-quand-changer', 'voiture-consomme-trop-12-raisons'],
+    related: ['plaquettes-frein-signes-usure', 'distribution-moteur-quand-changer', 'boite-automatique-entretien-vidange'],
     content: `
 <p>L'embrayage est une pièce d'usure majeure des véhicules à boîte manuelle. Reconnaître ses signes de fin de vie permet d'<strong>anticiper le remplacement avant l'immobilisation totale</strong>. Voici les 5 signes à surveiller et les coûts en 2026.</p>
 
@@ -1525,7 +1525,7 @@ module.exports = [
     datePublished: '2026-06-04',
     dateModified: '2026-06-04',
     readTime: 8,
-    related: ['voiture-consomme-trop-12-raisons', 'controle-anti-pollution-passer-sans-stress', 'garage-boost-10-ans-plan-de-cuques'],
+    related: ['zfe-marseille-2026-ce-qui-change', 'controle-anti-pollution-passer-sans-stress', 'garage-boost-10-ans-plan-de-cuques'],
     content: `
 <p>À Marseille et dans toute la région, l'été met les véhicules à rude épreuve : fortes chaleurs, climatisation poussée à fond, longs trajets de vacances chargés, routes embouteillées. Ces conditions révèlent souvent des faiblesses qui passaient inaperçues le reste de l'année. Un peu de préparation avant les grosses chaleurs évite la panne au plus mauvais moment — sur l'autoroute des vacances, en pleine canicule. Voici la <strong>checklist complète</strong> pour aborder l'été sereinement.</p>
 
