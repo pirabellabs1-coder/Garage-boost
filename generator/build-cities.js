@@ -10,7 +10,7 @@ const ROOT = path.resolve(__dirname, '..');
 const TEMPLATE = fs.readFileSync(path.join(__dirname, 'city-template.html'), 'utf8');
 const data = require('./data.js');
 const cities = require('./cities.js');
-const { fitTitle, clampMeta } = require('./seo-text.js');
+const { fitTitle, clampMeta, excerpt, deVille, aVille } = require('./seo-text.js');
 const { servicesForCity } = require('./city-services.js');
 
 const SERVICE_ICONS = {
@@ -50,8 +50,8 @@ function buildServiceCard(categorySlug, serviceSlug, service, zoneSlug) {
     <article class="service-card">
       <div class="service-icon"><i class="fa-solid fa-${icon}"></i></div>
       <h3 class="service-title">${service.name}</h3>
-      <p class="service-desc">${service.lead.substring(0, 130)}...</p>
-      <a href="${href}" class="service-link">Voir le service <i class="fa-solid fa-arrow-right"></i></a>
+      <p class="service-desc">${excerpt(service.lead, 130)}</p>
+      <a href="${href}" class="service-link">${service.name} près de chez vous <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
     </article>
   `;
 }
@@ -76,7 +76,7 @@ function buildTopServicesList(topServices, cityName, citySlug) {
     const r = findService(slug);
     if (!r) return '';
     const href = `../${r.categorySlug}/${slug}/${citySlug}.html`;
-    return `<li><a href="${href}" style="color:var(--accent)"><strong>${r.service.name} ${cityName}</strong></a> — ${r.service.lead.substring(0, 110)}...</li>`;
+    return `<li><a href="${href}" style="color:var(--accent)"><strong>${r.service.name} ${cityName}</strong></a> — ${excerpt(r.service.lead, 110)}</li>`;
   }).join('\n');
 }
 
@@ -99,13 +99,13 @@ function buildOtherCities(currentSlug, currentZone) {
 function buildCityFaqSchema(city) {
   const c = city.name, d = city.distance, t = city.travelTime;
   const qa = [
-    [`Vous intervenez vraiment à ${c} ?`,
-     `Oui, nous accueillons régulièrement des clients de ${c} dans notre atelier de Plan-de-Cuques (situé à ${d}, soit environ ${t} de trajet). Nous proposons aussi un service de récupération à domicile pour les véhicules immobilisés ou les clients ne souhaitant pas se déplacer. Service offert au-delà de 200€ d'intervention validée, sinon facturé 49€ aller-retour.`],
-    [`Combien coûtent vos prestations pour les clients de ${c} ?`,
+    [`Vous intervenez vraiment ${aVille(c)} ?`,
+     `Oui, nous accueillons régulièrement des clients ${deVille(c)} dans notre atelier de Plan-de-Cuques (situé à ${d}, soit environ ${t} de trajet). Nous proposons aussi un service de récupération à domicile pour les véhicules immobilisés ou les clients ne souhaitant pas se déplacer. Service offert au-delà de 200€ d'intervention validée, sinon facturé 49€ aller-retour.`],
+    [`Combien coûtent vos prestations pour les clients ${deVille(c)} ?`,
      `Nos tarifs sont strictement identiques pour tous les clients, qu'ils habitent Plan-de-Cuques ou ${c}. Pas de tarif client de passage, pas de surcoût lié à la distance dans la zone ${c}. Consultez notre grille tarifaire complète ou demandez un devis personnalisé sous 24 heures ouvrées via notre formulaire de contact.`],
-    [`Quels sont vos délais de RDV pour un client de ${c} ?`,
-     `Pour un diagnostic ou une intervention standard (vidange, plaquettes, diagnostic moteur), nous proposons un créneau sous 48 à 72 heures. Pour une reprogrammation moteur ou une opération lourde (distribution, embrayage, peinture complète), comptez 5 à 10 jours d'attente. Pour le dépannage urgent, intervention sous 30 à 90 minutes selon la zone de ${c}.`],
-    [`Pouvez-vous récupérer mon véhicule à mon domicile à ${c} ?`,
+    [`Quels sont vos délais de RDV pour un client ${deVille(c)} ?`,
+     `Pour un diagnostic ou une intervention standard (vidange, plaquettes, diagnostic moteur), nous proposons un créneau sous 48 à 72 heures. Pour une reprogrammation moteur ou une opération lourde (distribution, embrayage, peinture complète), comptez 5 à 10 jours d'attente. Pour le dépannage urgent, intervention sous 30 à 90 minutes selon la zone ${deVille(c)}.`],
+    [`Pouvez-vous récupérer mon véhicule à mon domicile ${aVille(c)} ?`,
      `Oui, nous proposons un service de récupération à domicile dans toute la zone ${c}. Notre dépanneuse plateau intervient en journée pour acheminer votre véhicule à l'atelier, puis nous vous le ramenons une fois l'intervention terminée. Service offert pour toute prestation supérieure à 200€ d'intervention validée, sinon facturé 49€ aller-retour. Particulièrement apprécié pour les véhicules non roulants ou les clients ne souhaitant pas se déplacer.`],
     [`Travaillez-vous avec mon assurance auto ?`,
      `Oui, nous travaillons en direct avec la majorité des compagnies d'assurance auto françaises (AXA, MAAF, MMA, Macif, Allianz, Generali, Direct Assurance, Groupama, Pacifica, GMF, MAIF, etc.) pour les sinistres carrosserie, bris de glace ou catastrophes naturelles. Vous nous transmettez votre déclaration, nous nous occupons du reste — devis, expertise contradictoire, facturation directe. Aucune avance de trésorerie de votre part dans la majorité des cas.`],
@@ -145,13 +145,15 @@ for (const city of cities) {
   const distPhrase = /sur\s*place/i.test(city.distance)
     ? 'directement sur notre commune'
     : `à ${city.distance} de notre atelier de Plan-de-Cuques`;
-  const lead = `Garage Boost intervient à ${city.name}, ${distPhrase}. Mécanique, reprogrammation, carrosserie, dépannage, location — toutes nos prestations sont disponibles pour les habitants de ${city.name} et des environs.`;
+  const lead = `Garage Boost intervient ${aVille(city.name)}, ${distPhrase}. Mécanique, reprogrammation, carrosserie, dépannage, location — toutes nos prestations sont disponibles pour les habitants ${deVille(city.name)} et des environs.`;
 
-  const topServicesIntro = `Au cours des dernières années, certaines prestations sont régulièrement demandées par notre clientèle de ${city.name} en raison du contexte automobile local. Voici les services les plus sollicités :`;
+  const topServicesIntro = `Au cours des dernières années, certaines prestations sont régulièrement demandées par notre clientèle ${deVille(city.name)} en raison du contexte automobile local. Voici les services les plus sollicités :`;
 
   const html = render(TEMPLATE, {
     slug: city.slug,
     cityName: city.name,
+    deCity: deVille(city.name),
+    aCity: aVille(city.name),
     population: city.population,
     distance: city.distance,
     travelTime: city.travelTime,
@@ -161,7 +163,7 @@ for (const city of cities) {
     trafficNote: city.trafficNote,
     nearbyDistricts: city.nearbyDistricts.join(', '),
     title: fitTitle(`Garage automobile ${city.name} | Garage Boost`, `Garage auto ${city.name} | Garage Boost`, `Garage auto ${city.name}`),
-    metaDesc: clampMeta(`Garage Boost à votre service à ${city.name}. Mécanique, reprogrammation, FAP, carrosserie, dépannage, location — à ${city.distance} de Plan-de-Cuques. Devis gratuit sous 24h.`),
+    metaDesc: clampMeta(`Garage Boost à votre service ${aVille(city.name)}. Mécanique, reprogrammation, FAP, carrosserie, dépannage, location — à ${city.distance} de Plan-de-Cuques. Devis gratuit sous 24h.`),
     keywords: `garage ${city.name}, garage automobile ${city.name}, mécanicien ${city.name}, carrosserie ${city.name}, dépannage ${city.name}`,
     lead,
     image1: IMAGES[0],

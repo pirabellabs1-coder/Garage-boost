@@ -51,7 +51,7 @@
 <a href="#" aria-label="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
 </div>
 <div class="topbar-info">
-<span><i class="fa-solid fa-location-dot"></i> Plan-de-Cuques – 13380 Marseille</span>
+<span><i class="fa-solid fa-location-dot"></i> 13380 Plan-de-Cuques · Marseille</span>
 <span><i class="fa-solid fa-envelope"></i> <a href="mailto:masgarage7@gmail.com">masgarage7@gmail.com</a></span>
 <span><i class="fa-solid fa-phone"></i> <a href="tel:+33663216350">06 63 21 63 50</a></span>
 </div>
@@ -115,6 +115,7 @@
       </nav>
       <h1 class="page-title">{{serviceName}} <span class="accent">{{zoneLabel}}.</span></h1>
       <p class="page-lead">{{lead}}</p>
+      {{quickFactsHTML}}
     </div>
   </div>
 </section>
@@ -128,10 +129,10 @@
       </div>
       <div class="service-intro-content reveal">
         <span class="eyebrow">Service local</span>
-        <h2>{{serviceName}} pour les habitants de {{zoneLabel}}</h2>
+        <h2>{{serviceName}} pour les habitants {{de_zoneLabel}}</h2>
         <p>{{introP1}}</p>
         <p>{{introP2}}</p>
-        <h3 style="font-family:var(--font-display);font-weight:700;font-size:1rem;color:var(--white);margin:20px 0 10px">Symptômes courants chez nos clients de {{zoneFirstCity}} :</h3>
+        <h3 style="font-family:var(--font-display);font-weight:700;font-size:1rem;color:var(--white);margin:20px 0 10px">Symptômes courants chez nos clients {{de_zoneFirstCity}} :</h3>
         <ul class="symptoms-list">
           {{symptomsHTML}}
         </ul>
@@ -181,7 +182,7 @@
 <section style="padding:30px 0 60px">
   <div class="container">
     <div class="content-block">
-      <h2 style="font-family:var(--font-display);font-weight:800;font-size:1.7rem;color:var(--white);margin-bottom:14px">Comment se déroule l'intervention pour les clients de {{zoneFirstCity}} ?</h2>
+      <h2 style="font-family:var(--font-display);font-weight:800;font-size:1.7rem;color:var(--white);margin-bottom:14px">Comment se déroule l'intervention pour les clients {{de_zoneFirstCity}} ?</h2>
       <p style="color:var(--text-muted);font-size:0.95rem;line-height:1.65;margin-bottom:24px">{{processIntro}}</p>
 
       <div class="service-process-img">
@@ -199,13 +200,13 @@
 <section style="padding:40px 0 60px">
   <div class="container">
     <div style="max-width:900px;margin:0 auto 36px;text-align:center">
-      <span class="eyebrow" style="justify-content:center">{{serviceName}} à {{zoneFirstCity}}</span>
+      <span class="eyebrow" style="justify-content:center">{{serviceName}} {{a_zoneFirstCity}}</span>
       <h2 class="section-title">{{serviceName}} dans la zone {{zoneLabel}} : ce qu'il faut savoir</h2>
     </div>
     <div class="city-info-grid">
       <div class="why-card">
         <div class="why-icon"><i class="fa-solid fa-location-crosshairs"></i></div>
-        <h3>Le contexte auto à {{zoneFirstCity}}</h3>
+        <h3>Le contexte auto {{a_zoneFirstCity}}</h3>
         <p>{{localContext}}</p>
       </div>
       <div class="why-card">
@@ -231,7 +232,7 @@
 <section style="padding:30px 0 60px;background:linear-gradient(180deg,var(--bg) 0%,#0c1310 50%,var(--bg) 100%)">
   <div class="container">
     <div class="content-block">
-      <h2 style="font-family:var(--font-display);font-weight:800;font-size:1.5rem;color:var(--white);margin-bottom:14px">Autres services disponibles à {{zoneFirstCity}}</h2>
+      <h2 style="font-family:var(--font-display);font-weight:800;font-size:1.5rem;color:var(--white);margin-bottom:14px">Autres services disponibles {{a_zoneFirstCity}}</h2>
       <p style="color:var(--text-muted);margin-bottom:18px">
         Au-delà de {{serviceName}}, Garage Boost propose une gamme complète d'interventions pour les clients de la
         zone {{zoneLabel}}. Voici quelques services complémentaires fréquemment demandés ensemble :
@@ -259,7 +260,7 @@
     <div class="content-block">
       <div class="service-pricing">
         <div>
-          <h3>Tarif {{serviceName}} pour les clients de {{zoneLabel}}</h3>
+          <h3>Tarif {{serviceName}} pour les clients {{de_zoneLabel}}</h3>
           <p>{{pricingDesc}}</p>
         </div>
         <div class="service-pricing-amount">{{price}}</div>
@@ -302,7 +303,7 @@
 <footer class="footer"><div class="container">
 <div class="footer-top">
 <div class="footer-brand">
-<a href="../../index.html" class="logo"><span class="logo-text">Garage</span><span class="logo-text logo-text-bold">B<span class="logo-leaf"><i class="fa-solid fa-bolt"></i></span>ost</span></a>
+<a href="../../index.html" class="logo" aria-label="Garage Boost"><span class="logo-text">Garage</span><span class="logo-text logo-text-bold">B<span class="logo-leaf"><i class="fa-solid fa-bolt"></i></span>ost</span></a>
 <p>Garage automobile à Plan-de-Cuques (Marseille) spécialisé en maintenance moteur, anti-pollution, carrosserie, dépannage et location.</p>
 <ul class="footer-contact">
 <li><i class="fa-solid fa-location-dot"></i><div><strong>Adresse</strong> 1 Avenue des Pères Blancs, 13380 Plan-de-Cuques</div></li>
@@ -311,13 +312,13 @@
 <li><i class="fa-solid fa-clock"></i><div><strong>Horaires</strong> Lundi — Samedi · 8h — 19h</div></li>
 </ul>
 </div>
-<div class="footer-col"><h4>Services</h4><ul class="footer-links">
+<div class="footer-col"><p class="footer-title">Services</p><ul class="footer-links">
 <li><a href="../../maintenance-moteur.html">Maintenance moteur</a></li>
 <li><a href="../../entretien-assistance.html">Entretien & assistance</a></li>
 <li><a href="../../carrosserie.html">Carrosserie & peinture</a></li>
 <li><a href="../../location.html">Location de véhicules</a></li>
 </ul></div>
-<div class="footer-col"><h4>Zones</h4><ul class="footer-links">
+<div class="footer-col"><p class="footer-title">Zones</p><ul class="footer-links">
 <li><a href="../../villes/marseille.html">Marseille</a></li>
 <li><a href="../../villes/plan-de-cuques.html">Plan-de-Cuques</a></li>
 <li><a href="../../villes/aubagne.html">Aubagne</a></li>
@@ -325,7 +326,7 @@
 <li><a href="../../villes/vitrolles.html">Vitrolles</a></li>
 <li><a href="../../villes/salon-de-provence.html">Salon-de-Provence</a></li>
 </ul></div>
-<div class="footer-col"><h4>Liens utiles</h4><ul class="footer-links">
+<div class="footer-col"><p class="footer-title">Liens utiles</p><ul class="footer-links">
 <li><a href="../../tarifs.html">Tarifs</a></li>
 <li><a href="../../rendez-vous.html">Prendre RDV</a></li>
 <li><a href="../../faq.html">FAQ</a></li>

@@ -8,7 +8,8 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const TEMPLATE = fs.readFileSync(path.join(__dirname, 'template.html'), 'utf8');
 const data = require('./data.js');
-const { fitTitle, clampMeta } = require('./seo-text.js');
+const { quickFacts } = require('./quick-facts.js');
+const { fitTitle, clampMeta, excerpt } = require('./seo-text.js');
 const zones = require('./zones.js');
 const articles = require('./articles.js');
 const cities = require('./cities.js');
@@ -217,7 +218,7 @@ function buildRelated(related, currentCategorySlug) {
       <a class="related-card" href="${href}">
         <div class="related-card-icon"><i class="fa-solid fa-${icon}"></i></div>
         <h3>${s.name}</h3>
-        <p>${s.lead.substring(0, 110)}...</p>
+        <p>${excerpt(s.lead, 110)}</p>
         <span class="related-card-link">Découvrir <i class="fa-solid fa-arrow-right"></i></span>
       </a>
     `;
@@ -281,6 +282,7 @@ for (const [categorySlug, category] of Object.entries(data.categories)) {
       faqHTML: buildFaq(service.faq),
       faqSchema: buildFaqSchema(service.faq),
       relatedHTML: buildRelated(service.related, categorySlug),
+      quickFactsHTML: quickFacts(service),
       articlesHTML: buildArticleLinks(slug),
       citiesPillsHTML: buildCitiesPills(slug),
       ctaTitle: service.ctaTitle,

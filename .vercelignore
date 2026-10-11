@@ -1,0 +1,5 @@
+# Sources du générateur et fichiers de travail : inutiles en production
+# (le site est servi depuis les HTML déjà générés à la racine)
+generator/
+*.tmp
+api/ANTISPAM.md

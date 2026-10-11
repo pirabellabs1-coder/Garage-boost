@@ -21,4 +21,37 @@ function clampMeta(text, max = META_MAX) {
   return head.slice(0, head.lastIndexOf(' ')).replace(/[,;:–—-]\s*$/, '') + '…';
 }
 
-module.exports = { fitTitle, clampMeta, TITLE_MAX, META_MAX };
+/** Phrases entières jusqu'à `max` caractères (au moins la première). */
+function firstSentences(text, max = 200) {
+  const s = String(text || '').replace(/\s+/g, ' ').trim();
+  const parts = s.match(/[^.!?]+[.!?]+(\s|$)/g) || [s];
+  let out = '';
+  for (const p of parts) {
+    if (out && (out + p).trim().length > max) break;
+    out += p;
+  }
+  return out.trim();
+}
+
+/** Extrait coupé sur un mot entier, suivi de « … » s'il a été raccourci. */
+function excerpt(text, max = 120) {
+  const s = String(text || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+  if (s.length <= max) return s;
+  return s.slice(0, s.lastIndexOf(' ', max)).replace(/[,;:–—-]\s*$/, '') + '…';
+}
+
+/** « de » + nom de commune avec élision/contraction : d'Aubagne, du Puy…, des Pennes… */
+function deVille(name) {
+  if (/^Le /.test(name)) return 'du ' + name.slice(3);
+  if (/^Les /.test(name)) return 'des ' + name.slice(4);
+  if (/^[AEIOUYÉÈÊÂÎH]/i.test(name)) return "d'" + name;
+  return 'de ' + name;
+}
+/** « à » + nom de commune : au Puy…, aux Pennes…, à Aubagne */
+function aVille(name) {
+  if (/^Le /.test(name)) return 'au ' + name.slice(3);
+  if (/^Les /.test(name)) return 'aux ' + name.slice(4);
+  return 'à ' + name;
+}
+
+module.exports = { fitTitle, clampMeta, firstSentences, excerpt, deVille, aVille, TITLE_MAX, META_MAX };

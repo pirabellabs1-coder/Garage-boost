@@ -293,7 +293,7 @@ const blogIndexHTML = `<!DOCTYPE html>
 <a href="#" aria-label="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
 </div>
 <div class="topbar-info">
-<span><i class="fa-solid fa-location-dot"></i> Plan-de-Cuques – 13380 Marseille</span>
+<span><i class="fa-solid fa-location-dot"></i> 13380 Plan-de-Cuques · Marseille</span>
 <span><i class="fa-solid fa-envelope"></i> <a href="mailto:masgarage7@gmail.com">masgarage7@gmail.com</a></span>
 <span><i class="fa-solid fa-phone"></i> <a href="tel:+33663216350">06 63 21 63 50</a></span>
 </div>

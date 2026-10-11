@@ -12,7 +12,26 @@ const cities = require('./cities.js');
 const articles = require('./articles.js');
 const { servicesForCity } = require('./city-services.js');
 const BASE = 'https://garageboost.fr';
+const crypto = require('crypto');
 const today = new Date().toISOString().split('T')[0];
+
+// lastmod véridique : on mémorise une empreinte du contenu de chaque page
+// (generator/lastmod.json, versionné). La date n'avance que si la page a
+// réellement changé — un lastmod = date du build sur 600 URL est ignoré
+// par Google.
+const LASTMOD_FILE = path.join(__dirname, 'lastmod.json');
+const lastmodDb = fs.existsSync(LASTMOD_FILE) ? JSON.parse(fs.readFileSync(LASTMOD_FILE, 'utf8')) : {};
+function pageFingerprint(html) {
+  return crypto.createHash('sha1').update(
+    html.replace(/\?v=[0-9a-f]+/g, '').replace(/\s+/g, ' ')
+  ).digest('hex').slice(0, 16);
+}
+function lastmodFor(loc, html) {
+  const fp = pageFingerprint(html);
+  const prev = lastmodDb[loc];
+  if (!prev || prev.fp !== fp) lastmodDb[loc] = { fp, date: today };
+  return lastmodDb[loc].date;
+}
 
 const urls = [];
 
@@ -62,7 +81,9 @@ for (const u of urls) {
   const rel = u.loc.replace(`${BASE}/`, '').replace(/\/$/, '');
   const file = path.join(ROOT, (rel === '' ? 'index' : rel) + '.html');
   if (!fs.existsSync(file)) { missing++; console.warn(`  ⚠ sitemap : fichier introuvable pour ${u.loc}`); continue; }
-  if (/<meta\s+name="robots"[^>]*noindex/i.test(fs.readFileSync(file, 'utf8'))) { skippedNoindex++; continue; }
+  const html = fs.readFileSync(file, 'utf8');
+  if (/<meta\s+name="robots"[^>]*noindex/i.test(html)) { skippedNoindex++; continue; }
+  u.lastmod = lastmodFor(u.loc, html);
   kept.push(u);
 }
 urls.length = 0;
@@ -74,13 +95,17 @@ const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url>
     <loc>${u.loc}</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${u.lastmod}</lastmod>
     <priority>${u.priority}</priority>
   </url>`).join('\n')}
 </urlset>
 `;
 
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), xml);
+// On ne garde que les URL encore présentes (pages supprimées = purgées)
+const keptLocs = new Set(urls.map(u => u.loc));
+for (const k of Object.keys(lastmodDb)) if (!keptLocs.has(k)) delete lastmodDb[k];
+fs.writeFileSync(LASTMOD_FILE, JSON.stringify(lastmodDb, null, 0).replace(/},"/g, '},\n"'));
 console.log(`✓ sitemap.xml généré (${urls.length} URLs)`);
 
 // robots.txt — autorise tout, expose sitemap + llms.txt pour les IAs
@@ -110,6 +135,12 @@ User-agent: ClaudeBot
 Allow: /
 
 User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
 Allow: /
 
 User-agent: PerplexityBot

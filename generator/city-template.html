@@ -36,7 +36,7 @@
 </script>
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Service","serviceType":"Entretien et réparation automobile","name":"Garage Boost — garage pour les automobilistes de {{cityName}}","url":"https://garageboost.fr/villes/{{slug}}.html","provider":{"@type":"AutoRepair","@id":"https://garageboost.fr/#organization","name":"Garage Boost","telephone":"+33663216350","url":"https://garageboost.fr","image":"https://garageboost.fr/assets/img/og.jpg","priceRange":"€€","address":{"@type":"PostalAddress","streetAddress":"1 Avenue des Pères Blancs","addressLocality":"Plan-de-Cuques","postalCode":"13380","addressRegion":"Bouches-du-Rhône","addressCountry":"FR"}},"areaServed":{"@type":"City","name":"{{cityName}}"},"description":"{{metaDesc}}"}
+{"@context":"https://schema.org","@type":"Service","serviceType":"Entretien et réparation automobile","name":"Garage Boost — garage pour les automobilistes {{deCity}}","url":"https://garageboost.fr/villes/{{slug}}.html","provider":{"@type":"AutoRepair","@id":"https://garageboost.fr/#organization","name":"Garage Boost","telephone":"+33663216350","url":"https://garageboost.fr","image":"https://garageboost.fr/assets/img/og.jpg","priceRange":"€€","address":{"@type":"PostalAddress","streetAddress":"1 Avenue des Pères Blancs","addressLocality":"Plan-de-Cuques","postalCode":"13380","addressRegion":"Bouches-du-Rhône","addressCountry":"FR"}},"areaServed":{"@type":"City","name":"{{cityName}}"},"description":"{{metaDesc}}"}
 </script>
 {{faqSchema}}
 </head>
@@ -50,7 +50,7 @@
 <a href="#" aria-label="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
 </div>
 <div class="topbar-info">
-<span><i class="fa-solid fa-location-dot"></i> Plan-de-Cuques – 13380 Marseille</span>
+<span><i class="fa-solid fa-location-dot"></i> 13380 Plan-de-Cuques · Marseille</span>
 <span><i class="fa-solid fa-envelope"></i> <a href="mailto:masgarage7@gmail.com">masgarage7@gmail.com</a></span>
 <span><i class="fa-solid fa-phone"></i> <a href="tel:+33663216350">06 63 21 63 50</a></span>
 </div>
@@ -121,11 +121,11 @@
   <div class="container">
     <div class="service-intro">
       <div class="service-intro-img reveal">
-        <img src="{{image1}}" alt="Garage automobile à {{cityName}} — Garage Boost" loading="lazy" title="Garage automobile à {{cityName}} — Garage Boost">
+        <img src="{{image1}}" alt="Garage automobile {{aCity}} — Garage Boost" loading="lazy" title="Garage automobile {{aCity}} — Garage Boost">
       </div>
       <div class="service-intro-content reveal">
-        <span class="eyebrow">Votre garage à {{cityName}}</span>
-        <h2>Garage Boost au service de {{cityName}}</h2>
+        <span class="eyebrow">Votre garage {{aCity}}</span>
+        <h2>Garage Boost au service {{deCity}}</h2>
         <p>{{intro}}</p>
 
         <div class="city-stats-grid">
@@ -148,12 +148,12 @@
   <div class="container">
     <div class="service-intro service-intro--reverse">
       <div class="service-intro-content reveal">
-        <span class="eyebrow">Le contexte auto à {{cityName}}</span>
+        <span class="eyebrow">Le contexte auto {{aCity}}</span>
         <h2>Un entretien pensé pour {{cityName}}</h2>
         <p>{{localContext}}</p>
       </div>
       <div class="service-intro-img reveal">
-        <img src="{{image2}}" alt="Entretien et réparation automobile à {{cityName}}" loading="lazy" title="Entretien et réparation auto à {{cityName}}">
+        <img src="{{image2}}" alt="Entretien et réparation automobile {{aCity}}" loading="lazy" title="Entretien et réparation auto {{aCity}}">
       </div>
     </div>
   </div>
@@ -166,7 +166,7 @@
       <span class="eyebrow" style="justify-content:center">Tous nos services pour {{cityName}}</span>
       <h2 class="section-title">23 prestations disponibles dans votre ville.</h2>
       <p class="section-lead" style="margin:0 auto">
-        Que vous habitiez à {{cityName}} pour une révision, une reprogrammation moteur, une réparation carrosserie ou une location de véhicule,
+        Que vous habitiez {{aCity}} pour une révision, une reprogrammation moteur, une réparation carrosserie ou une location de véhicule,
         Garage Boost couvre l'ensemble de vos besoins automobiles. Cliquez sur un service pour découvrir notre intervention dédiée à votre zone.
       </p>
     </div>
@@ -190,7 +190,7 @@
   <div class="container">
     <div class="content-block" style="margin-bottom:42px">
       <span class="eyebrow">Sur mesure pour {{cityName}}</span>
-      <h2 style="font-family:var(--font-display);font-weight:800;font-size:1.7rem;color:var(--white);margin:8px 0 14px">Les services les plus demandés à {{cityName}}</h2>
+      <h2 style="font-family:var(--font-display);font-weight:800;font-size:1.7rem;color:var(--white);margin:8px 0 14px">Les services les plus demandés {{aCity}}</h2>
       <p style="color:var(--text-muted)">{{topServicesIntro}}</p>
       <ul class="local-services-list">{{topServicesListHTML}}</ul>
     </div>
@@ -214,12 +214,12 @@
       </div>
       <div class="why-card">
         <div class="why-icon"><i class="fa-solid fa-map-location-dot"></i></div>
-        <h3>Quartiers de {{cityName}} desservis</h3>
-        <p>Nous accueillons les véhicules de tous les quartiers de {{cityName}} — {{nearbyDistricts}} — au même tarif, sans surcoût lié à la distance dans la commune ni « tarif client de passage ».</p>
+        <h3>Quartiers {{deCity}} desservis</h3>
+        <p>Nous accueillons les véhicules de tous les quartiers {{deCity}} — {{nearbyDistricts}} — au même tarif, sans surcoût lié à la distance dans la commune ni « tarif client de passage ».</p>
       </div>
       <div class="why-card" style="grid-column:1/-1">
         <div class="why-icon"><i class="fa-solid fa-calendar-check"></i></div>
-        <h3>Devis, rendez-vous et paiement pour les clients de {{cityName}}</h3>
+        <h3>Devis, rendez-vous et paiement pour les clients {{deCity}}</h3>
         <p>Le devis est <strong>gratuit et détaillé</strong>, envoyé sous 24&nbsp;h ouvrées, et rien ne démarre sans votre validation écrite&nbsp;: aucune surprise sur la facture. Comptez un rendez-vous sous <strong>48 à 72&nbsp;h</strong> pour un entretien courant, un peu plus pour une reprogrammation ou une intervention lourde, et une prise en charge en <strong>30 à 90&nbsp;minutes</strong> pour un dépannage urgent depuis {{cityName}}. Le règlement peut se faire en <strong>3 ou 4 fois sans frais</strong> dès 500&nbsp;€, et nous gérons la <strong>prise en charge directe avec la plupart des assurances</strong> pour la carrosserie et le bris de glace.</p>
       </div>
     </div>
@@ -236,19 +236,19 @@
       </div>
       <div class="faq-list">
         <div class="faq-item open">
-          <button class="faq-q">Vous intervenez vraiment à {{cityName}} ?<span class="faq-icon"><i class="fa-solid fa-plus"></i></span></button>
+          <button class="faq-q">Vous intervenez vraiment {{aCity}} ?<span class="faq-icon"><i class="fa-solid fa-plus"></i></span></button>
           <div class="faq-a">Oui, nous accueillons régulièrement des clients de <strong>{{cityName}}</strong> dans notre atelier de Plan-de-Cuques (situé à <strong>{{distance}}</strong>, soit environ <strong>{{travelTime}}</strong> de trajet). Nous proposons aussi un service de récupération à domicile pour les véhicules immobilisés ou les clients ne souhaitant pas se déplacer. Service offert au-delà de 200€ d'intervention validée, sinon facturé 49€ aller-retour.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q">Combien coûtent vos prestations pour les clients de {{cityName}} ?<span class="faq-icon"><i class="fa-solid fa-plus"></i></span></button>
+          <button class="faq-q">Combien coûtent vos prestations pour les clients {{deCity}} ?<span class="faq-icon"><i class="fa-solid fa-plus"></i></span></button>
           <div class="faq-a">Nos tarifs sont <strong>strictement identiques</strong> pour tous les clients, qu'ils habitent Plan-de-Cuques ou {{cityName}}. Pas de "tarif client de passage", pas de surcoût lié à la distance dans la zone {{cityName}}. Consultez notre <a href="../tarifs.html" style="color:var(--accent)">grille tarifaire complète</a> ou demandez un devis personnalisé sous 24 heures ouvrées via notre formulaire de contact.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q">Quels sont vos délais de RDV pour un client de {{cityName}} ?<span class="faq-icon"><i class="fa-solid fa-plus"></i></span></button>
-          <div class="faq-a">Pour un <strong>diagnostic ou une intervention standard</strong> (vidange, plaquettes, diagnostic moteur), nous proposons un créneau sous 48 à 72 heures. Pour une <strong>reprogrammation moteur</strong> ou une opération lourde (distribution, embrayage, peinture complète), comptez 5 à 10 jours d'attente. Pour le <strong>dépannage urgent</strong>, intervention sous 30 à 90 minutes selon la zone de {{cityName}}.</div>
+          <button class="faq-q">Quels sont vos délais de RDV pour un client {{deCity}} ?<span class="faq-icon"><i class="fa-solid fa-plus"></i></span></button>
+          <div class="faq-a">Pour un <strong>diagnostic ou une intervention standard</strong> (vidange, plaquettes, diagnostic moteur), nous proposons un créneau sous 48 à 72 heures. Pour une <strong>reprogrammation moteur</strong> ou une opération lourde (distribution, embrayage, peinture complète), comptez 5 à 10 jours d'attente. Pour le <strong>dépannage urgent</strong>, intervention sous 30 à 90 minutes selon la zone {{deCity}}.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q">Pouvez-vous récupérer mon véhicule à mon domicile à {{cityName}} ?<span class="faq-icon"><i class="fa-solid fa-plus"></i></span></button>
+          <button class="faq-q">Pouvez-vous récupérer mon véhicule à mon domicile {{aCity}} ?<span class="faq-icon"><i class="fa-solid fa-plus"></i></span></button>
           <div class="faq-a">Oui, nous proposons un service de <strong>récupération à domicile</strong> dans toute la zone {{cityName}}. Notre dépanneuse plateau intervient en journée pour acheminer votre véhicule à l'atelier, puis nous vous le ramenons une fois l'intervention terminée. Service offert pour toute prestation supérieure à 200€ d'intervention validée, sinon facturé 49€ aller-retour. Particulièrement apprécié pour les véhicules non roulants ou les clients ne souhaitant pas se déplacer.</div>
         </div>
         <div class="faq-item">
@@ -272,9 +272,9 @@
 <section style="padding:30px 0 60px;background:linear-gradient(180deg,var(--bg) 0%,#0c1310 50%,var(--bg) 100%)">
   <div class="container">
     <div class="content-block">
-      <h2 style="font-family:var(--font-display);font-weight:800;font-size:1.5rem;color:var(--white);margin-bottom:14px">Garage Boost dans les villes proches de {{cityName}}</h2>
+      <h2 style="font-family:var(--font-display);font-weight:800;font-size:1.5rem;color:var(--white);margin-bottom:14px">Garage Boost dans les villes proches {{deCity}}</h2>
       <p style="color:var(--text-muted);margin-bottom:18px">
-        Nous intervenons aussi dans les communes voisines de {{cityName}}. Cliquez sur une ville pour découvrir notre service local dédié&nbsp;:
+        Nous intervenons aussi dans les communes voisines {{deCity}}. Cliquez sur une ville pour découvrir notre service local dédié&nbsp;:
       </p>
       <div class="cities-pills">{{otherCitiesHTML}}</div>
       <div style="margin-top:24px">
@@ -289,7 +289,7 @@
   <div class="container">
     <div class="cta-inner">
       <div>
-        <h2 class="cta-title">Garage à {{cityName}} ?<br><span class="gradient-text">On vous attend.</span></h2>
+        <h2 class="cta-title">Garage {{aCity}} ?<br><span class="gradient-text">On vous attend.</span></h2>
         <p class="cta-text">Devis gratuit sous 24h, intervention en 48-72h. Service de récupération à domicile depuis {{cityName}}.</p>
       </div>
       <div class="cta-actions">
@@ -303,7 +303,7 @@
 <footer class="footer"><div class="container">
 <div class="footer-top">
 <div class="footer-brand">
-<a href="../index.html" class="logo"><span class="logo-text">Garage</span><span class="logo-text logo-text-bold">B<span class="logo-leaf"><i class="fa-solid fa-bolt"></i></span>ost</span></a>
+<a href="../index.html" class="logo" aria-label="Garage Boost"><span class="logo-text">Garage</span><span class="logo-text logo-text-bold">B<span class="logo-leaf"><i class="fa-solid fa-bolt"></i></span>ost</span></a>
 <p>Garage automobile à Plan-de-Cuques (Marseille) spécialisé en maintenance moteur, anti-pollution, carrosserie, dépannage et location.</p>
 <ul class="footer-contact">
 <li><i class="fa-solid fa-location-dot"></i><div><strong>Adresse</strong> 1 Avenue des Pères Blancs, 13380 Plan-de-Cuques</div></li>
@@ -312,13 +312,13 @@
 <li><i class="fa-solid fa-clock"></i><div><strong>Horaires</strong> Lundi — Samedi · 8h — 19h</div></li>
 </ul>
 </div>
-<div class="footer-col"><h4>Services</h4><ul class="footer-links">
+<div class="footer-col"><p class="footer-title">Services</p><ul class="footer-links">
 <li><a href="../maintenance-moteur.html">Maintenance moteur</a></li>
 <li><a href="../entretien-assistance.html">Entretien & assistance</a></li>
 <li><a href="../carrosserie.html">Carrosserie & peinture</a></li>
 <li><a href="../location.html">Location de véhicules</a></li>
 </ul></div>
-<div class="footer-col"><h4>Villes</h4><ul class="footer-links">
+<div class="footer-col"><p class="footer-title">Villes</p><ul class="footer-links">
 <li><a href="marseille.html">Marseille</a></li>
 <li><a href="aubagne.html">Aubagne</a></li>
 <li><a href="vitrolles.html">Vitrolles</a></li>
@@ -326,7 +326,7 @@
 <li><a href="salon-de-provence.html">Salon-de-Provence</a></li>
 <li><a href="../villes.html">Toutes les villes</a></li>
 </ul></div>
-<div class="footer-col"><h4>Liens utiles</h4><ul class="footer-links">
+<div class="footer-col"><p class="footer-title">Liens utiles</p><ul class="footer-links">
 <li><a href="../tarifs.html">Tarifs</a></li>
 <li><a href="../rendez-vous.html">Prendre RDV</a></li>
 <li><a href="../faq.html">FAQ</a></li>

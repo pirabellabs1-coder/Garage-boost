@@ -36,6 +36,9 @@ require('./normalize-urls.js');
 console.log('\n=== 9/10 — Normalisation typographique française ===\n');
 require('./typography-fr.js');
 
+console.log('\n=== Dimensions des images (anti-CLS) ===\n');
+require('./img-dimensions.js');
+
 console.log('\n=== 10/10 — Cache-busting CSS/JS ===\n');
 require('./asset-version.js');
 

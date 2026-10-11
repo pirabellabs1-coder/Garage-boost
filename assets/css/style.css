@@ -653,6 +653,33 @@ h1, h2, h3, h4 {
   .page-lead { font-size: 0.85rem; line-height: 1.55; padding: 0 8px; }
   .breadcrumb { font-size: 0.7rem; margin-bottom: 14px; }
 }
+/* Bandeau « réponse rapide » sous le H1 des pages services */
+.quick-facts {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 26px auto 0;
+  padding: 0;
+  max-width: 820px;
+}
+.quick-facts li {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  color: var(--white);
+  background: rgba(189,227,45,0.07);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+.quick-facts i { color: var(--accent); }
+@media (max-width: 600px) {
+  .quick-facts { gap: 8px; margin-top: 18px; }
+  .quick-facts li { font-size: 0.78rem; padding: 7px 12px; }
+}
 .page-hero::before {
   content: '';
   position: absolute;
@@ -2993,7 +3020,8 @@ a.zone-pill:hover { border-color: var(--accent); color: var(--accent); transform
 }
 .footer-contact strong { color: var(--white); display: block; font-weight: 600; }
 
-.footer-col h4 {
+.footer-col h4,
+.footer-col .footer-title {
   font-size: 0.95rem;
   font-weight: 700;
   margin-bottom: 22px;

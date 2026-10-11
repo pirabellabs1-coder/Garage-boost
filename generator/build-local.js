@@ -9,7 +9,8 @@ const ROOT = path.resolve(__dirname, '..');
 const TEMPLATE = fs.readFileSync(path.join(__dirname, 'local-template.html'), 'utf8');
 const data = require('./data.js');
 const zones = require('./zones.js');
-const { fitTitle, clampMeta } = require('./seo-text.js');
+const { quickFacts } = require('./quick-facts.js');
+const { fitTitle, clampMeta, firstSentences, excerpt, deVille, aVille } = require('./seo-text.js');
 
 const SERVICE_ICONS = {
   'diagnostic-moteur': 'microchip', 'decalaminage-hydrogene': 'fire-flame-curved',
@@ -36,6 +37,9 @@ function findService(slug) {
 }
 
 function render(template, vars) {
+  for (const k of ["zoneLabel","zoneFirstCity","cityName"]) {
+    if (typeof vars[k] === 'string') { vars['de_' + k] = deVille(vars[k]); vars['a_' + k] = aVille(vars[k]); }
+  }
   return template.replace(/\{\{(\w+)\}\}/g, (_, key) =>
     vars[key] !== undefined ? String(vars[key]) : ''
   );
@@ -115,7 +119,7 @@ function buildRelated(related, currentCategorySlug, currentZoneSlug) {
       <a class="related-card" href="${href}">
         <div class="related-card-icon"><i class="fa-solid fa-${icon}"></i></div>
         <h3>${r.service.name}</h3>
-        <p>${r.service.lead.substring(0, 110)}...</p>
+        <p>${excerpt(r.service.lead, 110)}</p>
         <span class="related-card-link">Découvrir <i class="fa-solid fa-arrow-right"></i></span>
       </a>
     `;
@@ -157,13 +161,13 @@ for (const [categorySlug, category] of Object.entries(data.categories)) {
       // Texte localisé personnalisé
       const otherCities = zone.cities.filter(c => c !== zone.firstCity).join(', ') || '';
 
-      const lead = `${service.lead.substring(0, 200)} Service identique pour les clients de ${zone.label} : ${citiesText}.`;
+      const lead = `${firstSentences(service.lead, 200)} Service identique pour les clients ${deVille(zone.label)} : ${citiesText}.`;
 
-      const introP1 = `Vous résidez à ${zone.firstCity}${otherCities ? ` ou dans une commune voisine (${otherCities})` : ''} et cherchez un atelier spécialisé pour ${service.name.toLowerCase()} ? <strong>Garage Boost à Plan-de-Cuques</strong> est votre partenaire de confiance pour cette intervention. Notre atelier accueille régulièrement des clients de toute la zone ${zone.label}, attirés par notre rigueur technique, nos tarifs justes et notre garantie 12 mois sur l'ensemble de nos prestations mécaniques.`;
+      const introP1 = `Vous résidez ${aVille(zone.firstCity)}${otherCities ? ` ou dans une commune voisine (${otherCities})` : ''} et cherchez un atelier spécialisé pour ${service.name.toLowerCase()} ? <strong>Garage Boost à Plan-de-Cuques</strong> est votre partenaire de confiance pour cette intervention. Notre atelier accueille régulièrement des clients de toute la zone ${zone.label}, attirés par notre rigueur technique, nos tarifs justes et notre garantie 12 mois sur l'ensemble de nos prestations mécaniques.`;
 
-      const introP2 = `Notre prestation ${service.name.toLowerCase()} est <strong>strictement identique</strong> que vous veniez de Plan-de-Cuques ou de ${zone.firstCity} : même protocole technique, mêmes pièces qualité OEM, même garantie 12 mois, même tarif (${service.price}). Pour vous éviter le déplacement, nous proposons un service de récupération de votre véhicule à domicile dans toute la zone ${zone.label}, offert au-delà de 200€ d'intervention validée.`;
+      const introP2 = `Notre prestation ${service.name.toLowerCase()} est <strong>strictement identique</strong> que vous veniez de Plan-de-Cuques ou ${deVille(zone.firstCity)} : même protocole technique, mêmes pièces qualité OEM, même garantie 12 mois, même tarif (${service.price}). Pour vous éviter le déplacement, nous proposons un service de récupération de votre véhicule à domicile dans toute la zone ${zone.label}, offert au-delà de 200€ d'intervention validée.`;
 
-      const whyZoneP = `Vous trouverez peut-être des garages plus proches géographiquement de chez vous à ${zone.firstCity}, mais Garage Boost se distingue par sa <strong>spécialisation</strong> sur ${service.name.toLowerCase()}. Nous réalisons cette intervention plusieurs fois par semaine avec un équipement professionnel dédié et des techniciens formés en continu sur les évolutions techniques du secteur. Cette expertise concentrée nous permet de proposer des tarifs compétitifs (-30 à -40% par rapport aux concessionnaires) et un taux de réussite élevé sur les cas complexes. Nos clients de ${zone.label} apprécient également notre transparence sur les devis (envoyés sous 24h, validation écrite obligatoire avant tout démarrage de l'intervention) et notre note Google de 4,9/5 sur 127+ avis vérifiés à travers toute la métropole Aix-Marseille-Provence.`;
+      const whyZoneP = `Vous trouverez peut-être des garages plus proches géographiquement de chez vous ${aVille(zone.firstCity)}, mais Garage Boost se distingue par sa <strong>spécialisation</strong> sur ${service.name.toLowerCase()}. Nous réalisons cette intervention plusieurs fois par semaine avec un équipement professionnel dédié et des techniciens formés en continu sur les évolutions techniques du secteur. Cette expertise concentrée nous permet de proposer des tarifs compétitifs (-30 à -40% par rapport aux concessionnaires) et un taux de réussite élevé sur les cas complexes. Nos clients ${deVille(zone.label)} apprécient également notre transparence sur les devis (envoyés sous 24h, validation écrite obligatoire avant tout démarrage de l'intervention) et notre note Google de 4,9/5 sur 127+ avis vérifiés à travers toute la métropole Aix-Marseille-Provence.`;
 
       const servicePresentation = `${service.introTitle ? '<strong>' + service.introTitle + '</strong> ' : ''}${service.introP1} ${service.introP2 ? service.introP2 : ''} Pour découvrir le détail technique complet de notre prestation, consultez notre <a href="../${serviceSlug}.html" style="color:var(--accent)">page principale ${service.name}</a>. Sinon, contactez-nous directement par téléphone, WhatsApp ou via notre formulaire de prise de rendez-vous en ligne — un mécanicien spécialisé vous répond personnellement, sans intermédiaire commercial ni standard téléphonique.`;
 
@@ -204,6 +208,7 @@ for (const [categorySlug, category] of Object.entries(data.categories)) {
         faqHTML: buildFaq(service.faq),
         faqSchema: buildFaqSchema(service.faq),
         relatedHTML: buildRelated(service.related, categorySlug, zone.slug),
+        quickFactsHTML: quickFacts(service, zone.label),
         citiesPillsHTML: buildCitiesPills(zone.cities),
         otherZonesHTML: buildOtherZones(zone.slug, serviceSlug, service.name)
       });
