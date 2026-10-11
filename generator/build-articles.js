@@ -37,6 +37,14 @@ const CATEGORY_MAP = {
     serviceDesc: "Cartographies développées en interne, testées sur banc dynamométrique. Garantie 24 mois, sauvegarde origine systématique.",
     btnText: 'En savoir plus'
   },
+  'Carrosserie': {
+    img: '/assets/img/1517524206127-48bbd363f3d7.webp',
+    imgCaption: "Atelier carrosserie et débosselage grêle à Plan-de-Cuques",
+    servicePage: 'carrosserie/debosselage-grele.html',
+    serviceTitle: 'Voiture grêlée ? Débosselage sans peinture',
+    serviceDesc: "Impacts de grêle effacés sans repeindre, dossier assurance géré avec l'expert, devis détaillé sous 24h.",
+    btnText: 'Débosselage grêle'
+  },
   'Diagnostic': {
     img: '/assets/img/1487754180451-c456f719a1fc.webp',
     imgCaption: "Diagnostic électronique multimarque sur véhicule",
@@ -311,6 +319,7 @@ const blogIndexHTML = `<!DOCTYPE html>
 </ul></li>
 <li><a href="/carrosserie" class="has-sub">Carrosserie</a><ul class="nav-submenu">
 <li><a href="/carrosserie/carrosserie-auto">Carrosserie auto</a></li>
+<li><a href="/carrosserie/debosselage-grele">Débosselage grêle</a></li>
 <li><a href="/carrosserie/peinture-automobile">Peinture automobile</a></li>
 <li><a href="/carrosserie/pare-brise">Pare-brise</a></li>
 </ul></li>

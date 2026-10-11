@@ -1159,7 +1159,7 @@ module.exports = {
     },
 
     // =================================================================
-    // CARROSSERIE (3 services)
+    // CARROSSERIE (4 services)
     // =================================================================
     'carrosserie': {
       label: 'Carrosserie',
@@ -1205,7 +1205,7 @@ module.exports = {
             "<strong>Accrochages parking</strong> ou en ville (chocs latéraux, frottements)",
             "<strong>Accidents</strong> avec déformation d'éléments (avant, arrière, latéral)",
             "<strong>Vandalisme</strong> : rayures profondes, élément délibérément abîmé",
-            "<strong>Catastrophes naturelles</strong> : grêle, inondation, chute d'arbre",
+            "<strong>Événements climatiques</strong> : grêle (voir notre <a href='/carrosserie/debosselage-grele' style='color:var(--accent)'>débosselage grêle</a>), tempête, chute d'arbre, inondation",
             "<strong>Vieillissement</strong> : retouches d'éléments oxydés ou délavés par UV",
             "Préparation <strong>avant revente</strong> pour valoriser le véhicule",
             "<strong>Véhicules de collection</strong> avec restauration esthétique partielle"
@@ -1231,10 +1231,83 @@ module.exports = {
             COMMON_FAQ_GUARANTEE,
             COMMON_FAQ_PAYMENT
           ],
-          related: ['peinture-automobile', 'pare-brise', 'mecanique-generale'],
+          related: ['debosselage-grele', 'peinture-automobile', 'pare-brise'],
           ctaTitle: 'Choc, rayure, dommage ?',
           ctaTitleAccent: 'On répare comme neuf.',
           ctaText: 'Devis gratuit sous 24h. Envoyez photos sur WhatsApp pour un premier chiffrage immédiat.'
+        },
+
+        'debosselage-grele': {
+          name: 'Débosselage grêle',
+          title: 'Débosselage grêle Marseille | Voiture grêlée, DSP & assurance - Garage Boost',
+          metaDesc: "Voiture grêlée à Marseille ? Débosselage sans peinture (DSP) à Plan-de-Cuques : impacts de grêle effacés, peinture d'origine préservée, dossier assurance géré avec l'expert. Devis gratuit.",
+          keywords: 'débosselage grêle Marseille, voiture grêlée Marseille, débosseleur grêle, DSP grêle Plan-de-Cuques, réparation grêle assurance, débosselage sans peinture 13',
+          h1Pre: 'Débosselage', h1Accent: 'grêle.',
+          lead: "Votre voiture a été grêlée ? Nous effaçons les impacts par débosselage sans peinture (DSP), en conservant la peinture d'origine. Dossier géré avec votre assureur et l'expert : avec la garantie grêle, vous ne réglez au plus que votre franchise.",
+          image1: IMG.service, imageAlt1: "Voiture garée en extérieur sous un ciel d'orage à Marseille",
+          image2: IMG.workshop, imageAlt2: 'Carrosserie lisse et brillante après débosselage',
+          price: '90 - 4 900 €', priceMin: '90',
+          pricingDesc: "Chiffrage par élément selon le nombre et la taille des impacts : quelques bosses isolées dès 90 €, un véhicule fortement grêlé jusqu'à 4 900 € et plus. Avec une garantie grêle, la facture est réglée par votre assureur, hors franchise contractuelle.",
+          introTitle: "Grêle : effacer les impacts sans repeindre.",
+          introP1: "Un orage de grêle de quelques minutes suffit à marquer un capot, un toit et un hayon de dizaines, parfois de centaines de petites bosses. Après les récents épisodes de grêle dans les Bouches-du-Rhône, beaucoup de véhicules de la métropole ont été touchés. La bonne nouvelle : dans la grande majorité des cas, <strong>la peinture n'est pas cassée</strong>, et la tôle peut être ramenée à sa forme d'origine sans ponçage, sans mastic et sans peinture.",
+          introP2: "C'est le principe du <strong>débosselage sans peinture (DSP)</strong> : nos techniciens repoussent chaque impact par l'intérieur à l'aide de tiges et de leviers, ou le tirent par l'extérieur par collage-traction quand l'accès est impossible, en contrôlant la surface sous un éclairage à reflets. Résultat : une carrosserie lisse, une <strong>peinture d'usine conservée</strong> et une valeur de revente préservée. Et si vous êtes couvert par une garantie grêle ou « événements climatiques », c'est votre assurance qui règle la réparation.",
+          symptoms: ['Petites bosses sur le capot', 'Toit (pavillon) criblé d\'impacts', 'Coffre ou hayon marqué', 'Impacts visibles en lumière rasante', 'Bosses sur montants et ailes', 'Baguettes ou joints abîmés', 'Rétroviseurs ou feux fissurés', 'Pare-brise impacté par la grêle'],
+          benefitsTitle: 'Peinture d\'origine, assurance gérée.',
+          stats: [{value:'DSP', label:'Sans peinture'}, {value:'Direct', label:'Règlement assureur'}, {value:'24h', label:'Devis & photos'}],
+          benefits: [
+            {icon:'hand-sparkles', title:'Sans peinture', desc:"Impacts repoussés à la tige ou tirés par collage : pas de ponçage, pas de mastic, la peinture d'usine reste intacte."},
+            {icon:'file-shield', title:'Dossier assurance géré', desc:"Déclaration, photos, chiffrage par élément, échange avec l'expert : nous vous accompagnons jusqu'au règlement direct par l'assureur."},
+            {icon:'car-side', title:'Mobilité assurée', desc:"Immobilisation courte, et possibilité de louer une citadine pendant la réparation si vous en avez besoin."}
+          ],
+          whatIsTitle: "Le débosselage grêle, concrètement",
+          whatIsP1: "<strong>Le diagnostic</strong> : sous une lampe ou un tableau à reflets, chaque élément (capot, pavillon, hayon, ailes, portes, montants) est inspecté et les impacts sont comptés et classés par taille. C'est cette grille — nombre d'impacts et diamètre par élément — qui sert de base au chiffrage, exactement comme le fait l'expert d'assurance.",
+          whatIsP2: "<strong>La réparation par l'intérieur</strong> : nous déposons les garnitures nécessaires (ciel de toit, doublures de capot et de hayon, feux arrière) pour accéder à l'envers de la tôle. Chaque bosse est massée progressivement à la tige jusqu'à disparaître, puis les éventuels points hauts sont « détendus » au tasseau. Là où l'accès est impossible (montants, bords de pavillon), nous utilisons le <strong>collage-traction</strong> par l'extérieur.",
+          whatIsP3: "<strong>Les limites</strong> : si la peinture est fissurée ou écaillée, si un impact est très profond, placé sur une arête vive ou sur un élément en aluminium très sollicité, le DSP seul ne suffit pas. Nous combinons alors débosselage classique, <a href=\"/carrosserie/peinture-automobile\" style=\"color:var(--accent)\">peinture cabine</a> localisée ou remplacement de l'élément. Vous le savez dès le devis, avant toute intervention.",
+          processIntro: "De l'orage à la restitution : notre parcours en 5 étapes pour une voiture grêlée.",
+          processSteps: [
+            {num:'1', title:'Déclaration', desc:'Vous déclarez le sinistre à votre assureur (délai souvent de 5 jours ouvrés). Nous vous aidons si besoin.'},
+            {num:'2', title:'Diagnostic & photos', desc:'Comptage des impacts par élément sous éclairage à reflets, photos, devis détaillé sous 24h.'},
+            {num:'3', title:'Expertise', desc:"Passage de l'expert mandaté par l'assureur : nous lui transmettons notre chiffrage et échangeons directement avec lui."},
+            {num:'4', title:'Débosselage', desc:'Dépose des garnitures, DSP impact par impact, collage-traction si nécessaire, contrôle sous lumière.'},
+            {num:'5', title:'Restitution', desc:'Remontage, lavage, photos avant/après, règlement direct par l\'assureur (hors franchise).'}
+          ],
+          targetTitle: "Qui peut faire réparer sa voiture grêlée ?",
+          targetIntro: "Tous les conducteurs dont le véhicule a subi la grêle, quelle que soit la marque, et en particulier :",
+          targetList: [
+            "Les assurés <strong>tous risques</strong> ou disposant d'une garantie <strong>grêle / événements climatiques</strong>",
+            "Les véhicules garés <strong>en extérieur</strong> lors de l'orage (rue, parking, résidence)",
+            "Les <strong>véhicules récents ou en leasing (LOA/LLD)</strong> à restituer sans défaut",
+            "Les propriétaires qui veulent <strong>préserver la peinture d'origine</strong> et la cote à la revente",
+            "Les <strong>professionnels et flottes</strong> (artisans, VTC, utilitaires) qui ne peuvent pas immobiliser longtemps",
+            "Les conducteurs <strong>non couverts</strong> qui veulent un devis DSP raisonnable, élément par élément"
+          ],
+          whyP: "Après un orage, les sollicitations affluent et certains « débosseleurs itinérants » s'installent quelques semaines sur un parking avant de disparaître. Garage Boost est un atelier fixe à Plan-de-Cuques, qui reste là pour la garantie.",
+          whyList: [
+            "<strong>Atelier carrosserie permanent</strong> à Plan-de-Cuques, joignable après la réparation",
+            "<strong>Débosselage sans peinture</strong> en priorité, peinture cabine seulement si nécessaire",
+            "<strong>Libre choix du réparateur</strong> : vous pouvez nous confier votre véhicule même si l'assureur en propose un autre",
+            "<strong>Gestion directe</strong> avec votre assureur et l'expert, sans avance de frais",
+            "<strong>Photos avant/après</strong> de chaque élément pour une transparence totale",
+            "<strong>Garantie 12 mois</strong> sur la tôlerie, <strong>24 mois</strong> sur la peinture",
+            "<strong>Pare-brise grêlé</strong> remplacé sur place avec calibrage ADAS si nécessaire"
+          ],
+          content: [
+            {h:"Grêle et assurance : qui paie la réparation ?", p:"La grêle n'est pas couverte par l'assurance au tiers simple. Elle est prise en charge par la <strong>garantie « tempête, grêle, neige » ou « événements climatiques »</strong>, incluse dans la plupart des contrats tous risques et dans certaines formules intermédiaires. Dans ce cas, l'assureur règle la réparation, déduction faite de la franchise prévue à votre contrat. La grêle relève de cette garantie contractuelle et non du régime des catastrophes naturelles. Bon à savoir : un sinistre grêle est un événement non responsable, il <strong>n'entraîne pas de malus</strong>. Et depuis la loi Hamon, vous gardez le <strong>libre choix de votre réparateur</strong>, même si votre assureur vous oriente vers un garage agréé."},
+            {h:"Pourquoi faire réparer rapidement ?", p:"Une bosse de grêle qui n'a pas cassé la peinture ne rouille pas du jour au lendemain, mais attendre a plusieurs inconvénients : les délais de déclaration de votre contrat courent (souvent 5 jours ouvrés après le sinistre), un second orage peut aggraver les dégâts et compliquer la distinction entre les deux sinistres, et une microfissure invisible peut laisser l'humidité attaquer la tôle. Sur un véhicule en <strong>leasing</strong>, des impacts non réparés seront facturés à la restitution. Et si l'indemnité vous a été versée sans que la réparation soit faite, la valeur de revente du véhicule en pâtira."}
+          ],
+          faq: [
+            {q:"Ma voiture a été grêlée, que dois-je faire en premier ?", a:"Prenez des photos des dégâts (vue d'ensemble et gros plans, idéalement en lumière rasante), puis déclarez le sinistre à votre assureur dans le délai prévu par votre contrat, souvent 5 jours ouvrés. Ensuite, contactez-nous : nous établissons un devis détaillé par élément et nous échangeons directement avec l'expert mandaté par votre assurance."},
+            {q:"Est-ce que l'assurance paie la réparation de la grêle ?", a:"Oui si votre contrat comprend une garantie grêle ou événements climatiques (c'est le cas de la plupart des tous risques et de certaines formules intermédiaires). L'assureur règle alors la réparation, déduction faite de votre franchise. Au tiers simple, la grêle n'est pas couverte : nous vous proposons dans ce cas un devis DSP au plus juste."},
+            {q:"Un sinistre grêle me fait-il perdre mon bonus ?", a:"Non. La grêle est un événement climatique non responsable : il n'entraîne pas de malus sur votre coefficient bonus-malus."},
+            {q:"Puis-je choisir mon garage si mon assureur m'en propose un autre ?", a:"Oui. Depuis la loi Hamon de 2014, l'assuré a le libre choix de son réparateur. Votre assureur peut vous recommander un garage agréé, mais vous pouvez confier votre véhicule à Garage Boost. Nous travaillons avec l'expert mandaté pour faire valider le chiffrage."},
+            {q:"Combien de temps dure un débosselage grêle ?", a:"Quelques heures pour une poignée d'impacts, 2 à 5 jours pour un véhicule moyennement grêlé, jusqu'à 1 à 2 semaines pour un véhicule très touché nécessitant aussi de la peinture ou un remplacement d'élément. Le délai précis figure sur le devis."},
+            {q:"Le débosselage sans peinture est-il vraiment invisible ?", a:"Sur un impact dont la peinture n'est pas fissurée, oui : la tôle reprend sa forme d'origine et la peinture d'usine est conservée. Nous contrôlons chaque élément sous éclairage à reflets et vous remettons des photos avant/après."},
+            COMMON_FAQ_GUARANTEE
+          ],
+          related: ['carrosserie-auto', 'pare-brise', 'peinture-automobile'],
+          ctaTitle: 'Voiture grêlée ?',
+          ctaTitleAccent: 'On efface les impacts.',
+          ctaText: "Envoyez 3 photos sur WhatsApp au 06 63 21 63 50 : premier avis sous 24h, devis détaillé par élément et dossier assurance géré avec l'expert."
         },
 
         'peinture-automobile': {

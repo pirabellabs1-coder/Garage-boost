@@ -1674,5 +1674,239 @@ module.exports = [
 <h2>Vidange et diagnostic de boîte à Plan-de-Cuques</h2>
 <p>Chez Garage Boost, nous réalisons la vidange de boîte automatique avec l'huile précisément préconisée pour votre véhicule, et nous diagnostiquons les dysfonctionnements (à-coups, patinage, mode dégradé) avant qu'ils ne dégénèrent en réparation lourde. Nous vous conseillons honnêtement sur l'intervalle adapté à votre boîte et à votre usage, sans dramatiser ni minimiser. Une boîte automatique bien entretenue est un vrai plaisir de conduite qui dure ; négligée, elle devient l'une des réparations les plus coûteuses d'un véhicule. Pour un entretien ou un diagnostic de votre transmission, contactez notre atelier au <strong>06 63 21 63 50</strong> ou via notre <a href="../rendez-vous.html">formulaire de prise de rendez-vous</a>.</p>
 `
+  },
+  // =====================================================================
+  // CLUSTER GRÊLE (oct. 2026) — après l'épisode de grêle dans les BdR
+  // =====================================================================
+
+  // 26. PILIER — Voiture grêlée : que faire ?
+  {
+    slug: 'voiture-grelee-que-faire',
+    title: "Voiture grêlée : que faire ? Le guide étape par étape",
+    excerpt: "Votre voiture a pris la grêle ? Photos, déclaration à l'assurance, expertise, choix du réparateur, débosselage sans peinture : toutes les étapes pour être indemnisé et retrouver une carrosserie nette.",
+    metaDesc: "Voiture grêlée : les bons réflexes après l'orage. Photos, délai de déclaration, expert d'assurance, libre choix du garage, débosselage sans peinture. Guide pratique à Marseille.",
+    keywords: 'voiture grêlée que faire, grêle voiture démarches, déclarer sinistre grêle, voiture grêlée Marseille, réparation grêle assurance',
+    category: 'Carrosserie',
+    cover: COVERS.service,
+    coverAlt: "Voiture stationnée en extérieur sous un ciel d'orage",
+    datePublished: '2026-10-11',
+    dateModified: '2026-10-11',
+    readTime: 10,
+    related: ['grele-voiture-assurance-indemnisation', 'debosselage-sans-peinture-grele-prix', 'proteger-voiture-grele'],
+    content: `
+<p>Quelques minutes d'orage, un bruit de mitraille sur le toit, et le lendemain matin la découverte : un capot, un pavillon et un coffre constellés de petites bosses. Les récents épisodes de grêle dans les Bouches-du-Rhône ont touché de nombreux véhicules garés dehors, de Marseille à Aix en passant par Aubagne et le pays d'Allauch. Si c'est votre cas, pas de panique : <strong>une voiture grêlée se répare très bien</strong>, le plus souvent sans repeindre, et c'est généralement votre assurance qui règle la facture. Encore faut-il suivre les bonnes étapes, dans le bon ordre. Voici le guide complet, tel que nous l'expliquons chaque jour à nos clients à l'atelier de Plan-de-Cuques.</p>
+
+<h2>Étape 1 : constater les dégâts et les photographier</h2>
+<p>Avant toute chose, faites un tour complet du véhicule, de préférence <strong>en lumière rasante</strong> (tôt le matin, en fin de journée, ou avec la lampe de votre téléphone tenue de biais). Les impacts de grêle sont souvent peu visibles de face et sautent aux yeux dès que la lumière glisse sur la tôle. Inspectez en priorité les surfaces horizontales : capot, pavillon (le toit), coffre ou hayon, puis les montants de pare-brise, le haut des ailes et des portières.</p>
+<p>Prenez des photos de deux types : des <strong>vues d'ensemble</strong> du véhicule sous plusieurs angles, avec la plaque d'immatriculation visible sur au moins une, puis des <strong>gros plans</strong> élément par élément. Photographiez aussi tout ce qui est cassé : pare-brise étoilé, feux ou rétroviseurs fissurés, baguettes de toit abîmées. Si possible, gardez une trace de la date et du lieu (les photos de smartphone l'enregistrent automatiquement) et, si des voisins ou des médias locaux ont relayé l'orage, conservez ces éléments : ils confirment la réalité de l'événement climatique.</p>
+<p>Vérifiez enfin que rien n'empêche de rouler en sécurité. Un pare-brise fissuré dans le champ de vision du conducteur, un feu cassé ou un rétroviseur arraché doivent être traités rapidement. En revanche, des bosses sur la carrosserie n'empêchent pas de circuler : il n'y a pas d'urgence à immobiliser la voiture, seulement à lancer les démarches.</p>
+
+<h2>Étape 2 : déclarer le sinistre à votre assureur dans les temps</h2>
+<p>C'est l'étape à ne pas laisser traîner. Le Code des assurances prévoit que le délai de déclaration d'un sinistre est fixé par votre contrat et <strong>ne peut pas être inférieur à 5 jours ouvrés</strong>. Concrètement, la plupart des contrats auto retiennent ce délai de 5 jours ouvrés pour un sinistre grêle : ne dépassez pas cette limite, sous peine de voir l'assureur contester la prise en charge s'il démontre que le retard lui a causé un préjudice.</p>
+<p>La déclaration se fait par téléphone, dans l'espace client en ligne ou via l'application de votre assureur. Indiquez la date, l'heure approximative et le lieu où le véhicule était stationné, décrivez les dégâts et joignez vos photos. Notez précieusement le <strong>numéro de sinistre</strong> qui vous est attribué : il vous sera demandé à chaque échange, y compris par le garage.</p>
+<p>Si plusieurs véhicules du foyer ont été touchés, faites une déclaration par véhicule. Et si un second orage survient avant la réparation, signalez-le aussi : mieux vaut que l'expert puisse distinguer clairement les deux événements.</p>
+
+<h2>Étape 3 : vérifier ce que couvre votre contrat</h2>
+<p>La grêle n'est pas couverte par l'assurance au tiers simple. Elle est prise en charge par une garantie spécifique, appelée selon les assureurs <strong>« tempête, grêle, neige »</strong>, <strong>« événements climatiques »</strong> ou <strong>« forces de la nature »</strong>. Elle est incluse dans la grande majorité des contrats tous risques et dans certaines formules intermédiaires (« tiers plus », « tiers étendu »). Relisez vos conditions particulières pour savoir si vous en bénéficiez, et quel est le <strong>montant de votre franchise</strong> pour ce type de sinistre : c'est la seule somme qui restera à votre charge.</p>
+<p>Deux bonnes nouvelles à connaître. D'abord, la grêle est un événement non responsable : elle <strong>n'entraîne pas de malus</strong> sur votre coefficient bonus-malus. Ensuite, la grêle relève de cette garantie contractuelle et non du régime des catastrophes naturelles : vous n'avez pas besoin d'attendre un arrêté de catastrophe naturelle pour être indemnisé. Pour le pare-brise et les vitres, c'est en principe la garantie <strong>bris de glace</strong> qui joue, souvent avec une franchise réduite voire nulle selon les contrats.</p>
+<p>Nous détaillons tous ces points (franchise, indemnisation sans réparation, véhicule économiquement irréparable) dans notre article dédié : <a href="../blog/grele-voiture-assurance-indemnisation.html">grêle et assurance auto, qui paie quoi</a>.</p>
+
+<h2>Étape 4 : choisir votre réparateur (c'est votre droit)</h2>
+<p>Après la déclaration, votre assureur va souvent vous orienter vers un garage de son réseau agréé, voire vers un centre d'expertise grêle temporaire monté après l'orage. Vous pouvez accepter, mais ce n'est jamais une obligation : depuis la <strong>loi Hamon de 2014</strong>, l'assuré a le <strong>libre choix de son réparateur</strong>, et l'assureur doit l'en informer. Vous pouvez donc confier votre véhicule au carrossier de votre choix, celui qui est proche de chez vous ou dont vous connaissez le travail.</p>
+<p>Méfiez-vous en revanche des sollicitations un peu trop insistantes. Après chaque grosse grêle, des équipes de débosseleurs itinérants s'installent quelques semaines sur un parking, distribuent des prospectus sur les pare-brise et promettent monts et merveilles. Certaines font du bon travail ; d'autres disparaissent une fois la saison passée, ce qui rend toute réclamation sur la garantie impossible. Un atelier fixe, avec une adresse, un numéro de téléphone et des clients réguliers, vous offre une sécurité que la caravane de passage ne vous offrira pas.</p>
+
+<h2>Étape 5 : faire établir un devis détaillé par élément</h2>
+<p>Un bon devis grêle ne se limite pas à une ligne « débosselage : X euros ». Le chiffrage se fait <strong>élément par élément</strong> (capot, pavillon, hayon, ailes, portes, montants…), en comptant les impacts et en les classant par taille. C'est d'ailleurs la méthode utilisée par les experts, à partir de barèmes qui croisent nombre d'impacts et diamètre moyen. Le devis précise aussi la technique retenue pour chaque élément : <strong>débosselage sans peinture</strong> quand la peinture est intacte, débosselage classique et <a href="../carrosserie/peinture-automobile.html">peinture cabine</a> quand elle est cassée, ou remplacement quand la réparation ne vaut pas le coup.</p>
+<p>N'oubliez pas les à-côtés : dépose et repose du ciel de toit, des doublures, des feux, remplacement des baguettes ou des joints abîmés, <a href="../carrosserie/pare-brise.html">pare-brise</a> si nécessaire avec calibrage des caméras d'aide à la conduite. Plus le devis est précis, plus l'échange avec l'expert est simple et rapide.</p>
+
+<h2>Étape 6 : le passage de l'expert d'assurance</h2>
+<p>Pour un sinistre grêle, l'assureur mandate quasiment toujours un <strong>expert automobile</strong>. Son rôle : constater les dommages, vérifier qu'ils correspondent bien à de la grêle et à l'événement déclaré, et valider le montant de la réparation. Selon les cas, l'expertise se fait au garage, dans un centre d'expertise dédié, ou à distance sur photos.</p>
+<p>Si vous passez par un atelier comme le nôtre, c'est lui qui transmet le devis à l'expert et discute avec lui du chiffrage : nombre d'impacts par élément, technique de réparation, pièces à remplacer. Vous n'avez pas à négocier vous-même. Une fois le rapport d'expertise validé, la réparation peut démarrer. Si vous estimez que l'évaluation est insuffisante, vous pouvez la contester et demander une contre-expertise, dont les modalités sont prévues par votre contrat.</p>
+
+<h2>Étape 7 : la réparation, puis la restitution</h2>
+<p>Pour un véhicule grêlé, la technique reine est le <strong>débosselage sans peinture (DSP)</strong>. Le technicien accède à l'envers de la tôle en déposant les garnitures, puis repousse chaque impact à l'aide de tiges et de leviers, millimètre par millimètre, sous un éclairage à reflets qui révèle la moindre déformation. Là où l'accès est impossible, il tire l'impact par l'extérieur avec des pastilles collées. La peinture d'usine n'est ni poncée ni repeinte : elle est conservée telle quelle. Nous expliquons la méthode en détail dans notre article <a href="../blog/debosselage-sans-peinture-grele-prix.html">débosselage sans peinture après grêle : technique, prix et délais</a>.</p>
+<p>Selon l'ampleur des dégâts, comptez quelques heures pour quelques impacts, deux à cinq jours pour un véhicule moyennement grêlé, et jusqu'à une ou deux semaines pour un véhicule très touché nécessitant aussi de la peinture ou un remplacement d'élément. À la restitution, contrôlez la voiture avec le carrossier, en lumière rasante, et demandez les photos avant/après. Dans le cadre d'une gestion directe, <strong>l'assureur règle le garage</strong> et vous ne payez au maximum que votre franchise.</p>
+
+<h2>Les erreurs à éviter après un épisode de grêle</h2>
+<ul>
+<li><strong>Attendre des semaines</strong> avant de déclarer : le délai contractuel court, et les experts sont débordés après un orage.</li>
+<li><strong>Taper soi-même sur les bosses</strong> ou essayer les ventouses et kits vendus en ligne : sur un impact de grêle, on crée presque toujours un point haut ou une fissure de peinture, ce qui transforme un débosselage simple en réparation avec peinture.</li>
+<li><strong>Passer la voiture au lavage haute pression</strong> sur une zone où la peinture est fissurée : l'eau s'infiltre sous le vernis.</li>
+<li><strong>Signer un ordre de réparation ou une cession de créance</strong> sans avoir lu ce qu'on vous fait signer, notamment auprès d'un intervenant démarché sur un parking.</li>
+<li><strong>Oublier le pare-brise</strong> : un petit éclat causé par un grêlon peut se transformer en fissure avec les variations de température.</li>
+</ul>
+
+<h2>Voiture en leasing, utilitaire, véhicule pro : les cas particuliers</h2>
+<p>Si votre voiture est en <strong>LOA ou LLD</strong>, prévenez aussi votre loueur : le contrat impose généralement de déclarer tout sinistre et de faire réparer dans son réseau ou selon ses règles. Des impacts de grêle non réparés vous seraient facturés lors de la restitution, souvent au prix fort. Pour les <strong>artisans, VTC et flottes</strong>, l'enjeu est l'immobilisation : un débosselage sans peinture est justement plus rapide qu'une réparation avec peinture, et la planification peut se faire véhicule par véhicule pour ne pas paralyser l'activité. Chez Garage Boost, nous proposons aussi la <a href="../location/citadines.html">location de citadines</a> et d'<a href="../location/utilitaires.html">utilitaires</a> pour rester mobile pendant la réparation.</p>
+
+<h2>Votre voiture a été grêlée près de Marseille ? Nous prenons le relais</h2>
+<p>À Plan-de-Cuques, notre atelier carrosserie traite les véhicules grêlés de toute la métropole : Marseille, Allauch, Aubagne, Aix-en-Provence, Gardanne, Vitrolles, Marignane… Envoyez-nous trois photos (une vue d'ensemble et deux gros plans en lumière rasante) sur WhatsApp au <strong>06 63 21 63 50</strong> : nous vous donnons un premier avis sous 24 heures, puis un devis détaillé par élément, et nous gérons l'échange avec l'expert de votre assurance. Pour en savoir plus sur notre méthode, consultez notre page <a href="../carrosserie/debosselage-grele.html">débosselage grêle</a> ou <a href="../rendez-vous.html">prenez rendez-vous en ligne</a>.</p>
+`
+  },
+
+  // 27. Grêle et assurance
+  {
+    slug: 'grele-voiture-assurance-indemnisation',
+    title: "Grêle sur votre voiture : l'assurance paie-t-elle ? Garanties, franchise, expert",
+    excerpt: "Tous risques, tiers, franchise, malus, catastrophe naturelle, indemnisation sans réparation, véhicule irréparable : ce que votre assurance couvre vraiment après un épisode de grêle.",
+    metaDesc: "Grêle et assurance auto : quelle garantie couvre les dégâts, quelle franchise reste à payer, pas de malus, libre choix du garage, rôle de l'expert. Toutes les réponses claires.",
+    keywords: 'grêle assurance voiture, assurance grêle franchise, garantie événements climatiques auto, grêle tiers assurance, indemnisation grêle voiture, grêle malus',
+    category: 'Carrosserie',
+    cover: COVERS.garage,
+    coverAlt: "Voiture à la carrosserie impeccable sur la route",
+    datePublished: '2026-10-11',
+    dateModified: '2026-10-11',
+    readTime: 9,
+    related: ['voiture-grelee-que-faire', 'debosselage-sans-peinture-grele-prix', 'garage-independant-vs-concession'],
+    content: `
+<p>« C'est l'assurance qui paie ? » C'est la première question que nous posent les automobilistes dont la voiture vient d'être grêlée. La réponse est souvent oui, mais pas toujours, et pas sans conditions. Selon la formule choisie, la garantie souscrite, la franchise et la manière dont le dossier est mené, la facture finale peut aller de zéro euro à la totalité de la réparation. Voici, sans jargon, ce qu'il faut savoir pour faire valoir vos droits après un épisode de grêle.</p>
+
+<h2>Quelle garantie couvre la grêle ?</h2>
+<p>Les dégâts de grêle sur un véhicule relèvent d'une garantie précise du contrat auto, dont le nom varie selon les compagnies : <strong>« tempête, grêle, neige »</strong> (souvent abrégée TGN), <strong>« événements climatiques »</strong>, ou encore <strong>« forces de la nature »</strong>. C'est elle, et elle seule, qui ouvre droit à l'indemnisation des bosses, des éléments cassés et de la peinture abîmée.</p>
+<p>Où la trouve-t-on ? Dans la quasi-totalité des contrats <strong>tous risques</strong>, où elle est incluse d'office. Dans de nombreuses formules <strong>intermédiaires</strong> (« tiers plus », « tiers étendu », « tiers confort »), où elle figure parfois dans le socle, parfois en option. Elle est en revanche <strong>absente de l'assurance au tiers simple</strong>, qui ne couvre que les dommages causés aux autres. Le réflexe à avoir : ouvrir vos conditions particulières et chercher le tableau des garanties. Si la ligne « événements climatiques » ou « grêle » est cochée, vous êtes couvert.</p>
+
+<h2>Grêle et catastrophe naturelle : ne pas confondre</h2>
+<p>Beaucoup d'automobilistes pensent qu'il faut attendre un arrêté de catastrophe naturelle pour être indemnisé. Ce n'est pas le cas pour la grêle. Le régime des catastrophes naturelles concerne les phénomènes considérés comme non assurables par les garanties classiques, comme les inondations ou les coulées de boue reconnues par arrêté interministériel. La grêle, elle, est un risque <strong>couvert par la garantie contractuelle</strong> décrite plus haut : vous n'avez donc pas besoin d'arrêté, et vous pouvez lancer les démarches immédiatement.</p>
+<p>Si en revanche votre véhicule a été inondé lors du même orage, la situation peut être différente : c'est alors la garantie catastrophes naturelles qui peut jouer, si un arrêté est publié pour votre commune, avec ses propres délais et sa franchise légale. En cas de doute sur un sinistre mixte (grêle et inondation), signalez tout à votre assureur dès la première déclaration.</p>
+
+<h2>Quel délai pour déclarer ?</h2>
+<p>Le Code des assurances impose un délai de déclaration fixé par le contrat, qui <strong>ne peut pas être inférieur à 5 jours ouvrés</strong> à compter du moment où vous avez connaissance du sinistre. La plupart des contrats auto retiennent ce délai pour la grêle. Déclarez donc dès que possible, avec vos photos, la date, l'heure approximative et le lieu de stationnement. Une déclaration tardive peut entraîner un refus de prise en charge si l'assureur prouve que ce retard lui a causé un préjudice.</p>
+
+<h2>La franchise : ce qui reste à votre charge</h2>
+<p>La franchise est la part du sinistre qui reste à la charge de l'assuré. Pour la garantie grêle, elle peut être <strong>fixe</strong> (un montant forfaitaire en euros), <strong>proportionnelle</strong> (un pourcentage du montant des dommages, souvent avec un minimum et un maximum), ou <strong>nulle</strong> dans certains contrats haut de gamme. Elle est parfois différente de la franchise appliquée aux accidents : vérifiez la ligne propre aux événements climatiques.</p>
+<p>Concrètement, si la réparation est chiffrée à 2 400 € et que votre franchise grêle est de 300 €, l'assureur prend en charge 2 100 € et vous réglez 300 €. Dans le cadre d'une <strong>gestion directe</strong> entre le garage et l'assureur, vous n'avancez pas la totalité de la facture : l'assureur règle directement le réparateur, et vous ne payez que la franchise. C'est ce que nous pratiquons à l'atelier.</p>
+<p>Attention aux promesses de « franchise offerte » faites par certains intervenants démarchant après un orage : la franchise est une clause de votre contrat, et la faire disparaître en gonflant artificiellement le devis expose à de sérieux ennuis avec l'assureur. Un professionnel sérieux vous annonce clairement ce qui restera à votre charge.</p>
+
+<h2>Bonus-malus : la grêle ne vous pénalise pas</h2>
+<p>Bonne nouvelle : un sinistre grêle est un <strong>événement non responsable</strong>. Il n'entraîne <strong>aucun malus</strong> et ne fait pas évoluer votre coefficient de réduction-majoration. Il sera simplement inscrit à votre relevé d'information. Certains assureurs peuvent tenir compte de la fréquence globale des sinistres au moment de renouveler un contrat, mais une grêle isolée n'a aucun effet sur votre bonus.</p>
+
+<h2>Le rôle de l'expert d'assurance</h2>
+<p>Pour la grêle, l'assureur mandate presque toujours un <strong>expert automobile</strong> indépendant. Il vérifie que les dommages sont bien dus à la grêle, qu'ils correspondent à l'événement déclaré, et chiffre la réparation à partir de barèmes qui croisent le nombre d'impacts et leur taille, élément par élément. Il détermine aussi la méthode de réparation : débosselage sans peinture, réparation avec peinture ou remplacement.</p>
+<p>Après un orage important, les experts sont très sollicités et les assureurs organisent parfois des <strong>centres d'expertise temporaires</strong> où les véhicules sont examinés à la chaîne. Si vous avez déjà choisi votre garage, c'est souvent plus simple : le carrossier transmet son devis détaillé et ses photos, et l'expert valide à distance ou se déplace à l'atelier. Si vous contestez l'évaluation, vous pouvez demander une contre-expertise selon les modalités prévues par votre contrat.</p>
+
+<h2>Libre choix du réparateur : un droit souvent méconnu</h2>
+<p>Depuis la <strong>loi Hamon de 2014</strong>, l'assuré a le <strong>libre choix du réparateur professionnel</strong> pour faire réparer son véhicule après un sinistre, et l'assureur doit l'en informer lors de la déclaration. Les garages agréés par votre compagnie sont une option, pas une obligation. Vous pouvez confier votre voiture au carrossier de votre choix : il établira son devis, échangera avec l'expert et réparera selon le chiffrage validé.</p>
+<p>Ce choix a de vraies conséquences pratiques : proximité, délai de prise en charge, qualité du travail, mais aussi <strong>suivi de la garantie</strong> dans le temps. Un atelier implanté localement reste joignable si un défaut apparaît plusieurs mois après la réparation.</p>
+
+<h2>Être indemnisé sans faire réparer : possible, mais à bien peser</h2>
+<p>Certains contrats permettent de percevoir une indemnité sans faire réparer le véhicule. Les conditions varient beaucoup d'un assureur à l'autre : indemnisation sur une base hors taxes, abattement, ou refus pur et simple sans facture. Avant de choisir cette option, gardez en tête plusieurs points : un véhicule grêlé non réparé <strong>perd nettement de sa valeur</strong> à la revente, les impacts restent visibles lors d'une reprise en concession, et un second épisode de grêle sur des dégâts déjà indemnisés et non réparés sera difficile à faire prendre en charge. Pour un véhicule en LOA ou en LLD, cette option est généralement exclue : le loueur exige la réparation.</p>
+
+<h2>Et si la réparation coûte plus cher que la voiture ?</h2>
+<p>Sur un véhicule ancien et très grêlé, le coût de la réparation peut dépasser sa valeur. L'expert peut alors classer la voiture en <strong>véhicule économiquement irréparable (VEI)</strong> : l'assureur vous propose une indemnisation correspondant à la valeur du véhicule avant sinistre, estimée par l'expert, déduction faite de la franchise. Vous pouvez céder le véhicule à l'assureur ou le conserver selon les modalités qu'il vous propose. Dans le cas de la grêle, les dommages sont généralement esthétiques et le véhicule reste en état de rouler. Si vous le conservez, faites-vous bien expliquer l'impact sur l'indemnité. Un débosselage sans peinture, moins coûteux qu'une réparation avec peinture, permet parfois d'éviter ce classement.</p>
+
+<h2>Pare-brise, vitres, toit panoramique : la garantie bris de glace</h2>
+<p>Les éléments vitrés cassés par la grêle (pare-brise, vitres latérales, lunette arrière, toit panoramique selon les contrats) relèvent en principe de la garantie <strong>bris de glace</strong>, distincte de la garantie grêle. Elle est souvent assortie d'une franchise faible, voire nulle pour une simple réparation d'impact. Sur les véhicules récents, le remplacement du pare-brise implique un <a href="../blog/calibrage-adas-pare-brise.html">calibrage des caméras ADAS</a>, qui doit figurer sur le devis. Notre atelier assure le <a href="../carrosserie/pare-brise.html">remplacement de pare-brise</a> avec calibrage.</p>
+
+<h2>En résumé : la check-list assurance après la grêle</h2>
+<ul>
+<li>Photos d'ensemble et gros plans, en lumière rasante.</li>
+<li>Déclaration dans le délai de votre contrat (au moins 5 jours ouvrés), avec numéro de sinistre.</li>
+<li>Vérification de la garantie grêle / événements climatiques et du montant de la franchise.</li>
+<li>Choix libre de votre réparateur, qui établit un devis détaillé par élément.</li>
+<li>Expertise, validation du chiffrage, réparation, règlement direct par l'assureur.</li>
+</ul>
+<p>Chez Garage Boost, à Plan-de-Cuques, nous prenons en charge tout le parcours pour les automobilistes de Marseille et de la métropole : diagnostic des impacts, devis élément par élément, échange avec l'expert, <a href="../carrosserie/debosselage-grele.html">débosselage sans peinture</a> et règlement direct par votre assureur. Envoyez-nous vos photos sur WhatsApp au <strong>06 63 21 63 50</strong> ou <a href="../rendez-vous.html">prenez rendez-vous</a> : nous vous disons rapidement ce que votre contrat devrait couvrir et ce qui resterait à votre charge.</p>
+`
+  },
+
+  // 28. DSP grêle : technique, prix, délais
+  {
+    slug: 'debosselage-sans-peinture-grele-prix',
+    title: "Débosselage sans peinture après grêle : technique, prix et délais",
+    excerpt: "Comment un débosseleur efface-t-il des dizaines d'impacts de grêle sans repeindre ? Tiges, collage-traction, chiffrage par élément, prix indicatifs et durée d'immobilisation.",
+    metaDesc: "Débosselage sans peinture (DSP) après grêle : comment ça marche, quand c'est possible, comment se calcule le prix (nombre et taille des impacts), combien de temps. Explications d'atelier.",
+    keywords: 'débosselage sans peinture grêle, DSP grêle prix, débosseleur grêle, prix débosselage grêle, débosselage grêle combien de temps, technique débosselage',
+    category: 'Carrosserie',
+    cover: COVERS.workshop,
+    coverAlt: "Carrosserie lisse et brillante d'une voiture en atelier",
+    datePublished: '2026-10-11',
+    dateModified: '2026-10-11',
+    readTime: 9,
+    related: ['voiture-grelee-que-faire', 'grele-voiture-assurance-indemnisation', 'controle-avant-achat-voiture-occasion'],
+    content: `
+<p>Face à un capot criblé de cinquante petites bosses, le réflexe est de penser « il va falloir tout repeindre ». C'est rarement le cas. Depuis une trentaine d'années, la réparation des dégâts de grêle repose avant tout sur une technique artisanale très précise : le <strong>débosselage sans peinture</strong>, ou DSP (on parle aussi de PDR, pour <em>paintless dent repair</em>). Elle permet de rendre à la tôle sa forme d'origine sans ponçage, sans mastic et sans peinture. Voici comment elle fonctionne, dans quels cas elle s'applique, comment se calcule son prix et combien de temps il faut prévoir.</p>
+
+<h2>Le principe : repousser le métal plutôt que le recouvrir</h2>
+<p>Un grêlon qui frappe une tôle crée une petite cuvette : le métal est étiré et enfoncé, mais dans la grande majorité des cas, la <strong>peinture reste intacte</strong>. Les peintures automobiles modernes sont en effet assez souples pour suivre la déformation sans se fissurer. Le débosselage sans peinture exploite cette propriété : plutôt que de combler la bosse avec du mastic et de repeindre, le technicien ramène le métal à sa position d'origine, en le massant progressivement de l'intérieur. La peinture d'usine suit le mouvement et retrouve son aspect initial.</p>
+<p>L'intérêt est triple. La <strong>peinture d'origine est préservée</strong>, ce qui compte à la revente : un acheteur ou un professionnel qui passe une jauge d'épaisseur ne détecte aucune repeinture. La réparation est <strong>plus rapide</strong>, puisqu'il n'y a ni temps de préparation ni séchage. Et elle est généralement <strong>moins coûteuse</strong> qu'une réparation avec peinture, pour un résultat équivalent sur les impacts compatibles.</p>
+
+<h2>Les outils et les gestes du débosseleur</h2>
+<p>Le premier outil du débosseleur, c'est la lumière. Une <strong>lampe ou un tableau à reflets</strong>, composé de bandes claires et sombres, est placé de façon à se refléter dans la carrosserie. Sur une tôle parfaitement plane, les lignes sont droites ; au niveau d'un impact, elles se déforment. C'est en observant ces reflets que le technicien localise chaque bosse et contrôle en permanence son travail.</p>
+<p>Viennent ensuite les <strong>tiges et leviers</strong> : des barres d'acier de longueurs, d'épaisseurs et d'extrémités variées, glissées derrière la tôle par les ouvertures existantes ou après dépose des garnitures. Le technicien appuie sur l'envers de l'impact par petites pressions successives, en partant des bords vers le centre, jusqu'à ce que le reflet redevienne parfaitement droit. Sur un pavillon, cela suppose de <strong>déposer ou d'abaisser le ciel de toit</strong> ; sur un capot ou un hayon, de retirer les doublures insonorisantes.</p>
+<p>Quand l'envers de la tôle est inaccessible (montants de pare-brise, bords de pavillon renforcés, doubles parois), on utilise le <strong>collage-traction</strong> : une pastille est collée sur l'impact avec une colle chaude spécifique, puis tirée par un extracteur ou un mini-pont. La colle est ensuite retirée à l'alcool sans abîmer le vernis. Enfin, le <strong>tasseau</strong>, petit outil en matière synthétique, sert à « détendre » les points hauts créés autour de l'impact ou lors de la remise en forme. C'est l'alternance précise de ces gestes qui fait la qualité du résultat.</p>
+
+<h2>Quand le DSP est possible… et quand il ne l'est pas</h2>
+<p>Le débosselage sans peinture convient à la plupart des impacts de grêle, mais pas à tous. Il est particulièrement adapté :</p>
+<ul>
+<li>aux impacts dont la <strong>peinture n'est ni fissurée ni écaillée</strong> ;</li>
+<li>aux bosses de petite et moyenne taille, typiques de la grêle ;</li>
+<li>aux surfaces planes ou légèrement bombées : capot, pavillon, coffre, portes, ailes.</li>
+</ul>
+<p>Il atteint ses limites dans plusieurs situations : un impact très profond où le métal est trop étiré, une bosse placée sur une <strong>arête vive</strong> ou une ligne de caisse marquée, une peinture fissurée (le métal pourrait être redressé, mais la fissure resterait et laisserait passer l'humidité), ou certains éléments en <strong>aluminium</strong>, plus difficiles à travailler que l'acier car moins tolérants à la déformation. Dans ces cas, le carrossier combine les techniques : débosselage classique, apprêt et <a href="../carrosserie/peinture-automobile.html">peinture cabine</a> localisée, voire remplacement de l'élément quand la réparation coûterait plus cher que la pièce neuve. Un bon devis indique la méthode retenue pour chaque élément.</p>
+
+<h2>Comment se calcule le prix d'un débosselage grêle ?</h2>
+<p>Contrairement à une réparation classique facturée au temps passé, le débosselage grêle est le plus souvent chiffré selon une <strong>grille par élément</strong>. Pour chaque pièce de carrosserie, on compte les impacts et on les classe par taille. Le croisement de ces deux données donne un montant pour l'élément. Les experts d'assurance utilisent des barèmes construits sur ce principe, ce qui permet d'avoir un langage commun entre le garage et l'expert.</p>
+<p>D'autres paramètres entrent en compte : le <strong>matériau</strong> (l'aluminium est plus long à travailler), l'<strong>accessibilité</strong> (un pavillon avec toit ouvrant ou un hayon à double paroi demande plus de démontage), la présence d'éléments à remplacer (baguettes de toit, joints, feux, pare-brise), et le temps de dépose-repose des garnitures.</p>
+<p>Pour donner des ordres de grandeur, sans valeur de devis : quelques bosses isolées se règlent souvent pour moins de 300 €, un véhicule légèrement grêlé (quelques dizaines d'impacts) se situe fréquemment entre 800 et 2 000 €, et un véhicule fortement touché sur toutes ses surfaces horizontales peut dépasser 3 000 à 5 000 €, voire davantage si des éléments doivent être peints ou remplacés. Seul l'examen du véhicule permet un chiffrage fiable. Si vous êtes couvert par une garantie grêle, ce montant est pris en charge par votre assureur, déduction faite de votre franchise : nous détaillons ce point dans notre article <a href="../blog/grele-voiture-assurance-indemnisation.html">grêle et assurance auto</a>.</p>
+
+<h2>Combien de temps faut-il prévoir ?</h2>
+<p>La durée dépend directement du nombre d'impacts et de la nécessité de démonter. Pour quelques bosses, l'intervention se fait souvent dans la journée. Pour un véhicule moyennement grêlé, comptez généralement <strong>deux à cinq jours</strong>. Pour un véhicule très touché, avec dépose complète du ciel de toit, éventuels éléments à peindre ou à remplacer et pièces à commander, l'immobilisation peut atteindre <strong>une à deux semaines</strong>. Après un gros orage, le délai de prise en charge s'ajoute à la durée de réparation : mieux vaut réserver son créneau tôt. Pendant la réparation, une <a href="../location/citadines.html">citadine de location</a> peut vous dépanner.</p>
+
+<h2>Comment reconnaître un travail bien fait ?</h2>
+<p>À la restitution, regardez la carrosserie <strong>en lumière rasante</strong> ou avec un reflet net (une ligne de néons, le bord d'un bâtiment). Les reflets doivent rester droits sur toute la surface, sans vagues ni petits points hauts. Passez la main à plat : la tôle doit être lisse. Vérifiez l'intérieur : le ciel de toit doit être remonté sans plis ni décollement, les doublures correctement clipsées, les feux sans jeu. Un professionnel sérieux vous remet aussi des <strong>photos avant/après</strong> élément par élément et vous indique la garantie applicable à son travail.</p>
+
+<h2>Kits de débosselage maison : fausse bonne idée</h2>
+<p>Ventouses, kits à colle, pistolets à air chaud : les vidéos promettant de réparer la grêle soi-même ne manquent pas. Sur une grosse bosse isolée et souple, un kit peut parfois donner un résultat approximatif. Sur des impacts de grêle, petits, nombreux et rigides, le risque est grand de <strong>créer des points hauts</strong> ou de <strong>fissurer la peinture</strong> en chauffant trop ou en tirant trop fort. Résultat : un impact qui aurait pu être effacé sans peinture devra être poncé, mastiqué et repeint. Et si vous êtes assuré, rien ne justifie de prendre ce risque.</p>
+
+<h2>Le débosselage grêle chez Garage Boost</h2>
+<p>Notre atelier carrosserie de Plan-de-Cuques dispose des outils de débosselage sans peinture, d'un poste de débosselage classique et d'une cabine de peinture pressurisée pour les impacts qui ne peuvent pas être traités sans peinture. Nous chiffrons chaque élément, échangeons directement avec l'expert de votre assurance et vous remettons les photos avant/après. Pour un premier avis, envoyez trois photos sur WhatsApp au <strong>06 63 21 63 50</strong>, consultez notre page <a href="../carrosserie/debosselage-grele.html">débosselage grêle</a> ou <a href="../rendez-vous.html">réservez votre créneau</a>.</p>
+`
+  },
+
+  // 29. Prévention grêle
+  {
+    slug: 'proteger-voiture-grele',
+    title: "Protéger sa voiture de la grêle : 8 réflexes efficaces",
+    excerpt: "Vigilance orages, stationnement, housse anti-grêle, que faire si l'orage vous surprend en roulant : les gestes simples pour limiter les dégâts de grêle sur votre voiture en Provence.",
+    metaDesc: "Comment protéger sa voiture de la grêle : suivre la vigilance orages, trouver un abri, housse anti-grêle, bons réflexes en roulant, vérifier son assurance. Conseils pratiques.",
+    keywords: 'protéger voiture grêle, housse anti grêle voiture, grêle que faire en voiture, alerte grêle Marseille, orage grêle Provence voiture',
+    category: 'Conseils',
+    cover: COVERS.paint,
+    coverAlt: "Technicien inspectant un véhicule en atelier",
+    datePublished: '2026-10-11',
+    dateModified: '2026-10-11',
+    readTime: 7,
+    related: ['voiture-grelee-que-faire', 'grele-voiture-assurance-indemnisation', 'preparer-voiture-ete-chaleur-marseille'],
+    content: `
+<p>En Provence, les orages de grêle sont brefs mais violents. Ils éclatent surtout à la fin du printemps, en été lors des fortes chaleurs, et à l'automne quand l'air froid rencontre une Méditerranée encore chaude. En quelques minutes, des grêlons de la taille d'une bille, voire d'une balle de golf, peuvent marquer toute la carrosserie d'une voiture garée dehors. Impossible d'empêcher l'orage, mais on peut <strong>fortement réduire les risques</strong> avec quelques réflexes. Voici les huit que nous conseillons à nos clients.</p>
+
+<h2>1. Suivre la vigilance orages de Météo-France</h2>
+<p>La carte de vigilance de Météo-France signale les risques d'orages par département, avec un code couleur. En <strong>vigilance orange ou rouge orages</strong>, la grêle fait souvent partie des phénomènes annoncés. Activez les notifications de l'application Météo-France pour les Bouches-du-Rhône, ou consultez la carte chaque matin pendant les périodes à risque. Quelques heures d'anticipation suffisent pour mettre la voiture à l'abri.</p>
+
+<h2>2. Mettre la voiture à l'abri dès que l'alerte tombe</h2>
+<p>La protection la plus efficace reste un <strong>toit en dur</strong> : garage, box, parking souterrain ou parking couvert. Si vous n'en disposez pas, pensez aux parkings publics couverts de votre quartier, aux parkings de centres commerciaux en sous-sol, ou demandez à un proche qui a un garage libre. Quelques euros de stationnement pèsent peu face à une franchise et à plusieurs jours d'immobilisation.</p>
+
+<h2>3. À défaut, choisir un emplacement moins exposé</h2>
+<p>Sans abri, tout n'est pas perdu. Un stationnement <strong>contre un mur ou un bâtiment</strong>, du côté opposé au vent dominant de l'orage, réduit l'exposition des surfaces latérales. Évitez en revanche de vous garer sous un arbre : les branches arrêtent une partie des grêlons mais le risque de chute de branche lors des rafales qui accompagnent l'orage est réel, et les dégâts seraient bien pires. Évitez aussi les zones inondables, les bas de rue et les parkings en cuvette : un orage de grêle s'accompagne souvent de fortes pluies.</p>
+
+<h2>4. Envisager une housse anti-grêle</h2>
+<p>Pour ceux qui n'ont aucune solution d'abri, la <strong>housse anti-grêle</strong> est une option sérieuse. Contrairement à une bâche classique, elle comporte une épaisseur de mousse ou des coussins d'air qui amortissent l'impact des grêlons. Les modèles varient beaucoup en prix et en efficacité : privilégiez une housse adaptée aux dimensions de votre véhicule, couvrant au minimum le capot, le pavillon et le coffre, avec des sangles solides pour résister au vent. Une housse mal fixée qui s'envole ou qui frotte sur la carrosserie peut elle-même provoquer des rayures. À poser à l'avance, pas au moment où les premiers grêlons tombent.</p>
+
+<h2>5. Les solutions de dernière minute</h2>
+<p>Si l'orage est imminent et que vous n'avez rien prévu, couvrir le pare-brise, le capot et le toit avec des <strong>couvertures épaisses, des couettes ou des tapis de sol</strong> limite les dégâts sur les grêlons de taille moyenne. Fixez-les en coinçant les extrémités dans les portières. Ce n'est pas parfait, mais cela peut réduire nettement le nombre d'impacts. Ne prenez aucun risque pour autant : si la grêle a commencé, restez à l'abri, votre sécurité passe avant la carrosserie.</p>
+
+<h2>6. Si l'orage vous surprend en roulant</h2>
+<p>Ralentissez immédiatement : la grêle réduit la visibilité et rend la chaussée glissante. Si possible, gagnez un abri proche, comme une station-service couverte, un parking souterrain ou un pont. Attention : <strong>ne vous arrêtez jamais sous un pont d'autoroute ou de voie rapide</strong> en bloquant la circulation ou sur la bande d'arrêt d'urgence, c'est très dangereux. Si aucun abri n'est accessible, arrêtez-vous en sécurité sur le côté, feux de détresse allumés, et restez à l'intérieur. Tournez-vous dos aux vitres si la grêle est très grosse et risque de briser le pare-brise.</p>
+
+<h2>7. Vérifier son contrat avant la saison des orages</h2>
+<p>Le meilleur moment pour vérifier sa couverture, c'est avant la grêle. Contrôlez que votre contrat inclut une garantie <strong>tempête, grêle, neige</strong> ou <strong>événements climatiques</strong>, et regardez le montant de la franchise associée. Au tiers simple, la grêle n'est pas couverte. Si votre véhicule dort dehors et a encore une bonne valeur, ajouter cette garantie peut valoir le coup. Notre article <a href="../blog/grele-voiture-assurance-indemnisation.html">grêle et assurance auto</a> détaille ce que couvrent les différentes formules.</p>
+
+<h2>8. Après la grêle : photos et déclaration rapide</h2>
+<p>Malgré toutes les précautions, la voiture a été touchée ? Photographiez les dégâts en lumière rasante, déclarez le sinistre à votre assureur dans le délai prévu par votre contrat (au moins 5 jours ouvrés) et faites établir un devis détaillé par élément. Toutes les étapes sont expliquées dans notre guide <a href="../blog/voiture-grelee-que-faire.html">voiture grêlée : que faire ?</a>. Bonne nouvelle : la plupart des impacts se réparent par <a href="../blog/debosselage-sans-peinture-grele-prix.html">débosselage sans peinture</a>, sans repeindre.</p>
+
+<h2>Une voiture grêlée près de Marseille ?</h2>
+<p>Notre atelier de Plan-de-Cuques prend en charge les véhicules grêlés de toute la métropole Aix-Marseille : diagnostic des impacts, devis élément par élément, échange avec l'expert de votre assurance et <a href="../carrosserie/debosselage-grele.html">débosselage sans peinture</a>. Envoyez vos photos sur WhatsApp au <strong>06 63 21 63 50</strong> ou <a href="../rendez-vous.html">prenez rendez-vous en ligne</a>.</p>
+`
   }
+
 ];

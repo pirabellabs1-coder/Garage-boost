@@ -178,5 +178,31 @@ module.exports = {
     { q: "Tous les types de boîtes automatiques s'entretiennent-ils pareil ?", a: "Non. Boîte à convertisseur, robotisée à double embrayage (DSG, EDC, PDK) et CVT ont des spécificités. Les boîtes à double embrayage ont des embrayages et une mécatronique sensibles qui demandent un suivi particulier. Connaître le type de votre boîte détermine l'entretien adapté." },
     { q: "Combien coûte une réparation de boîte automatique ?", a: "Une vidange reste modeste, mais le remplacement ou la réparation lourde d'une boîte automatique (mécatronique, embrayages, boîte complète) peut atteindre plusieurs milliers d'euros. D'où l'importance de l'entretien préventif : la vidange régulière est l'investissement le plus rentable pour préserver la transmission." }
   ]
+,
+  'voiture-grelee-que-faire': [
+    { q: "Quel est le délai pour déclarer une voiture grêlée ?", a: "Le délai est fixé par votre contrat et ne peut pas être inférieur à 5 jours ouvrés à compter du moment où vous constatez les dégâts. La plupart des contrats auto retiennent ce délai pour la grêle : déclarez le plus tôt possible, photos à l'appui." },
+    { q: "Peut-on rouler avec une voiture grêlée ?", a: "Oui, des bosses sur la carrosserie n'empêchent pas de circuler. En revanche, un pare-brise fissuré dans le champ de vision, un feu ou un rétroviseur cassé doivent être réparés rapidement pour rouler en sécurité et en règle." },
+    { q: "Suis-je obligé d'aller dans le garage proposé par mon assureur ?", a: "Non. Depuis la loi Hamon de 2014, vous avez le libre choix de votre réparateur. Le garage de votre choix établit le devis, échange avec l'expert mandaté par l'assureur et répare selon le chiffrage validé." },
+    { q: "Combien de temps dure la réparation d'une voiture grêlée ?", a: "Quelques heures pour quelques impacts, deux à cinq jours pour un véhicule moyennement grêlé, une à deux semaines pour un véhicule très touché nécessitant aussi de la peinture ou un remplacement d'élément." }
+  ],
+
+  'grele-voiture-assurance-indemnisation': [
+    { q: "L'assurance au tiers couvre-t-elle la grêle ?", a: "Non. La grêle est couverte par la garantie tempête-grêle-neige ou événements climatiques, incluse dans la plupart des contrats tous risques et dans certaines formules intermédiaires, mais pas dans l'assurance au tiers simple." },
+    { q: "La grêle fait-elle augmenter mon malus ?", a: "Non. Un sinistre grêle est un événement non responsable : il n'entraîne aucun malus et ne modifie pas votre coefficient bonus-malus." },
+    { q: "Faut-il un arrêté de catastrophe naturelle pour être indemnisé de la grêle ?", a: "Non. La grêle relève de la garantie contractuelle événements climatiques, pas du régime des catastrophes naturelles. Vous pouvez déclarer et être indemnisé sans attendre d'arrêté." },
+    { q: "Que reste-t-il à payer après une grêle ?", a: "Avec une garantie grêle, seule la franchise prévue au contrat reste à votre charge. En gestion directe, l'assureur règle le garage et vous ne payez que cette franchise." }
+  ],
+
+  'debosselage-sans-peinture-grele-prix': [
+    { q: "Le débosselage sans peinture laisse-t-il des traces ?", a: "Non, sur un impact dont la peinture est intacte, la tôle reprend sa forme d'origine et la peinture d'usine est conservée. Le résultat se contrôle sous un éclairage à reflets : les lignes doivent rester droites." },
+    { q: "Comment est calculé le prix d'un débosselage grêle ?", a: "Élément par élément, selon le nombre d'impacts et leur taille, avec des ajustements pour l'aluminium, l'accessibilité et les pièces à remplacer. C'est le même principe que les barèmes utilisés par les experts d'assurance." },
+    { q: "Le DSP fonctionne-t-il sur l'aluminium ?", a: "Oui, mais c'est plus délicat : l'aluminium tolère moins bien la déformation et demande plus de temps. Sur certains impacts profonds, une réparation avec peinture ou un remplacement peut être nécessaire." }
+  ],
+
+  'proteger-voiture-grele': [
+    { q: "Une housse anti-grêle est-elle efficace ?", a: "Oui si elle comporte une épaisseur de mousse ou des coussins d'air, couvre au moins le capot, le toit et le coffre, et est solidement sanglée contre le vent. Une simple bâche fine protège très peu." },
+    { q: "Que faire si la grêle tombe pendant que je roule ?", a: "Ralentissez, cherchez un abri sûr (station-service couverte, parking souterrain) sans jamais vous arrêter sur la bande d'arrêt d'urgence ou sous un pont d'autoroute. À défaut, garez-vous en sécurité, feux de détresse allumés, et restez dans le véhicule." },
+    { q: "Quand y a-t-il le plus de grêle en Provence ?", a: "Surtout à la fin du printemps, en été lors des orages de chaleur, et à l'automne quand l'air froid rencontre une Méditerranée encore chaude. Suivre la vigilance orages de Météo-France permet d'anticiper." }
+  ]
 
 };

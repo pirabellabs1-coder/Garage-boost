@@ -20,7 +20,7 @@ const SERVICE_ICONS = {
   'depannage-remorquage': 'truck-pickup', 'depannage-scooter': 'motorcycle',
   'electricite-automobile': 'bolt-lightning', 'mecanique-generale': 'screwdriver-wrench',
   'ouverture-vehicule': 'key', 'reproduction-cles': 'fingerprint',
-  'enlevement-epaves': 'recycle', 'carrosserie-auto': 'car-burst',
+  'enlevement-epaves': 'recycle', 'carrosserie-auto': 'car-burst', 'debosselage-grele': 'cloud-meatball',
   'peinture-automobile': 'spray-can', 'pare-brise': 'square',
   'utilitaires': 'truck', 'citadines': 'car-side',
   'vans-amenages': 'campground', 'voiture-rallye': 'flag-checkered',

@@ -673,6 +673,21 @@ module.exports = {
 
 <h2>Un entretien rentable face au coût d'un remplacement</h2>
 <p>Le calcul est sans appel : une vidange de boîte automatique représente une dépense modeste au regard du coût d'un remplacement, qui peut atteindre plusieurs milliers d'euros sur une boîte HS. En entretenant régulièrement votre transmission, vous repoussez très loin l'échéance d'une réparation lourde, tout en conservant l'agrément de conduite d'origine (passages doux, réactivité). C'est la même logique que pour la distribution ou l'embrayage : un peu de préventif régulier évite un sinistre majeur. À Plan-de-Cuques, nous vous conseillons l'intervalle adapté à votre boîte et à votre usage, sans dramatiser ni minimiser.</p>
+`,
+
+  // ============================ CLUSTER GRÊLE (oct. 2026) ============================
+
+  'proteger-voiture-grele': `
+<h2>Garage, carport, abri pliant, housse : quelle protection choisir ?</h2>
+<p>Toutes les protections ne se valent pas, et le bon choix dépend de votre logement et de votre budget. Le <strong>garage ou le box fermé</strong> reste la référence : il protège de la grêle, mais aussi du soleil, des UV qui délavent la peinture et des actes de vandalisme. Si vous louez un box, comparez son coût annuel à celui d'une franchise grêle et de quelques jours d'immobilisation : en zone exposée, le calcul est souvent vite fait.</p>
+<p>Le <strong>carport</strong> (abri ouvert avec toiture) est une bonne alternative pour une maison avec allée. Vérifiez la résistance de la toiture : une couverture en polycarbonate fin peut elle-même se fissurer sous de gros grêlons, alors qu'une toiture en bac acier ou en panneaux sandwich tient bien mieux. Selon votre commune, une déclaration préalable de travaux peut être nécessaire : renseignez-vous auprès du service urbanisme de votre mairie avant d'installer un carport.</p>
+<p>Les <strong>abris pliants</strong> et tentes-garages, faciles à monter, protègent correctement de la pluie et du soleil, mais leur toile et leur structure légère résistent mal au vent violent qui accompagne souvent les orages de grêle. À réserver aux emplacements abrités du vent. Enfin, la <strong>housse anti-grêle</strong> rembourrée reste la solution la plus souple pour un véhicule qui dort dans la rue : elle se range dans le coffre et se pose en quelques minutes, à condition de l'avoir sous la main avant l'orage.</p>
+
+<h2>Toit panoramique, aides à la conduite, voiture de collection : les points de vigilance</h2>
+<p>Les véhicules équipés d'un <strong>toit panoramique en verre</strong> sont particulièrement exposés : un gros grêlon peut fissurer ou faire éclater le vitrage, et son remplacement coûte cher. Selon les contrats, il relève de la garantie bris de glace ou d'une extension spécifique : vérifiez ce point. Sur les véhicules récents, les <strong>caméras et radars d'aide à la conduite</strong>, souvent logés dans le pare-brise, les rétroviseurs ou la calandre, peuvent aussi être touchés : si un voyant d'aide à la conduite s'allume après une grêle, faites contrôler le système. Pour une <strong>voiture de collection</strong> ou un véhicule de forte valeur, la seule vraie protection reste un abri en dur pendant toute la saison orageuse.</p>
+
+<h2>Le bon timing : quelles périodes surveiller autour de Marseille ?</h2>
+<p>Dans les Bouches-du-Rhône, les orages de grêle surviennent par épisodes, souvent très localisés : un quartier peut être touché quand le voisin est épargné. Les périodes les plus sensibles sont la fin du printemps, les épisodes orageux de l'été après de fortes chaleurs, et l'automne, lorsque les dégradations orageuses méditerranéennes se succèdent. Pendant ces périodes, prenez l'habitude de consulter la vigilance chaque matin et de garder votre housse ou vos couvertures à portée de main. Et si malgré tout votre voiture est touchée, notre atelier de Plan-de-Cuques s'occupe du <a href="../carrosserie/debosselage-grele.html">débosselage grêle</a> et du dossier d'assurance.</p>
 `
 
 };

@@ -43,7 +43,7 @@ out += '\n## Catégories de services\n\n';
 const categoryDescs = {
   'maintenance-moteur': '8 services moteur et anti-pollution (diagnostic, décalaminage hydrogène, FAP, EGR, catalyseur, reprogrammation Stage 1/2, AdBlue, voyants moteur)',
   'entretien-assistance': '7 services d\'entretien et dépannage (mécanique générale, électricité auto, dépannage 7j/7, scooter, ouverture véhicule, reproduction clés, enlèvement épaves)',
-  'carrosserie': '3 services carrosserie (carrosserie auto, peinture cabine, pare-brise avec calibrage ADAS)',
+  'carrosserie': '4 services carrosserie (carrosserie auto, débosselage grêle sans peinture avec gestion assurance, peinture cabine, pare-brise avec calibrage ADAS)',
   'location': '5 services location (citadines, utilitaires, vans aménagés, voiture rallye, véhicules occasion certifiés)'
 };
 

@@ -140,7 +140,7 @@
 
 ### Carrosserie
 
-3 services carrosserie (carrosserie auto, peinture cabine, pare-brise avec calibrage ADAS)
+4 services carrosserie (carrosserie auto, débosselage grêle sans peinture avec gestion assurance, peinture cabine, pare-brise avec calibrage ADAS)
 
 [Page catégorie](https://garageboost.fr/carrosserie)
 
@@ -150,6 +150,13 @@
 - **Tarif** : 90 - 890 €
 - **Description** : Réparation après choc, redressage tôle, débosselage marbre traction, remplacement éléments complets (aile, porte, capot, pare-chocs). Toutes marques, toutes assurances.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/carrosserie/carrosserie-auto/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/carrosserie/carrosserie-auto/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/carrosserie/carrosserie-auto/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/carrosserie/carrosserie-auto/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/carrosserie/carrosserie-auto/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/carrosserie/carrosserie-auto/var-vaucluse-alpes-maritimes)
+
+#### Débosselage grêle
+
+- **URL** : https://garageboost.fr/carrosserie/debosselage-grele
+- **Tarif** : 90 - 4 900 €
+- **Description** : Votre voiture a été grêlée ? Nous effaçons les impacts par débosselage sans peinture (DSP), en conservant la peinture d'origine. Dossier géré avec votre assureur et l'expert : avec la garantie grêle, 
+- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/carrosserie/debosselage-grele/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/carrosserie/debosselage-grele/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/carrosserie/debosselage-grele/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/carrosserie/debosselage-grele/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/carrosserie/debosselage-grele/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/carrosserie/debosselage-grele/var-vaucluse-alpes-maritimes)
 
 #### Peinture automobile
 
@@ -213,35 +220,35 @@
 - **URL** : https://garageboost.fr/villes/marseille
 - **Distance** : 10 km du centre (15 minutes en voiture)
 - **Quartiers desservis** : Vieux-Port, La Joliette, Le Prado, La Timone, Saint-Loup, Saint-Antoine, Mazargues, Castellane, Bonneveine, Endoume
-- **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, mecanique-generale, carrosserie-auto
+- **Services les plus demandés** : debosselage-grele, decalaminage-hydrogene, nettoyage-fap, mecanique-generale, carrosserie-auto
 
 ### Plan-de-Cuques
 
 - **URL** : https://garageboost.fr/villes/plan-de-cuques
 - **Distance** : Sur place (Notre commune)
 - **Quartiers desservis** : Centre-ville, Quartier des Pères Blancs, Quartier de La Galéane, Le Cousin
-- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, reprogrammation-moteur, pare-brise
+- **Services les plus demandés** : debosselage-grele, mecanique-generale, decalaminage-hydrogene, reprogrammation-moteur, pare-brise
 
 ### Allauch
 
 - **URL** : https://garageboost.fr/villes/allauch
 - **Distance** : 5 km (10 minutes)
 - **Quartiers desservis** : Centre historique, Le Logis-Neuf, Pichauris, La Pounche, Le Vieil Allauch
-- **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, depannage-remorquage
+- **Services les plus demandés** : debosselage-grele, mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, depannage-remorquage
 
 ### Aubagne
 
 - **URL** : https://garageboost.fr/villes/aubagne
 - **Distance** : 15 km (20 minutes)
 - **Quartiers desservis** : Centre-ville, Les Solans, Beaudinard, Camp Major, Les Paluds, La Tourtelle
-- **Services les plus demandés** : mecanique-generale, utilitaires, depannage-remorquage, carrosserie-auto
+- **Services les plus demandés** : debosselage-grele, mecanique-generale, utilitaires, depannage-remorquage, carrosserie-auto
 
 ### La Ciotat
 
 - **URL** : https://garageboost.fr/villes/la-ciotat
 - **Distance** : 24 km (30 minutes)
 - **Quartiers desservis** : Vieille Ville, Le Port, La Garoupe, Saint-Jean, Le Mugel, Athéna, Les Séveriers
-- **Services les plus demandés** : carrosserie-auto, electricite-automobile, depannage-remorquage, reprogrammation-moteur
+- **Services les plus demandés** : debosselage-grele, carrosserie-auto, electricite-automobile, depannage-remorquage, reprogrammation-moteur
 
 ### Cassis
 
@@ -255,56 +262,56 @@
 - **URL** : https://garageboost.fr/villes/septemes-les-vallons
 - **Distance** : 11 km (15 minutes)
 - **Quartiers desservis** : Centre-ville, Le Logis-Neuf, Les Termes, La Gavotte, Saint-Antoine
-- **Services les plus demandés** : mecanique-generale, pare-brise, depannage-remorquage, electricite-automobile
+- **Services les plus demandés** : debosselage-grele, mecanique-generale, pare-brise, depannage-remorquage, electricite-automobile
 
 ### Les Pennes-Mirabeau
 
 - **URL** : https://garageboost.fr/villes/pennes-mirabeau
 - **Distance** : 15 km (20 minutes)
 - **Quartiers desservis** : Centre-ville, La Gavotte, Plan-de-Campagne, Cadenelle, Bonneveine
-- **Services les plus demandés** : mecanique-generale, utilitaires, reprogrammation-moteur, depannage-remorquage
+- **Services les plus demandés** : debosselage-grele, mecanique-generale, utilitaires, reprogrammation-moteur, depannage-remorquage
 
 ### Vitrolles
 
 - **URL** : https://garageboost.fr/villes/vitrolles
 - **Distance** : 29 km (35 minutes)
 - **Quartiers desservis** : Centre-ville, Le Liourat, Le Pontet, Couperigne, Estroublans, Anjoly
-- **Services les plus demandés** : utilitaires, mecanique-generale, depannage-remorquage, reprogrammation-moteur
+- **Services les plus demandés** : debosselage-grele, utilitaires, mecanique-generale, depannage-remorquage, reprogrammation-moteur
 
 ### Marignane
 
 - **URL** : https://garageboost.fr/villes/marignane
 - **Distance** : 20 km (30 minutes)
 - **Quartiers desservis** : Centre-ville, Notre-Dame, La Tapie, Le Jardin du Roy, Saint-Pierre
-- **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, carrosserie-auto, mecanique-generale
+- **Services les plus demandés** : debosselage-grele, reprogrammation-moteur, decalaminage-hydrogene, carrosserie-auto, mecanique-generale
 
 ### Cabriès
 
 - **URL** : https://garageboost.fr/villes/cabries
 - **Distance** : 16 km (25 minutes)
 - **Quartiers desservis** : Centre-ville, Plan-de-Campagne, Les Pommiers, Calas
-- **Services les plus demandés** : carrosserie-auto, pare-brise, mecanique-generale, reprogrammation-moteur
+- **Services les plus demandés** : debosselage-grele, carrosserie-auto, pare-brise, mecanique-generale, reprogrammation-moteur
 
 ### Bouc-Bel-Air
 
 - **URL** : https://garageboost.fr/villes/bouc-bel-air
 - **Distance** : 17 km (25 minutes)
 - **Quartiers desservis** : Centre-ville, Le Pont-de-l'Arc, La Salle, Les Cèdres
-- **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, pare-brise, electricite-automobile
+- **Services les plus demandés** : debosselage-grele, mecanique-generale, reprogrammation-moteur, pare-brise, electricite-automobile
 
 ### Gardanne
 
 - **URL** : https://garageboost.fr/villes/gardanne
 - **Distance** : 27 km (30 minutes)
 - **Quartiers desservis** : Centre-ville, Notre-Dame, Biver, Valabre, Fontvenelle
-- **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, utilitaires, decalaminage-hydrogene
+- **Services les plus demandés** : debosselage-grele, mecanique-generale, reprogrammation-moteur, utilitaires, decalaminage-hydrogene
 
 ### Aix-en-Provence
 
 - **URL** : https://garageboost.fr/villes/aix-en-provence
 - **Distance** : 30 km (35 minutes)
 - **Quartiers desservis** : Cours Mirabeau, Mazarin, La Duranne, Pont-de-l'Arc, Jas de Bouffan, Encagnane
-- **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, carrosserie-auto, peinture-automobile
+- **Services les plus demandés** : debosselage-grele, reprogrammation-moteur, decalaminage-hydrogene, carrosserie-auto, peinture-automobile
 
 ### Salon-de-Provence
 
@@ -318,7 +325,7 @@
 - **URL** : https://garageboost.fr/villes/martigues
 - **Distance** : 40 km (45 minutes)
 - **Quartiers desservis** : Centre historique, L'Île, Ferrières, Jonquières, La Couronne, Lavéra
-- **Services les plus demandés** : utilitaires, nettoyage-fap, traitement-egr, depannage-remorquage
+- **Services les plus demandés** : debosselage-grele, utilitaires, nettoyage-fap, traitement-egr, depannage-remorquage
 
 ### Saint-Maximin-la-Sainte-Baume
 
@@ -346,28 +353,28 @@
 - **URL** : https://garageboost.fr/villes/roquevaire
 - **Distance** : 15 km (20 minutes)
 - **Quartiers desservis** : Centre-village, Lascours, Pont-de-l'Étoile, Le Pré de Châteauredon
-- **Services les plus demandés** : mecanique-generale, diagnostic-moteur, depannage-remorquage, pare-brise
+- **Services les plus demandés** : debosselage-grele, mecanique-generale, diagnostic-moteur, depannage-remorquage, pare-brise
 
 ### Auriol
 
 - **URL** : https://garageboost.fr/villes/auriol
 - **Distance** : 22 km (25 minutes)
 - **Quartiers desservis** : Centre-village, Moulin de Redon, La Vallée Heureuse, Pont de Joux
-- **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, depannage-remorquage
+- **Services les plus demandés** : debosselage-grele, mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, depannage-remorquage
 
 ### Gémenos
 
 - **URL** : https://garageboost.fr/villes/gemenos
 - **Distance** : 17 km (20 minutes)
 - **Quartiers desservis** : Centre-village, Saint-Jean-de-Garguier, Parc d'activités de Gémenos, Coulin
-- **Services les plus demandés** : utilitaires, mecanique-generale, depannage-remorquage, reprogrammation-moteur
+- **Services les plus demandés** : debosselage-grele, utilitaires, mecanique-generale, depannage-remorquage, reprogrammation-moteur
 
 ### La Penne-sur-Huveaune
 
 - **URL** : https://garageboost.fr/villes/la-penne-sur-huveaune
 - **Distance** : 12 km (15 minutes)
 - **Quartiers desservis** : Centre-ville, Les Pallières, La Millière, Le Pont de l'Étoile
-- **Services les plus demandés** : mecanique-generale, pare-brise, diagnostic-moteur, depannage-remorquage
+- **Services les plus demandés** : debosselage-grele, mecanique-generale, pare-brise, diagnostic-moteur, depannage-remorquage
 
 ### Carnoux-en-Provence
 
@@ -381,14 +388,14 @@
 - **URL** : https://garageboost.fr/villes/simiane-collongue
 - **Distance** : 14 km (20 minutes)
 - **Quartiers desservis** : Centre-village, Collongue, Le Pavillon, Les Bastides
-- **Services les plus demandés** : mecanique-generale, diagnostic-moteur, pare-brise, electricite-automobile
+- **Services les plus demandés** : debosselage-grele, mecanique-generale, diagnostic-moteur, pare-brise, electricite-automobile
 
 ### Fuveau
 
 - **URL** : https://garageboost.fr/villes/fuveau
 - **Distance** : 26 km (30 minutes)
 - **Quartiers desservis** : Centre-village, La Barque, Bellevue, Château
-- **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, pare-brise
+- **Services les plus demandés** : debosselage-grele, mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, pare-brise
 
 ### Trets
 
