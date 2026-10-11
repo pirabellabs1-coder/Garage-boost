@@ -126,17 +126,17 @@
     },
     {
       "source": "/entretien-assistance/mecanique-generale-garage-plan-de-cuques-marseille",
-      "destination": "/entretien-assistance/mecanique-generale/plan-de-cuques-marseille",
+      "destination": "/entretien-assistance/mecanique-generale/marseille",
       "permanent": true
     },
     {
       "source": "/carrosserie/carrosserie-auto/carrosserie-auto-vitrolles-marignane-martigues",
-      "destination": "/carrosserie/carrosserie-auto/vitrolles-marignane-martigues",
+      "destination": "/carrosserie/carrosserie-auto/marignane",
       "permanent": true
     },
     {
       "source": "/carrosserie/pare-brise/pare-brise-plan-de-cuques-marseille",
-      "destination": "/carrosserie/pare-brise/plan-de-cuques-marseille",
+      "destination": "/carrosserie/pare-brise/plan-de-cuques",
       "permanent": true
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "source": "/decalaminage-moteur-hydrogene-plan-de-cuques",
-      "destination": "/maintenance-moteur/decalaminage-hydrogene/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/decalaminage-hydrogene/plan-de-cuques",
       "permanent": true
     },
     {
@@ -196,7 +196,7 @@
     },
     {
       "source": "/carrosserie/carrosserie-auto/carrosserie-auto-aubagne-la-ciotat-cassis",
-      "destination": "/carrosserie/carrosserie-auto/aubagne-la-ciotat-cassis",
+      "destination": "/carrosserie/carrosserie-auto/aubagne",
       "permanent": true
     },
     {
@@ -206,7 +206,7 @@
     },
     {
       "source": "/maintenance-moteur-anti-pollution/decalaminage-moteur-hydrogene-plan-de-cuques",
-      "destination": "/maintenance-moteur/decalaminage-hydrogene/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/decalaminage-hydrogene/plan-de-cuques",
       "permanent": true
     },
     {
@@ -251,7 +251,7 @@
     },
     {
       "source": "/carrosserie/carrosserie-auto/carrosserie-auto-plan-de-cuques-marseille",
-      "destination": "/carrosserie/carrosserie-auto/plan-de-cuques-marseille",
+      "destination": "/carrosserie/carrosserie-auto/marseille",
       "permanent": true
     },
     {
@@ -266,7 +266,7 @@
     },
     {
       "source": "/entretien-assistance/electricite-automobile-diagnostic-plan-de-cuques-marseille/electricite-auto-aubagne-la-ciotat-cassis",
-      "destination": "/entretien-assistance/electricite-automobile/aubagne-la-ciotat-cassis",
+      "destination": "/entretien-assistance/electricite-automobile/la-ciotat",
       "permanent": true
     },
     {
@@ -331,7 +331,7 @@
     },
     {
       "source": "/entretien-assistance/mecanique-generale-garage-plan-de-cuques-marseille/mecanique-generale-plan-de-cuques-marseille",
-      "destination": "/entretien-assistance/mecanique-generale/plan-de-cuques-marseille",
+      "destination": "/entretien-assistance/mecanique-generale/marseille",
       "permanent": true
     },
     {
@@ -351,7 +351,7 @@
     },
     {
       "source": "/maintenance-moteur-anti-pollution/reprogrammation-moteur/reprogrammation-moteur-vitrolles-marignane-martigues",
-      "destination": "/maintenance-moteur/reprogrammation-moteur/vitrolles-marignane-martigues",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/marignane",
       "permanent": true
     },
     {
@@ -396,7 +396,7 @@
     },
     {
       "source": "/carrosserie/peinture-automobile/peinture-auto-aubagne-la-ciotat-cassis",
-      "destination": "/carrosserie/peinture-automobile/aubagne-la-ciotat-cassis",
+      "destination": "/carrosserie/peinture-automobile/cassis",
       "permanent": true
     },
     {
@@ -441,17 +441,17 @@
     },
     {
       "source": "/maintenance-moteur-anti-pollution/reprogrammation-moteur/reprogrammation-moteur-aubagne-la-ciotat-cassis",
-      "destination": "/maintenance-moteur/reprogrammation-moteur/aubagne-la-ciotat-cassis",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/la-ciotat",
       "permanent": true
     },
     {
       "source": "/maintenance-moteur-anti-pollution/reprogrammation-moteur/reprogrammation-moteur-plan-de-cuques-marseille",
-      "destination": "/maintenance-moteur/reprogrammation-moteur/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/plan-de-cuques",
       "permanent": true
     },
     {
       "source": "/entretien-assistance/depannage-remorquage/depannage-remorquage-aubagne-la-ciotat-cassis",
-      "destination": "/entretien-assistance/depannage-remorquage/aubagne-la-ciotat-cassis",
+      "destination": "/entretien-assistance/depannage-remorquage/aubagne",
       "permanent": true
     },
     {
@@ -2727,6 +2727,206 @@
     {
       "source": "/location/voiture-rallye/toulon.html",
       "destination": "/villes/toulon",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/decalaminage-hydrogene/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/decalaminage-hydrogene/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/decalaminage-hydrogene/plan-de-cuques-marseille.html",
+      "destination": "/maintenance-moteur/decalaminage-hydrogene/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/decalaminage-hydrogene/vitrolles-marignane-martigues",
+      "destination": "/maintenance-moteur/decalaminage-hydrogene/marignane",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/decalaminage-hydrogene/vitrolles-marignane-martigues.html",
+      "destination": "/maintenance-moteur/decalaminage-hydrogene/marignane",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/nettoyage-fap/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/nettoyage-fap/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/nettoyage-fap/plan-de-cuques-marseille.html",
+      "destination": "/maintenance-moteur/nettoyage-fap/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/reprogrammation-moteur/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/plan-de-cuques",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/reprogrammation-moteur/plan-de-cuques-marseille.html",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/plan-de-cuques",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/reprogrammation-moteur/aubagne-la-ciotat-cassis",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/la-ciotat",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/reprogrammation-moteur/aubagne-la-ciotat-cassis.html",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/la-ciotat",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/reprogrammation-moteur/vitrolles-marignane-martigues",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/marignane",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/reprogrammation-moteur/vitrolles-marignane-martigues.html",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/marignane",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/mecanique-generale/plan-de-cuques-marseille",
+      "destination": "/entretien-assistance/mecanique-generale/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/mecanique-generale/plan-de-cuques-marseille.html",
+      "destination": "/entretien-assistance/mecanique-generale/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/mecanique-generale/aubagne-la-ciotat-cassis",
+      "destination": "/entretien-assistance/mecanique-generale/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/mecanique-generale/aubagne-la-ciotat-cassis.html",
+      "destination": "/entretien-assistance/mecanique-generale/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/mecanique-generale/vitrolles-marignane-martigues",
+      "destination": "/entretien-assistance/mecanique-generale/marignane",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/mecanique-generale/vitrolles-marignane-martigues.html",
+      "destination": "/entretien-assistance/mecanique-generale/marignane",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/electricite-automobile/aubagne-la-ciotat-cassis",
+      "destination": "/entretien-assistance/electricite-automobile/la-ciotat",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/electricite-automobile/aubagne-la-ciotat-cassis.html",
+      "destination": "/entretien-assistance/electricite-automobile/la-ciotat",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/depannage-remorquage/aubagne-la-ciotat-cassis",
+      "destination": "/entretien-assistance/depannage-remorquage/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/depannage-remorquage/aubagne-la-ciotat-cassis.html",
+      "destination": "/entretien-assistance/depannage-remorquage/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/carrosserie-auto/plan-de-cuques-marseille",
+      "destination": "/carrosserie/carrosserie-auto/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/carrosserie-auto/plan-de-cuques-marseille.html",
+      "destination": "/carrosserie/carrosserie-auto/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/carrosserie-auto/aubagne-la-ciotat-cassis",
+      "destination": "/carrosserie/carrosserie-auto/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/carrosserie-auto/aubagne-la-ciotat-cassis.html",
+      "destination": "/carrosserie/carrosserie-auto/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/carrosserie-auto/vitrolles-marignane-martigues",
+      "destination": "/carrosserie/carrosserie-auto/marignane",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/carrosserie-auto/vitrolles-marignane-martigues.html",
+      "destination": "/carrosserie/carrosserie-auto/marignane",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/debosselage-grele/plan-de-cuques-marseille",
+      "destination": "/carrosserie/debosselage-grele/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/debosselage-grele/plan-de-cuques-marseille.html",
+      "destination": "/carrosserie/debosselage-grele/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/debosselage-grele/aubagne-la-ciotat-cassis",
+      "destination": "/carrosserie/debosselage-grele/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/debosselage-grele/aubagne-la-ciotat-cassis.html",
+      "destination": "/carrosserie/debosselage-grele/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/debosselage-grele/vitrolles-marignane-martigues",
+      "destination": "/carrosserie/debosselage-grele/marignane",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/debosselage-grele/vitrolles-marignane-martigues.html",
+      "destination": "/carrosserie/debosselage-grele/marignane",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/peinture-automobile/aubagne-la-ciotat-cassis",
+      "destination": "/carrosserie/peinture-automobile/cassis",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/peinture-automobile/aubagne-la-ciotat-cassis.html",
+      "destination": "/carrosserie/peinture-automobile/cassis",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/pare-brise/plan-de-cuques-marseille",
+      "destination": "/carrosserie/pare-brise/plan-de-cuques",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/pare-brise/plan-de-cuques-marseille.html",
+      "destination": "/carrosserie/pare-brise/plan-de-cuques",
+      "permanent": true
+    },
+    {
+      "source": "/location/utilitaires/aubagne-la-ciotat-cassis",
+      "destination": "/location/utilitaires/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/location/utilitaires/aubagne-la-ciotat-cassis.html",
+      "destination": "/location/utilitaires/aubagne",
       "permanent": true
     }
   ],

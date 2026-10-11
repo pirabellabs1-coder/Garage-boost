@@ -596,17 +596,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/plan-de-cuques-marseille</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/aubagne-la-ciotat-cassis</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/vitrolles-marignane-martigues</loc>
     <lastmod>2026-10-11</lastmod>
     <priority>0.6</priority>
   </url>
@@ -629,11 +619,6 @@
     <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap</loc>
     <lastmod>2026-10-11</lastmod>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/plan-de-cuques-marseille</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/aubagne-la-ciotat-cassis</loc>
@@ -699,21 +684,6 @@
     <loc>https://garageboost.fr/maintenance-moteur/reprogrammation-moteur</loc>
     <lastmod>2026-10-11</lastmod>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/plan-de-cuques-marseille</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/aubagne-la-ciotat-cassis</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/vitrolles-marignane-martigues</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/gardanne-aix-en-provence</loc>
@@ -841,21 +811,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garageboost.fr/entretien-assistance/mecanique-generale/plan-de-cuques-marseille</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/entretien-assistance/mecanique-generale/aubagne-la-ciotat-cassis</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/entretien-assistance/mecanique-generale/vitrolles-marignane-martigues</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://garageboost.fr/entretien-assistance/mecanique-generale/gardanne-aix-en-provence</loc>
     <lastmod>2026-10-11</lastmod>
     <priority>0.6</priority>
@@ -877,11 +832,6 @@
   </url>
   <url>
     <loc>https://garageboost.fr/entretien-assistance/electricite-automobile/plan-de-cuques-marseille</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/entretien-assistance/electricite-automobile/aubagne-la-ciotat-cassis</loc>
     <lastmod>2026-10-11</lastmod>
     <priority>0.6</priority>
   </url>
@@ -912,11 +862,6 @@
   </url>
   <url>
     <loc>https://garageboost.fr/entretien-assistance/depannage-remorquage/plan-de-cuques-marseille</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/entretien-assistance/depannage-remorquage/aubagne-la-ciotat-cassis</loc>
     <lastmod>2026-10-11</lastmod>
     <priority>0.6</priority>
   </url>
@@ -1086,21 +1031,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garageboost.fr/carrosserie/carrosserie-auto/plan-de-cuques-marseille</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/carrosserie/carrosserie-auto/aubagne-la-ciotat-cassis</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/carrosserie/carrosserie-auto/vitrolles-marignane-martigues</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://garageboost.fr/carrosserie/carrosserie-auto/gardanne-aix-en-provence</loc>
     <lastmod>2026-10-11</lastmod>
     <priority>0.6</priority>
@@ -1119,21 +1049,6 @@
     <loc>https://garageboost.fr/carrosserie/debosselage-grele</loc>
     <lastmod>2026-10-11</lastmod>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/carrosserie/debosselage-grele/plan-de-cuques-marseille</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/carrosserie/debosselage-grele/aubagne-la-ciotat-cassis</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/carrosserie/debosselage-grele/vitrolles-marignane-martigues</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://garageboost.fr/carrosserie/debosselage-grele/gardanne-aix-en-provence</loc>
@@ -1161,11 +1076,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://garageboost.fr/carrosserie/peinture-automobile/aubagne-la-ciotat-cassis</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://garageboost.fr/carrosserie/peinture-automobile/vitrolles-marignane-martigues</loc>
     <lastmod>2026-10-11</lastmod>
     <priority>0.6</priority>
@@ -1189,11 +1099,6 @@
     <loc>https://garageboost.fr/carrosserie/pare-brise</loc>
     <lastmod>2026-10-11</lastmod>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/carrosserie/pare-brise/plan-de-cuques-marseille</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://garageboost.fr/carrosserie/pare-brise/aubagne-la-ciotat-cassis</loc>
@@ -1262,11 +1167,6 @@
   </url>
   <url>
     <loc>https://garageboost.fr/location/utilitaires/plan-de-cuques-marseille</loc>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/location/utilitaires/aubagne-la-ciotat-cassis</loc>
     <lastmod>2026-10-11</lastmod>
     <priority>0.6</priority>
   </url>

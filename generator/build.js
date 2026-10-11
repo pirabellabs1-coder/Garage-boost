@@ -13,7 +13,7 @@ const { fitTitle, clampMeta, excerpt } = require('./seo-text.js');
 const zones = require('./zones.js');
 const articles = require('./articles.js');
 const cities = require('./cities.js');
-const { servicesForCity } = require('./city-services.js');
+const { servicesForCity, zoneMergeTarget } = require('./city-services.js');
 
 // Maillage interne : service -> articles de blog pertinents (clusters thématiques)
 const ARTICLE_LINKS = {
@@ -183,7 +183,7 @@ function buildFaq(faq) {
 
 function buildCitiesPills(serviceSlug) {
   // Les 6 zones, en pastilles
-  const zonePills = zones.map(zone => `
+  const zonePills = zones.filter(zone => !zoneMergeTarget(serviceSlug, zone.slug)).map(zone => `
     <a class="zone-pill" href="${serviceSlug}/${zone.slug}.html"><i class="fa-solid fa-location-dot"></i> ${zone.label}</a>
   `).join('\n');
 

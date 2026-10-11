@@ -10,6 +10,7 @@ const zones = require('./zones.js');
 const cities = require('./cities.js');
 const articles = require('./articles.js');
 const BASE = 'https://garageboost.fr';
+const { localServiceSlug, localServiceLabel } = require('./city-services.js');
 
 const strip = s => String(s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 const firstSentence = s => { const t = strip(s); const m = t.match(/^.{40,260}?[.!?](\s|$)/); return m ? m[0].trim() : t.slice(0, 220); };
@@ -77,7 +78,7 @@ for (const [catSlug, cat] of Object.entries(data.categories)) {
       const f = service.faq.find(q => q && q.q && q.a);
       if (f) out += `- **Question fréquente** : ${strip(f.q)} — ${strip(f.a)}\n`;
     }
-    out += `- **Pages locales** : ${zones.map(z => `[${z.label}](${BASE}/${catSlug}/${serviceSlug}/${z.slug})`).join(' · ')}\n\n`;
+    out += `- **Pages locales** : ${zones.map(z => `[${localServiceLabel(serviceSlug, z)}](${BASE}/${catSlug}/${serviceSlug}/${localServiceSlug(serviceSlug, z.slug)})`).join(' · ')}\n\n`;
   }
 }
 

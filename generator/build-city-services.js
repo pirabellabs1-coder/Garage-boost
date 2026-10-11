@@ -14,7 +14,7 @@ const zones = require('./zones.js');
 const cities = require('./cities.js');
 const { quickFacts } = require('./quick-facts.js');
 const { fitTitle, clampMeta, firstSentences, excerpt, deVille, aVille } = require('./seo-text.js');
-const { servicesForCity } = require('./city-services.js');
+const { servicesForCity, zoneMergeTarget } = require('./city-services.js');
 
 const SERVICE_ICONS = {
   'diagnostic-moteur': 'microchip', 'decalaminage-hydrogene': 'fire-flame-curved',
@@ -97,7 +97,7 @@ ${pills}
 }
 
 function buildOtherAreas(serviceSlug, serviceName, citySlug, cityName) {
-  const zoneLinks = zones.map(z => `<a class="zone-pill" href="${z.slug}.html"><i class="fa-solid fa-location-dot"></i> ${serviceName} ${z.label}</a>`).join('\n');
+  const zoneLinks = zones.filter(z => !zoneMergeTarget(serviceSlug, z.slug)).map(z => `<a class="zone-pill" href="${z.slug}.html"><i class="fa-solid fa-location-dot"></i> ${serviceName} ${z.label}</a>`).join('\n');
   const cityLink = `<a class="zone-pill" href="../../villes/${citySlug}.html"><i class="fa-solid fa-map-location-dot"></i> Tous nos services ${aVille(cityName)}</a>`;
   return zoneLinks + '\n' + cityLink;
 }

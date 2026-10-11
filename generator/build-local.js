@@ -8,6 +8,7 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const TEMPLATE = fs.readFileSync(path.join(__dirname, 'local-template.html'), 'utf8');
 const data = require('./data.js');
+const { zoneMergeTarget, localServiceSlug } = require('./city-services.js');
 const zones = require('./zones.js');
 const { quickFacts } = require('./quick-facts.js');
 const { fitTitle, clampMeta, firstSentences, excerpt, deVille, aVille } = require('./seo-text.js');
@@ -114,7 +115,7 @@ function buildRelated(related, currentCategorySlug, currentZoneSlug) {
     if (!r) return '';
     const icon = SERVICE_ICONS[slug] || 'cog';
     // Link to local zone version if it exists, otherwise main service
-    const href = `../../${r.categorySlug}/${slug}/${currentZoneSlug}.html`;
+    const href = `../../${r.categorySlug}/${slug}/${localServiceSlug(slug, currentZoneSlug)}.html`;
     return `
       <a class="related-card" href="${href}">
         <div class="related-card-icon"><i class="fa-solid fa-${icon}"></i></div>
@@ -141,7 +142,7 @@ function buildCitiesPills(zone) {
 }
 
 function buildOtherZones(currentZoneSlug, serviceSlug, serviceName) {
-  return zones.filter(z => z.slug !== currentZoneSlug).map(z => `
+  return zones.filter(z => z.slug !== currentZoneSlug && !zoneMergeTarget(serviceSlug, z.slug)).map(z => `
     <a class="zone-pill" href="${z.slug}.html"><i class="fa-solid fa-location-dot"></i> ${serviceName} ${z.label}</a>
   `).join('\n');
 }
@@ -165,6 +166,8 @@ for (const [categorySlug, category] of Object.entries(data.categories)) {
     if (!fs.existsSync(serviceDir)) fs.mkdirSync(serviceDir, { recursive: true });
 
     for (const zone of zones) {
+      // Zone fusionnée dans une page ville (301, voir city-services.js)
+      if (zoneMergeTarget(serviceSlug, zone.slug)) continue;
       const citiesText = zone.cities.join(', ');
       const areaServedJSON = JSON.stringify(zone.cities);
 

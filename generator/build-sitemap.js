@@ -10,7 +10,7 @@ const data = require('./data.js');
 const zones = require('./zones.js');
 const cities = require('./cities.js');
 const articles = require('./articles.js');
-const { servicesForCity } = require('./city-services.js');
+const { servicesForCity, zoneMergeTarget } = require('./city-services.js');
 const BASE = 'https://garageboost.fr';
 const crypto = require('crypto');
 const today = new Date().toISOString().split('T')[0];
@@ -57,6 +57,7 @@ for (const [catSlug, cat] of Object.entries(data.categories)) {
 
     // Pages SEO locales (service × zone)
     for (const zone of zones) {
+      if (zoneMergeTarget(serviceSlug, zone.slug)) continue;
       urls.push({ loc: `${BASE}/${catSlug}/${serviceSlug}/${zone.slug}`, priority: '0.6' });
     }
   }

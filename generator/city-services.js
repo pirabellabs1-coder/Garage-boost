@@ -43,4 +43,40 @@ function servicesForCity(city) {
   return [...new Set(city.topServices || [])];
 }
 
-module.exports = { NEAR_KM, distanceKm, hasCityServicePages, servicesForCity };
+// ---------------------------------------------------------------------
+// Fusion zone → ville (2026-10-11) : une page « service × zone » est
+// supprimée (301) quand une commune NOMMÉE dans le libellé de la zone a sa
+// propre page pour ce service (ex. « Mécanique — Aubagne, La Ciotat &
+// Cassis » doublonnait « Mécanique à Aubagne »). On privilégie la 1re ville
+// de la zone (zone.firstCity), puis l'ordre du libellé.
+// Tous les liens vers une page zone passent par localServiceSlug().
+// ---------------------------------------------------------------------
+const zones = require('./zones.js');
+const cities = require('./cities.js');
+const cityByName = new Map(cities.map(c => [c.name, c]));
+
+/** Slug de la commune qui absorbe la page zone, ou null si la page zone est conservée. */
+function zoneMergeTarget(serviceSlug, zoneSlug) {
+  const zone = zones.find(z => z.slug === zoneSlug);
+  if (!zone) return null;
+  const named = zone.label.split(/, | & /).map(s => s.trim());
+  const order = [zone.firstCity, ...named.filter(n => n !== zone.firstCity)];
+  for (const name of order) {
+    const c = cityByName.get(name);
+    if (c && c.slug !== zone.slug && servicesForCity(c).includes(serviceSlug)) return c.slug;
+  }
+  return null;
+}
+
+/** Dernier segment d'URL de la page locale à lier pour (service, zone). */
+function localServiceSlug(serviceSlug, zoneSlug) {
+  return zoneMergeTarget(serviceSlug, zoneSlug) || zoneSlug;
+}
+
+/** Libellé à afficher pour ce lien (nom de la commune si fusionnée). */
+function localServiceLabel(serviceSlug, zone) {
+  const t = zoneMergeTarget(serviceSlug, zone.slug);
+  return t ? cities.find(c => c.slug === t).name : zone.label;
+}
+
+module.exports = { NEAR_KM, distanceKm, hasCityServicePages, servicesForCity, zoneMergeTarget, localServiceSlug, localServiceLabel };

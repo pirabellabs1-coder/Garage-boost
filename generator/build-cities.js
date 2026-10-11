@@ -11,7 +11,7 @@ const TEMPLATE = fs.readFileSync(path.join(__dirname, 'city-template.html'), 'ut
 const data = require('./data.js');
 const cities = require('./cities.js');
 const { fitTitle, clampMeta, excerpt, deVille, aVille } = require('./seo-text.js');
-const { servicesForCity } = require('./city-services.js');
+const { servicesForCity, localServiceSlug } = require('./city-services.js');
 
 const SERVICE_ICONS = {
   'diagnostic-moteur': 'microchip', 'decalaminage-hydrogene': 'fire-flame-curved',
@@ -45,7 +45,7 @@ function render(template, vars) {
 function buildServiceCard(categorySlug, serviceSlug, service, zoneSlug) {
   const icon = SERVICE_ICONS[serviceSlug] || 'cog';
   // Lien vers la page locale du zone correspondante
-  const href = `../${categorySlug}/${serviceSlug}/${zoneSlug}.html`;
+  const href = `../${categorySlug}/${serviceSlug}/${localServiceSlug(serviceSlug, zoneSlug)}.html`;
   return `
     <article class="service-card">
       <div class="service-icon"><i class="fa-solid fa-${icon}"></i></div>
@@ -81,7 +81,7 @@ function buildTopServicesList(city) {
     if (!r) return '';
     const href = generated.has(slug)
       ? `../${r.categorySlug}/${slug}/${citySlug}.html`
-      : `../${r.categorySlug}/${slug}/${city.zoneSlug}.html`;
+      : `../${r.categorySlug}/${slug}/${localServiceSlug(slug, city.zoneSlug)}.html`;
     return `<li><a href="${href}" style="color:var(--accent)"><strong>${r.service.name} ${cityName}</strong></a> — ${excerpt(r.service.lead, 110)}</li>`;
   }).join('\n');
 }
