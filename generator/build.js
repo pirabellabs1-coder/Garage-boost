@@ -8,6 +8,7 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const TEMPLATE = fs.readFileSync(path.join(__dirname, 'template.html'), 'utf8');
 const data = require('./data.js');
+const { fitTitle, clampMeta } = require('./seo-text.js');
 const zones = require('./zones.js');
 const articles = require('./articles.js');
 const cities = require('./cities.js');
@@ -23,19 +24,19 @@ const ARTICLE_LINKS = {
   'gestion-adblue': ['adblue-comprendre-pannes-courantes', 'controle-anti-pollution-passer-sans-stress', 'voyant-moteur-orange-8-causes'],
   'traitement-egr': ['vanne-egr-symptomes-prix', 'fumee-noire-echappement', 'nettoyage-fap-methodes-comparees'],
   'voyants-moteur': ['voyant-moteur-orange-8-causes', 'vanne-egr-symptomes-prix', 'adblue-comprendre-pannes-courantes'],
-  'depannage-remorquage': ['batterie-voiture-signes-faiblesse-duree-vie', 'preparer-voiture-ete-chaleur-marseille', 'voyant-moteur-orange-8-causes'],
+  'depannage-remorquage': ['voiture-ne-demarre-plus-causes', 'moteur-qui-chauffe-causes-que-faire', 'batterie-voiture-signes-faiblesse-duree-vie'],
   'depannage-scooter': ['batterie-voiture-signes-faiblesse-duree-vie', 'preparer-voiture-ete-chaleur-marseille', 'garage-boost-10-ans-plan-de-cuques'],
-  'electricite-automobile': ['batterie-voiture-signes-faiblesse-duree-vie', 'voyant-moteur-orange-8-causes', 'calibrage-adas-pare-brise'],
-  'mecanique-generale': ['distribution-moteur-quand-changer', 'embrayage-signes-usure', 'prix-revision-auto-marseille'],
+  'electricite-automobile': ['voiture-ne-demarre-plus-causes', 'batterie-voiture-signes-faiblesse-duree-vie', 'voyant-moteur-orange-8-causes'],
+  'mecanique-generale': ['vidange-voiture-quand-faire-prix', 'moteur-qui-chauffe-causes-que-faire', 'climatisation-voiture-recharge-panne-prix'],
   'ouverture-vehicule': ['batterie-voiture-signes-faiblesse-duree-vie', 'garage-boost-10-ans-plan-de-cuques', 'garage-independant-vs-concession'],
   'reproduction-cles': ['batterie-voiture-signes-faiblesse-duree-vie', 'garage-boost-10-ans-plan-de-cuques', 'controle-avant-achat-voiture-occasion'],
   'enlevement-epaves': ['controle-avant-achat-voiture-occasion', 'garage-boost-10-ans-plan-de-cuques', 'garage-independant-vs-concession'],
-  'carrosserie-auto': ['voiture-grelee-que-faire', 'debosselage-sans-peinture-grele-prix', 'controle-avant-achat-voiture-occasion'],
+  'carrosserie-auto': ['voiture-grelee-que-faire', 'rayure-carrosserie-reparer-prix', 'debosselage-sans-peinture-grele-prix'],
   'debosselage-grele': ['voiture-grelee-que-faire', 'grele-voiture-assurance-indemnisation', 'debosselage-sans-peinture-grele-prix'],
-  'peinture-automobile': ['debosselage-sans-peinture-grele-prix', 'controle-avant-achat-voiture-occasion', 'garage-independant-vs-concession'],
+  'peinture-automobile': ['rayure-carrosserie-reparer-prix', 'debosselage-sans-peinture-grele-prix', 'controle-avant-achat-voiture-occasion'],
   'pare-brise': ['calibrage-adas-pare-brise', 'grele-voiture-assurance-indemnisation', 'controle-avant-achat-voiture-occasion'],
   'utilitaires': ['prix-revision-auto-marseille', 'controle-avant-achat-voiture-occasion', 'economiser-1000-euros-an-entretien'],
-  'citadines': ['prix-revision-auto-marseille', 'economiser-1000-euros-an-entretien', 'preparer-voiture-ete-chaleur-marseille'],
+  'citadines': ['prix-revision-auto-marseille', 'vidange-voiture-quand-faire-prix', 'climatisation-voiture-recharge-panne-prix'],
   'vans-amenages': ['preparer-voiture-ete-chaleur-marseille', 'controle-avant-achat-voiture-occasion', 'prix-revision-auto-marseille'],
   'voiture-rallye': ['reprogrammation-moteur-stage-1-tout-savoir', 'stage-1-vs-stage-2', 'distribution-moteur-quand-changer'],
   'vehicules-occasion': ['controle-avant-achat-voiture-occasion', 'prix-revision-auto-marseille', 'garage-independant-vs-concession']
@@ -245,8 +246,8 @@ for (const [categorySlug, category] of Object.entries(data.categories)) {
       categoryLabel: category.label,
       slug,
       name: service.name,
-      title: service.title,
-      metaDesc: service.metaDesc,
+      title: fitTitle(service.title, service.title.replace(/\s*[-–—]\s*Garage Boost\s*$/, ''), service.title.split('|')[0].trim() + ' | Garage Boost', service.title.split('|')[0].trim()),
+      metaDesc: clampMeta(service.metaDesc),
       keywords: service.keywords,
       h1Pre: service.h1Pre,
       h1Accent: service.h1Accent,

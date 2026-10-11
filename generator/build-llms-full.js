@@ -1,4 +1,6 @@
-// Génère llms-full.txt avec toutes les pages détaillées pour les IAs
+// Génère llms.txt (résumé) + llms-full.txt (index détaillé) pour les IAs
+// Tout est dérivé des données (data.js, cities.js, articles.js) : plus de
+// fichier écrit à la main qui diverge du site (communes, liens .html…).
 const fs = require('fs');
 const path = require('path');
 
@@ -6,91 +8,145 @@ const ROOT = path.resolve(__dirname, '..');
 const data = require('./data.js');
 const zones = require('./zones.js');
 const cities = require('./cities.js');
+const articles = require('./articles.js');
 const BASE = 'https://garageboost.fr';
 
-let out = `# Garage Boost Marseille — Index complet pour LLMs
+const strip = s => String(s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+const firstSentence = s => { const t = strip(s); const m = t.match(/^.{40,260}?[.!?](\s|$)/); return m ? m[0].trim() : t.slice(0, 220); };
+const { summarize } = require('./article-summary.js');
+const articleSummary = a => summarize(a).text;
+const byModified = [...articles].sort((a, b) => new Date(b.dateModified) - new Date(a.dateModified));
 
-> Garage automobile indépendant à Plan-de-Cuques (13380 Marseille) spécialisé en maintenance moteur, anti-pollution, reprogrammation, carrosserie, dépannage et location. Note Google 4,9/5 sur 127+ avis. Toutes marques.
+const SUMMARY = "Garage Boost est un garage automobile indépendant situé à Plan-de-Cuques (13380), commune limitrophe de Marseille (Bouches-du-Rhône). Il réalise l'entretien et la réparation toutes marques : maintenance moteur et anti-pollution, reprogrammation, mécanique générale, carrosserie et débosselage grêle, dépannage, et propose la location de véhicules.";
+
+const COORDS = `- **Nom** : Garage Boost
+- **Adresse** : 1 Avenue des Pères Blancs, 13380 Plan-de-Cuques, France (à environ 15 minutes du centre de Marseille)
+- **Téléphone** : +33 6 63 21 63 50
+- **WhatsApp** : https://wa.me/33663216350
+- **Email** : masgarage7@gmail.com
+- **Horaires atelier** : du lundi au samedi, 8h-19h ; dépannage 7j/7
+- **Coordonnées GPS** : 43.3486, 5.4632
+- **Note Google** : 4,9/5 (127 avis)
+`;
+
+const ENGAGEMENTS = `- Devis gratuit sous 24 heures ouvrées, validation écrite avant toute intervention
+- Garantie 12 mois pièces et main-d'œuvre (24 mois sur les reprogrammations et la peinture)
+- Pièces qualité d'origine ou équivalente
+- Paiement en 3 ou 4 fois sans frais au-delà de 500 €
+- Récupération du véhicule à domicile, offerte au-delà de 200 € d'intervention
+- Entretien en garage indépendant sans perte de la garantie constructeur (plan d'entretien respecté)
+- Pas de suppression ni de désactivation d'organes antipollution (AdBlue, FAP, EGR) : diagnostic et réparation uniquement
+`;
+
+const BRANDS = 'Renault, Peugeot, Citroën, Volkswagen, Audi, BMW, Mercedes, Ford, Opel, Fiat, Toyota, Honda, Nissan, Hyundai, Kia, Mazda, Volvo, Skoda, Seat, Dacia, Mini, Land Rover, Jeep, Porsche.';
+
+const mainPages = [
+  { url: '/', title: 'Accueil', desc: 'présentation du garage, des 4 catégories de services et des zones desservies' },
+  { url: '/tarifs', title: 'Tarifs', desc: 'grille tarifaire détaillée par prestation' },
+  { url: '/rendez-vous', title: 'Prise de rendez-vous', desc: 'formulaire en ligne' },
+  { url: '/contact', title: 'Contact', desc: 'téléphone, WhatsApp, email, plan d\'accès' },
+  { url: '/faq', title: 'FAQ', desc: 'questions fréquentes (reprogrammation, anti-pollution, mécanique, carrosserie, dépannage, tarifs, garanties)' },
+  { url: '/villes', title: 'Villes desservies', desc: `${cities.length} communes avec page dédiée` },
+  { url: '/blog', title: 'Blog', desc: `${articles.length} guides pratiques sur l'entretien et la réparation automobile` }
+];
+
+// ---------------------------------------------------------------- llms-full
+let out = `# Garage Boost — garage automobile à Plan-de-Cuques, près de Marseille
+
+> ${SUMMARY}
 
 ## Coordonnées
 
-- **Adresse** : 1 Avenue des Pères Blancs, 13380 Plan-de-Cuques, France
-- **Téléphone** : +33 6 63 21 63 50
-- **Email** : masgarage7@gmail.com
-- **GPS** : 43.3486, 5.4632
-- **Horaires** : Lun-Sam 8h-19h, dépannage 7j/7
-
+${COORDS}
 ## Pages essentielles
+
+${mainPages.map(p => `- [${p.title}](${BASE}${p.url}) — ${p.desc}`).join('\n')}
+
+## Services et tarifs
 
 `;
 
-// Pages principales
-const mainPages = [
-  { url: '/', title: 'Accueil', desc: 'Page d\'accueil avec présentation des 4 catégories de services et zones desservies' },
-  { url: '/tarifs.html', title: 'Tarifs', desc: 'Grille tarifaire complète avec 46 prix sur 5 catégories' },
-  { url: '/rendez-vous.html', title: 'Prise de rendez-vous', desc: 'Formulaire en ligne, sélection service, créneau, confirmation sous 2h' },
-  { url: '/contact.html', title: 'Contact', desc: 'Téléphone, WhatsApp, email, formulaire, carte Google Maps' },
-  { url: '/faq.html', title: 'FAQ', desc: '30 questions sur 7 thèmes (reprogrammation, anti-pollution, mécanique, carrosserie, dépannage, tarifs, garanties)' },
-  { url: '/villes.html', title: 'Villes desservies', desc: `${cities.length} communes avec pages dédiées` }
-];
-
-mainPages.forEach(p => {
-  out += `- [${p.title}](${BASE}${p.url}) — ${p.desc}\n`;
-});
-
-out += '\n## Catégories de services\n\n';
-
-const categoryDescs = {
-  'maintenance-moteur': '8 services moteur et anti-pollution (diagnostic, décalaminage hydrogène, FAP, EGR, catalyseur, reprogrammation Stage 1/2, AdBlue, voyants moteur)',
-  'entretien-assistance': '7 services d\'entretien et dépannage (mécanique générale, électricité auto, dépannage 7j/7, scooter, ouverture véhicule, reproduction clés, enlèvement épaves)',
-  'carrosserie': '4 services carrosserie (carrosserie auto, débosselage grêle sans peinture avec gestion assurance, peinture cabine, pare-brise avec calibrage ADAS)',
-  'location': '5 services location (citadines, utilitaires, vans aménagés, voiture rallye, véhicules occasion certifiés)'
-};
-
 for (const [catSlug, cat] of Object.entries(data.categories)) {
-  out += `### ${cat.label}\n\n`;
-  out += `${categoryDescs[catSlug] || ''}\n\n`;
-  out += `[Page catégorie](${BASE}/${catSlug}.html)\n\n`;
-
+  out += `### ${cat.label}\n\n[Page catégorie](${BASE}/${catSlug})\n\n`;
   for (const [serviceSlug, service] of Object.entries(cat.services)) {
     out += `#### ${service.name}\n\n`;
-    out += `- **URL** : ${BASE}/${catSlug}/${serviceSlug}.html\n`;
-    out += `- **Tarif** : ${service.price}\n`;
-    out += `- **Description** : ${service.lead.replace(/<[^>]+>/g, '').substring(0, 200)}\n`;
-    out += `- **Pages locales** : ${zones.map(z => `[${z.label}](${BASE}/${catSlug}/${serviceSlug}/${z.slug}.html)`).join(' · ')}\n\n`;
+    out += `- **URL** : ${BASE}/${catSlug}/${serviceSlug}\n`;
+    out += `- **Tarif** : ${strip(service.price)} — ${strip(service.pricingDesc)}\n`;
+    out += `- **En résumé** : ${firstSentence(service.lead)}\n`;
+    if (service.faq && service.faq.length) {
+      const f = service.faq.find(q => q && q.q && q.a);
+      if (f) out += `- **Question fréquente** : ${strip(f.q)} — ${strip(f.a)}\n`;
+    }
+    out += `- **Pages locales** : ${zones.map(z => `[${z.label}](${BASE}/${catSlug}/${serviceSlug}/${z.slug})`).join(' · ')}\n\n`;
   }
+}
+
+out += `## Guides et articles (${articles.length})\n\n`;
+for (const a of byModified) {
+  out += `### ${strip(a.title)}\n\n`;
+  out += `- **URL** : ${BASE}/blog/${a.slug}\n`;
+  out += `- **Mis à jour** : ${a.dateModified}\n`;
+  out += `- **Résumé** : ${articleSummary(a)}\n\n`;
 }
 
 out += `## Villes desservies (${cities.length} pages dédiées)\n\n`;
 for (const city of cities) {
   out += `### ${city.name}\n\n`;
-  out += `- **URL** : ${BASE}/villes/${city.slug}.html\n`;
-  out += `- **Distance** : ${city.distance} (${city.travelTime})\n`;
-  out += `- **Quartiers desservis** : ${city.nearbyDistricts.join(', ')}\n`;
-  out += `- **Services les plus demandés** : ${city.topServices.join(', ')}\n\n`;
+  out += `- **URL** : ${BASE}/villes/${city.slug}\n`;
+  out += `- **Distance depuis l'atelier** : ${city.distance} (${city.travelTime})\n`;
+  out += `- **Quartiers desservis** : ${city.nearbyDistricts.join(', ')}\n\n`;
 }
 
 out += `## Marques travaillées
 
-Renault, Peugeot, Citroën, Volkswagen, Audi, BMW, Mercedes, Ford, Opel, Fiat, Toyota, Honda, Nissan, Hyundai, Kia, Mazda, Volvo, Skoda, Seat, Dacia, Mini, Land Rover, Jeep, Porsche.
+${BRANDS}
 
-## Engagements & Garanties
+## Engagements et garanties
 
-- Devis gratuit sous 24h ouvrées
-- Garantie 12 mois pièces et main-d'œuvre (24 mois reprogrammations)
-- Pièces qualité OEM exclusivement
-- Tarifs -30 à -40% vs concession
-- Paiement 3 ou 4 fois sans frais au-delà de 500€
-- Récupération à domicile dans toute la zone Marseille (offerte au-delà de 200€)
-- Compte-rendu écrit systématique
-- Note 4,9/5 sur 127+ avis Google vérifiés
+${ENGAGEMENTS}`;
 
-## Mots-clés sémantiques
+fs.writeFileSync(path.join(ROOT, 'llms-full.txt'), out);
+console.log(`✓ llms-full.txt généré (${Math.round(out.length / 1024)} Ko, ${out.split('\n').length} lignes)`);
 
-garage Marseille, garage Plan-de-Cuques, mécanicien Marseille, reprogrammation moteur, décalaminage hydrogène, nettoyage FAP, gestion panne AdBlue, réparation système SCR, traitement EGR, carrosserie auto, peinture cabine, pare-brise, calibrage ADAS, dépannage auto 7j/7, remorquage Marseille, ouverture véhicule, reproduction clé, location utilitaire, location van aménagé, voiture rallye, occasion certifiée.
+// --------------------------------------------------------------- llms.txt
+let short = `# Garage Boost
+
+> ${SUMMARY}
+
+## Informations clés
+
+${COORDS}
+## Services (tarifs indicatifs)
+
+`;
+for (const [catSlug, cat] of Object.entries(data.categories)) {
+  short += `### ${cat.label}\n\n`;
+  for (const [serviceSlug, service] of Object.entries(cat.services)) {
+    short += `- [${service.name}](${BASE}/${catSlug}/${serviceSlug}) — ${strip(service.price)}\n`;
+  }
+  short += '\n';
+}
+
+short += `## Guides les plus récents
+
+${byModified.slice(0, 12).map(a => `- [${strip(a.title)}](${BASE}/blog/${a.slug}) — ${articleSummary(a)}`).join('\n')}
+- [Tous les guides](${BASE}/blog)
+
+## Zone d'intervention
+
+Métropole Aix-Marseille-Provence et au-delà (Bouches-du-Rhône, Var, Vaucluse, Alpes-Maritimes). ${cities.length} communes avec page dédiée : ${cities.map(c => c.name).join(', ')}.
+
+## Pages principales
+
+${mainPages.map(p => `- [${p.title}](${BASE}${p.url})`).join('\n')}
+
+## Engagements
+
+${ENGAGEMENTS}
+## Plus de détails
+
+Index complet et structuré : [llms-full.txt](${BASE}/llms-full.txt)
 `;
 
-out = out.replace(/\.html/g, ''); // URLs propres (cleanUrls) pour les crawlers IA
-fs.writeFileSync(path.join(ROOT, 'llms-full.txt'), out);
-const size = Math.round(out.length / 1024);
-console.log(`✓ llms-full.txt généré (${size} Ko, ${out.split('\n').length} lignes)`);
+fs.writeFileSync(path.join(ROOT, 'llms.txt'), short);
+console.log(`✓ llms.txt généré (${Math.round(short.length / 1024)} Ko)`);

@@ -1823,6 +1823,25 @@ select.form-control option { background: var(--bg); color: var(--white); }
   margin: 22px 0 8px;
   line-height: 1.25;
 }
+.article-tldr {
+  margin: 0 0 28px;
+  padding: 18px 22px 6px;
+  background: linear-gradient(135deg, rgba(189,227,45,0.10), rgba(189,227,45,0.02));
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-lg, 14px);
+}
+.article-body .article-tldr-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.article-tldr-title i { margin-right: 6px; }
+.article-body .article-tldr p { color: var(--white); }
 .article-body ul, .article-body ol {
   list-style: none;
   margin-bottom: 16px;

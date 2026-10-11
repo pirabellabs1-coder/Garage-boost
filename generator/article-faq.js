@@ -203,6 +203,35 @@ module.exports = {
     { q: "Une housse anti-grêle est-elle efficace ?", a: "Oui si elle comporte une épaisseur de mousse ou des coussins d'air, couvre au moins le capot, le toit et le coffre, et est solidement sanglée contre le vent. Une simple bâche fine protège très peu." },
     { q: "Que faire si la grêle tombe pendant que je roule ?", a: "Ralentissez, cherchez un abri sûr (station-service couverte, parking souterrain) sans jamais vous arrêter sur la bande d'arrêt d'urgence ou sous un pont d'autoroute. À défaut, garez-vous en sécurité, feux de détresse allumés, et restez dans le véhicule." },
     { q: "Quand y a-t-il le plus de grêle en Provence ?", a: "Surtout à la fin du printemps, en été lors des orages de chaleur, et à l'automne quand l'air froid rencontre une Méditerranée encore chaude. Suivre la vigilance orages de Météo-France permet d'anticiper." }
+  ],
+  'climatisation-voiture-recharge-panne-prix': [
+    { q: "Tous les combien faut-il recharger la clim de sa voiture ?", a: "Un circuit de climatisation perd naturellement un peu de gaz chaque année. Une recharge tous les 2 à 3 ans est courante ; si la clim se vide en quelques semaines, il y a une fuite à réparer avant de recharger." },
+    { q: "Combien coûte une recharge de climatisation ?", a: "Chez Garage Boost à Plan-de-Cuques, de 79 à 149 € selon le gaz (R134a ou R1234yf) et la capacité du circuit, avec récupération du gaz, tirage au vide, recharge à la quantité constructeur et contrôle." },
+    { q: "Pourquoi ma clim sent mauvais ?", a: "L'odeur de moisi vient le plus souvent d'un filtre habitacle saturé ou de bactéries sur l'évaporateur. Le remplacement du filtre, idéalement chaque année, et un traitement de l'évaporateur règlent généralement le problème." }
+  ],
+
+  'vidange-voiture-quand-faire-prix': [
+    { q: "Tous les combien de kilomètres faire la vidange ?", a: "Suivez le carnet d'entretien : souvent entre 15 000 et 30 000 km, avec une limite de 1 à 2 ans. En usage urbain intensif ou trajets courts, raccourcissez l'intervalle, par exemple autour de 10 000 à 15 000 km." },
+    { q: "Faire la vidange hors concession fait-il perdre la garantie ?", a: "Non, à condition de respecter le plan d'entretien du constructeur et d'utiliser des pièces et une huile conformes aux normes prescrites. Le garage indépendant complète votre carnet d'entretien." },
+    { q: "Quel est le prix d'une vidange à Plan-de-Cuques ?", a: "Chez Garage Boost, la vidange démarre à 89 €, huile conforme à la norme constructeur et filtre à huile compris. Le prix exact dépend de la quantité et du type d'huile de votre moteur." }
+  ],
+
+  'voiture-ne-demarre-plus-causes': [
+    { q: "Ma voiture fait clic-clic et ne démarre pas, que faire ?", a: "Un cliquetis rapide indique presque toujours une batterie trop faible ou une cosse desserrée. Vérifiez et serrez les cosses, éteignez tous les consommateurs, puis tentez un démarrage avec câbles ou booster ; si ça ne repart pas, appelez un dépanneur." },
+    { q: "Le moteur tourne mais ne démarre pas, pourquoi ?", a: "Le démarreur fonctionne, donc la batterie est probablement correcte. Les causes fréquentes sont le carburant (panne sèche, pompe, filtre), le préchauffage sur diesel, l'allumage sur essence, l'antidémarrage ou le capteur de vilebrequin. Un diagnostic électronique les identifie rapidement." },
+    { q: "Combien coûte un dépannage autour de Marseille ?", a: "Garage Boost facture 89 € un dépannage local de moins de 10 km autour de Plan-de-Cuques et 149 € un remorquage jusqu'à 25 km, avec majoration la nuit, le dimanche et les jours fériés." }
+  ],
+
+  'rayure-carrosserie-reparer-prix': [
+    { q: "Comment savoir si une rayure part au polish ?", a: "Faites le test de l'ongle : s'il glisse sans accrocher, la rayure ne touche que le vernis et un polissage professionnel suffit souvent. S'il accroche ou si une autre couleur apparaît, il faut une retouche ou une peinture localisée." },
+    { q: "Combien coûte la réparation d'une rayure profonde ?", a: "Chez Garage Boost, une retouche localisée coûte de 90 à 290 € et la peinture d'un élément complet (aile, porte) de 290 à 490 €, teinte exacte constructeur et garantie 24 mois." },
+    { q: "Une rayure de vandalisme est-elle remboursée par l'assurance ?", a: "Elle peut l'être par la garantie vandalisme ou dommages tous accidents, généralement après dépôt de plainte, déduction faite de la franchise. Pour une petite rayure, comparez le coût de la réparation et la franchise avant de déclarer." }
+  ],
+
+  'moteur-qui-chauffe-causes-que-faire': [
+    { q: "Que faire si l'aiguille de température monte dans le rouge ?", a: "Coupez la climatisation, mettez le chauffage à fond si vous ne pouvez pas vous arrêter tout de suite, puis arrêtez-vous en sécurité et coupez le moteur. N'ouvrez jamais le bouchon du vase d'expansion à chaud." },
+    { q: "Pourquoi ma voiture chauffe dans les bouchons mais pas sur route ?", a: "C'est le signe typique d'un motoventilateur qui ne s'enclenche plus (fusible, relais, sonde ou moteur du ventilateur). En roulant, l'air traverse le radiateur et compense ; à l'arrêt, plus rien ne refroidit." },
+    { q: "Peut-on rouler avec un moteur qui chauffe ?", a: "Non. Rouler en surchauffe peut déformer la culasse et endommager le joint de culasse, une réparation lourde. Laissez refroidir, contrôlez le niveau de liquide moteur froid et faites diagnostiquer le circuit." }
   ]
 
 };

@@ -1,70 +1,96 @@
-# Garage Boost Marseille
+# Garage Boost
 
-> Garage automobile indépendant à Plan-de-Cuques (13380 Marseille) spécialisé en maintenance moteur, anti-pollution, reprogrammation moteur, carrosserie, dépannage 7j/7 et location de véhicules. Toutes marques.
+> Garage Boost est un garage automobile indépendant situé à Plan-de-Cuques (13380), commune limitrophe de Marseille (Bouches-du-Rhône). Il réalise l'entretien et la réparation toutes marques : maintenance moteur et anti-pollution, reprogrammation, mécanique générale, carrosserie et débosselage grêle, dépannage, et propose la location de véhicules.
 
 ## Informations clés
 
-- **Nom** : Garage Boost Marseille
-- **Adresse** : 1 Avenue des Pères Blancs, 13380 Plan-de-Cuques, France
-- **Téléphone** : 06 63 21 63 50 (+33 6 63 21 63 50)
-- **Email** : masgarage7@gmail.com
+- **Nom** : Garage Boost
+- **Adresse** : 1 Avenue des Pères Blancs, 13380 Plan-de-Cuques, France (à environ 15 minutes du centre de Marseille)
+- **Téléphone** : +33 6 63 21 63 50
 - **WhatsApp** : https://wa.me/33663216350
-- **Horaires** : Lundi à samedi, 8h à 19h (dépannage 7j/7)
+- **Email** : masgarage7@gmail.com
+- **Horaires atelier** : du lundi au samedi, 8h-19h ; dépannage 7j/7
 - **Coordonnées GPS** : 43.3486, 5.4632
-- **Note Google** : 4,9/5 (127+ avis vérifiés)
-- **Année d'expérience** : 10+ ans
-- **Véhicules réparés** : 5 000+
+- **Note Google** : 4,9/5 (127 avis)
 
-## Spécialités principales
+## Services (tarifs indicatifs)
 
-1. **Reprogrammation moteur** Stage 1 et Stage 2 — cartos développées en interne, garantie 24 mois (350-990€)
-2. **Décalaminage hydrogène** — nettoyage moteur sans démontage en 60-90 min, écologique (89-149€)
-3. **Nettoyage FAP, EGR, catalyseur** — alternative au remplacement neuf (-70% économie) (180-650€)
-4. **Diagnostic moteur électronique** multimarque — OBD2 + valise constructeur (49€, offert si validé)
-5. **Carrosserie & peinture cabine** — toutes assurances acceptées (90-3490€)
-6. **Pare-brise** — réparation 49€ ou remplacement avec calibrage ADAS inclus (290-590€)
-7. **Mécanique générale** — vidange, freins, distribution, embrayage (89-990€)
-8. **Dépannage & remorquage 7j/7** — intervention 30-60 min en zone proche (89-149€)
-9. **Location véhicules** — citadines, utilitaires, vans aménagés, voitures de rallye (39-99€/jour)
+### Maintenance moteur & anti-pollution
 
-## Marques travaillées
+- [Diagnostic moteur](https://garageboost.fr/maintenance-moteur/diagnostic-moteur) — Dès 49 €
+- [Décalaminage hydrogène](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene) — Dès 89 €
+- [Nettoyage FAP](https://garageboost.fr/maintenance-moteur/nettoyage-fap) — 250 - 650 €
+- [Nettoyage catalyseur](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur) — Dès 290 €
+- [Reprogrammation moteur](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur) — 350 - 990 €
+- [Gestion AdBlue](https://garageboost.fr/maintenance-moteur/gestion-adblue) — 90 - 690 €
+- [Traitement EGR & injecteurs](https://garageboost.fr/maintenance-moteur/traitement-egr) — 180 - 290 €
+- [Voyants moteur](https://garageboost.fr/maintenance-moteur/voyants-moteur) — Dès 49 €
 
-Renault, Peugeot, Citroën, Volkswagen, Audi, BMW, Mercedes, Ford, Opel, Fiat, Toyota, Honda, Nissan, Hyundai, Kia, Mazda, Volvo, Skoda, Seat, Dacia, Mini, Land Rover, Jeep, Porsche. Toutes motorisations (essence, diesel, hybride léger, hybride rechargeable).
+### Entretien & assistance
 
-## Zones d'intervention
+- [Mécanique générale](https://garageboost.fr/entretien-assistance/mecanique-generale) — Dès 89 €
+- [Électricité automobile](https://garageboost.fr/entretien-assistance/electricite-automobile) — 59 €/h
+- [Dépannage & remorquage](https://garageboost.fr/entretien-assistance/depannage-remorquage) — 89 - 149 €
+- [Dépannage scooter](https://garageboost.fr/entretien-assistance/depannage-scooter) — Dès 69 €
+- [Ouverture de véhicule](https://garageboost.fr/entretien-assistance/ouverture-vehicule) — Dès 89 €
+- [Reproduction de clés](https://garageboost.fr/entretien-assistance/reproduction-cles) — 89 - 290 €
+- [Enlèvement d'épaves](https://garageboost.fr/entretien-assistance/enlevement-epaves) — Sur devis
 
-Métropole Aix-Marseille-Provence et au-delà (Bouches-du-Rhône 13, Var 83, Vaucluse 84, Alpes-Maritimes 06).
+### Carrosserie
 
-**50 communes avec page dédiée** : Marseille, Plan-de-Cuques, Allauch, Aubagne, La Ciotat, Cassis, Septèmes-les-Vallons, Les Pennes-Mirabeau, Vitrolles, Marignane, Cabriès, Bouc-Bel-Air, Gardanne, Aix-en-Provence, Salon-de-Provence, Martigues, Saint-Maximin-la-Sainte-Baume, Toulon, Istres, Roquevaire, Auriol, Gémenos, La Penne-sur-Huveaune, Carnoux-en-Provence, Simiane-Collongue, Fuveau, Trets, Venelles, Pertuis, Berre-l'Étang, Pélissanne, Lançon-Provence, Miramas, Châteauneuf-les-Martigues, Rognac, Roquefort-la-Bédoule, Cuges-les-Pins, Rousset, Meyreuil, Saint-Chamas, Eyguières, Sénas, Port-de-Bouc, Fos-sur-Mer, Sausset-les-Pins, Carry-le-Rouet, Gignac-la-Nerthe, Saint-Victoret, Velaux, Brignoles.
+- [Carrosserie auto](https://garageboost.fr/carrosserie/carrosserie-auto) — 90 - 890 €
+- [Débosselage grêle](https://garageboost.fr/carrosserie/debosselage-grele) — 90 - 4 900 €
+- [Peinture automobile](https://garageboost.fr/carrosserie/peinture-automobile) — 290 - 3490 €
+- [Pare-brise](https://garageboost.fr/carrosserie/pare-brise) — 49 - 590 €
 
-## Engagements
+### Location de véhicules
 
-- Devis gratuit sous 24 heures ouvrées
-- Garantie 12 mois sur toutes interventions (24 mois reprogrammation)
-- Pièces qualité OEM exclusivement (Bosch, Valeo, Delphi, Continental, Mahle, Sachs)
-- Tarifs -30 à -40% vs concession à qualité égale
-- Paiement 3 ou 4 fois sans frais au-delà de 500€
-- Récupération à domicile gratuite au-delà de 200€ d'intervention
-- Compte-rendu écrit à chaque intervention
-- Transparence totale sur les devis (validation écrite avant tout démarrage)
+- [Location citadines](https://garageboost.fr/location/citadines) — Dès 39 €/j
+- [Location utilitaires](https://garageboost.fr/location/utilitaires) — 49 - 79 €/j
+- [Location van aménagé](https://garageboost.fr/location/vans-amenages) — Dès 99 €/j
+- [Location voiture rallye](https://garageboost.fr/location/voiture-rallye) — Sur devis
+- [Véhicules d'occasion](https://garageboost.fr/location/vehicules-occasion) — Variable
+
+## Guides les plus récents
+
+- [Voiture grêlée : que faire ? Le guide étape par étape](https://garageboost.fr/blog/voiture-grelee-que-faire) — Après la grêle : photographiez les dégâts en lumière rasante, déclarez le sinistre à votre assureur dans le délai du contrat (au moins 5 jours ouvrés), puis faites établir un devis par élément. Avec une garantie grêle, l'assureur paie la réparation hors franchise, et vous choisissez librement votre garage.
+- [Grêle sur votre voiture : l'assurance paie-t-elle ? Garanties, franchise, expert](https://garageboost.fr/blog/grele-voiture-assurance-indemnisation) — La grêle est couverte par la garantie tempête-grêle-neige ou événements climatiques (tous risques et certaines formules intermédiaires), pas par le tiers simple. Il reste la franchise à payer, sans malus, et sans besoin d'arrêté de catastrophe naturelle.
+- [Débosselage sans peinture après grêle : technique, prix et délais](https://garageboost.fr/blog/debosselage-sans-peinture-grele-prix) — Le débosselage sans peinture repousse chaque impact de grêle par l'intérieur ou le tire par collage, sans repeindre. Le prix se calcule par élément selon le nombre et la taille des impacts : quelques centaines d'euros pour des bosses isolées, plusieurs milliers pour un véhicule très grêlé.
+- [Protéger sa voiture de la grêle : 8 réflexes efficaces](https://garageboost.fr/blog/proteger-voiture-grele) — Pour protéger sa voiture de la grêle : suivre la vigilance orages de Météo-France, l'abriter sous un toit dès l'alerte, à défaut utiliser une housse anti-grêle rembourrée, et vérifier avant la saison que son contrat couvre la grêle.
+- [Clim de voiture : recharge, pannes et prix à Marseille](https://garageboost.fr/blog/climatisation-voiture-recharge-panne-prix) — Une clim perd naturellement un peu de gaz chaque année : une recharge tous les 2 à 3 ans est courante. Air tiède = manque de gaz dans la majorité des cas ; mauvaise odeur = filtre habitacle ou évaporateur encrassé. Chez Garage Boost, la recharge de climatisation coûte de 79 à 149 € selon le gaz et le véhicule. La manipulation des fluides frigorigènes est réservée aux professionnels équipés et habilités.
+- [Vidange de voiture : quand la faire et combien ça coûte ?](https://garageboost.fr/blog/vidange-voiture-quand-faire-prix) — La bonne fréquence est celle du carnet d'entretien de votre véhicule : souvent entre 15 000 et 30 000 km, et au minimum tous les 1 à 2 ans. En usage urbain intensif (trajets courts, bouchons), il est prudent de raccourcir l'intervalle . L'huile doit respecter la norme constructeur , pas seulement la viscosité (5W30, 0W20…). Chez Garage Boost, la vidange démarre à 89 € , filtre à huile compris.
+- [Voiture qui ne démarre plus : 8 causes et que faire](https://garageboost.fr/blog/voiture-ne-demarre-plus-causes) — Rien ne s'allume ou un « clic-clic » rapide : batterie très faible ou cosse desserrée, dans la majorité des cas. Un seul « clac » sec , tableau de bord allumé : démarreur ou son solénoïde. Le moteur tourne mais ne part pas : carburant, allumage, préchauffage (diesel) ou antidémarrage. Ne vous acharnez pas sur le démarreur : au-delà de 3 ou 4 tentatives, vous videz la batterie et pouvez aggraver la panne.
+- [Rayure sur la carrosserie : polish, retouche ou peinture ?](https://garageboost.fr/blog/rayure-carrosserie-reparer-prix) — Test de l'ongle : si l'ongle n'accroche pas, la rayure ne touche que le vernis et se rattrape souvent au polissage. Si l'ongle accroche ou si l'on voit une couleur différente (blanc, gris), la base ou l'apprêt est touché : retouche ou peinture localisée. Tôle à nu : il faut agir vite pour éviter la rouille. Chez Garage Boost, une retouche localisée coûte de 90 à 290 € , une peinture d'élément de 290 à 490 €.
+- [Moteur qui chauffe : causes, risques et bons réflexes](https://garageboost.fr/blog/moteur-qui-chauffe-causes-que-faire) — Aiguille dans le rouge ou voyant de température : arrêtez-vous dès que possible en sécurité et coupez le moteur. N'ouvrez jamais le bouchon du vase d'expansion moteur chaud : risque de brûlure grave. Causes fréquentes : manque de liquide (fuite), thermostat bloqué, ventilateur ou pompe à eau défaillants. Rouler en surchauffe peut endommager le joint de culasse , une réparation lourde.
+- [Décalaminage hydrogène : le guide complet 2026](https://garageboost.fr/blog/decalaminage-hydrogene-guide-complet) — Le décalaminage hydrogène nettoie la calamine du moteur sans démontage, en 60 à 90 minutes. Chez Garage Boost à Plan-de-Cuques, il coûte de 89 à 149 € selon la cylindrée ; il est surtout utile sur les diesels à usage urbain et les essence à injection directe au-delà de 60 000 à 80 000 km.
+- [Nettoyage FAP : 5 méthodes comparées + prix réels 2026](https://garageboost.fr/blog/nettoyage-fap-methodes-comparees) — Un FAP saturé se nettoie dans la grande majorité des cas au lieu d'être remplacé (1 500 € et plus). La régénération chimique sans démontage coûte dès 250 € ; le démontage avec bain ultrason, de 390 à 650 €, récupère même les filtres très colmatés.
+- [Reprogrammation moteur Stage 1 : tout ce qu'il faut vraiment savoir](https://garageboost.fr/blog/reprogrammation-moteur-stage-1-tout-savoir) — Une reprogrammation Stage 1 modifie la cartographie moteur pour gagner du couple et de la puissance, sans pièce supplémentaire. Elle coûte de 350 à 690 € chez Garage Boost, avec sauvegarde de la cartographie d'origine ; elle modifie les caractéristiques du véhicule et doit être déclarée à votre assureur.
+- [Tous les guides](https://garageboost.fr/blog)
+
+## Zone d'intervention
+
+Métropole Aix-Marseille-Provence et au-delà (Bouches-du-Rhône, Var, Vaucluse, Alpes-Maritimes). 66 communes avec page dédiée : Marseille, Plan-de-Cuques, Allauch, Aubagne, La Ciotat, Cassis, Septèmes-les-Vallons, Les Pennes-Mirabeau, Vitrolles, Marignane, Cabriès, Bouc-Bel-Air, Gardanne, Aix-en-Provence, Salon-de-Provence, Martigues, Saint-Maximin-la-Sainte-Baume, Toulon, Istres, Roquevaire, Auriol, Gémenos, La Penne-sur-Huveaune, Carnoux-en-Provence, Simiane-Collongue, Fuveau, Trets, Venelles, Pertuis, Berre-l'Étang, Pélissanne, Lançon-Provence, Miramas, Châteauneuf-les-Martigues, Rognac, Roquefort-la-Bédoule, Cuges-les-Pins, Rousset, Meyreuil, Saint-Chamas, Eyguières, Sénas, Port-de-Bouc, Fos-sur-Mer, Sausset-les-Pins, Carry-le-Rouet, Gignac-la-Nerthe, Saint-Victoret, Velaux, Brignoles, Peypin, La Bouilladisse, Saint-Savournin, Gréasque, Mimet, La Destrousse, Ceyreste, Saint-Zacharie, Ensuès-la-Redonne, Éguilles, Ventabren, Saint-Cannat, Peyrolles-en-Provence, Le Puy-Sainte-Réparade, Rognes, Lambesc.
 
 ## Pages principales
 
 - [Accueil](https://garageboost.fr/)
-- [Tarifs détaillés](https://garageboost.fr/tarifs.html)
-- [Prise de rendez-vous](https://garageboost.fr/rendez-vous.html)
-- [Contact](https://garageboost.fr/contact.html)
-- [FAQ](https://garageboost.fr/faq.html)
-- [Toutes les villes desservies](https://garageboost.fr/villes.html)
+- [Tarifs](https://garageboost.fr/tarifs)
+- [Prise de rendez-vous](https://garageboost.fr/rendez-vous)
+- [Contact](https://garageboost.fr/contact)
+- [FAQ](https://garageboost.fr/faq)
+- [Villes desservies](https://garageboost.fr/villes)
+- [Blog](https://garageboost.fr/blog)
 
-## Catégories de services
+## Engagements
 
-- [Maintenance moteur & anti-pollution](https://garageboost.fr/maintenance-moteur.html)
-- [Entretien & assistance](https://garageboost.fr/entretien-assistance.html)
-- [Carrosserie & peinture](https://garageboost.fr/carrosserie.html)
-- [Débosselage grêle : voiture grêlée, DSP, dossier assurance](https://garageboost.fr/carrosserie/debosselage-grele.html)
-- [Location de véhicules](https://garageboost.fr/location.html)
+- Devis gratuit sous 24 heures ouvrées, validation écrite avant toute intervention
+- Garantie 12 mois pièces et main-d'œuvre (24 mois sur les reprogrammations et la peinture)
+- Pièces qualité d'origine ou équivalente
+- Paiement en 3 ou 4 fois sans frais au-delà de 500 €
+- Récupération du véhicule à domicile, offerte au-delà de 200 € d'intervention
+- Entretien en garage indépendant sans perte de la garantie constructeur (plan d'entretien respecté)
+- Pas de suppression ni de désactivation d'organes antipollution (AdBlue, FAP, EGR) : diagnostic et réparation uniquement
 
 ## Plus de détails
 
-Pour une vue complète et structurée du site, consultez [llms-full.txt](https://garageboost.fr/llms-full.txt).
+Index complet et structuré : [llms-full.txt](https://garageboost.fr/llms-full.txt)

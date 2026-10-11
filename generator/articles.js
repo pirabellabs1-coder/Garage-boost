@@ -256,6 +256,7 @@ module.exports = [
   // 3. PILLAR — Reprogrammation
   {
     slug: 'reprogrammation-moteur-stage-1-tout-savoir',
+    seoTitle: "Reprogrammation Stage 1 : le guide",
     title: 'Reprogrammation moteur Stage 1 : tout ce qu\'il faut vraiment savoir',
     excerpt: "+25% de couple, -1L/100km : la reprogrammation Stage 1 fait rêver. Mais qu'en est-il vraiment ? Légalité, fiabilité, gains réels, prix. Le décryptage honnête.",
     metaDesc: "Reprogrammation moteur Stage 1 : principe, gains réels, légalité en France 2026, impact sur fiabilité et garantie, tarifs. Le guide complet et honnête.",
@@ -329,7 +330,7 @@ module.exports = [
 
 <ol>
 <li>La reprogrammation moteur est <strong>légale en elle-même</strong> — aucune loi ne l'interdit explicitement.</li>
-<li>Elle est <strong>tolérée sur route</strong> à condition que le véhicule respecte les seuils de pollution Euro de sa catégorie d'origine.</li>
+<li>Elle <strong>modifie les caractéristiques du véhicule</strong> : sur route, celui-ci doit continuer à respecter les seuils de pollution de sa catégorie d'origine, et une hausse de puissance relève en principe d'une nouvelle homologation.</li>
 <li>Elle doit théoriquement être <strong>déclarée à votre assureur</strong> (modification du véhicule). En pratique, peu le font, mais en cas de sinistre, la compagnie peut invoquer une non-déclaration.</li>
 <li>Le service des Mines (DRIRE/DREAL) doit théoriquement valider toute modification de puissance. Pour le Stage 1 sans modification matérielle, l'application reste floue et peu contrôlée.</li>
 <li>Au <strong>contrôle technique</strong>, l'opacité des fumées est mesurée. Une cartographie bien faite respecte les seuils Euro et passe sans problème.</li>
@@ -581,6 +582,7 @@ module.exports = [
   // 7. Voiture qui consomme trop
   {
     slug: 'voiture-consomme-trop-12-raisons',
+    seoTitle: "Voiture qui consomme trop : 12 causes",
     title: 'Voiture qui consomme trop : 12 raisons et solutions concrètes',
     excerpt: "+1L/100km sans raison apparente ? Voici les 12 causes les plus fréquentes de surconsommation, avec leur impact chiffré et la solution.",
     metaDesc: "12 causes de surconsommation auto : encrassement, FAP, sondes, pneus, conduite. Diagnostic et solutions chiffrées 2026.",
@@ -839,6 +841,7 @@ module.exports = [
   // 12. Garage indépendant vs concession
   {
     slug: 'garage-independant-vs-concession',
+    seoTitle: "Garage indépendant ou concession ?",
     title: 'Garage indépendant vs concessionnaire : -40% pour quelle qualité ?',
     excerpt: "Les garages indépendants annoncent -30 à -40% sur les prestations. Mythe ou réalité ? Notre analyse honnête, qualité et garanties incluses.",
     metaDesc: "Garage indépendant ou concessionnaire : comparatif des prix, qualité, garanties, pièces. Le guide pour faire le bon choix en 2026.",
@@ -1170,6 +1173,7 @@ module.exports = [
   // 17. Hydrogène en mécanique
   {
     slug: 'hydrogene-mecanique-revolution-propre',
+    seoTitle: "Hydrogène et décalaminage : le principe",
     title: 'L\'hydrogène en mécanique : la révolution écologique du décalaminage',
     excerpt: "Pourquoi l'hydrogène révolutionne le nettoyage moteur ? Principe scientifique, avantages écologiques et limites. Le décryptage technique.",
     metaDesc: "L'hydrogène en mécanique automobile : décarbonisation moteur, principe HHO, avantages écologiques. Le guide technique 2026.",
@@ -1308,6 +1312,7 @@ module.exports = [
   // 19. Calibrage ADAS
   {
     slug: 'calibrage-adas-pare-brise',
+    seoTitle: "Calibrage ADAS après changement de pare-brise",
     title: 'Calibrage ADAS : pourquoi c\'est crucial après remplacement pare-brise',
     excerpt: "Caméra de régulateur, freinage d'urgence, lecture panneaux : ces aides nécessitent un calibrage après remplacement pare-brise. Sinon, danger.",
     metaDesc: "Calibrage ADAS après remplacement pare-brise : pourquoi c'est obligatoire, méthodes (statique/dynamique), tarifs.",
@@ -1375,6 +1380,7 @@ module.exports = [
   // 20. Garage Boost (about)
   {
     slug: 'garage-boost-10-ans-plan-de-cuques',
+    seoTitle: "Garage Boost, garage à Plan-de-Cuques",
     title: 'Garage Boost : 10 ans au service des automobilistes de Plan-de-Cuques',
     excerpt: "L'histoire de Garage Boost, son équipe, sa philosophie. Pourquoi tant de Marseillais nous confient leur véhicule depuis 10 ans.",
     metaDesc: "Garage Boost à Plan-de-Cuques : histoire, équipe, philosophie, services. Pourquoi nous sommes le garage automobile de référence à Marseille.",
@@ -1555,6 +1561,7 @@ module.exports = [
   // ===================== NOUVEAUX ARTICLES — LOT B =====================
   {
     slug: 'batterie-voiture-signes-faiblesse-duree-vie',
+    seoTitle: "Batterie voiture : signes de faiblesse",
     title: "Batterie de voiture : signes de faiblesse, durée de vie et entretien",
     excerpt: "Comment savoir si votre batterie est en fin de vie ? Signes de faiblesse, durée de vie réelle, causes de défaillance et conseils pour éviter la panne à Marseille.",
     metaDesc: "Batterie de voiture : reconnaître les signes de faiblesse, durée de vie réelle, causes de panne (chaleur, courts trajets) et comment l'entretenir. Guide pratique Marseille.",
@@ -1597,6 +1604,7 @@ module.exports = [
 
   {
     slug: 'controle-avant-achat-voiture-occasion',
+    seoTitle: "Contrôle avant achat d'une occasion",
     title: "Voiture d'occasion : le contrôle avant achat qui évite les pièges",
     excerpt: "Acheter une voiture d'occasion sans se faire avoir : les points à vérifier absolument, les signaux d'alerte et l'intérêt d'un contrôle professionnel avant achat à Marseille.",
     metaDesc: "Voiture d'occasion : le guide du contrôle avant achat. Moteur, distribution, embrayage, carrosserie, électronique, kilométrage, documents : tout vérifier pour éviter les pièges.",
@@ -1747,6 +1755,7 @@ module.exports = [
   // 27. Grêle et assurance
   {
     slug: 'grele-voiture-assurance-indemnisation',
+    seoTitle: "Grêle et assurance auto : qui paie ?",
     title: "Grêle sur votre voiture : l'assurance paie-t-elle ? Garanties, franchise, expert",
     excerpt: "Tous risques, tiers, franchise, malus, catastrophe naturelle, indemnisation sans réparation, véhicule irréparable : ce que votre assurance couvre vraiment après un épisode de grêle.",
     metaDesc: "Grêle et assurance auto : quelle garantie couvre les dégâts, quelle franchise reste à payer, pas de malus, libre choix du garage, rôle de l'expert. Toutes les réponses claires.",
@@ -1812,6 +1821,7 @@ module.exports = [
   // 28. DSP grêle : technique, prix, délais
   {
     slug: 'debosselage-sans-peinture-grele-prix',
+    seoTitle: "Débosselage sans peinture : prix, délais",
     title: "Débosselage sans peinture après grêle : technique, prix et délais",
     excerpt: "Comment un débosseleur efface-t-il des dizaines d'impacts de grêle sans repeindre ? Tiges, collage-traction, chiffrage par élément, prix indicatifs et durée d'immobilisation.",
     metaDesc: "Débosselage sans peinture (DSP) après grêle : comment ça marche, quand c'est possible, comment se calcule le prix (nombre et taille des impacts), combien de temps. Explications d'atelier.",
@@ -1906,6 +1916,313 @@ module.exports = [
 
 <h2>Une voiture grêlée près de Marseille ?</h2>
 <p>Notre atelier de Plan-de-Cuques prend en charge les véhicules grêlés de toute la métropole Aix-Marseille : diagnostic des impacts, devis élément par élément, échange avec l'expert de votre assurance et <a href="../carrosserie/debosselage-grele.html">débosselage sans peinture</a>. Envoyez vos photos sur WhatsApp au <strong>06 63 21 63 50</strong> ou <a href="../rendez-vous.html">prenez rendez-vous en ligne</a>.</p>
+`
+  },
+  // =====================================================================
+  // LOT OCT. 2026 — sujets d'entretien à forte demande locale
+  // =====================================================================
+
+  // 30. Climatisation
+  {
+    slug: 'climatisation-voiture-recharge-panne-prix',
+    title: "Clim de voiture : recharge, pannes et prix à Marseille",
+    excerpt: "Clim qui souffle tiède, mauvaise odeur, bruit au démarrage du compresseur ? Recharge, fuite, filtre habitacle, gaz R134a ou R1234yf : comment ça marche et combien ça coûte.",
+    metaDesc: "Climatisation auto : quand faire la recharge, symptômes de panne (air tiède, odeur, bruit), gaz R134a vs R1234yf, prix d'une recharge de clim à Marseille et Plan-de-Cuques.",
+    keywords: 'recharge clim voiture Marseille, prix recharge climatisation auto, clim voiture souffle chaud, gaz R1234yf recharge, entretien climatisation voiture',
+    category: 'Mécanique',
+    cover: COVERS.service,
+    coverAlt: "Voiture garée en plein soleil en Provence",
+    datePublished: '2026-10-11',
+    dateModified: '2026-10-11',
+    readTime: 8,
+    related: ['preparer-voiture-ete-chaleur-marseille', 'prix-revision-auto-marseille', 'economiser-1000-euros-an-entretien'],
+    content: `
+<p>À Marseille, une climatisation qui ne refroidit plus n'est pas un simple inconfort : avec un habitacle qui dépasse facilement 50 °C en plein été sur un parking, c'est aussi une question de vigilance au volant et de santé pour les enfants ou les personnes âgées. Bonne nouvelle : la grande majorité des pannes de clim auto ont une cause simple, et l'entretien régulier évite les réparations coûteuses. Voici comment fonctionne votre climatisation, comment reconnaître une panne, et ce que coûte une recharge.</p>
+
+<h2>En bref</h2>
+<ul>
+<li>Une clim perd naturellement un peu de gaz chaque année : une <strong>recharge tous les 2 à 3 ans</strong> est courante.</li>
+<li>Air tiède = manque de gaz dans la majorité des cas ; mauvaise odeur = filtre habitacle ou évaporateur encrassé.</li>
+<li>Chez Garage Boost, la recharge de climatisation coûte de <strong>79 à 149 €</strong> selon le gaz et le véhicule.</li>
+<li>La manipulation des fluides frigorigènes est réservée aux professionnels équipés et habilités.</li>
+</ul>
+
+<h2>Comment fonctionne la climatisation d'une voiture ?</h2>
+<p>Votre climatisation est un circuit fermé dans lequel circule un <strong>gaz frigorigène</strong>. Le compresseur, entraîné par le moteur, comprime ce gaz qui s'échauffe ; il traverse ensuite le condenseur, placé à l'avant du véhicule devant le radiateur, où il se refroidit et se liquéfie. Le fluide passe par un détendeur, puis par l'évaporateur, caché derrière la planche de bord : en se vaporisant, il absorbe la chaleur de l'air qui est soufflé dans l'habitacle. Un filtre déshydrateur retient l'humidité du circuit, et un filtre habitacle purifie l'air entrant.</p>
+<p>Ce circuit n'est jamais parfaitement étanche : les raccords et joints laissent échapper une petite quantité de gaz au fil du temps. Quand la charge devient insuffisante, le système refroidit moins bien, puis le compresseur peut cesser de s'enclencher pour se protéger.</p>
+
+<h2>Les symptômes d'une clim qui a besoin d'entretien</h2>
+<ul>
+<li><strong>L'air souffle tiède</strong> ou met longtemps à refroidir : signe classique d'un manque de gaz.</li>
+<li><strong>Mauvaise odeur</strong> (humidité, moisi) au démarrage de la ventilation : filtre habitacle saturé ou bactéries sur l'évaporateur.</li>
+<li><strong>Buée persistante</strong> sur le pare-brise : la clim sert aussi à assécher l'air ; si elle fonctionne mal, le désembuage est lent.</li>
+<li><strong>Bruit ou claquement</strong> à l'enclenchement : compresseur ou embrayage de compresseur fatigué.</li>
+<li><strong>Flaque sous le véhicule</strong> : de l'eau claire sous le moteur à l'arrêt est normale (condensation) ; une trace grasse et colorée ne l'est pas.</li>
+</ul>
+
+<h2>Recharge, contrôle d'étanchéité, réparation : ce que fait l'atelier</h2>
+<p>Une recharge sérieuse ne consiste pas à « remettre du gaz ». La station de climatisation <strong>récupère d'abord le gaz restant</strong>, le pèse, puis <strong>tire le circuit au vide</strong> pendant plusieurs minutes : cette étape élimine l'humidité et permet de vérifier que le circuit tient le vide, donc qu'il n'a pas de fuite importante. Le gaz neuf est ensuite injecté à la quantité exacte prescrite par le constructeur (indiquée sur une étiquette sous le capot), avec la bonne dose d'huile de compresseur. On termine par un contrôle des pressions et de la température de l'air soufflé aux aérateurs.</p>
+<p>Si le circuit ne tient pas le vide ou si la clim se vide à nouveau en quelques semaines, il y a une fuite à localiser : condenseur percé par un gravillon (fréquent car il est en première ligne à l'avant), raccord ou joint usé, flexible poreux. Dans ce cas, la réparation de la pièce en cause précède la recharge, sinon le gaz repartira dans l'atmosphère.</p>
+
+<h2>R134a ou R1234yf : pourquoi le prix varie</h2>
+<p>Deux gaz équipent la quasi-totalité du parc. Le <strong>R134a</strong> se trouve sur les véhicules plus anciens. Le <strong>R1234yf</strong>, nettement moins nocif pour le climat, l'a remplacé sur les véhicules récents en application de la réglementation européenne. Ce gaz plus récent coûte sensiblement plus cher, ce qui explique l'écart de prix d'une recharge d'un véhicule à l'autre. Les deux circuits ne sont pas interchangeables : l'atelier utilise le gaz d'origine prévu pour votre voiture.</p>
+
+<h2>Combien coûte l'entretien de la clim ?</h2>
+<p>Chez Garage Boost, la <strong>recharge de climatisation</strong> (récupération, tirage au vide, recharge à la bonne quantité, contrôle) est facturée de <strong>79 à 149 €</strong> selon le type de gaz et la capacité du circuit. Le remplacement du <strong>filtre habitacle</strong>, à faire en principe chaque année ou tous les 15 000 km environ, est un petit poste qui change beaucoup la qualité de l'air, surtout en ville. Si une fuite ou une pièce défectueuse est détectée, nous vous envoyons un devis avant toute réparation.</p>
+
+<h2>Nos conseils pour une clim efficace et durable</h2>
+<ul>
+<li><strong>Faites tourner la clim quelques minutes chaque semaine</strong>, même en hiver : l'huile lubrifie les joints et le compresseur, ce qui limite les fuites.</li>
+<li><strong>Aérez avant de climatiser</strong> une voiture restée au soleil : ouvrez les vitres une minute en roulant, puis fermez et lancez la clim.</li>
+<li><strong>Évitez les écarts extrêmes</strong> : viser 5 à 7 °C de moins que la température extérieure suffit au confort et limite les chocs thermiques.</li>
+<li><strong>Coupez la clim une à deux minutes avant d'arriver</strong> en laissant la ventilation : l'évaporateur sèche et les odeurs se forment moins.</li>
+<li><strong>Méfiez-vous des bombes de recharge</strong> vendues en ligne : sans tirage au vide ni dosage précis, on risque de surcharger le circuit ou d'y introduire de l'humidité.</li>
+</ul>
+
+<h2>Faire vérifier sa clim à Plan-de-Cuques</h2>
+<p>Notre atelier réalise la recharge et le diagnostic de climatisation sur toutes marques, dans le cadre de notre <a href="../entretien-assistance/mecanique-generale.html">mécanique générale</a>. Avant l'été, ou dès que l'air souffle tiède, appelez-nous au <strong>06 63 21 63 50</strong> ou <a href="../rendez-vous.html">réservez un créneau en ligne</a>. Pour aller plus loin, consultez aussi notre article <a href="../blog/preparer-voiture-ete-chaleur-marseille.html">préparer sa voiture à la chaleur marseillaise</a>.</p>
+`
+  },
+
+  // 31. Vidange
+  {
+    slug: 'vidange-voiture-quand-faire-prix',
+    title: "Vidange de voiture : quand la faire et combien ça coûte ?",
+    excerpt: "Tous les combien faire la vidange ? Quelle huile choisir ? Que comprend une vidange et pourquoi le prix varie ? Les réponses claires, avec les intervalles constructeurs et nos tarifs.",
+    metaDesc: "Vidange auto : à quelle fréquence (km et années), quelle huile selon la norme constructeur, ce que comprend la prestation, signes d'une vidange en retard et prix dès 89 € à Plan-de-Cuques.",
+    keywords: 'vidange voiture prix Marseille, quand faire la vidange, fréquence vidange moteur, vidange Plan-de-Cuques, quelle huile moteur choisir',
+    category: 'Mécanique',
+    cover: COVERS.paint,
+    coverAlt: "Mécanicien travaillant sous le capot d'une voiture en atelier",
+    datePublished: '2026-10-11',
+    dateModified: '2026-10-11',
+    readTime: 8,
+    related: ['prix-revision-auto-marseille', 'economiser-1000-euros-an-entretien', 'distribution-moteur-quand-changer'],
+    content: `
+<p>La vidange est l'opération d'entretien la plus courante et l'une des plus importantes pour la longévité de votre moteur. Pourtant, entre les « vidanges tous les 10 000 km » de nos parents, les intervalles « longue durée » de 30 000 km affichés par certains constructeurs et les promotions agressives, il est difficile de savoir quand la faire et ce qu'on doit payer. Ce guide remet les choses à plat.</p>
+
+<h2>En bref</h2>
+<ul>
+<li>La bonne fréquence est celle du <strong>carnet d'entretien</strong> de votre véhicule : souvent entre 15 000 et 30 000 km, et au minimum tous les 1 à 2 ans.</li>
+<li>En usage urbain intensif (trajets courts, bouchons), il est prudent de <strong>raccourcir l'intervalle</strong>.</li>
+<li>L'huile doit respecter la <strong>norme constructeur</strong>, pas seulement la viscosité (5W30, 0W20…).</li>
+<li>Chez Garage Boost, la vidange démarre <strong>à 89 €</strong>, filtre à huile compris.</li>
+</ul>
+
+<h2>À quoi sert l'huile moteur ?</h2>
+<p>L'huile lubrifie les pièces en mouvement (pistons, segments, vilebrequin, arbres à cames, turbo), mais elle fait bien plus : elle <strong>refroidit</strong> les zones que le liquide de refroidissement n'atteint pas, <strong>nettoie</strong> en emportant les particules et résidus de combustion vers le filtre, <strong>protège contre la corrosion</strong> et assure l'étanchéité entre les segments et les cylindres. Avec le temps, la chaleur et les kilomètres, ses additifs s'épuisent, elle s'oxyde, s'épaissit ou au contraire se dilue avec du carburant. Une huile usée protège mal : l'usure s'accélère, la calamine s'accumule, et sur les moteurs turbo les risques de casse augmentent.</p>
+
+<h2>Tous les combien faire la vidange ?</h2>
+<p>La seule référence fiable est le <strong>plan d'entretien du constructeur</strong>, dans le carnet ou l'application du véhicule. Selon les modèles, il prévoit une vidange tous les 15 000, 20 000 ou 30 000 km, avec une limite dans le temps d'un ou deux ans, car l'huile vieillit même quand la voiture roule peu. Beaucoup de voitures récentes affichent elles-mêmes l'échéance au tableau de bord grâce à un indicateur de maintenance.</p>
+<p>Attention cependant aux conditions d'utilisation. Les constructeurs distinguent souvent un usage « normal » et un usage « sévère » : <strong>trajets courts répétés</strong>, circulation urbaine dense, embouteillages, forte chaleur, remorquage, routes poussiéreuses. Le quotidien de nombreux automobilistes marseillais coche plusieurs de ces cases. Dans ce cas, nous recommandons de raccourcir l'intervalle, par exemple autour de 10 000 à 15 000 km, surtout sur les moteurs turbo et diesel équipés d'un filtre à particules.</p>
+
+<h2>Quelle huile choisir ?</h2>
+<p>Deux informations comptent. La <strong>viscosité</strong> (par exemple 5W30) indique le comportement de l'huile à froid et à chaud. Mais surtout, la <strong>norme constructeur</strong> (VW 504 00/507 00, PSA B71 2290, Renault RN17, BMW LL-04, MB 229.51, etc.) garantit que l'huile est compatible avec votre moteur et son système de dépollution. Une huile de bonne viscosité mais sans la bonne norme peut, par exemple, accélérer l'encrassement du filtre à particules. À l'atelier, nous sélectionnons l'huile à partir de la préconisation exacte de votre véhicule.</p>
+
+<h2>Que comprend une vidange ?</h2>
+<ul>
+<li>La vidange de l'huile usagée, moteur chaud, par le bouchon de carter ou par aspiration.</li>
+<li>Le remplacement du <strong>filtre à huile</strong> et du joint de bouchon.</li>
+<li>Le remplissage avec l'huile conforme à la norme, au bon niveau.</li>
+<li>La remise à zéro de l'indicateur de maintenance.</li>
+<li>Un contrôle visuel des niveaux et points d'usure (freins, pneus, fuites, courroie visible).</li>
+</ul>
+<p>Selon l'échéance du carnet, la vidange peut être couplée au remplacement du filtre à air, du filtre habitacle ou du filtre à carburant : on parle alors de <a href="../blog/prix-revision-auto-marseille.html">révision</a>.</p>
+
+<h2>Les signes d'une vidange en retard</h2>
+<ul>
+<li>Le <strong>voyant ou l'indicateur de maintenance</strong> s'allume au tableau de bord.</li>
+<li>L'huile sur la jauge est <strong>noire et épaisse</strong>, ou au contraire très fluide et sent le carburant.</li>
+<li>Le niveau baisse anormalement entre deux vidanges.</li>
+<li>Le moteur devient plus bruyant à froid, la consommation augmente.</li>
+<li>Le <strong>voyant de pression d'huile</strong> (burette rouge) s'allume : arrêtez-vous immédiatement, c'est une urgence.</li>
+</ul>
+
+<h2>Combien coûte une vidange ?</h2>
+<p>Le prix dépend de la quantité d'huile (de 3,5 à plus de 7 litres selon les moteurs), de sa norme et du filtre. Chez Garage Boost, la <strong>vidange démarre à 89 €</strong>, huile conforme et filtre à huile compris, avec un devis précis selon votre véhicule. Faire votre entretien dans un garage indépendant ne vous fait <strong>pas perdre la garantie constructeur</strong>, à condition de respecter le plan d'entretien et d'utiliser des pièces et lubrifiants de qualité équivalente : nous complétons votre carnet. Plus d'informations dans notre comparatif <a href="../blog/garage-independant-vs-concession.html">garage indépendant ou concession</a>.</p>
+
+<h2>Vidange à Plan-de-Cuques</h2>
+<p>Pour une vidange réalisée avec la bonne huile, sans supplément caché, appelez notre atelier au <strong>06 63 21 63 50</strong> ou <a href="../rendez-vous.html">prenez rendez-vous en ligne</a>. Découvrez aussi l'ensemble de nos prestations de <a href="../entretien-assistance/mecanique-generale.html">mécanique générale</a>.</p>
+`
+  },
+
+  // 32. Voiture qui ne démarre plus
+  {
+    slug: 'voiture-ne-demarre-plus-causes',
+    title: "Voiture qui ne démarre plus : 8 causes et que faire",
+    excerpt: "Clic au démarreur, moteur qui tourne sans partir, tableau de bord éteint : chaque symptôme oriente vers une cause. Batterie, démarreur, alternateur, antidémarrage, carburant… le guide pour réagir.",
+    metaDesc: "Voiture qui ne démarre pas : comment reconnaître une batterie à plat, un démarreur HS, un problème d'antidémarrage ou de carburant, que faire sur place et quand appeler un dépanneur à Marseille.",
+    keywords: 'voiture ne démarre plus, voiture démarre pas clic, batterie à plat que faire, démarreur HS symptômes, dépannage voiture Marseille',
+    category: 'Diagnostic',
+    cover: COVERS.garage,
+    coverAlt: "Voiture sur la route en fin de journée",
+    datePublished: '2026-10-11',
+    dateModified: '2026-10-11',
+    readTime: 8,
+    related: ['batterie-voiture-signes-faiblesse-duree-vie', 'voyant-moteur-orange-8-causes', 'economiser-1000-euros-an-entretien'],
+    content: `
+<p>Vous tournez la clé ou appuyez sur le bouton de démarrage, et rien, ou presque. Une voiture qui refuse de démarrer arrive toujours au mauvais moment. La bonne nouvelle, c'est que le symptôme précis que vous observez dit déjà beaucoup de la cause. En prenant une minute pour écouter et regarder, vous saurez si un simple câblage de batterie peut suffire ou s'il faut faire intervenir un dépanneur.</p>
+
+<h2>En bref</h2>
+<ul>
+<li><strong>Rien ne s'allume</strong> ou un « clic-clic » rapide : batterie très faible ou cosse desserrée, dans la majorité des cas.</li>
+<li><strong>Un seul « clac » sec</strong>, tableau de bord allumé : démarreur ou son solénoïde.</li>
+<li><strong>Le moteur tourne mais ne part pas</strong> : carburant, allumage, préchauffage (diesel) ou antidémarrage.</li>
+<li>Ne vous acharnez pas sur le démarreur : au-delà de 3 ou 4 tentatives, vous videz la batterie et pouvez aggraver la panne.</li>
+</ul>
+
+<h2>1. La batterie à plat ou en fin de vie</h2>
+<p>C'est de loin la cause la plus fréquente. Symptômes : tableau de bord faible ou éteint, plafonnier qui baisse quand on tente de démarrer, démarreur qui tourne lentement ou cliquette. Une batterie dure en moyenne 4 à 6 ans ; la chaleur estivale marseillaise l'use plus vite que le froid, même si c'est en hiver qu'elle lâche. Un plafonnier oublié, des trajets trop courts ou une voiture immobilisée plusieurs semaines suffisent aussi à la décharger. Notre article <a href="../blog/batterie-voiture-signes-faiblesse-duree-vie.html">signes de faiblesse d'une batterie</a> détaille comment l'anticiper.</p>
+
+<h2>2. Des cosses desserrées ou oxydées</h2>
+<p>Une batterie en bon état peut sembler morte si le courant passe mal. Ouvrez le capot : une poudre blanche ou verdâtre sur les bornes, ou une cosse qui bouge à la main, suffisent à empêcher le démarrage. Un nettoyage et un serrage règlent le problème.</p>
+
+<h2>3. Le démarreur défaillant</h2>
+<p>Si le tableau de bord s'allume normalement mais que vous entendez un seul « clac » franc, ou rien du tout, sans que le moteur tourne, le démarreur ou son solénoïde est probablement en cause. Sur les véhicules équipés du Stop & Start, le démarreur est beaucoup plus sollicité et s'use plus vite.</p>
+
+<h2>4. L'alternateur qui ne recharge plus</h2>
+<p>L'alternateur recharge la batterie quand le moteur tourne. S'il est défaillant, la voiture démarre d'abord normalement, puis la batterie se vide au fil des trajets jusqu'à la panne. Signes avant-coureurs : voyant batterie allumé en roulant, éclairage qui faiblit, accessoires électriques capricieux. Remplacer la batterie sans contrôler l'alternateur, c'est risquer de retomber en panne quelques jours plus tard.</p>
+
+<h2>5. L'antidémarrage ou la clé</h2>
+<p>Le moteur tourne puis cale immédiatement, ou ne démarre pas du tout, avec un voyant de clé ou d'antidémarrage qui clignote ? La voiture ne reconnaît pas la clé : pile de clé usée, transpondeur défaillant, ou problème de codage. Essayez le double de la clé si vous l'avez. Notre atelier assure la <a href="../entretien-assistance/reproduction-cles.html">reproduction et le codage de clés</a>.</p>
+
+<h2>6. Le carburant</h2>
+<p>Cela paraît évident, mais la jauge peut mentir, et une panne sèche arrive. Un mauvais carburant (essence dans un diesel ou l'inverse) impose de ne surtout pas démarrer et de faire vidanger le réservoir. Une pompe à carburant fatiguée ou un filtre colmaté donnent aussi un moteur qui tourne sans partir, ou qui démarre puis s'essouffle.</p>
+
+<h2>7. Le préchauffage ou l'allumage</h2>
+<p>Sur un diesel, des <strong>bougies de préchauffage</strong> défectueuses rendent le démarrage difficile, surtout à froid, avec parfois un voyant de préchauffage qui clignote. Sur une essence, bobines ou bougies d'allumage usées peuvent empêcher le moteur de partir ou provoquer des ratés.</p>
+
+<h2>8. Un capteur ou un fusible</h2>
+<p>Un <strong>capteur de position du vilebrequin</strong> défaillant prive le calculateur de l'information nécessaire pour injecter et allumer : le moteur tourne mais ne démarre pas, souvent sans autre symptôme. Un fusible ou un relais grillé peut couper l'alimentation de la pompe ou du démarreur. Ces pannes se trouvent rapidement avec un <a href="../maintenance-moteur/diagnostic-moteur.html">diagnostic électronique</a>.</p>
+
+<h2>Que faire sur place ?</h2>
+<ul>
+<li>Mettez-vous en sécurité : feux de détresse, gilet, triangle si vous êtes sur la chaussée.</li>
+<li>Éteignez tous les consommateurs (phares, clim, radio), puis retentez une seule fois.</li>
+<li>Vérifiez que le levier est sur P (boîte auto) ou que l'embrayage est bien enfoncé.</li>
+<li>Si la batterie est en cause, un démarrage avec câbles ou booster est possible en respectant l'ordre de branchement (rouge sur + à plat, rouge sur + donneur, noir sur − donneur, noir sur une masse métallique du véhicule en panne) ; en cas de doute, ne prenez pas de risque.</li>
+<li>Si rien n'y fait, appelez votre assistance ou un dépanneur.</li>
+</ul>
+
+<h2>Dépannage et diagnostic dans la zone Marseille</h2>
+<p>Garage Boost assure le <a href="../entretien-assistance/depannage-remorquage.html">dépannage et le remorquage</a> autour de Plan-de-Cuques et Marseille : <strong>89 €</strong> pour un dépannage local de moins de 10 km. Une fois à l'atelier, nous identifions la vraie cause avant de remplacer quoi que ce soit : test de batterie et de charge, contrôle du démarreur, lecture des codes défaut. Appelez le <strong>06 63 21 63 50</strong>.</p>
+`
+  },
+
+  // 33. Rayures
+  {
+    slug: 'rayure-carrosserie-reparer-prix',
+    title: "Rayure sur la carrosserie : polish, retouche ou peinture ?",
+    excerpt: "Rayure de clé, frottement de parking, griffure de buisson : tout ne se répare pas de la même façon. Le test de l'ongle, les 3 niveaux de rayure, les solutions et les prix.",
+    metaDesc: "Comment réparer une rayure de carrosserie : test de l'ongle, rayure de vernis, de base ou jusqu'à la tôle, polish ou peinture, assurance vandalisme, prix d'une retouche à Marseille.",
+    keywords: 'réparer rayure voiture, rayure carrosserie prix, rayure profonde voiture, polish rayure, rayure vandalisme assurance, retouche peinture voiture Marseille',
+    category: 'Carrosserie',
+    cover: COVERS.workshop,
+    coverAlt: "Carrosserie rouge brillante sans défaut",
+    datePublished: '2026-10-11',
+    dateModified: '2026-10-11',
+    readTime: 7,
+    related: ['debosselage-sans-peinture-grele-prix', 'controle-avant-achat-voiture-occasion', 'garage-independant-vs-concession'],
+    content: `
+<p>Une rayure sur la carrosserie, c'est souvent la double peine : l'agacement de découvrir le dégât, puis l'incertitude sur la réparation. Faut-il repeindre tout l'élément ? Un polish suffit-il ? Les stylos de retouche fonctionnent-ils ? La réponse dépend d'une seule chose : <strong>la profondeur de la rayure</strong>. Voici comment l'évaluer vous-même en dix secondes, et quelle solution choisir.</p>
+
+<h2>En bref</h2>
+<ul>
+<li><strong>Test de l'ongle</strong> : si l'ongle n'accroche pas, la rayure ne touche que le vernis et se rattrape souvent au polissage.</li>
+<li>Si l'ongle accroche ou si l'on voit une couleur différente (blanc, gris), la base ou l'apprêt est touché : retouche ou peinture localisée.</li>
+<li>Tôle à nu : il faut agir vite pour éviter la rouille.</li>
+<li>Chez Garage Boost, une <strong>retouche localisée</strong> coûte de <strong>90 à 290 €</strong>, une peinture d'élément de 290 à 490 €.</li>
+</ul>
+
+<h2>Comprendre les couches de peinture</h2>
+<p>Une carrosserie moderne est recouverte de plusieurs couches superposées : l'<strong>apprêt</strong> (sous-couche protectrice, souvent grise ou blanche), la <strong>base</strong> qui donne la couleur, puis le <strong>vernis</strong> transparent qui apporte la brillance et protège des UV. L'ensemble ne mesure qu'une fraction de millimètre. Selon la couche atteinte, la réparation change complètement.</p>
+
+<h2>Niveau 1 : la rayure de vernis</h2>
+<p>Fine, blanchâtre, visible surtout sous certains angles, et l'ongle glisse dessus sans accrocher. Ce sont les micro-rayures de lavage, les traces de frottement léger ou les griffures de végétation. Bonne nouvelle : un <strong>polissage</strong> professionnel retire une infime épaisseur de vernis et rend la rayure invisible. C'est la réparation la plus économique, à condition de ne pas trop poncer : un vernis trop aminci perd sa protection.</p>
+
+<h2>Niveau 2 : la base est touchée</h2>
+<p>L'ongle accroche légèrement, et l'on devine une teinte différente au fond de la rayure. Le polish ne suffit plus. La solution est une <strong>retouche localisée</strong> : nettoyage, ponçage fin de la zone, application de la teinte exacte, vernis, puis raccord ombré pour fondre la réparation dans la peinture d'origine. Les stylos de retouche vendus en grande surface masquent la rayure de loin, mais laissent une surépaisseur et une teinte souvent approximative.</p>
+
+<h2>Niveau 3 : jusqu'à l'apprêt ou la tôle</h2>
+<p>L'ongle accroche nettement, on voit du gris, du blanc ou le métal brillant. C'est typique des rayures volontaires à la clé. Ici, il faut une réparation complète de la zone : ponçage, éventuel mastic, apprêt, base et vernis en <a href="../carrosserie/peinture-automobile.html">cabine de peinture</a>. Si la tôle est à nu, <strong>n'attendez pas</strong> : l'humidité et l'air marin de la côte provençale font apparaître la rouille en quelques semaines, et la réparation devient plus lourde.</p>
+
+<h2>Rayure de vandalisme : l'assurance peut jouer</h2>
+<p>Une rayure faite volontairement par un tiers peut être prise en charge par la <strong>garantie vandalisme</strong> ou dommages tous accidents, selon votre contrat, généralement après un <strong>dépôt de plainte</strong>. Une franchise s'applique souvent : pour une petite rayure, faites le calcul avant de déclarer. Nous établissons un devis détaillé que vous pouvez transmettre à votre assureur, et nous travaillons en gestion directe avec la plupart des compagnies.</p>
+
+<h2>Combien coûte la réparation d'une rayure ?</h2>
+<p>À l'atelier de Plan-de-Cuques : <strong>retouche localisée de 90 à 290 €</strong> selon la taille et la teinte, <strong>peinture d'un élément</strong> (aile, porte) de <strong>290 à 490 €</strong>. Les teintes métallisées, nacrées ou tri-couches demandent davantage de travail. Chaque réparation est réalisée avec la teinte exacte constructeur, obtenue au mélangeur électronique, et garantie 24 mois. Envoyez-nous une photo sur WhatsApp au <strong>06 63 21 63 50</strong> pour un premier avis, ou découvrez notre service <a href="../carrosserie/carrosserie-auto.html">carrosserie auto</a>.</p>
+
+<h2>Prévenir les rayures au quotidien</h2>
+<ul>
+<li>Lavez avec une méthode douce (deux seaux, microfibre) plutôt qu'avec des rouleaux usés.</li>
+<li>Garez-vous à l'écart des allées de chariots et des portières voisines quand c'est possible.</li>
+<li>Une protection céramique ou un film de protection sur les zones exposées (seuils, bas de pare-chocs) limite les dégâts.</li>
+<li>Rabattez les rétroviseurs dans les rues étroites des vieux quartiers.</li>
+</ul>
+`
+  },
+
+  // 34. Surchauffe moteur
+  {
+    slug: 'moteur-qui-chauffe-causes-que-faire',
+    title: "Moteur qui chauffe : causes, risques et bons réflexes",
+    excerpt: "Aiguille de température dans le rouge, voyant de liquide de refroidissement, fumée blanche sous le capot ? Ce qu'il faut faire tout de suite, les causes possibles et ce que ça coûte de ne pas réagir.",
+    metaDesc: "Surchauffe moteur : que faire immédiatement, causes fréquentes (liquide de refroidissement, thermostat, pompe à eau, ventilateur, joint de culasse) et prévention en été à Marseille.",
+    keywords: 'moteur qui chauffe que faire, surchauffe moteur causes, voyant liquide de refroidissement, voiture chauffe embouteillage, joint de culasse symptômes',
+    category: 'Mécanique',
+    cover: COVERS.diagnostic,
+    coverAlt: "Mécanicien penché sur un moteur dans un atelier",
+    datePublished: '2026-10-11',
+    dateModified: '2026-10-11',
+    readTime: 8,
+    related: ['preparer-voiture-ete-chaleur-marseille', 'distribution-moteur-quand-changer', 'voyant-moteur-orange-8-causes'],
+    content: `
+<p>Embouteillage sur l'A50 en plein mois d'août, clim à fond, et soudain l'aiguille de température qui grimpe, ou un voyant rouge qui s'allume. La surchauffe moteur fait partie des pannes à prendre très au sérieux : quelques minutes de trop peuvent transformer une petite fuite en réparation de plusieurs milliers d'euros. Voici les bons réflexes, et comment comprendre ce qui se passe.</p>
+
+<h2>En bref</h2>
+<ul>
+<li>Aiguille dans le rouge ou voyant de température : <strong>arrêtez-vous dès que possible en sécurité</strong> et coupez le moteur.</li>
+<li><strong>N'ouvrez jamais</strong> le bouchon du vase d'expansion moteur chaud : risque de brûlure grave.</li>
+<li>Causes fréquentes : manque de liquide (fuite), thermostat bloqué, ventilateur ou pompe à eau défaillants.</li>
+<li>Rouler en surchauffe peut endommager le <strong>joint de culasse</strong>, une réparation lourde.</li>
+</ul>
+
+<h2>Comment fonctionne le refroidissement ?</h2>
+<p>Le moteur produit une chaleur considérable. Un circuit de <strong>liquide de refroidissement</strong>, mis en mouvement par la pompe à eau, circule autour des cylindres et de la culasse, puis traverse le radiateur à l'avant du véhicule où il cède sa chaleur à l'air. Le <strong>thermostat</strong> régule le passage vers le radiateur pour maintenir le moteur à sa température idéale, généralement autour de 90 °C. À l'arrêt ou à faible vitesse, quand l'air ne traverse plus assez le radiateur, le <strong>motoventilateur</strong> prend le relais. Le vase d'expansion compense les variations de volume du liquide.</p>
+
+<h2>Que faire immédiatement ?</h2>
+<ol>
+<li><strong>Coupez la climatisation</strong>, qui ajoute de la charge et de la chaleur devant le radiateur.</li>
+<li>Si vous ne pouvez pas vous arrêter tout de suite, <strong>mettez le chauffage à fond</strong>, ventilation au maximum, vitres ouvertes : le radiateur de chauffage évacue une partie de la chaleur du moteur.</li>
+<li><strong>Arrêtez-vous en sécurité</strong> dès que possible et coupez le moteur.</li>
+<li>Attendez au moins 30 minutes que le moteur refroidisse avant d'ouvrir le capot pour regarder le niveau dans le vase d'expansion. <strong>Ne dévissez jamais le bouchon à chaud</strong> : le liquide sous pression peut jaillir à plus de 100 °C.</li>
+<li>Si le niveau est très bas, faites l'appoint moteur froid avec le liquide préconisé (ou de l'eau en dépannage, à faire corriger ensuite), puis faites vérifier rapidement le circuit.</li>
+</ol>
+
+<h2>Les causes les plus fréquentes</h2>
+<h3>Un manque de liquide de refroidissement</h3>
+<p>Une durite poreuse, un collier desserré, un radiateur percé ou une pompe à eau qui suinte font baisser le niveau progressivement. Traces sous la voiture, odeur sucrée, dépôts colorés autour des raccords sont des indices.</p>
+<h3>Le thermostat bloqué fermé</h3>
+<p>Le liquide ne passe plus vers le radiateur : le moteur chauffe vite, même sur route, alors que le radiateur reste relativement froid.</p>
+<h3>Le motoventilateur en panne</h3>
+<p>Le moteur chauffe surtout <strong>à l'arrêt et dans les bouchons</strong>, mais revient à la normale en roulant. Typique en circulation urbaine estivale. Fusible, relais, sonde ou moteur électrique du ventilateur peuvent être en cause.</p>
+<h3>La pompe à eau fatiguée</h3>
+<p>Sur de nombreux moteurs, elle est entraînée par la courroie de distribution et se change en même temps qu'elle. Une pompe dont la turbine est usée fait mal circuler le liquide, avec parfois une fuite ou un bruit de roulement.</p>
+<h3>Un radiateur colmaté</h3>
+<p>Extérieurement par les insectes et la poussière, intérieurement par le tartre ou un liquide jamais remplacé. Le liquide de refroidissement a lui aussi une durée de vie : son remplacement figure au plan d'entretien.</p>
+<h3>Le joint de culasse</h3>
+<p>C'est à la fois une cause et une conséquence de la surchauffe. Signes : fumée blanche abondante à l'échappement, niveau de liquide qui baisse sans fuite visible, mayonnaise sous le bouchon d'huile, bulles dans le vase d'expansion. Le remplacement d'un joint de culasse est une intervention lourde, d'où l'importance de ne pas rouler en surchauffe.</p>
+
+<h2>Prévenir la surchauffe, surtout en été</h2>
+<ul>
+<li>Contrôlez le niveau du vase d'expansion <strong>moteur froid</strong> une fois par mois, et avant les départs en vacances.</li>
+<li>Respectez l'échéance de remplacement du liquide de refroidissement du carnet d'entretien.</li>
+<li>Faites remplacer la <a href="../blog/distribution-moteur-quand-changer.html">distribution</a> avec sa pompe à eau quand elle est entraînée par la courroie.</li>
+<li>Surveillez l'aiguille de température : un moteur qui « monte » plus qu'avant dans les bouchons doit être vérifié.</li>
+</ul>
+
+<h2>Diagnostic du circuit de refroidissement à Plan-de-Cuques</h2>
+<p>À l'atelier, nous recherchons la cause exacte : test de pression du circuit, contrôle du thermostat et du motoventilateur, recherche de fuite, contrôle des gaz de combustion dans le liquide en cas de doute sur le joint de culasse. Si votre voiture ne peut plus rouler, notre <a href="../entretien-assistance/depannage-remorquage.html">service de dépannage</a> la ramène à l'atelier. Appelez le <strong>06 63 21 63 50</strong> ou consultez notre page <a href="../entretien-assistance/mecanique-generale.html">mécanique générale</a>.</p>
 `
   }
 

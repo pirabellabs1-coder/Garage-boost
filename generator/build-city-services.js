@@ -12,6 +12,7 @@ const TEMPLATE = fs.readFileSync(path.join(__dirname, 'local-template.html'), 'u
 const data = require('./data.js');
 const zones = require('./zones.js');
 const cities = require('./cities.js');
+const { fitTitle, clampMeta } = require('./seo-text.js');
 const { servicesForCity } = require('./city-services.js');
 
 const SERVICE_ICONS = {
@@ -162,8 +163,8 @@ for (const city of cities) {
       areaServedJSON: JSON.stringify([city.name]),
       accessText: city.accessInfo,
       localContext: city.localContext,
-      title: `${service.name} ${city.name} | Garage Boost — Plan-de-Cuques`,
-      metaDesc: `${service.name} à ${city.name} : Garage Boost à Plan-de-Cuques (${city.distance}). Tarif ${service.price}, garantie 12 mois, devis sous 24h, récupération à domicile.`,
+      title: fitTitle(`${service.name} à ${city.name} | Garage Boost`, `${service.name} à ${city.name}`, `${service.name} ${city.name}`),
+      metaDesc: clampMeta(`${service.name} à ${city.name} : Garage Boost à Plan-de-Cuques (${city.distance}). Tarif ${service.price}, garantie 12 mois, devis sous 24h, récupération à domicile.`),
       keywords: `${svc} ${city.name}, garage ${city.name}, ${svc} ${city.name.toLowerCase()}, ${service.name} près de ${city.name}`,
       lead,
       introP1,

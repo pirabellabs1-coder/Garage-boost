@@ -25,10 +25,17 @@ const html = `<!DOCTYPE html>
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#0a0e0c">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Villes desservies | Garage Boost Marseille — ${cities.length} villes en Provence</title>
-<meta name="description" content="Garage Boost intervient dans ${cities.length} villes de la métropole Aix-Marseille-Provence : Marseille, Aubagne, Vitrolles, Aix-en-Provence, Salon-de-Provence, Toulon et plus.">
+<title>Villes desservies autour de Marseille | Garage Boost</title>
+<meta name="description" content="Garage Boost, à Plan-de-Cuques, intervient dans ${cities.length} communes autour de Marseille : Aubagne, Vitrolles, Aix-en-Provence, La Ciotat, Salon…">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://garageboost.fr/villes.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Garage Boost">
+<meta property="og:title" content="Villes desservies autour de Marseille | Garage Boost">
+<meta property="og:description" content="Garage Boost, à Plan-de-Cuques, intervient dans ${cities.length} communes autour de Marseille.">
+<meta property="og:url" content="https://garageboost.fr/villes.html">
+<meta property="og:image" content="https://garageboost.fr/assets/img/og.jpg">
 
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-900.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/poppins-400.woff2" crossorigin>

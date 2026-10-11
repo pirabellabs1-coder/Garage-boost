@@ -8,8 +8,8 @@
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#0a0e0c">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{title}} | Blog Garage Boost Marseille</title>
-<meta name="description" content="{{metaDesc}}">
+<title>{{pageTitle}}</title>
+<meta name="description" content="{{metaDescShort}}">
 <meta name="keywords" content="{{keywords}}">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://garageboost.fr/blog/{{slug}}.html">
@@ -46,17 +46,20 @@
   "image": "https://garageboost.fr{{coverImage}}",
   "datePublished": "{{datePublished}}",
   "dateModified": "{{dateModified}}",
+  "abstract": {{abstractJSON}},
   "author": {
     "@type": "Organization",
-    "name": "Garage Boost Marseille",
+    "@id": "https://garageboost.fr/#organization",
+    "name": "Garage Boost",
     "url": "https://garageboost.fr"
   },
   "publisher": {
     "@type": "Organization",
+    "@id": "https://garageboost.fr/#organization",
     "name": "Garage Boost",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://garageboost.fr/favicon.svg"
+      "url": "https://garageboost.fr/icon-512.png"
     }
   },
   "mainEntityOfPage": {
@@ -141,7 +144,7 @@
     <span class="article-cat">{{category}}</span>
     <h1 class="article-title">{{title}}</h1>
     <div class="article-meta">
-      <span><i class="fa-solid fa-calendar"></i> {{dateDisplay}}</span>
+      <span><i class="fa-solid fa-calendar"></i> Mis à jour le <time datetime="{{dateModified}}">{{dateDisplay}}</time></span>
       <span><i class="fa-solid fa-clock"></i> {{readTime}} min de lecture</span>
       <span><i class="fa-solid fa-user"></i> Équipe Garage Boost</span>
     </div>

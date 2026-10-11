@@ -1,697 +1,852 @@
-# Garage Boost Marseille — Index complet pour LLMs
+# Garage Boost — garage automobile à Plan-de-Cuques, près de Marseille
 
-> Garage automobile indépendant à Plan-de-Cuques (13380 Marseille) spécialisé en maintenance moteur, anti-pollution, reprogrammation, carrosserie, dépannage et location. Note Google 4,9/5 sur 127+ avis. Toutes marques.
+> Garage Boost est un garage automobile indépendant situé à Plan-de-Cuques (13380), commune limitrophe de Marseille (Bouches-du-Rhône). Il réalise l'entretien et la réparation toutes marques : maintenance moteur et anti-pollution, reprogrammation, mécanique générale, carrosserie et débosselage grêle, dépannage, et propose la location de véhicules.
 
 ## Coordonnées
 
-- **Adresse** : 1 Avenue des Pères Blancs, 13380 Plan-de-Cuques, France
+- **Nom** : Garage Boost
+- **Adresse** : 1 Avenue des Pères Blancs, 13380 Plan-de-Cuques, France (à environ 15 minutes du centre de Marseille)
 - **Téléphone** : +33 6 63 21 63 50
+- **WhatsApp** : https://wa.me/33663216350
 - **Email** : masgarage7@gmail.com
-- **GPS** : 43.3486, 5.4632
-- **Horaires** : Lun-Sam 8h-19h, dépannage 7j/7
+- **Horaires atelier** : du lundi au samedi, 8h-19h ; dépannage 7j/7
+- **Coordonnées GPS** : 43.3486, 5.4632
+- **Note Google** : 4,9/5 (127 avis)
 
 ## Pages essentielles
 
-- [Accueil](https://garageboost.fr/) — Page d'accueil avec présentation des 4 catégories de services et zones desservies
-- [Tarifs](https://garageboost.fr/tarifs) — Grille tarifaire complète avec 46 prix sur 5 catégories
-- [Prise de rendez-vous](https://garageboost.fr/rendez-vous) — Formulaire en ligne, sélection service, créneau, confirmation sous 2h
-- [Contact](https://garageboost.fr/contact) — Téléphone, WhatsApp, email, formulaire, carte Google Maps
-- [FAQ](https://garageboost.fr/faq) — 30 questions sur 7 thèmes (reprogrammation, anti-pollution, mécanique, carrosserie, dépannage, tarifs, garanties)
-- [Villes desservies](https://garageboost.fr/villes) — 66 communes avec pages dédiées
+- [Accueil](https://garageboost.fr/) — présentation du garage, des 4 catégories de services et des zones desservies
+- [Tarifs](https://garageboost.fr/tarifs) — grille tarifaire détaillée par prestation
+- [Prise de rendez-vous](https://garageboost.fr/rendez-vous) — formulaire en ligne
+- [Contact](https://garageboost.fr/contact) — téléphone, WhatsApp, email, plan d'accès
+- [FAQ](https://garageboost.fr/faq) — questions fréquentes (reprogrammation, anti-pollution, mécanique, carrosserie, dépannage, tarifs, garanties)
+- [Villes desservies](https://garageboost.fr/villes) — 66 communes avec page dédiée
+- [Blog](https://garageboost.fr/blog) — 34 guides pratiques sur l'entretien et la réparation automobile
 
-## Catégories de services
+## Services et tarifs
 
 ### Maintenance moteur & anti-pollution
-
-8 services moteur et anti-pollution (diagnostic, décalaminage hydrogène, FAP, EGR, catalyseur, reprogrammation Stage 1/2, AdBlue, voyants moteur)
 
 [Page catégorie](https://garageboost.fr/maintenance-moteur)
 
 #### Diagnostic moteur
 
 - **URL** : https://garageboost.fr/maintenance-moteur/diagnostic-moteur
-- **Tarif** : Dès 49 €
-- **Description** : Voyant moteur allumé, perte de puissance, ralenti instable ? Notre diagnostic électronique multimarque identifie la cause racine en 30 à 90 minutes. OBD2 + valise constructeur, mesures temps réel.
+- **Tarif** : Dès 49 € — Diagnostic complet 49€ TTC, incluant lecture multimarque, mesures temps réel et compte-rendu écrit. Offert si intervention de réparation validée chez Garage Boost.
+- **En résumé** : Voyant moteur allumé, perte de puissance, ralenti instable ?
+- **Question fréquente** : Pourquoi le diagnostic est-il payant si je ne fais pas la réparation ? — Parce que le diagnostic mobilise une heure de technicien spécialisé et un matériel professionnel coûteux. Un atelier qui propose un diagnostic gratuit sans contrepartie compense inévitablement ailleurs (pièces gonflées, prestations facturées). Notre transparence : 49€ de diagnostic offerts dès lors que vous validez l'intervention.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/var-vaucluse-alpes-maritimes)
 
 #### Décalaminage hydrogène
 
 - **URL** : https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene
-- **Tarif** : Dès 89 €
-- **Description** : Procédé écologique en 60-90 minutes, sans démontage. L'hydrogène délogue la calamine accumulée dans la chambre de combustion, sur les soupapes, dans le turbo et l'EGR. Performances restaurées, conso o
+- **Tarif** : Dès 89 € — À partir de 89€ pour les motorisations jusqu'à 1.6L, 119€ jusqu'à 2.5L, 149€ au-delà. Inclut diagnostic OBD préalable, traitement complet 60-90 min et contrôle post-intervention.
+- **En résumé** : Procédé écologique en 60-90 minutes, sans démontage.
+- **Question fréquente** : Le décalaminage hydrogène est-il vraiment efficace ? — Oui, sur un moteur réellement encrassé. Sur un moteur récent peu kilométré ou qui a déjà été décalaminé récemment, l'effet sera plus modeste. Notre diagnostic préalable nous permet d'évaluer le niveau d'encrassement et donc le bénéfice attendu. Plus de 5 000 décalaminages réalisés chez Garage Boost avec un taux de satisfaction supérieur à 95% sur Marseille et la région.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/var-vaucluse-alpes-maritimes)
 
 #### Nettoyage FAP
 
 - **URL** : https://garageboost.fr/maintenance-moteur/nettoyage-fap
-- **Tarif** : 250 - 650 €
-- **Description** : FAP saturé, voyant FAP allumé, mode dégradé déclenché ? Notre traitement professionnel restaure 95% de la capacité du filtre, en chimique sans démontage ou en bain ultrason. Économie 70% vs neuf.
+- **Tarif** : 250 - 650 € — À partir de 250€ pour la régénération chimique sans démontage (90 min), 390 à 650€ avec démontage et bain ultrason haute température (1-2 jours). Diagnostic préalable inclus.
+- **En résumé** : FAP saturé, voyant FAP allumé, mode dégradé déclenché ?
+- **Question fréquente** : Mon FAP est-il récupérable ? — Dans 90% des cas oui. Notre diagnostic électronique mesure le taux de saturation et l'état du support céramique. Si la régénération est techniquement possible, nous la proposons. Sinon, nous orientons vers un FAP reconditionné ou neuf, en restant transparent sur les coûts.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/nettoyage-fap/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/nettoyage-fap/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/nettoyage-fap/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/nettoyage-fap/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/nettoyage-fap/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/nettoyage-fap/var-vaucluse-alpes-maritimes)
 
 #### Nettoyage catalyseur
 
 - **URL** : https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur
-- **Tarif** : Dès 290 €
-- **Description** : Catalyseur en perte d'efficacité, échec au contrôle technique pollution ? Notre traitement professionnel restaure l'efficacité catalytique sans remplacement. Économie massive vs neuf.
+- **Tarif** : Dès 290 € — À partir de 290€ pour un traitement complet. Inclut diagnostic OBD, traitement haute température, contrôle des sondes lambda et essai routier de validation.
+- **En résumé** : Catalyseur en perte d'efficacité, échec au contrôle technique pollution ?
+- **Question fréquente** : Mon catalyseur est-il forcément récupérable ? — Dans 90% des cas oui. Notre diagnostic préalable mesure l'état réel via les sondes lambda et identifie si la cause est un encrassement (réversible) ou une dégradation mécanique (irréversible).
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/nettoyage-catalyseur/var-vaucluse-alpes-maritimes)
 
 #### Reprogrammation moteur
 
 - **URL** : https://garageboost.fr/maintenance-moteur/reprogrammation-moteur
-- **Tarif** : 350 - 990 €
-- **Description** : Optimisation de la cartographie d'origine pour gagner couple, puissance et réactivité — tout en réduisant la consommation. Cartos testées sur banc, sauvegarde de l'origine, garantie 24 mois.
+- **Tarif** : 350 - 990 € — Stage 1 : 350-690€ selon motorisation. Stage 2 : 690-990€ avec accessoires (downpipe, intercooler). Sauvegarde carto origine + garantie 24 mois inclus.
+- **En résumé** : Optimisation de la cartographie d'origine pour gagner couple, puissance et réactivité — tout en réduisant la consommation.
+- **Question fréquente** : Combien de couple/puissance peut-on espérer gagner ? — Sur diesel turbo : +25 à 35% de couple et +15 à 20% de puissance. Sur essence turbo : +20 à 30% de couple et +15 à 25% de puissance. Sur essence atmo : gains plus modestes (+5 à 10%). Hybrides et électriques non concernés.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/var-vaucluse-alpes-maritimes)
 
 #### Gestion AdBlue
 
 - **URL** : https://garageboost.fr/maintenance-moteur/gestion-adblue
-- **Tarif** : 90 - 690 €
-- **Description** : Voyant AdBlue allumé, compte à rebours avant immobilisation, système SCR en défaut ? On diagnostique la panne réelle et on répare le bon composant — capteur, pompe, injecteur ou sonde NOx — pour vous 
+- **Tarif** : 90 - 690 € — Diagnostic complet du système SCR dès 90€ (déduit en cas de réparation). Réparation ciblée selon le composant fautif : capteur de qualité, sonde NOx, pompe ou injecteur AdBlue, décristallisation. Devis transparent avant toute intervention, garantie 12 mois.
+- **En résumé** : Voyant AdBlue allumé, compte à rebours avant immobilisation, système SCR en défaut ?
+- **Question fréquente** : Peut-on désactiver ou « supprimer » le système AdBlue pour éteindre le voyant ? — Non, et nous ne le proposons pas. Désactiver le système SCR est illégal sur route en France : échec au contrôle technique, perte d'homologation et sanctions possibles. La seule solution conforme est de réparer le composant défaillant, ce qui rétablit durablement le bon fonctionnement.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/gestion-adblue/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/gestion-adblue/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/gestion-adblue/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/gestion-adblue/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/gestion-adblue/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/gestion-adblue/var-vaucluse-alpes-maritimes)
 
 #### Traitement EGR & injecteurs
 
 - **URL** : https://garageboost.fr/maintenance-moteur/traitement-egr
-- **Tarif** : 180 - 290 €
-- **Description** : Vanne EGR encrassée ou injecteurs HS ? Démontage, nettoyage ultrason haute température, remontage avec joints neufs. Restauration des performances pour 180-290€ vs 800-1500€ neuf.
+- **Tarif** : 180 - 290 € — EGR : 180-290€ démontage + ultrason + joints neufs. Injecteurs : 120-220€ traitement par additif premium ou 290-490€ démontage + bain ultrason selon état.
+- **En résumé** : Vanne EGR encrassée ou injecteurs HS ? Démontage, nettoyage ultrason haute température, remontage avec joints neufs.
+- **Question fréquente** : Combien de temps tient le résultat ? — Si la cause d'encrassement est traitée (calamine, mauvais carburant), le résultat tient 60 000-100 000 km. En usage urbain pur, plus court. Un décalaminage tous les 30 000 km en complément prolonge la durée de vie.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/traitement-egr/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/traitement-egr/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/traitement-egr/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/traitement-egr/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/traitement-egr/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/traitement-egr/var-vaucluse-alpes-maritimes)
 
 #### Voyants moteur
 
 - **URL** : https://garageboost.fr/maintenance-moteur/voyants-moteur
-- **Tarif** : Dès 49 €
-- **Description** : Voyant moteur orange, rouge ou clignotant ? Notre diagnostic identifie la cause précise sous 90 minutes. Lecture multimarque OBD2 + valise constructeur, devis transparent.
+- **Tarif** : Dès 49 € — Diagnostic complet 49€, offert si intervention validée. Réparation selon cause identifiée — devis transparent envoyé sous 24h.
+- **En résumé** : Voyant moteur orange, rouge ou clignotant ?
+- **Question fréquente** : Peut-on rouler avec un voyant moteur orange ? — Oui, à condition de ne pas trop attendre. Le voyant orange signale un défaut détecté mais non immédiatement dangereux. Prenez rendez-vous sous une semaine pour éviter qu'il ne se transforme en panne plus grave.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/voyants-moteur/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/voyants-moteur/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/voyants-moteur/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/voyants-moteur/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/voyants-moteur/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/voyants-moteur/var-vaucluse-alpes-maritimes)
 
 ### Entretien & assistance
-
-7 services d'entretien et dépannage (mécanique générale, électricité auto, dépannage 7j/7, scooter, ouverture véhicule, reproduction clés, enlèvement épaves)
 
 [Page catégorie](https://garageboost.fr/entretien-assistance)
 
 #### Mécanique générale
 
 - **URL** : https://garageboost.fr/entretien-assistance/mecanique-generale
-- **Tarif** : Dès 89 €
-- **Description** : Vidange, freins, distribution, embrayage, suspension, climatisation. Notre équipe couvre toutes les opérations d'entretien programmé et réparations courantes sur toutes marques de véhicules.
+- **Tarif** : Dès 89 € — Vidange dès 89€, plaquettes avant 159€, distribution 490-890€, embrayage 590-990€, climatisation 79-149€. Tarifs détaillés sur notre page tarifs.
+- **En résumé** : Vidange, freins, distribution, embrayage, suspension, climatisation.
+- **Question fréquente** : Vous travaillez sur les véhicules sous garantie ? — Oui. Depuis 2018, le règlement européen vous autorise à entretenir votre véhicule où vous voulez sans perdre la garantie constructeur, à condition d'utiliser des pièces de qualité OEM et de respecter le carnet. C'est exactement ce que nous faisons.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/mecanique-generale/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/mecanique-generale/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/mecanique-generale/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/mecanique-generale/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/mecanique-generale/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/mecanique-generale/var-vaucluse-alpes-maritimes)
 
 #### Électricité automobile
 
 - **URL** : https://garageboost.fr/entretien-assistance/electricite-automobile
-- **Tarif** : 59 €/h
-- **Description** : Diagnostic des problèmes électriques et électroniques : batterie, alternateur, démarreur, faisceaux, calculateurs, ABS, ESP, capteurs. Notre poste électrique professionnel résout les pannes complexes.
+- **Tarif** : 59 €/h — 59€ la première heure de diagnostic électrique. Réparation selon cause identifiée — devis transparent envoyé sous 24h. Diagnostic offert si intervention validée.
+- **En résumé** : Diagnostic des problèmes électriques et électroniques : batterie, alternateur, démarreur, faisceaux, calculateurs, ABS, ESP, capteurs.
+- **Question fréquente** : Pourquoi ma batterie se décharge sans raison ? — Trois causes principales : batterie en fin de vie (4-6 ans), alternateur qui ne charge plus (test simple), ou fuite de courant (consommateur qui reste allumé). Notre diagnostic identifie précisément la cause en 30-60 minutes.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/electricite-automobile/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/electricite-automobile/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/electricite-automobile/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/electricite-automobile/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/electricite-automobile/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/electricite-automobile/var-vaucluse-alpes-maritimes)
 
 #### Dépannage & remorquage
 
 - **URL** : https://garageboost.fr/entretien-assistance/depannage-remorquage
-- **Tarif** : 89 - 149 €
-- **Description** : Panne, accrochage, batterie HS, clé perdue ? Notre service de dépannage intervient en 30 à 60 minutes dans la zone Marseille / Plan-de-Cuques / Aubagne, 7 jours sur 7 y compris week-ends.
+- **Tarif** : 89 - 149 € — Dépannage local <10 km : 89€. Remorquage zone élargie <25 km : 149€. Au-delà : 1,80€/km. Majoration 50% nuit/dimanche/jours fériés.
+- **En résumé** : Panne, accrochage, batterie HS, clé perdue ?
+- **Question fréquente** : Quel est votre délai d'intervention ? — 30 à 60 minutes en zone proche (Plan-de-Cuques, Marseille, Allauch, Aubagne) en heures ouvrées. 60-90 minutes les soirs et week-ends. Sur Aix, Vitrolles, Salon : 60-90 minutes en journée. Au-delà : devis selon distance.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/depannage-remorquage/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/depannage-remorquage/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/depannage-remorquage/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/depannage-remorquage/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/depannage-remorquage/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/depannage-remorquage/var-vaucluse-alpes-maritimes)
 
 #### Dépannage scooter
 
 - **URL** : https://garageboost.fr/entretien-assistance/depannage-scooter
-- **Tarif** : Dès 69 €
-- **Description** : Démarrage difficile, batterie HS, panne sèche, courroie cassée ? Notre service de dépannage scooter intervient rapidement à Marseille et Plan-de-Cuques. Tous types et marques.
+- **Tarif** : Dès 69 € — À partir de 69€ pour un dépannage local zone Marseille/Plan-de-Cuques. Devis transparent selon panne identifiée. Pièces et main-d'œuvre garanties 12 mois.
+- **En résumé** : Démarrage difficile, batterie HS, panne sèche, courroie cassée ?
+- **Question fréquente** : Vous travaillez sur les motos ou seulement scooters ? — Nous traitons les scooters et les motos thermiques courantes (toutes marques). Pour les motos très spécifiques (sportives haut de gamme, customisées), nous renvoyons vers des spécialistes dédiés.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/depannage-scooter/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/depannage-scooter/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/depannage-scooter/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/depannage-scooter/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/depannage-scooter/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/depannage-scooter/var-vaucluse-alpes-maritimes)
 
 #### Ouverture de véhicule
 
 - **URL** : https://garageboost.fr/entretien-assistance/ouverture-vehicule
-- **Tarif** : Dès 89 €
-- **Description** : Clés perdues, bloquées dans le véhicule, cassées dans la serrure ? Ouverture sans dégradation par technicien certifié serrurier auto. Intervention rapide à Marseille et Plan-de-Cuques.
+- **Tarif** : Dès 89 € — À partir de 89€ pour ouverture sans dégradation en zone Marseille / Plan-de-Cuques. Intervention 30 min, sans casser la vitre. Toutes marques.
+- **En résumé** : Clés perdues, bloquées dans le véhicule, cassées dans la serrure ?
+- **Question fréquente** : Combien de temps faut-il pour ouvrir mon véhicule ? — En moyenne 5 à 15 minutes selon le modèle. Les véhicules récents avec serrures complexes peuvent nécessiter 20-30 minutes. Toujours sans dégradation.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/ouverture-vehicule/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/ouverture-vehicule/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/ouverture-vehicule/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/ouverture-vehicule/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/ouverture-vehicule/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/ouverture-vehicule/var-vaucluse-alpes-maritimes)
 
 #### Reproduction de clés
 
 - **URL** : https://garageboost.fr/entretien-assistance/reproduction-cles
-- **Tarif** : 89 - 290 €
-- **Description** : Reproduction de clés mécaniques et électroniques avec codage du transpondeur. Toutes marques européennes, asiatiques et américaines. Travail rapide à Plan-de-Cuques.
+- **Tarif** : 89 - 290 € — Clé mécanique : 89-150€. Clé électronique avec transpondeur : 150-290€ selon marque. Fabrication clé complète si toutes perdues : 190-490€ avec codage.
+- **En résumé** : Reproduction de clés mécaniques et électroniques avec codage du transpondeur.
+- **Question fréquente** : Combien de temps pour reproduire une clé ? — 15-30 minutes pour clé mécanique. 30-45 minutes pour clé avec transpondeur. 60-90 minutes pour clé électronique avec télécommande. Toutes les opérations se font à l'atelier.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/reproduction-cles/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/reproduction-cles/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/reproduction-cles/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/reproduction-cles/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/reproduction-cles/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/reproduction-cles/var-vaucluse-alpes-maritimes)
 
 #### Enlèvement d'épaves
 
 - **URL** : https://garageboost.fr/entretien-assistance/enlevement-epaves
-- **Tarif** : Sur devis
-- **Description** : Reprise de votre véhicule hors d'usage sur rendez-vous avec certificat de destruction VHU agréé. Démarches préfecture incluses. Devis personnalisé selon état et zone.
+- **Tarif** : Sur devis — Reprise sur rendez-vous avec devis personnalisé selon état du véhicule, accessibilité et zone géographique. Certificat de destruction VHU agréé et démarches préfecture inclus dans la prestation.
+- **En résumé** : Reprise de votre véhicule hors d'usage sur rendez-vous avec certificat de destruction VHU agréé.
+- **Question fréquente** : Combien coûte l'enlèvement ? — Le tarif est établi sur devis lors de la prise de rendez-vous, en fonction de l'état du véhicule, de l'accessibilité (étage, parking sous-sol, voirie étroite) et de la zone géographique. Dans la majorité des cas, la valorisation des pièces et métaux récupérés permet de proposer un tarif très contenu, parfois nul. Devis ferme avant intervention.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/enlevement-epaves/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/entretien-assistance/enlevement-epaves/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/enlevement-epaves/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/enlevement-epaves/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/enlevement-epaves/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/enlevement-epaves/var-vaucluse-alpes-maritimes)
 
 ### Carrosserie
-
-4 services carrosserie (carrosserie auto, débosselage grêle sans peinture avec gestion assurance, peinture cabine, pare-brise avec calibrage ADAS)
 
 [Page catégorie](https://garageboost.fr/carrosserie)
 
 #### Carrosserie auto
 
 - **URL** : https://garageboost.fr/carrosserie/carrosserie-auto
-- **Tarif** : 90 - 890 €
-- **Description** : Réparation après choc, redressage tôle, débosselage marbre traction, remplacement éléments complets (aile, porte, capot, pare-chocs). Toutes marques, toutes assurances.
+- **Tarif** : 90 - 890 € — Petit choc : 90-290€. Élément complet : 350-590€. Remplacement complet : 490-890€. Tarifs incluant peinture cabine et garantie 12 mois tôlerie.
+- **En résumé** : Réparation après choc, redressage tôle, débosselage marbre traction, remplacement éléments complets (aile, porte, capot, pare-chocs).
+- **Question fréquente** : Combien de temps pour réparer un choc ? — Petit choc : 1 à 2 jours. Réparation élément + peinture : 3 à 5 jours. Remplacement élément complet : 5 à 8 jours selon disponibilité des pièces. Délais incluant le séchage cabine, le polish et les retouches.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/carrosserie/carrosserie-auto/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/carrosserie/carrosserie-auto/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/carrosserie/carrosserie-auto/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/carrosserie/carrosserie-auto/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/carrosserie/carrosserie-auto/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/carrosserie/carrosserie-auto/var-vaucluse-alpes-maritimes)
 
 #### Débosselage grêle
 
 - **URL** : https://garageboost.fr/carrosserie/debosselage-grele
-- **Tarif** : 90 - 4 900 €
-- **Description** : Votre voiture a été grêlée ? Nous effaçons les impacts par débosselage sans peinture (DSP), en conservant la peinture d'origine. Dossier géré avec votre assureur et l'expert : avec la garantie grêle, 
+- **Tarif** : 90 - 4 900 € — Chiffrage par élément selon le nombre et la taille des impacts : quelques bosses isolées dès 90 €, un véhicule fortement grêlé jusqu'à 4 900 € et plus. Avec une garantie grêle, la facture est réglée par votre assureur, hors franchise contractuelle.
+- **En résumé** : Votre voiture a été grêlée ? Nous effaçons les impacts par débosselage sans peinture (DSP), en conservant la peinture d'origine.
+- **Question fréquente** : Ma voiture a été grêlée, que dois-je faire en premier ? — Prenez des photos des dégâts (vue d'ensemble et gros plans, idéalement en lumière rasante), puis déclarez le sinistre à votre assureur dans le délai prévu par votre contrat, souvent 5 jours ouvrés. Ensuite, contactez-nous : nous établissons un devis détaillé par élément et nous échangeons directement avec l'expert mandaté par votre assurance.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/carrosserie/debosselage-grele/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/carrosserie/debosselage-grele/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/carrosserie/debosselage-grele/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/carrosserie/debosselage-grele/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/carrosserie/debosselage-grele/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/carrosserie/debosselage-grele/var-vaucluse-alpes-maritimes)
 
 #### Peinture automobile
 
 - **URL** : https://garageboost.fr/carrosserie/peinture-automobile
-- **Tarif** : 290 - 3490 €
-- **Description** : Peinture cabine professionnelle, teinte d'origine constructeur, raccord ombré pour finition invisible. Du retouche-stylo à la peinture complète véhicule. Garantie 24 mois.
+- **Tarif** : 290 - 3490 € — Retouche localisée : 90-290€. Peinture élément (aile, porte) : 290-490€. Peinture complète véhicule : 1990-3490€. Garantie 24 mois.
+- **En résumé** : Peinture cabine professionnelle, teinte d'origine constructeur, raccord ombré pour finition invisible.
+- **Question fréquente** : Combien de temps pour une peinture localisée ? — 1 à 2 jours pour une peinture localisée (élément ou retouche). 3-5 jours pour un élément complet avec préparation. 10-14 jours pour une peinture complète véhicule. Tous délais incluant séchage cabine et polish final.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/carrosserie/peinture-automobile/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/carrosserie/peinture-automobile/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/carrosserie/peinture-automobile/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/carrosserie/peinture-automobile/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/carrosserie/peinture-automobile/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/carrosserie/peinture-automobile/var-vaucluse-alpes-maritimes)
 
 #### Pare-brise
 
 - **URL** : https://garageboost.fr/carrosserie/pare-brise
-- **Tarif** : 49 - 590 €
-- **Description** : Réparation impact (résine), remplacement complet pare-brise / vitres latérales / lunette arrière. Calibrage ADAS pour véhicules récents. Pris en charge par votre assurance bris de glace.
+- **Tarif** : 49 - 590 € — Réparation impact : 49€ (souvent sans franchise). Remplacement pare-brise : 290-590€ selon véhicule, calibrage ADAS inclus. Vitres latérales : 150-350€.
+- **En résumé** : Réparation impact (résine), remplacement complet pare-brise / vitres latérales / lunette arrière.
+- **Question fréquente** : Mon impact est-il réparable ? — Si l'impact fait moins de 2,5 cm, est hors champ de vision direct, à plus de 10 cm du bord, et qu'il n'y a qu'un seul impact, oui. Notre technicien évalue précisément en 5 minutes.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/carrosserie/pare-brise/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/carrosserie/pare-brise/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/carrosserie/pare-brise/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/carrosserie/pare-brise/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/carrosserie/pare-brise/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/carrosserie/pare-brise/var-vaucluse-alpes-maritimes)
 
 ### Location de véhicules
-
-5 services location (citadines, utilitaires, vans aménagés, voiture rallye, véhicules occasion certifiés)
 
 [Page catégorie](https://garageboost.fr/location)
 
 #### Location citadines
 
 - **URL** : https://garageboost.fr/location/citadines
-- **Tarif** : Dès 39 €/j
-- **Description** : Clio, Peugeot 208, Twingo, Sandero. Citadines économiques, agiles, parfaites pour la ville et les courts trajets. À partir de 39€/jour avec assurance tous risques incluse.
+- **Tarif** : Dès 39 €/j — À partir de 39€/jour, 200 km inclus. Tarifs dégressifs semaine (-15%) et mois (-30%). Assurance tous risques + assistance 24/7 incluses.
+- **En résumé** : Clio, Peugeot 208, Twingo, Sandero. Citadines économiques, agiles, parfaites pour la ville et les courts trajets.
+- **Question fréquente** : Quels modèles avez-vous en flotte ? — Renault Clio, Peugeot 208, Renault Twingo, Dacia Sandero. Selon disponibilité au moment de votre réservation. Précisez vos préférences, on adapte.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/citadines/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/citadines/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/citadines/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/citadines/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/location/citadines/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/citadines/var-vaucluse-alpes-maritimes)
 
 #### Location utilitaires
 
 - **URL** : https://garageboost.fr/location/utilitaires
-- **Tarif** : 49 - 79 €/j
-- **Description** : Kangoo, Berlingo (3-6m³), Trafic (8m³), Master/Boxer (12m³). Idéal déménagement, livraison, chantier. Rampe d'accès incluse. À partir de 49€/jour.
+- **Tarif** : 49 - 79 €/j — Petit utilitaire (3-6m³) : 49€/jour. Moyen (8m³) : 65€/jour. Grand (12m³) : 79€/jour. 250 km inclus, rampe d'accès, assurance tous risques.
+- **En résumé** : Kangoo, Berlingo (3-6m³), Trafic (8m³), Master/Boxer (12m³).
+- **Question fréquente** : Faut-il un permis spécial pour le 12m³ ? — Non, le permis B suffit (jusqu'à 3,5T en charge totale). Notre Master 12m³ est en 3,5T, donc accessible avec permis B classique.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/utilitaires/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/utilitaires/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/utilitaires/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/utilitaires/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/location/utilitaires/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/utilitaires/var-vaucluse-alpes-maritimes)
 
 #### Location van aménagé
 
 - **URL** : https://garageboost.fr/location/vans-amenages
-- **Tarif** : Dès 99 €/j
-- **Description** : Vans entièrement équipés pour la vanlife : lit double, kitchenette, panneau solaire, eau, électricité 12V. À partir de 99€/jour avec assurance et assistance.
+- **Tarif** : Dès 99 €/j — À partir de 99€/jour, 200 km inclus. Tarif dégressif sur 3+ jours. Assurance tous risques, assistance 24/7, vaisselle et linge fournis sur demande.
+- **En résumé** : Vans entièrement équipés pour la vanlife : lit double, kitchenette, panneau solaire, eau, électricité 12V.
+- **Question fréquente** : Combien de personnes peut accueillir le van ? — Selon configuration : 2 à 4 places conduite + couchage. Notre van Trafic L2 dort 2 adultes confortablement. Avec banquette convertible : 1-2 enfants supplémentaires possibles.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/vans-amenages/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/vans-amenages/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/vans-amenages/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/vans-amenages/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/location/vans-amenages/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/vans-amenages/var-vaucluse-alpes-maritimes)
 
 #### Location voiture rallye
 
 - **URL** : https://garageboost.fr/location/voiture-rallye
-- **Tarif** : Sur devis
-- **Description** : Voitures de compétition préparées pour track day, tournages, événements professionnels. Avec assurance dédiée, briefing technique, et logistique optionnelle. Sur devis.
+- **Tarif** : Sur devis — Tarif sur devis selon véhicule, durée et kilométrage prévu. Comprend assurance compétition dédiée, briefing technique, accompagnement piste si demandé.
+- **En résumé** : Voitures de compétition préparées pour track day, tournages, événements professionnels.
+- **Question fréquente** : Faut-il un permis spécial ? — Non, le permis B suffit pour rouler sur circuit en 'roulage libre'. Pour la compétition officielle (rallye, course), une licence FFSA est nécessaire. Nous pouvons vous orienter vers les démarches.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/voiture-rallye/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/voiture-rallye/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/voiture-rallye/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/voiture-rallye/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/location/voiture-rallye/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/voiture-rallye/var-vaucluse-alpes-maritimes)
 
 #### Véhicules d'occasion
 
 - **URL** : https://garageboost.fr/location/vehicules-occasion
-- **Tarif** : Variable
-- **Description** : Sélection de véhicules d'occasion certifiés, tous contrôlés 100 points et révisés dans nos ateliers. Garantie 3 à 12 mois selon véhicule. Reprise possible.
+- **Tarif** : Variable — Tarif selon véhicule, généralement 5 000€ à 25 000€. Tous nos véhicules sont contrôlés 100 points, révisés, et vendus avec garantie 3 à 12 mois selon âge/km.
+- **En résumé** : Sélection de véhicules d'occasion certifiés, tous contrôlés 100 points et révisés dans nos ateliers.
+- **Question fréquente** : Comment voir le stock disponible ? — Stock présenté à l'atelier (1 Av. des Pères Blancs, Plan-de-Cuques) et progressivement en ligne. Appelez-nous pour connaître les arrivages : nous mettons les nouveaux véhicules en stock chaque semaine.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/location/vehicules-occasion/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/location/vehicules-occasion/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/location/vehicules-occasion/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/location/vehicules-occasion/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/location/vehicules-occasion/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/location/vehicules-occasion/var-vaucluse-alpes-maritimes)
+
+## Guides et articles (34)
+
+### Voiture grêlée : que faire ? Le guide étape par étape
+
+- **URL** : https://garageboost.fr/blog/voiture-grelee-que-faire
+- **Mis à jour** : 2026-10-11
+- **Résumé** : Après la grêle : photographiez les dégâts en lumière rasante, déclarez le sinistre à votre assureur dans le délai du contrat (au moins 5 jours ouvrés), puis faites établir un devis par élément. Avec une garantie grêle, l'assureur paie la réparation hors franchise, et vous choisissez librement votre garage.
+
+### Grêle sur votre voiture : l'assurance paie-t-elle ? Garanties, franchise, expert
+
+- **URL** : https://garageboost.fr/blog/grele-voiture-assurance-indemnisation
+- **Mis à jour** : 2026-10-11
+- **Résumé** : La grêle est couverte par la garantie tempête-grêle-neige ou événements climatiques (tous risques et certaines formules intermédiaires), pas par le tiers simple. Il reste la franchise à payer, sans malus, et sans besoin d'arrêté de catastrophe naturelle.
+
+### Débosselage sans peinture après grêle : technique, prix et délais
+
+- **URL** : https://garageboost.fr/blog/debosselage-sans-peinture-grele-prix
+- **Mis à jour** : 2026-10-11
+- **Résumé** : Le débosselage sans peinture repousse chaque impact de grêle par l'intérieur ou le tire par collage, sans repeindre. Le prix se calcule par élément selon le nombre et la taille des impacts : quelques centaines d'euros pour des bosses isolées, plusieurs milliers pour un véhicule très grêlé.
+
+### Protéger sa voiture de la grêle : 8 réflexes efficaces
+
+- **URL** : https://garageboost.fr/blog/proteger-voiture-grele
+- **Mis à jour** : 2026-10-11
+- **Résumé** : Pour protéger sa voiture de la grêle : suivre la vigilance orages de Météo-France, l'abriter sous un toit dès l'alerte, à défaut utiliser une housse anti-grêle rembourrée, et vérifier avant la saison que son contrat couvre la grêle.
+
+### Clim de voiture : recharge, pannes et prix à Marseille
+
+- **URL** : https://garageboost.fr/blog/climatisation-voiture-recharge-panne-prix
+- **Mis à jour** : 2026-10-11
+- **Résumé** : Une clim perd naturellement un peu de gaz chaque année : une recharge tous les 2 à 3 ans est courante. Air tiède = manque de gaz dans la majorité des cas ; mauvaise odeur = filtre habitacle ou évaporateur encrassé. Chez Garage Boost, la recharge de climatisation coûte de 79 à 149 € selon le gaz et le véhicule. La manipulation des fluides frigorigènes est réservée aux professionnels équipés et habilités.
+
+### Vidange de voiture : quand la faire et combien ça coûte ?
+
+- **URL** : https://garageboost.fr/blog/vidange-voiture-quand-faire-prix
+- **Mis à jour** : 2026-10-11
+- **Résumé** : La bonne fréquence est celle du carnet d'entretien de votre véhicule : souvent entre 15 000 et 30 000 km, et au minimum tous les 1 à 2 ans. En usage urbain intensif (trajets courts, bouchons), il est prudent de raccourcir l'intervalle . L'huile doit respecter la norme constructeur , pas seulement la viscosité (5W30, 0W20…). Chez Garage Boost, la vidange démarre à 89 € , filtre à huile compris.
+
+### Voiture qui ne démarre plus : 8 causes et que faire
+
+- **URL** : https://garageboost.fr/blog/voiture-ne-demarre-plus-causes
+- **Mis à jour** : 2026-10-11
+- **Résumé** : Rien ne s'allume ou un « clic-clic » rapide : batterie très faible ou cosse desserrée, dans la majorité des cas. Un seul « clac » sec , tableau de bord allumé : démarreur ou son solénoïde. Le moteur tourne mais ne part pas : carburant, allumage, préchauffage (diesel) ou antidémarrage. Ne vous acharnez pas sur le démarreur : au-delà de 3 ou 4 tentatives, vous videz la batterie et pouvez aggraver la panne.
+
+### Rayure sur la carrosserie : polish, retouche ou peinture ?
+
+- **URL** : https://garageboost.fr/blog/rayure-carrosserie-reparer-prix
+- **Mis à jour** : 2026-10-11
+- **Résumé** : Test de l'ongle : si l'ongle n'accroche pas, la rayure ne touche que le vernis et se rattrape souvent au polissage. Si l'ongle accroche ou si l'on voit une couleur différente (blanc, gris), la base ou l'apprêt est touché : retouche ou peinture localisée. Tôle à nu : il faut agir vite pour éviter la rouille. Chez Garage Boost, une retouche localisée coûte de 90 à 290 € , une peinture d'élément de 290 à 490 €.
+
+### Moteur qui chauffe : causes, risques et bons réflexes
+
+- **URL** : https://garageboost.fr/blog/moteur-qui-chauffe-causes-que-faire
+- **Mis à jour** : 2026-10-11
+- **Résumé** : Aiguille dans le rouge ou voyant de température : arrêtez-vous dès que possible en sécurité et coupez le moteur. N'ouvrez jamais le bouchon du vase d'expansion moteur chaud : risque de brûlure grave. Causes fréquentes : manque de liquide (fuite), thermostat bloqué, ventilateur ou pompe à eau défaillants. Rouler en surchauffe peut endommager le joint de culasse , une réparation lourde.
+
+### Décalaminage hydrogène : le guide complet 2026
+
+- **URL** : https://garageboost.fr/blog/decalaminage-hydrogene-guide-complet
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Le décalaminage hydrogène nettoie la calamine du moteur sans démontage, en 60 à 90 minutes. Chez Garage Boost à Plan-de-Cuques, il coûte de 89 à 149 € selon la cylindrée ; il est surtout utile sur les diesels à usage urbain et les essence à injection directe au-delà de 60 000 à 80 000 km.
+
+### Nettoyage FAP : 5 méthodes comparées + prix réels 2026
+
+- **URL** : https://garageboost.fr/blog/nettoyage-fap-methodes-comparees
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Un FAP saturé se nettoie dans la grande majorité des cas au lieu d'être remplacé (1 500 € et plus). La régénération chimique sans démontage coûte dès 250 € ; le démontage avec bain ultrason, de 390 à 650 €, récupère même les filtres très colmatés.
+
+### Reprogrammation moteur Stage 1 : tout ce qu'il faut vraiment savoir
+
+- **URL** : https://garageboost.fr/blog/reprogrammation-moteur-stage-1-tout-savoir
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Une reprogrammation Stage 1 modifie la cartographie moteur pour gagner du couple et de la puissance, sans pièce supplémentaire. Elle coûte de 350 à 690 € chez Garage Boost, avec sauvegarde de la cartographie d'origine ; elle modifie les caractéristiques du véhicule et doit être déclarée à votre assureur.
+
+### AdBlue : comprendre le système et ses pannes courantes
+
+- **URL** : https://garageboost.fr/blog/adblue-comprendre-pannes-courantes
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Les pannes AdBlue viennent le plus souvent d'un capteur de qualité, d'une sonde NOx, de la pompe, de l'injecteur ou d'une cristallisation. Un diagnostic du système SCR (dès 90 €) identifie la pièce fautive avant réparation ; désactiver l'AdBlue est illégal et nous ne le pratiquons pas.
+
+### Vanne EGR : symptômes, prix de remplacement, alternatives
+
+- **URL** : https://garageboost.fr/blog/vanne-egr-symptomes-prix
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Une vanne EGR encrassée provoque perte de puissance, fumée noire et voyant moteur. Plutôt qu'un remplacement (400 à 700 €), un nettoyage par démontage et bain ultrason avec joints neufs coûte de 180 à 290 € chez Garage Boost.
+
+### Voyant moteur orange : 8 causes possibles et leurs coûts
+
+- **URL** : https://garageboost.fr/blog/voyant-moteur-orange-8-causes
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Le voyant moteur orange signale un défaut détecté par le calculateur : sonde, bobine, vanne EGR, FAP, capteur ou simple bouchon de réservoir mal fermé. Seule une lecture des codes défaut permet de savoir ; le diagnostic coûte 49 € et il est offert si la réparation est réalisée chez nous.
+
+### Voiture qui consomme trop : 12 raisons et solutions concrètes
+
+- **URL** : https://garageboost.fr/blog/voiture-consomme-trop-12-raisons
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Une surconsommation soudaine vient le plus souvent des pneus sous-gonflés, d'un filtre à air encrassé, d'un moteur encrassé, d'une sonde défaillante ou d'un usage urbain. Commencez par les pressions et l'entretien, puis faites lire les données moteur si l'écart persiste.
+
+### Fumée noire à l'échappement : que faire avant de paniquer
+
+- **URL** : https://garageboost.fr/blog/fumee-noire-echappement
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Une fumée noire à l'échappement signale un excès de carburant mal brûlé : vanne EGR, injecteurs, filtre à air, turbo ou FAP. C'est rarement une urgence, mais il faut la traiter vite pour éviter d'encrasser davantage le moteur et d'échouer au contrôle technique.
+
+### Distribution moteur : quand la changer pour éviter la casse
+
+- **URL** : https://garageboost.fr/blog/distribution-moteur-quand-changer
+- **Mis à jour** : 2026-06-04
+- **Résumé** : La courroie de distribution se change selon l'échéance du constructeur, en kilomètres ou en années, et sa casse peut détruire le moteur. Chez Garage Boost, le remplacement du kit coûte de 490 à 890 € selon le moteur, en général avec la pompe à eau.
+
+### Plaquettes de frein : 5 signes d'usure + tarifs 2026
+
+- **URL** : https://garageboost.fr/blog/plaquettes-frein-signes-usure
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Grincement, vibration, voyant d'usure ou pédale qui s'enfonce davantage indiquent des plaquettes à remplacer. Chez Garage Boost, le remplacement des plaquettes avant coûte à partir de 159 €, avec contrôle de l'état des disques.
+
+### FAP : nettoyage vs remplacement, le vrai calcul économique
+
+- **URL** : https://garageboost.fr/blog/fap-nettoyage-vs-remplacement
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Dans la majorité des cas, nettoyer un FAP (250 à 650 €) revient bien moins cher que le remplacer (1 500 à 2 500 €). Le remplacement ne s'impose que si le support céramique est fondu ou fissuré, ce que le diagnostic vérifie avant toute intervention.
+
+### Garage indépendant vs concessionnaire : -40% pour quelle qualité ?
+
+- **URL** : https://garageboost.fr/blog/garage-independant-vs-concession
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Un garage indépendant pratique en général des tarifs de main-d'œuvre plus bas qu'une concession, à qualité de pièces équivalente. L'entretien hors réseau ne fait pas perdre la garantie constructeur si le plan d'entretien est respecté avec des pièces conformes.
+
+### Stage 1 vs Stage 2 reprogrammation : laquelle choisir ?
+
+- **URL** : https://garageboost.fr/blog/stage-1-vs-stage-2
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Le Stage 1 est une reprogrammation logicielle seule (350 à 690 €), adaptée à un usage quotidien. Le Stage 2 ajoute des pièces (échappement, échangeur) pour des gains supérieurs (690 à 990 €), avec davantage de contraintes mécaniques et réglementaires.
+
+### Comment passer le contrôle anti-pollution sans stress
+
+- **URL** : https://garageboost.fr/blog/controle-anti-pollution-passer-sans-stress
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Pour réussir le contrôle anti-pollution, faites chauffer le moteur avant le passage, roulez quelques kilomètres sur voie rapide, vérifiez qu'aucun voyant n'est allumé et traitez à l'avance un FAP ou une EGR encrassés. Un décalaminage peut aider sur un moteur encrassé.
+
+### Comment économiser 1 000 € par an sur l'entretien auto
+
+- **URL** : https://garageboost.fr/blog/economiser-1000-euros-an-entretien
+- **Mis à jour** : 2026-06-04
+- **Résumé** : On économise sur l'entretien en respectant le plan constructeur sans surplus, en comparant les devis, en traitant tôt les petits défauts et en entretenant pneus, freins et moteur avant qu'ils ne coûtent cher. Un garage indépendant réduit aussi la facture de main-d'œuvre.
+
+### ZFE Marseille 2026 : ce qui change pour les automobilistes
+
+- **URL** : https://garageboost.fr/blog/zfe-marseille-2026-ce-qui-change
+- **Mis à jour** : 2026-06-04
+- **Résumé** : L'accès à la zone à faibles émissions de Marseille dépend de la vignette Crit'Air du véhicule. Vérifiez votre classement et le calendrier en vigueur auprès de la Métropole ; un véhicule bien entretenu pollue moins, mais l'entretien ne change pas sa vignette.
+
+### L'hydrogène en mécanique : la révolution écologique du décalaminage
+
+- **URL** : https://garageboost.fr/blog/hydrogene-mecanique-revolution-propre
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Le nettoyage moteur à l'hydrogène injecte un mélange gazeux dans l'admission : la combustion transforme la calamine en vapeur d'eau évacuée par l'échappement, sans produit chimique ni démontage. Il est efficace sur un moteur encrassé, pas sur une usure mécanique.
+
+### Embrayage : 5 signes d'usure et tarifs réels en 2026
+
+- **URL** : https://garageboost.fr/blog/embrayage-signes-usure
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Un embrayage qui patine, un point de patinage haut, des à-coups ou une odeur de brûlé indiquent une usure. Chez Garage Boost, le remplacement complet coûte de 590 à 990 € selon le véhicule ; une conduite douce prolonge sa durée de vie.
+
+### Calibrage ADAS : pourquoi c'est crucial après remplacement pare-brise
+
+- **URL** : https://garageboost.fr/blog/calibrage-adas-pare-brise
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Après un remplacement de pare-brise, la caméra des aides à la conduite (freinage d'urgence, maintien de voie, lecture des panneaux) doit être recalibrée. Chez Garage Boost, le calibrage ADAS est inclus dans le remplacement (290 à 590 €).
+
+### Garage Boost : 10 ans au service des automobilistes de Plan-de-Cuques
+
+- **URL** : https://garageboost.fr/blog/garage-boost-10-ans-plan-de-cuques
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Garage Boost est un garage automobile indépendant installé au 1 avenue des Pères Blancs à Plan-de-Cuques (13380), près de Marseille. L'atelier traite toutes marques : mécanique, anti-pollution, reprogrammation, carrosserie, dépannage et location.
+
+### Combien coûte une révision auto à Marseille en 2026 ?
+
+- **URL** : https://garageboost.fr/blog/prix-revision-auto-marseille
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Une révision suit le plan d'entretien du constructeur : vidange, filtres et points de contrôle. Chez Garage Boost à Plan-de-Cuques, la vidange démarre à 89 € ; le prix d'une révision complète dépend des filtres et pièces prévus à l'échéance, avec un devis détaillé avant intervention.
+
+### Préparer sa voiture pour l'été et la chaleur à Marseille
+
+- **URL** : https://garageboost.fr/blog/preparer-voiture-ete-chaleur-marseille
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Avant l'été, contrôlez la climatisation (recharge de 79 à 149 €), le liquide de refroidissement, la batterie et la pression des pneus. La chaleur marseillaise et les bouchons sollicitent fortement le refroidissement et la batterie.
+
+### Batterie de voiture : signes de faiblesse, durée de vie et entretien
+
+- **URL** : https://garageboost.fr/blog/batterie-voiture-signes-faiblesse-duree-vie
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Une batterie dure en moyenne 4 à 6 ans. Démarrage lent, éclairage faible au démarrage ou voyant batterie sont des signes de faiblesse ; un test de batterie et de charge permet de la remplacer avant la panne.
+
+### Voiture d'occasion : le contrôle avant achat qui évite les pièges
+
+- **URL** : https://garageboost.fr/blog/controle-avant-achat-voiture-occasion
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Avant d'acheter une voiture d'occasion, vérifiez l'historique d'entretien, l'état mécanique et la carrosserie, et faites lire les codes défaut. Un contrôle professionnel avant achat coûte bien moins cher qu'une grosse réparation découverte après la vente.
+
+### Boîte automatique : entretien, vidange et idées reçues
+
+- **URL** : https://garageboost.fr/blog/boite-automatique-entretien-vidange
+- **Mis à jour** : 2026-06-04
+- **Résumé** : Une boîte automatique s'entretient : la vidange de son huile selon les préconisations limite l'usure et évite des réparations de plusieurs milliers d'euros. À-coups, patinage ou mode dégradé doivent être diagnostiqués sans attendre.
 
 ## Villes desservies (66 pages dédiées)
 
 ### Marseille
 
 - **URL** : https://garageboost.fr/villes/marseille
-- **Distance** : 10 km du centre (15 minutes en voiture)
+- **Distance depuis l'atelier** : 10 km du centre (15 minutes en voiture)
 - **Quartiers desservis** : Vieux-Port, La Joliette, Le Prado, La Timone, Saint-Loup, Saint-Antoine, Mazargues, Castellane, Bonneveine, Endoume
-- **Services les plus demandés** : debosselage-grele, decalaminage-hydrogene, nettoyage-fap, mecanique-generale, carrosserie-auto
 
 ### Plan-de-Cuques
 
 - **URL** : https://garageboost.fr/villes/plan-de-cuques
-- **Distance** : Sur place (Notre commune)
+- **Distance depuis l'atelier** : Sur place (Notre commune)
 - **Quartiers desservis** : Centre-ville, Quartier des Pères Blancs, Quartier de La Galéane, Le Cousin
-- **Services les plus demandés** : debosselage-grele, mecanique-generale, decalaminage-hydrogene, reprogrammation-moteur, pare-brise
 
 ### Allauch
 
 - **URL** : https://garageboost.fr/villes/allauch
-- **Distance** : 5 km (10 minutes)
+- **Distance depuis l'atelier** : 5 km (10 minutes)
 - **Quartiers desservis** : Centre historique, Le Logis-Neuf, Pichauris, La Pounche, Le Vieil Allauch
-- **Services les plus demandés** : debosselage-grele, mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, depannage-remorquage
 
 ### Aubagne
 
 - **URL** : https://garageboost.fr/villes/aubagne
-- **Distance** : 15 km (20 minutes)
+- **Distance depuis l'atelier** : 15 km (20 minutes)
 - **Quartiers desservis** : Centre-ville, Les Solans, Beaudinard, Camp Major, Les Paluds, La Tourtelle
-- **Services les plus demandés** : debosselage-grele, mecanique-generale, utilitaires, depannage-remorquage, carrosserie-auto
 
 ### La Ciotat
 
 - **URL** : https://garageboost.fr/villes/la-ciotat
-- **Distance** : 24 km (30 minutes)
+- **Distance depuis l'atelier** : 24 km (30 minutes)
 - **Quartiers desservis** : Vieille Ville, Le Port, La Garoupe, Saint-Jean, Le Mugel, Athéna, Les Séveriers
-- **Services les plus demandés** : debosselage-grele, carrosserie-auto, electricite-automobile, depannage-remorquage, reprogrammation-moteur
 
 ### Cassis
 
 - **URL** : https://garageboost.fr/villes/cassis
-- **Distance** : 24 km (30 minutes)
+- **Distance depuis l'atelier** : 24 km (30 minutes)
 - **Quartiers desservis** : Centre village, Le Port, Bestouan, La Couronne, Quartier des Calanques
-- **Services les plus demandés** : carrosserie-auto, peinture-automobile, reprogrammation-moteur, mecanique-generale
 
 ### Septèmes-les-Vallons
 
 - **URL** : https://garageboost.fr/villes/septemes-les-vallons
-- **Distance** : 11 km (15 minutes)
+- **Distance depuis l'atelier** : 11 km (15 minutes)
 - **Quartiers desservis** : Centre-ville, Le Logis-Neuf, Les Termes, La Gavotte, Saint-Antoine
-- **Services les plus demandés** : debosselage-grele, mecanique-generale, pare-brise, depannage-remorquage, electricite-automobile
 
 ### Les Pennes-Mirabeau
 
 - **URL** : https://garageboost.fr/villes/pennes-mirabeau
-- **Distance** : 15 km (20 minutes)
+- **Distance depuis l'atelier** : 15 km (20 minutes)
 - **Quartiers desservis** : Centre-ville, La Gavotte, Plan-de-Campagne, Cadenelle, Bonneveine
-- **Services les plus demandés** : debosselage-grele, mecanique-generale, utilitaires, reprogrammation-moteur, depannage-remorquage
 
 ### Vitrolles
 
 - **URL** : https://garageboost.fr/villes/vitrolles
-- **Distance** : 29 km (35 minutes)
+- **Distance depuis l'atelier** : 29 km (35 minutes)
 - **Quartiers desservis** : Centre-ville, Le Liourat, Le Pontet, Couperigne, Estroublans, Anjoly
-- **Services les plus demandés** : debosselage-grele, utilitaires, mecanique-generale, depannage-remorquage, reprogrammation-moteur
 
 ### Marignane
 
 - **URL** : https://garageboost.fr/villes/marignane
-- **Distance** : 20 km (30 minutes)
+- **Distance depuis l'atelier** : 20 km (30 minutes)
 - **Quartiers desservis** : Centre-ville, Notre-Dame, La Tapie, Le Jardin du Roy, Saint-Pierre
-- **Services les plus demandés** : debosselage-grele, reprogrammation-moteur, decalaminage-hydrogene, carrosserie-auto, mecanique-generale
 
 ### Cabriès
 
 - **URL** : https://garageboost.fr/villes/cabries
-- **Distance** : 16 km (25 minutes)
+- **Distance depuis l'atelier** : 16 km (25 minutes)
 - **Quartiers desservis** : Centre-ville, Plan-de-Campagne, Les Pommiers, Calas
-- **Services les plus demandés** : debosselage-grele, carrosserie-auto, pare-brise, mecanique-generale, reprogrammation-moteur
 
 ### Bouc-Bel-Air
 
 - **URL** : https://garageboost.fr/villes/bouc-bel-air
-- **Distance** : 17 km (25 minutes)
+- **Distance depuis l'atelier** : 17 km (25 minutes)
 - **Quartiers desservis** : Centre-ville, Le Pont-de-l'Arc, La Salle, Les Cèdres
-- **Services les plus demandés** : debosselage-grele, mecanique-generale, reprogrammation-moteur, pare-brise, electricite-automobile
 
 ### Gardanne
 
 - **URL** : https://garageboost.fr/villes/gardanne
-- **Distance** : 27 km (30 minutes)
+- **Distance depuis l'atelier** : 27 km (30 minutes)
 - **Quartiers desservis** : Centre-ville, Notre-Dame, Biver, Valabre, Fontvenelle
-- **Services les plus demandés** : debosselage-grele, mecanique-generale, reprogrammation-moteur, utilitaires, decalaminage-hydrogene
 
 ### Aix-en-Provence
 
 - **URL** : https://garageboost.fr/villes/aix-en-provence
-- **Distance** : 30 km (35 minutes)
+- **Distance depuis l'atelier** : 30 km (35 minutes)
 - **Quartiers desservis** : Cours Mirabeau, Mazarin, La Duranne, Pont-de-l'Arc, Jas de Bouffan, Encagnane
-- **Services les plus demandés** : debosselage-grele, reprogrammation-moteur, decalaminage-hydrogene, carrosserie-auto, peinture-automobile
 
 ### Salon-de-Provence
 
 - **URL** : https://garageboost.fr/villes/salon-de-provence
-- **Distance** : 50 km (55 minutes)
+- **Distance depuis l'atelier** : 50 km (55 minutes)
 - **Quartiers desservis** : Centre-ville, La Coupole, Les Bressons, Bel Air, La Salle
-- **Services les plus demandés** : reprogrammation-moteur, mecanique-generale, utilitaires, carrosserie-auto
 
 ### Martigues
 
 - **URL** : https://garageboost.fr/villes/martigues
-- **Distance** : 40 km (45 minutes)
+- **Distance depuis l'atelier** : 40 km (45 minutes)
 - **Quartiers desservis** : Centre historique, L'Île, Ferrières, Jonquières, La Couronne, Lavéra
-- **Services les plus demandés** : debosselage-grele, utilitaires, nettoyage-fap, traitement-egr, depannage-remorquage
 
 ### Saint-Maximin-la-Sainte-Baume
 
 - **URL** : https://garageboost.fr/villes/saint-maximin-la-sainte-baume
-- **Distance** : 48 km (55 minutes)
+- **Distance depuis l'atelier** : 48 km (55 minutes)
 - **Quartiers desservis** : Centre historique, La Pinède, Rougiers, Châteaurenard
-- **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, mecanique-generale, carrosserie-auto
 
 ### Toulon
 
 - **URL** : https://garageboost.fr/villes/toulon
-- **Distance** : 65 km (1h10)
+- **Distance depuis l'atelier** : 65 km (1h10)
 - **Quartiers desservis** : Centre-ville, Le Mourillon, La Rode, Saint-Roch, La Serinette, Pont-du-Las
-- **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, voiture-rallye, voiture-rallye
 
 ### Istres
 
 - **URL** : https://garageboost.fr/villes/istres
-- **Distance** : 46 km (50 minutes)
+- **Distance depuis l'atelier** : 46 km (50 minutes)
 - **Quartiers desservis** : Centre-ville, Le Tubé, La Bayanne, Trigance, Rassuen
-- **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, pare-brise, utilitaires
 
 ### Roquevaire
 
 - **URL** : https://garageboost.fr/villes/roquevaire
-- **Distance** : 15 km (20 minutes)
+- **Distance depuis l'atelier** : 15 km (20 minutes)
 - **Quartiers desservis** : Centre-village, Lascours, Pont-de-l'Étoile, Le Pré de Châteauredon
-- **Services les plus demandés** : debosselage-grele, mecanique-generale, diagnostic-moteur, depannage-remorquage, pare-brise
 
 ### Auriol
 
 - **URL** : https://garageboost.fr/villes/auriol
-- **Distance** : 22 km (25 minutes)
+- **Distance depuis l'atelier** : 22 km (25 minutes)
 - **Quartiers desservis** : Centre-village, Moulin de Redon, La Vallée Heureuse, Pont de Joux
-- **Services les plus demandés** : debosselage-grele, mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, depannage-remorquage
 
 ### Gémenos
 
 - **URL** : https://garageboost.fr/villes/gemenos
-- **Distance** : 17 km (20 minutes)
+- **Distance depuis l'atelier** : 17 km (20 minutes)
 - **Quartiers desservis** : Centre-village, Saint-Jean-de-Garguier, Parc d'activités de Gémenos, Coulin
-- **Services les plus demandés** : debosselage-grele, utilitaires, mecanique-generale, depannage-remorquage, reprogrammation-moteur
 
 ### La Penne-sur-Huveaune
 
 - **URL** : https://garageboost.fr/villes/la-penne-sur-huveaune
-- **Distance** : 12 km (15 minutes)
+- **Distance depuis l'atelier** : 12 km (15 minutes)
 - **Quartiers desservis** : Centre-ville, Les Pallières, La Millière, Le Pont de l'Étoile
-- **Services les plus demandés** : debosselage-grele, mecanique-generale, pare-brise, diagnostic-moteur, depannage-remorquage
 
 ### Carnoux-en-Provence
 
 - **URL** : https://garageboost.fr/villes/carnoux-en-provence
-- **Distance** : 18 km (22 minutes)
+- **Distance depuis l'atelier** : 18 km (22 minutes)
 - **Quartiers desservis** : Centre-ville, La Crémade, Le Vallon, Les Hauts de Carnoux
-- **Services les plus demandés** : carrosserie-auto, pare-brise, reprogrammation-moteur, mecanique-generale
 
 ### Simiane-Collongue
 
 - **URL** : https://garageboost.fr/villes/simiane-collongue
-- **Distance** : 14 km (20 minutes)
+- **Distance depuis l'atelier** : 14 km (20 minutes)
 - **Quartiers desservis** : Centre-village, Collongue, Le Pavillon, Les Bastides
-- **Services les plus demandés** : debosselage-grele, mecanique-generale, diagnostic-moteur, pare-brise, electricite-automobile
 
 ### Fuveau
 
 - **URL** : https://garageboost.fr/villes/fuveau
-- **Distance** : 26 km (30 minutes)
+- **Distance depuis l'atelier** : 26 km (30 minutes)
 - **Quartiers desservis** : Centre-village, La Barque, Bellevue, Château
-- **Services les plus demandés** : debosselage-grele, mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, pare-brise
 
 ### Trets
 
 - **URL** : https://garageboost.fr/villes/trets
-- **Distance** : 35 km (38 minutes)
+- **Distance depuis l'atelier** : 35 km (38 minutes)
 - **Quartiers desservis** : Centre historique, Kirbon, Les Œillets, Bas-Cani
-- **Services les plus demandés** : decalaminage-hydrogene, mecanique-generale, utilitaires, reprogrammation-moteur
 
 ### Venelles
 
 - **URL** : https://garageboost.fr/villes/venelles
-- **Distance** : 38 km (42 minutes)
+- **Distance depuis l'atelier** : 38 km (42 minutes)
 - **Quartiers desservis** : Centre-village, Le Logis, Les Logissons, Font-Trompette
-- **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, carrosserie-auto, mecanique-generale
 
 ### Pertuis
 
 - **URL** : https://garageboost.fr/villes/pertuis
-- **Distance** : 45 km (50 minutes)
+- **Distance depuis l'atelier** : 45 km (50 minutes)
 - **Quartiers desservis** : Centre-ville, Saint-Pierre, Le Farigoulier, Les Jean-Jean
-- **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, mecanique-generale, reprogrammation-moteur
 
 ### Berre-l'Étang
 
 - **URL** : https://garageboost.fr/villes/berre-letang
-- **Distance** : 38 km (42 minutes)
+- **Distance depuis l'atelier** : 38 km (42 minutes)
 - **Quartiers desservis** : Centre-ville, Mauran, La Peyrère, Champ de Mars
-- **Services les plus demandés** : utilitaires, nettoyage-fap, traitement-egr, depannage-remorquage
 
 ### Pélissanne
 
 - **URL** : https://garageboost.fr/villes/pelissanne
-- **Distance** : 45 km (48 minutes)
+- **Distance depuis l'atelier** : 45 km (48 minutes)
 - **Quartiers desservis** : Centre-village, Le Vallon, Saint-Laurent, La Pousaraque
-- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, reprogrammation-moteur, carrosserie-auto
 
 ### Lançon-Provence
 
 - **URL** : https://garageboost.fr/villes/lancon-provence
-- **Distance** : 42 km (45 minutes)
+- **Distance depuis l'atelier** : 42 km (45 minutes)
 - **Quartiers desservis** : Centre-village, Cardonne, La Discathe, Le Pont de Rhaud
-- **Services les plus demandés** : nettoyage-fap, decalaminage-hydrogene, utilitaires, mecanique-generale
 
 ### Miramas
 
 - **URL** : https://garageboost.fr/villes/miramas
-- **Distance** : 50 km (55 minutes)
+- **Distance depuis l'atelier** : 50 km (55 minutes)
 - **Quartiers desservis** : Centre-ville, Miramas-le-Vieux, La Péronne, Les Molières
-- **Services les plus demandés** : utilitaires, nettoyage-fap, depannage-remorquage, mecanique-generale
 
 ### Châteauneuf-les-Martigues
 
 - **URL** : https://garageboost.fr/villes/chateauneuf-les-martigues
-- **Distance** : 28 km (35 minutes)
+- **Distance depuis l'atelier** : 28 km (35 minutes)
 - **Quartiers desservis** : Centre-ville, La Mède, Les Ventrons, Tamaris
-- **Services les plus demandés** : carrosserie-auto, electricite-automobile, utilitaires, mecanique-generale
 
 ### Rognac
 
 - **URL** : https://garageboost.fr/villes/rognac
-- **Distance** : 32 km (38 minutes)
+- **Distance depuis l'atelier** : 32 km (38 minutes)
 - **Quartiers desservis** : Centre-ville, Les Barjaquets, Le Pélican, Sainte-Anne
-- **Services les plus demandés** : utilitaires, depannage-remorquage, nettoyage-fap, mecanique-generale
 
 ### Roquefort-la-Bédoule
 
 - **URL** : https://garageboost.fr/villes/roquefort-la-bedoule
-- **Distance** : 20 km (25 minutes)
+- **Distance depuis l'atelier** : 20 km (25 minutes)
 - **Quartiers desservis** : Centre-village, La Bédoule, Les Hauts du Caroux, Le Rouet
-- **Services les plus demandés** : mecanique-generale, pare-brise, carrosserie-auto, depannage-remorquage
 
 ### Cuges-les-Pins
 
 - **URL** : https://garageboost.fr/villes/cuges-les-pins
-- **Distance** : 28 km (30 minutes)
+- **Distance depuis l'atelier** : 28 km (30 minutes)
 - **Quartiers desservis** : Centre-village, Le Plan, Les Bastides, La Font
-- **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, mecanique-generale, depannage-remorquage
 
 ### Rousset
 
 - **URL** : https://garageboost.fr/villes/rousset
-- **Distance** : 33 km (35 minutes)
+- **Distance depuis l'atelier** : 33 km (35 minutes)
 - **Quartiers desservis** : Centre-village, Rousset-Gare, La Burlière, Le Pôle d'activités
-- **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, mecanique-generale, carrosserie-auto
 
 ### Meyreuil
 
 - **URL** : https://garageboost.fr/villes/meyreuil
-- **Distance** : 28 km (32 minutes)
+- **Distance depuis l'atelier** : 28 km (32 minutes)
 - **Quartiers desservis** : Centre-village, Le Canet de Meyreuil, Valbrillant, La Croix de Meyreuil
-- **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, pare-brise
 
 ### Saint-Chamas
 
 - **URL** : https://garageboost.fr/villes/saint-chamas
-- **Distance** : 46 km (50 minutes)
+- **Distance depuis l'atelier** : 46 km (50 minutes)
 - **Quartiers desservis** : Centre-ville, Le Pont Flavien, La Petite Camargue, Les Baumes
-- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, carrosserie-auto, reprogrammation-moteur
 
 ### Eyguières
 
 - **URL** : https://garageboost.fr/villes/eyguieres
-- **Distance** : 55 km (58 minutes)
+- **Distance depuis l'atelier** : 55 km (58 minutes)
 - **Quartiers desservis** : Centre-village, Les Alpilles, La Plaine, Roquemartine
-- **Services les plus demandés** : nettoyage-fap, decalaminage-hydrogene, utilitaires, mecanique-generale
 
 ### Sénas
 
 - **URL** : https://garageboost.fr/villes/senas
-- **Distance** : 60 km (1h05)
+- **Distance depuis l'atelier** : 60 km (1h05)
 - **Quartiers desservis** : Centre-village, La Crau, Le Pont de la Durance, Les Garrigues
-- **Services les plus demandés** : nettoyage-fap, utilitaires, depannage-remorquage, mecanique-generale
 
 ### Port-de-Bouc
 
 - **URL** : https://garageboost.fr/villes/port-de-bouc
-- **Distance** : 45 km (50 minutes)
+- **Distance depuis l'atelier** : 45 km (50 minutes)
 - **Quartiers desservis** : Centre-ville, Les Aigues Douces, La Lèque, Saint-Jean
-- **Services les plus demandés** : utilitaires, nettoyage-fap, depannage-remorquage, traitement-egr
 
 ### Fos-sur-Mer
 
 - **URL** : https://garageboost.fr/villes/fos-sur-mer
-- **Distance** : 50 km (55 minutes)
+- **Distance depuis l'atelier** : 50 km (55 minutes)
 - **Quartiers desservis** : Centre-ville, Le Mazet, Les Carabins, La Bergerie
-- **Services les plus demandés** : utilitaires, nettoyage-fap, traitement-egr, depannage-remorquage
 
 ### Sausset-les-Pins
 
 - **URL** : https://garageboost.fr/villes/sausset-les-pins
-- **Distance** : 35 km (42 minutes)
+- **Distance depuis l'atelier** : 35 km (42 minutes)
 - **Quartiers desservis** : Centre-ville, Le Port, La Couronne, Les Tamaris
-- **Services les plus demandés** : carrosserie-auto, electricite-automobile, pare-brise, mecanique-generale
 
 ### Carry-le-Rouet
 
 - **URL** : https://garageboost.fr/villes/carry-le-rouet
-- **Distance** : 33 km (40 minutes)
+- **Distance depuis l'atelier** : 33 km (40 minutes)
 - **Quartiers desservis** : Centre-ville, Le Rouet, Les Pins, La Tuilière
-- **Services les plus demandés** : carrosserie-auto, peinture-automobile, pare-brise, reprogrammation-moteur
 
 ### Gignac-la-Nerthe
 
 - **URL** : https://garageboost.fr/villes/gignac-la-nerthe
-- **Distance** : 25 km (30 minutes)
+- **Distance depuis l'atelier** : 25 km (30 minutes)
 - **Quartiers desservis** : Centre-ville, La Nerthe, Laure, Le Pelletan
-- **Services les plus demandés** : mecanique-generale, depannage-remorquage, reprogrammation-moteur, pare-brise
 
 ### Saint-Victoret
 
 - **URL** : https://garageboost.fr/villes/saint-victoret
-- **Distance** : 22 km (28 minutes)
+- **Distance depuis l'atelier** : 22 km (28 minutes)
 - **Quartiers desservis** : Centre-ville, Le Griffon, Les Plaines, La Palun
-- **Services les plus demandés** : mecanique-generale, depannage-remorquage, reprogrammation-moteur, electricite-automobile
 
 ### Velaux
 
 - **URL** : https://garageboost.fr/villes/velaux
-- **Distance** : 35 km (40 minutes)
+- **Distance depuis l'atelier** : 35 km (40 minutes)
 - **Quartiers desservis** : Centre-village, Le Pigeonnier, La Coopérative, Les Cadestaux
-- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, reprogrammation-moteur, pare-brise
 
 ### Brignoles
 
 - **URL** : https://garageboost.fr/villes/brignoles
-- **Distance** : 60 km (1h05)
+- **Distance depuis l'atelier** : 60 km (1h05)
 - **Quartiers desservis** : Centre historique, Saint-Jean, La Burlière, Les Censiés
-- **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, reprogrammation-moteur, mecanique-generale
 
 ### Peypin
 
 - **URL** : https://garageboost.fr/villes/peypin
-- **Distance** : 18 km (25 minutes)
+- **Distance depuis l'atelier** : 18 km (25 minutes)
 - **Quartiers desservis** : Le Village, Les Michels, Valdonne, La Croix de l'Aï, Les Fauyes
-- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, reprogrammation-moteur, depannage-remorquage
 
 ### La Bouilladisse
 
 - **URL** : https://garageboost.fr/villes/la-bouilladisse
-- **Distance** : 22 km (25 minutes)
+- **Distance depuis l'atelier** : 22 km (25 minutes)
 - **Quartiers desservis** : Le Village, La Grande Terre, Le Pont de l'Étoile, Le Moulin de Redon, Les Vallons
-- **Services les plus demandés** : nettoyage-fap, decalaminage-hydrogene, mecanique-generale, carrosserie-auto
 
 ### Saint-Savournin
 
 - **URL** : https://garageboost.fr/villes/saint-savournin
-- **Distance** : 16 km (25 minutes)
+- **Distance depuis l'atelier** : 16 km (25 minutes)
 - **Quartiers desservis** : Le Village, Les Movies, La Baou, Le Pas de l'Étoile, Les Michels
-- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, voyants-moteur, depannage-remorquage
 
 ### Gréasque
 
 - **URL** : https://garageboost.fr/villes/greasque
-- **Distance** : 18 km (25 minutes)
+- **Distance depuis l'atelier** : 18 km (25 minutes)
 - **Quartiers desservis** : Le Village, Le Puits Hély d'Oissel, Les Bertrands, La Grande Bastide, Le Vallon
-- **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, utilitaires
 
 ### Mimet
 
 - **URL** : https://garageboost.fr/villes/mimet
-- **Distance** : 16 km (25 minutes)
+- **Distance depuis l'atelier** : 16 km (25 minutes)
 - **Quartiers desservis** : Le Village, La Plaine de Mimet, Le Col Sainte-Anne, Les Bertrands, Peynier
-- **Services les plus demandés** : mecanique-generale, reprogrammation-moteur, decalaminage-hydrogene, depannage-remorquage
 
 ### La Destrousse
 
 - **URL** : https://garageboost.fr/villes/la-destrousse
-- **Distance** : 22 km (25 minutes)
+- **Distance depuis l'atelier** : 22 km (25 minutes)
 - **Quartiers desservis** : Le Village, Les Vallons, La Gare, Le Pont de Joux, Les Aires
-- **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, mecanique-generale, carrosserie-auto
 
 ### Ceyreste
 
 - **URL** : https://garageboost.fr/villes/ceyreste
-- **Distance** : 33 km (35 minutes)
+- **Distance depuis l'atelier** : 33 km (35 minutes)
 - **Quartiers desservis** : Le Village, Fontsainte, Ceyreste Collines, Le Grand Vallon, Les Rampaux
-- **Services les plus demandés** : carrosserie-auto, pare-brise, electricite-automobile, mecanique-generale
 
 ### Saint-Zacharie
 
 - **URL** : https://garageboost.fr/villes/saint-zacharie
-- **Distance** : 32 km (35 minutes)
+- **Distance depuis l'atelier** : 32 km (35 minutes)
 - **Quartiers desservis** : Le Village, Le Moulin, La Source de l'Huveaune, Pré de l'Aï, Les Nayes
-- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, nettoyage-fap, reprogrammation-moteur
 
 ### Ensuès-la-Redonne
 
 - **URL** : https://garageboost.fr/villes/ensues-la-redonne
-- **Distance** : 40 km (40 minutes)
+- **Distance depuis l'atelier** : 40 km (40 minutes)
 - **Quartiers desservis** : Le Village, La Redonne, Méjean, La Madrague-de-Gignac, Les Figuières
-- **Services les plus demandés** : carrosserie-auto, peinture-automobile, pare-brise, electricite-automobile
 
 ### Éguilles
 
 - **URL** : https://garageboost.fr/villes/eguilles
-- **Distance** : 30 km (35 minutes)
+- **Distance depuis l'atelier** : 30 km (35 minutes)
 - **Quartiers desservis** : Le Village, Les Figons, La Tour d'Aygosi, Le Réal, Granon
-- **Services les plus demandés** : reprogrammation-moteur, decalaminage-hydrogene, nettoyage-fap, mecanique-generale
 
 ### Ventabren
 
 - **URL** : https://garageboost.fr/villes/ventabren
-- **Distance** : 38 km (40 minutes)
+- **Distance depuis l'atelier** : 38 km (40 minutes)
 - **Quartiers desservis** : Le Vieux Village, Les Cauvets, La Blaque, Roquefavour, Le Grand Vallat
-- **Services les plus demandés** : mecanique-generale, decalaminage-hydrogene, nettoyage-fap, reprogrammation-moteur
 
 ### Saint-Cannat
 
 - **URL** : https://garageboost.fr/villes/saint-cannat
-- **Distance** : 42 km (45 minutes)
+- **Distance depuis l'atelier** : 42 km (45 minutes)
 - **Quartiers desservis** : Le Village, Les Espourtiés, La Trévaresse, Le Puits de Rians, La Chapelle
-- **Services les plus demandés** : mecanique-generale, utilitaires, decalaminage-hydrogene, pare-brise
 
 ### Peyrolles-en-Provence
 
 - **URL** : https://garageboost.fr/villes/peyrolles-en-provence
-- **Distance** : 38 km (40 minutes)
+- **Distance depuis l'atelier** : 38 km (40 minutes)
 - **Quartiers desservis** : Le Village, Le Plan, La Roque, Les Bannettes, Le Bosquet
-- **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, mecanique-generale, reprogrammation-moteur
 
 ### Le Puy-Sainte-Réparade
 
 - **URL** : https://garageboost.fr/villes/le-puy-sainte-reparade
-- **Distance** : 40 km (40 minutes)
+- **Distance depuis l'atelier** : 40 km (40 minutes)
 - **Quartiers desservis** : Le Village, Saint-Canadet, La Quille, Les Goirands, Le Puy Haut
-- **Services les plus demandés** : mecanique-generale, utilitaires, decalaminage-hydrogene, reprogrammation-moteur
 
 ### Rognes
 
 - **URL** : https://garageboost.fr/villes/rognes
-- **Distance** : 45 km (45 minutes)
+- **Distance depuis l'atelier** : 45 km (45 minutes)
 - **Quartiers desservis** : Le Village, Saint-Denis, Le Foussa, Les Bagnols, La Trévaresse
-- **Services les plus demandés** : mecanique-generale, utilitaires, decalaminage-hydrogene, pare-brise
 
 ### Lambesc
 
 - **URL** : https://garageboost.fr/villes/lambesc
-- **Distance** : 48 km (50 minutes)
+- **Distance depuis l'atelier** : 48 km (50 minutes)
 - **Quartiers desservis** : Le Village, Bernon, Les Costes, La Vidale, Le Petit Pont
-- **Services les plus demandés** : decalaminage-hydrogene, nettoyage-fap, reprogrammation-moteur, mecanique-generale
 
 ## Marques travaillées
 
 Renault, Peugeot, Citroën, Volkswagen, Audi, BMW, Mercedes, Ford, Opel, Fiat, Toyota, Honda, Nissan, Hyundai, Kia, Mazda, Volvo, Skoda, Seat, Dacia, Mini, Land Rover, Jeep, Porsche.
 
-## Engagements & Garanties
+## Engagements et garanties
 
-- Devis gratuit sous 24h ouvrées
-- Garantie 12 mois pièces et main-d'œuvre (24 mois reprogrammations)
-- Pièces qualité OEM exclusivement
-- Tarifs -30 à -40% vs concession
-- Paiement 3 ou 4 fois sans frais au-delà de 500€
-- Récupération à domicile dans toute la zone Marseille (offerte au-delà de 200€)
-- Compte-rendu écrit systématique
-- Note 4,9/5 sur 127+ avis Google vérifiés
-
-## Mots-clés sémantiques
-
-garage Marseille, garage Plan-de-Cuques, mécanicien Marseille, reprogrammation moteur, décalaminage hydrogène, nettoyage FAP, gestion panne AdBlue, réparation système SCR, traitement EGR, carrosserie auto, peinture cabine, pare-brise, calibrage ADAS, dépannage auto 7j/7, remorquage Marseille, ouverture véhicule, reproduction clé, location utilitaire, location van aménagé, voiture rallye, occasion certifiée.
+- Devis gratuit sous 24 heures ouvrées, validation écrite avant toute intervention
+- Garantie 12 mois pièces et main-d'œuvre (24 mois sur les reprogrammations et la peinture)
+- Pièces qualité d'origine ou équivalente
+- Paiement en 3 ou 4 fois sans frais au-delà de 500 €
+- Récupération du véhicule à domicile, offerte au-delà de 200 € d'intervention
+- Entretien en garage indépendant sans perte de la garantie constructeur (plan d'entretien respecté)
+- Pas de suppression ni de désactivation d'organes antipollution (AdBlue, FAP, EGR) : diagnostic et réparation uniquement

@@ -11,6 +11,8 @@ const TEMPLATE = fs.readFileSync(path.join(__dirname, 'article-template.html'), 
 const articles = require('./articles.js');
 const FAQ = require('./article-faq.js');
 const EXTRA = require('./article-extra.js');
+const { fitTitle, clampMeta } = require('./seo-text.js');
+const { summarize } = require('./article-summary.js');
 
 // =====================================================================
 // Helpers réutilisés dans l'appendice
@@ -162,7 +164,8 @@ const summary = [];
 
 for (const article of articles) {
   article.faq = article.faq || FAQ[article.slug] || [];
-  const fullContent = article.content + (EXTRA[article.slug] || '') + buildAppendix(article);
+  const sum = summarize(article);
+  const fullContent = sum.html + sum.content + (EXTRA[article.slug] || '') + buildAppendix(article);
   const wordCount = countWords(fullContent);
   const faqSchema = article.faq.length
     ? '<script type="application/ld+json">' + JSON.stringify({
@@ -174,7 +177,9 @@ for (const article of articles) {
   const html = render(TEMPLATE, {
     slug: article.slug,
     title: article.title,
+    pageTitle: fitTitle(`${article.title} | Garage Boost`, article.seoTitle && `${article.seoTitle} | Garage Boost`, article.seoTitle, article.title),
     metaDesc: article.metaDesc,
+    metaDescShort: clampMeta(article.metaDesc),
     keywords: article.keywords,
     category: article.category,
     coverImage: article.cover,
@@ -182,6 +187,7 @@ for (const article of articles) {
     datePublished: article.datePublished,
     dateModified: article.dateModified,
     dateDisplay: formatDateFR(article.dateModified),
+    abstractJSON: JSON.stringify(sum.text),
     readTime: article.readTime,
     wordCount: wordCount,
     contentHTML: fullContent,
@@ -240,7 +246,7 @@ const blogIndexHTML = `<!DOCTYPE html>
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#0a0e0c">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog Garage Boost Marseille | Conseils auto, FAP, reprogrammation, anti-pollution</title>
+<title>Blog auto : guides entretien et réparation | Garage Boost</title>
 <meta name="description" content="Blog Garage Boost : guides pédagogiques sur le décalaminage hydrogène, le nettoyage FAP, la reprogrammation moteur et l'entretien automobile à Marseille.">
 <meta name="keywords" content="blog auto Marseille, conseils décalaminage, guide FAP, blog reprogrammation moteur, articles entretien voiture">
 <meta name="robots" content="index, follow">

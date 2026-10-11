@@ -9,6 +9,7 @@ const ROOT = path.resolve(__dirname, '..');
 const TEMPLATE = fs.readFileSync(path.join(__dirname, 'local-template.html'), 'utf8');
 const data = require('./data.js');
 const zones = require('./zones.js');
+const { fitTitle, clampMeta } = require('./seo-text.js');
 
 const SERVICE_ICONS = {
   'diagnostic-moteur': 'microchip', 'decalaminage-hydrogene': 'fire-flame-curved',
@@ -178,8 +179,8 @@ for (const [categorySlug, category] of Object.entries(data.categories)) {
         areaServedJSON,
         accessText: zone.access,
         localContext: zone.localContext,
-        title: `${service.name} ${zone.label} | Garage Boost Marseille`,
-        metaDesc: `${service.name} dans la zone ${zone.label} (${citiesText}). Garage Boost à Plan-de-Cuques. Tarif ${service.price}, garantie 12 mois, devis sous 24h. Récupération à domicile.`,
+        title: fitTitle(`${service.name} ${zone.label} | Garage Boost`, `${service.name} ${zone.label}`, `${service.name} ${zone.firstCity} et alentours`, `${service.name} secteur ${zone.firstCity}`),
+        metaDesc: clampMeta(`${service.name} pour ${zone.label} : Garage Boost à Plan-de-Cuques. Tarif ${service.price}, garantie 12 mois, devis sous 24h, récupération à domicile.`),
         keywords: `${service.name.toLowerCase()} ${zone.firstCity}, ${service.name.toLowerCase()} ${zone.cities[1] || ''}, garage ${zone.firstCity}, ${service.name.toLowerCase()} ${zone.label.toLowerCase()}`,
         lead,
         introP1,

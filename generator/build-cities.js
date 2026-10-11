@@ -10,6 +10,7 @@ const ROOT = path.resolve(__dirname, '..');
 const TEMPLATE = fs.readFileSync(path.join(__dirname, 'city-template.html'), 'utf8');
 const data = require('./data.js');
 const cities = require('./cities.js');
+const { fitTitle, clampMeta } = require('./seo-text.js');
 const { servicesForCity } = require('./city-services.js');
 
 const SERVICE_ICONS = {
@@ -159,8 +160,8 @@ for (const city of cities) {
     accessInfo: city.accessInfo,
     trafficNote: city.trafficNote,
     nearbyDistricts: city.nearbyDistricts.join(', '),
-    title: `Garage automobile ${city.name} | Garage Boost — Mécanique, carrosserie, dépannage`,
-    metaDesc: `Garage Boost à votre service à ${city.name}. Mécanique, reprogrammation, FAP, carrosserie, dépannage, location — à ${city.distance} de Plan-de-Cuques. Devis gratuit sous 24h.`,
+    title: fitTitle(`Garage automobile ${city.name} | Garage Boost`, `Garage auto ${city.name} | Garage Boost`, `Garage auto ${city.name}`),
+    metaDesc: clampMeta(`Garage Boost à votre service à ${city.name}. Mécanique, reprogrammation, FAP, carrosserie, dépannage, location — à ${city.distance} de Plan-de-Cuques. Devis gratuit sous 24h.`),
     keywords: `garage ${city.name}, garage automobile ${city.name}, mécanicien ${city.name}, carrosserie ${city.name}, dépannage ${city.name}`,
     lead,
     image1: IMAGES[0],
