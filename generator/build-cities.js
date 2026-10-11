@@ -154,6 +154,11 @@ for (const city of cities) {
     cityName: city.name,
     deCity: deVille(city.name),
     aCity: aVille(city.name),
+    // préposition et nom séparés (le nom est mis en forme dans le H1 / la FAQ)
+    deCityPrep: deVille(city.name).replace(/^(d'|de |du |des ).*/, (m, p) => p.trim()),
+    deCityName: deVille(city.name).replace(/^(d'|de |du |des )/, ''),
+    aCityPrep: aVille(city.name).replace(/^(à |au |aux ).*/, (m, p) => p.trim()),
+    aCityName: aVille(city.name).replace(/^(à |au |aux )/, ''),
     population: city.population,
     distance: city.distance,
     travelTime: city.travelTime,

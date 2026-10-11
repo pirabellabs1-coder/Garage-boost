@@ -21,6 +21,8 @@ const items = [];
 const re = /<button class="faq-q">([\s\S]*?)<span class="faq-icon">[\s\S]*?<\/button>\s*<div class="faq-a">([\s\S]*?)<\/div>/g;
 for (const m of html.matchAll(re)) items.push({ q: decode(m[1]), a: decode(m[2]) });
 
+if (!items.length) throw new Error('faq-schema : aucune question détectée dans faq.html (balisage .faq-q/.faq-a modifié ?)');
+
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',

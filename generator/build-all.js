@@ -24,9 +24,6 @@ require('./build-articles.js');
 console.log('\n=== 6/7 — Génération llms-full.txt (GEO/IA) ===\n');
 require('./build-llms-full.js');
 
-console.log('\n=== 7/8 — Génération sitemap + robots ===\n');
-require('./build-sitemap.js');
-
 console.log('\n=== Balises de vérification moteurs (Bing) ===\n');
 require('./site-meta.js');
 
@@ -42,7 +39,14 @@ require('./faq-schema.js');
 console.log('\n=== Dimensions des images (anti-CLS) ===\n');
 require('./img-dimensions.js');
 
+// Sitemap APRÈS les post-traitements : l'empreinte lastmod porte sur le HTML final
+console.log('\n=== Génération sitemap + robots ===\n');
+require('./build-sitemap.js');
+
 console.log('\n=== 10/10 — Cache-busting CSS/JS ===\n');
 require('./asset-version.js');
+
+console.log('\n=== Garde-fou JSON-LD ===\n');
+require('./validate-jsonld.js');
 
 console.log('\n✓ Build complet terminé.\n');

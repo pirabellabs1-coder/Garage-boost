@@ -8,6 +8,7 @@ const META_MAX = 158;
 /** Premier candidat qui tient dans la limite ; à défaut le plus court. */
 function fitTitle(...candidates) {
   const list = candidates.filter(Boolean).map(s => String(s).replace(/\s+/g, ' ').trim());
+  if (!list.length) throw new Error('fitTitle : aucun candidat');
   return list.find(t => t.length <= TITLE_MAX) || list.reduce((a, b) => (b.length < a.length ? b : a));
 }
 
@@ -24,7 +25,8 @@ function clampMeta(text, max = META_MAX) {
 /** Phrases entières jusqu'à `max` caractères (au moins la première). */
 function firstSentences(text, max = 200) {
   const s = String(text || '').replace(/\s+/g, ' ').trim();
-  const parts = s.match(/[^.!?]+[.!?]+(\s|$)/g) || [s];
+  // Coupe uniquement sur une ponctuation SUIVIE d'un espace (pas « 2.0 TDI »)
+  const parts = s.split(/(?<=[.!?])\s+/).map(p => p + ' ');
   let out = '';
   for (const p of parts) {
     if (out && (out + p).trim().length > max) break;

@@ -4,13 +4,14 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
 const cities = require('./cities.js');
+const { deVille } = require('./seo-text.js');
 
 const cityCardsHTML = cities.map(c => `
   <a class="why-card" href="villes/${c.slug}.html" style="text-decoration:none;display:block">
     <span class="why-num">${c.population}</span>
     <span class="why-icon"><i class="fa-solid fa-location-dot"></i></span>
     <h3 class="why-title">${c.name}</h3>
-    <p class="why-desc">${c.distance} de notre atelier · ${c.travelTime} de trajet. Tous nos services sont disponibles pour les habitants de ${c.name}.</p>
+    <p class="why-desc">${c.distance} de notre atelier · ${c.travelTime} de trajet. Tous nos services sont disponibles pour les habitants ${deVille(c.name)}.</p>
     <span style="color:var(--accent);font-size:0.85rem;font-weight:600;display:inline-flex;align-items:center;gap:6px;margin-top:14px">Voir le détail <i class="fa-solid fa-arrow-right"></i></span>
   </a>
 `).join('\n');
