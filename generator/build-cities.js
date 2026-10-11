@@ -71,11 +71,17 @@ function findService(slug) {
   return null;
 }
 
-function buildTopServicesList(topServices, cityName, citySlug) {
-  return topServices.map(slug => {
+// Page service × ville si elle existe (communes proches), sinon page ZONE du
+// service (communes éloignées, élaguées le 2026-10-11) : jamais de lien cassé.
+function buildTopServicesList(city) {
+  const cityName = city.name, citySlug = city.slug;
+  const generated = new Set(servicesForCity(city));
+  return (city.topServices || []).map(slug => {
     const r = findService(slug);
     if (!r) return '';
-    const href = `../${r.categorySlug}/${slug}/${citySlug}.html`;
+    const href = generated.has(slug)
+      ? `../${r.categorySlug}/${slug}/${citySlug}.html`
+      : `../${r.categorySlug}/${slug}/${city.zoneSlug}.html`;
     return `<li><a href="${href}" style="color:var(--accent)"><strong>${r.service.name} ${cityName}</strong></a> — ${excerpt(r.service.lead, 110)}</li>`;
   }).join('\n');
 }
@@ -174,9 +180,9 @@ for (const city of cities) {
     image1: IMAGES[0],
     image2: IMAGES[1],
     topServicesIntro,
-    // servicesForCity (et non city.topServices) : doit couvrir EXACTEMENT les
-    // pages générées, sinon certaines restent orphelines et ne sont pas indexées.
-    topServicesListHTML: buildTopServicesList(servicesForCity(city), city.name, city.slug),
+    // Couvre EXACTEMENT les pages service × ville générées (servicesForCity),
+    // les autres services pointent vers la page zone (voir buildTopServicesList).
+    topServicesListHTML: buildTopServicesList(city),
     categoryMoteurHTML: buildCategoryCards('maintenance-moteur', city.zoneSlug),
     categoryEntretienHTML: buildCategoryCards('entretien-assistance', city.zoneSlug),
     categoryCarrosserieHTML: buildCategoryCards('carrosserie', city.zoneSlug),

@@ -126,8 +126,18 @@ function buildRelated(related, currentCategorySlug, currentZoneSlug) {
   }).join('\n');
 }
 
-function buildCitiesPills(cities) {
-  return cities.map(c => `<span class="zone-pill"><i class="fa-solid fa-circle-check"></i> ${c}</span>`).join('\n');
+// Communes de la zone : liens vers les fiches villes (maillage local) ;
+// les communes sans fiche restent en simple pastille.
+const CITY_PAGES = require('./cities.js');
+function buildCitiesPills(zone) {
+  const linked = CITY_PAGES.filter(c => c.zoneSlug === zone.slug);
+  const linkedNames = new Set(linked.map(c => c.name));
+  const pills = linked.map(c =>
+    `<a class="zone-pill" href="/villes/${c.slug}"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Garage ${c.name}</a>`);
+  for (const name of zone.cities) {
+    if (!linkedNames.has(name)) pills.push(`<span class="zone-pill"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> ${name}</span>`);
+  }
+  return pills.join('\n');
 }
 
 function buildOtherZones(currentZoneSlug, serviceSlug, serviceName) {
@@ -209,7 +219,7 @@ for (const [categorySlug, category] of Object.entries(data.categories)) {
         faqSchema: buildFaqSchema(service.faq),
         relatedHTML: buildRelated(service.related, categorySlug, zone.slug),
         quickFactsHTML: quickFacts(service, zone.label),
-        citiesPillsHTML: buildCitiesPills(zone.cities),
+        citiesPillsHTML: buildCitiesPills(zone),
         otherZonesHTML: buildOtherZones(zone.slug, serviceSlug, service.name)
       });
 
