@@ -26,3 +26,6 @@ Cible ≈ 300 mots uniques par service. HTML inline autorisé dans intro/section
 ## Vérification avant de rendre
 `node -e "const m=require('./generator/city-service-content/{slug}.js');for(const[k,v] of Object.entries(m)){console.log(k,v.metaDesc.length,v.intro.length,v.sections.length,v.faq.length)}"` depuis C:\Users\HP\garageboost — doit s'exécuter sans erreur, metaDesc ≤ 155, et une entrée pour CHAQUE service demandé (slugs exacts).
 Ne lance PAS `npm run generate` ni de commit : un autre agent s'en charge.
+
+## Consigne renforcée (vague 2 et suivantes)
+Plusieurs communes partagent maintenant le même service (ex. décalaminage-hydrogene, mecanique-generale, reprogrammation-moteur, nettoyage-fap). AVANT d'écrire un service, lis les entrées déjà existantes de ce MÊME service dans les autres fichiers de `generator/city-service-content/` et n'en reprends AUCUNE formulation : ni les phrases sur le prix, ni les explications techniques (calamine, cartographie, régénération…), ni les tournures de FAQ. Varie les questions de FAQ (pas toujours « combien de temps » / « faut-il… »). Le contrôle automatique rejette toute page dont plus de 25 % du texte (séquences de 8 mots) se retrouve sur une autre page.
