@@ -166,12 +166,12 @@
     },
     {
       "source": "/carrosserie/peinture-automobile/peinture-auto-gardanne-aix-en-provence",
-      "destination": "/carrosserie/peinture-automobile/gardanne-aix-en-provence",
+      "destination": "/villes/aix-en-provence",
       "permanent": true
     },
     {
       "source": "/maintenance-moteur-anti-pollution/reprogrammation-moteur/reprogrammation-moteur-var-toulon-brignoles",
-      "destination": "/maintenance-moteur/reprogrammation-moteur/var-vaucluse-alpes-maritimes",
+      "destination": "/villes/toulon",
       "permanent": true
     },
     {
@@ -186,7 +186,7 @@
     },
     {
       "source": "/entretien-assistance/depannage-remorquage/depannage-remorquage-vitrolles-marignane-martigues",
-      "destination": "/entretien-assistance/depannage-remorquage/vitrolles-marignane-martigues",
+      "destination": "/villes/vitrolles",
       "permanent": true
     },
     {
@@ -236,7 +236,7 @@
     },
     {
       "source": "/maintenance-moteur-anti-pollution/traitement-egr-injecteurs/nettoyage-egr-vitrolles-marignane-martigues",
-      "destination": "/maintenance-moteur/traitement-egr/vitrolles-marignane-martigues",
+      "destination": "/villes/martigues",
       "permanent": true
     },
     {
@@ -391,7 +391,7 @@
     },
     {
       "source": "/entretien-assistance/mecanique-generale-garage-plan-de-cuques-marseille/mecanique-generale-gardanne-aix-en-provence",
-      "destination": "/entretien-assistance/mecanique-generale/gardanne-aix-en-provence",
+      "destination": "/entretien-assistance/mecanique-generale/gardanne",
       "permanent": true
     },
     {
@@ -431,7 +431,7 @@
     },
     {
       "source": "/carrosserie/carrosserie-auto/carrosserie-auto-gardanne-aix-en-provence",
-      "destination": "/carrosserie/carrosserie-auto/gardanne-aix-en-provence",
+      "destination": "/villes/aix-en-provence",
       "permanent": true
     },
     {
@@ -491,7 +491,7 @@
     },
     {
       "source": "/maintenance-moteur-anti-pollution/reprogrammation-moteur/reprogrammation-moteur-gardanne-aix-en-provence",
-      "destination": "/maintenance-moteur/reprogrammation-moteur/gardanne-aix-en-provence",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/gardanne",
       "permanent": true
     },
     {
@@ -1130,16 +1130,6 @@
       "permanent": true
     },
     {
-      "source": "/maintenance-moteur/decalaminage-hydrogene/aix-en-provence",
-      "destination": "/villes/aix-en-provence",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/decalaminage-hydrogene/aix-en-provence.html",
-      "destination": "/villes/aix-en-provence",
-      "permanent": true
-    },
-    {
       "source": "/maintenance-moteur/decalaminage-hydrogene/brignoles",
       "destination": "/villes/brignoles",
       "permanent": true
@@ -1177,26 +1167,6 @@
     {
       "source": "/maintenance-moteur/decalaminage-hydrogene/eyguieres.html",
       "destination": "/villes/eyguieres",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/decalaminage-hydrogene/fuveau",
-      "destination": "/villes/fuveau",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/decalaminage-hydrogene/fuveau.html",
-      "destination": "/villes/fuveau",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/decalaminage-hydrogene/gardanne",
-      "destination": "/villes/gardanne",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/decalaminage-hydrogene/gardanne.html",
-      "destination": "/villes/gardanne",
       "permanent": true
     },
     {
@@ -1247,16 +1217,6 @@
     {
       "source": "/maintenance-moteur/decalaminage-hydrogene/pelissanne.html",
       "destination": "/villes/pelissanne",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/decalaminage-hydrogene/pertuis",
-      "destination": "/villes/pertuis",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/decalaminage-hydrogene/pertuis.html",
-      "destination": "/villes/pertuis",
       "permanent": true
     },
     {
@@ -1330,26 +1290,6 @@
       "permanent": true
     },
     {
-      "source": "/maintenance-moteur/decalaminage-hydrogene/toulon",
-      "destination": "/villes/toulon",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/decalaminage-hydrogene/toulon.html",
-      "destination": "/villes/toulon",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/decalaminage-hydrogene/trets",
-      "destination": "/villes/trets",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/decalaminage-hydrogene/trets.html",
-      "destination": "/villes/trets",
-      "permanent": true
-    },
-    {
       "source": "/maintenance-moteur/decalaminage-hydrogene/velaux",
       "destination": "/villes/velaux",
       "permanent": true
@@ -1360,16 +1300,6 @@
       "permanent": true
     },
     {
-      "source": "/maintenance-moteur/decalaminage-hydrogene/venelles",
-      "destination": "/villes/venelles",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/decalaminage-hydrogene/venelles.html",
-      "destination": "/villes/venelles",
-      "permanent": true
-    },
-    {
       "source": "/maintenance-moteur/decalaminage-hydrogene/ventabren",
       "destination": "/villes/ventabren",
       "permanent": true
@@ -1377,16 +1307,6 @@
     {
       "source": "/maintenance-moteur/decalaminage-hydrogene/ventabren.html",
       "destination": "/villes/ventabren",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/nettoyage-fap/berre-letang",
-      "destination": "/villes/berre-letang",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/nettoyage-fap/berre-letang.html",
-      "destination": "/villes/berre-letang",
       "permanent": true
     },
     {
@@ -1460,36 +1380,6 @@
       "permanent": true
     },
     {
-      "source": "/maintenance-moteur/nettoyage-fap/martigues",
-      "destination": "/villes/martigues",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/nettoyage-fap/martigues.html",
-      "destination": "/villes/martigues",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/nettoyage-fap/miramas",
-      "destination": "/villes/miramas",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/nettoyage-fap/miramas.html",
-      "destination": "/villes/miramas",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/nettoyage-fap/pertuis",
-      "destination": "/villes/pertuis",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/nettoyage-fap/pertuis.html",
-      "destination": "/villes/pertuis",
-      "permanent": true
-    },
-    {
       "source": "/maintenance-moteur/nettoyage-fap/peyrolles-en-provence",
       "destination": "/villes/peyrolles-en-provence",
       "permanent": true
@@ -1507,16 +1397,6 @@
     {
       "source": "/maintenance-moteur/nettoyage-fap/port-de-bouc.html",
       "destination": "/villes/port-de-bouc",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/nettoyage-fap/rognac",
-      "destination": "/villes/rognac",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/nettoyage-fap/rognac.html",
-      "destination": "/villes/rognac",
       "permanent": true
     },
     {
@@ -1550,16 +1430,6 @@
       "permanent": true
     },
     {
-      "source": "/maintenance-moteur/reprogrammation-moteur/aix-en-provence",
-      "destination": "/villes/aix-en-provence",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/aix-en-provence.html",
-      "destination": "/villes/aix-en-provence",
-      "permanent": true
-    },
-    {
       "source": "/maintenance-moteur/reprogrammation-moteur/brignoles",
       "destination": "/villes/brignoles",
       "permanent": true
@@ -1587,36 +1457,6 @@
     {
       "source": "/maintenance-moteur/reprogrammation-moteur/eguilles.html",
       "destination": "/villes/eguilles",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/fuveau",
-      "destination": "/villes/fuveau",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/fuveau.html",
-      "destination": "/villes/fuveau",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/gardanne",
-      "destination": "/villes/gardanne",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/gardanne.html",
-      "destination": "/villes/gardanne",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/istres",
-      "destination": "/villes/istres",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/istres.html",
-      "destination": "/villes/istres",
       "permanent": true
     },
     {
@@ -1657,16 +1497,6 @@
     {
       "source": "/maintenance-moteur/reprogrammation-moteur/pelissanne.html",
       "destination": "/villes/pelissanne",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/pertuis",
-      "destination": "/villes/pertuis",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/pertuis.html",
-      "destination": "/villes/pertuis",
       "permanent": true
     },
     {
@@ -1720,26 +1550,6 @@
       "permanent": true
     },
     {
-      "source": "/maintenance-moteur/reprogrammation-moteur/toulon",
-      "destination": "/villes/toulon",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/toulon.html",
-      "destination": "/villes/toulon",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/trets",
-      "destination": "/villes/trets",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/trets.html",
-      "destination": "/villes/trets",
-      "permanent": true
-    },
-    {
       "source": "/maintenance-moteur/reprogrammation-moteur/velaux",
       "destination": "/villes/velaux",
       "permanent": true
@@ -1747,16 +1557,6 @@
     {
       "source": "/maintenance-moteur/reprogrammation-moteur/velaux.html",
       "destination": "/villes/velaux",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/venelles",
-      "destination": "/villes/venelles",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/venelles.html",
-      "destination": "/villes/venelles",
       "permanent": true
     },
     {
@@ -1770,26 +1570,6 @@
       "permanent": true
     },
     {
-      "source": "/maintenance-moteur/reprogrammation-moteur/vitrolles",
-      "destination": "/villes/vitrolles",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/reprogrammation-moteur/vitrolles.html",
-      "destination": "/villes/vitrolles",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/traitement-egr/berre-letang",
-      "destination": "/villes/berre-letang",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/traitement-egr/berre-letang.html",
-      "destination": "/villes/berre-letang",
-      "permanent": true
-    },
-    {
       "source": "/maintenance-moteur/traitement-egr/fos-sur-mer",
       "destination": "/villes/fos-sur-mer",
       "permanent": true
@@ -1797,16 +1577,6 @@
     {
       "source": "/maintenance-moteur/traitement-egr/fos-sur-mer.html",
       "destination": "/villes/fos-sur-mer",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/traitement-egr/martigues",
-      "destination": "/villes/martigues",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/traitement-egr/martigues.html",
-      "destination": "/villes/martigues",
       "permanent": true
     },
     {
@@ -1840,16 +1610,6 @@
       "permanent": true
     },
     {
-      "source": "/entretien-assistance/mecanique-generale/chateauneuf-les-martigues",
-      "destination": "/villes/chateauneuf-les-martigues",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/chateauneuf-les-martigues.html",
-      "destination": "/villes/chateauneuf-les-martigues",
-      "permanent": true
-    },
-    {
       "source": "/entretien-assistance/mecanique-generale/cuges-les-pins",
       "destination": "/villes/cuges-les-pins",
       "permanent": true
@@ -1877,36 +1637,6 @@
     {
       "source": "/entretien-assistance/mecanique-generale/eyguieres.html",
       "destination": "/villes/eyguieres",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/fuveau",
-      "destination": "/villes/fuveau",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/fuveau.html",
-      "destination": "/villes/fuveau",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/gardanne",
-      "destination": "/villes/gardanne",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/gardanne.html",
-      "destination": "/villes/gardanne",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/istres",
-      "destination": "/villes/istres",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/istres.html",
-      "destination": "/villes/istres",
       "permanent": true
     },
     {
@@ -1950,16 +1680,6 @@
       "permanent": true
     },
     {
-      "source": "/entretien-assistance/mecanique-generale/miramas",
-      "destination": "/villes/miramas",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/miramas.html",
-      "destination": "/villes/miramas",
-      "permanent": true
-    },
-    {
       "source": "/entretien-assistance/mecanique-generale/pelissanne",
       "destination": "/villes/pelissanne",
       "permanent": true
@@ -1970,16 +1690,6 @@
       "permanent": true
     },
     {
-      "source": "/entretien-assistance/mecanique-generale/pertuis",
-      "destination": "/villes/pertuis",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/pertuis.html",
-      "destination": "/villes/pertuis",
-      "permanent": true
-    },
-    {
       "source": "/entretien-assistance/mecanique-generale/peyrolles-en-provence",
       "destination": "/villes/peyrolles-en-provence",
       "permanent": true
@@ -1987,16 +1697,6 @@
     {
       "source": "/entretien-assistance/mecanique-generale/peyrolles-en-provence.html",
       "destination": "/villes/peyrolles-en-provence",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/rognac",
-      "destination": "/villes/rognac",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/rognac.html",
-      "destination": "/villes/rognac",
       "permanent": true
     },
     {
@@ -2080,16 +1780,6 @@
       "permanent": true
     },
     {
-      "source": "/entretien-assistance/mecanique-generale/trets",
-      "destination": "/villes/trets",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/trets.html",
-      "destination": "/villes/trets",
-      "permanent": true
-    },
-    {
       "source": "/entretien-assistance/mecanique-generale/velaux",
       "destination": "/villes/velaux",
       "permanent": true
@@ -2097,16 +1787,6 @@
     {
       "source": "/entretien-assistance/mecanique-generale/velaux.html",
       "destination": "/villes/velaux",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/venelles",
-      "destination": "/villes/venelles",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/venelles.html",
-      "destination": "/villes/venelles",
       "permanent": true
     },
     {
@@ -2120,16 +1800,6 @@
       "permanent": true
     },
     {
-      "source": "/entretien-assistance/mecanique-generale/vitrolles",
-      "destination": "/villes/vitrolles",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/mecanique-generale/vitrolles.html",
-      "destination": "/villes/vitrolles",
-      "permanent": true
-    },
-    {
       "source": "/entretien-assistance/electricite-automobile/ceyreste",
       "destination": "/villes/ceyreste",
       "permanent": true
@@ -2137,16 +1807,6 @@
     {
       "source": "/entretien-assistance/electricite-automobile/ceyreste.html",
       "destination": "/villes/ceyreste",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/electricite-automobile/chateauneuf-les-martigues",
-      "destination": "/villes/chateauneuf-les-martigues",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/electricite-automobile/chateauneuf-les-martigues.html",
-      "destination": "/villes/chateauneuf-les-martigues",
       "permanent": true
     },
     {
@@ -2170,16 +1830,6 @@
       "permanent": true
     },
     {
-      "source": "/entretien-assistance/depannage-remorquage/berre-letang",
-      "destination": "/villes/berre-letang",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/depannage-remorquage/berre-letang.html",
-      "destination": "/villes/berre-letang",
-      "permanent": true
-    },
-    {
       "source": "/entretien-assistance/depannage-remorquage/cuges-les-pins",
       "destination": "/villes/cuges-les-pins",
       "permanent": true
@@ -2200,26 +1850,6 @@
       "permanent": true
     },
     {
-      "source": "/entretien-assistance/depannage-remorquage/martigues",
-      "destination": "/villes/martigues",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/depannage-remorquage/martigues.html",
-      "destination": "/villes/martigues",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/depannage-remorquage/miramas",
-      "destination": "/villes/miramas",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/depannage-remorquage/miramas.html",
-      "destination": "/villes/miramas",
-      "permanent": true
-    },
-    {
       "source": "/entretien-assistance/depannage-remorquage/port-de-bouc",
       "destination": "/villes/port-de-bouc",
       "permanent": true
@@ -2230,16 +1860,6 @@
       "permanent": true
     },
     {
-      "source": "/entretien-assistance/depannage-remorquage/rognac",
-      "destination": "/villes/rognac",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/depannage-remorquage/rognac.html",
-      "destination": "/villes/rognac",
-      "permanent": true
-    },
-    {
       "source": "/entretien-assistance/depannage-remorquage/senas",
       "destination": "/villes/senas",
       "permanent": true
@@ -2247,26 +1867,6 @@
     {
       "source": "/entretien-assistance/depannage-remorquage/senas.html",
       "destination": "/villes/senas",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/depannage-remorquage/vitrolles",
-      "destination": "/villes/vitrolles",
-      "permanent": true
-    },
-    {
-      "source": "/entretien-assistance/depannage-remorquage/vitrolles.html",
-      "destination": "/villes/vitrolles",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/carrosserie-auto/aix-en-provence",
-      "destination": "/villes/aix-en-provence",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/carrosserie-auto/aix-en-provence.html",
-      "destination": "/villes/aix-en-provence",
       "permanent": true
     },
     {
@@ -2287,16 +1887,6 @@
     {
       "source": "/carrosserie/carrosserie-auto/ceyreste.html",
       "destination": "/villes/ceyreste",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/carrosserie-auto/chateauneuf-les-martigues",
-      "destination": "/villes/chateauneuf-les-martigues",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/carrosserie-auto/chateauneuf-les-martigues.html",
-      "destination": "/villes/chateauneuf-les-martigues",
       "permanent": true
     },
     {
@@ -2360,76 +1950,6 @@
       "permanent": true
     },
     {
-      "source": "/carrosserie/carrosserie-auto/venelles",
-      "destination": "/villes/venelles",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/carrosserie-auto/venelles.html",
-      "destination": "/villes/venelles",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/debosselage-grele/aix-en-provence",
-      "destination": "/villes/aix-en-provence",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/debosselage-grele/aix-en-provence.html",
-      "destination": "/villes/aix-en-provence",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/debosselage-grele/fuveau",
-      "destination": "/villes/fuveau",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/debosselage-grele/fuveau.html",
-      "destination": "/villes/fuveau",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/debosselage-grele/gardanne",
-      "destination": "/villes/gardanne",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/debosselage-grele/gardanne.html",
-      "destination": "/villes/gardanne",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/debosselage-grele/martigues",
-      "destination": "/villes/martigues",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/debosselage-grele/martigues.html",
-      "destination": "/villes/martigues",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/debosselage-grele/vitrolles",
-      "destination": "/villes/vitrolles",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/debosselage-grele/vitrolles.html",
-      "destination": "/villes/vitrolles",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/peinture-automobile/aix-en-provence",
-      "destination": "/villes/aix-en-provence",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/peinture-automobile/aix-en-provence.html",
-      "destination": "/villes/aix-en-provence",
-      "permanent": true
-    },
-    {
       "source": "/carrosserie/peinture-automobile/carry-le-rouet",
       "destination": "/villes/carry-le-rouet",
       "permanent": true
@@ -2477,26 +1997,6 @@
     {
       "source": "/carrosserie/pare-brise/ensues-la-redonne.html",
       "destination": "/villes/ensues-la-redonne",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/pare-brise/fuveau",
-      "destination": "/villes/fuveau",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/pare-brise/fuveau.html",
-      "destination": "/villes/fuveau",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/pare-brise/istres",
-      "destination": "/villes/istres",
-      "permanent": true
-    },
-    {
-      "source": "/carrosserie/pare-brise/istres.html",
-      "destination": "/villes/istres",
       "permanent": true
     },
     {
@@ -2550,26 +2050,6 @@
       "permanent": true
     },
     {
-      "source": "/location/utilitaires/berre-letang",
-      "destination": "/villes/berre-letang",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/berre-letang.html",
-      "destination": "/villes/berre-letang",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/chateauneuf-les-martigues",
-      "destination": "/villes/chateauneuf-les-martigues",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/chateauneuf-les-martigues.html",
-      "destination": "/villes/chateauneuf-les-martigues",
-      "permanent": true
-    },
-    {
       "source": "/location/utilitaires/eyguieres",
       "destination": "/villes/eyguieres",
       "permanent": true
@@ -2587,26 +2067,6 @@
     {
       "source": "/location/utilitaires/fos-sur-mer.html",
       "destination": "/villes/fos-sur-mer",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/gardanne",
-      "destination": "/villes/gardanne",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/gardanne.html",
-      "destination": "/villes/gardanne",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/istres",
-      "destination": "/villes/istres",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/istres.html",
-      "destination": "/villes/istres",
       "permanent": true
     },
     {
@@ -2630,26 +2090,6 @@
       "permanent": true
     },
     {
-      "source": "/location/utilitaires/martigues",
-      "destination": "/villes/martigues",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/martigues.html",
-      "destination": "/villes/martigues",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/miramas",
-      "destination": "/villes/miramas",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/miramas.html",
-      "destination": "/villes/miramas",
-      "permanent": true
-    },
-    {
       "source": "/location/utilitaires/port-de-bouc",
       "destination": "/villes/port-de-bouc",
       "permanent": true
@@ -2657,16 +2097,6 @@
     {
       "source": "/location/utilitaires/port-de-bouc.html",
       "destination": "/villes/port-de-bouc",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/rognac",
-      "destination": "/villes/rognac",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/rognac.html",
-      "destination": "/villes/rognac",
       "permanent": true
     },
     {
@@ -2697,36 +2127,6 @@
     {
       "source": "/location/utilitaires/senas.html",
       "destination": "/villes/senas",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/trets",
-      "destination": "/villes/trets",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/trets.html",
-      "destination": "/villes/trets",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/vitrolles",
-      "destination": "/villes/vitrolles",
-      "permanent": true
-    },
-    {
-      "source": "/location/utilitaires/vitrolles.html",
-      "destination": "/villes/vitrolles",
-      "permanent": true
-    },
-    {
-      "source": "/location/voiture-rallye/toulon",
-      "destination": "/villes/toulon",
-      "permanent": true
-    },
-    {
-      "source": "/location/voiture-rallye/toulon.html",
-      "destination": "/villes/toulon",
       "permanent": true
     },
     {
@@ -2781,12 +2181,12 @@
     },
     {
       "source": "/maintenance-moteur/reprogrammation-moteur/vitrolles-marignane-martigues",
-      "destination": "/maintenance-moteur/reprogrammation-moteur/marignane",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/vitrolles",
       "permanent": true
     },
     {
       "source": "/maintenance-moteur/reprogrammation-moteur/vitrolles-marignane-martigues.html",
-      "destination": "/maintenance-moteur/reprogrammation-moteur/marignane",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/vitrolles",
       "permanent": true
     },
     {
@@ -2811,12 +2211,12 @@
     },
     {
       "source": "/entretien-assistance/mecanique-generale/vitrolles-marignane-martigues",
-      "destination": "/entretien-assistance/mecanique-generale/marignane",
+      "destination": "/entretien-assistance/mecanique-generale/vitrolles",
       "permanent": true
     },
     {
       "source": "/entretien-assistance/mecanique-generale/vitrolles-marignane-martigues.html",
-      "destination": "/entretien-assistance/mecanique-generale/marignane",
+      "destination": "/entretien-assistance/mecanique-generale/vitrolles",
       "permanent": true
     },
     {
@@ -2891,12 +2291,12 @@
     },
     {
       "source": "/carrosserie/debosselage-grele/vitrolles-marignane-martigues",
-      "destination": "/carrosserie/debosselage-grele/marignane",
+      "destination": "/carrosserie/debosselage-grele/vitrolles",
       "permanent": true
     },
     {
       "source": "/carrosserie/debosselage-grele/vitrolles-marignane-martigues.html",
-      "destination": "/carrosserie/debosselage-grele/marignane",
+      "destination": "/carrosserie/debosselage-grele/vitrolles",
       "permanent": true
     },
     {
@@ -2927,6 +2327,146 @@
     {
       "source": "/location/utilitaires/aubagne-la-ciotat-cassis.html",
       "destination": "/location/utilitaires/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/decalaminage-hydrogene/gardanne-aix-en-provence",
+      "destination": "/maintenance-moteur/decalaminage-hydrogene/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/decalaminage-hydrogene/gardanne-aix-en-provence.html",
+      "destination": "/maintenance-moteur/decalaminage-hydrogene/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/reprogrammation-moteur/gardanne-aix-en-provence",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/reprogrammation-moteur/gardanne-aix-en-provence.html",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/mecanique-generale/gardanne-aix-en-provence",
+      "destination": "/entretien-assistance/mecanique-generale/gardanne",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/mecanique-generale/gardanne-aix-en-provence.html",
+      "destination": "/entretien-assistance/mecanique-generale/gardanne",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/debosselage-grele/gardanne-aix-en-provence",
+      "destination": "/carrosserie/debosselage-grele/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/debosselage-grele/gardanne-aix-en-provence.html",
+      "destination": "/carrosserie/debosselage-grele/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/location/utilitaires/gardanne-aix-en-provence",
+      "destination": "/location/utilitaires/gardanne",
+      "permanent": true
+    },
+    {
+      "source": "/location/utilitaires/gardanne-aix-en-provence.html",
+      "destination": "/location/utilitaires/gardanne",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/decalaminage-hydrogene/var-vaucluse-alpes-maritimes",
+      "destination": "/maintenance-moteur/decalaminage-hydrogene/toulon",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/decalaminage-hydrogene/var-vaucluse-alpes-maritimes.html",
+      "destination": "/maintenance-moteur/decalaminage-hydrogene/toulon",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/nettoyage-fap/vitrolles-marignane-martigues",
+      "destination": "/maintenance-moteur/nettoyage-fap/martigues",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/nettoyage-fap/vitrolles-marignane-martigues.html",
+      "destination": "/maintenance-moteur/nettoyage-fap/martigues",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/reprogrammation-moteur/var-vaucluse-alpes-maritimes",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/toulon",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/reprogrammation-moteur/var-vaucluse-alpes-maritimes.html",
+      "destination": "/maintenance-moteur/reprogrammation-moteur/toulon",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/traitement-egr/vitrolles-marignane-martigues",
+      "destination": "/maintenance-moteur/traitement-egr/martigues",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/traitement-egr/vitrolles-marignane-martigues.html",
+      "destination": "/maintenance-moteur/traitement-egr/martigues",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/depannage-remorquage/vitrolles-marignane-martigues",
+      "destination": "/entretien-assistance/depannage-remorquage/vitrolles",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/depannage-remorquage/vitrolles-marignane-martigues.html",
+      "destination": "/entretien-assistance/depannage-remorquage/vitrolles",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/carrosserie-auto/gardanne-aix-en-provence",
+      "destination": "/carrosserie/carrosserie-auto/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/carrosserie-auto/gardanne-aix-en-provence.html",
+      "destination": "/carrosserie/carrosserie-auto/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/peinture-automobile/gardanne-aix-en-provence",
+      "destination": "/carrosserie/peinture-automobile/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/peinture-automobile/gardanne-aix-en-provence.html",
+      "destination": "/carrosserie/peinture-automobile/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/location/utilitaires/vitrolles-marignane-martigues",
+      "destination": "/location/utilitaires/vitrolles",
+      "permanent": true
+    },
+    {
+      "source": "/location/utilitaires/vitrolles-marignane-martigues.html",
+      "destination": "/location/utilitaires/vitrolles",
+      "permanent": true
+    },
+    {
+      "source": "/location/voiture-rallye/var-vaucluse-alpes-maritimes",
+      "destination": "/location/voiture-rallye/toulon",
+      "permanent": true
+    },
+    {
+      "source": "/location/voiture-rallye/var-vaucluse-alpes-maritimes.html",
+      "destination": "/location/voiture-rallye/toulon",
       "permanent": true
     }
   ],

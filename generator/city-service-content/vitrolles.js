@@ -1,0 +1,93 @@
+// Contenu unique — Vitrolles (13127), 29 km de l'atelier, ~35 min par l'A7 et la L2
+module.exports = {
+
+  'debosselage-grele': {
+    title: "Grêle à Vitrolles : effacer les impacts, garder la peinture",
+    lead: "Capot et pavillon marqués après un orage sur l'étang de Berre ? Nous traitons les impacts de grêle des véhicules vitrollais par débosselage sans peinture, devis par élément sous 24h.",
+    metaDesc: "Voiture grêlée à Vitrolles : débosselage sans peinture dès 90 € pour quelques bosses, dossier géré avec l'expert, pas de malus. Atelier à 35 min par l'A7.",
+    intro: [
+      "Sur les bords de l'étang de Berre, les orages arrivent souvent vite et repartent aussi vite, mais quelques minutes de grêle suffisent à cribler une carrosserie. À Vitrolles, beaucoup de véhicules stationnent à découvert : parkings d'entreprises des zones de <strong>Couperigne, Anjoly ou Estroublans</strong>, résidences du Liourat ou du Pontet, abords du centre-ville. Ce sont alors les surfaces horizontales, <strong>capot, toit et coffre</strong>, qui prennent le plus.",
+      "Tant que la peinture n'est ni fissurée ni écaillée, chaque bosse peut être repoussée par l'intérieur, sans ponçage ni mastic. C'est le <strong>débosselage sans peinture</strong> : la peinture d'usine est conservée, et avec elle la valeur du véhicule."
+    ],
+    sections: [
+      { h: "Véhicules de société grêlés : limiter l'immobilisation", p: "Quand un utilitaire ou une voiture de service est touché, la question n'est pas seulement le coût mais le temps d'arrêt. Le chiffrage se fait élément par élément, à partir du nombre et du diamètre des impacts, et le délai figure sur le devis : quelques heures pour une poignée de bosses, 2 à 5 jours pour un véhicule moyennement grêlé. Nous pouvons louer une citadine ou un utilitaire pendant la réparation." },
+      { h: "Assurance : ce que prévoit la garantie", p: "La grêle relève de la garantie « événements climatiques » ou « tempête, grêle, neige » de votre contrat, pas de l'assurance au tiers simple. Si vous en bénéficiez, l'assureur règle la réparation, franchise contractuelle déduite, et le sinistre n'entraîne pas de malus. Vous restez libre de choisir votre réparateur depuis la loi Hamon : nous transmettons notre chiffrage directement à l'expert mandaté." }
+    ],
+    faq: [
+      { q: "Combien de temps ai-je pour déclarer la grêle depuis Vitrolles ?", a: "Le délai est fixé par votre contrat, souvent 5 jours ouvrés après le sinistre. Photographiez les dégâts en lumière rasante avant de déclarer, puis envoyez-nous ces photos pour un premier chiffrage." },
+      { q: "Faut-il venir à l'atelier aux heures de pointe ?", a: "Mieux vaut l'éviter : l'A7 est très chargée de 8 h à 9 h 30 et de 17 h à 19 h. En milieu de journée, le trajet depuis Vitrolles prend environ 35 minutes jusqu'à Plan-de-Cuques." }
+    ]
+  },
+
+  'utilitaires': {
+    title: "Louer un utilitaire à la journée pour une entreprise vitrollaise",
+    lead: "Pic d'activité, véhicule de flotte immobilisé, livraison ponctuelle : Garage Boost loue des utilitaires de 3 à 12 m³ aux entreprises et particuliers de Vitrolles, dès 49 € par jour.",
+    metaDesc: "Location d'utilitaire pour Vitrolles : 3 à 12 m³ de 49 à 79 €/jour, 250 km inclus, rampe et assurance tous risques. Tarif dégressif à la semaine.",
+    intro: [
+      "Les zones d'activités de Vitrolles concentrent entreprises industrielles et logistiques, et leurs besoins de transport ne sont pas toujours réguliers. Un <strong>utilitaire de location</strong> permet d'absorber un pic de commandes, de remplacer un fourgon de flotte au garage ou d'assurer une livraison exceptionnelle sans acheter un véhicule de plus.",
+      "Notre parc va du Kangoo ou Berlingo au Master de 12 m³. Chaque journée inclut <strong>250 km</strong>, l'assurance tous risques et, sur Trafic et Master, une rampe d'accès avec sangles d'arrimage."
+    ],
+    sections: [
+      { h: "Trois gabarits, trois usages professionnels", p: "Le petit utilitaire de 3 à 6 m³, à 49 € par jour, convient aux tournées de pièces ou aux colis volumineux. Le Trafic de 8 m³, à 65 € par jour, transporte palettes légères, outillage et matériel de chantier. Le Master de 12 m³, à 79 € par jour, prend en charge les gros volumes et le mobilier de bureau lors d'un transfert de locaux." },
+      { h: "Louer plusieurs jours sans exploser le budget", p: "Pour une mission qui dure, le tarif devient dégressif : moins 15 % sur 7 jours et moins 30 % sur 28 jours, avec devis sur mesure au-delà d'un mois. La réservation se fait par téléphone ou WhatsApp, avec confirmation sous 2 heures. Le véhicule se retire à Plan-de-Cuques, à environ 35 minutes de Vitrolles hors heures de pointe sur l'A7." }
+    ],
+    faq: [
+      { q: "Quelles pièces faut-il fournir pour louer ?", a: "Un permis B depuis au moins 2 ans, une pièce d'identité et une carte bancaire pour la caution, de 600 à 1 500 € selon le gabarit, prise en empreinte. L'âge minimum est de 21 ans." },
+      { q: "Le carburant est-il compris ?", a: "Non, la location fonctionne en plein-plein : le véhicule part avec le réservoir plein et doit revenir plein. Aucun système de plein partiel ni de supplément caché." }
+    ]
+  },
+
+  'mecanique-generale': {
+    title: "Entretien des véhicules pros et particuliers à Vitrolles",
+    lead: "Vidange dès 89 €, freins, distribution, embrayage : Garage Boost entretient les voitures et utilitaires vitrollais, avec convention pro et facturation mensuelle pour les flottes.",
+    metaDesc: "Mécanique générale pour Vitrolles : vidange dès 89 €, plaquettes avant 159 €, distribution 490 à 890 €. Convention pro, devis sous 24h.",
+    intro: [
+      "À Vitrolles, une bonne partie des véhicules travaille : voitures de commerciaux, fourgons de livraison, utilitaires d'artisans qui circulent entre les zones d'activités, l'aéroport voisin et Marseille. Pour une entreprise, un véhicule immobilisé coûte souvent plus cher que la réparation elle-même. L'enjeu est donc d'<strong>anticiper les échéances</strong> plutôt que de subir la panne.",
+      "Garage Boost assure l'entretien programmé et les réparations courantes toutes marques. Pour les flottes, une <strong>convention pro avec facturation mensuelle</strong> regroupe les interventions sur une seule facture."
+    ],
+    sections: [
+      { h: "Ce qui s'use vite sur l'A7", p: "Les ralentissements quotidiens de l'A7 font alterner arrêts et redémarrages : l'embrayage des boîtes manuelles et les plaquettes travaillent plus qu'en roulage fluide. À chaque passage, nous mesurons l'usure des consommables et vous indiquons ce qui est urgent et ce qui peut attendre. Repères de prix : plaquettes avant 159 €, kit disques et plaquettes avant 290 €, embrayage de 590 à 990 €." },
+      { h: "Éviter les allers-retours dans les bouchons", p: "L'atelier est à 29 km de Vitrolles. Plutôt que de perdre une heure sur l'A7 entre 8 h et 9 h 30, vous pouvez nous confier le véhicule via la récupération à domicile ou sur le lieu de travail, offerte au-delà de 200 € d'intervention validée. Un véhicule de prêt est disponible sur demande, et toutes les interventions sont garanties 12 mois pièces et main-d'œuvre." }
+    ],
+    faq: [
+      { q: "Comment fonctionne la convention pro pour une flotte vitrollaise ?", a: "Les interventions sur vos véhicules sont regroupées sur une facturation mensuelle. Chaque opération reste soumise à un devis préalable validé par écrit." },
+      { q: "Entretenez-vous les utilitaires comme les voitures ?", a: "Oui, l'atelier traite les véhicules légers et les utilitaires toutes marques : vidange, freinage, distribution, embrayage, suspension et climatisation." }
+    ]
+  },
+
+  'depannage-remorquage': {
+    title: "Panne à Vitrolles ou sur l'A7 : dépannage et remorquage",
+    lead: "Véhicule immobilisé à Vitrolles ? Notre dépanneuse plateau intervient en 60 à 90 minutes en journée. Au-delà de 25 km de l'atelier, le remorquage est facturé au kilomètre, sur devis.",
+    metaDesc: "Dépannage à Vitrolles : 60 à 90 min en journée, dépanneuse plateau. Remorquage au-delà de 25 km facturé 1,80 €/km, devis annoncé avant le départ.",
+    intro: [
+      "Vitrolles se trouve à 29 km de notre atelier de Plan-de-Cuques. En journée, notre délai d'intervention sur la commune est de <strong>60 à 90 minutes</strong>. Ce délai dépend évidemment du trafic sur l'A7 : nous vous donnons une estimation au moment de l'appel.",
+      "Soyons clairs sur le prix : le forfait de 149 € couvre la zone de moins de 25 km. Pour Vitrolles, le remorquage est <strong>facturé 1,80 € par kilomètre au-delà</strong>, et le montant vous est annoncé avant le départ de la dépanneuse. La majoration de 50 % s'applique la nuit (20 h – 7 h), le dimanche et les jours fériés."
+    ],
+    sections: [
+      { h: "Avant d'appeler : vérifiez votre assistance", p: "La plupart des contrats auto, et certaines cartes bancaires, incluent une assistance dépannage. Appelez-la en premier : elle peut nous mandater et prendre en charge tout ou partie du coût. Si vous souhaitez que le véhicule soit réparé chez nous, indiquez-lui notre adresse : 1 avenue des Pères Blancs, 13380 Plan-de-Cuques. Le véhicule peut aussi être déposé dans le garage de votre choix." },
+      { h: "Panne sur l'autoroute : les bons réflexes", p: "Sur l'A7 ou la rocade, mettez les feux de détresse, enfilez le gilet et placez-vous derrière la glissière, jamais dans le véhicule. En zone d'activités ou en ville, sortez de la voie de circulation si possible. Sur place, notre technicien tente d'abord une remise en route, batterie ou démarrage assisté par exemple, incluse dans le tarif, avant d'embarquer le véhicule sur le plateau." }
+    ],
+    faq: [
+      { q: "Remorquez-vous les utilitaires depuis les zones d'activités de Vitrolles ?", a: "Oui, la dépanneuse plateau transporte les citadines, berlines, SUV et utilitaires légers, y compris un véhicule accidenté qui ne roule plus." },
+      { q: "Le diagnostic sur place est-il facturé en plus ?", a: "Non. Le déplacement est facturé, mais le diagnostic sur place est offert. Si la panne se répare sur place, c'est inclus ; sinon, nous remorquons et vous recevez un devis avant tout travaux." }
+    ]
+  },
+
+  'reprogrammation-moteur': {
+    title: "Reprogrammation Stage 1 pour les conducteurs de Vitrolles",
+    lead: "Des relances plus franches pour s'insérer sur l'A7 ou doubler sur le plateau : Stage 1 de 350 à 690 € selon motorisation, cartographie d'origine sauvegardée, garantie 24 mois.",
+    metaDesc: "Reprogrammation moteur pour Vitrolles : Stage 1 de 350 à 690 €, Stage 2 de 690 à 990 €, retour d'origine possible, garantie 24 mois.",
+    intro: [
+      "Depuis Vitrolles, la plupart des trajets passent par des voies rapides : A7 vers Marseille ou Aix, bretelles vers l'aéroport, routes du plateau. Sur ces parcours, c'est le <strong>couple disponible à bas régime</strong> qui fait la différence pour s'insérer sans pousser chaque rapport. Un utilitaire chargé ou un diesel un peu juste d'origine en profite particulièrement.",
+      "Le <strong>Stage 1</strong> est une optimisation purement logicielle de la cartographie d'origine, sans pièce modifiée. Chaque cartographie est développée et validée sur banc, et l'originale est conservée."
+    ],
+    sections: [
+      { h: "Stage 1 ou Stage 2 : choisir selon l'usage", p: "Pour un usage quotidien, utilitaire compris, le Stage 1 suffit dans la grande majorité des cas : de 350 à 690 € selon la motorisation. Le Stage 2, de 690 à 990 € pour la cartographie, suppose des pièces supplémentaires comme une downpipe ou un intercooler, et vise un usage sportif. Un diagnostic préalable vérifie que le moteur est sain avant toute modification." },
+      { h: "Assurance et homologation : à savoir avant", p: "Une reprogrammation modifie les caractéristiques du véhicule. Elle doit être déclarée à votre assureur, et une hausse de puissance relève en principe d'une nouvelle homologation. Pour un véhicule de société, l'accord du gestionnaire de flotte est aussi à prévoir. Le retour à la cartographie d'origine reste possible à tout moment, en 30 minutes environ, pour 49 €." }
+    ],
+    faq: [
+      { q: "Combien de temps immobilise une reprogrammation ?", a: "Comptez une demi-journée pour un Stage 1, diagnostic compris. Depuis Vitrolles, un dépôt en fin de matinée évite les heures chargées de l'A7." },
+      { q: "La garantie couvre-t-elle la reprogrammation ?", a: "Oui, la reprogrammation est garantie 24 mois. En cas de défaut lié à notre travail pendant cette période, la reprise est gratuite." }
+    ]
+  }
+};

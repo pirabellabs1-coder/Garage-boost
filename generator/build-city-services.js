@@ -15,6 +15,10 @@ const cities = require('./cities.js');
 const { quickFacts } = require('./quick-facts.js');
 const { fitTitle, clampMeta, firstSentences, excerpt, deVille, aVille } = require('./seo-text.js');
 const { servicesForCity, zoneMergeTarget } = require('./city-services.js');
+const { getUniqueContent } = require('./city-service-content');
+// Gabarit allégé pour les pages dotées d'un contenu UNIQUE (city-service-content/)
+const TEMPLATE_UNIQUE = fs.readFileSync(path.join(__dirname, 'city-service-template.html'), 'utf8');
+const stripTags = s => String(s || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 
 const SERVICE_ICONS = {
   'diagnostic-moteur': 'microchip', 'decalaminage-hydrogene': 'fire-flame-curved',
@@ -124,6 +128,50 @@ for (const city of cities) {
     const category = data.categories[categorySlug];
     const serviceDir = path.join(ROOT, categorySlug, serviceSlug);
     if (!fs.existsSync(serviceDir)) fs.mkdirSync(serviceDir, { recursive: true });
+
+    // Page à contenu unique : gabarit allégé, centré sur le local
+    const uc = getUniqueContent(city.slug, serviceSlug);
+    if (uc) {
+      const aFull = aVille(city.name);
+      const prep = aFull.match(/^(à|au|aux) /)[1];
+      const html = render(TEMPLATE_UNIQUE, {
+        categorySlug,
+        categoryLabel: category.label,
+        serviceSlug,
+        serviceName: service.name,
+        zoneSlug: city.slug,
+        zoneLabel: city.name,
+        zoneFirstCity: city.name,
+        cityName: city.name,
+        a_cityPrep: prep,
+        a_cityBare: aFull.slice(prep.length + 1),
+        areaServedJSON: JSON.stringify([city.name]),
+        title: fitTitle(uc.seoTitle, `${service.name} ${aFull} | Garage Boost`, `${service.name} ${aFull}`, `${service.name} ${city.name}`),
+        metaDesc: clampMeta(uc.metaDesc || `${service.name} ${aFull} : Garage Boost à Plan-de-Cuques (${city.distance}). Tarif ${service.price}, devis sous 24h.`),
+        keywords: `${service.name.toLowerCase()} ${city.name}, garage ${city.name}`,
+        lead: uc.lead || `${firstSentences(service.lead, 170)}`,
+        uniqueTitle: uc.title,
+        uniqueIntroHTML: uc.intro.map(p => `<p>${p}</p>`).join('\n'),
+        uniqueSectionsHTML: uc.sections.map(s => `<h2 style="font-family:var(--font-display);font-weight:800;font-size:1.35rem;color:var(--white);margin:26px 0 12px">${s.h}</h2>\n<p>${s.p}</p>`).join('\n'),
+        serviceSummary: firstSentences(service.lead, 220),
+        accessShort: firstSentences(stripTags(city.accessInfo), 260),
+        price: service.price,
+        priceMin: service.priceMin || '0',
+        pricingDesc: service.pricingDesc,
+        image1: service.image1,
+        imageAlt1: `${service.name} ${aFull} — Garage Boost`,
+        faqHTML: buildFaq(uc.faq || []),
+        faqSchema: buildFaqSchema(uc.faq || []),
+        relatedHTML: buildRelated(service.related),
+        quickFactsHTML: quickFacts(service, city.name),
+        otherZonesHTML: buildOtherAreas(serviceSlug, service.name, city.slug, city.name),
+        nearbyCitiesBlock: buildNearbyCities(serviceSlug, service.name, city)
+      });
+      fs.writeFileSync(path.join(serviceDir, `${city.slug}.html`), html);
+      summary.push({ file: `${categorySlug}/${serviceSlug}/${city.slug}.html`, words: countWords(html) });
+      generated++;
+      continue;
+    }
 
     const svc = service.name.toLowerCase();
     const districts = (city.nearbyDistricts || []).slice(0, 4).join(', ');

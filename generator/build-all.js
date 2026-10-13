@@ -40,6 +40,9 @@ console.log('\n=== Dimensions des images (anti-CLS) ===\n');
 require('./img-dimensions.js');
 
 // Sitemap APRÈS les post-traitements : l'empreinte lastmod porte sur le HTML final
+console.log('\n=== Redirections ↔ pages restaurées (vercel.json) ===\n');
+require('./sync-redirects.js');
+
 console.log('\n=== Génération sitemap + robots ===\n');
 require('./build-sitemap.js');
 

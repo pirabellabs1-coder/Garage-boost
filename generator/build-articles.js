@@ -123,8 +123,10 @@ function render(template, vars) {
 
 function formatDateFR(dateStr) {
   const months = ['janv.', 'févr.', 'mars', 'avril', 'mai', 'juin', 'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'];
-  const d = new Date(dateStr);
-  return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
+  // Lecture directe AAAA-MM-JJ : new Date('2026-10-11') est interprété en UTC
+  // et recule d'un jour sur une machine dont le fuseau est derrière UTC.
+  const [y, m, d] = String(dateStr).split('-').map(Number);
+  return `${d} ${months[m - 1]} ${y}`;
 }
 
 function countWords(html) {

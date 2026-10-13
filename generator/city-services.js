@@ -20,6 +20,7 @@
 // =====================================================================
 
 const NEAR_KM = 25;
+const { getUniqueContent } = require('./city-service-content');
 
 /** Distance routière en km depuis l'atelier (« Sur place » = 0). */
 function distanceKm(city) {
@@ -39,8 +40,12 @@ function hasCityServicePages(city) {
  * @returns {string[]} slugs de services, sans doublon
  */
 function servicesForCity(city) {
-  if (!city || !hasCityServicePages(city)) return [];
-  return [...new Set(city.topServices || [])];
+  if (!city) return [];
+  const top = [...new Set(city.topServices || [])];
+  if (hasCityServicePages(city)) return top;
+  // Communes > 25 km : page remise en ligne seulement avec un contenu UNIQUE
+  // (remise en ligne par vagues, 2026-10-13 — voir city-service-content/)
+  return top.filter(s => getUniqueContent(city.slug, s));
 }
 
 // ---------------------------------------------------------------------
