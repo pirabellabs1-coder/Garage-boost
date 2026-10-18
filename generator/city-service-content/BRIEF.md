@@ -29,3 +29,7 @@ Ne lance PAS `npm run generate` ni de commit : un autre agent s'en charge.
 
 ## Consigne renforcée (vague 2 et suivantes)
 Plusieurs communes partagent maintenant le même service (ex. décalaminage-hydrogene, mecanique-generale, reprogrammation-moteur, nettoyage-fap). AVANT d'écrire un service, lis les entrées déjà existantes de ce MÊME service dans les autres fichiers de `generator/city-service-content/` et n'en reprends AUCUNE formulation : ni les phrases sur le prix, ni les explications techniques (calamine, cartographie, régénération…), ni les tournures de FAQ. Varie les questions de FAQ (pas toujours « combien de temps » / « faut-il… »). Le contrôle automatique rejette toute page dont plus de 25 % du texte (séquences de 8 mots) se retrouve sur une autre page.
+
+## Règle équipements et engagements (vague 3)
+N'affirme AUCUN équipement, outil, prestation ou engagement qui ne figure pas textuellement dans `generator/data.js` (ex. interdit : « banc de géométrie 3D », réglage de parallélisme, véhicule de courtoisie garanti). Avant de rendre, relis chacune de tes phrases du type « nous disposons de… », « notre atelier est équipé… », « nous réglons… », « offert… » et vérifie-la par une recherche dans data.js ; supprime-la si tu ne la trouves pas.
+Pour les communes proches de l'atelier (≤ 25 km), le dépannage coûte 89 € à moins de 10 km et 149 € jusqu'à 25 km (data.js) : utilise le bon palier selon la distance de la commune dans cities.js.

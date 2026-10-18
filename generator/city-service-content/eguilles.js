@@ -65,7 +65,7 @@ module.exports = {
     ],
     sections: [
       { h: "Freinage : des pièces au niveau du véhicule", p: "Sur une voiture de deux tonnes, le freinage ne tolère pas l'approximatif. Nous posons des pièces Brembo, Bosch ou TRW selon votre choix et votre budget. Repères : plaquettes avant à 159 €, plaquettes arrière à 149 €, kit disques et plaquettes avant à 290 €, purge complète du liquide de frein à 49 €. Une vibration dans le volant au freinage signale souvent des disques voilés." },
-      { h: "Transmission, climatisation, révision", p: "Vidange de boîte et remplacement de joints, cardans, recharge de climatisation de 79 à 149 € : l'atelier couvre l'ensemble de la mécanique. Une révision complète coûte de 149 à 249 € et comprend un pré-contrôle technique gratuit. Pour éviter le nœud autoroutier d'Aix aux heures chargées, nous pouvons récupérer le véhicule à Éguilles, gratuitement au-delà de 200 € d'intervention validée." }
+      { h: "Transmission, climatisation, révision", p: "Vidange de boîte et remplacement de joints, cardans, recharge de climatisation de 79 à 149 € : l'atelier couvre l'ensemble de la mécanique. Une révision complète coûte de 149 à 249 €, et un pré-contrôle technique gratuit est proposé avant le contrôle. Pour éviter le nœud autoroutier d'Aix aux heures chargées, nous pouvons récupérer le véhicule à Éguilles, gratuitement au-delà de 200 € d'intervention validée." }
     ],
     faq: [
       { q: "Quelles marques de pièces de frein utilisez-vous ?", a: "Des pièces de qualité d'origine, notamment Brembo, Bosch ou TRW, selon vos préférences et votre budget. Le choix vous est proposé sur le devis." },

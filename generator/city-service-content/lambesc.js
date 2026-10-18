@@ -57,18 +57,18 @@ module.exports = {
 
   'mecanique-generale': {
     title: "Préparer un long trajet depuis Lambesc : le contrôle avant départ",
-    lead: "Avant de prendre l'A7 pour les vacances ou une longue route, mieux vaut faire vérifier freins, pneus, niveaux et climatisation. Révision de 149 à 249 € avec pré-contrôle technique gratuit.",
-    metaDesc: "Mécanique générale pour Lambesc : révision 149 à 249 € avec pré-contrôle technique gratuit, clim 79 à 149 €, vidange dès 89 €, garantie 12 mois.",
+    lead: "Avant de prendre l'A7 pour les vacances ou une longue route, mieux vaut faire vérifier freins, pneus, niveaux et climatisation. Révision de 149 à 249 €, pré-contrôle technique gratuit avant le contrôle.",
+    metaDesc: "Mécanique générale pour Lambesc : révision 149 à 249 €, pré-contrôle technique gratuit, clim 79 à 149 €, vidange dès 89 €, garantie 12 mois.",
     intro: [
       "Lambesc est posée sur un axe de passage, et ses habitants le savent : l'été, l'A7 se remplit de vacanciers en route vers le littoral. Une panne sur une autoroute chargée, voiture pleine et par forte chaleur, est le scénario que tout le monde veut éviter. Un <strong>contrôle complet avant le départ</strong> en limite fortement le risque.",
       "Notre atelier assure ce contrôle comme l'ensemble de l'entretien courant et des réparations, toutes marques, devis sous 24 heures."
     ],
     sections: [
-      { h: "Ce que l'on vérifie avant un long trajet", p: "Usure et pression des pneus, freinage, niveaux et fuites, courroie d'accessoires, éclairage, climatisation et circuit de refroidissement. Si un poste approche de sa limite, nous vous le disons avec le prix : plaquettes avant 159 €, recharge de climatisation de 79 à 149 €, vidange dès 89 €. La révision complète, de 149 à 249 €, comprend un <strong>pré-contrôle technique gratuit</strong>, utile si l'échéance du contrôle approche." },
+      { h: "Ce que l'on vérifie avant un long trajet", p: "Usure et pression des pneus, freinage, niveaux et fuites, courroie d'accessoires, éclairage, climatisation et circuit de refroidissement. Si un poste approche de sa limite, nous vous le disons avec le prix : plaquettes avant 159 €, recharge de climatisation de 79 à 149 €, vidange dès 89 €. La révision complète coûte de 149 à 249 € ; si l'échéance du contrôle approche, un <strong>pré-contrôle technique gratuit</strong> vous est proposé." },
       { h: "Gagner du temps à 50 minutes de l'atelier", p: "Inutile de sacrifier une demi-journée sur la D7n et l'A7 : nous venons chercher le véhicule à Lambesc et le ramenons, gratuitement au-delà de 200 € d'intervention validée. Programmez le rendez-vous une à deux semaines avant le départ pour laisser le temps de commander une pièce si nécessaire. À la restitution, vous recevez un compte-rendu écrit et un carnet tamponné." }
     ],
     faq: [
-      { q: "Le pré-contrôle technique est-il facturé ?", a: "Non, il est réalisé gratuitement à chaque révision. Il signale les points qui risqueraient une contre-visite ; le contrôle officiel se passe ensuite dans un centre agréé." },
+      { q: "Le pré-contrôle technique est-il facturé ?", a: "Non, il est gratuit et vous est proposé avant votre passage au contrôle technique. Il signale les points qui risqueraient une contre-visite ; le contrôle officiel se passe ensuite dans un centre agréé." },
       { q: "Que me remet-on en fin d'intervention ?", a: "Un compte-rendu écrit des opérations réalisées et des points à surveiller, votre carnet d'entretien tamponné, et le véhicule lavé. Toutes les interventions sont garanties 12 mois pièces et main-d'œuvre." }
     ]
   }
