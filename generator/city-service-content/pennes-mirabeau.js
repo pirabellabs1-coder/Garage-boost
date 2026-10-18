@@ -24,7 +24,7 @@ module.exports = {
     lead: "Taxi, VTC ou navettes régulières vers l'aéroport : une hybride qui accumule les kilomètres autour des Pennes-Mirabeau garde une mécanique thermique à suivre. Révision de 149 à 249 €, devis sous 24 h.",
     metaDesc: "Mécanique pour Les Pennes-Mirabeau : hybrides sur la partie thermique, révision 149 à 249 €, vidange dès 89 €, purge de frein 49 €. Garantie 12 mois.",
     intro: [
-      "Entre Marseille et l'aéroport Marseille-Provence, Les Pennes-Mirabeau voient circuler de nombreux chauffeurs de taxi et de VTC, des livreurs et des professionnels qui vivent au rythme des vols. Nombre de ces véhicules sont hybrides, et on les croit volontiers dispensés d'entretien. C'est inexact : leur <strong>moteur thermique</strong> a ses vidanges, ses filtres et ses bougies, et leur liquide de frein vieillit comme sur n'importe quelle voiture.",
+      "Entre Marseille et l'aéroport Marseille-Provence, Les Pennes-Mirabeau voient circuler chauffeurs de taxi et de VTC, livreurs et des professionnels qui vivent au rythme des vols. Quand le véhicule est hybride, on le croit volontiers dispensés d'entretien. C'est inexact : leur <strong>moteur thermique</strong> a ses vidanges, ses filtres et ses bougies, et leur liquide de frein vieillit comme sur n'importe quelle voiture.",
       "Garage Boost entretient les hybrides légères et rechargeables sur leur partie thermique : moteur, transmission et freinage. Pour les voitures 100 % électriques, nous orientons vers des spécialistes habilités haute tension."
     ],
     sections: [
@@ -78,7 +78,7 @@ module.exports = {
     lead: "Voiture immobilisée sur un parking de la zone commerciale, utilitaire en panne en pleine tournée : Les Pennes-Mirabeau sont à 15 km de l'atelier, le dépannage y coûte 149 €, prix confirmé avant le départ.",
     metaDesc: "Dépannage aux Pennes-Mirabeau : forfait 149 € jusqu'à 25 km, dépanneuse plateau 7j/7, diagnostic sur place offert, majoration 50 % nuit et fériés.",
     intro: [
-      "Une batterie qui lâche après une heure de courses, une roue crevée sans roue de secours sur un parking de Plan-de-Campagne, un utilitaire de livraison qui refuse de repartir à La Gavotte : aux Pennes-Mirabeau, beaucoup de pannes surviennent à l'arrêt, sur un stationnement, plutôt qu'en pleine circulation.",
+      "Une batterie qui lâche après une heure de courses, une roue crevée sans roue de secours sur un parking de Plan-de-Campagne, un utilitaire de livraison qui refuse de repartir à La Gavotte : aux Pennes-Mirabeau, une panne peut tout aussi bien survenir à l'arrêt, sur un stationnement, qu'en pleine circulation.",
       "Avec 15 km jusqu'à Plan-de-Cuques, la commune entre dans notre <strong>forfait de 149 €</strong>, valable jusqu'à 25 km ; le forfait de 89 € concerne les pannes à moins de 10 km de l'atelier. Le montant est confirmé à l'appel, avant toute mobilisation. Une majoration de 50 % s'ajoute de 20 h à 7 h, le dimanche et les jours fériés."
     ],
     sections: [
@@ -88,6 +88,24 @@ module.exports = {
     faq: [
       { q: "Puis-je obtenir un véhicule pour finir ma journée ?", a: "Selon les disponibilités, un véhicule de prêt peut vous être proposé ; nous louons aussi des citadines et des utilitaires. À défaut, le retour se fait par vos propres moyens ou en taxi, à votre charge." },
       { q: "Faut-il appeler mon assistance avant vous ?", a: "C'est conseillé si votre contrat auto ou votre carte bancaire inclut une assistance panne : elle peut prendre en charge le dépannage, parfois dès le kilomètre zéro, et nous mandater si vous lui indiquez notre adresse à Plan-de-Cuques." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Consommation qui grimpe aux Pennes-Mirabeau : chercher la cause",
+    lead: "Votre voiture boit plus qu'avant sans raison apparente ? Pour un taxi, un VTC ou un livreur des Pennes-Mirabeau, chaque litre compte. Diagnostic à 49 €, offert si la réparation est validée.",
+    metaDesc: "Diagnostic moteur aux Pennes-Mirabeau : surconsommation, perte de rendement, lecture multimarque à 49 €, offert si la réparation est validée. À 20 min.",
+    intro: [
+      "Les pleins se rapprochent, l'ordinateur de bord affiche un litre de plus qu'au printemps, et pourtant vos trajets entre La Gavotte, l'aéroport et Plan-de-Campagne n'ont pas changé. Une <strong>surconsommation soudaine</strong> sans voyant allumé est un symptôme discret, que l'on met volontiers sur le compte de la circulation.",
+      "Quand la voiture sert à travailler, ce surcoût se répète à chaque plein. Une sonde lambda paresseuse, un débitmètre d'air qui sous-estime, un injecteur qui débite trop : ces anomalies faussent le mélange sans toujours déclencher d'alerte, et seule une <strong>mesure des valeurs réelles</strong> les met en évidence."
+    ],
+    sections: [
+      { h: "Comparer ce que le moteur mesure à ce qu'il devrait mesurer", p: "Après la lecture des codes présents et passés, nous suivons en direct le débit d'air, la sonde lambda, la pression de turbo et le débit des injecteurs, à différents régimes. Un écart par rapport aux valeurs attendues oriente vers l'organe fautif. Pour un hybride, la partie thermique est examinée de la même manière." },
+      { h: "Un créneau qui respecte votre planning", p: "Depuis Les Pennes-Mirabeau, l'atelier est à une vingtaine de minutes par l'A55 et la rocade L2 ; entre 9 h 30 et 15 h, ces axes sont nettement plus fluides. L'examen prend de 30 à 90 minutes, pour <strong>49 € TTC</strong> compte-rendu compris, offerts si vous validez la réparation chez nous. Au-delà de 200 € de réparation validée, nous pouvons récupérer le véhicule gratuitement." }
+    ],
+    faq: [
+      { q: "Ma consommation a augmenté mais aucun voyant n'est allumé, le diagnostic peut-il trouver quelque chose ?", a: "Oui, c'est même tout l'intérêt des mesures en temps réel. Un capteur peut dériver sans franchir le seuil qui allume le voyant, tout en faussant le dosage du carburant." },
+      { q: "Faites-vous un diagnostic sur une voiture de VTC hybride ?", a: "Oui, les hybrides légères et rechargeables sont prises en charge, moteur thermique compris. Seule la batterie de traction d'un véhicule électrique relève d'intervenants habilités haute tension." }
     ]
   }
 };

@@ -96,7 +96,7 @@
     },
     {
       "source": "/maintenance-moteur-anti-pollution/diagnostic-moteur/diagnostic-moteur-var-vaucluse-alpes-maritimes",
-      "destination": "/maintenance-moteur/diagnostic-moteur/var-vaucluse-alpes-maritimes",
+      "destination": "/maintenance-moteur/diagnostic-moteur/toulon",
       "permanent": true
     },
     {
@@ -231,7 +231,7 @@
     },
     {
       "source": "/maintenance-moteur-anti-pollution/diagnostic-moteur/diagnostic-moteur-plan-de-cuques-marseille",
-      "destination": "/maintenance-moteur/diagnostic-moteur/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/diagnostic-moteur/marseille",
       "permanent": true
     },
     {
@@ -506,627 +506,7 @@
     },
     {
       "source": "/maintenance-moteur-anti-pollution/diagnostic-moteur/diagnostic-moteur-gardanne-aix-en-provence",
-      "destination": "/maintenance-moteur/diagnostic-moteur/gardanne-aix-en-provence",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/aix-en-provence",
-      "destination": "/villes/aix-en-provence",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/aix-en-provence.html",
-      "destination": "/villes/aix-en-provence",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/allauch",
-      "destination": "/villes/allauch",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/allauch.html",
-      "destination": "/villes/allauch",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/aubagne",
-      "destination": "/villes/aubagne",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/aubagne.html",
-      "destination": "/villes/aubagne",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/auriol",
-      "destination": "/villes/auriol",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/auriol.html",
-      "destination": "/villes/auriol",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/berre-letang",
-      "destination": "/villes/berre-letang",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/berre-letang.html",
-      "destination": "/villes/berre-letang",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/bouc-bel-air",
-      "destination": "/villes/bouc-bel-air",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/bouc-bel-air.html",
-      "destination": "/villes/bouc-bel-air",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/brignoles",
-      "destination": "/villes/brignoles",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/brignoles.html",
-      "destination": "/villes/brignoles",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/cabries",
-      "destination": "/villes/cabries",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/cabries.html",
-      "destination": "/villes/cabries",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/carnoux-en-provence",
-      "destination": "/villes/carnoux-en-provence",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/carnoux-en-provence.html",
-      "destination": "/villes/carnoux-en-provence",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/carry-le-rouet",
-      "destination": "/villes/carry-le-rouet",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/carry-le-rouet.html",
-      "destination": "/villes/carry-le-rouet",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/cassis",
-      "destination": "/villes/cassis",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/cassis.html",
-      "destination": "/villes/cassis",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/ceyreste",
-      "destination": "/villes/ceyreste",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/ceyreste.html",
-      "destination": "/villes/ceyreste",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/chateauneuf-les-martigues",
-      "destination": "/villes/chateauneuf-les-martigues",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/chateauneuf-les-martigues.html",
-      "destination": "/villes/chateauneuf-les-martigues",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/cuges-les-pins",
-      "destination": "/villes/cuges-les-pins",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/cuges-les-pins.html",
-      "destination": "/villes/cuges-les-pins",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/eguilles",
-      "destination": "/villes/eguilles",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/eguilles.html",
-      "destination": "/villes/eguilles",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/ensues-la-redonne",
-      "destination": "/villes/ensues-la-redonne",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/ensues-la-redonne.html",
-      "destination": "/villes/ensues-la-redonne",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/eyguieres",
-      "destination": "/villes/eyguieres",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/eyguieres.html",
-      "destination": "/villes/eyguieres",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/fos-sur-mer",
-      "destination": "/villes/fos-sur-mer",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/fos-sur-mer.html",
-      "destination": "/villes/fos-sur-mer",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/fuveau",
-      "destination": "/villes/fuveau",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/fuveau.html",
-      "destination": "/villes/fuveau",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/gardanne",
-      "destination": "/villes/gardanne",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/gardanne.html",
-      "destination": "/villes/gardanne",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/gemenos",
-      "destination": "/villes/gemenos",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/gemenos.html",
-      "destination": "/villes/gemenos",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/gignac-la-nerthe",
-      "destination": "/villes/gignac-la-nerthe",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/gignac-la-nerthe.html",
-      "destination": "/villes/gignac-la-nerthe",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/greasque",
-      "destination": "/villes/greasque",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/greasque.html",
-      "destination": "/villes/greasque",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/istres",
-      "destination": "/villes/istres",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/istres.html",
-      "destination": "/villes/istres",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/la-bouilladisse",
-      "destination": "/villes/la-bouilladisse",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/la-bouilladisse.html",
-      "destination": "/villes/la-bouilladisse",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/la-ciotat",
-      "destination": "/villes/la-ciotat",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/la-ciotat.html",
-      "destination": "/villes/la-ciotat",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/la-destrousse",
-      "destination": "/villes/la-destrousse",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/la-destrousse.html",
-      "destination": "/villes/la-destrousse",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/lambesc",
-      "destination": "/villes/lambesc",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/lambesc.html",
-      "destination": "/villes/lambesc",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/lancon-provence",
-      "destination": "/villes/lancon-provence",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/lancon-provence.html",
-      "destination": "/villes/lancon-provence",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/le-puy-sainte-reparade",
-      "destination": "/villes/le-puy-sainte-reparade",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/le-puy-sainte-reparade.html",
-      "destination": "/villes/le-puy-sainte-reparade",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/marignane",
-      "destination": "/villes/marignane",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/marignane.html",
-      "destination": "/villes/marignane",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/marseille",
-      "destination": "/villes/marseille",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/marseille.html",
-      "destination": "/villes/marseille",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/martigues",
-      "destination": "/villes/martigues",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/martigues.html",
-      "destination": "/villes/martigues",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/meyreuil",
-      "destination": "/villes/meyreuil",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/meyreuil.html",
-      "destination": "/villes/meyreuil",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/mimet",
-      "destination": "/villes/mimet",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/mimet.html",
-      "destination": "/villes/mimet",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/miramas",
-      "destination": "/villes/miramas",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/miramas.html",
-      "destination": "/villes/miramas",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/pelissanne",
-      "destination": "/villes/pelissanne",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/pelissanne.html",
-      "destination": "/villes/pelissanne",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/pennes-mirabeau",
-      "destination": "/villes/pennes-mirabeau",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/pennes-mirabeau.html",
-      "destination": "/villes/pennes-mirabeau",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/pertuis",
-      "destination": "/villes/pertuis",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/pertuis.html",
-      "destination": "/villes/pertuis",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/peypin",
-      "destination": "/villes/peypin",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/peypin.html",
-      "destination": "/villes/peypin",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/peyrolles-en-provence",
-      "destination": "/villes/peyrolles-en-provence",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/peyrolles-en-provence.html",
-      "destination": "/villes/peyrolles-en-provence",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/plan-de-cuques",
-      "destination": "/villes/plan-de-cuques",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/plan-de-cuques.html",
-      "destination": "/villes/plan-de-cuques",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/port-de-bouc",
-      "destination": "/villes/port-de-bouc",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/port-de-bouc.html",
-      "destination": "/villes/port-de-bouc",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/rognac",
-      "destination": "/villes/rognac",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/rognac.html",
-      "destination": "/villes/rognac",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/rognes",
-      "destination": "/villes/rognes",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/rognes.html",
-      "destination": "/villes/rognes",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/roquefort-la-bedoule",
-      "destination": "/villes/roquefort-la-bedoule",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/roquefort-la-bedoule.html",
-      "destination": "/villes/roquefort-la-bedoule",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/rousset",
-      "destination": "/villes/rousset",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/rousset.html",
-      "destination": "/villes/rousset",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/saint-cannat",
-      "destination": "/villes/saint-cannat",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/saint-cannat.html",
-      "destination": "/villes/saint-cannat",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/saint-chamas",
-      "destination": "/villes/saint-chamas",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/saint-chamas.html",
-      "destination": "/villes/saint-chamas",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/saint-maximin-la-sainte-baume",
-      "destination": "/villes/saint-maximin-la-sainte-baume",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/saint-maximin-la-sainte-baume.html",
-      "destination": "/villes/saint-maximin-la-sainte-baume",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/saint-savournin",
-      "destination": "/villes/saint-savournin",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/saint-savournin.html",
-      "destination": "/villes/saint-savournin",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/saint-victoret",
-      "destination": "/villes/saint-victoret",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/saint-victoret.html",
-      "destination": "/villes/saint-victoret",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/saint-zacharie",
-      "destination": "/villes/saint-zacharie",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/saint-zacharie.html",
-      "destination": "/villes/saint-zacharie",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/sausset-les-pins",
-      "destination": "/villes/sausset-les-pins",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/sausset-les-pins.html",
-      "destination": "/villes/sausset-les-pins",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/senas",
-      "destination": "/villes/senas",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/senas.html",
-      "destination": "/villes/senas",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/septemes-les-vallons",
-      "destination": "/villes/septemes-les-vallons",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/septemes-les-vallons.html",
-      "destination": "/villes/septemes-les-vallons",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/toulon",
-      "destination": "/villes/toulon",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/toulon.html",
-      "destination": "/villes/toulon",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/trets",
-      "destination": "/villes/trets",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/trets.html",
-      "destination": "/villes/trets",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/velaux",
-      "destination": "/villes/velaux",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/velaux.html",
-      "destination": "/villes/velaux",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/venelles",
-      "destination": "/villes/venelles",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/venelles.html",
-      "destination": "/villes/venelles",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/ventabren",
-      "destination": "/villes/ventabren",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/ventabren.html",
-      "destination": "/villes/ventabren",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/vitrolles",
-      "destination": "/villes/vitrolles",
-      "permanent": true
-    },
-    {
-      "source": "/maintenance-moteur/diagnostic-moteur/vitrolles.html",
-      "destination": "/villes/vitrolles",
+      "destination": "/maintenance-moteur/diagnostic-moteur/aix-en-provence",
       "permanent": true
     },
     {
@@ -1467,6 +847,56 @@
     {
       "source": "/location/voiture-rallye/var-vaucluse-alpes-maritimes.html",
       "destination": "/location/voiture-rallye/toulon",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/diagnostic-moteur/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/diagnostic-moteur/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/diagnostic-moteur/plan-de-cuques-marseille.html",
+      "destination": "/maintenance-moteur/diagnostic-moteur/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/diagnostic-moteur/aubagne-la-ciotat-cassis",
+      "destination": "/maintenance-moteur/diagnostic-moteur/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/diagnostic-moteur/aubagne-la-ciotat-cassis.html",
+      "destination": "/maintenance-moteur/diagnostic-moteur/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/diagnostic-moteur/vitrolles-marignane-martigues",
+      "destination": "/maintenance-moteur/diagnostic-moteur/vitrolles",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/diagnostic-moteur/vitrolles-marignane-martigues.html",
+      "destination": "/maintenance-moteur/diagnostic-moteur/vitrolles",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/diagnostic-moteur/gardanne-aix-en-provence",
+      "destination": "/maintenance-moteur/diagnostic-moteur/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/diagnostic-moteur/gardanne-aix-en-provence.html",
+      "destination": "/maintenance-moteur/diagnostic-moteur/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/diagnostic-moteur/var-vaucluse-alpes-maritimes",
+      "destination": "/maintenance-moteur/diagnostic-moteur/toulon",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/diagnostic-moteur/var-vaucluse-alpes-maritimes.html",
+      "destination": "/maintenance-moteur/diagnostic-moteur/toulon",
       "permanent": true
     }
   ],

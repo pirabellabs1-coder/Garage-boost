@@ -71,5 +71,23 @@ module.exports = {
       { q: "Mon assistance peut-elle faire remorquer ma voiture de Berre jusqu'à votre atelier ?", a: "Oui, si votre contrat comprend une assistance panne, vous pouvez demander l'acheminement vers le garage de votre choix. Nous travaillons directement avec les assistances et les assureurs." },
       { q: "Payez-vous le diagnostic sur place ?", a: "Non, le diagnostic sur place est offert. Seuls le déplacement et, si nécessaire, le remorquage sont facturés, selon le devis annoncé avant le départ." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Fumée à l'échappement à Berre-l'Étang : identifier l'origine",
+    lead: "Fumée noire, blanche ou bleutée derrière votre voiture à Berre-l'Étang ? Sa couleur oriente, le diagnostic tranche : 49 €, offerts si vous validez la réparation.",
+    metaDesc: "Fumée anormale à l'échappement à Berre-l'Étang : diagnostic moteur 49 €, mesures en temps réel, offert si la réparation est validée. À 42 min.",
+    intro: [
+      "Une fumée qui s'échappe au démarrage ou à l'accélération n'est jamais anodine. Sa couleur donne une première indication : <strong>noire</strong>, elle évoque un excès de carburant ou un manque d'air ; <strong>blanche et persistante</strong>, une possible présence de liquide de refroidissement ; <strong>bleutée</strong>, de l'huile qui brûle. Mais ce n'est qu'une indication.",
+      "Pour un véhicule qui roule dans la poussière et enchaîne les démarrages autour du complexe pétrochimique, de Mauran ou de La Peyrère, le filtre à air, la vanne EGR et les injecteurs sont mis à rude épreuve. Les mesures permettent de savoir lequel déraille."
+    ],
+    sections: [
+      { h: "Des mesures plutôt qu'une supposition", p: "Nous lisons les codes enregistrés puis suivons, moteur en marche, le débit d'air, la sonde lambda, la température d'échappement et le débit des injecteurs. Une richesse anormale, un injecteur qui s'écarte des autres ou une vanne EGR mal positionnée apparaissent nettement. Le compte-rendu écrit relie la fumée observée à sa cause." },
+      { h: "Prix et organisation depuis Berre", p: "Le diagnostic coûte <strong>49 € TTC</strong>, offert si la réparation est validée chez Garage Boost, avec un devis transparent. L'atelier est à 38 km par l'A7 et la L2, 42 minutes environ hors pointe. Sur cette distance, la récupération à domicile évite de rouler avec un moteur qui fume." }
+    ],
+    faq: [
+      { q: "Une fumée blanche par temps froid est-elle normale ?", a: "Une légère vapeur qui disparaît une fois le moteur chaud est normale. Une fumée blanche épaisse qui persiste moteur chaud, surtout avec une baisse du niveau de liquide de refroidissement, doit être examinée rapidement." },
+      { q: "La fumée noire peut-elle faire échouer le contrôle technique ?", a: "Oui, sur un diesel, l'opacité des fumées est mesurée lors du contrôle. Identifier la cause avant le passage évite une contre-visite." }
+    ]
   }
 };

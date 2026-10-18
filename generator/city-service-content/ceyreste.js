@@ -6,7 +6,7 @@ module.exports = {
     lead: "Chemins étroits des collines, stationnement serré l'été vers les plages de La Ciotat : rayures et portières marquées se réparent, petit choc de 90 à 290 €, devis sous 24 h.",
     metaDesc: "Carrosserie pour Ceyreste : petit choc 90 à 290 €, élément repeint 350 à 590 €, retouche avant que la rouille ne s'installe. Garantie peinture 24 mois.",
     intro: [
-      "Autour du village de Ceyreste, de nombreux accès aux habitations des collines sont des <strong>voies étroites bordées de murets, de haies ou de végétation</strong>. Un croisement un peu serré suffit à marquer un bas de caisse, un rétroviseur ou une aile arrière. L'été, les parkings bondés en contrebas, vers le littoral ciotaden, ajoutent leur lot de coups de portière.",
+      "Autour du village de Ceyreste, un accès aux habitations des collines peut prendre la forme de <strong>voies étroites bordées de murets, de haies ou de végétation</strong>. Un croisement un peu serré suffit à marquer un bas de caisse, un rétroviseur ou une aile arrière. L'été, les parkings bondés en contrebas, vers le littoral ciotaden, ajoutent leur lot de coups de portière.",
       "Ces dégâts paraissent superficiels, mais l'air marin tout proche n'épargne pas une rayure qui a mis la tôle à nu. Plus la reprise est rapide, plus elle reste simple et peu coûteuse."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Un échappement qui fait plus de bruit est-il dangereux ?", a: "Une fuite avant le silencieux peut laisser entrer des gaz dans l'habitacle, et un échappement trop bruyant est relevé au contrôle technique. Faites-le inspecter rapidement, surtout si une odeur se fait sentir à l'intérieur." },
       { q: "Comment savoir si mes amortisseurs sont usés ?", a: "Une caisse qui rebondit après une bosse, des pneus usés en plaques, un freinage qui plonge davantage ou une tenue de route floue en virage sont des indices. Nous les contrôlons lors de chaque révision." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Consommation en hausse sans raison : diagnostic depuis Ceyreste",
+    lead: "Le plein dure moins longtemps alors que vos trajets n'ont pas changé ? Notre diagnostic à 49 € cherche ce qui fait grimper la consommation, à 35 minutes de Ceyreste.",
+    metaDesc: "Diagnostic moteur pour Ceyreste : surconsommation inexpliquée, lecture des calculateurs et mesures réelles, 49 € offerts si réparation validée.",
+    intro: [
+      "Depuis Ceyreste, les trajets sont réguliers : la descente vers La Ciotat, puis l'A50. Quand on fait toujours les mêmes kilomètres, une <strong>surconsommation</strong> se remarque vite à la pompe, même sans voyant au tableau de bord. Elle signale pourtant que le moteur ne brûle plus son carburant comme prévu.",
+      "Avant d'incriminer sa conduite ou la saison, un diagnostic électronique permet de vérifier que les capteurs qui dosent le mélange disent vrai."
+    ],
+    sections: [
+      { h: "Les capteurs qui faussent le dosage", p: "Une sonde lambda qui répond lentement, un débitmètre qui sous-estime l'air aspiré ou un injecteur dont le débit dérive suffisent à enrichir le mélange. Le calculateur compense sans forcément enregistrer de défaut. C'est pourquoi nous comparons en temps réel ces valeurs à celles attendues pour la motorisation : la dérive apparaît dans les mesures bien avant de déclencher un voyant." },
+      { h: "Faire le diagnostic sans perdre la journée", p: "L'atelier se trouve à 33 km de Ceyreste, environ 35 minutes par La Ciotat et l'A50. Pour éviter le trajet, notre service de récupération couvre la commune, gratuit au-delà de 200 € d'intervention validée. Le diagnostic coûte <strong>49 € TTC</strong>, compte-rendu écrit compris, et vous est offert si vous nous confiez la réparation." }
+    ],
+    faq: [
+      { q: "Comment mesurer la hausse avant de venir ?", a: "Notez les kilomètres parcourus entre deux pleins complets sur vos trajets habituels. Comparés à ceux d'il y a quelques mois, ces relevés donnent un ordre de grandeur utile pour l'analyse." },
+      { q: "Des pneus sous-gonflés peuvent-ils expliquer la surconsommation ?", a: "Ils y contribuent, tout comme une charge permanente dans le coffre. Vérifiez la pression avant de venir : si la consommation reste élevée, la piste moteur devient plus probable." }
     ]
   }
 };

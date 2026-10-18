@@ -35,7 +35,7 @@
 - **Tarif** : Dès 49 € — Diagnostic complet 49€ TTC, incluant lecture multimarque, mesures temps réel et compte-rendu écrit. Offert si intervention de réparation validée chez Garage Boost.
 - **En résumé** : Voyant moteur allumé, perte de puissance, ralenti instable ?
 - **Question fréquente** : Pourquoi le diagnostic est-il payant si je ne fais pas la réparation ? — Parce que le diagnostic mobilise une heure de technicien spécialisé et un matériel professionnel coûteux. Un atelier qui propose un diagnostic gratuit sans contrepartie compense inévitablement ailleurs (pièces gonflées, prestations facturées). Notre transparence : 49€ de diagnostic offerts dès lors que vous validez l'intervention.
-- **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/plan-de-cuques-marseille) · [Aubagne, La Ciotat & Cassis](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/aubagne-la-ciotat-cassis) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/var-vaucluse-alpes-maritimes)
+- **Pages locales** : [Marseille](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/marseille) · [Aubagne](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/aubagne) · [Vitrolles](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/vitrolles) · [Aix-en-Provence](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/salon-de-provence) · [Toulon](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/toulon)
 
 #### Décalaminage hydrogène
 
@@ -511,7 +511,7 @@
 
 - **URL** : https://garageboost.fr/villes/bouc-bel-air
 - **Distance depuis l'atelier** : 17 km (25 minutes)
-- **Quartiers desservis** : Centre-ville, Le Pont-de-l'Arc, La Salle, Les Cèdres
+- **Quartiers desservis** : Centre-ville, La Salle, Les Cèdres
 
 ### Gardanne
 

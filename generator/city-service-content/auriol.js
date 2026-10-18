@@ -6,7 +6,7 @@ module.exports = {
     lead: "Après un orage au pied de la Sainte-Baume, la carrosserie n'est pas seule à souffrir : feux, rétroviseurs, joints et pare-brise aussi. Nous recensons tout, puis effaçons les bosses sans repeindre.",
     metaDesc: "Voiture grêlée à Auriol : bosses traitées sans peinture dès 90 €, feux et vitrage vérifiés, chiffrage transmis à l'expert, pas de malus. À 25 min.",
     intro: [
-      "Adossée au massif de la Sainte-Baume, la haute vallée de l'Huveaune voit passer des orages qui peuvent lâcher de la grêle en quelques minutes. À Auriol, où les quartiers résidentiels se sont étendus autour du centre-village, vers le Moulin de Redon ou la Vallée Heureuse, beaucoup de voitures restent dehors. Le premier réflexe est de regarder le capot et le toit ; le second devrait être de <strong>faire le tour complet du véhicule</strong>.",
+      "Adossée au massif de la Sainte-Baume, la haute vallée de l'Huveaune voit passer des orages qui peuvent lâcher de la grêle en quelques minutes. À Auriol, où les quartiers résidentiels se sont étendus autour du centre-village, vers le Moulin de Redon ou la Vallée Heureuse, une voiture garée dehors est exposée. Le premier réflexe est de regarder le capot et le toit ; le second devrait être de <strong>faire le tour complet du véhicule</strong>.",
       "Car un grêlon ne marque pas que la tôle. Il peut fendre un cabochon de feu, fêler une coque de rétroviseur, abîmer une baguette ou un joint, ou étoiler le pare-brise. Oublier l'un de ces éléments dans la déclaration complique ensuite leur prise en charge."
     ],
     sections: [
@@ -24,7 +24,7 @@ module.exports = {
     lead: "Files du matin sur la D560, côtes autour du village, voiture chargée pour les vacances : à Auriol, l'embrayage travaille dur. Kit embrayage de 590 à 990 €, vidange dès 89 €, devis sous 24 h.",
     metaDesc: "Mécanique pour Auriol : embrayage 590 à 990 €, vidange dès 89 €, révision 149 à 249 €, garantie 12 mois. Récupération à domicile possible.",
     intro: [
-      "Commune en pleine croissance résidentielle, Auriol compte beaucoup de familles pour qui la voiture fait tout : trajets vers Aubagne et Marseille, conduite des enfants, départs en vacances coffre plein. Les démarrages répétés dans la file qui se forme le matin sur la D560 et la D2, puis les rampes des routes vallonnées, sollicitent surtout <strong>l'embrayage</strong>, sans oublier les freins.",
+      "Pour une famille d'Auriol, la voiture fait tout : trajets vers Aubagne et Marseille, conduite des enfants, départs en vacances coffre plein. Les démarrages répétés dans la file qui se forme le matin sur la D560 et la D2, puis les rampes des routes vallonnées, sollicitent surtout <strong>l'embrayage</strong>, sans oublier les freins.",
       "Garage Boost entretient et répare toutes marques, avec des pièces de qualité constructeur et une <strong>garantie de 12 mois</strong> pièces et main-d'œuvre. Le devis détaillé vous parvient sous 24 heures."
     ],
     sections: [
@@ -42,7 +42,7 @@ module.exports = {
     lead: "Voiture familiale chargée, insertions sur l'autoroute, dépassements sur route : le Stage 1 apporte du couple à bas régime. De 350 à 690 €, cartographie d'origine conservée, garantie 24 mois.",
     metaDesc: "Reprogrammation moteur pour Auriol : Stage 1 de 350 à 690 €, validée sur banc, cartographie d'origine sauvegardée, garantie 24 mois. Atelier à 25 min.",
     intro: [
-      "Beaucoup de conducteurs auriolais envisagent une reprogrammation au moment de partir en vacances : quatre passagers, des bagages, parfois un coffre de toit, et un moteur qui semble à la peine dès qu'il faut relancer. Le <strong>Stage 1</strong> ne touche à aucune pièce : il réécrit les paramètres du calculateur pour rendre le couple disponible plus bas dans les tours, là où une voiture chargée en a besoin.",
+      "L'idée d'une reprogrammation vient souvent au moment de partir en vacances : quatre passagers, des bagages, parfois un coffre de toit, et un moteur qui semble à la peine dès qu'il faut relancer. Le <strong>Stage 1</strong> ne touche à aucune pièce : il réécrit les paramètres du calculateur pour rendre le couple disponible plus bas dans les tours, là où une voiture chargée en a besoin.",
       "Chaque cartographie est développée par nos soins et validée sur banc dynamométrique, dans les marges de sécurité fixées par le constructeur. Le fichier d'usine est sauvegardé avant toute écriture."
     ],
     sections: [
@@ -88,6 +88,24 @@ module.exports = {
     faq: [
       { q: "Mon contrat comprend une assistance : qui dois-je appeler ?", a: "Appelez d'abord votre assistance : elle peut nous mandater et prendre en charge tout ou partie du coût. Si vous voulez que la réparation se fasse chez nous, donnez-lui l'adresse de l'atelier, 1 avenue des Pères Blancs à Plan-de-Cuques." },
       { q: "Transportez-vous un camping-car ou un fourgon aménagé ?", a: "Notre plateau prend en charge les voitures, SUV et utilitaires légers. Pour un fourgon aménagé, précisez le modèle et son poids à l'appel afin que nous vérifiions s'il peut être chargé." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Fumée à l'échappement après les côtes d'Auriol : que faire ?",
+    lead: "Fumée noire en relance, bleutée au démarrage ou blanche persistante ? Sa couleur oriente, notre diagnostic à 49 € confirme la cause, à 25 minutes d'Auriol.",
+    metaDesc: "Diagnostic moteur pour Auriol : fumée anormale à l'échappement, lecture multimarque et mesures en temps réel, 49 € offerts si réparation validée.",
+    intro: [
+      "En remontant vers la Sainte-Baume ou en relançant dans les rampes autour d'Auriol, un coup d'œil au rétroviseur révèle parfois un panache derrière la voiture. Une <strong>fumée anormale</strong> n'est jamais un simple désagrément : elle traduit une combustion qui se passe mal ou un fluide qui n'a rien à faire dans le moteur.",
+      "La couleur donne une première piste, mais plusieurs causes produisent la même fumée. Le diagnostic sert à les départager avant de toucher à une pièce."
+    ],
+    sections: [
+      { h: "Noire, bleue ou blanche : trois familles de causes", p: "Une fumée noire en accélération évoque un excès de gazole, lié par exemple à un injecteur, à un débit d'air insuffisant ou à une vanne EGR bloquée. Une fumée bleutée signale de l'huile brûlée. Une fumée blanche épaisse qui persiste moteur chaud peut venir du liquide de refroidissement. La lecture des défauts et les mesures en direct, débit d'air, pression de turbo, débit d'injection, permettent de confirmer la bonne piste." },
+      { h: "Tarif et accès depuis Auriol", p: "Le diagnostic est facturé <strong>49 € TTC</strong>, compte-rendu écrit inclus, et offert si la réparation est validée chez Garage Boost. Comptez 25 minutes par la D560, la D2 vers Aubagne puis la D4F ; le milieu de journée évite la file du matin. La récupération à domicile est gratuite au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Une fumée blanche le matin est-elle inquiétante ?", a: "Une légère vapeur qui disparaît en quelques minutes par temps frais est de la condensation, sans gravité. Une fumée blanche dense qui persiste moteur chaud, surtout si le niveau de liquide de refroidissement baisse, doit être contrôlée rapidement." },
+      { q: "Puis-je filmer la fumée pour vous aider ?", a: "Oui, une courte vidéo prise au moment où la fumée apparaît, avec le contexte (démarrage, relance, montée), aide à orienter la lecture et les mesures." }
     ]
   }
 };

@@ -71,5 +71,23 @@ module.exports = {
       { q: "Le code P0401 signifie-t-il forcément une vanne encrassée ?", a: "Pas toujours. Ce code indique un débit de recirculation insuffisant, qui peut venir de la vanne, d'un conduit obstrué ou d'un capteur. Les mesures du diagnostic permettent de trancher avant de démonter." },
       { q: "Faut-il venir deux fois depuis Port-de-Bouc ?", a: "En principe non : le diagnostic et le nettoyage peuvent s'enchaîner le même jour si la cause est confirmée. Prévoyez simplement le véhicule pour la journée, compte tenu des 50 minutes de route." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Consommation qui grimpe à Port-de-Bouc : chercher la cause",
+    lead: "Le plein dure moins longtemps sans que vos trajets aient changé ? Une surconsommation soudaine a toujours une origine. Notre diagnostic à 49 € la cherche dans les calculateurs, à 50 min de Port-de-Bouc.",
+    metaDesc: "Surconsommation soudaine à Port-de-Bouc : diagnostic moteur 49 €, mesures des capteurs en temps réel, offert si la réparation est validée.",
+    intro: [
+      "Mêmes trajets entre Les Aigues Douces, La Lèque et Saint-Jean, même façon de conduire, et pourtant l'aiguille de carburant descend plus vite. Une hausse brutale de consommation est un symptôme que l'on peut remarquer avant tout voyant. Elle signale qu'un réglage de la combustion n'est plus respecté.",
+      "Les coupables possibles sont variés : <strong>sonde lambda paresseuse</strong>, débitmètre d'air qui sous-estime, injecteur qui goutte, thermostat bloqué ouvert qui empêche le moteur de chauffer. Changer l'un d'eux au hasard revient à jouer aux dés."
+    ],
+    sections: [
+      { h: "Ce que les capteurs révèlent", p: "Après la lecture des codes, nous observons le moteur en fonctionnement : débit d'air admis, richesse mesurée par la sonde lambda, débit des injecteurs, température. Une valeur qui s'écarte de la norme pointe la piste à suivre, et un essai routier vient confirmer si besoin. L'examen tient en général entre 30 et 90 minutes." },
+      { h: "Un trajet long, deux façons de l'organiser", p: "Port-de-Bouc est à 45 km de Plan-de-Cuques, soit une cinquantaine de minutes par l'A55, l'A7 et la L2, davantage aux heures industrielles. Vous pouvez venir en milieu de journée ou nous confier le véhicule via la récupération à domicile. Le diagnostic coûte <strong>49 € TTC</strong> et vous est offert si la réparation est validée chez Garage Boost." }
+    ],
+    faq: [
+      { q: "À partir de quel écart faut-il s'inquiéter de la consommation ?", a: "Une variation légère suit la saison, la climatisation ou la charge. Une hausse nette et durable sans changement d'usage justifie un diagnostic, surtout si elle s'accompagne d'une odeur de carburant, de fumée ou d'un ralenti irrégulier." },
+      { q: "Le diagnostic fonctionne-t-il sur un moteur essence comme sur un diesel ?", a: "Oui. Les deux motorisations sont gérées par des calculateurs que nous interrogeons de la même manière, ainsi que les hybrides légères ou rechargeables." }
+    ]
   }
 };

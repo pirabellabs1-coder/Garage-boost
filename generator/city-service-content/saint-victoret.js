@@ -21,7 +21,7 @@ module.exports = {
 
   'depannage-remorquage': {
     title: "Crevaison sans roue de secours à Saint-Victoret",
-    lead: "Beaucoup de voitures récentes n'ont plus qu'un kit anti-crevaison. Quand il ne suffit pas, notre dépanneuse plateau vient chercher le véhicule à Saint-Victoret : 149 €, la commune étant à 22 km.",
+    lead: "Certaines voitures récentes n'ont plus qu'un kit anti-crevaison. Quand il ne suffit pas, notre dépanneuse plateau vient chercher le véhicule à Saint-Victoret : 149 €, la commune étant à 22 km.",
     metaDesc: "Dépannage à Saint-Victoret : crevaison, batterie, panne immobilisante. Forfait 149 € (moins de 25 km), dépanneuse plateau 7j/7, majoration 50 % la nuit.",
     intro: [
       "Ouvrir le coffre et découvrir qu'il n'y a <strong>pas de roue de secours</strong>, seulement une bombe et un petit compresseur : la surprise est fréquente. Ce kit dépanne une simple perforation de la bande de roulement, mais il ne peut rien contre un flanc déchiré, une jante tordue par un trottoir ou un pneu qui s'est vidé en roulant.",
@@ -42,7 +42,7 @@ module.exports = {
     lead: "Voiture de fonction, LOA ou LLD : à Saint-Victoret comme ailleurs, le véhicule n'appartient pas toujours à son conducteur. Avant un Stage 1, de 350 à 690 €, il faut l'accord de celui qui figure sur la carte grise.",
     metaDesc: "Reprogrammation pour Saint-Victoret : Stage 1 de 350 à 690 €, accord du propriétaire requis, carto d'origine sauvegardée, garantie 24 mois.",
     intro: [
-      "Parmi les actifs de l'aéroport et de la logistique, beaucoup roulent avec un <strong>véhicule de société</strong>, en location longue durée ou en location avec option d'achat. Dans ces trois cas, le titulaire de la carte grise est l'entreprise ou le loueur, et les contrats encadrent généralement toute modification du véhicule.",
+      "Si vous travaillez à l'aéroport ou dans la logistique et roulez avec un <strong>véhicule de société</strong>, en location longue durée ou en location avec option d'achat, sachez que dans ces trois cas le titulaire de la carte grise est l'entreprise ou le loueur, et les contrats encadrent généralement toute modification du véhicule.",
       "Une reprogrammation n'est donc pas une décision à prendre seul. Nous vous demandons de vérifier ce point avant de fixer un rendez-vous, pour éviter une mauvaise surprise à la restitution."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Je remplace le fusible et il saute de nouveau : puis-je en mettre un plus gros ?", a: "Surtout pas. Un fusible de calibre supérieur laisse passer un courant que le câblage ne supporte pas, avec un risque d'échauffement et de départ de feu. Remettez le calibre d'origine et faites rechercher le court-circuit." },
       { q: "Le démarrage est difficile seulement le matin : est-ce le démarreur ?", a: "Pas forcément. Une batterie affaiblie montre d'abord ses limites après une nuit à l'arrêt. La mesure de sa capacité réelle, puis celle du courant absorbé par le démarreur, permet de trancher sans remplacer une pièce au hasard." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Ralenti instable ou moteur qui cale à Saint-Victoret",
+    lead: "Le régime oscille à l'arrêt, le moteur cale au feu ou dans la file vers l'aéroport ? À 28 minutes de Saint-Victoret, notre diagnostic à 49 € en cherche la raison, offert si vous réparez chez nous.",
+    metaDesc: "Diagnostic moteur pour Saint-Victoret : ralenti instable, moteur qui cale, lecture des calculateurs à 49 €, offerts si la réparation est validée.",
+    intro: [
+      "L'aiguille du compte-tours qui monte et descend toute seule, une vibration au point mort, puis le moteur qui s'éteint au moment de repartir : un <strong>ralenti instable</strong> se remarque surtout dans les files d'attente, aux ronds-points chargés près de l'aéroport ou au péage. Le défaut est gênant, et il peut devenir dangereux s'il survient en pleine insertion.",
+      "Le ralenti est piloté en permanence par le calculateur, qui s'appuie sur plusieurs capteurs et sur l'admission d'air. Notre <strong>lecture multimarque</strong>, complétée par la valise constructeur, relève les défauts enregistrés et suit en temps réel les valeurs qui servent à stabiliser le régime."
+    ],
+    sections: [
+      { h: "Les pistes que les mesures départagent", p: "Une prise d'air parasite, un débitmètre encrassé, une vanne EGR qui ne se referme plus ou un capteur qui transmet une valeur erronée produisent des symptômes voisins. Les mesures en direct montrent laquelle de ces hypothèses tient. Si la voiture est un véhicule de société, le compte-rendu écrit vous sert aussi à justifier l'intervention auprès de l'employeur ou du loueur." },
+      { h: "Venir depuis Saint-Victoret", p: "L'atelier est à 28 à 35 minutes par l'A7 ou l'A55, puis la rocade L2, sortie Plan-de-Cuques ; les heures creuses de la journée rendent le trajet bien plus régulier. L'examen dure de 30 à 90 minutes en général et coûte <strong>49 € TTC</strong>, montant offert si la réparation est validée chez Garage Boost. Le devis vous parvient sous 24 heures." }
+    ],
+    faq: [
+      { q: "Le moteur cale seulement quand la climatisation tourne, est-ce lié ?", a: "C'est possible : la climatisation ajoute une charge que le calculateur doit compenser au ralenti. Le diagnostic vérifie comment le régime réagit à cette charge et quel élément empêche la compensation." },
+      { q: "Ma voiture de société est en location longue durée, puis-je vous la confier ?", a: "Pour un diagnostic, rien ne s'y oppose en général, mais votre contrat peut imposer un réseau d'entretien. Vérifiez-le avant le rendez-vous ; notre compte-rendu écrit reste utilisable auprès du loueur." }
     ]
   }
 };

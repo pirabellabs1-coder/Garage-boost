@@ -6,7 +6,7 @@ module.exports = {
     lead: "Capot et pavillon marqués après un orage sur l'étang de Berre ? Nous traitons les impacts de grêle des véhicules vitrollais par débosselage sans peinture, devis par élément sous 24h.",
     metaDesc: "Voiture grêlée à Vitrolles : débosselage sans peinture dès 90 € pour quelques bosses, dossier géré avec l'expert, pas de malus. Atelier à 35 min par l'A7.",
     intro: [
-      "Sur les bords de l'étang de Berre, les orages arrivent souvent vite et repartent aussi vite, mais quelques minutes de grêle suffisent à cribler une carrosserie. À Vitrolles, beaucoup de véhicules stationnent à découvert : parkings d'entreprises des zones de <strong>Couperigne, Anjoly ou Estroublans</strong>, résidences du Liourat ou du Pontet, abords du centre-ville. Ce sont alors les surfaces horizontales, <strong>capot, toit et coffre</strong>, qui prennent le plus.",
+      "Sur les bords de l'étang de Berre, les orages arrivent souvent vite et repartent aussi vite, mais quelques minutes de grêle suffisent à cribler une carrosserie. À Vitrolles, un véhicule garé à découvert est exposé en premier : parkings d'entreprises des zones de <strong>Couperigne, Anjoly ou Estroublans</strong>, résidences du Liourat ou du Pontet, abords du centre-ville. Ce sont alors les surfaces horizontales, <strong>capot, toit et coffre</strong>, qui prennent le plus.",
       "Tant que la peinture n'est ni fissurée ni écaillée, chaque bosse peut être repoussée par l'intérieur, sans ponçage ni mastic. C'est le <strong>débosselage sans peinture</strong> : la peinture d'usine est conservée, et avec elle la valeur du véhicule."
     ],
     sections: [
@@ -78,7 +78,7 @@ module.exports = {
     lead: "Des relances plus franches pour s'insérer sur l'A7 ou doubler sur le plateau : Stage 1 de 350 à 690 € selon motorisation, cartographie d'origine sauvegardée, garantie 24 mois.",
     metaDesc: "Reprogrammation moteur pour Vitrolles : Stage 1 de 350 à 690 €, Stage 2 de 690 à 990 €, retour d'origine possible, garantie 24 mois.",
     intro: [
-      "Depuis Vitrolles, la plupart des trajets passent par des voies rapides : A7 vers Marseille ou Aix, bretelles vers l'aéroport, routes du plateau. Sur ces parcours, c'est le <strong>couple disponible à bas régime</strong> qui fait la différence pour s'insérer sans pousser chaque rapport. Un utilitaire chargé ou un diesel un peu juste d'origine en profite particulièrement.",
+      "Depuis Vitrolles, on rejoint vite des voies rapides : A7 vers Marseille ou Aix, bretelles vers l'aéroport, routes du plateau. Sur ces parcours, c'est le <strong>couple disponible à bas régime</strong> qui fait la différence pour s'insérer sans pousser chaque rapport. Un utilitaire chargé ou un diesel un peu juste d'origine en profite particulièrement.",
       "Le <strong>Stage 1</strong> est une optimisation purement logicielle de la cartographie d'origine, sans pièce modifiée. Chaque cartographie est développée et validée sur banc, et l'originale est conservée."
     ],
     sections: [
@@ -88,6 +88,24 @@ module.exports = {
     faq: [
       { q: "Combien de temps immobilise une reprogrammation ?", a: "Comptez une demi-journée pour un Stage 1, diagnostic compris. Depuis Vitrolles, un dépôt en fin de matinée évite les heures chargées de l'A7." },
       { q: "La garantie couvre-t-elle la reprogrammation ?", a: "Oui, la reprogrammation est garantie 24 mois. En cas de défaut lié à notre travail pendant cette période, la reprise est gratuite." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Utilitaire avec voyant moteur à Vitrolles : trouver la panne vite",
+    lead: "Un fourgon de société qui s'allume en orange entre Couperigne et l'A7 ne peut pas attendre. Notre diagnostic à 49 € localise la cause et chiffre la réparation sous 24 h.",
+    metaDesc: "Diagnostic moteur pour Vitrolles : 49 €, offert si la réparation est validée, utilitaires et VL, lecture des calculateurs, devis sous 24 h. À 35 min.",
+    intro: [
+      "Pour une entreprise installée à <strong>Couperigne, Anjoly ou Estroublans</strong>, un utilitaire immobilisé, c'est une tournée qui saute. Quand un voyant apparaît au tableau de bord, la tentation est de continuer à rouler ou de changer la pièce que l'on soupçonne. Les deux paris coûtent souvent plus cher qu'un examen sérieux.",
+      "Nous branchons sur la prise OBD une lecture multimarque complétée par une valise constructeur, puis nous observons les capteurs pendant que le moteur tourne : pression de turbo, débit d'air, position de la vanne EGR, débit des injecteurs. Le véhicule de flotte reçoit le même examen qu'une voiture particulière."
+    ],
+    sections: [
+      { h: "Un devis net pour décider de la suite", p: "À l'issue de l'examen, vous recevez un <strong>compte-rendu écrit</strong> et un devis de réparation sous 24 h ouvrées, sans engagement. Le diagnostic coûte <strong>49 € TTC</strong> ; il vous est offert si vous confiez la réparation à Garage Boost. Le gestionnaire de flotte sait ainsi précisément ce qui sera fait avant de valider." },
+      { h: "Éviter l'A7 aux heures chargées", p: "L'atelier de Plan-de-Cuques est à 29 km de Vitrolles, soit 35 minutes par l'A7 et la rocade L2, mais près d'une heure entre 8 h et 9 h 30 ou entre 17 h et 19 h. Visez un créneau en milieu de journée. Si personne ne peut conduire le véhicule, la récupération à domicile ou sur le lieu de travail est possible, gratuite au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Mon utilitaire roule encore normalement malgré le voyant, est-ce grave ?", a: "Pas forcément, mais un voyant orange signale un défaut enregistré qui peut s'aggraver. Un voyant rouge impose en revanche de s'arrêter. Dans le doute, faites lire les codes avant que le défaut ne déclenche un mode dégradé en pleine tournée." },
+      { q: "Diagnostiquez-vous les utilitaires de toutes marques ?", a: "Oui. Notre matériel couvre les marques européennes, asiatiques et américaines, en essence comme en diesel. Les fourgons de flotte se diagnostiquent comme une voiture, par la prise OBD." }
     ]
   }
 };

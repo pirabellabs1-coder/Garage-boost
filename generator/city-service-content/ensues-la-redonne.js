@@ -71,5 +71,23 @@ module.exports = {
       { q: "Une clé tombée dans l'eau de mer est-elle récupérable ?", a: "Rincez-la à l'eau douce, retirez la pile et laissez-la sécher complètement. Si elle ne fonctionne plus ensuite, le circuit est probablement oxydé : nous vérifions s'il peut être réparé ou s'il faut coder une nouvelle clé." },
       { q: "Combien de temps prend le codage d'une nouvelle clé ?", a: "Une fois la clé vierge disponible, le codage se fait en général lors d'un même passage à l'atelier. Le délai dépend surtout de la commande de la clé pour votre modèle, que nous vous indiquons au devis." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "À-coups dans les côtes d'Ensuès-la-Redonne : le diagnostic",
+    lead: "Le moteur hoquette en remontant de La Redonne ou de Méjean ? Les à-coups en charge laissent des indices dans les calculateurs. Diagnostic à 49 €, offert si la réparation est validée.",
+    metaDesc: "À-coups ou ralenti instable à Ensuès-la-Redonne : diagnostic moteur 49 €, essai routier instrumenté si besoin, offert si la réparation est validée.",
+    intro: [
+      "Les routes en balcon qui descendent vers La Redonne et Méjean ne pardonnent pas un moteur fatigué. C'est en remontant, sur un rapport court, que les <strong>à-coups</strong> se font sentir : la voiture tire, lâche, reprend. Sur le plat, tout paraît normal, ce qui rend le défaut difficile à décrire au garage.",
+      "Ces ratés en charge orientent vers l'allumage, l'injection, l'alimentation en air ou la suralimentation. Ils se reproduisent rarement moteur au ralenti dans un atelier, d'où l'intérêt de mesurer en roulant."
+    ],
+    sections: [
+      { h: "Reproduire la montée, capteurs branchés", p: "Après la lecture des codes, nous effectuons si nécessaire un <strong>essai routier instrumenté</strong> en côte, valise connectée, pour suivre en direct la pression de turbo, le débit d'air et les injecteurs au moment exact de l'à-coup. Les conditions enregistrées par le calculateur lors des épisodes précédents complètent l'analyse." },
+      { h: "Ce que cela coûte depuis Ensuès", p: "Le diagnostic est facturé <strong>49 € TTC</strong>, rapport écrit compris, et offert si vous validez la réparation à l'atelier. Ensuès est à 40 km par la D5, l'A55, l'A7 et la L2, environ 40 minutes en milieu de journée. Pour éviter l'autoroute côtière les week-ends d'été, la récupération à domicile reste une option." }
+    ],
+    faq: [
+      { q: "Les à-coups peuvent-ils endommager le moteur ?", a: "Un raté d'allumage prolongé peut envoyer du carburant imbrûlé vers le catalyseur et l'abîmer. Si le voyant moteur clignote pendant les à-coups, réduisez l'allure et faites contrôler le véhicule sans attendre." },
+      { q: "Le ralenti instable est-il lié au même problème ?", a: "Parfois : une prise d'air, un capteur ou une vanne EGR encrassée peuvent provoquer les deux. Le diagnostic vérifie si les symptômes ont une origine commune ou deux causes distinctes." }
+    ]
   }
 };

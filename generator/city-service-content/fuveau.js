@@ -6,7 +6,7 @@ module.exports = {
     lead: "Capot et toit marqués après un orage sur Fuveau ? Le débosselage sans peinture repousse chaque impact par l'intérieur, et nous transmettons notre chiffrage à l'expert de votre assureur.",
     metaDesc: "Voiture grêlée à Fuveau : débosselage sans peinture dès 90 € pour quelques impacts, chiffrage transmis à l'expert, pas de malus. Atelier à 30 min.",
     intro: [
-      "Entre la plaine de l'Arc et les contreforts de la Sainte-Victoire, Fuveau est exposée aux orages qui se forment l'été et à l'automne sur le pays d'Aix. Dans les lotissements qui ont poussé autour du village, de nombreuses voitures stationnent devant la maison ou sous un simple abri ouvert : quand la grêle tombe, ce sont le <strong>pavillon, le capot et les montants</strong> qui encaissent.",
+      "Entre la plaine de l'Arc et les contreforts de la Sainte-Victoire, Fuveau est exposée aux orages qui se forment l'été et à l'automne sur le pays d'Aix. Dans les lotissements qui ont poussé autour du village, une voiture garée devant la maison ou sous un simple abri ouvert est exposée : quand la grêle tombe, ce sont le <strong>pavillon, le capot et les montants</strong> qui encaissent.",
       "Si la peinture n'a pas éclaté, la tôle peut retrouver sa forme sans ponçage ni mastic. C'est tout l'intérêt du <strong>débosselage sans peinture</strong> : la finition d'origine reste en place, ce qui compte pour la revente comme pour un véhicule en LOA ou en LLD à restituer sans défaut."
     ],
     sections: [
@@ -60,7 +60,7 @@ module.exports = {
     lead: "Allers-retours de quelques kilomètres entre le village et La Barque, moteur rarement chaud : la calamine s'installe. Le décalaminage hydrogène la traite sans démontage, de 89 à 149 €.",
     metaDesc: "Décalaminage hydrogène pour Fuveau : 89 € jusqu'à 1,6 L, 119 € jusqu'à 2,5 L, 149 € au-delà, diagnostic inclus. 60 à 90 min, sans démontage.",
     intro: [
-      "Beaucoup de déplacements à Fuveau sont courts : école, commerces, activités du soir. Sur ces distances, le moteur n'atteint pas toujours sa température de fonctionnement et la combustion reste incomplète. Les résidus de carbone se déposent sur les <strong>soupapes d'admission, la vanne EGR et le turbo</strong>, et les moteurs essence à injection directe y sont particulièrement sensibles.",
+      "Quand une voiture ne fait à Fuveau que des déplacements courts, école, commerces, activités du soir, son moteur en pâtit. Sur ces distances, le moteur n'atteint pas toujours sa température de fonctionnement et la combustion reste incomplète. Les résidus de carbone se déposent sur les <strong>soupapes d'admission, la vanne EGR et le turbo</strong>, et les moteurs essence à injection directe y sont particulièrement sensibles.",
       "Le décalaminage hydrogène consiste à injecter un mélange gazeux dans l'admission, moteur tournant. La calamine réagit et s'évacue par l'échappement, <strong>sans démonter la moindre pièce</strong>, en 60 à 90 minutes."
     ],
     sections: [
@@ -88,6 +88,24 @@ module.exports = {
     faq: [
       { q: "Puis-je rouler avec un impact en attendant le rendez-vous ?", a: "Pour un petit impact hors du champ de vision, oui, quelques jours, en évitant les chocs thermiques comme la climatisation à fond sur un vitrage brûlant. Si une fissure apparaît, l'impact ne sera plus réparable." },
       { q: "Mon pare-brise a été touché par la grêle, est-ce la même démarche ?", a: "Le vitrage relève de la garantie bris de glace, alors que les bosses de carrosserie relèvent de la garantie événements climatiques. Nous pouvons traiter les deux sur le même véhicule, chaque dossier suivant sa propre prise en charge." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Un devis lourd à Fuveau ? Faire confirmer la panne d'abord",
+    lead: "On vous annonce plusieurs pièces à remplacer après un voyant ? Avant de signer, un diagnostic à 49 € vérifie quelle est réellement la cause, à 30 minutes de Fuveau.",
+    metaDesc: "Deuxième avis avant réparation à Fuveau : diagnostic moteur 49 €, lecture multimarque, offert si la réparation est validée chez Garage Boost.",
+    intro: [
+      "Un voyant, un passage à l'atelier, et un devis qui liste trois ou quatre pièces sans que l'on sache laquelle est vraiment défaillante. La situation est inconfortable : refuser, c'est rester avec la panne ; accepter, c'est risquer de payer des pièces qui n'étaient pas en cause. Un <strong>second avis technique</strong> lève le doute.",
+      "Car un code défaut ne désigne pas forcément la pièce à changer. Il peut pointer un capteur, son faisceau ou l'organe que ce capteur surveille : c'est l'analyse des mesures qui fait la différence."
+    ],
+    sections: [
+      { h: "Repartir de zéro sur votre voiture", p: "Nous relisons les calculateurs avec notre propre matériel, OBD2 multimarque et valise constructeur, et relevons les conditions d'apparition de chaque défaut. Les valeurs des capteurs sont ensuite contrôlées moteur tournant. Le compte-rendu écrit indique quelle pièce est en cause, ce qui permet de comparer avec le devis initial point par point." },
+      { h: "Un coût limité, offert si nous réparons", p: "Ce contrôle est facturé <strong>49 € TTC</strong>. Si vous nous confiez ensuite la réparation, il vous est offert, et le devis vous parvient sous 24 heures ouvrées. Depuis Fuveau, l'atelier est à une demi-heure par la D6 et l'A51 ; le milieu de journée et le samedi évitent le trafic du matin vers Gardanne et Aix." }
+    ],
+    faq: [
+      { q: "Dois-je apporter le devis du premier garage ?", a: "C'est utile, ainsi que tout compte-rendu de lecture déjà réalisé. Nous faisons cependant notre propre analyse, sans nous contenter de reprendre les conclusions précédentes." },
+      { q: "Suis-je obligé de faire réparer chez vous après le diagnostic ?", a: "Non. Vous repartez avec le compte-rendu et décidez librement. Le diagnostic n'est offert que si vous validez la réparation à l'atelier." }
     ]
   }
 };

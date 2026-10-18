@@ -39,7 +39,7 @@ module.exports = {
 
   'depannage-remorquage': {
     title: "Panne à Sénas au petit matin : tarifs et majorations",
-    lead: "À Sénas, beaucoup de véhicules partent avant l'aube. Avant 7 h, le dépannage relève du tarif de nuit, majoré de 50 %, et au-delà de 25 km le remorquage se facture 1,80 €/km.",
+    lead: "Vous partez de Sénas avant l'aube ? Avant 7 h, le dépannage relève du tarif de nuit, majoré de 50 %, et au-delà de 25 km le remorquage se facture 1,80 €/km.",
     metaDesc: "Dépannage pour Sénas : au-delà de 25 km, 1,80 €/km sur devis annoncé à l'appel, majoration 50 % de 20 h à 7 h, dimanche et fériés. Dépanneuse 7j/7.",
     intro: [
       "Dans un carrefour agricole et logistique comme Sénas, les journées commencent tôt : départs vers les marchés, livraisons de fruits et légumes, camionnettes qui prennent l'A7 avant le lever du jour. Une panne à 5 h ou 6 h du matin tombe donc dans la <strong>tranche de nuit</strong>, de 20 h à 7 h, où une majoration de 50 % s'applique, comme le dimanche et les jours fériés.",
@@ -60,7 +60,7 @@ module.exports = {
     lead: "Un utilitaire ou une voiture qui dépasse 250 000 km autour de Sénas : réparer vaut-il encore la peine ? Notre devis détaillé sous 24 h vous aide à trancher. Vidange dès 89 €.",
     metaDesc: "Mécanique pour Sénas : devis sous 24 h, distribution de 490 à 890 €, embrayage de 590 à 990 €, vidange dès 89 €, garantie 12 mois. Atelier à 60 km.",
     intro: [
-      "Autour de Sénas, nombre de véhicules affichent des compteurs élevés : utilitaires de transport, voitures qui enchaînent chaque jour la vallée de la Durance et l'A7. Arrive un moment où une grosse réparation tombe, distribution, embrayage ou boîte, et la question devient : <strong>faut-il encore investir dans ce véhicule</strong>, ou vaut-il mieux le remplacer ?",
+      "Un utilitaire de transport ou une voiture qui enchaîne chaque jour la vallée de la Durance et l'A7 finit par afficher un compteur élevé. Arrive un moment où une grosse réparation tombe, distribution, embrayage ou boîte, et la question devient : <strong>faut-il encore investir dans ce véhicule</strong>, ou vaut-il mieux le remplacer ?",
       "Il n'y a pas de réponse universelle. Ce qui aide, c'est un devis complet qui distingue l'urgent de ce qui peut attendre, et une vision de ce qui approche au kilométrage."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Un moteur à 300 000 km mérite-t-il une distribution neuve ?", a: "S'il est sain par ailleurs, sans consommation d'huile excessive ni fuite importante, oui : une distribution neuve lui permet de continuer à rouler longtemps. Un contrôle préalable de l'état général permet de le vérifier." },
       { q: "Entretenez-vous les utilitaires de transport ?", a: "Oui, les utilitaires légers jusqu'à 3,5 tonnes, toutes marques : vidange, freinage, distribution, embrayage, suspension et climatisation." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Démarrage difficile à froid à Sénas : chercher la cause",
+    lead: "Le moteur peine à démarrer les matins froids de la Durance, puis tout rentre dans l'ordre ? Le diagnostic à 49 € s'appuie sur les défauts mémorisés pour cerner l'origine.",
+    metaDesc: "Démarrage difficile à froid ? Diagnostic moteur pour Sénas : 49 €, offert si réparation validée, défauts mémorisés et rapport écrit. Sur rendez-vous.",
+    intro: [
+      "Dans la vallée de la Durance, les matinées d'hiver sont fraîches, et un défaut peut se trahir à ce moment-là : démarreur qui tourne longtemps, moteur qui tousse puis se stabilise. Une heure plus tard, plus rien. Ce type de panne ne se laisse pas observer facilement une fois le moteur chaud.",
+      "Le calculateur, lui, garde en mémoire les codes défauts et les conditions dans lesquelles ils sont apparus, dont la température moteur. La lecture de ces informations permet de travailler sur le défaut même s'il ne se reproduit pas devant nous."
+    ],
+    sections: [
+      { h: "Un défaut à froid, des indices précis", p: "Nous lisons les défauts présents et passés, puis nous suivons les valeurs en temps réel pendant que le moteur monte en température. La comparaison entre les informations mémorisées et le comportement mesuré oriente vers le composant en cause. Si l'analyse doit se prolonger, nous vous appelons avant de poursuivre, avec un devis transparent." },
+      { h: "Sénas – Plan-de-Cuques sur rendez-vous", p: "L'atelier est à 60 km, environ 1h05 par l'A7 et la L2. Une telle distance justifie un rendez-vous : le diagnostic, de 30 à 90 minutes en général, démarre à votre arrivée. Il coûte <strong>49 € TTC</strong>, offert si vous confiez la réparation à Garage Boost." }
+    ],
+    faq: [
+      { q: "Faut-il venir avec le moteur froid ?", a: "Le trajet depuis Sénas réchauffera forcément le moteur. Ce n'est pas bloquant : les défauts survenus à froid restent en mémoire avec leurs conditions d'apparition. Décrivez-nous précisément le symptôme lors de la prise de rendez-vous." },
+      { q: "Et si le défaut n'a laissé aucun code ?", a: "Cela arrive. Les mesures en temps réel et un essai routier aident alors à orienter la recherche, et nous vous expliquons honnêtement ce qui a pu être établi ou non." }
     ]
   }
 };

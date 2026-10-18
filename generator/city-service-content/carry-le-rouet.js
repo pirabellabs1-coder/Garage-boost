@@ -6,7 +6,7 @@ module.exports = {
     lead: "Après un choc sérieux sur une berline ou un SUV de Carry-le-Rouet, faut-il redresser ou changer la pièce ? Nous vous montrons les critères, photos à l'appui, avant tout travail.",
     metaDesc: "Carrosserie pour Carry-le-Rouet : élément réparé de 350 à 590 €, remplacé de 490 à 890 €, pièces d'origine ou équivalentes, photos avant et après.",
     intro: [
-      "Sur un véhicule récent et bien équipé, comme on en croise beaucoup à Carry-le-Rouet, un choc franc sur une aile, une porte ou un hayon pose une question précise : <strong>redresser l'élément ou le remplacer</strong> ? La réponse dépend de la profondeur de la déformation, de l'état des plis de tôle et des renforts, pas d'une habitude d'atelier.",
+      "Sur un véhicule récent et bien équipé, à Carry-le-Rouet comme ailleurs, un choc franc sur une aile, une porte ou un hayon pose une question précise : <strong>redresser l'élément ou le remplacer</strong> ? La réponse dépend de la profondeur de la déformation, de l'état des plis de tôle et des renforts, pas d'une habitude d'atelier.",
       "Nous examinons le véhicule, photographions chaque zone touchée et vous remettons un devis qui explique le choix retenu, élément par élément."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Mon moteur est-il compatible ?", a: "Envoyez-nous le modèle, la motorisation et l'année : nous vérifions que le calculateur est pris en charge et vous indiquons le tarif et le gain attendu avant de fixer le rendez-vous." },
       { q: "Que devient la cartographie d'usine ?", a: "Elle est lue et sauvegardée avant toute modification. Un retour en configuration d'origine se fait en une trentaine de minutes, pour 49 €, par exemple avant une revente." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Plusieurs voyants à la fois à Carry-le-Rouet : un examen global",
+    lead: "ABS, ESP et moteur allumés ensemble sur une voiture récente ? Les calculateurs dialoguent entre eux : notre diagnostic à 49 € les interroge tous pour trouver l'origine commune, à 40 min de Carry.",
+    metaDesc: "Diagnostic électronique à Carry-le-Rouet : 49 €, lecture de tous les calculateurs (moteur, ABS, ESP, airbags), offert si réparation validée.",
+    intro: [
+      "Sur une voiture moderne et richement équipée, une seule anomalie peut faire s'allumer <strong>plusieurs voyants en cascade</strong>. Un capteur de vitesse de roue défaillant, par exemple, prive l'ABS et l'ESP d'une information et peut aussi perturber d'autres fonctions. Vu du volant, le tableau de bord semble en panne générale.",
+      "Sur la Côte Bleue, l'air marin qui atteint les connexions et les capteurs de roue est une piste parmi d'autres. L'enjeu est de remonter à l'origine plutôt que de traiter chaque voyant séparément."
+    ],
+    sections: [
+      { h: "Interroger l'ensemble des calculateurs", p: "Notre lecture multimarque, complétée par une valise constructeur, couvre la gestion moteur, l'ABS, l'ESP, les airbags et la BSI. En recoupant les codes et l'ordre dans lequel ils sont apparus, nous identifions le défaut source et ceux qui n'en sont que la conséquence. Le compte-rendu écrit le présente clairement." },
+      { h: "Tarif et accès depuis Carry", p: "Le diagnostic coûte <strong>49 € TTC</strong>, gratuit si la réparation est confiée ensuite à l'atelier. Depuis Le Rouet ou La Tuilière, rejoignez l'A55 par la D5 puis la L2 : 40 minutes environ hors été. Nous pouvons aussi venir chercher le véhicule à domicile, service offert au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Un voyant airbag allumé empêche-t-il de rouler ?", a: "La voiture roule, mais le système de retenue peut ne pas fonctionner en cas de choc. C'est un défaut de sécurité à faire contrôler rapidement." },
+      { q: "Intervenez-vous sur les marques premium ?", a: "Oui. Notre matériel couvre notamment BMW, Mercedes, Audi, Volvo, Land Rover ou Porsche, en essence, diesel et hybride. Seule la batterie de traction des voitures 100 % électriques relève de spécialistes habilités haute tension." }
     ]
   }
 };

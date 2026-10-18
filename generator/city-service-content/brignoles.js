@@ -43,7 +43,7 @@ module.exports = {
     metaDesc: "Reprogrammation moteur pour Brignoles : Stage 1 de 350 à 690 €, antipollution conservée, carto d'origine sauvegardée, garantie 24 mois. Atelier à 60 km.",
     intro: [
       "Certaines offres de reprogrammation promettent des gains spectaculaires en désactivant au passage des équipements antipollution. Ce n'est pas notre méthode. Nos cartographies, développées en interne et validées sur banc, restent dans les <strong>seuils Euro 5 et Euro 6</strong> et laissent le filtre à particules, la vanne EGR et le système AdBlue fonctionner normalement.",
-      "Ce cadre posé, le <strong>Stage 1</strong> apporte ce que recherchent la plupart des conducteurs qui parcourent l'A8 : du couple plus bas dans les tours, des dépassements plus courts et une conduite plus détendue."
+      "Ce cadre posé, le <strong>Stage 1</strong> apporte ce que recherche un conducteur qui parcourt l'A8 : du couple plus bas dans les tours, des dépassements plus courts et une conduite plus détendue."
     ],
     sections: [
       { h: "Un déplacement d'une demi-journée", p: "L'atelier est à 60 km, soit environ 1h05 par l'A8. Transmettez-nous à l'avance le modèle et la motorisation : nous confirmons la compatibilité du calculateur et le prix, de <strong>350 à 690 €</strong> pour un Stage 1. Sur place, la lecture des codes défauts et un contrôle de l'état du moteur précèdent la sauvegarde de la cartographie d'usine, puis l'écriture et les essais." },
@@ -60,7 +60,7 @@ module.exports = {
     lead: "Un devis de distribution ou d'embrayage vous paraît élevé ? Depuis Brignoles, envoyez-nous les références du véhicule : nous chiffrons sous 24 h, sur la base de nos tarifs publiés.",
     metaDesc: "Mécanique pour Brignoles : devis sous 24h, distribution 490 à 890 €, embrayage 590 à 990 €, garantie 12 mois. Récupération longue distance sur devis.",
     intro: [
-      "À 60 km de Plan-de-Cuques, Garage Boost n'a pas vocation à remplacer le garage de quartier de Brignoles pour une vidange. En revanche, face à une <strong>réparation coûteuse</strong>, beaucoup de conducteurs veulent un point de comparaison avant de signer. C'est là que nous pouvons être utiles.",
+      "À 60 km de Plan-de-Cuques, Garage Boost n'a pas vocation à remplacer le garage de quartier de Brignoles pour une vidange. En revanche, face à une <strong>réparation coûteuse</strong>, il est légitime de vouloir un point de comparaison avant de signer. C'est là que nous pouvons être utiles.",
       "Nos prix de référence sont publics, et chaque devis détaille pièces et main-d'œuvre. Vous décidez ensuite, en intégrant le temps de trajet, de faire réaliser l'intervention chez nous ou ailleurs."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "De quelles informations avez-vous besoin pour chiffrer ?", a: "La marque, le modèle exact, la motorisation, le kilométrage et l'intervention prévue. Le numéro figurant sur la carte grise permet d'identifier les bonnes pièces." },
       { q: "L'entretien hors réseau fait-il perdre la garantie constructeur ?", a: "Non, tant que le carnet est respecté et que les pièces sont de qualité équivalente à l'origine. Nous tamponnons le carnet à chaque passage." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Un code lu à Brignoles, une cause à confirmer",
+    lead: "Un lecteur OBD bon marché vous a donné un code défaut, ou un garage vous propose une pièce coûteuse ? Le diagnostic à 49 € vérifie l'origine réelle, sur rendez-vous à 1h05.",
+    metaDesc: "Diagnostic moteur pour Brignoles : 49 €, second avis sur un code défaut, valeurs mesurées en temps réel et compte-rendu écrit. Sur rendez-vous.",
+    intro: [
+      "Les petits lecteurs OBD vendus en ligne donnent accès à un code défaut, parfois avec un libellé inquiétant. Le piège est de prendre ce code pour un verdict : il signale un circuit en anomalie, pas forcément la pièce à remplacer. Le capteur, son câblage ou le composant qu'il surveille peuvent chacun être en cause.",
+      "Notre diagnostic part de ce code mais va plus loin : lecture de tous les calculateurs accessibles avec une <strong>valise constructeur</strong>, conditions d'apparition du défaut et mesures en direct des capteurs."
+    ],
+    sections: [
+      { h: "Du code à la cause", p: "Pour chaque défaut relevé, nous regardons dans quelles conditions il est apparu, puis nous contrôlons les valeurs réelles du circuit concerné : débit d'air, pression de turbo, sonde lambda ou position de la vanne EGR, selon le cas. Le compte-rendu écrit nomme la cause identifiée. Si un devis vous a déjà été remis ailleurs, vous pouvez le comparer en connaissance de cause." },
+      { h: "La route depuis Brignoles", p: "Plan-de-Cuques est à 60 km de Brignoles, environ 1h05 par l'A8 puis la L2. Un rendez-vous évite toute attente à l'arrivée ; le diagnostic dure en général de 30 à 90 minutes. Il coûte <strong>49 € TTC</strong> et il est offert si vous validez la réparation chez Garage Boost." }
+    ],
+    faq: [
+      { q: "Dois-je noter le code relevé avec mon lecteur ?", a: "Oui, notez-le avec la date et les circonstances : c'est une information utile, même si nous relisons l'ensemble des calculateurs avec notre propre matériel." },
+      { q: "Que se passe-t-il si je fais réparer à Brignoles ensuite ?", a: "Vous gardez le compte-rendu écrit et vous êtes libre de faire réaliser la réparation où vous le souhaitez. Le diagnostic reste alors facturé 49 €." }
     ]
   }
 };

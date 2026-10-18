@@ -42,7 +42,7 @@ module.exports = {
     lead: "Vous changez de rapport à chaque virage en remontant vers Peypin ? Une cartographie Stage 1, facturée entre 350 et 690 € selon le moteur, donne du couple plus bas dans les tours.",
     metaDesc: "Reprogrammation moteur pour Peypin : Stage 1 entre 350 et 690 €, validé sur banc, fichier d'usine conservé, garantie 24 mois.",
     intro: [
-      "Quitter Peypin, c'est enchaîner les côtes : vers Cadolive et Saint-Savournin par la D908, ou en remontant la D96 depuis La Bouilladisse le soir. Avec une petite motorisation, beaucoup de conducteurs passent la moitié du trajet à <strong>tomber un rapport</strong> pour garder du rythme, en faisant monter le moteur dans les tours.",
+      "Quitter Peypin, c'est enchaîner les côtes : vers Cadolive et Saint-Savournin par la D908, ou en remontant la D96 depuis La Bouilladisse le soir. Avec une petite motorisation, on peut passer la moitié du trajet à <strong>tomber un rapport</strong> pour garder du rythme, en faisant monter le moteur dans les tours.",
       "Une reprogrammation Stage 1 travaille précisément sur ce point : en rendant le couple disponible plus tôt, elle permet de rester sur un rapport plus long dans les montées. Aucune pièce n'est changée, seule la cartographie du calculateur est optimisée."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "La dépanneuse peut-elle charger une voiture qui n'avance plus du tout ?", a: "Oui. Le plateau, à système hydraulique, est prévu pour transporter des véhicules non roulants, y compris accidentés, ainsi que les utilitaires légers et les SUV." },
       { q: "Le forfait de 149 € s'applique-t-il aussi aux hameaux de Peypin ?", a: "Oui, l'ensemble de la commune se trouve à moins de 25 km de l'atelier. Seule l'heure de l'appel peut faire varier le prix, avec la majoration de 50 % de nuit, le dimanche et les jours fériés." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "À-coups en montée sur la D96 : diagnostic moteur pour Peypin",
+    lead: "La voiture hoquette en reprenant dans les côtes de Peypin, comme si le moteur ratait ? Pour 49 €, nous identifions l'origine de ces à-coups, à 25 minutes du village.",
+    metaDesc: "Diagnostic moteur pour Peypin : à-coups à l'accélération, ratés, lecture des calculateurs, 49 € offerts si réparation validée. Atelier à 25 min.",
+    intro: [
+      "En remontant la D96 depuis La Bouilladisse ou en franchissant le col vers Cadolive, le moteur est sollicité en charge à bas régime. C'est dans cette situation que les <strong>à-coups</strong> apparaissent : la voiture hoquette, avance par saccades, puis reprend. Sur le plat, rien ne se remarque.",
+      "Ces secousses proviennent souvent d'un raté d'allumage ou d'un défaut d'alimentation que le calculateur détecte, cylindre par cylindre. Encore faut-il aller lire ces informations."
+    ],
+    sections: [
+      { h: "Localiser le raté", p: "Sur un moteur essence, le calculateur comptabilise les ratés de combustion par cylindre : bougie usée, bobine qui faiblit ou injecteur encrassé se trahissent ainsi. Sur un diesel, nous examinons plutôt le débit des injecteurs et la pression de suralimentation. Lorsque le défaut n'apparaît qu'en côte, un essai routier sur un parcours en montée permet de le capter en direct." },
+      { h: "Prix et trajet depuis Peypin", p: "Le diagnostic complet coûte <strong>49 € TTC</strong> et dure le plus souvent de 30 à 90 minutes. S'il débouche sur une réparation que vous validez chez nous, il est offert. L'atelier est à 18 km, environ 25 minutes par la D96 puis la D560, la D2 et la D4F. Le devis de réparation suit sous 24 heures ouvrées." }
+    ],
+    faq: [
+      { q: "Peut-on continuer à rouler avec des à-coups ?", a: "Brièvement, mais sans tarder à faire contrôler : un raté de combustion envoie du carburant imbrûlé dans l'échappement, ce qui peut endommager le catalyseur. Si le voyant moteur clignote, réduisez l'allure et faites vérifier rapidement." },
+      { q: "Changer les bougies suffit-il en général ?", a: "Parfois, mais pas toujours : une bobine ou un injecteur peuvent produire le même symptôme. Le diagnostic indique le cylindre concerné et la pièce en cause, ce qui évite de remplacer des pièces au hasard." }
     ]
   }
 };

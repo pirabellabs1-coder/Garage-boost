@@ -3,10 +3,10 @@ module.exports = {
 
   'nettoyage-fap': {
     title: "La Bouilladisse : le FAP de la voiture qui ne quitte pas la vallée",
-    lead: "Dans beaucoup de foyers de La Bouilladisse, une voiture part vers la métropole et l'autre reste pour les trajets locaux. Si cette seconde voiture est un diesel, c'est son filtre à particules qui sature.",
+    lead: "Quand un foyer de La Bouilladisse a deux voitures, l'une part souvent vers la métropole et l'autre reste pour les trajets locaux. Si cette seconde voiture est un diesel, c'est son filtre à particules qui sature.",
     metaDesc: "Nettoyage FAP pour La Bouilladisse : régénération sans démontage dès 250 €, bain ultrason de 390 à 650 €, diagnostic inclus. Atelier à 25 min.",
     intro: [
-      "La Bouilladisse vit au rythme des pendulaires, et nombre de familles y ont deux véhicules : l'un avale les kilomètres vers Marseille, Aubagne ou la zone des Paluds, l'autre sert à l'école, aux courses et aux allers-retours entre Le Village, La Grande Terre et Les Vallons. Paradoxalement, c'est la voiture qui roule le moins qui use le plus son <strong>filtre à particules</strong>.",
+      "Pour une famille de La Bouilladisse qui a deux véhicules, le partage est souvent le même : l'un avale les kilomètres vers Marseille, Aubagne ou la zone des Paluds, l'autre sert à l'école, aux courses et aux allers-retours entre Le Village, La Grande Terre et Les Vallons. Paradoxalement, c'est la voiture qui roule le moins qui use le plus son <strong>filtre à particules</strong>.",
       "Pour se vider, le filtre a besoin de chaleur, longtemps, à régime soutenu. Sur quelques kilomètres, souvent en côte et moteur encore froid, la combustion des suies n'aboutit jamais. Le filtre se remplit, le calculateur multiplie les régénérations forcées, puis allume le voyant et peut limiter la puissance."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "La portière ferme mal depuis le choc, est-ce grave ?", a: "Cela montre que la portière ou ses charnières ont bougé. Il faut le faire vérifier rapidement : une porte mal fermée laisse passer l'eau et l'air, et sa serrure peut lâcher. Ce point est contrôlé lors de l'établissement du devis." },
       { q: "L'autre conducteur est en tort : vais-je avancer des frais ?", a: "Non lorsque votre assureur prend le sinistre en charge : nous facturons directement la compagnie, sur la base du chiffrage validé. Si vous n'êtes pas responsable de l'accrochage, la franchise ne reste en règle générale pas à votre charge." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Voyant allumé dans la descente vers Aubagne : que faire ?",
+    lead: "Le voyant moteur s'allume sur la D560 en quittant La Bouilladisse ? Selon sa couleur, on continue prudemment ou on s'arrête. Ensuite, un diagnostic à 49 € en identifie la cause, à 25 minutes de route.",
+    metaDesc: "Voyant moteur à La Bouilladisse : diagnostic 49 €, offert si vous validez la réparation, lecture OBD2 et valise constructeur. Atelier à 25 min.",
+    intro: [
+      "Le scénario est classique : on vient de passer le carrefour de la D96 et de la D560, on descend vers Aubagne, et un pictogramme orange apparaît au tableau de bord. Un voyant <strong>orange</strong> signale une anomalie à faire vérifier rapidement ; un voyant <strong>rouge</strong>, ou un orange qui clignote, impose de s'arrêter dès que possible pour ne pas aggraver les dégâts.",
+      "Dans les deux cas, la réponse passe par une lecture des calculateurs. C'est le rôle de notre diagnostic : relever les codes enregistrés, puis les confronter aux valeurs mesurées moteur tournant pour remonter à l'origine du défaut."
+    ],
+    sections: [
+      { h: "Rouler jusqu'à l'atelier ou se faire remorquer", p: "Si le voyant reste orange et fixe, que le moteur tire normalement et qu'aucune alerte de température ou de pression d'huile ne s'ajoute, le trajet jusqu'à Plan-de-Cuques reste en général envisageable : environ 25 minutes par Aubagne, la D2 et la D4F. Au moindre doute, voyant rouge ou mode dégradé marqué, mieux vaut ne pas insister ; La Bouilladisse étant à 22 km, le remorquage relève du forfait de <strong>149 €</strong>." },
+      { h: "Ce que vous payez, et ce que vous obtenez", p: "Le diagnostic est facturé <strong>49 € TTC</strong> et vous est offert si la réparation est ensuite validée chez Garage Boost. Il comprend la lecture multimarque de l'OBD2 et de la valise constructeur, les mesures en direct et un compte-rendu écrit. Comptez de 30 à 90 minutes ; en visant le créneau 10 h-16 h, vous évitez les ralentissements de la vallée." }
+    ],
+    faq: [
+      { q: "Un voyant orange fixe m'autorise-t-il à finir ma journée ?", a: "Souvent oui, si la voiture se comporte normalement et qu'aucun autre témoin ne s'allume. Mais il ne faut pas laisser traîner : un défaut ignoré peut en entraîner d'autres. Prenez rendez-vous dans les jours qui suivent, ou appelez-nous si le comportement change." },
+      { q: "Ma voiture s'est mise en mode dégradé à la sortie du village, est-ce grave ?", a: "Le mode dégradé est une protection : le calculateur bride le moteur pour limiter les risques. Il ne dit pas à lui seul la gravité de la panne. Roulez doucement jusqu'à un endroit sûr, puis faites lire les codes défauts pour connaître la cause exacte." }
     ]
   }
 };

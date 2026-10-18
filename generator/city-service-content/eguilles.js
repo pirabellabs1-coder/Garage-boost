@@ -43,7 +43,7 @@ module.exports = {
     metaDesc: "Nettoyage FAP pour Éguilles : second avis avant remplacement, régénération dès 250 €, bain ultrason 390 à 650 €, garantie 12 mois. À 35 min par l'A8.",
     intro: [
       "Sur un diesel récent, un voyant de filtre à particules débouche souvent sur un devis de remplacement salé. Pourtant, dans la plupart des cas, le filtre n'est pas détruit : il est <strong>chargé de suies</strong> qu'une régénération professionnelle peut éliminer. Encore faut-il le vérifier avec des mesures, pas à l'œil.",
-      "Les diesels éguillens roulent beaucoup sur l'A8 et l'A51, ce qui favorise en principe les régénérations naturelles. Quand le filtre sature malgré tout, il faut aussi comprendre pourquoi."
+      "Un diesel qui roule surtout sur l'A8 et l'A51 bénéficie en principe de régénérations naturelles. Quand le filtre sature malgré tout, il faut aussi comprendre pourquoi."
     ],
     sections: [
       { h: "Un second avis chiffré", p: "Notre diagnostic mesure la <strong>contre-pression</strong> du filtre, son taux de saturation et l'état du support céramique. S'il est récupérable, deux options : régénération chimique sans démontage en 90 minutes, de 250 à 450 €, ou dépose et bain ultrason haute température, de 390 à 650 €, avec un à deux jours d'immobilisation. Si la céramique est fissurée, nous chiffrons un FAP reconditionné, environ moitié prix d'un neuf. Un compte-rendu avec les mesures avant et après vous est remis." },
@@ -60,7 +60,7 @@ module.exports = {
     lead: "Freinage de véhicule lourd, boîte automatique, pièces de marque : Garage Boost entretient les véhicules d'Éguilles avec des pièces de qualité d'origine, vidange dès 89 €, devis sous 24 h.",
     metaDesc: "Mécanique générale pour Éguilles : vidange dès 89 €, kit disques et plaquettes avant 290 €, pièces de qualité origine, garantie 12 mois. À 35 min.",
     intro: [
-      "Berlines, SUV et breaks premium sont nombreux sur les hauteurs d'Éguilles. Ces véhicules lourds et puissants consomment davantage de <strong>disques et de plaquettes</strong>, et leurs boîtes automatiques ont elles aussi un entretien à respecter. Beaucoup de propriétaires pensent devoir rester dans le réseau de la marque pour obtenir ce niveau de prestation.",
+      "Berlines, SUV et breaks premium, lourds et puissants, consomment davantage de <strong>disques et de plaquettes</strong>, et leurs boîtes automatiques ont elles aussi un entretien à respecter. Leur propriétaire pense parfois devoir rester dans le réseau de la marque pour obtenir ce niveau de prestation.",
       "Notre atelier travaille avec des équipementiers de première monte et vous remet, à chaque passage, un compte-rendu écrit et un carnet tamponné, avec une garantie de 12 mois pièces et main-d'œuvre."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Quelles marques de pièces de frein utilisez-vous ?", a: "Des pièces de qualité d'origine, notamment Brembo, Bosch ou TRW, selon vos préférences et votre budget. Le choix vous est proposé sur le devis." },
       { q: "Puis-je disposer d'un véhicule pendant l'intervention ?", a: "Oui, un véhicule de prêt peut être mis à disposition sur demande. Précisez-le à la prise de rendez-vous pour que nous le réservions." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Contre-visite pollution à Éguilles : diagnostiquer avant",
+    lead: "Votre voiture a échoué au contrôle technique pour cause d'émissions ? Avant la contre-visite, un diagnostic à 49 € identifie ce qui pollue, à 35 minutes d'Éguilles.",
+    metaDesc: "Diagnostic moteur pour Éguilles après un échec pollution au contrôle technique : 49 €, offert si la réparation est validée. Atelier à 35 min.",
+    intro: [
+      "Opacité des fumées trop élevée sur un diesel, taux de monoxyde de carbone hors norme sur une essence : le procès-verbal indique le résultat, pas la cause. Or le délai pour la <strong>contre-visite</strong> est compté, et changer une pièce au hasard risque de ne rien régler.",
+      "Le diagnostic électronique remonte à l'origine. Nous lisons les codes enregistrés par la gestion moteur, puis nous mesurons le comportement de l'injection, de la vanne EGR, de la sonde lambda et de la suralimentation pendant que le moteur tourne."
+    ],
+    sections: [
+      { h: "Les pistes que l'on vérifie", p: "Un excès de fumée peut venir d'un injecteur qui dose mal, d'une admission encrassée, d'une vanne EGR qui reste ouverte ou d'un filtre à particules saturé. Sur une essence, une sonde lambda défaillante suffit à dérégler la richesse. Le <strong>compte-rendu écrit</strong> désigne la cause retenue et propose la réparation adaptée, qu'il s'agisse d'un nettoyage ou d'une pièce." },
+      { h: "Le coût et le trajet", p: "Le diagnostic coûte <strong>49 € TTC</strong> et dure le plus souvent de 30 à 90 minutes ; il est offert si vous faites réaliser la réparation chez nous. Depuis Éguilles, comptez environ 35 minutes par la D17, l'A8, l'A51 puis l'A507, davantage aux heures de pointe autour d'Aix. La récupération à domicile est offerte au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Avez-vous besoin du procès-verbal du contrôle technique ?", a: "Oui, apportez-le : les valeurs relevées par le contrôleur orientent l'analyse et permettent de vérifier, après réparation, que le défaut constaté est bien traité." },
+      { q: "Le diagnostic garantit-il la réussite de la contre-visite ?", a: "Il identifie la cause et la réparation nécessaire, mais c'est le contrôleur qui délivre le résultat. Une fois la réparation faite, une nouvelle lecture permet de vérifier que les valeurs sont revenues à la normale." }
     ]
   }
 };

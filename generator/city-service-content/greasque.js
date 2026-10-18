@@ -60,7 +60,7 @@ module.exports = {
     lead: "Rénovation d'une maison de village, gros achat de meubles, évacuation vers la déchetterie : prenez un fourgon du vendredi au lundi, à partir de 49 € la journée, avec l'assurance tous risques dans le prix.",
     metaDesc: "Location d'utilitaire pour Gréasque : week-end de travaux, 49 à 79 € par jour selon le volume, 250 km inclus, sangles fournies, permis B.",
     intro: [
-      "À Gréasque, les projets qui demandent un utilitaire se concentrent souvent sur le week-end : chantier de rénovation dans une maison du village, aménagement d'un jardin, débarras d'une cave avant un déménagement. Louer du vendredi soir au lundi évite d'emprunter un véhicule ou de multiplier les allers-retours en voiture.",
+      "À Gréasque, un projet qui demande un utilitaire tombe volontiers sur un week-end : chantier de rénovation dans une maison du village, aménagement d'un jardin, débarras d'une cave avant un déménagement. Louer du vendredi soir au lundi évite d'emprunter un véhicule ou de multiplier les allers-retours en voiture.",
       "Comme la location fonctionne <strong>tous les jours, dimanche compris</strong>, pourvu que vous ayez réservé, vous pouvez caler le retrait et le retour sur votre planning ; le véhicule se prend à Plan-de-Cuques, à 25 minutes de route."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Peut-on décaler la location si la météo compromet le chantier ?", a: "Oui, la réservation reste modifiable sans frais jusqu'à 72 heures avant le retrait. Au-delà, contactez-nous pour voir quelles dates restent disponibles." },
       { q: "Les sangles sont-elles fournies pour arrimer le chargement ?", a: "Oui, les modèles moyens et grands disposent d'une rampe d'accès et sont livrés avec des sangles d'arrimage, pratiques pour caler du mobilier, de l'électroménager ou des palettes." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Surconsommation soudaine à Gréasque : la cause par le diagnostic",
+    lead: "Le plein qui dure moins longtemps sur les mêmes trajets vers Gardanne ? Une consommation qui grimpe sans raison se diagnostique. Lecture électronique à 49 €, offerte si la réparation est validée.",
+    metaDesc: "Surconsommation sans raison à Gréasque : diagnostic moteur 49 €, mesures en temps réel, compte-rendu écrit. Offert si la réparation est validée.",
+    intro: [
+      "Le repère est simple quand on fait chaque jour le même parcours, par exemple Gréasque-Gardanne par la D6 : on sait combien de jours dure un plein. Le jour où il en manque un ou deux, sans changement de conduite ni de saison, le moteur <strong>brûle plus qu'il ne devrait</strong>.",
+      "Une surconsommation est rarement anodine. Elle peut venir d'un capteur qui fausse le dosage du carburant, d'une sonde lambda vieillissante, d'un thermostat qui laisse le moteur trop froid ou d'un encrassement de l'admission. Chacune de ces pistes se vérifie par la mesure."
+    ],
+    sections: [
+      { h: "Comparer ce que le moteur fait à ce qu'il devrait faire", p: "Notre valise multimarque lit les codes défauts, puis affiche en direct le débit d'air, la sonde lambda, la température d'échappement ou le débit des injecteurs. Ces valeurs, comparées à celles attendues pour votre moteur, montrent où se situe la dérive. Un essai routier vient compléter l'analyse quand l'écart n'apparaît qu'en roulant." },
+      { h: "Un examen qui peut se rembourser vite", p: "Le diagnostic est facturé <strong>49 € TTC</strong>, offert si vous validez la réparation chez Garage Boost. Il dure le plus souvent de 30 à 90 minutes, compte-rendu écrit compris. Pour l'atelier, à 25 minutes de Gréasque, préférez le milieu de matinée : la D6 se charge aux heures d'embauche et de débauche." }
+    ],
+    faq: [
+      { q: "Ma consommation a augmenté mais aucun voyant n'est allumé, est-ce normal ?", a: "Oui, c'est possible : un capteur qui dérive lentement peut rester dans les tolérances du calculateur sans déclencher d'alerte. Les mesures en temps réel permettent de repérer ces écarts discrets." },
+      { q: "Faut-il noter quelque chose avant de venir ?", a: "Vos derniers pleins, les kilomètres parcourus et le type de trajet nous aident. Plus la description du symptôme est précise, plus l'analyse est rapide." }
     ]
   }
 };

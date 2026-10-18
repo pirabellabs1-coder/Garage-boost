@@ -71,5 +71,23 @@ module.exports = {
       { q: "Un diesel qui a dépassé 150 000 km peut-il être reprogrammé ?", a: "Oui, s'il est en bon état. Le diagnostic préalable le vérifie. Sur boîte manuelle, l'embrayage d'origine est un peu plus sollicité après un Stage 1 : nous contrôlons son état et vous signalons s'il arrive en fin de vie." },
       { q: "Le Stage 2 a-t-il un intérêt pour rouler au quotidien ?", a: "Rarement. Il impose des pièces supplémentaires et vise la performance pure. Pour les trajets de tous les jours, le Stage 1 offre un meilleur équilibre entre agrément, coût et fiabilité." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Ralenti instable sur les pentes de Ventabren : diagnostic",
+    lead: "Le moteur hésite au ralenti, cale dans la descente du village ou démarre mal à froid ? Pour 49 €, nous lisons les calculateurs et mesurons les capteurs, à 40 minutes de Ventabren.",
+    metaDesc: "Diagnostic moteur pour Ventabren : ralenti instable, calage, démarrage difficile. 49 €, offert si réparation validée. Atelier à 40 min par l'A8.",
+    intro: [
+      "Un régime qui oscille à l'arrêt, une voiture qui cale en relâchant l'accélérateur dans une ruelle en pente, un démarrage laborieux le matin : ces symptômes paraissent anodins, mais ils deviennent pénibles, voire risqués, quand on manœuvre sur les routes escarpées qui montent au vieux village.",
+      "Les causes sont variées : prise d'air à l'admission, capteur de température moteur qui ment au calculateur, papillon motorisé encrassé, vanne EGR qui ne se referme plus. Le <strong>diagnostic électronique</strong> sert à départager ces hypothèses avant de dépenser quoi que ce soit."
+    ],
+    sections: [
+      { h: "Un examen à froid puis à chaud", p: "Nous lisons les défauts présents et passés en OBD2 multimarque et à la valise constructeur, puis nous suivons les valeurs des capteurs du démarrage jusqu'à la température de fonctionnement : débit d'air, position de la vanne EGR, richesse, régime de ralenti. Un essai routier reproduit le symptôme si nécessaire. Comptez de 30 à 90 minutes et un <strong>rapport écrit</strong>." },
+      { h: "Depuis Ventabren, deux options", p: "L'atelier est à 38 km, soit environ 40 minutes par la D10, l'A8, l'A51 puis l'A507, en évitant les pointes de l'échangeur d'Aix. Le diagnostic coûte <strong>49 € TTC</strong>, offert si vous validez la réparation. Si le moteur cale trop souvent pour faire le trajet sereinement, la récupération du véhicule est offerte au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Faut-il laisser la voiture la veille pour un problème de démarrage à froid ?", a: "C'est souvent la meilleure solution : un moteur qui a refroidi toute la nuit présente le symptôme dans les conditions réelles. Prévenez-nous à la prise de rendez-vous et nous organisons l'examen dès le matin." },
+      { q: "Un ralenti instable peut-il venir de l'électronique plutôt que de la mécanique ?", a: "Oui, et c'est fréquent. Une valeur erronée transmise par un capteur suffit à dérégler le ralenti d'un moteur mécaniquement sain ; c'est ce que la mesure en temps réel permet de repérer." }
+    ]
   }
 };

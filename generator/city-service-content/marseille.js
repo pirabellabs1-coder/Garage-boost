@@ -89,5 +89,23 @@ module.exports = {
       { q: "Vaut-il mieux faire réparer chaque petit choc ou attendre d'en avoir plusieurs ?", a: "Regrouper limite le nombre d'immobilisations, mais une rayure qui atteint la tôle ne doit pas attendre trop longtemps, faute de quoi la corrosion peut s'installer. Envoyez des photos par WhatsApp : nous vous disons ce qui presse et ce qui peut être groupé." },
       { q: "Combien de temps sans voiture pour une portière repeinte ?", a: "Trois à cinq jours pour un élément réparé et repeint, séchage en cabine compris, et cinq à huit jours pour un remplacement complet selon l'arrivée des pièces. Le devis précise le délai avant que vous ne déposiez le véhicule." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Contrôle technique refusé pour pollution à Marseille ?",
+    lead: "Contre-visite pour émissions polluantes ou voyant moteur au tableau de bord : depuis Marseille, à 15 minutes de l'atelier, notre diagnostic à 49 € cherche ce qui dérègle la combustion.",
+    metaDesc: "Diagnostic moteur pour Marseille : 49 €, offert si la réparation est validée. Échec au contrôle technique pour pollution, voyant allumé. À 15 min.",
+    intro: [
+      "Le procès-verbal tombe : contre-visite, émissions polluantes hors limites. Entre les tunnels du centre, les boulevards encombrés et les arrêts répétés aux feux, un moteur marseillais peut très bien rouler sans voyant alors qu'un élément de la chaîne de dépollution fonctionne mal. Le contrôleur constate le résultat ; il ne dit pas d'où vient l'écart.",
+      "C'est précisément le rôle de notre <strong>diagnostic électronique</strong> : lire les codes défauts mémorisés par le calculateur moteur, puis observer en direct la <strong>sonde lambda</strong>, le débit d'air, la position de la vanne EGR et la température d'échappement pour remonter à la cause."
+    ],
+    sections: [
+      { h: "Préparer la contre-visite sans changer des pièces au hasard", p: "Remplacer une sonde ou un catalyseur sur simple supposition coûte cher et ne garantit rien. La lecture des calculateurs et l'analyse des valeurs mesurées désignent l'organe réellement en cause, que nous chiffrons ensuite dans un devis transmis sous 24 heures. Vous retournez au contrôle avec une réparation ciblée et un <strong>compte-rendu écrit</strong> qui explique ce qui a été trouvé." },
+      { h: "Depuis les arrondissements, un aller-retour court", p: "Comptez une quinzaine de minutes depuis le centre par la D4, un peu moins depuis le 13e ou le 14e par la rocade L2, sortie Plan-de-Cuques. L'examen prend en général de 30 à 90 minutes et coûte <strong>49 € TTC</strong>, montant offert si vous validez la réparation chez Garage Boost. Le stationnement devant l'atelier est gratuit." }
+    ],
+    faq: [
+      { q: "Mon contrôle technique signale la pollution mais aucun voyant n'est allumé, est-ce normal ?", a: "Cela arrive. Le calculateur n'allume pas forcément de voyant pour un écart progressif, mais il enregistre souvent des valeurs ou des défauts passés que la lecture fait apparaître. Les mesures en temps réel complètent ce que les codes ne disent pas." },
+      { q: "Le compte-rendu peut-il servir pour la contre-visite ?", a: "La contre-visite porte sur le véhicule lui-même, pas sur un document. Notre compte-rendu vous sert surtout à comprendre la panne et à vérifier que la réparation proposée correspond bien au défaut relevé." }
+    ]
   }
 };

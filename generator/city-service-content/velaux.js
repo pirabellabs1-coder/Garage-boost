@@ -3,7 +3,7 @@ module.exports = {
 
   'mecanique-generale': {
     title: "Deux voitures à entretenir à Velaux : un seul suivi",
-    lead: "Beaucoup de foyers velauxiens ont deux véhicules aux échéances différentes. Nous suivons leur entretien ensemble pour regrouper les passages, vidange dès 89 €, devis sous 24 h.",
+    lead: "Pour un foyer velauxien qui a deux véhicules aux échéances différentes, nous suivons leur entretien ensemble pour regrouper les passages, vidange dès 89 €, devis sous 24 h.",
     metaDesc: "Mécanique générale pour Velaux : vidange dès 89 €, révision 149 à 249 €, plaquettes 159 €, entretien de deux véhicules planifié. Garantie 12 mois.",
     intro: [
       "Dans une commune résidentielle comme Velaux, placée entre les bassins d'emploi d'Aix, de Salon et de l'étang de Berre, il est courant qu'un ménage possède <strong>deux voitures</strong> : l'une pour les trajets domicile-travail sur l'A7 ou l'A8, l'autre pour les déplacements autour du Pigeonnier, des Cadestaux ou du centre. Leurs carnets d'entretien vivent alors à des rythmes très différents.",
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Un impact peut-il faire échouer le contrôle technique ?", a: "Un impact important ou une fissure dans le champ de vision du conducteur peut entraîner une contre-visite. Un petit impact réparé à temps évite ce risque." },
       { q: "Combien de temps faut-il attendre avant de reprendre la route après un remplacement ?", a: "La colle polyuréthane demande au moins une heure de séchage. Elle est comprise dans les 2 à 3 heures d'intervention, et vous repartez avec un véhicule utilisable." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Velaux : un second regard avant une grosse réparation",
+    lead: "On vous annonce une pièce coûteuse à remplacer sur votre voiture à Velaux ? Avant de signer, notre diagnostic à 49 € vérifie que la cause est bien celle-là, compte-rendu écrit à l'appui.",
+    metaDesc: "Diagnostic moteur pour Velaux : 49 €, vérification de la panne avant une réparation coûteuse, compte-rendu écrit, offert si la réparation est validée.",
+    intro: [
+      "Un turbo, une vanne EGR, un débitmètre ou un jeu d'injecteurs représentent des factures importantes. Quand un devis en prévoit le remplacement, il est légitime de vouloir s'assurer que la pièce est réellement en cause, car un même code défaut peut renvoyer à un capteur, à son câblage ou à un problème situé en amont.",
+      "Pour un ménage velauxien qui jongle entre deux voitures et des trajets vers plusieurs bassins d'emploi, un véhicule immobilisé pour rien coûte cher. Un <strong>examen indépendant et documenté</strong> permet de décider sans pression."
+    ],
+    sections: [
+      { h: "Ce que nous vérifions", p: "Nous relevons l'ensemble des codes, analysons les conditions de leur apparition puis mesurons les valeurs réelles : pression de turbo, débit d'air, position de la vanne EGR, débit des injecteurs. Si la pièce désignée fonctionne normalement, le compte-rendu le dit et oriente vers la vraie cause. Si elle est défaillante, il le confirme." },
+      { h: "Conditions et trajet", p: "L'examen coûte <strong>49 € TTC</strong> et dure le plus souvent de 30 à 90 minutes. Il est offert si vous nous confiez ensuite la réparation, chiffrée dans un devis sous 24 h ouvrées. Velaux est à 35 km par la D20 ou la D10, l'A7 et la L2 ; le milieu de journée et le samedi sont les créneaux les plus fluides." }
+    ],
+    faq: [
+      { q: "Dois-je apporter le devis établi par un autre garage ?", a: "C'est utile : il nous indique la piste envisagée et les codes éventuellement relevés. Notre analyse reste indépendante et repart des données lues sur le véhicule." },
+      { q: "Que se passe-t-il si votre conclusion diffère du premier devis ?", a: "Le compte-rendu écrit explique la cause que nous avons identifiée et les mesures qui l'étayent. Vous restez libre de faire réparer où vous le souhaitez." }
     ]
   }
 };

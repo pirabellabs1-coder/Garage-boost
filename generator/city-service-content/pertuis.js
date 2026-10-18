@@ -10,7 +10,7 @@ module.exports = {
       "Le décalaminage hydrogène nettoie ce circuit sans démontage : un mélange gazeux est introduit dans l'admission, moteur en marche, et les dépôts sont brûlés puis évacués par l'échappement."
     ],
     sections: [
-      { h: "Un entretien préventif plutôt qu'une réparation", p: "Pour un usage routier mixte comme celui de nombreux Pertuisiens, un décalaminage tous les 50 000 km environ est un bon repère ; en usage plus urbain, tous les 30 000 km. Traiter la calamine en amont limite la quantité de suie qui arrive au <strong>filtre à particules</strong> et au turbo, deux pièces coûteuses à remplacer." },
+      { h: "Un entretien préventif plutôt qu'une réparation", p: "Pour un usage routier mixte comme les allers-retours entre Pertuis et Aix, un décalaminage tous les 50 000 km environ est un bon repère ; en usage plus urbain, tous les 30 000 km. Traiter la calamine en amont limite la quantité de suie qui arrive au <strong>filtre à particules</strong> et au turbo, deux pièces coûteuses à remplacer." },
       { h: "Le déroulé et le prix", p: "Nous lisons d'abord les codes défauts pour évaluer l'encrassement de l'EGR, du turbo et du FAP. Le traitement dure 60 à 90 minutes selon la cylindrée, suivi d'un contrôle et de l'effacement des défauts liés à l'encrassement. Tarif : 89 € jusqu'à 1,6 L, 119 € jusqu'à 2,5 L, 149 € au-delà." }
     ],
     faq: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Quel gain attendre sur un diesel turbo ?", a: "Sur un diesel turbo, le gain se situe généralement entre 25 et 35 % de couple et entre 15 et 20 % de puissance, selon la motorisation. Les moteurs essence atmosphériques gagnent beaucoup moins." },
       { q: "Combien de temps faut-il prévoir depuis Pertuis ?", a: "Une demi-journée à l'atelier pour un Stage 1, plus 50 à 60 minutes de route dans chaque sens. Évitez les heures de pointe sur l'A51 pour un trajet plus fluide." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Surconsommation sur la route Pertuis – Aix : faire le point",
+    lead: "Votre voiture boit plus qu'avant sur les mêmes trajets par la D556 et l'A51 ? Un diagnostic électronique à 49 € compare les valeurs réelles du moteur à la normale, à 45 km de Pertuis.",
+    metaDesc: "Diagnostic moteur pour Pertuis : surconsommation, voyant, perte de puissance. 49 €, offert si réparation validée, rapport écrit. Atelier à 50 min.",
+    intro: [
+      "Quand on refait chaque semaine le même parcours, une hausse de consommation se remarque vite : un plein qui ne tient plus jusqu'au vendredi, une jauge qui descend plus tôt sur l'A51. Sans voyant allumé, il est tentant d'attendre. Pourtant, une <strong>surconsommation soudaine</strong> traduit souvent un capteur qui transmet une valeur fausse au calculateur, lequel ajuste mal le mélange air-carburant.",
+      "Sonde lambda paresseuse, débitmètre encrassé, thermostat bloqué ouvert qui empêche le moteur de chauffer : ces causes ne laissent pas toujours de code défaut, mais elles se voient dans les <strong>valeurs mesurées en temps réel</strong>."
+    ],
+    sections: [
+      { h: "Ce que nous regardons", p: "Après la lecture des calculateurs en OBD2 multimarque et à la valise constructeur, nous suivons le débit d'air, la richesse donnée par la sonde lambda et les températures moteur, à chaud comme à froid. Un essai sur route vient compléter l'analyse si nécessaire. Le résultat tient dans un <strong>compte-rendu écrit</strong> qui identifie la cause et chiffre la réparation." },
+      { h: "Une heure de route : comment s'organiser", p: "Pertuis est à 45 km de l'atelier, soit 50 à 60 minutes par la D556, l'A51 et la rocade L2. Le diagnostic, de 30 à 90 minutes, coûte <strong>49 € TTC</strong> et vous est offert si vous validez la réparation chez nous. Une récupération longue distance peut être organisée sur devis, ce qui vous évite deux trajets dans la journée." }
+    ],
+    faq: [
+      { q: "Une surconsommation sans voyant justifie-t-elle un diagnostic ?", a: "Oui, si elle apparaît sans changement de conduite, de pneumatiques ou de charge. Un capteur qui dérive progressivement peut rester sous le seuil d'alerte du calculateur tout en faussant le dosage du carburant." },
+      { q: "Que contient le compte-rendu remis à la fin ?", a: "Les codes relevés sur les calculateurs, les valeurs anormales constatées, la cause identifiée et un devis de réparation transparent, sans engagement." }
     ]
   }
 };

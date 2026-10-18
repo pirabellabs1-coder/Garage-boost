@@ -39,7 +39,7 @@ module.exports = {
 
   'reprogrammation-moteur': {
     title: "Carnoux : une reprogrammation pour la souplesse, pas pour le chrono",
-    lead: "Beaucoup de conducteurs de Carnoux ne cherchent pas la performance mais des reprises plus franches et une conduite plus détendue. Un Stage 1, de 350 à 690 €, répond à cette attente.",
+    lead: "Vous ne cherchez pas la performance mais des reprises plus franches et une conduite plus détendue. Un Stage 1, de 350 à 690 €, répond à cette attente.",
     metaDesc: "Reprogrammation pour Carnoux-en-Provence : Stage 1 de 350 à 690 €, couple disponible plus bas, garantie 24 mois, carto d'origine sauvegardée. À 22 min.",
     intro: [
       "Sur une berline ou un SUV familial, le reproche le plus courant n'est pas un manque de vitesse de pointe, mais un moteur qui paraît <strong>creux à bas régime</strong> : il faut rétrograder pour relancer en sortie de rond-point ou appuyer franchement dans une côte. C'est précisément cette plage de régime que travaille un Stage 1.",
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Faut-il changer le volant moteur en même temps que l'embrayage ?", a: "Pas systématiquement. Si le volant bi-masse présente du jeu ou des bruits, mieux vaut le remplacer lors de la même intervention, puisque la boîte est déjà déposée. Nous le contrôlons et vous présentons le chiffrage avant de commencer." },
       { q: "Ma voiture est encore sous garantie : puis-je la confier à un garage indépendant ?", a: "Oui. La réglementation européenne vous laisse libre de faire entretenir votre véhicule hors du réseau de la marque sans perdre la garantie, dès lors que le plan d'entretien est respecté avec des pièces de qualité d'origine. Le carnet est tamponné à chaque passage." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Contre-visite pollution à Carnoux : diagnostiquer avant de repasser",
+    lead: "Recalé au contrôle technique pour les émissions ? Avant la contre-visite, notre diagnostic à 49 € identifie ce qui pollue, à 22 minutes de Carnoux par la D41.",
+    metaDesc: "Diagnostic moteur pour Carnoux-en-Provence : 49 €, recherche de la cause d'un refus pollution au contrôle technique, rapport écrit. À 22 min.",
+    intro: [
+      "Un procès-verbal de contrôle technique qui mentionne des <strong>émissions hors limites</strong> ou un voyant moteur allumé laisse peu de temps pour la contre-visite. Repasser sans avoir traité la cause, c'est risquer un second refus et des frais supplémentaires.",
+      "Le diagnostic électronique sert à remonter de la mesure d'émissions à la pièce concernée : combustion mal dosée, sonde lambda paresseuse, vanne EGR qui ne s'ouvre plus correctement ou défaut d'injection."
+    ],
+    sections: [
+      { h: "Du procès-verbal à la cause", p: "Apportez le procès-verbal : il indique ce qui a été mesuré. Nous lisons ensuite les défauts enregistrés et observons en temps réel les valeurs de la sonde lambda, du débit d'air, de la position EGR et des injecteurs. Cette analyse dit si un nettoyage peut suffire ou si une pièce est en cause, et le compte-rendu écrit détaille la réparation à prévoir avant la contre-visite." },
+      { h: "Le coût et le trajet depuis Carnoux", p: "Le diagnostic complet revient à <strong>49 € TTC</strong> ; il vous est offert si la remise en conformité est réalisée chez Garage Boost. Le devis suit sous 24 heures ouvrées. L'atelier est à 18 km de Carnoux, une vingtaine de minutes par la D41 vers Aubagne puis la D4F, avec quelques ralentissements vers Aubagne en fin de journée." }
+    ],
+    faq: [
+      { q: "Effacer le voyant suffit-il pour passer la contre-visite ?", a: "Non. Le voyant revient tant que la cause n'est pas traitée, et les émissions restent hors limites. Nous ne l'effaçons qu'une fois la réparation faite et vérifiée." },
+      { q: "Quel document apporter pour le diagnostic ?", a: "Le procès-verbal du contrôle technique, qui précise les défaillances relevées et les valeurs mesurées. Il oriente directement nos recherches." }
     ]
   }
 };

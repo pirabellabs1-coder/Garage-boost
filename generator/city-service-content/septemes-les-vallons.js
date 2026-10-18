@@ -6,7 +6,7 @@ module.exports = {
     lead: "Quand l'orage frappe un quartier pavillonnaire, ce sont souvent deux ou trois véhicules d'une même famille qui sont touchés. Nous chiffrons chacun séparément et les traitons à tour de rôle, à 15 minutes de Septèmes.",
     metaDesc: "Grêle à Septèmes-les-Vallons : débosselage sans peinture dès 90 €, un devis par véhicule, pas de malus, libre choix du réparateur. Atelier à 15 min.",
     intro: [
-      "Septèmes-les-Vallons est une commune de pavillons où beaucoup de foyers possèdent plusieurs voitures. Faute de garage pour toutes, l'une passe la nuit dans l'allée, l'autre le long de la rue. Quand un orage de grêle traverse les collines au nord de Marseille, un même foyer peut ainsi se retrouver avec deux ou trois carrosseries marquées d'un coup, <strong>pavillon, capot et hayon</strong> en tête.",
+      "Dans un pavillon de Septèmes-les-Vallons où le foyer possède plusieurs voitures, faute de garage pour toutes, l'une passe la nuit dans l'allée, l'autre le long de la rue. Quand un orage de grêle traverse les collines au nord de Marseille, un même foyer peut ainsi se retrouver avec deux ou trois carrosseries marquées d'un coup, <strong>pavillon, capot et hayon</strong> en tête.",
       "Pas de panique pour autant. Tant que la peinture tient, chaque impact se traite par <strong>débosselage sans peinture</strong> : la tôle est massée depuis l'envers jusqu'à retrouver son galbe, sans ponçage ni mastic, et la finition d'usine reste en place."
     ],
     sections: [
@@ -60,7 +60,7 @@ module.exports = {
     lead: "Batterie à plat dans l'allée, voiture immobilisée au pied de la maison : Septèmes est à 11 km de l'atelier, le dépannage relève du forfait de 149 €, avec une remise en route tentée sur place.",
     metaDesc: "Dépannage à Septèmes-les-Vallons : forfait 149 € (moins de 25 km), remise en route tentée sur place, 7j/7, majoration 50 % nuit, dimanche et fériés.",
     intro: [
-      "Beaucoup de pannes ne surviennent pas sur la route mais au moment de partir : un matin, le démarreur ne produit qu'un cliquetis, ou le tableau de bord s'allume puis s'éteint. À Septèmes-les-Vallons, où la voiture stationne souvent dans une allée ou devant un garage de pavillon, c'est la situation la plus fréquente, parfois avec un véhicule en pente ou derrière un portail.",
+      "Une panne ne survient pas forcément sur la route : elle peut se déclarer au moment de partir : un matin, le démarreur ne produit qu'un cliquetis, ou le tableau de bord s'allume puis s'éteint. À Septèmes-les-Vallons, où la voiture stationne souvent dans une allée ou devant un garage de pavillon, c'est une situation courante, parfois avec un véhicule en pente ou derrière un portail.",
       "Notre grille est publique : 89 € pour un dépannage à moins de 10 km de l'atelier, 149 € jusqu'à 25 km. À 11 km de Plan-de-Cuques, Septèmes relève du <strong>forfait de 149 €</strong>, confirmé au téléphone avant que la dépanneuse ne parte. La nuit de 20 h à 7 h, le dimanche et les jours fériés, une majoration de 50 % s'applique."
     ],
     sections: [
@@ -88,6 +88,24 @@ module.exports = {
     faq: [
       { q: "Puis-je rouler avec le voyant ABS allumé ?", a: "Le freinage reste assuré, mais sans l'antiblocage : en freinage d'urgence ou sur chaussée mouillée, les roues peuvent se bloquer. Roulez prudemment jusqu'au diagnostic et ne tardez pas, d'autant qu'un témoin ABS allumé peut être relevé au contrôle technique." },
       { q: "Le voyant de batterie s'allume puis s'éteint, est-ce grave ?", a: "Un témoin de charge intermittent annonce souvent une courroie qui patine, une connexion oxydée ou un alternateur en fin de vie. Faites-le contrôler rapidement, avant qu'il ne reste allumé et que la batterie se vide en roulant." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Voyant orange sur la L2 en quittant Septèmes : que faire ?",
+    lead: "Un voyant moteur s'est allumé sur la rocade, mais la voiture roule normalement ? À 15 minutes de Septèmes-les-Vallons, nous lisons le défaut pour 49 €, offerts si la réparation est faite chez nous.",
+    metaDesc: "Diagnostic moteur pour Septèmes-les-Vallons : voyant orange, lecture des codes défauts, 49 € offerts si la réparation est validée. À 15 min par la L2.",
+    intro: [
+      "Vous venez de vous insérer sur l'A507 vers Marseille, et le pictogramme moteur orange s'éclaire. Rien d'autre ne change : pas de bruit, pas de perte de puissance. La tentation est grande d'attendre qu'il s'éteigne. Un <strong>voyant orange</strong> signale pourtant qu'un calculateur a détecté une anomalie et l'a enregistrée.",
+      "Il ne s'agit pas toujours d'une urgence, mais seul le code défaut permet de le savoir. Notre <strong>diagnostic électronique</strong> lit ce code, puis vérifie à l'aide des valeurs mesurées en temps réel si le composant désigné est réellement en cause ou s'il ne fait que signaler un problème situé en amont."
+    ],
+    sections: [
+      { h: "Orange ou rouge, la différence compte", p: "Un voyant rouge appelle un arrêt dès que possible, en sécurité. Un voyant orange laisse en général le temps de prendre rendez-vous, à condition de rester attentif à tout changement de comportement. Dans les deux cas, effacer le voyant sans traiter la cause ne sert à rien : il reviendrait. Nous établissons la cause, puis un devis de réparation sous 24 heures." },
+      { h: "Trajet, durée et prix", p: "Depuis Septèmes, l'atelier se rejoint en un quart d'heure par la rocade L2, sortie Plan-de-Cuques ; si l'A507 est chargée, la D908 reste une alternative. L'examen dure le plus souvent de 30 à 90 minutes. Il coûte <strong>49 € TTC</strong>, compte-rendu écrit compris, et devient gratuit si vous validez la réparation chez Garage Boost." }
+    ],
+    faq: [
+      { q: "Une boutique m'a lu le code gratuitement, pourquoi payer un diagnostic ?", a: "Un simple lecteur affiche un code, sans dire s'il vient du capteur, de son câblage ou de la pièce surveillée. Notre diagnostic croise ce code avec les valeurs des capteurs mesurées en direct et, si nécessaire, un essai routier, pour désigner la vraie cause." },
+      { q: "Lisez-vous aussi les autres calculateurs que celui du moteur ?", a: "Oui. La valise interroge aussi l'ABS, l'ESP, les airbags ou le boîtier de servitude, ce qui permet de repérer un défaut lié à un autre système et qui se répercute sur le moteur." }
     ]
   }
 };

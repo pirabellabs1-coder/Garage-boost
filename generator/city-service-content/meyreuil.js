@@ -71,5 +71,23 @@ module.exports = {
       { q: "Faut-il déclarer le sinistre avant de prendre rendez-vous ?", a: "C'est préférable : avec le numéro de dossier, nous pouvons traiter directement avec votre assureur. Vous restez libre de choisir le réparateur." },
       { q: "Vous remplacez aussi les vitres latérales et la lunette ?", a: "Oui pour les vitres latérales, de 150 à 350 € selon le véhicule. Pour une lunette arrière, contactez-nous avec la référence du modèle afin que nous vérifiions la disponibilité de la pièce et le tarif." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "À-coups à l'insertion sur l'A51 depuis Meyreuil : diagnostic",
+    lead: "La voiture hoquette quand vous accélérez fort pour vous insérer sur l'A51 ? Ces à-coups se diagnostiquent par la mesure : 49 €, offerts si la réparation est validée, à 32 minutes de Meyreuil.",
+    metaDesc: "À-coups en accélération à Meyreuil : diagnostic moteur 49 €, débit injecteurs et turbo mesurés, offert si la réparation est validée.",
+    intro: [
+      "La bretelle d'accès à l'A51 demande une accélération franche. C'est à ce moment qu'apparaissent certains défauts : le moteur <strong>hésite, hoquette ou donne des à-coups</strong>, puis retrouve son souffle une fois la vitesse stabilisée. En ville ou sur la D6 à allure modérée, rien ne se remarque.",
+      "Ce symptôme peut venir de l'allumage, de l'injection, de la suralimentation ou d'un capteur de débit d'air. Notre diagnostic sert à désigner lequel, mesures à l'appui."
+    ],
+    sections: [
+      { h: "Reproduire l'accélération qui pose problème", p: "Après la lecture des codes défauts et de leurs conditions d'apparition, nous enregistrons les valeurs pendant une phase de forte charge : débit des injecteurs, pression de turbo, débit d'air, sonde lambda. Si nécessaire, un essai routier instrumenté reproduit l'insertion rapide qui déclenche les à-coups, pour capter le défaut au moment où il se produit." },
+      { h: "Ce que coûte le diagnostic", p: "Comptez <strong>49 € TTC</strong>, lecture, mesures et compte-rendu écrit compris, offerts si vous validez la réparation chez Garage Boost. La durée habituelle se situe entre 30 et 90 minutes. Depuis Meyreuil, l'atelier est à 32 à 40 minutes par la D6, l'A51 et la L2, plus rapidement en milieu de journée ou le samedi." }
+    ],
+    faq: [
+      { q: "Les à-coups disparaissent quand je roule doucement, puis-je attendre ?", a: "Il vaut mieux éviter. Un défaut d'allumage ou d'injection qui persiste peut endommager d'autres organes, notamment l'échappement. Un diagnostic précoce limite la facture." },
+      { q: "Que contient le compte-rendu remis après l'examen ?", a: "Les défauts relevés, l'interprétation des mesures, la cause identifiée et, si une réparation est nécessaire, un devis transparent. Vous décidez ensuite librement de la suite." }
+    ]
   }
 };

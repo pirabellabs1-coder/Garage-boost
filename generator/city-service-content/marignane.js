@@ -6,7 +6,7 @@ module.exports = {
     lead: "Un orage pendant votre absence, et la voiture laissée sur un parking extérieur de l'aéroport ressort criblée d'impacts ? Nous effaçons la grêle sans peinture quand c'est possible et chiffrons chaque élément pour l'expert.",
     metaDesc: "Grêle à Marignane : débosselage sans peinture dès 90 €, pas de malus, libre choix du réparateur, cas de l'aluminium expliqué. Atelier à 30 min.",
     intro: [
-      "À Marignane, entre l'aéroport Marseille-Provence et les rives de l'étang de Berre, beaucoup de voitures stationnent longtemps à découvert : parkings de longue durée pendant un déplacement, places d'entreprises autour des sites industriels, rues du centre-ville. Un orage de grêle peut alors passer sans que personne ne le remarque, et l'on découvre les dégâts plusieurs jours plus tard, en reprenant le véhicule.",
+      "À Marignane, entre l'aéroport Marseille-Provence et les rives de l'étang de Berre, une voiture peut stationner longtemps à découvert : parkings de longue durée pendant un déplacement, places d'entreprises autour des sites industriels, rues du centre-ville. Un orage de grêle peut alors passer sans que personne ne le remarque, et l'on découvre les dégâts plusieurs jours plus tard, en reprenant le véhicule.",
       "Dans ce cas, déclarez le sinistre dès que vous constatez les impacts, dans le délai prévu par votre contrat, et conservez ce qui date votre stationnement, comme le ticket ou la réservation de parking. Le <strong>débosselage sans peinture</strong> reste ensuite la première option : la tôle reprend sa forme et la peinture d'origine est conservée."
     ],
     sections: [
@@ -88,6 +88,24 @@ module.exports = {
     faq: [
       { q: "Comment savoir si mon moteur a une courroie ou une chaîne ?", a: "La documentation du constructeur l'indique, mais le plus simple est de nous transmettre la marque, le modèle et la motorisation exacte : nous vous répondons avec l'échéance applicable et, s'il s'agit d'une courroie, le prix du kit." },
       { q: "Puis-je repousser un peu la distribution après l'échéance ?", a: "C'est déconseillé : une courroie peut céder sans prévenir, et un moteur endommagé coûte bien plus cher que le kit. Si l'échéance approche, prévoyez le rendez-vous à l'avance ; la récupération du véhicule à domicile est possible, offerte au-delà de 200 € d'intervention validée." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Perte de puissance sur l'A55 : un diagnostic pour Marignane",
+    lead: "Le moteur manque soudain de souffle en relançant sur l'A55 ? À 30 minutes de Marignane, nous relevons codes et valeurs mesurées pour trouver la cause : 49 €, offerts si la réparation est validée.",
+    metaDesc: "Diagnostic moteur pour Marignane : perte de puissance, lecture multimarque, mesures en temps réel, compte-rendu écrit. 49 €, offert si réparation validée.",
+    intro: [
+      "En sortant de Marignane vers Marseille, la relance sur l'A55 met le moteur à contribution. Une <strong>perte de puissance soudaine</strong> s'y remarque aussitôt : l'accélération plafonne, la voiture semble retenue, parfois sans le moindre voyant. Le symptôme est net, mais ses causes possibles sont multiples.",
+      "Pour un conducteur qui aime comprendre, le diagnostic ne se limite pas à un verdict. Nous relevons les codes défauts et leurs <strong>freezframes</strong>, ces instantanés qui figent les valeurs des capteurs au moment de l'incident, puis nous mesurons en temps réel ce que fait le moteur."
+    ],
+    sections: [
+      { h: "Des chiffres, pas seulement une conclusion", p: "Pression de turbo demandée et obtenue, débit d'air, sonde lambda, température d'échappement, position de la vanne EGR, débit des injecteurs : ces grandeurs sont comparées entre elles pour désigner l'élément qui limite la puissance. Le <strong>compte-rendu écrit</strong> reprend les codes relevés, les mesures utiles et la cause identifiée, de quoi juger la réparation proposée en connaissance de cause." },
+      { h: "Trajet, prix et suite", p: "L'atelier de Plan-de-Cuques se rejoint en une trentaine de minutes par l'A55 et la rocade L2, plus vite en dehors des pointes du matin et du soir. Le diagnostic coûte <strong>49 € TTC</strong>, il dure en général de 30 à 90 minutes et devient gratuit si vous validez la réparation chez nous. Au-delà de 200 € de réparation validée, la récupération du véhicule à domicile est offerte." }
+    ],
+    faq: [
+      { q: "Une perte de puissance vient-elle toujours du turbo ?", a: "Non. Le turbo est souvent soupçonné, mais une durite fendue, un capteur de pression défaillant, une vanne EGR grippée ou un filtre colmaté produisent le même ressenti. Les mesures permettent de ne pas remplacer un turbo en bon état." },
+      { q: "Peut-on envisager une reprogrammation après le diagnostic ?", a: "Uniquement sur un moteur sain : le diagnostic est justement la première étape. Une reprogrammation modifie les caractéristiques du véhicule, doit être déclarée à l'assureur, et une hausse de puissance relève en principe d'une nouvelle homologation." }
     ]
   }
 };

@@ -89,5 +89,23 @@ module.exports = {
       { q: "Mon embrayage d'origine supportera-t-il le couple supplémentaire ?", a: "S'il est en bon état, oui dans la plupart des cas, mais il travaillera un peu plus. Un embrayage déjà fatigué, qui patine en côte, doit être remplacé avant ou au moment de la reprogrammation." },
       { q: "Quand venir depuis La Ciotat pour éviter les bouchons ?", a: "Un jour de semaine hors juillet et août : le trajet prend alors une trentaine de minutes par l'A50. L'été, et surtout les week-ends, il peut doubler." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Surchauffe dans les bouchons de l'A50 l'été : diagnostic depuis La Ciotat",
+    lead: "Aiguille de température qui grimpe, ventilateur qui s'emballe ou voyant à l'arrêt sur l'A50 en juillet ? Notre diagnostic à 49 € en cherche l'origine, à 30 minutes de La Ciotat hors saison.",
+    metaDesc: "Diagnostic moteur pour La Ciotat : 49 €, offert si réparation validée, lecture des calculateurs et mesures en temps réel. Atelier à 30 min par l'A50.",
+    intro: [
+      "Rouler au pas sur l'A50 un samedi d'août, climatisation à fond et soleil sur le capot, met le <strong>refroidissement</strong> à rude épreuve. C'est dans ces conditions qu'un défaut discret se révèle : ventilateur qui ne se déclenche plus, sonde de température qui envoie une valeur fausse, thermostat paresseux. Le tableau de bord, lui, se contente parfois d'un voyant ou d'une baisse de puissance.",
+      "Un diagnostic électronique permet de savoir si le moteur a vraiment chauffé ou si c'est l'information qui est erronée. La différence compte : dans un cas il faut agir vite, dans l'autre une pièce bon marché suffit."
+    ],
+    sections: [
+      { h: "Ce que les calculateurs racontent de l'épisode", p: "Lorsqu'un défaut est enregistré, le calculateur fige un instantané des conditions : régime, température, charge. En lisant ces données et en comparant en direct les températures affichées par la valise aux valeurs attendues, nous distinguons une vraie surchauffe d'une sonde défaillante. Un essai routier vient compléter l'examen quand le défaut ne se manifeste qu'en roulant." },
+      { h: "Venir hors des week-ends d'été", p: "Depuis La Ciotat, l'atelier est à 24 km, soit une demi-heure par l'A50 et la sortie La Penne-sur-Huveaune. En juillet-août, préférez un jour de semaine : le samedi, le trajet peut doubler. Le diagnostic coûte <strong>49 €</strong>, lecture, mesures et compte-rendu écrit compris ; il est offert si vous nous confiez la réparation." }
+    ],
+    faq: [
+      { q: "L'aiguille de température est montée puis redescendue : est-ce grave ?", a: "Pas forcément, mais ce n'est pas à ignorer. Si le moteur a réellement chauffé, le joint de culasse peut en souffrir ; si c'est la sonde, le ventilateur risque de ne pas se déclencher la prochaine fois. Le diagnostic permet de faire la différence avant les prochains embouteillages." },
+      { q: "Que faire si un voyant rouge s'allume dans les bouchons ?", a: "Rangez-vous dès que possible en sécurité et coupez le moteur : un voyant rouge de température ou de pression d'huile ne doit pas être ignoré. Appelez-nous ensuite pour organiser la suite." }
+    ]
   }
 };

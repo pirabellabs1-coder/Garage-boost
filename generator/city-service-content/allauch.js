@@ -6,7 +6,7 @@ module.exports = {
     lead: "Sur les hauteurs d'Allauch, la grêle frappe aussi ce qu'on regarde moins : coques de rétroviseurs, feux, baguettes et joints. Nous faisons le tour complet du véhicule et débosselons sans repeindre, dès 90 €.",
     metaDesc: "Voiture grêlée à Allauch : débosselage sans peinture dès 90 €, feux et rétroviseurs contrôlés, chiffrage transmis à l'expert. Atelier à 10 min.",
     intro: [
-      "Entre le massif de l'Étoile et les collines qui dominent Marseille, Allauch voit passer des orages parfois violents. Au Logis-Neuf, à La Pounche ou autour du Vieil Allauch, beaucoup de voitures stationnent en extérieur, devant la maison ou le long d'une rue en pente. Les grêlons frappent d'abord le capot et le pavillon, mais ils n'épargnent pas les pièces en plastique ou en verre.",
+      "Entre le massif de l'Étoile et les collines qui dominent Marseille, Allauch voit passer des orages parfois violents. Au Logis-Neuf, à La Pounche ou autour du Vieil Allauch, une voiture qui stationne en extérieur, devant la maison ou le long d'une rue en pente, reste exposée. Les grêlons frappent d'abord le capot et le pavillon, mais ils n'épargnent pas les pièces en plastique ou en verre.",
       "Une coque de rétroviseur fendue, un feu arrière fissuré ou une baguette de toit marquée échappent souvent au premier regard. Les oublier dans la déclaration complique ensuite le dossier. Nous examinons donc l'ensemble du véhicule, pas seulement la tôle."
     ],
     sections: [
@@ -60,7 +60,7 @@ module.exports = {
     lead: "Descendre d'Allauch vers Marseille moteur froid, puis piétiner dans la circulation : le moteur chauffe mal et s'encrasse. Nettoyage à l'hydrogène sans démontage, de 89 à 149 €.",
     metaDesc: "Décalaminage hydrogène pour Allauch : 89 à 149 € selon cylindrée, 60 à 90 min sans démontage, lecture OBD et contrôle final. Atelier à 10 min.",
     intro: [
-      "Le trajet quotidien de nombreux Allaudiens commence par une descente : depuis le village ou les quartiers des hauteurs, la route plonge vers Plan-de-Cuques et les arrondissements nord-est de Marseille. Pendant ces kilomètres en frein moteur, l'injection est presque coupée et le moteur peine à monter en température. Il enchaîne ensuite avec les ralentissements de l'agglomération, à bas régime.",
+      "Quand on part d'Allauch le matin, le trajet commence par une descente : depuis le village ou les quartiers des hauteurs, la route plonge vers Plan-de-Cuques et les arrondissements nord-est de Marseille. Pendant ces kilomètres en frein moteur, l'injection est presque coupée et le moteur peine à monter en température. Il enchaîne ensuite avec les ralentissements de l'agglomération, à bas régime.",
       "Ce cocktail, froid puis lent, favorise une combustion incomplète. Les dépôts de carbone se fixent sur les soupapes, dans le collecteur d'admission, la vanne EGR et le turbo ; c'est sur eux qu'agit le <strong>décalaminage hydrogène</strong>, sans aucun démontage."
     ],
     sections: [
@@ -88,6 +88,24 @@ module.exports = {
     faq: [
       { q: "Combien coûte un dépannage un dimanche à Allauch ?", a: "Le forfait local de 89 € est majoré de 50 % le dimanche, les jours fériés et la nuit, soit 133,50 € pour une panne à moins de 10 km de l'atelier. Le montant vous est annoncé lors de l'appel." },
       { q: "Pouvez-vous transporter une voiture qui ne roule plus après un accrochage ?", a: "Oui, le plateau hydraulique charge aussi un véhicule accidenté, même s'il ne roule plus. Si un autre conducteur est impliqué, remplissez le constat amiable en attendant notre arrivée." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Mode dégradé dans une côte d'Allauch : faire lire le défaut",
+    lead: "Le moteur se bride soudain en remontant vers le village ? À 10 minutes d'Allauch par la D4F, nous identifions ce qui a déclenché le mode dégradé : 49 €, offerts si vous faites réparer chez nous.",
+    metaDesc: "Diagnostic moteur pour Allauch : 49 €, offert si la réparation est validée. Mode dégradé, perte de puissance en côte, lecture multimarque. À 10 min.",
+    intro: [
+      "La montée vers le Vieil Allauch ou vers les quartiers des hauteurs demande du couple. C'est souvent là qu'un défaut latent se révèle : le moteur perd brusquement sa force, le voyant s'allume, et la voiture refuse de dépasser un certain régime. Ce <strong>mode dégradé</strong> est une protection décidée par le calculateur pour éviter d'abîmer le moteur.",
+      "Couper le contact et redémarrer fait parfois disparaître le symptôme, mais le code reste en mémoire. Notre <strong>lecture OBD2 multimarque</strong>, complétée par une valise constructeur, permet de savoir ce qui a déclenché la protection : pression de suralimentation insuffisante, vanne EGR bloquée, capteur défaillant ou souci de câblage."
+    ],
+    sections: [
+      { h: "Reproduire la côte, instruments branchés", p: "Si les codes et les valeurs relevées à l'arrêt ne suffisent pas, un <strong>essai routier instrumenté</strong> vient compléter l'analyse : les reliefs autour de Plan-de-Cuques permettent de remettre le moteur en charge et de suivre en direct la pression de turbo et le débit d'air au moment où il faiblit. La cause est alors établie sur des mesures, et non sur une hypothèse." },
+      { h: "Venir depuis Allauch en mode dégradé", p: "Le trajet par la D4F est court et peu exigeant pour le moteur, ce qui permet généralement de rejoindre l'atelier sans forcer. Comptez de 30 à 90 minutes d'examen, <strong>49 € TTC</strong> avec compte-rendu écrit, montant offert si la réparation est validée chez Garage Boost. Si la voiture n'est plus en état de rouler, appelez-nous avant de prendre la route." }
+    ],
+    faq: [
+      { q: "Puis-je continuer à rouler en mode dégradé jusqu'à l'atelier ?", a: "Sur quelques kilomètres et sans forcer, c'est en général possible, puisque le calculateur limite justement la puissance. En revanche, un voyant rouge ou un bruit anormal impose de s'arrêter et de nous appeler." },
+      { q: "Le mode dégradé a disparu après un redémarrage, le diagnostic sert-il encore ?", a: "Oui. Le défaut qui l'a déclenché est enregistré par le calculateur avec ses conditions d'apparition. Le lire maintenant évite que la protection ne se déclenche de nouveau au pire moment, en pleine montée." }
     ]
   }
 };

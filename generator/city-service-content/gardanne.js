@@ -6,7 +6,7 @@ module.exports = {
     lead: "Votre voiture a pris la grêle à Gardanne ou à Biver ? Nous effaçons les impacts par débosselage sans peinture et gérons le dossier avec votre assureur, à 30 minutes par l'A51.",
     metaDesc: "Voiture grêlée à Gardanne : débosselage sans peinture, dossier assurance géré avec l'expert, devis par élément sous 24h. Atelier à 30 min par l'A51.",
     intro: [
-      "Au pied du massif de l'Étoile, Gardanne connaît comme toute la Provence des orages d'été et d'automne brefs mais violents. Beaucoup de véhicules y dorment dehors : rues du centre ancien, parkings de résidences à Notre-Dame ou à Fontvenelle, abords de la gare. Après un épisode de grêle, ce sont donc souvent le <strong>capot, le pavillon et le hayon</strong> qui sont criblés de petites bosses.",
+      "Au pied du massif de l'Étoile, Gardanne connaît comme toute la Provence des orages d'été et d'automne brefs mais violents. Une voiture qui dort dehors, dans les rues du centre ancien, parkings de résidences à Notre-Dame ou à Fontvenelle, abords de la gare, est exposée : après un épisode de grêle, ce sont souvent le <strong>capot, le pavillon et le hayon</strong> qui sont criblés de petites bosses.",
       "Bonne nouvelle : tant que la peinture n'est pas fissurée, ces impacts se traitent par <strong>débosselage sans peinture</strong>. La tôle est repoussée par l'intérieur, la peinture d'usine reste intacte, et la valeur de revente est préservée."
     ],
     sections: [
@@ -24,7 +24,7 @@ module.exports = {
     lead: "Vidange, freins, distribution, embrayage : Garage Boost entretient les véhicules de Gardanne avec devis sous 24h et des tarifs inférieurs à ceux des concessions aixoises.",
     metaDesc: "Mécanique générale pour Gardanne : vidange dès 89 €, freins, distribution, embrayage. Devis sous 24h, récupération du véhicule à domicile possible.",
     intro: [
-      "À Gardanne, la voiture sert d'abord à travailler : trajets quotidiens vers Aix, Marseille ou la zone de Rousset, navettes vers les sites industriels de la commune, et beaucoup de kilomètres sur l'A51 aux heures chargées. Ce rythme use plus vite les <strong>freins, l'embrayage et les pneumatiques</strong>, et rapproche les échéances du carnet d'entretien.",
+      "Quand la voiture sert d'abord à travailler depuis Gardanne, trajets quotidiens vers Aix, Marseille ou la zone de Rousset, navettes vers les sites industriels de la commune, kilomètres sur l'A51 aux heures chargées, elle s'use autrement. Ce rythme use plus vite les <strong>freins, l'embrayage et les pneumatiques</strong>, et rapproche les échéances du carnet d'entretien.",
       "Garage Boost prend en charge tout l'entretien courant et les réparations mécaniques, toutes marques. Le devis est envoyé sous 24 heures et rien n'est fait sans votre accord écrit."
     ],
     sections: [
@@ -88,6 +88,24 @@ module.exports = {
     faq: [
       { q: "Le décalaminage hydrogène est-il utile sur une voiture récente ?", a: "Il est surtout efficace sur les moteurs réellement encrassés : diesels à usage urbain et essence à injection directe au-delà de 60 000 à 80 000 km. Sur un moteur récent et peu encrassé, le gain est modeste, ce que le diagnostic préalable permet d'évaluer." },
       { q: "Combien de temps faut-il prévoir depuis Gardanne ?", a: "L'intervention dure 60 à 90 minutes. Avec 30 minutes de route dans chaque sens, prévoyez une demi-journée ; vous pouvez attendre sur place." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Recalé au contrôle technique pour pollution à Gardanne ?",
+    lead: "Contre-visite pour émissions polluantes ? Avant de changer des pièces, faites lire les calculateurs : notre diagnostic à 49 € cherche la cause du dépassement, à 30 minutes de Gardanne par l'A51.",
+    metaDesc: "Contre-visite pollution à Gardanne : diagnostic moteur 49 € pour trouver la cause, offert si vous validez la réparation. Atelier à 30 min par l'A51.",
+    intro: [
+      "Le procès-verbal tombe : défaut d'émissions, contre-visite à prévoir dans un délai limité. Le contrôleur constate un résultat, il n'en donne pas l'origine. Sur un moteur moderne, celle-ci peut se trouver dans une <strong>sonde lambda</strong>, une vanne EGR, un injecteur ou un défaut enregistré qui maintient le moteur hors de ses réglages.",
+      "Le diagnostic électronique permet de cibler la réparation avant de repasser au contrôle, plutôt que de multiplier les essais et les pièces."
+    ],
+    sections: [
+      { h: "Remonter du résultat à la cause", p: "Nous commençons par lire tous les calculateurs accessibles, défauts présents et passés, puis observons le moteur en fonctionnement : sonde lambda, débit d'air, position de l'EGR, température d'échappement. L'interprétation croisée de ces données indique la pièce ou le circuit en cause. Le compte-rendu écrit et le devis vous permettent de décider avant la contre-visite." },
+      { h: "49 €, déduits si nous réparons", p: "Le diagnostic coûte <strong>49 € TTC</strong> et vous est offert si la réparation est validée chez Garage Boost. Il prend généralement de 30 à 90 minutes. Depuis Gardanne, comptez une demi-heure par la D6, l'A51 et la L2 ; en dehors du créneau 7 h 30-9 h, le trajet se fait sans encombre." }
+    ],
+    faq: [
+      { q: "Le diagnostic garantit-il de passer la contre-visite ?", a: "Il identifie la cause du défaut, ce qui permet une réparation ciblée. Le résultat de la contre-visite dépend ensuite de la réparation effectuée et de l'état général du véhicule, que nous vous décrivons honnêtement." },
+      { q: "Peut-on simplement effacer les défauts avant le contrôle ?", a: "Nous ne le faisons pas : effacer un code sans traiter sa cause ne règle rien, et le défaut réapparaît. Notre travail consiste à trouver l'origine et à vous chiffrer la réparation." }
     ]
   }
 };

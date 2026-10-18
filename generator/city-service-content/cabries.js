@@ -6,7 +6,7 @@ module.exports = {
     lead: "Un orage pendant vos courses à Plan-de-Campagne ou une nuit dehors à Calas ? Nous chiffrons chaque impact, le traitons sans repeindre quand le vernis a tenu et dialoguons avec l'expert.",
     metaDesc: "Voiture grêlée à Cabriès : débosselage sans peinture, quelques impacts dès 90 €, feux et baguettes inclus au chiffrage. Atelier à 25 min par l'A51.",
     intro: [
-      "Les immenses parkings à ciel ouvert de <strong>Plan-de-Campagne</strong> n'offrent aucun abri quand un orage éclate en fin d'après-midi. Une heure de courses suffit pour retrouver un capot constellé de petites cuvettes. Sur les hauteurs du village et à Calas, beaucoup de maisons ont un garage, mais la seconde voiture reste souvent dans l'allée. Sur une berline ou un SUV familial, tout l'enjeu est de ne pas sacrifier la teinte d'usine.",
+      "Les immenses parkings à ciel ouvert de <strong>Plan-de-Campagne</strong> n'offrent aucun abri quand un orage éclate en fin d'après-midi. Une heure de courses suffit pour retrouver un capot constellé de petites cuvettes. Sur les hauteurs du village et à Calas, quand la maison n'a qu'un garage, la seconde voiture reste dans l'allée. Sur une berline ou un SUV familial, tout l'enjeu est de ne pas sacrifier la teinte d'usine.",
       "Lorsque le vernis n'a pas cédé, chaque cuvette est massée depuis l'envers de la tôle, ou tirée par <strong>collage-traction</strong> là où l'on ne peut pas passer derrière, sans mastic ni pistolet de peinture."
     ],
     sections: [
@@ -78,7 +78,7 @@ module.exports = {
     lead: "Un Stage 1 vous accompagne le temps que vous gardez la voiture ; avant de la céder, la cartographie d'usine peut être réinstallée pour 49 €. Stage 1 de 350 à 690 €, garantie 24 mois.",
     metaDesc: "Reprogrammation pour Cabriès : Stage 1 de 350 à 690 €, cartographie d'usine archivée et réinstallable pour 49 € avant revente. Garantie 24 mois.",
     intro: [
-      "Beaucoup de familles de Cabriès renouvellent leur berline ou leur SUV au bout de quelques années. Une reprogrammation s'inscrit dans cette durée de possession : elle rend le moteur plus souple pour les insertions sur l'A51 ou la montée vers le village, puis vient tôt ou tard la question de la <strong>vente</strong>. Autant l'anticiper dès le départ.",
+      "Pour une famille de Cabriès qui garde sa berline ou son SUV quelques années avant de le renouveler, une reprogrammation s'inscrit dans cette durée de possession : elle rend le moteur plus souple pour les insertions sur l'A51 ou la montée vers le village, puis vient tôt ou tard la question de la <strong>vente</strong>. Autant l'anticiper dès le départ.",
       "Avant la moindre écriture, le fichier d'usine du calculateur est lu et <strong>archivé dans notre base sécurisée</strong>. C'est lui qui permet, plus tard, de rendre au véhicule sa configuration logicielle d'origine."
     ],
     sections: [
@@ -88,6 +88,24 @@ module.exports = {
     faq: [
       { q: "Faut-il prévenir l'acheteur que la voiture a été reprogrammée ?", a: "Oui, c'est la démarche loyale : il s'agit d'une modification des caractéristiques du véhicule, qui concerne aussi son assurance. Si vous préférez vendre en configuration d'origine, la cartographie d'usine est réinstallée avant la cession." },
       { q: "Où est conservé le fichier d'origine de mon calculateur ?", a: "Il est sauvegardé dans notre base sécurisée avant la première modification, afin de pouvoir être réinstallé plus tard, pour une revente comme pour un simple changement d'avis." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Devis lourd reçu à Cabriès ? Un second avis à 49 €",
+    lead: "On vous annonce un turbo, des injecteurs ou un calculateur à remplacer ? Avant de signer, faites vérifier la cause à 25 minutes de Cabriès : diagnostic à 49 €, offert si vous réparez chez nous.",
+    metaDesc: "Diagnostic moteur pour Cabriès : second avis avant une grosse réparation, lecture multimarque et mesures en direct. 49 €, offert si réparation validée.",
+    intro: [
+      "Un devis de plusieurs centaines d'euros, une liste de pièces à remplacer, et une explication qui tient en une ligne : face à une réparation importante sur une berline ou un SUV, il est légitime de vouloir comprendre. Un même code défaut peut en effet désigner le composant lui-même, son câblage ou une pièce située en amont.",
+      "Notre <strong>diagnostic électronique</strong> sert aussi de second avis. Nous relisons les calculateurs avec une valise multimarque et une valise constructeur, mesurons les valeurs réelles et vérifions si la pièce visée est bien responsable du symptôme."
+    ],
+    sections: [
+      { h: "Confirmer ou infirmer, preuves à l'appui", p: "Le compte-rendu écrit indique les codes relevés, les mesures effectuées et la cause identifiée. Si la conclusion rejoint le premier devis, vous engagez la dépense en confiance. Si elle diffère, par exemple un connecteur oxydé au lieu d'un turbo, vous l'apprenez avant de payer une pièce inutile. Nous chiffrons ensuite notre propre réparation sous 24 heures, sans engagement." },
+      { h: "Depuis Cabriès et Calas", p: "L'atelier de Plan-de-Cuques se trouve à environ 25 minutes par l'A51 puis la rocade L2. En semaine, le trafic de Plan-de-Campagne pèse peu sur le trajet ; le samedi, préférez un créneau tôt. Le diagnostic coûte <strong>49 € TTC</strong> et prend en général de 30 à 90 minutes ; il vous est offert si la réparation est confiée à Garage Boost." }
+    ],
+    faq: [
+      { q: "Dois-je apporter le devis de l'autre garage ?", a: "C'est utile : il nous indique ce qui a été envisagé. Notre lecture reste cependant indépendante, et le compte-rendu repose sur nos propres relevés et mesures." },
+      { q: "Que se passe-t-il si la panne ne se manifeste pas pendant l'examen ?", a: "Nous vous prévenons avant d'aller plus loin. Une session prolongée peut alors être proposée, avec essai routier et mesures dans différentes conditions, voire un enregistreur OBD à garder quelques jours." }
     ]
   }
 };

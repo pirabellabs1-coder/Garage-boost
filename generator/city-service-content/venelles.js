@@ -6,7 +6,7 @@ module.exports = {
     lead: "SUV chargé pour les vacances, insertion rapide sur l'A51 : un Stage 1 redonne du couple à bas régime. De 350 à 690 €, cartographie testée sur banc, garantie 24 mois.",
     metaDesc: "Reprogrammation moteur pour Venelles : Stage 1 de 350 à 690 €, carto testée sur banc, origine sauvegardée, garantie 24 mois. Atelier à 42 min.",
     intro: [
-      "À Venelles, beaucoup de foyers roulent en <strong>SUV ou en break familial</strong>, souvent motorisés au plus juste pour leur poids. Le manque se fait sentir quand la voiture est chargée : départ en vacances par l'A51 vers les Alpes, coffre de toit, porte-vélos, ou simple insertion sur l'autoroute depuis l'échangeur de Venelles.",
+      "Un <strong>SUV ou un break familial</strong> est souvent motorisé au plus juste pour son poids. Le manque se fait sentir quand la voiture est chargée : départ en vacances par l'A51 vers les Alpes, coffre de toit, porte-vélos, ou simple insertion sur l'autoroute depuis l'échangeur de Venelles.",
       "Une <strong>reprogrammation Stage 1</strong> ajuste la cartographie d'origine pour délivrer le couple plus tôt. Le véhicule relance sans rétrograder, et en conduite souple la consommation peut même baisser de 0,5 à 1,5 L/100 km."
     ],
     sections: [
@@ -24,7 +24,7 @@ module.exports = {
     lead: "École, commerces du village, aller-retour rapide vers Aix : le moteur reste froid et s'encrasse. Le décalaminage hydrogène le nettoie sans démontage, de 89 à 149 €.",
     metaDesc: "Décalaminage hydrogène pour Venelles : 60 à 90 min sans démontage, 89 € jusqu'à 1,6 L, 149 € au-delà de 2,5 L, diagnostic avant et après inclus.",
     intro: [
-      "La vie à Venelles se fait beaucoup en voiture, mais sur de courtes distances : trajets entre Le Logis, Les Logissons et le centre-village, puis descente vers Aix qui ne laisse pas toujours le temps au moteur de chauffer. Ces <strong>démarrages à froid répétés</strong> favorisent une combustion incomplète et le dépôt de calamine dans l'admission, la vanne EGR et le turbo.",
+      "À Venelles, une voiture peut ne faire que de courtes distances : trajets entre Le Logis, Les Logissons et le centre-village, puis descente vers Aix qui ne laisse pas toujours le temps au moteur de chauffer. Ces <strong>démarrages à froid répétés</strong> favorisent une combustion incomplète et le dépôt de calamine dans l'admission, la vanne EGR et le turbo.",
       "Le décalaminage hydrogène traite ces dépôts sans rien démonter : un mélange gazeux est envoyé dans l'admission, moteur au ralenti, et la calamine est brûlée puis rejetée par l'échappement."
     ],
     sections: [
@@ -60,7 +60,7 @@ module.exports = {
     lead: "Révision constructeur, freins, climatisation, hybride : nous entretenons les véhicules venellois sans faire perdre la garantie, avec devis sous 24 h et vidange dès 89 €.",
     metaDesc: "Mécanique générale pour Venelles : révision de 149 à 249 €, vidange dès 89 €, plaquettes avant 159 €, clim de 79 à 149 €. Garantie 12 mois.",
     intro: [
-      "Beaucoup de véhicules venellois sont <strong>récents et encore sous garantie constructeur</strong>, ce qui pousse à croire que la concession est incontournable. Ce n'est pas le cas : la réglementation européenne permet de faire l'entretien où l'on veut, à condition de respecter le plan du constructeur et d'utiliser des pièces de qualité équivalente.",
+      "Quand un véhicule est <strong>récent et encore sous garantie constructeur</strong>, on croit volontiers que la concession est incontournable. Ce n'est pas le cas : la réglementation européenne permet de faire l'entretien où l'on veut, à condition de respecter le plan du constructeur et d'utiliser des pièces de qualité équivalente.",
       "Garage Boost réalise les révisions selon les préconisations de chaque marque, tamponne le carnet et vous remet un compte-rendu écrit, avec une garantie de 12 mois pièces et main-d'œuvre."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Mon véhicule est encore sous garantie : puis-je le faire entretenir chez vous ?", a: "Oui. Tant que le plan d'entretien est respecté et que les pièces sont de qualité équivalente à l'origine, la garantie constructeur est maintenue. Le carnet est complété à chaque passage." },
       { q: "Entretenez-vous les voitures électriques ?", a: "Non pour la partie haute tension : nous orientons vers des spécialistes habilités. Nous traitons en revanche les hybrides sur leur partie thermique." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Mode dégradé en sortant de Venelles : trouver l'origine",
+    lead: "Puissance bridée à l'insertion sur l'A51, voiture chargée pour partir en vacances ? Notre diagnostic à 49 € cherche ce qui a déclenché le mode dégradé, à une quarantaine de minutes de Venelles.",
+    metaDesc: "Diagnostic moteur pour Venelles : mode dégradé, voyant, perte de puissance. 49 €, offert si la réparation est validée. Atelier à 42 min par l'A51.",
+    intro: [
+      "Le moteur s'essouffle d'un coup en accélérant sur la bretelle de l'échangeur, un message apparaît, la voiture ne dépasse plus un certain régime : c'est le <strong>mode dégradé</strong>. Le calculateur limite volontairement la puissance pour protéger le moteur après avoir détecté une valeur anormale, souvent dans la suralimentation ou l'anti-pollution.",
+      "Couper le contact fait parfois disparaître le symptôme, mais l'information reste en mémoire. C'est précisément elle que nous allons chercher, avec la valise constructeur et une lecture OBD2 multimarque."
+    ],
+    sections: [
+      { h: "Pourquoi la charge révèle le défaut", p: "Coffre plein, porte-vélos ou coffre de toit : un SUV familial chargé demande davantage au turbo et à l'admission. Un capteur de pression fatigué ou une durite qui fuit peut passer inaperçu au quotidien et se manifester seulement dans ces conditions. Nous mesurons donc la <strong>pression de turbo</strong> et le débit d'air en temps réel, et nous reproduisons si besoin la situation lors d'un essai routier." },
+      { h: "Tarif et organisation depuis Venelles", p: "Le diagnostic coûte <strong>49 € TTC</strong>, rapport écrit compris, et il est offert si vous validez la réparation chez nous. Il dure généralement de 30 à 90 minutes. Venelles est à 38 km de l'atelier, soit 42 à 50 minutes par l'A51 et la rocade L2 : notre récupération à domicile, offerte au-delà de 200 € d'intervention validée, évite de rouler loin avec un moteur bridé." }
+    ],
+    faq: [
+      { q: "Puis-je continuer à rouler en mode dégradé jusqu'à Plan-de-Cuques ?", a: "Le mode dégradé sert justement à limiter les risques, mais rouler longtemps ainsi n'est pas conseillé, surtout sur autoroute où la puissance manque pour s'insérer. Appelez-nous avant de prendre la route : selon les symptômes, nous vous orientons vers la solution la plus sûre." },
+      { q: "Le défaut peut-il venir d'autre chose que le moteur ?", a: "Oui. Nous interrogeons aussi les autres calculateurs accessibles, comme l'ABS ou l'ESP, car un défaut enregistré ailleurs peut entraîner une limitation de puissance." }
     ]
   }
 };

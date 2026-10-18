@@ -21,10 +21,10 @@ module.exports = {
 
   'electricite-automobile': {
     title: "Batterie à plat après des semaines garée à Sausset-les-Pins",
-    lead: "Résidence secondaire, voiture qui ne sort qu'aux vacances : à Sausset-les-Pins, beaucoup de véhicules dorment longtemps. Quand ils ne redémarrent plus, nous cherchons la cause, 59 € la première heure.",
+    lead: "Résidence secondaire, voiture qui ne sort qu'aux vacances : à Sausset-les-Pins, une voiture peut dormir longtemps. Quand ils ne redémarrent plus, nous cherchons la cause, 59 € la première heure.",
     metaDesc: "Électricité auto pour Sausset-les-Pins : batterie à plat, fuite de courant, démarreur, diagnostic 59 € la 1re heure, offert si la réparation est validée.",
     intro: [
-      "Station de villégiature, Sausset compte de nombreuses voitures qui <strong>restent immobiles plusieurs semaines</strong> : seconde voiture d'une résidence de vacances, véhicule laissé sur place entre deux séjours. Même moteur coupé, une voiture récente consomme un peu de courant pour son alarme, sa télécommande et ses calculateurs en veille.",
+      "Dans une station de villégiature comme Sausset, une voiture peut <strong>rester immobile plusieurs semaines</strong> : seconde voiture d'une résidence de vacances, véhicule laissé sur place entre deux séjours. Même moteur coupé, une voiture récente consomme un peu de courant pour son alarme, sa télécommande et ses calculateurs en veille.",
       "Sur une batterie en bonne santé, quelques semaines passent. Sur une batterie de 4 à 6 ans, ou en présence d'une <strong>fuite de courant</strong>, le démarrage devient impossible au retour."
     ],
     sections: [
@@ -42,7 +42,7 @@ module.exports = {
     lead: "Impact ou fissure sur votre pare-brise à Sausset-les-Pins ? Réparation à 49 €, souvent sans franchise, ou remplacement de 290 à 590 € calibrage inclus. Voici comment se passe la prise en charge.",
     metaDesc: "Pare-brise pour Sausset-les-Pins : impact réparé 49 €, remplacement 290 à 590 € avec calibrage ADAS, dossier bris de glace géré avec l'assureur.",
     intro: [
-      "La plupart des contrats auto comprennent une <strong>garantie bris de glace</strong>, mais peu de conducteurs savent exactement ce qu'elle couvre. Elle concerne le pare-brise, les vitres latérales et la lunette arrière ; la franchise, elle, dépend de votre contrat et de la nature de l'intervention.",
+      "La plupart des contrats auto comprennent une <strong>garantie bris de glace</strong>, mais son contenu exact mérite d'être vérifié. Elle concerne le pare-brise, les vitres latérales et la lunette arrière ; la franchise, elle, dépend de votre contrat et de la nature de l'intervention.",
       "Avant de prendre la route depuis Sausset, un coup d'œil à vos conditions particulières et quelques photos de l'impact nous permettent de vous dire si une <strong>réparation</strong> est envisageable."
     ],
     sections: [
@@ -57,7 +57,7 @@ module.exports = {
 
   'mecanique-generale': {
     title: "Une voiture qui roule peu à Sausset-les-Pins s'entretient aussi",
-    lead: "Petits trajets au village, longues périodes au garage : à Sausset-les-Pins, beaucoup de voitures roulent peu. Leur entretien suit alors le calendrier plus que le compteur. Révision de 149 à 249 €.",
+    lead: "Petits trajets au village, longues périodes au garage : à Sausset-les-Pins, une voiture peut rouler très peu. Leur entretien suit alors le calendrier plus que le compteur. Révision de 149 à 249 €.",
     metaDesc: "Mécanique pour Sausset-les-Pins : révision de 149 à 249 €, vidange dès 89 €, purge liquide de frein 49 €, plaquettes avant 159 €. Garantie 12 mois.",
     intro: [
       "Un carnet d'entretien fixe deux limites : un kilométrage et une durée, <strong>la première atteinte déclenche l'échéance</strong>. Pour une voiture qui fait surtout des trajets courts entre le port, Les Tamaris et La Couronne, ou qui reste garée une partie de l'année, c'est presque toujours la durée qui arrive en premier.",
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Ma voiture fait 4 000 km par an : faut-il vraiment une révision annuelle ?", a: "Oui, si le carnet le prévoit. L'huile et le liquide de frein se dégradent avec le temps même sans rouler. Une révision tous les 12 mois protège le moteur et maintient la garantie constructeur si elle court encore." },
       { q: "Les disques rouillés après un hiver sans rouler sont-ils à changer ?", a: "Pas forcément : une fine couche de rouille disparaît souvent après quelques freinages. Si les disques sont piqués ou vibrent au freinage, nous vous le montrons et chiffrons leur remplacement." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Après des semaines à l'arrêt à Sausset : relire les calculateurs",
+    lead: "La voiture a passé l'hiver au garage à Sausset-les-Pins et affiche des voyants au retour ? Un diagnostic à 49 € fait le tri entre défauts réels et traces laissées par l'immobilisation.",
+    metaDesc: "Diagnostic moteur pour Sausset-les-Pins : 49 €, voyants après immobilisation, lecture multimarque, offert si la réparation est validée. À 42 min.",
+    intro: [
+      "Une voiture qui reprend la route après une longue pause peut afficher une série de messages inquiétants : voyant moteur, alerte ABS, message d'antipollution. Une partie de ces alertes vient parfois d'une <strong>tension de batterie tombée trop bas</strong> pendant l'immobilisation, qui a fait enregistrer des défauts aux calculateurs. D'autres signalent un vrai problème apparu pendant le stationnement.",
+      "L'air salé du littoral, entre Le Port et Les Tamaris, s'ajoute au temps d'arrêt : connecteurs oxydés et capteurs grippés figurent parmi les pistes à vérifier."
+    ],
+    sections: [
+      { h: "Distinguer l'alerte passagère de la vraie panne", p: "Nous lisons tous les calculateurs accessibles et situons chaque défaut grâce aux conditions enregistrées à son apparition. Les valeurs relevées en direct permettent ensuite de vérifier si le composant fonctionne normalement aujourd'hui. Ce qui relève d'une simple trace est expliqué, ce qui demande une intervention est chiffré dans un devis transparent." },
+      { h: "Bon à savoir avant de venir", p: "L'examen coûte <strong>49 € TTC</strong> et vous est offert si vous validez ensuite la réparation chez Garage Boost. Sausset est à 35 km par la D5, l'A55 et la L2, comptez 42 minutes hors saison ; en juillet et août, le littoral se charge. Si la voiture ne démarre pas du tout, il s'agit d'abord d'une panne : la récupération à domicile peut l'amener à l'atelier." }
+    ],
+    faq: [
+      { q: "Puis-je effacer moi-même les voyants avec un lecteur OBD ?", a: "Un lecteur grand public efface les codes sans en analyser la cause ; si le défaut est réel, il réapparaîtra. Faire lire et interpréter les défauts avant effacement évite de passer à côté d'une panne naissante." },
+      { q: "Faut-il prévoir un diagnostic avant chaque saison ?", a: "Non, seulement si des voyants ou un comportement anormal apparaissent à la remise en route. Un véhicule qui redémarre sans alerte et roule normalement n'en a pas besoin." }
     ]
   }
 };

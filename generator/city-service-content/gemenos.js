@@ -24,7 +24,7 @@ module.exports = {
     lead: "Transfert de stock, matériel d'exposition, mobilier de bureau : les entreprises de Gémenos peuvent louer un utilitaire de 3 à 12 m³ à la journée, dès 49 €, à 20 minutes de leur parc d'activités.",
     metaDesc: "Location d'utilitaire pour Gémenos : 3 à 12 m³ de 49 à 79 €/jour, 250 km inclus, rampe et assurance tous risques. Retrait à Plan-de-Cuques, à 20 min.",
     intro: [
-      "Le <strong>parc d'activités de Gémenos</strong> réunit de nombreuses entreprises dont les besoins de transport ne sont pas réguliers : réorganiser un entrepôt, rapatrier du stock depuis un second site, livrer une commande exceptionnellement volumineuse, déménager un bureau. Acheter un fourgon pour ces occasions immobilise de l'argent ; la location au jour ou à la semaine répond au besoin au moment où il se présente.",
+      "Le <strong>parc d'activités de Gémenos</strong> accueille des entreprises dont les besoins de transport peuvent être irréguliers : réorganiser un entrepôt, rapatrier du stock depuis un second site, livrer une commande exceptionnellement volumineuse, déménager un bureau. Acheter un fourgon pour ces occasions immobilise de l'argent ; la location au jour ou à la semaine répond au besoin au moment où il se présente.",
       "Les particuliers de la commune, du centre-village à Coulin, y trouvent les mêmes véhicules pour un déménagement ou un meuble encombrant. Chaque location comprend <strong>250 km par jour</strong>, l'assurance tous risques et des sangles d'arrimage."
     ],
     sections: [
@@ -42,7 +42,7 @@ module.exports = {
     lead: "L'atelier est ouvert du lundi au samedi, de 8 h à 19 h : les actifs de Gémenos peuvent déposer leur véhicule le samedi matin ou le confier à notre service de récupération. Vidange dès 89 €.",
     metaDesc: "Mécanique pour Gémenos : vidange dès 89 €, plaquettes avant 159 €, atelier ouvert le samedi, devis sous 24h, garantie 12 mois. À 20 min par l'A50.",
     intro: [
-      "Beaucoup de Géménosiens travaillent sur place, dans le parc d'activités, ou rejoignent chaque jour Aubagne et Marseille. Pour eux, la difficulté n'est pas de savoir quoi entretenir mais <strong>quand trouver le créneau</strong> : une révision ou un changement de plaquettes ne devrait pas coûter une journée de congé.",
+      "Quand on travaille sur place, dans le parc d'activités, ou qu'on rejoint chaque jour Aubagne et Marseille, la difficulté n'est pas de savoir quoi entretenir mais <strong>quand trouver le créneau</strong> : une révision ou un changement de plaquettes ne devrait pas coûter une journée de congé.",
       "Garage Boost traite l'entretien programmé et les réparations courantes sur toutes les marques : vidange, filtres, freinage, distribution, embrayage, suspension et climatisation. Le devis détaillé arrive sous 24 heures et aucune opération ne démarre sans votre validation écrite."
     ],
     sections: [
@@ -65,7 +65,7 @@ module.exports = {
     ],
     sections: [
       { h: "L'heure de l'appel compte", p: "Le forfait de 149 € s'applique en journée. Entre 20 h et 7 h, ainsi que le dimanche et les jours fériés, il est majoré de 50 %. Si la voiture vous lâche vers 19 h sur le parking, mieux vaut donc appeler sans attendre le 06 63 21 63 50 plutôt que de multiplier les essais de démarrage. Notre dépanneuse reste mobilisable à toute heure, 7 jours sur 7." },
-      { h: "Parking d'entreprise : prévenir l'accueil", p: "Beaucoup de sites du parc sont fermés par une barrière ou un portail, parfois verrouillés le soir. Avant notre arrivée, prévenez l'accueil ou le gardien, ou indiquez-nous l'entrée à emprunter et un numéro où vous joindre. Un plateau a besoin d'un peu de recul pour charger : si la voiture est coincée entre deux autres, signalez-le. Le véhicule rejoint ensuite notre atelier, où diagnostic et devis suivent sous 24 heures ouvrées, ou le garage de votre choix." }
+      { h: "Parking d'entreprise : prévenir l'accueil", p: "Si le site est fermé par une barrière ou un portail, parfois verrouillé le soir, pensez-y. Avant notre arrivée, prévenez l'accueil ou le gardien, ou indiquez-nous l'entrée à emprunter et un numéro où vous joindre. Un plateau a besoin d'un peu de recul pour charger : si la voiture est coincée entre deux autres, signalez-le. Le véhicule rejoint ensuite notre atelier, où diagnostic et devis suivent sous 24 heures ouvrées, ou le garage de votre choix." }
     ],
     faq: [
       { q: "Intervenez-vous aussi sur la route de la Sainte-Baume, au-dessus de Gémenos ?", a: "Oui. Le tarif dépend de la distance depuis l'atelier : jusqu'à 25 km, c'est le forfait de 149 € ; au-delà, chaque kilomètre supplémentaire est facturé 1,80 €, et le montant vous est annoncé avant l'intervention." },
@@ -88,6 +88,24 @@ module.exports = {
     faq: [
       { q: "Mon employeur doit-il donner son accord par écrit ?", a: "C'est fortement conseillé, qu'il s'agisse de votre employeur ou de la société de location. C'est aussi au propriétaire du véhicule d'informer l'assureur de la flotte de la modification." },
       { q: "Un utilitaire chargé tous les jours supporte-t-il un Stage 1 ?", a: "Sur un moteur sain, oui, puisque la cartographie reste dans les marges du constructeur. La pièce à surveiller est l'embrayage d'origine, surtout au-delà de 100 000 km : nous la contrôlons pendant le diagnostic préalable, avec l'état général du moteur." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Voyant au démarrage du soir à Gémenos : lire le défaut",
+    lead: "Le voyant s'allume en quittant le parc d'activités et disparaît le lendemain ? Pour 49 €, nous lisons les défauts mémorisés, à 20 minutes de Gémenos.",
+    metaDesc: "Diagnostic moteur pour Gémenos : 49 €, offert si la réparation est validée, lecture des défauts présents et passés. Atelier à 20 min par l'A50 ou la D2.",
+    intro: [
+      "Le scénario est classique : la voiture a passé la journée sur un parking du <strong>parc d'activités</strong>, elle démarre en fin d'après-midi avec un voyant orange ou un ralenti qui hésite, puis tout rentre dans l'ordre. Le lendemain matin, plus rien. On finit par s'habituer, jusqu'au jour où le défaut s'installe.",
+      "Ces pannes qui vont et viennent laissent pourtant une trace. Le calculateur mémorise chaque défaut, même effacé du tableau de bord, avec le moment et les conditions de son apparition."
+    ],
+    sections: [
+      { h: "Exploiter les défauts passés", p: "La lecture fait apparaître les codes actifs, mais aussi les codes historiques et leur instantané : température moteur, régime, tension. Un défaut qui survient toujours après plusieurs heures au soleil n'oriente pas vers la même piste qu'un défaut lié au froid. Si l'examen à l'atelier ne suffit pas, une session prolongée avec essai sur route permet de reproduire les conditions du trajet du soir." },
+      { h: "Combien, combien de temps, quel trajet", p: "Le diagnostic est facturé <strong>49 € TTC</strong> et offert si vous validez la réparation chez nous. Il prend de 30 à 90 minutes dans la majorité des cas. Depuis Gémenos, l'atelier est à 17 km, une vingtaine de minutes par l'A50 ou la D2, avec un trajet plus fluide le samedi matin qu'en fin de journée." }
+    ],
+    faq: [
+      { q: "Un garagiste peut-il voir un défaut qui ne s'affiche plus ?", a: "Oui, tant qu'il n'a pas été effacé de la mémoire du calculateur. Évitez donc de débrancher la batterie ou d'effacer les codes avant de venir : ce sont des indices précieux." },
+      { q: "Faut-il venir le soir, quand le défaut apparaît ?", a: "Ce n'est pas nécessaire. Décrivez-nous précisément les circonstances : heure, durée de stationnement, météo. Ces informations guident la lecture et, si besoin, l'essai routier." }
     ]
   }
 };

@@ -21,10 +21,10 @@ module.exports = {
 
   'decalaminage-hydrogene': {
     title: "Décalaminage à Lançon-Provence : la voiture qui reste au village",
-    lead: "Dans beaucoup de foyers lançonnais, une voiture avale l'A7 et l'autre ne fait que des petits trajets. C'est souvent la seconde qui s'encrasse : décalaminage hydrogène de 89 à 149 €.",
+    lead: "Dans un foyer de Lançon qui a deux voitures, l'une peut avaler l'A7 pendant que l'autre ne fait que des petits trajets. C'est souvent la seconde qui s'encrasse : décalaminage hydrogène de 89 à 149 €.",
     metaDesc: "Décalaminage hydrogène pour Lançon-Provence : de 89 à 149 € selon la cylindrée, 60 à 90 min sans démontage, contrôle avant et après. Sur rendez-vous.",
     intro: [
-      "Dans les zones pavillonnaires de Lançon-Provence, il est fréquent qu'un foyer ait <strong>deux véhicules aux vies très différentes</strong> : l'un part chaque matin sur l'A7, l'autre sert pour l'école, les courses au village et les activités, sur quelques kilomètres à peine. Contre toute attente, c'est ce second véhicule, plus rarement chaud, qui accumule le plus de calamine.",
+      "Dans les zones pavillonnaires de Lançon-Provence, un foyer peut avoir <strong>deux véhicules aux vies très différentes</strong> : l'un part chaque matin sur l'A7, l'autre sert pour l'école, les courses au village et les activités, sur quelques kilomètres à peine. Contre toute attente, c'est ce second véhicule, plus rarement chaud, qui accumule le plus de calamine.",
       "Le décalaminage hydrogène nettoie l'admission, la vanne EGR et le turbo sans rien démonter, moteur tournant, en 60 à 90 minutes."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Pourquoi mes plaquettes durent-elles si longtemps alors que je roule beaucoup ?", a: "Parce que l'autoroute sollicite peu le freinage. C'est normal, mais il faut surveiller aussi les disques et le liquide de frein, qui vieillit avec le temps : une purge complète coûte 49 €." },
       { q: "Entretenez-vous les véhicules sous garantie constructeur ?", a: "Oui. La réglementation européenne permet l'entretien hors réseau sans perte de garantie, à condition de suivre le carnet et d'utiliser des pièces de qualité d'origine, ce que nous faisons." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Voyant allumé sur l'A7 près de Lançon : que faire ?",
+    lead: "Orange fixe, orange clignotant ou rouge : chaque voyant appelle une réaction différente. Ensuite, un diagnostic à 49 € identifie la cause, sur rendez-vous à 45 minutes de Lançon-Provence.",
+    metaDesc: "Voyant moteur allumé sur l'A7 ? Diagnostic pour Lançon-Provence : 49 €, offert si réparation validée, lecture multimarque. Sur rendez-vous, à 45 min.",
+    intro: [
+      "Lançon-Provence est traversée par l'A7, et un voyant peut très bien s'allumer à pleine vitesse, entre l'aire de Lançon et Salon. La première question n'est pas la panne, mais la conduite à tenir : un <strong>voyant orange fixe</strong> invite à faire contrôler rapidement, un orange clignotant à lever le pied, un rouge à s'arrêter dès que possible en sécurité.",
+      "Une fois à l'arrêt ou rentré, reste à savoir ce que le calculateur a enregistré. C'est le rôle du diagnostic électronique : lire les codes défauts et les valeurs des capteurs pour remonter à la cause."
+    ],
+    sections: [
+      { h: "Ce que le calculateur a retenu de l'incident", p: "Au moment où le voyant s'allume, le calculateur mémorise le code défaut et un instantané des conditions : régime, température, charge. Nous lisons ces informations sur tous les calculateurs accessibles, puis nous comparons avec les valeurs en temps réel. Le compte-rendu écrit indique la cause identifiée et le devis correspondant." },
+      { h: "Venir de Lançon sur rendez-vous", p: "L'atelier de Plan-de-Cuques est à 42 km, environ 45 minutes par l'A7 et la L2. Avec un rendez-vous, le véhicule passe au diagnostic dès son arrivée, pour 30 à 90 minutes en général. Le tarif est de <strong>49 € TTC</strong>, offert si vous validez la réparation chez nous." }
+    ],
+    faq: [
+      { q: "Peut-on reprendre l'autoroute avec un voyant orange fixe ?", a: "Si la voiture se comporte normalement, un trajet calme reste généralement possible jusqu'au diagnostic. En cas de perte de puissance marquée, de fumée ou de voyant rouge, ne reprenez pas la route et appelez votre assistance." },
+      { q: "Pourquoi ne pas simplement effacer le code ?", a: "Parce que la cause resterait en place et le voyant reviendrait. Nous ne pratiquons pas cet effacement sans réparation." }
     ]
   }
 };

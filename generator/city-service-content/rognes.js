@@ -24,7 +24,7 @@ module.exports = {
     lead: "Rénovation en pierre de Rognes, chantier de maçonnerie, matériaux lourds : nous louons des utilitaires de 3 à 12 m³ de 49 à 79 € par jour et vous aidons à raisonner en poids autant qu'en volume.",
     metaDesc: "Location d'utilitaire pour Rognes : 3 à 12 m³ de 49 à 79 €/jour, permis B, 250 km inclus, sangles fournies. Conseil sur la charge. Retrait à Plan-de-Cuques.",
     intro: [
-      "Rognes est connue pour sa <strong>pierre calcaire dorée</strong>, et nombreux sont ceux qui restaurent une maison de village, montent un muret ou aménagent un extérieur. Ces chantiers ont un point commun : on y transporte des charges lourdes sous un faible volume. Sable, ciment, pierres de taille ou dalles remplissent peu la caisse mais pèsent vite.",
+      "Rognes est connue pour sa <strong>pierre calcaire dorée</strong>. Restaurer une maison de village, monter un muret ou aménager un extérieur : ces chantiers ont un point commun : on y transporte des charges lourdes sous un faible volume. Sable, ciment, pierres de taille ou dalles remplissent peu la caisse mais pèsent vite.",
       "Pour ces usages, le bon réflexe est de penser d'abord <strong>charge utile</strong>, puis volume. Nous vous conseillons avant la réservation."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Combien de temps après la pose puis-je repartir ?", a: "La colle doit sécher au moins une heure avant que le véhicule roule. En pratique, le remplacement complet, calibrage compris, prend 2 à 3 heures et le véhicule est rendu dans la demi-journée." },
       { q: "Dois-je déclarer le sinistre avant de venir ?", a: "Vous pouvez nous transmettre directement les références de votre contrat : nous traitons la prise en charge avec votre assureur au titre de la garantie bris de glace. La franchise éventuelle dépend de votre contrat." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Voyant allumé à Rognes : rouler jusqu'à l'atelier ou non ?",
+    lead: "À 45 minutes de l'atelier, un voyant moteur pose d'abord une question : peut-on faire la route ? Nous vous aidons à trancher, puis nous diagnostiquons la panne pour 49 €.",
+    metaDesc: "Diagnostic moteur pour Rognes : voyant orange ou rouge, que faire avant la route ? 49 €, offert si la réparation est validée. Atelier à 45 min.",
+    intro: [
+      "Rognes est l'une des communes les plus éloignées de notre zone : 45 km par la D543, la D14 puis l'A51. Quand un voyant s'allume, la première décision n'est donc pas technique mais pratique. Un <strong>voyant orange fixe</strong> signale en général un défaut à faire contrôler sans tarder ; un <strong>voyant rouge</strong> ou un voyant orange qui clignote impose de s'arrêter dès que possible pour ne pas aggraver les dégâts.",
+      "Dans le doute, téléphonez-nous avant de partir en décrivant les symptômes : bruit, odeur, perte de puissance, température. Nous vous disons s'il vaut mieux venir ou faire chercher le véhicule."
+    ],
+    sections: [
+      { h: "Une fois la voiture à l'atelier", p: "Nous lisons tous les calculateurs accessibles avec notre valise multimarque et la valise constructeur, nous mesurons en temps réel les valeurs des capteurs, puis nous réalisons un essai routier si le défaut doit être reproduit. Le diagnostic dure le plus souvent de 30 à 90 minutes et se termine par un <strong>compte-rendu écrit</strong> et un devis transparent." },
+      { h: "Ce que cela coûte depuis Rognes", p: "Le diagnostic est facturé <strong>49 € TTC</strong> et vous est offert si vous validez la réparation chez Garage Boost. Pour éviter deux trajets de trois quarts d'heure, la récupération à domicile est offerte dès 200 € d'intervention validée. Un remorquage, lui, est facturé au kilomètre au-delà de 25 km, sur devis." }
+    ],
+    faq: [
+      { q: "Le voyant moteur s'est allumé en montant vers la Trévaresse, puis-je finir mon trajet ?", a: "S'il est orange, fixe, et que la voiture se comporte normalement, vous pouvez en général rejoindre votre destination en roulant calmement avant de faire contrôler. S'il est rouge ou clignote, ou si un bruit ou une perte de puissance l'accompagne, arrêtez-vous et appelez-nous." },
+      { q: "Pouvez-vous simplement effacer le voyant ?", a: "Nous ne le faisons pas sans avoir traité sa cause : un voyant effacé se rallume tant que le défaut persiste, et l'effacer fait disparaître des informations utiles au diagnostic." }
     ]
   }
 };

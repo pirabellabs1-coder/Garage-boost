@@ -24,7 +24,7 @@ module.exports = {
     lead: "Fourgon d'artisan qui enchaîne les petits trajets entre atelier et chantiers : la calamine s'installe vite. Le décalaminage hydrogène la traite sans démontage, de 89 à 149 €.",
     metaDesc: "Décalaminage hydrogène pour Saint-Zacharie : 89 à 149 € selon cylindrée, 60 à 90 min sans démontage, utilitaires et voitures. Atelier à 35 min.",
     intro: [
-      "Saint-Zacharie garde une forte tradition artisanale, et beaucoup d'<strong>utilitaires diesel</strong> y circulent : ateliers du bois, entreprises du bâtiment, artisans qui livrent ou interviennent dans les communes voisines. Leur journée type est la pire pour un moteur : démarrage à froid, quelques kilomètres, arrêt, chargement, nouveau démarrage.",
+      "Saint-Zacharie garde une forte tradition artisanale, et l'on y croise des <strong>utilitaires diesel</strong> : ateliers du bois, entreprises du bâtiment, artisans qui livrent ou interviennent dans les communes voisines. La journée type d'un tel fourgon est la pire pour un moteur : démarrage à froid, quelques kilomètres, arrêt, chargement, nouveau démarrage.",
       "Dans ces conditions, la combustion reste incomplète et les dépôts de carbone se fixent sur les soupapes, dans la vanne EGR et autour du turbo. Le décalaminage hydrogène les élimine en introduisant un gaz dans l'admission pendant que le moteur tourne, sans démonter quoi que ce soit."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Un 4x4 ou un SUV diesel est-il un bon candidat ?", a: "Oui, les diesels turbo sont ceux qui gagnent le plus, avec typiquement 25 à 35 % de couple supplémentaire. C'est un net confort pour tracter ou monter chargé." },
       { q: "Le Stage 2 a-t-il un sens pour un usage montagne ?", a: "Rarement. Le Stage 2, de 690 à 990 €, exige des pièces supplémentaires et vise surtout le sport ou le circuit. Pour monter vers la Sainte-Baume en souplesse, le Stage 1 suffit." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "À-coups en montée vers la Sainte-Baume : diagnostic",
+    lead: "Le moteur broute en grimpant vers Plan-d'Aups ou ratatouille en charge ? Pour 49 €, offerts si la réparation est validée, nous lisons les calculateurs à 35 minutes de Saint-Zacharie.",
+    metaDesc: "À-coups ou perte de puissance en côte ? Diagnostic moteur pour Saint-Zacharie : 49 €, offert si réparation validée. Atelier à 35 min, sur rendez-vous.",
+    intro: [
+      "La route qui monte de Saint-Zacharie vers le plateau de la Sainte-Baume est un révélateur : c'est en côte, moteur en charge, que se manifestent les <strong>à-coups en accélération</strong>, les ratés ou une perte de puissance qui passent inaperçus sur le plat.",
+      "Ces symptômes ont des causes variées, de l'allumage à l'injection en passant par l'alimentation en air. Le diagnostic électronique permet de les départager, à partir des codes défauts et des valeurs mesurées pendant l'effort."
+    ],
+    sections: [
+      { h: "Reproduire l'effort pour mesurer", p: "Nous lisons d'abord les codes présents et passés sur les calculateurs. Si le symptôme n'apparaît qu'en charge, un essai routier permet de relever en conditions réelles la pression de turbo, le débit d'air et le débit des injecteurs. Le compte-rendu écrit indique la cause identifiée et le devis de réparation correspondant." },
+      { h: "Depuis Saint-Zacharie, sur rendez-vous", p: "L'atelier de Plan-de-Cuques est à 32 km, environ 35 minutes par la D560 et Aubagne. Sur rendez-vous, comptez de 30 à 90 minutes de diagnostic. Le tarif est de <strong>49 € TTC</strong>, offert si vous validez la réparation chez Garage Boost." }
+    ],
+    faq: [
+      { q: "Le symptôme n'apparaît qu'en montée, pourrez-vous le constater ?", a: "Un défaut survenu en charge peut être mémorisé par le calculateur avec ses conditions. Si nécessaire, l'essai routier sert à reproduire l'effort pendant les mesures." },
+      { q: "Mon véhicule est un hybride, est-ce possible ?", a: "Oui pour les hybrides légers et rechargeables, partie thermique comprise. Sur un 100 % électrique, la batterie de traction relève de spécialistes habilités haute tension." }
     ]
   }
 };

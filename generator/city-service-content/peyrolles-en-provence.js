@@ -42,7 +42,7 @@ module.exports = {
     lead: "Voies rapides au quotidien, remorque ou vélos le week-end : nous révisons les véhicules peyrollais en surveillant d'abord ce qui freine et ce qui porte la charge. Plaquettes avant à 159 €.",
     metaDesc: "Mécanique générale pour Peyrolles-en-Provence : plaquettes avant 159 €, disques et plaquettes 290 €, révision 149 à 249 €. Récupération offerte dès 200 €.",
     intro: [
-      "Rejoindre Aix par la D96 et l'A51, puis revenir chargé d'une remorque ou d'un porte-vélos : à Peyrolles, beaucoup de véhicules enchaînent les vitesses soutenues et les charges lourdes. C'est le <strong>freinage</strong> qui encaisse le plus, avec les pneumatiques et les amortisseurs, bien avant le moteur.",
+      "Rejoindre Aix par la D96 et l'A51, puis revenir chargé d'une remorque ou d'un porte-vélos : à Peyrolles, un véhicule qui fait ce trajet enchaîne les vitesses soutenues et les charges lourdes. C'est le <strong>freinage</strong> qui encaisse le plus, avec les pneumatiques et les amortisseurs, bien avant le moteur.",
       "Notre atelier de Plan-de-Cuques assure l'entretien programmé et les réparations toutes marques, sur la base d'un devis écrit envoyé sous 24 heures. Aucune opération ne démarre sans votre feu vert."
     ],
     sections: [
@@ -60,7 +60,7 @@ module.exports = {
     lead: "Un Stage 1 rend le couple disponible plus tôt, ce qui se ressent attelé dans les côtes du val de Durance. Il ne change pas le poids que le véhicule a le droit de tracter. De 350 à 690 €.",
     metaDesc: "Reprogrammation moteur pour Peyrolles-en-Provence : Stage 1 de 350 à 690 €, origine sauvegardée, retour série 49 €, garantie 24 mois.",
     intro: [
-      "Beaucoup de demandes de reprogrammation viennent de conducteurs qui tractent : une caravane, une remorque de loisirs, un porte-vélos chargé de toute la famille. L'objectif est rarement la vitesse ; c'est de pouvoir <strong>relancer en charge</strong> sans tomber deux rapports, notamment en montant vers l'A51 ou en dépassant sur la D96.",
+      "La reprogrammation intéresse aussi les conducteurs qui tractent : une caravane, une remorque de loisirs, un porte-vélos chargé de toute la famille. L'objectif est rarement la vitesse ; c'est de pouvoir <strong>relancer en charge</strong> sans tomber deux rapports, notamment en montant vers l'A51 ou en dépassant sur la D96.",
       "Le Stage 1 modifie uniquement le logiciel du calculateur. La cartographie est développée en interne et contrôlée sur banc, et la version d'usine est conservée en mémoire avant la première écriture."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Le Stage 1 me permettra-t-il de tracter une caravane plus lourde ?", a: "Non. La masse remorquable reste celle inscrite sur la carte grise. La reprogrammation améliore l'agrément en charge, dans la limite de ce que le véhicule est autorisé à tracter." },
       { q: "Faut-il vérifier quelque chose avant de reprogrammer un véhicule qui tracte ?", a: "Oui : nous contrôlons l'état du moteur, l'encrassement et l'usure de l'embrayage. Un embrayage déjà fatigué serait à remplacer avant, sinon le gain de couple accélérerait son usure." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Voyant après une remontée chargée vers Peyrolles : diagnostic",
+    lead: "Caravane, remorque ou voiture pleine : un voyant ou une fumée suspecte apparaît après un effort prolongé ? À 40 minutes de Peyrolles, nous diagnostiquons pour 49 €.",
+    metaDesc: "Diagnostic moteur pour Peyrolles-en-Provence : voyant, fumée, perte de puissance en charge. 49 €, offert si réparation validée. À 40 min.",
+    intro: [
+      "Tracter le long de la Durance puis grimper vers l'A51 impose au moteur un effort long et régulier : températures élevées, turbo très sollicité, injection au maximum. C'est dans ces conditions qu'une faiblesse latente se révèle, sous forme de <strong>voyant moteur</strong>, de fumée à l'échappement ou de perte de puissance.",
+      "Une fois la remorque dételée, tout semble redevenu normal. Le calculateur a pourtant noté le défaut et les conditions précises de son apparition, régime, charge et température compris : une mine d'informations pour le diagnostic."
+    ],
+    sections: [
+      { h: "Interpréter ce qui s'est passé en charge", p: "Nous relevons les codes et leurs données d'apparition, puis nous mesurons la <strong>température d'échappement</strong>, la pression de turbo et le débit d'air. Si nécessaire, un essai routier permet de solliciter le moteur. Une fumée noire, bleue ou blanche n'oriente pas vers les mêmes pistes : la couleur que vous avez observée nous aide, notez-la." },
+      { h: "Tarif et trajet depuis la vallée", p: "Le diagnostic complet coûte <strong>49 € TTC</strong>, compte-rendu écrit compris, et il est offert si la réparation est validée chez nous. Il dure en principe de 30 à 90 minutes. Peyrolles est à 38 km, environ 40 minutes par la D96, l'A51 et l'A507 ; la récupération de votre véhicule est offerte au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Dois-je venir avec la remorque ou la caravane ?", a: "Non, le véhicule suffit. Les données enregistrées par le calculateur et l'essai routier permettent d'analyser le défaut sans l'attelage. Indiquez-nous simplement le poids tracté et le parcours au moment de l'incident." },
+      { q: "Une fumée à l'échappement est-elle forcément grave ?", a: "Pas forcément, mais elle ne doit pas être ignorée. Selon sa couleur et le moment où elle apparaît, elle peut signaler un encrassement, un défaut d'injection ou un problème plus sérieux ; le diagnostic permet de faire la différence." }
     ]
   }
 };

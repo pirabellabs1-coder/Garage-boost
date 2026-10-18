@@ -76,7 +76,7 @@ function findService(slug) {
 function buildTopServicesList(city) {
   const cityName = city.name, citySlug = city.slug;
   const generated = new Set(servicesForCity(city));
-  return (city.topServices || []).map(slug => {
+  return [...new Set([...(city.topServices || []), ...servicesForCity(city)])].map(slug => {
     const r = findService(slug);
     if (!r) return '';
     const href = generated.has(slug)

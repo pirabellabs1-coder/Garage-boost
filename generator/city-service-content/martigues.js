@@ -89,5 +89,23 @@ module.exports = {
       { q: "Intervenez-vous la nuit ou le dimanche jusqu'à Martigues ?", a: "Oui, 7 jours sur 7. Une majoration de 50 % s'applique la nuit (de 20 h à 7 h), le dimanche et les jours fériés. Le délai d'arrivée dépend de la distance et vous est indiqué à l'appel." },
       { q: "Le remorquage est-il payant si je ne fais pas réparer chez vous ?", a: "Le déplacement et le remorquage sont facturés, mais vous restez libre de faire acheminer le véhicule vers le garage de votre choix et de faire réaliser la réparation où vous le souhaitez." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Contre-visite pollution à Martigues : diagnostiquer avant de réparer",
+    lead: "Recalé au contrôle technique pour pollution ou voyant moteur ? Avant de remplacer quoi que ce soit, notre diagnostic à 49 € désigne la pièce réellement en cause, à 45 minutes de Martigues.",
+    metaDesc: "Contrôle technique refusé pour pollution à Martigues : diagnostic moteur 49 €, offert si la réparation est validée, cause identifiée avant contre-visite.",
+    intro: [
+      "Le procès-verbal du contrôle technique indique un défaut, rarement sa cause. Une <strong>opacité trop élevée</strong>, une valeur de dépollution hors norme ou un voyant moteur allumé peuvent provenir d'un injecteur, d'une vanne EGR, d'un filtre à particules saturé, d'une sonde ou d'un simple capteur. Avant la contre-visite, il faut savoir lequel.",
+      "Pour un conducteur de Ferrières, de Jonquières ou de La Couronne, le délai de contre-visite laisse peu de marge pour des allers-retours. Mieux vaut un examen précis qui mène directement à la bonne réparation."
+    ],
+    sections: [
+      { h: "De la ligne du procès-verbal à la pièce fautive", p: "Nous lisons les codes de la gestion moteur et suivons en direct la sonde lambda, la température d'échappement, la position de la vanne EGR et le débit des injecteurs. Ces mesures montrent où la combustion ou la dépollution se dégrade. Un diesel qui travaille dans la poussière de la zone de Lavéra peut ainsi relever d'un nettoyage plutôt que d'un remplacement : le rapport écrit le précise." },
+      { h: "49 €, offerts si vous réparez chez nous", p: "Le diagnostic coûte <strong>49 € TTC</strong>, mesures et compte-rendu compris, et devient gratuit si vous validez la réparation à l'atelier. Martigues est à 40 km par l'A55, l'A7 et la L2 : évitez les heures industrielles, de 6 h à 7 h 30 et de 16 h à 17 h 30. Notre service de récupération à domicile peut aussi prendre le véhicule en charge pour vous éviter deux trajets." }
+    ],
+    faq: [
+      { q: "Effacer le voyant avant la contre-visite, est-ce une solution ?", a: "Non. Un voyant effacé sans réparation se rallume dès que le calculateur détecte à nouveau le défaut, et les valeurs mesurées au contrôle restent les mêmes. Seule la correction de la cause permet de repasser sereinement." },
+      { q: "Que faire si plusieurs défauts sont relevés en même temps ?", a: "Un défaut peut en entraîner un autre. Le diagnostic les hiérarchise, et le devis distingue ce qui conditionne la contre-visite de ce qui peut attendre." }
+    ]
   }
 };

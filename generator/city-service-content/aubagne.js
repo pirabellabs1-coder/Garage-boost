@@ -89,5 +89,23 @@ module.exports = {
       { q: "Mon pare-chocs n'a presque rien, faut-il quand même le faire contrôler ?", a: "Oui si le choc a été franc. Un bouclier souple peut masquer un absorbeur ou une traverse endommagés, qui ne protégeront plus correctement lors d'un prochain choc. Un contrôle permet de le vérifier." },
       { q: "Combien de temps la voiture sera-t-elle immobilisée ?", a: "Une à deux journées pour un petit choc, trois à cinq pour un élément repeint, cinq à huit pour un remplacement selon la disponibilité des pièces. Le délai figure sur le devis." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Utilitaire en mode dégradé aux Paluds : diagnostic depuis Aubagne",
+    lead: "Fourgon bridé en pleine tournée, voyant qui revient sur la D2 ? Depuis Aubagne, à 15 km, nous interrogeons ses calculateurs pour 49 €, offerts si vous validez la réparation chez nous.",
+    metaDesc: "Diagnostic moteur pour Aubagne : 49 €, offert si la réparation est validée, lecture OBD2 et valise constructeur, rapport écrit. Atelier à 15 km par la D2.",
+    intro: [
+      "Pour un artisan ou un livreur installé aux Paluds ou à Camp Major, un véhicule qui passe en <strong>mode dégradé</strong> en milieu de tournée, c'est une journée de travail désorganisée. Le moteur refuse de monter dans les tours, le voyant orange reste fixe, et la tentation est grande de continuer en espérant qu'il s'éteigne.",
+      "Avant de commander une pièce sur la foi d'un forum, mieux vaut savoir ce que le calculateur a réellement enregistré. C'est le rôle de notre diagnostic : relever les défauts, puis vérifier par la mesure lequel est à l'origine du bridage."
+    ],
+    sections: [
+      { h: "Trouver ce qui bride le moteur", p: "La valise se branche sur la prise OBD et dialogue avec la gestion moteur, l'ABS, l'ESP ou la BSI. Nous observons ensuite le moteur en fonctionnement : pression de suralimentation, débit d'air, position de la vanne EGR, débit des injecteurs. Un code de suralimentation peut venir d'une durite fendue comme d'un capteur ; seules ces valeurs permettent de trancher. Comptez de 30 à 90 minutes dans la plupart des cas." },
+      { h: "Limiter l'immobilisation du véhicule de travail", p: "Le trajet depuis Aubagne prend une vingtaine de minutes par la D2 et la D4F ; avant 8 h 30, la route est fluide, ce qui permet de déposer le véhicule en début de journée. Le diagnostic coûte <strong>49 € TTC</strong> et vous est offert si la réparation est validée chez nous. Le devis suit sous 24 heures ouvrées, et la récupération du véhicule est gratuite au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Mon fourgon roule encore en mode dégradé : puis-je venir par mes propres moyens depuis Aubagne ?", a: "Si aucun voyant rouge n'est allumé et que la température reste normale, un trajet court à allure modérée est généralement possible. Au moindre voyant rouge, bruit inhabituel ou fumée, arrêtez-vous et appelez-nous plutôt que de forcer." },
+      { q: "Le compte-rendu peut-il servir pour la gestion de ma flotte ?", a: "Oui. Il liste les défauts relevés sur chaque calculateur, la cause identifiée et la réparation proposée : un document utile pour suivre l'historique d'un véhicule de société." }
+    ]
   }
 };

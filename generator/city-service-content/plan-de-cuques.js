@@ -6,7 +6,7 @@ module.exports = {
     lead: "L'orage vient de passer sur Plan-de-Cuques ? L'atelier est dans la commune : faites inspecter la carrosserie sous éclairage à reflets pour connaître l'étendue réelle des impacts.",
     metaDesc: "Grêle à Plan-de-Cuques : inspection sous éclairage à reflets à l'atelier de la commune, débosselage sans peinture dès 90 €, sans malus.",
     intro: [
-      "Quand la grêle tombe sur Plan-de-Cuques, elle surprend les voitures là où elles stationnent : allées des maisons, places le long des avenues, parkings des résidences de La Galéane ou du Cousin. Dans une commune où beaucoup de familles possèdent plusieurs véhicules, il n'est pas rare d'en retrouver deux ou trois marqués le même soir.",
+      "Quand la grêle tombe sur Plan-de-Cuques, elle surprend les voitures là où elles stationnent : allées des maisons, places le long des avenues, parkings des résidences de La Galéane ou du Cousin. Pour un foyer qui gare plusieurs véhicules dehors, il n'est pas rare d'en retrouver deux ou trois marqués le même soir.",
       "Avoir l'atelier sur place change la façon de s'y prendre. À l'œil nu et en plein jour, une partie des impacts passe inaperçue ; sous notre <strong>éclairage à reflets</strong>, chaque creux ressort et peut être compté. Vous déclarez alors le sinistre en sachant précisément ce que la grêle a abîmé."
     ],
     sections: [
@@ -88,6 +88,24 @@ module.exports = {
     faq: [
       { q: "Pourquoi recalibrer la caméra après un remplacement ?", a: "La caméra fixée derrière le pare-brise sert au freinage d'urgence, à l'alerte de franchissement de ligne ou à la lecture des panneaux. Après la pose d'un nouveau vitrage, sa visée doit être vérifiée et recalée, sinon ces aides peuvent réagir à tort. Le calibrage est compris dans notre tarif." },
       { q: "Puis-je laisser la voiture et revenir plus tard dans la journée ?", a: "Oui. Le véhicule reste à l'atelier pendant le remplacement, et nous vous prévenons dès que la colle a séché et que le calibrage est terminé." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Moteur qui démarre mal à froid à Plan-de-Cuques",
+    lead: "Démarreur qui insiste le matin, moteur qui tousse avant de se stabiliser : à Plan-de-Cuques, l'atelier est à quelques minutes. Diagnostic électronique à 49 €, offert si la réparation est validée.",
+    metaDesc: "Diagnostic moteur à Plan-de-Cuques : 49 €, offert si la réparation est validée, lecture des calculateurs et mesures en direct. Atelier sur la commune.",
+    intro: [
+      "Il faut deux ou trois tours de clé avant que le moteur prenne, il tourne irrégulièrement les premières minutes, puis tout rentre dans l'ordre. Ce genre de <strong>démarrage difficile à froid</strong> s'installe souvent progressivement, et l'on s'y habitue jusqu'au matin où la voiture refuse de partir.",
+      "Puisque notre atelier se trouve avenue des Pères Blancs, le plus pertinent est d'amener le véhicule <strong>moteur encore froid</strong>, après une nuit dehors : le défaut se manifeste alors devant le technicien, qui peut relever les valeurs des capteurs au moment exact où il se produit."
+    ],
+    sections: [
+      { h: "Ce que l'on regarde sur un départ difficile", p: "La valise est branchée sur la prise OBD et interroge le calculateur moteur, mais aussi les autres boîtiers accessibles. Les codes présents et passés sont relevés avec les conditions de leur apparition, puis nous suivons en direct les températures, le débit d'air et le comportement de l'injection pendant la mise en route. Un capteur de température qui ment au calculateur, par exemple, suffit à fausser tout le démarrage." },
+      { h: "Tarif et suite donnée", p: "Le diagnostic coûte <strong>49 € TTC</strong>, lecture, mesures et compte-rendu écrit compris, et il est offert si vous faites réaliser la réparation chez nous. Le devis arrive sous 24 heures et rien n'est entrepris sans votre accord. Si la réparation validée dépasse 200 €, la récupération du véhicule à domicile est gratuite." }
+    ],
+    faq: [
+      { q: "Faut-il prendre rendez-vous tôt le matin ?", a: "C'est l'idéal pour un défaut qui n'apparaît qu'à froid : un créneau en début de matinée, avec une voiture qui n'a pas encore roulé, permet d'observer le symptôme tel que vous le vivez." },
+      { q: "Ma batterie est neuve, le problème peut-il venir d'ailleurs ?", a: "Oui. Un démarrage laborieux peut venir de l'injection, d'un capteur, de l'alimentation en carburant ou de l'allumage. La lecture des calculateurs et les mesures servent justement à faire le tri avant de remplacer quoi que ce soit." }
     ]
   }
 };

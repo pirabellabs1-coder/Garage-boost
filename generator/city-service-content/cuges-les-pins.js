@@ -42,7 +42,7 @@ module.exports = {
     lead: "Les virages du col de l'Ange, empruntés matin et soir, usent les pneus de façon irrégulière. Nous contrôlons pneus et trains roulants lors de chaque entretien, vidange dès 89 €.",
     metaDesc: "Mécanique pour Cuges-les-Pins : vidange dès 89 €, révision 149 à 249 €, pneus et trains roulants contrôlés, garantie 12 mois. Atelier à 30 min.",
     intro: [
-      "Pour beaucoup de Cugeois, chaque journée commence et se termine par la route du col de l'Ange, une succession de courbes entre la plaine de Cuges et Gémenos. Ce tracé sollicite surtout les <strong>pneumatiques et les trains roulants</strong> : rotules, silentblocs, biellettes et amortisseurs travaillent à chaque virage.",
+      "Quand on travaille côté Gémenos ou Aubagne, chaque journée commence et se termine par la route du col de l'Ange, une succession de courbes entre la plaine de Cuges et Gémenos. Ce tracé sollicite surtout les <strong>pneumatiques et les trains roulants</strong> : rotules, silentblocs, biellettes et amortisseurs travaillent à chaque virage.",
       "Un pneu usé d'un seul côté, un volant qui n'est plus droit en ligne droite ou une voiture qui tire légèrement sont les premiers signes d'un parallélisme déréglé ou d'un élément de train avant fatigué. Nous en recherchons la cause lors de l'entretien."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Mon assistance peut-elle payer le remorquage depuis Cuges ?", a: "Si votre contrat auto ou votre carte bancaire comprend une assistance panne, appelez-la d'abord : elle peut nous mandater et régler tout ou partie de l'intervention. Donnez-lui notre adresse si vous voulez une réparation à Plan-de-Cuques." },
       { q: "Pouvez-vous déposer la voiture dans un garage d'Aubagne ?", a: "Oui, le véhicule peut être acheminé vers le garage de votre choix. Le prix, calculé selon la distance parcourue, vous est indiqué avant le départ de la dépanneuse." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Perte de puissance sur l'A50 vers Toulon : diagnostic pour Cuges",
+    lead: "Le moteur s'essouffle soudain en montée sur l'autoroute, puis repart après un arrêt ? Pour 49 €, nous identifions ce qui provoque cette coupure, à 30 minutes de Cuges-les-Pins.",
+    metaDesc: "Diagnostic moteur pour Cuges-les-Pins : perte de puissance, à-coups, mode dégradé, 49 € offerts si réparation validée. Atelier à 30 min par l'A50.",
+    intro: [
+      "Sur l'A50, entre Cuges et le Var comme vers Aubagne, les longues montées à vitesse soutenue sont exigeantes pour la <strong>suralimentation</strong>. Quand la pression de turbo s'écarte de la consigne, le calculateur protège le moteur : la puissance tombe d'un coup, parfois sans voyant durable. Couper le contact sur une aire suffit souvent à tout faire revenir, jusqu'à la montée suivante.",
+      "Ce comportement a une origine précise, et il vaut mieux la connaître avant qu'il ne se produise au milieu d'un dépassement."
+    ],
+    sections: [
+      { h: "Reproduire la perte de puissance", p: "Les codes enregistrés donnent une première orientation : sous-pression ou surpression de turbo, débit d'air incohérent, défaut d'injection. Nous les confrontons aux valeurs mesurées en charge. Quand le symptôme n'apparaît qu'en côte prolongée, l'essai routier instrumenté permet de suivre en direct la pression de suralimentation et la position de la vanne EGR au moment où le moteur décroche." },
+      { h: "Les modalités depuis Cuges-les-Pins", p: "L'atelier est à 28 km, une demi-heure par l'A50 puis la sortie Aubagne et la D4F ; le milieu de journée évite la charge du matin vers Marseille. Le diagnostic coûte <strong>49 € TTC</strong> et dure le plus souvent de 30 à 90 minutes ; il est offert si la réparation est validée chez nous. La récupération du véhicule est possible sur le secteur, gratuite au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Est-il risqué de continuer à rouler avec ces pertes de puissance ?", a: "Le mode dégradé protège le moteur, mais il réduit fortement les capacités d'accélération, ce qui peut être dangereux sur autoroute. La cause, comme une durite de turbo fendue, peut aussi s'aggraver : mieux vaut faire contrôler sans tarder." },
+      { q: "La panne ne se produit qu'en montée chargée : pourrez-vous la voir ?", a: "C'est le rôle de l'essai routier instrumenté, qui place le moteur dans les conditions où le défaut survient tout en enregistrant les valeurs des capteurs." }
     ]
   }
 };

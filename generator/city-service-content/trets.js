@@ -3,7 +3,7 @@ module.exports = {
 
   'decalaminage-hydrogene': {
     title: "Décalaminage hydrogène pour les moteurs qui roulent depuis Trets",
-    lead: "Longs trajets vers Aix et Marseille, ralentissements aux heures de pointe : les moteurs tretsois accumulent de la calamine. Le décalaminage hydrogène la traite sans démontage, de 89 à 149 €.",
+    lead: "Longs trajets vers Aix et Marseille, ralentissements aux heures de pointe : un moteur qui fait ces trajets accumule de la calamine. Le décalaminage hydrogène la traite sans démontage, de 89 à 149 €.",
     metaDesc: "Décalaminage hydrogène pour Trets : de 89 à 149 € selon la cylindrée, diagnostic avant et après inclus, 60 à 90 min sans démontage. Atelier à 38 min.",
     intro: [
       "On pense souvent que les longs trajets protègent le moteur de l'encrassement. C'est vrai sur autoroute fluide, beaucoup moins dans les files qui se forment chaque matin sur l'A8 et l'A51 en direction d'Aix et de Marseille. Les phases de ralenti et de redémarrage répétées favorisent les dépôts de <strong>calamine</strong> sur les soupapes, dans la vanne EGR et le turbo.",
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Un utilitaire peut-il être reprogrammé ?", a: "Oui, la plupart des utilitaires diesel turbo postérieurs à 2005 peuvent l'être. L'objectif est généralement l'agrément en charge plutôt que la puissance maximale." },
       { q: "La consommation augmente-t-elle après un Stage 1 ?", a: "En conduite normale, elle a plutôt tendance à baisser, le couple étant disponible à plus bas régime. Elle augmente si vous exploitez régulièrement les performances supplémentaires." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Voyant moteur à Trets : préparer le trajet jusqu'à l'atelier",
+    lead: "Un voyant s'allume entre Trets et Aix ? À 35 km de l'atelier, mieux vaut savoir si l'on peut rouler. Notre diagnostic à 49 € identifie ensuite la panne, offert si la réparation est validée.",
+    metaDesc: "Voyant moteur à Trets : diagnostic 49 €, offert si la réparation est validée, lecture OBD2 et valise constructeur, compte-rendu écrit.",
+    intro: [
+      "Trets est à 35 km de Plan-de-Cuques, soit 38 à 45 minutes par la D6, l'A8 ou l'A51 et la L2. Quand un voyant s'allume, la question n'est donc pas seulement « qu'est-ce que c'est ? » mais aussi « puis-je faire la route ? ». La réponse dépend de la <strong>couleur du voyant</strong> et du comportement de la voiture.",
+      "Une fois à l'atelier, le diagnostic électronique relève les défauts mémorisés et vérifie les valeurs des capteurs pour désigner l'origine exacte de l'alerte."
+    ],
+    sections: [
+      { h: "Avant de prendre l'autoroute", p: "Appelez-nous en décrivant ce que vous voyez : voyant orange fixe, clignotant ou rouge, perte de puissance, bruit, odeur. Si le trajet semble raisonnable, nous fixons un créneau ; évitez alors les heures de pointe sur l'A8 et l'A51. Si la voiture ne doit pas rouler, sachez qu'au-delà de 25 km le remorquage est facturé au kilomètre, sur devis annoncé avant le départ." },
+      { h: "Le diagnostic lui-même", p: "Lecture multimarque, mesures en temps réel, essai routier si nécessaire et compte-rendu écrit : l'ensemble coûte <strong>49 € TTC</strong>, offert si vous validez la réparation chez Garage Boost. La durée habituelle va de 30 à 90 minutes, ce qui permet souvent de repartir dans la journée avec un devis." }
+    ],
+    faq: [
+      { q: "La distance depuis Trets change-t-elle le prix du diagnostic ?", a: "Non, il coûte 49 € quelle que soit la commune. Seul un éventuel remorquage dépend de la distance : au-delà de 25 km, il est facturé au kilomètre, sur devis." },
+      { q: "Puis-je attendre sur place pendant le diagnostic ?", a: "Oui, la plupart des diagnostics se règlent entre 30 et 90 minutes. Si une analyse plus longue s'impose, nous vous appelons avant de poursuivre." }
     ]
   }
 };

@@ -6,7 +6,7 @@ module.exports = {
     lead: "Sur un diesel, l'encrassement du moteur finit par retomber sur le FAP. Pour les automobilistes de La Destrousse, le décalaminage hydrogène le traite à la source, sans démontage, de 89 à 149 €.",
     metaDesc: "Décalaminage hydrogène pour La Destrousse : admission, EGR et turbo nettoyés sans démontage, de 89 à 149 € selon cylindrée. Atelier à 25 min.",
     intro: [
-      "À La Destrousse, l'usage mixte domine : un peu de route vers Aubagne et Marseille, beaucoup de petits parcours autour du bourg et de ses commerces. Sur un diesel, ce rythme produit davantage de suies, qui prennent deux chemins : une partie se fixe dans le moteur sous forme de calamine, l'autre file vers le <strong>filtre à particules</strong>.",
+      "Une voiture qui fait un peu de route vers Aubagne et Marseille et surtout de petits parcours autour du bourg de La Destrousse et de ses commerces vit un usage mixte. Sur un diesel, ce rythme produit davantage de suies, qui prennent deux chemins : une partie se fixe dans le moteur sous forme de calamine, l'autre file vers le <strong>filtre à particules</strong>.",
       "Décalaminer, c'est intervenir <strong>en amont</strong> : débarrasser l'admission, la vanne EGR, le turbo et la chambre de combustion de leurs dépôts avant qu'ils ne surchargent le filtre, une pièce qui coûte de 1 200 à 2 500 € à remplacer neuve."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Un voyant d'aide à la conduite s'est allumé après le choc, que faire ?", a: "Cela signifie souvent qu'un capteur ou un radar a été déplacé ou endommagé, et les aides concernées peuvent réagir de façon erronée. Signalez-le à la prise de rendez-vous : leur fixation est contrôlée et le calibrage réalisé une fois la réparation terminée." },
       { q: "Puis-je continuer à rouler avec un phare cassé ?", a: "Un feu qui ne fonctionne plus expose à une amende et réduit votre visibilité comme celle des autres. Limitez les trajets de nuit et prenez rendez-vous rapidement : une glace fendue laisse aussi entrer l'humidité, qui finit par abîmer l'optique." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Moteur qui cale au carrefour de La Destrousse : trouver pourquoi",
+    lead: "Un ralenti qui chute au feu du croisement D96/D560, un moteur qui cale à l'arrêt ? Notre diagnostic électronique à 49 € cherche ce qui dérègle le ralenti, à 25 minutes de La Destrousse.",
+    metaDesc: "Ralenti instable ou moteur qui cale à La Destrousse : diagnostic moteur 49 €, offert si la réparation est validée, mesures en temps réel.",
+    intro: [
+      "Le croisement central de La Destrousse impose des arrêts répétés, surtout le matin et à la sortie des classes. C'est précisément à ce moment qu'un défaut de ralenti se manifeste : le compte-tours oscille, la voiture vibre, puis le moteur <strong>cale</strong> au moment de redémarrer. Le symptôme est gênant, parfois dangereux en pleine intersection.",
+      "Un ralenti instable n'a pas une cause unique. Une sonde, une prise d'air, une vanne EGR qui ne se ferme plus bien, un injecteur paresseux peuvent produire le même effet. Remplacer une pièce au hasard coûte cher ; mesurer d'abord coûte <strong>49 €</strong>."
+    ],
+    sections: [
+      { h: "Observer le moteur pendant qu'il hésite", p: "Une fois la valise branchée, nous suivons en direct le débit d'air, la sonde lambda, la position de la vanne EGR et le débit des injecteurs, moteur au ralenti puis sous charge. Les codes défauts présents et passés sont relevés avec les conditions de leur apparition. Si le défaut ne se montre pas à l'arrêt, un essai routier instrumenté permet de le provoquer." },
+      { h: "Le tarif et le rendez-vous", p: "Le diagnostic coûte <strong>49 € TTC</strong>, compte-rendu écrit compris, et devient gratuit si vous validez la réparation chez nous. Il dure en général de 30 à 90 minutes. Pour venir de La Destrousse, l'A52 puis l'A50 contournent le carrefour aux heures chargées ; sinon, le créneau 10 h-16 h ou le samedi matin reste le plus fluide." }
+    ],
+    faq: [
+      { q: "Peut-on rouler avec un moteur qui cale de temps en temps ?", a: "C'est déconseillé : caler au milieu d'une intersection ou en s'insérant expose à un accrochage. Si le phénomène se répète, limitez les trajets et faites lire les calculateurs rapidement." },
+      { q: "Et si le défaut ne se reproduit pas le jour du rendez-vous ?", a: "Le calculateur conserve en général une trace des défauts passés. Si ce n'est pas suffisant, nous proposons une session prolongée : essai sur route plus long, voire enregistreur OBD laissé quelques jours dans la voiture." }
     ]
   }
 };

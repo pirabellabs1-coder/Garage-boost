@@ -42,7 +42,7 @@ module.exports = {
     lead: "Voyant FAP, mode dégradé, perte de puissance : nous régénérons le filtre à particules des diesels rognacais, dès 250 € sans démontage, au lieu de le remplacer.",
     metaDesc: "Nettoyage FAP pour Rognac : régénération sans démontage de 250 à 450 €, bain ultrason de 390 à 650 €, diagnostic préalable inclus, garantie 12 mois.",
     intro: [
-      "Un filtre à particules se nettoie de lui-même quand le moteur tourne longtemps à régime soutenu. Le paradoxe à Rognac : la commune est collée à l'A7, mais beaucoup de diesels y font surtout des trajets courts vers les zones commerciales voisines, ou restent pris dans les ralentissements aux heures de pointe. Le FAP se charge alors <strong>sans avoir l'occasion de se régénérer</strong>.",
+      "Un filtre à particules se nettoie de lui-même quand le moteur tourne longtemps à régime soutenu. Le paradoxe à Rognac : la commune est collée à l'A7, mais un diesel qui fait surtout des trajets courts vers les zones commerciales voisines, ou qui reste pris dans les ralentissements aux heures de pointe. Le FAP se charge alors <strong>sans avoir l'occasion de se régénérer</strong>.",
       "Avant de chiffrer un FAP neuf, il est presque toujours possible de régénérer le filtre existant. Nous proposons <strong>deux méthodes</strong>, choisies après mesure du taux de saturation et de l'état de la céramique."
     ],
     sections: [
@@ -57,10 +57,10 @@ module.exports = {
 
   'mecanique-generale': {
     title: "Révision et réparations pour les gros rouleurs de Rognac",
-    lead: "Beaucoup de kilomètres, des échéances qui arrivent vite : Garage Boost suit l'entretien des véhicules rognacais, révision de 149 à 249 €, récupération à domicile possible.",
+    lead: "Quand le compteur tourne vite, les échéances arrivent vite : Garage Boost suit l'entretien des véhicules rognacais, révision de 149 à 249 €, récupération à domicile possible.",
     metaDesc: "Mécanique générale pour Rognac : révision de 149 à 249 €, vidange dès 89 €, embrayage 590 à 990 €. Récupération à domicile, garantie 12 mois.",
     intro: [
-      "Rognac compte beaucoup de véhicules qui avalent les kilomètres : flottes d'entreprise, utilitaires et gros rouleurs qui circulent entre l'étang de Berre, Aix et Marseille. Sur ces profils, le kilométrage fait arriver plus tôt que prévu les grandes échéances : <strong>courroie de distribution, embrayage, amortisseurs</strong>.",
+      "Autour de Rognac, certains véhicules avalent les kilomètres : flottes d'entreprise, utilitaires ou gros rouleurs qui circulent entre l'étang de Berre, Aix et Marseille. Sur ces profils, le kilométrage fait arriver plus tôt que prévu les grandes échéances : <strong>courroie de distribution, embrayage, amortisseurs</strong>.",
       "Nous établissons un plan d'entretien à partir de votre carnet et de votre kilométrage annuel, pour regrouper les opérations et limiter les passages à l'atelier."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Un embrayage qui patine doit-il être changé tout de suite ?", a: "Pas forcément dans l'heure, mais il ne faut pas attendre : un embrayage qui patine finit par lâcher et peut immobiliser le véhicule. Le remplacement du kit coûte de 590 à 990 € selon le modèle." },
       { q: "Travaillez-vous sur les hybrides ?", a: "Oui, sur la partie thermique des hybrides légers et rechargeables : moteur, transmission, freinage. Les véhicules 100 % électriques sont orientés vers des spécialistes habilités haute tension." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Mode dégradé sur l'A7 près de Rognac : comprendre ce qui bride",
+    lead: "La voiture refuse soudain de monter en régime en sortant de Rognac ? C'est un mode dégradé. Nous en lisons la cause dans les calculateurs pour 49 €, offerts si la réparation est validée.",
+    metaDesc: "Mode dégradé ou perte de puissance à Rognac : diagnostic moteur 49 €, lecture des calculateurs et mesures en temps réel, offert si réparation validée.",
+    intro: [
+      "Le scénario est typique : on s'engage sur l'A7 depuis Rognac, on accélère pour s'insérer, et le moteur plafonne d'un coup, parfois avec un voyant. Le calculateur a détecté une valeur hors norme et a volontairement <strong>limité la puissance</strong> pour protéger la mécanique. On peut rouler, mais lentement, et le problème ne disparaît pas de lui-même.",
+      "Le mode dégradé n'est qu'une conséquence. Derrière, il peut y avoir une suralimentation insuffisante, un capteur de pression qui ment, une vanne EGR bloquée ou un injecteur qui dérive. C'est ce tri que fait le diagnostic."
+    ],
+    sections: [
+      { h: "Lire l'instant où le moteur s'est protégé", p: "Le calculateur enregistre, avec chaque code, les conditions du moment : régime, température, charge. Nous relisons ces données figées puis mesurons en direct la pression de turbo, le débit d'air et la sonde lambda. Si le défaut ne se reproduit qu'en charge, un <strong>essai routier instrumenté</strong> permet de le provoquer. Comptez 30 à 90 minutes dans la majorité des cas." },
+      { h: "Le coût, et ce que vous emportez", p: "L'examen est facturé <strong>49 € TTC</strong> et offert si vous validez la réparation à l'atelier. Vous repartez avec un rapport écrit qui nomme la cause et un devis détaillé. Depuis Rognac, comptez 38 minutes par l'A7 et la L2 hors pointe ; si le véhicule ne doit plus rouler, notre service de récupération à domicile évite le trajet en puissance réduite." }
+    ],
+    faq: [
+      { q: "Couper le contact suffit-il à sortir du mode dégradé ?", a: "Parfois, la puissance revient au redémarrage, mais le code reste en mémoire et le mode dégradé se réactivera dès que les mêmes conditions se représenteront. Ce retour temporaire ne dispense pas de chercher la cause." },
+      { q: "Peut-on rouler jusqu'à Plan-de-Cuques en mode dégradé ?", a: "Sur un trajet court et sans voyant rouge, c'est généralement possible à allure modérée. Sur l'A7 avec une puissance très réduite, l'insertion devient dangereuse : mieux vaut nous appeler pour organiser la prise en charge." }
     ]
   }
 };

@@ -24,7 +24,7 @@ module.exports = {
     lead: "Berline allemande, SUV diesel ou essence turbo : nous optimisons la cartographie sur banc, avec sauvegarde de l'origine et garantie 24 mois, à 35 minutes d'Aix.",
     metaDesc: "Reprogrammation moteur pour Aix-en-Provence : Stage 1 de 350 à 690 €, Stage 2 de 690 à 990 €, carto d'origine sauvegardée, garantie 24 mois.",
     intro: [
-      "Le parc aixois compte beaucoup de <strong>motorisations turbo récentes</strong>, diesel comme essence, souvent associées à des boîtes automatiques à double embrayage. Ces moteurs sortent d'usine avec une cartographie prudente, pensée pour tous les marchés et tous les carburants. Une optimisation <strong>Stage 1</strong> libère du couple plus bas dans les tours, ce qui se ressent à l'insertion sur l'A8 ou sur l'A51 comme en relance sur la route du Tholonet.",
+      "Les <strong>motorisations turbo récentes</strong>, diesel comme essence, sont souvent associées à des boîtes automatiques à double embrayage. Ces moteurs sortent d'usine avec une cartographie prudente, pensée pour tous les marchés et tous les carburants. Une optimisation <strong>Stage 1</strong> libère du couple plus bas dans les tours, ce qui se ressent à l'insertion sur l'A8 ou sur l'A51 comme en relance sur la route du Tholonet.",
       "Chaque cartographie est développée et validée sur banc dynamométrique, dans les marges fixées par le constructeur (température d'échappement, pression de turbo, débit d'injection)."
     ],
     sections: [
@@ -42,7 +42,7 @@ module.exports = {
     lead: "Petits trajets dans le centre d'Aix, attente aux feux autour du centre ancien : la calamine s'installe. Le décalaminage hydrogène la brûle sans démontage, de 89 à 149 €.",
     metaDesc: "Décalaminage hydrogène pour Aix-en-Provence : 89 € jusqu'à 1,6 L, 119 € jusqu'à 2,5 L, 149 € au-delà. 60 à 90 min, sans démontage, à 35 min.",
     intro: [
-      "Rejoindre le Cours Mirabeau, déposer les enfants à Mazarin, faire un aller-retour vers Encagnane : à Aix, beaucoup de trajets font moins de dix kilomètres et le moteur n'atteint jamais vraiment sa température de fonctionnement. Les <strong>essence à injection directe</strong> (TSI, TFSI, EcoBoost), nombreux dans le parc local, y sont particulièrement sensibles : sans carburant pour les laver, leurs soupapes d'admission se chargent de calamine.",
+      "Rejoindre le Cours Mirabeau, déposer les enfants à Mazarin, faire un aller-retour vers Encagnane : ce sont des trajets de moins de dix kilomètres, où le moteur n'atteint jamais vraiment sa température de fonctionnement. Les <strong>essence à injection directe</strong> (TSI, TFSI, EcoBoost) y sont particulièrement sensibles : sans carburant pour les laver, leurs soupapes d'admission se chargent de calamine.",
       "Le décalaminage hydrogène introduit un mélange gazeux dans l'admission, moteur tournant. Les dépôts carbonés réagissent et sont évacués par l'échappement, sans démonter la moindre pièce."
     ],
     sections: [
@@ -60,7 +60,7 @@ module.exports = {
     lead: "Portière enfoncée dans un parking souterrain, pare-chocs frotté sur un plot : nous réparons toutes marques, peinture cabine comprise, avec devis sous 24 h.",
     metaDesc: "Carrosserie pour Aix-en-Provence : petit choc de 90 à 290 €, élément réparé de 350 à 590 €, garantie 12 mois tôlerie et 24 mois peinture.",
     intro: [
-      "Rues étroites du centre historique, rampes et piliers des parkings souterrains, stationnement serré autour de Mazarin : à Aix, la plupart des dégâts de carrosserie sont des <strong>accrochages à basse vitesse</strong>. Rayures de bas de caisse, coins de pare-chocs marqués, portières cabossées par le voisin de place, rétroviseur arraché.",
+      "Rues étroites du centre historique, rampes et piliers des parkings souterrains, stationnement serré autour de Mazarin : dans ce décor urbain, les dégâts de carrosserie typiques sont des <strong>accrochages à basse vitesse</strong>. Rayures de bas de caisse, coins de pare-chocs marqués, portières cabossées par le voisin de place, rétroviseur arraché.",
       "Ces chocs se réparent presque toujours sans changer l'élément : redressage, apprêt puis peinture en cabine pressurisée, avec un raccord ombré sur les éléments voisins pour que la retouche ne se voie pas."
     ],
     sections: [
@@ -88,6 +88,24 @@ module.exports = {
     faq: [
       { q: "Mon toit est délavé mais le reste de la voiture va bien : faut-il tout repeindre ?", a: "Non. On peut repeindre uniquement les éléments abîmés, toit ou capot, en raccordant la teinte sur les éléments voisins pour un rendu homogène." },
       { q: "Quelles peintures utilisez-vous ?", a: "Des peintures à base d'eau (Glasurit, Axalta ou Standox selon le véhicule), qui émettent beaucoup moins de composés organiques volatils que les anciennes peintures solvant, pour une finition équivalente." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Devis reçu à Aix pour une panne moteur : vérifier la cause",
+    lead: "On vous annonce une pièce coûteuse à remplacer sur votre voiture aixoise ? Avant de signer, un diagnostic à 49 € établit l'origine exacte du défaut, à 35 minutes d'Aix-en-Provence.",
+    metaDesc: "Diagnostic moteur pour Aix-en-Provence : 49 €, offert si la réparation est validée chez nous, lecture multimarque et rapport écrit. Atelier à 35 min.",
+    intro: [
+      "Un turbo, une vanne EGR ou un injecteur à changer, chiffré après une simple lecture de code : c'est une situation qui mérite un deuxième regard. Un <strong>code défaut</strong> désigne un circuit en anomalie, pas forcément la pièce fautive. Le capteur qui le signale, son faisceau ou un organe situé en amont peuvent tout aussi bien être en cause.",
+      "Pour trancher, nous croisons la lecture OBD2 multimarque et celle de la valise constructeur avec des <strong>mesures en temps réel</strong> : pression de suralimentation, débit d'air, sonde lambda, températures. Selon le cas, un essai sur route confirme l'analyse."
+    ],
+    sections: [
+      { h: "Ce que vous obtenez pour 49 €", p: "Le tarif de <strong>49 € TTC</strong> couvre l'interrogation des calculateurs, les mesures et un <strong>compte-rendu écrit</strong> qui nomme la cause identifiée. Comptez de 30 à 90 minutes en règle générale. Si vous nous confiez ensuite la réparation, le diagnostic ne vous est pas facturé ; sinon, le rapport vous appartient et vous pouvez le présenter où bon vous semble." },
+      { h: "Venir d'Aix sans subir l'A51", p: "L'atelier se trouve à 30 km, soit environ 35 minutes par l'A51 puis l'A507 hors pointe ; entre 8 h et 9 h 30 ou entre 17 h et 19 h, le trajet peut approcher les 50 minutes. Un créneau en fin de matinée est le plus confortable. Si la réparation validée dépasse 200 €, la récupération du véhicule à domicile est offerte." }
+    ],
+    faq: [
+      { q: "Mon garage aixois a déjà lu le code défaut, votre diagnostic apporte-t-il autre chose ?", a: "Oui : la lecture d'un code n'est que le point de départ. Nous analysons les conditions d'apparition enregistrées et les valeurs mesurées en fonctionnement pour distinguer la pièce défaillante d'un simple capteur ou d'un câblage abîmé." },
+      { q: "Recevrai-je un devis pour la réparation ?", a: "Oui. Le compte-rendu est accompagné d'un devis de réparation transparent, envoyé sous 24 heures ouvrées et sans engagement." }
     ]
   }
 };

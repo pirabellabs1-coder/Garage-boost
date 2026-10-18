@@ -71,5 +71,23 @@ module.exports = {
       { q: "Tous les combien faut-il faire la révision ?", a: "En règle générale tous les 15 000 à 20 000 km ou tous les 12 mois, au premier des deux termes. La révision complète coûte de 149 à 249 € et comprend un contrôle 50 points." },
       { q: "Quelle huile mettez-vous lors de la vidange ?", a: "Celle préconisée par le constructeur de votre véhicule, selon la norme et la viscosité indiquées dans le carnet. La vidange démarre à 89 €." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Panne électrique fantôme à Châteauneuf-les-Martigues",
+    lead: "Un voyant qui s'allume les matins humides puis disparaît ? Près de l'étang et de la mer, les connexions souffrent. Notre diagnostic à 49 € traque ces défauts fugitifs, à 35 min de Châteauneuf.",
+    metaDesc: "Diagnostic moteur à Châteauneuf-les-Martigues : 49 €, défauts intermittents et capteurs, essai routier si besoin, offert si la réparation est validée.",
+    intro: [
+      "Entre La Mède, Les Ventrons et Tamaris, l'air chargé de sel et d'humidité ne s'attaque pas qu'à la carrosserie. Il atteint aussi les <strong>connecteurs, faisceaux et capteurs</strong> logés sous le capot. Le résultat est rarement une panne franche : plutôt un voyant qui s'allume un matin de brume, un ralenti qui hésite, puis plus rien l'après-midi.",
+      "Ces défauts capricieux sont ceux qui coûtent le plus cher quand on procède par essais successifs. Un examen méthodique distingue un capteur réellement défaillant d'une simple connexion oxydée sur son circuit."
+    ],
+    sections: [
+      { h: "Relier le code au bon fil", p: "Le code défaut désigne un circuit, pas forcément une pièce. Nous lisons les défauts présents et passés de tous les calculateurs accessibles, moteur, ABS, ESP, airbags, BSI, puis comparons les valeurs en temps réel avec ce qu'elles devraient être. Un signal qui décroche par intermittence oriente vers le câblage plutôt que vers le capteur lui-même." },
+      { h: "Quand le défaut ne se montre pas à l'atelier", p: "Si la panne reste invisible le jour du rendez-vous, une <strong>session étendue</strong> est possible : essai routier prolongé, mesures à froid et à chaud, voire un enregistreur OBD à garder quelques jours. Le diagnostic standard coûte <strong>49 € TTC</strong>, offert si la réparation est validée chez nous ; au-delà, nous vous appelons avant de poursuivre. L'atelier est à 28 km par l'A55 et la L2, plus fluide en milieu de journée." }
+    ],
+    faq: [
+      { q: "Pourquoi le voyant revient-il surtout par temps humide ?", a: "L'humidité peut perturber une connexion déjà fragilisée par l'oxydation : le signal d'un capteur devient instable et le calculateur enregistre un défaut. Une fois sec, tout semble rentrer dans l'ordre jusqu'au prochain épisode. La lecture des défauts passés permet d'en retrouver la trace." },
+      { q: "Que contient le compte-rendu remis après l'examen ?", a: "Il liste les codes relevés, indique la cause identifiée pour chacun et s'accompagne d'un devis de réparation transparent. Vous pouvez le conserver ou le présenter à un autre professionnel." }
+    ]
   }
 };

@@ -78,7 +78,7 @@ module.exports = {
     lead: "Roue faussée, radiateur percé, pare-chocs qui frotte : après un accrochage, la voiture ne peut pas toujours repartir. À 12 km de l'atelier, La Penne relève du forfait de remorquage à 149 €.",
     metaDesc: "Dépannage à La Penne-sur-Huveaune : remorquage 149 € (moins de 25 km), voiture accidentée chargée sur plateau, majoration 50 % la nuit et le dimanche.",
     intro: [
-      "Entre l'A50, la vallée de l'Huveaune et les carrefours du Pont de l'Étoile, La Penne-sur-Huveaune voit passer beaucoup de circulation pour une petite commune. Un accrochage n'y fait le plus souvent aucun blessé, mais il suffit d'une roue faussée, d'un radiateur percé ou d'un élément de carrosserie qui frotte sur un pneu pour que la voiture <strong>ne puisse plus rouler sans risque</strong>.",
+      "Entre l'A50, la vallée de l'Huveaune et les carrefours du Pont de l'Étoile, La Penne-sur-Huveaune est traversée par des axes chargés. Un accrochage n'y fait le plus souvent aucun blessé, mais il suffit d'une roue faussée, d'un radiateur percé ou d'un élément de carrosserie qui frotte sur un pneu pour que la voiture <strong>ne puisse plus rouler sans risque</strong>.",
       "Notre <strong>dépanneuse plateau</strong> charge les véhicules accidentés, même lorsqu'une roue ne tourne plus. La Penne étant à 12 km de Plan-de-Cuques, c'est le forfait de 149 € qui s'applique, le palier de 89 € étant réservé aux interventions à moins de 10 km."
     ],
     sections: [

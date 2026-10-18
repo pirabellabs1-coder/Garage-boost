@@ -6,7 +6,7 @@ module.exports = {
     lead: "Une voiture en location longue durée marquée par la grêle à Simiane-Collongue doit être réparée avant sa restitution. Nous effaçons les impacts sans repeindre et traitons le dossier avec l'expert de l'assureur.",
     metaDesc: "Voiture grêlée en LOA/LLD à Simiane-Collongue : débosselage sans peinture dès 90 €, dossier géré avec l'expert, atelier à 20 min par la D8.",
     intro: [
-      "Dans les quartiers résidentiels de Simiane-Collongue, des Bastides au Pavillon, beaucoup de véhicules récents sont financés en <strong>LOA ou en LLD</strong>. Après un orage de grêle, la question se pose vite : que dira le loueur au moment de rendre la voiture ? Des impacts laissés en l'état seront relevés lors de l'état des lieux de restitution et facturés.",
+      "Dans les quartiers résidentiels de Simiane-Collongue, des Bastides au Pavillon, un véhicule récent est parfois financé en <strong>LOA ou en LLD</strong>. Dans ce cas, après un orage de grêle, la question se pose vite : que dira le loueur au moment de rendre la voiture ? Des impacts laissés en l'état seront relevés lors de l'état des lieux de restitution et facturés.",
       "Le <strong>débosselage sans peinture</strong> répond bien à cette situation : la tôle reprend sa forme, la peinture d'origine n'est ni poncée ni refaite, et l'aspect du véhicule redevient conforme à celui attendu en fin de contrat."
     ],
     sections: [
@@ -50,7 +50,7 @@ module.exports = {
       { h: "Le prix, et quand il est offert", p: "Le diagnostic complet coûte <strong>49 € TTC</strong>, lecture, mesures et rapport compris. Il est offert si vous validez ensuite une réparation chez Garage Boost, par exemple pour remettre en état le véhicule une fois acheté. Si un défaut est identifié, nous vous indiquons sa cause probable et chiffrons la réparation, sans pièce changée au hasard." }
     ],
     faq: [
-      { q: "Le vendeur doit-il être présent pendant le diagnostic ?", a: "Ce n'est pas obligatoire, mais le véhicule doit être amené à l'atelier de Plan-de-Cuques avec son accord. Beaucoup d'acheteurs organisent ce passage avec le vendeur, à une vingtaine de minutes de Simiane-Collongue." },
+      { q: "Le vendeur doit-il être présent pendant le diagnostic ?", a: "Ce n'est pas obligatoire, mais le véhicule doit être amené à l'atelier de Plan-de-Cuques avec son accord. Le plus simple est d'organiser ce passage avec le vendeur, à une vingtaine de minutes de Simiane-Collongue." },
       { q: "Un diagnostic électronique remplace-t-il le contrôle technique ?", a: "Non, ce sont deux examens différents. Le contrôle technique vérifie des points réglementaires ; notre diagnostic lit les calculateurs et analyse les valeurs des capteurs pour repérer des pannes que le contrôle ne recherche pas." }
     ]
   },

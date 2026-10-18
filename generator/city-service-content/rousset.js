@@ -3,10 +3,10 @@ module.exports = {
 
   'reprogrammation-moteur': {
     title: "Petits moteurs turbo récents : la reprogrammation à Rousset",
-    lead: "1.0, 1.2 ou 1.5 turbo : les moteurs downsizés du parc roussetain réagissent bien à un Stage 1 bien calibré. De 350 à 690 €, cartographie d'usine conservée, garantie 24 mois.",
+    lead: "1.0, 1.2 ou 1.5 turbo : un moteur downsizé réagit bien à un Stage 1 bien calibré. De 350 à 690 €, cartographie d'usine conservée, garantie 24 mois.",
     metaDesc: "Reprogrammation moteur pour Rousset : Stage 1 de 350 à 690 € sur essence et diesel turbo récents, retour d'origine 49 €, garantie 24 mois.",
     intro: [
-      "Les véhicules récents qui circulent autour du pôle d'activités de Rousset sont souvent équipés de <strong>moteurs de petite cylindrée suralimentés</strong> : trois ou quatre cylindres, turbo, injection directe. Ces blocs sont réglés d'usine avec une large marge, pour encaisser des carburants et des climats très variés. Une cartographie ajustée libère une partie de ce potentiel, surtout entre 1 500 et 3 500 tr/min.",
+      "Une voiture récente qui circule autour du pôle d'activités de Rousset peut être équipée d'un de ces <strong>moteurs de petite cylindrée suralimentés</strong> : trois ou quatre cylindres, turbo, injection directe. Ces blocs sont réglés d'usine avec une large marge, pour encaisser des carburants et des climats très variés. Une cartographie ajustée libère une partie de ce potentiel, surtout entre 1 500 et 3 500 tr/min.",
       "Sur un essence turbo, le gain se situe généralement entre 20 et 30 % de couple et entre 15 et 25 % de puissance, selon le moteur. Les hybrides et les électriques ne sont pas concernés."
     ],
     sections: [
@@ -42,7 +42,7 @@ module.exports = {
     lead: "Batterie de Stop & Start, indicateur de maintenance, codes défauts : l'entretien d'une voiture récente passe aussi par la valise. Révision de 149 à 249 € pour les conducteurs de Rousset.",
     metaDesc: "Mécanique générale pour Rousset : révision 149 à 249 € avec contrôle 50 points, vidange dès 89 €, clim dès 79 €. Récupération au travail possible.",
     intro: [
-      "Les voitures récentes qui stationnent devant les entreprises de Rousset ou dans les quartiers de La Burlière embarquent beaucoup d'électronique. Une révision ne se limite plus à l'huile et aux filtres : il faut <strong>lire les calculateurs</strong>, remettre à zéro l'indicateur d'entretien, contrôler la batterie, souvent spécifique sur les véhicules équipés du Stop & Start, et vérifier les éventuels défauts mémorisés.",
+      "Une voiture récente garée devant une entreprise de Rousset ou dans le quartier de La Burlière embarque beaucoup d'électronique. Une révision ne se limite plus à l'huile et aux filtres : il faut <strong>lire les calculateurs</strong>, remettre à zéro l'indicateur d'entretien, contrôler la batterie, souvent spécifique sur les véhicules équipés du Stop & Start, et vérifier les éventuels défauts mémorisés.",
       "Notre atelier dispose des outils de diagnostic nécessaires pour la plupart des marques. Le carnet est tamponné à chaque passage, ce qui préserve la garantie constructeur."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Que faire juste après un accrochage sur un parking ?", a: "Remplissez un constat amiable si un tiers est impliqué, photographiez les dégâts sous plusieurs angles et déclarez le sinistre à votre assureur. Envoyez-nous ensuite les photos pour un premier chiffrage." },
       { q: "Une teinte nacrée peut-elle vraiment être raccordée ?", a: "Oui, la teinte est reconstituée à partir du code constructeur, validée sur une plaquette d'essai puis fondue sur les éléments adjacents. C'est ce fondu qui évite la différence de nuance visible selon l'angle." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Hybride ou essence récente à Rousset : quel diagnostic ?",
+    lead: "Hybride légère, rechargeable ou essence turbo : une voiture récente multiplie les calculateurs. Notre diagnostic à 49 € les interroge un à un pour isoler l'origine d'une alerte, à 35 minutes de Rousset.",
+    metaDesc: "Diagnostic moteur pour Rousset : hybrides et essences récentes, lecture de tous les calculateurs accessibles, 49 €, offert si la réparation est validée.",
+    intro: [
+      "Sur une voiture de dernière génération, une alerte peut naître dans la gestion moteur, mais aussi dans l'ABS, l'ESP, les airbags ou le boîtier de servitude. Ces calculateurs <strong>dialoguent en permanence</strong>, et un défaut dans l'un peut allumer un message dans l'autre. Lire seulement la gestion moteur ne suffit plus.",
+      "Notre diagnostic couvre les motorisations essence, diesel et hybrides, légères ou rechargeables. Sur une électrique pure, nous lisons les périphériques mais orientons la batterie de traction vers des spécialistes habilités haute tension."
+    ],
+    sections: [
+      { h: "Interroger tous les calculateurs, pas un seul", p: "Notre valise multimarque et la valise constructeur balayent les calculateurs accessibles et relèvent les défauts présents et passés, avec leurs conditions d'apparition. Nous mesurons ensuite les valeurs utiles, pression de turbo, sonde lambda, débit d'air, pour vérifier si l'anomalie est réelle ou provient d'un capteur. Le résultat tient dans un compte-rendu écrit." },
+      { h: "Tarif, délai et accès depuis Rousset", p: "Le diagnostic coûte <strong>49 € TTC</strong> et devient gratuit si la réparation est validée chez Garage Boost. Il prend en général de 30 à 90 minutes. Depuis Rousset, comptez 35 à 45 minutes par la D6, l'A8 ou l'A51 puis la L2 ; un rendez-vous hors heures de pointe raccourcit nettement le trajet." }
+    ],
+    faq: [
+      { q: "Ma voiture est encore sous garantie, puis-je venir chez vous ?", a: "Oui pour établir un diagnostic. Si la panne relève de la garantie constructeur, le compte-rendu vous aide à faire valoir vos droits auprès du réseau de la marque." },
+      { q: "Un message d'alerte au tableau de bord est-il forcément lié au moteur ?", a: "Non. Sur une voiture récente, il peut provenir du freinage, de la sécurité passive ou de l'électronique de confort. C'est pourquoi nous lisons l'ensemble des calculateurs accessibles." }
     ]
   }
 };

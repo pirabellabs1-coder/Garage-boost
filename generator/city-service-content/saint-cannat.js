@@ -71,5 +71,23 @@ module.exports = {
       { q: "Un impact situé devant le conducteur peut-il être réparé ?", a: "Non. Dans le champ de vision direct du conducteur, même un petit impact impose le remplacement du pare-brise, car la réparation pourrait laisser une légère déformation visuelle." },
       { q: "Ma vitre latérale a été brisée, mon assurance la prend-elle en charge ?", a: "Dans la plupart des contrats, oui : la garantie bris de glace couvre aussi les vitres latérales et la lunette arrière. Vérifiez votre contrat ; nous gérons ensuite le dossier avec l'assureur." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Utilitaire en panne à Saint-Cannat : diagnostic avant devis",
+    lead: "Un fourgon de travail qui donne des à-coups ou affiche un voyant, c'est une journée d'activité en jeu. Notre diagnostic à 49 € localise la cause, à 45 minutes de Saint-Cannat.",
+    metaDesc: "Diagnostic moteur pour Saint-Cannat : utilitaires et voitures, voyant, à-coups. 49 €, offert si réparation validée. Récupération possible.",
+    intro: [
+      "Pour un artisan ou une exploitation de la plaine, un utilitaire immobilisé coûte plus cher que la réparation elle-même. Quand des <strong>à-coups en accélération</strong> apparaissent ou qu'un voyant s'allume sur la D7n, la tentation est de continuer à rouler en espérant que cela passe. Le défaut, lui, peut s'aggraver et transformer une intervention simple en panne lourde.",
+      "Le diagnostic électronique fournit une réponse rapide et argumentée : lecture des calculateurs en OBD2 multimarque et à la valise constructeur, mesure des valeurs moteur pendant le fonctionnement, essai routier si nécessaire."
+    ],
+    sections: [
+      { h: "Décider vite, devis en main", p: "En général, l'examen prend de 30 à 90 minutes. Vous repartez avec un <strong>compte-rendu écrit</strong> qui nomme la cause, et le devis de réparation suit sous 24 heures ouvrées. Vous savez ainsi tout de suite si le véhicule peut reprendre le travail ou s'il doit rester à l'atelier, et pour combien." },
+      { h: "Ne pas perdre deux heures de route", p: "Saint-Cannat est à 42 km de Plan-de-Cuques, environ 45 minutes par la D7n, l'A8, l'A51 et la rocade L2. Plutôt que de bloquer une matinée, confiez-nous le véhicule : la récupération est offerte au-delà de 200 € d'intervention validée. Le diagnostic coûte <strong>49 € TTC</strong> et ne vous est pas facturé si la réparation est faite chez nous." }
+    ],
+    faq: [
+      { q: "Diagnostiquez-vous les utilitaires comme les voitures ?", a: "Oui, notre lecture multimarque couvre les fourgons et utilitaires jusqu'aux motorisations diesel courantes du marché, comme les voitures particulières, essence, diesel ou hybrides." },
+      { q: "Que se passe-t-il si la panne demande plus de temps que prévu ?", a: "Si l'analyse doit se prolonger, par exemple pour un défaut intermittent ou plusieurs défauts qui se masquent, nous vous appelons avant de poursuivre et vous proposons un devis horaire transparent." }
+    ]
   }
 };

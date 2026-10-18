@@ -13,6 +13,7 @@ const ROOT = path.resolve(__dirname, '..');
 const data = require('./data.js');
 const cities = require('./cities.js');
 const { getUniqueContent } = require('./city-service-content');
+const { servicesForCity } = require('./city-services.js');
 
 const THRESHOLD = (parseFloat(process.argv[2]) || 25) / 100;
 const K = 8;
@@ -45,7 +46,7 @@ const catOf = {};
 for (const [cat, c] of Object.entries(data.categories)) for (const s of Object.keys(c.services)) catOf[s] = cat;
 
 const targets = [];
-for (const city of cities) for (const svc of new Set(city.topServices || [])) {
+for (const city of cities) for (const svc of servicesForCity(city)) {
   if (!getUniqueContent(city.slug, svc)) continue;
   const f = path.join(ROOT, catOf[svc], svc, city.slug + '.html');
   if (fs.existsSync(f)) targets.push({ city, svc, f });

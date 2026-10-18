@@ -71,5 +71,23 @@ module.exports = {
       { q: "Quel gain attendre sur un diesel turbo ?", a: "En général, 25 à 35 % de couple et 15 à 20 % de puissance en plus, selon la motorisation. Les essence turbo gagnent un peu moins, les atmosphériques nettement moins." },
       { q: "La reprogrammation est-elle garantie ?", a: "Oui, 24 mois. Si un défaut lié à notre intervention apparaît pendant cette période, la reprise est gratuite et traitée en priorité." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Voyants en cascade après l'hiver à Saint-Chamas",
+    lead: "Une voiture qui roule peu au bord de l'étang démarre mal et affiche plusieurs voyants ? Le diagnostic à 49 € distingue un vrai défaut d'un code laissé par une tension faible.",
+    metaDesc: "Diagnostic moteur pour Saint-Chamas : 49 € offert si réparation validée, lecture de tous les calculateurs, défauts présents et passés. Sur rendez-vous.",
+    intro: [
+      "Une voiture qui reste plusieurs jours sans tourner, près de l'étang de Berre, peut un matin démarrer difficilement puis allumer d'un coup plusieurs voyants : moteur, ABS, ESP. Ce tableau impressionne, mais il ne signifie pas forcément que plusieurs pièces sont en panne.",
+      "Une <strong>tension de batterie trop basse</strong> au démarrage peut laisser des codes défauts dans plusieurs calculateurs à la fois. Seule une lecture complète, avec les conditions d'apparition de chaque code, permet de trier ce qui relève d'une vraie panne."
+    ],
+    sections: [
+      { h: "Trier les codes avant de changer quoi que ce soit", p: "Notre valise interroge les calculateurs moteur, ABS, ESP, airbags et BSI, et relève les codes présents et passés avec leurs conditions d'apparition. Nous mesurons ensuite les valeurs en temps réel pour vérifier ce qui reste anormal une fois le moteur stabilisé. Le compte-rendu écrit sépare clairement les défauts réels et leur cause identifiée." },
+      { h: "Une heure de route, sur rendez-vous", p: "L'atelier de Plan-de-Cuques est à 46 km de Saint-Chamas, une cinquantaine de minutes par la D10, l'A7 et la L2. Sur rendez-vous, le diagnostic dure en général de 30 à 90 minutes et coûte <strong>49 € TTC</strong>. Il vous est offert si vous validez la réparation chez Garage Boost." }
+    ],
+    faq: [
+      { q: "Faut-il recharger la batterie avant de venir ?", a: "Si la voiture démarre et roule normalement, venez telle quelle : la lecture des codes donnera justement des indices sur l'état électrique. Si elle ne démarre plus, appelez-nous pour en parler avant d'organiser quoi que ce soit." },
+      { q: "Les voyants peuvent-ils disparaître seuls ?", a: "Certains s'éteignent après quelques démarrages, mais les codes restent en mémoire. Les lire permet de vérifier qu'aucun défaut réel ne se cache derrière." }
+    ]
   }
 };

@@ -71,5 +71,23 @@ module.exports = {
       { q: "Combien coûte un remorquage depuis Mimet à 22 h ?", a: "Le forfait de 149 € est majoré de 50 % entre 20 h et 7 h, soit 223,50 €. Le même calcul s'applique le dimanche et les jours fériés. Le montant vous est confirmé avant l'intervention." },
       { q: "Où la voiture est-elle conduite après le remorquage ?", a: "À notre atelier de Plan-de-Cuques, où le diagnostic et le devis suivent sous 24 heures ouvrées, ou vers le garage de votre choix dans la zone. Pour rentrer, prévoyez un taxi à votre charge ou un véhicule de prêt s'il en reste un de disponible." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Perte de puissance dans la montée de Mimet : diagnostic à 49 €",
+    lead: "La voiture s'essouffle dans les épingles de la D7, ou passe en mode dégradé en remontant au village ? Notre diagnostic électronique cherche ce qui bride le moteur, pour 49 €, à 25 minutes de Mimet.",
+    metaDesc: "Perte de puissance ou mode dégradé en montée à Mimet : diagnostic moteur 49 €, pression turbo mesurée, offert si la réparation est validée.",
+    intro: [
+      "Remonter à Mimet, c'est demander au moteur un effort soutenu sur plusieurs kilomètres. C'est souvent là qu'une faiblesse se révèle : la voiture ne reprend plus en sortie d'épingle, un voyant s'allume à mi-pente, ou le calculateur coupe la puissance pour <strong>se protéger</strong>. Arrivé en haut, tout semble rentrer dans l'ordre.",
+      "Ce comportement oriente vers la suralimentation, l'admission d'air ou l'alimentation en carburant, mais seule une lecture des calculateurs permet de trancher."
+    ],
+    sections: [
+      { h: "Mesurer le moteur quand il force", p: "Après la lecture des codes défauts, nous suivons la pression de turbo, le débit d'air et la position de la vanne EGR. Comme le défaut n'apparaît qu'en charge, un essai routier instrumenté dans une côte permet de reproduire les conditions de la montée vers Mimet et d'observer le moment exact où la puissance chute." },
+      { h: "Prix, durée et retour au village", p: "Le diagnostic coûte <strong>49 € TTC</strong>, compte-rendu écrit compris, et vous est offert si la réparation est validée chez nous. Comptez de 30 à 90 minutes. Si la voiture refuse de remonter ou reste bridée, ne forcez pas sur la D7 : Mimet est à 16 km de l'atelier, le remorquage relève donc du forfait de 149 €." }
+    ],
+    faq: [
+      { q: "Le mode dégradé disparaît après un redémarrage, dois-je m'inquiéter ?", a: "Oui. Couper le contact réinitialise souvent la limitation, mais le défaut qui l'a déclenchée reste enregistré et reviendra à la prochaine sollicitation. Mieux vaut le faire lire avant qu'il ne s'aggrave." },
+      { q: "Pourquoi un essai routier en plus de la lecture ?", a: "Parce que certaines pannes ne se manifestent que moteur chargé, en montée. L'essai instrumenté enregistre les valeurs à ce moment précis, ce qu'une mesure à l'arrêt ne permet pas." }
+    ]
   }
 };

@@ -6,7 +6,7 @@ module.exports = {
     lead: "Carrosserie bosselée après un orage sur la vallée de l'Huveaune ? À 20 minutes de Roquevaire, nous chiffrons les impacts, recevons l'expert de votre assureur et les effaçons sans repeindre.",
     metaDesc: "Voiture grêlée à Roquevaire : débosselage sans peinture dès 90 € pour quelques impacts, chiffrage remis à l'expert, aucun malus. Atelier à 20 min.",
     intro: [
-      "Dans une commune pavillonnaire comme Roquevaire, la voiture passe souvent la nuit devant le portail, le long d'une rue du centre-village ou sur une place de lotissement vers Lascours ou Pont-de-l'Étoile. Quand un orage de grêle remonte la vallée de l'Huveaune, elle encaisse les grêlons sans abri : le toit, le capot et le haut du coffre en gardent la trace sous forme de <strong>petites cuvettes</strong> plus ou moins nombreuses.",
+      "Dans une commune pavillonnaire comme Roquevaire, une voiture qui passe la nuit devant le portail, le long d'une rue du centre-village ou sur une place de lotissement vers Lascours ou Pont-de-l'Étoile est exposée : quand un orage de grêle remonte la vallée de l'Huveaune, elle encaisse les grêlons sans abri : le toit, le capot et le haut du coffre en gardent la trace sous forme de <strong>petites cuvettes</strong> plus ou moins nombreuses.",
       "Si le vernis a tenu, la réparation ne passe ni par la ponceuse ni par le pistolet. Le <strong>débosselage sans peinture</strong> consiste à remodeler la tôle depuis l'envers, à la tige, ou par traction collée quand l'accès manque. La teinte d'usine reste celle du véhicule, sans raccord ni différence de nuance."
     ],
     sections: [
@@ -24,7 +24,7 @@ module.exports = {
     lead: "Domicile-travail vers Aubagne ou Marseille chaque jour : à Roquevaire, les kilomètres défilent. Vidange dès 89 €, révision de 149 à 249 €, distribution de 490 à 890 €, sur devis sous 24 h.",
     metaDesc: "Mécanique pour Roquevaire : vidange dès 89 €, révision 149 à 249 €, purge de freins 49 €, distribution 490 à 890 €. Devis sous 24 h, atelier à 20 min.",
     intro: [
-      "Les ménages de Roquevaire dépendent largement de la voiture : trajets quotidiens vers Aubagne ou Marseille, écoles, courses, sorties du week-end. Ce kilométrage régulier rend l'entretien prévisible, à condition de le suivre. Une vidange repoussée ou une courroie oubliée finit toujours par coûter plus cher qu'un passage planifié.",
+      "Pour un foyer de Roquevaire, la voiture assure tout : trajets quotidiens vers Aubagne ou Marseille, écoles, courses, sorties du week-end. Ce kilométrage régulier rend l'entretien prévisible, à condition de le suivre. Une vidange repoussée ou une courroie oubliée finit toujours par coûter plus cher qu'un passage planifié.",
       "Notre approche est simple : regarder où en est votre véhicule par rapport aux préconisations du constructeur, puis vous proposer un <strong>calendrier lisible</strong> des prochaines échéances, avec un prix pour chacune. Rien n'est réalisé sans votre accord écrit."
     ],
     sections: [

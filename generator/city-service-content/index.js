@@ -31,4 +31,9 @@ function getUniqueContent(citySlug, serviceSlug) {
   return c && c.intro && c.intro.length && c.sections && c.sections.length ? c : null;
 }
 
-module.exports = { getUniqueContent };
+/** Services rédigés pour une commune (même hors topServices). */
+function contentServices(citySlug) {
+  return Object.keys(content[citySlug] || {}).filter(s => getUniqueContent(citySlug, s));
+}
+
+module.exports = { getUniqueContent, contentServices };

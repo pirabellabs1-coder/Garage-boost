@@ -24,7 +24,7 @@ module.exports = {
     lead: "Accès de mas étroits, chemins de domaine, cour de ferme : avant le volume, c'est souvent l'accès qui décide. Nos utilitaires vont du Kangoo au Master de 12 m³, de 49 à 79 € par jour.",
     metaDesc: "Location d'utilitaire pour Le Puy-Sainte-Réparade : Kangoo 49 €, Trafic 65 €, Master 79 € par jour, 250 km inclus, permis B. Retrait à 40 min.",
     intro: [
-      "Au Puy-Sainte-Réparade, beaucoup de maisons et de domaines se rejoignent par des voies étroites, des portails anciens ou des chemins en pente. Un fourgon trop haut ou trop long peut vite devenir un casse-tête au moment de manœuvrer. Avant de réserver, il est donc utile de <strong>repérer l'accès</strong> autant que de compter les cartons ou le matériel à transporter.",
+      "Au Puy-Sainte-Réparade, certaines maisons et certains domaines se rejoignent par des voies étroites, des portails anciens ou des chemins en pente. Un fourgon trop haut ou trop long peut vite devenir un casse-tête au moment de manœuvrer. Avant de réserver, il est donc utile de <strong>repérer l'accès</strong> autant que de compter les cartons ou le matériel à transporter.",
       "Notre flotte comprend trois gabarits, tous conduits avec le permis B, entretenus dans notre propre atelier et loués avec l'assurance tous risques."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Ma voiture est sous garantie constructeur, puis-je la reprogrammer ?", a: "Techniquement oui, mais le constructeur peut refuser de prendre en charge une panne moteur sur un véhicule modifié. Sur une voiture récente, mieux vaut peser ce point avant de vous décider." },
       { q: "Un véhicule 4x4 diesel se prête-t-il à un Stage 1 ?", a: "Dans la plupart des cas, oui, s'il est turbocompressé et en bon état. Le diagnostic préalable et la vérification de votre calculateur confirment la faisabilité et le tarif exact." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Panne intermittente au Puy-Sainte-Réparade : la capturer",
+    lead: "Un défaut qui surgit sur les routes de coteaux puis disparaît à l'arrêt ? Notre diagnostic à 49 €, avec session étendue si besoin, le traque à 40 minutes du Puy-Sainte-Réparade.",
+    metaDesc: "Diagnostic moteur pour Le Puy-Sainte-Réparade : panne intermittente, voyant fugitif. 49 €, offert si réparation validée. Atelier à 40 min.",
+    intro: [
+      "La voiture broute dans une côte de la D14, un voyant clignote quelques secondes sur un chemin cahoteux, puis plus rien pendant trois jours. Ces <strong>pannes intermittentes</strong> sont les plus frustrantes : elles ne se montrent jamais au bon moment et résistent aux remplacements de pièces faits au jugé.",
+      "Un faux contact dans un connecteur secoué par les mauvaises routes, un capteur qui décroche à chaud, un défaut d'alimentation électrique : la cause existe, il faut simplement l'observer dans les conditions où elle se produit."
+    ],
+    sections: [
+      { h: "Une méthode adaptée aux défauts fugitifs", p: "Nous commençons par lire l'historique des calculateurs, qui conserve souvent la trace du défaut et le contexte de son apparition. Si cela ne suffit pas, une <strong>session de diagnostic étendue</strong> associe essai routier prolongé et mesures à différentes températures et régimes. Dans certains cas, un enregistreur OBD vous accompagne quelques jours sur vos routes habituelles." },
+      { h: "Prix, durée et accès", p: "Le diagnostic standard coûte <strong>49 € TTC</strong> et dure de 30 à 90 minutes, rapport écrit compris ; il est offert si vous validez la réparation chez nous. Une session prolongée fait l'objet d'un devis horaire annoncé avant de commencer. L'atelier est à 40 km, environ 40 minutes par la D556, la D14 et l'A51 ; la récupération est offerte au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Que dois-je noter quand le défaut se produit ?", a: "Le moment, la température extérieure, si le moteur était froid ou chaud, le type de route et ce que vous faisiez : accélération, freinage, passage sur une bosse. Ces éléments orientent les mesures et font gagner du temps." },
+      { q: "Pourquoi ne pas remplacer directement la pièce la plus probable ?", a: "Parce qu'un défaut intermittent a souvent une origine électrique, connecteur ou câblage, que le remplacement d'une pièce ne corrige pas. Identifier la cause évite de payer une pièce inutile." }
     ]
   }
 };

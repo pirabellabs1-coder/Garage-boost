@@ -6,7 +6,7 @@ module.exports = {
     lead: "Un pick-up qui dort des semaines puis repart pour de courts trajets entre parcelles : à Eyguières, ce rythme colmate le filtre à particules. Régénération dès 250 €, sur rendez-vous.",
     metaDesc: "Nettoyage FAP pour Eyguières : régénération sans démontage dès 250 €, bain ultrason de 390 à 650 €, diagnostic de saturation inclus. À 55 km, sur RDV.",
     intro: [
-      "Dans une commune agricole comme Eyguières, beaucoup de diesels ont un usage irrégulier : un 4x4 ou un pick-up très sollicité en saison, puis presque immobile le reste de l'année, ou un véhicule qui ne fait que <strong>quelques kilomètres à petite allure</strong> entre le village, Roquemartine et les exploitations. Le filtre à particules a besoin d'un roulage soutenu pour brûler ses suies : avec ce profil, il ne l'obtient presque jamais.",
+      "Dans une commune agricole comme Eyguières, un diesel peut avoir un usage irrégulier : un 4x4 ou un pick-up très sollicité en saison, puis presque immobile le reste de l'année, ou un véhicule qui ne fait que <strong>quelques kilomètres à petite allure</strong> entre le village, Roquemartine et les exploitations. Le filtre à particules a besoin d'un roulage soutenu pour brûler ses suies : avec ce profil, il ne l'obtient presque jamais.",
       "Les signes arrivent souvent au pire moment : voyant FAP, message de régénération, puis passage en mode dégradé en pleine période de travail."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Faut-il changer le filtre à air plus souvent sur un véhicule qui roule sur des chemins ?", a: "Oui. Un filtre à air saturé de poussière réduit le débit d'air du moteur et peut augmenter la consommation. Nous le contrôlons à chaque passage et le remplaçons quand il est colmaté." },
       { q: "Prenez-vous en charge les pick-up et 4x4 ?", a: "Oui, l'atelier intervient sur les voitures, 4x4, pick-up et utilitaires légers, en essence, diesel ou hybride sur leur partie thermique." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Remettre en route un 4x4 après la saison à Eyguières",
+    lead: "Pick-up ou 4x4 resté immobile des mois près des Alpilles ? Avant de le resolliciter, un diagnostic à 49 € vérifie ce que ses calculateurs ont mémorisé, sur rendez-vous à une heure d'Eyguières.",
+    metaDesc: "Diagnostic moteur pour Eyguières : 49 €, lecture multimarque avant la remise en service d'un 4x4 ou pick-up, compte-rendu écrit. Sur rendez-vous.",
+    intro: [
+      "Un véhicule de travail qui alterne périodes intenses et longs mois d'arrêt vit mal la reprise. Après l'immobilisation, il peut démarrer difficilement à froid, hésiter au ralenti ou donner des <strong>à-coups en accélération</strong> une fois chargé.",
+      "Avant de le remettre à l'ouvrage entre le village, Roquemartine et les parcelles, une lecture électronique permet de savoir où il en est. Les calculateurs gardent la trace des défauts survenus, même lorsque le voyant s'est éteint depuis."
+    ],
+    sections: [
+      { h: "Ce que l'on vérifie avant la reprise", p: "Nous relevons les codes défauts présents et passés, puis nous observons au ralenti et en charge la pression de turbo, le débit d'air, la position de la vanne EGR et le débit des injecteurs. Si le comportement anormal n'apparaît qu'avec du poids, un essai routier complète l'analyse. Vous recevez un compte-rendu écrit et, si besoin, un devis." },
+      { h: "Une demi-journée à prévoir", p: "Eyguières est à 55 km de l'atelier, un peu moins d'une heure par la D569, l'A7 et la L2. Sur rendez-vous, le diagnostic prend généralement de 30 à 90 minutes. Il coûte <strong>49 € TTC</strong> et il est offert si la réparation est validée chez Garage Boost. Mieux vaut le programmer avant le début de la période chargée." }
+    ],
+    faq: [
+      { q: "Diagnostiquez-vous les 4x4 et pick-up de toutes marques ?", a: "Oui, notre lecture est multimarque et couvre les motorisations essence, diesel et hybrides. Les marques asiatiques et américaines sont comprises." },
+      { q: "Mon pick-up démarre mal seulement à froid, le verrez-vous à l'atelier ?", a: "Un défaut de démarrage à froid peut laisser une trace dans le calculateur, que nous lisons. Signalez-le à la prise de rendez-vous : cela oriente les mesures à réaliser." }
     ]
   }
 };

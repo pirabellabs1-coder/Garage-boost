@@ -71,5 +71,23 @@ module.exports = {
       { q: "Combien de déplacements faut-il prévoir depuis Saint-Maximin ?", a: "En général deux : le dépôt et la reprise du véhicule. Le chiffrage initial se fait sur photos, et un véhicule de prêt peut être demandé pour la durée des travaux." },
       { q: "Le raccord de peinture se verra-t-il sur une teinte métallisée ?", a: "La teinte est reconstituée au mélangeur électronique à partir du code constructeur, puis fondue en dégradé sur les éléments voisins. C'est ce qui rend la retouche invisible, y compris sur les teintes métallisées." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Refusé au contrôle pollution à Saint-Maximin ?",
+    lead: "Votre voiture a échoué au contrôle technique pour une raison de pollution ? Le diagnostic à 49 € recherche la cause électronique ou mécanique avant la contre-visite.",
+    metaDesc: "Échec au contrôle pollution ? Diagnostic moteur pour Saint-Maximin-la-Sainte-Baume : 49 €, offert si réparation validée, rapport écrit. Sur rendez-vous.",
+    intro: [
+      "Un procès-verbal de contrôle technique mentionnant un défaut de pollution laisse un délai pour la contre-visite, et une question : qu'est-ce qui cloche vraiment ? Une opacité trop forte ou des émissions hors norme ne désignent pas une pièce précise.",
+      "Le <strong>diagnostic électronique</strong> sert justement à faire le lien entre ce constat et sa cause : codes défauts enregistrés par les calculateurs, valeurs des capteurs qui pilotent la combustion et le post-traitement des gaz."
+    ],
+    sections: [
+      { h: "De la remarque du contrôleur à la pièce en cause", p: "Nous relevons les codes défauts, puis nous mesurons en temps réel la sonde lambda, la température d'échappement, la position de la vanne EGR et le débit des injecteurs. Ces valeurs montrent si la combustion ou la dépollution sont en cause. Le compte-rendu écrit et le devis vous permettent de réparer ce qui est nécessaire, et seulement cela, avant la contre-visite." },
+      { h: "Venir de Saint-Maximin sur rendez-vous", p: "L'atelier est à 48 km, environ 55 minutes par l'A8 et la L2, davantage aux heures chargées. Prenez rendez-vous pour gagner du temps sur le délai de contre-visite : le diagnostic dure en général de 30 à 90 minutes. Il coûte <strong>49 € TTC</strong> et il est offert si vous validez la réparation chez nous." }
+    ],
+    faq: [
+      { q: "Faut-il apporter le procès-verbal du contrôle ?", a: "Oui, apportez-le : les défauts relevés par le contrôleur orientent nos mesures et font gagner du temps sur l'analyse." },
+      { q: "Le diagnostic garantit-il la réussite de la contre-visite ?", a: "Il identifie la cause du défaut ; c'est la réparation qui en découle qui permet de repasser le contrôle. Nous vous indiquons clairement ce qui est nécessaire pour cela." }
+    ]
   }
 };

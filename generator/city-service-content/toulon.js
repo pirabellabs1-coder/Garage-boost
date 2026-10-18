@@ -24,7 +24,7 @@ module.exports = {
     lead: "Moteur encrassé par la circulation toulonnaise ? Le décalaminage hydrogène se réalise à notre atelier de Plan-de-Cuques, à 1h10 de Toulon, en 60 à 90 minutes, de 89 à 149 €.",
     metaDesc: "Décalaminage hydrogène pour Toulon : 89 à 149 € selon cylindrée, 60 à 90 min sans démontage, diagnostic inclus. Sur rendez-vous à Plan-de-Cuques, 65 km.",
     intro: [
-      "Entre le centre-ville, le Mourillon et Pont-du-Las, beaucoup de trajets toulonnais se font à petite vitesse, avec des arrêts fréquents et un moteur qui ne monte pas toujours en température. C'est le terrain idéal pour la <strong>calamine</strong>, qui s'accumule sur les soupapes, dans la vanne EGR et le turbo, surtout sur les diesels et les moteurs essence à injection directe.",
+      "Entre le centre-ville, le Mourillon et Pont-du-Las, un trajet toulonnais se fait à petite vitesse, avec des arrêts fréquents et un moteur qui ne monte pas toujours en température. C'est le terrain idéal pour la <strong>calamine</strong>, qui s'accumule sur les soupapes, dans la vanne EGR et le turbo, surtout sur les diesels et les moteurs essence à injection directe.",
       "Notre atelier n'est pas à Toulon mais à Plan-de-Cuques, à <strong>65 km</strong>. Le décalaminage hydrogène se prête bien à ce déplacement : l'intervention se fait sans démontage, en 60 à 90 minutes, et vous repartez le jour même."
     ],
     sections: [
@@ -52,6 +52,24 @@ module.exports = {
     faq: [
       { q: "Faut-il une licence pour louer une voiture de rallye ?", a: "Non pour un roulage libre sur circuit, le permis B suffit. Une licence FFSA n'est nécessaire que pour participer à une compétition officielle, rallye ou course." },
       { q: "Peut-on louer la voiture pour un tournage ou un événement d'entreprise ?", a: "Oui. La location s'adresse aussi aux sociétés de production et aux entreprises. Décrivez-nous le projet, le lieu et les dates : nous établissons un devis ferme sous 24 heures." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Diagnostic moteur depuis Toulon : quand faire le trajet",
+    lead: "À 1h10 de Toulon, notre diagnostic à 49 € se justifie surtout pour un défaut resté sans explication. Un premier échange par téléphone permet de décider avant de prendre l'A50.",
+    metaDesc: "Diagnostic moteur pour Toulon : 49 €, offert si réparation validée, lecture multimarque. Atelier à 1h10 par l'A50, sur rendez-vous après un échange.",
+    intro: [
+      "Soyons francs : pour un voyant simple, un garage toulonnais équipé d'une valise peut faire la lecture sans 65 km de route. Le trajet jusqu'à Plan-de-Cuques a du sens dans d'autres cas : un défaut qui revient après plusieurs réparations, ou une panne intermittente restée sans explication.",
+      "Avant de vous déplacer, décrivez-nous la situation : symptômes, codes déjà relevés, interventions déjà faites. Nous vous dirons honnêtement si le déplacement vaut la peine."
+    ],
+    sections: [
+      { h: "Ce que le diagnostic apporte sur un cas resté sans réponse", p: "Nous relisons tous les calculateurs accessibles, défauts présents et passés, puis nous mesurons en temps réel les valeurs du moteur : pression de turbo, sonde lambda, température d'échappement, position de la vanne EGR. Un essai routier complète l'analyse si nécessaire. Si la recherche doit se prolonger au-delà du diagnostic standard, nous vous appelons avant de poursuivre, avec un devis." },
+      { h: "Organiser le trajet par l'A50", p: "Comptez environ 1h10 par l'A50 puis la L2, et uniquement sur rendez-vous. Le diagnostic dure en général de 30 à 90 minutes et coûte <strong>49 € TTC</strong> ; il est offert si vous validez la réparation chez Garage Boost. Si la voiture est en mode dégradé ou affiche un voyant rouge, ne faites pas ce trajet : faites-la contrôler sur place." }
+    ],
+    faq: [
+      { q: "Pouvez-vous analyser à distance les codes relevés par un autre garage ?", a: "Nous pouvons en discuter par téléphone pour juger de l'intérêt du déplacement, mais un avis fiable suppose de lire les calculateurs et de mesurer les valeurs sur le véhicule." },
+      { q: "La réparation peut-elle être faite le même jour ?", a: "Cela dépend de la panne et de la disponibilité des pièces. Le devis vous est remis après le diagnostic, et vous décidez ensuite librement." }
     ]
   }
 };

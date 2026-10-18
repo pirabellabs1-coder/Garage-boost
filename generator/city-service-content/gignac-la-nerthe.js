@@ -71,5 +71,23 @@ module.exports = {
       { q: "Je n'ai pas le temps de venir : pouvez-vous chercher la voiture à Gignac ?", a: "Oui, la récupération à domicile est possible et doit être demandée à la prise de rendez-vous. Elle évite le trajet par l'A55 et la rocade L2, chargées aux heures de pointe." },
       { q: "Un pare-brise remplacé risque-t-il de laisser passer l'eau ?", a: "Le collage au polyuréthane professionnel assure l'étanchéité, vérifiée par un test avant la restitution. La pose et l'étanchéité sont garanties 12 mois : en cas d'infiltration liée à notre travail, la reprise est gratuite." }
     ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Fumée à l'échappement à Gignac-la-Nerthe : en trouver l'origine",
+    lead: "Fumée noire en accélérant, bleutée au démarrage ou blanche persistante : à 30 minutes de Gignac-la-Nerthe, nous en cherchons la cause. Diagnostic à 49 €, offert si la réparation est validée.",
+    metaDesc: "Diagnostic moteur pour Gignac-la-Nerthe : fumée anormale à l'échappement, lecture multimarque et mesures. 49 €, offert si la réparation est validée.",
+    intro: [
+      "C'est souvent dans le rétroviseur, ou par un autre automobiliste, que l'on découvre le panache : un nuage sombre en relançant sur l'A55, une fumée bleutée les matins froids à Laure ou au Pelletan. Une <strong>fumée anormale à l'échappement</strong> indique que la combustion ne se fait pas comme prévu, et sa couleur oriente déjà la recherche.",
+      "Le diagnostic permet d'aller plus loin que cette première impression. La lecture du calculateur moteur et la mesure de la <strong>pression de turbo</strong>, du débit d'air, de la position de la vanne EGR et de la température d'échappement indiquent si le problème vient du dosage, de l'admission ou d'une usure mécanique."
+    ],
+    sections: [
+      { h: "Distinguer un réglage d'une usure", p: "Un excès de carburant, un turbo qui ne souffle pas assez ou une vanne EGR restée ouverte peuvent produire de la fumée sans gravité mécanique. Une consommation d'huile, à l'inverse, demande d'autres vérifications. Le compte-rendu écrit précise dans quelle catégorie se range votre cas, et le devis de réparation arrive sous 24 heures." },
+      { h: "Organiser la venue depuis Gignac", p: "Comptez de 30 à 38 minutes par l'A55 puis la rocade L2, et moins en milieu de journée qu'aux heures de pointe. Si la réparation validée dépasse 200 €, la récupération à domicile est gratuite. Le diagnostic coûte <strong>49 € TTC</strong>, dure le plus souvent de 30 à 90 minutes, et vous est offert si la réparation est réalisée chez nous." }
+    ],
+    faq: [
+      { q: "Une fumée noire signifie-t-elle forcément un FAP bouché ?", a: "Non. Sur un diesel équipé d'un filtre à particules en bon état, la fumée noire est normalement retenue ; si elle sort, il faut justement comprendre pourquoi. Le dosage, l'admission d'air et le filtre lui-même sont vérifiés pendant l'examen." },
+      { q: "La fumée peut-elle faire échouer le contrôle technique ?", a: "Oui, l'opacité des fumées est mesurée sur les diesels et les émissions polluantes sur les essences. Identifier la cause avant le contrôle évite une contre-visite." }
+    ]
   }
 };

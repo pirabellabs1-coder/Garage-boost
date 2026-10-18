@@ -6,7 +6,7 @@ module.exports = {
     lead: "Quand l'orage touche la voiture principale et la seconde restée dans l'allée, il faut deux dossiers et une organisation. Nous échelonnons les réparations pour ne pas vous laisser sans véhicule.",
     metaDesc: "Grêle à Bouc-Bel-Air : deux véhicules, deux dossiers, réparations échelonnées. Débosselage sans peinture dès 90 €, chiffrage transmis à l'expert.",
     intro: [
-      "À Bouc-Bel-Air, de nombreux foyers possèdent <strong>plusieurs véhicules</strong>, et le garage n'en abrite souvent qu'un seul. Quand un épisode de grêle traverse le pays d'Aix, c'est fréquemment la seconde voiture, garée dans l'allée ou devant le portail, qui encaisse le plus. Il arrive aussi que les deux soient touchées, l'une au domicile, l'autre sur un parking de travail.",
+      "À Bouc-Bel-Air, quand un foyer possède <strong>plusieurs véhicules</strong>, le garage n'en abrite souvent qu'un seul. Quand un épisode de grêle traverse le pays d'Aix, c'est fréquemment la seconde voiture, garée dans l'allée ou devant le portail, qui encaisse le plus. Il arrive aussi que les deux soient touchées, l'une au domicile, l'autre sur un parking de travail.",
       "Pour chaque véhicule, la méthode ne change pas : si le vernis a résisté, les impacts sont repoussés un à un depuis l'intérieur des panneaux, après dépose des garnitures, et la <strong>peinture d'usine</strong> est conservée."
     ],
     sections: [
@@ -88,6 +88,24 @@ module.exports = {
     faq: [
       { q: "Puis-je continuer à rouler avec le voyant ABS allumé ?", a: "Le freinage de base fonctionne en général, mais sans antiblocage ni aide à la stabilité. Roulez prudemment, allongez les distances de sécurité et faites contrôler rapidement. Si le voyant rouge de freinage s'allume aussi, arrêtez-vous et appelez une assistance." },
       { q: "La voiture ne peut plus rouler : comment l'amener depuis Bouc-Bel-Air ?", a: "Notre service de dépannage peut l'acheminer : Bouc-Bel-Air étant à 17 km de l'atelier, le remorquage coûte 149 €, majoré de 50 % la nuit, le dimanche et les jours fériés. Votre assistance peut aussi s'en charger." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "À-coups en accélérant sur l'A51 depuis Bouc-Bel-Air",
+    lead: "La voiture hoquette quand vous accélérez pour rejoindre l'A51 ? À 25 minutes de Bouc-Bel-Air, nous recherchons l'origine des à-coups : diagnostic à 49 €, gratuit si la réparation est validée.",
+    metaDesc: "Diagnostic moteur pour Bouc-Bel-Air : à-coups à l'accélération, ratés, lecture des calculateurs. 49 €, offert si réparation validée. À 25 min par l'A51.",
+    intro: [
+      "Sur la bretelle d'accès à l'A51, on demande au moteur de passer vite de bas à haut régime. C'est souvent à ce moment que se révèlent des <strong>à-coups</strong> : la voiture hésite, tressaute, puis repart. Le reste du temps, en circulation tranquille entre La Salle et Les Cèdres, rien ne trahit le problème.",
+      "Ce symptôme peut venir de l'allumage, de l'injection, de l'admission d'air ou de la suralimentation. Plutôt que de remplacer bougies, bobines ou injecteurs l'un après l'autre, notre <strong>diagnostic électronique</strong> interroge le calculateur et observe le moteur en charge pour isoler la cause."
+    ],
+    sections: [
+      { h: "Capturer le défaut quand le moteur est sollicité", p: "Les codes présents et passés sont d'abord relevés, avec les conditions dans lesquelles ils sont apparus. Comme un à-coup se produit en accélération, un <strong>essai routier instrumenté</strong> permet ensuite de suivre en direct pression de turbo, débit d'air, sonde lambda et débit des injecteurs, et de relier l'hésitation à la mesure qui décroche." },
+      { h: "Rendez-vous et coût", p: "L'atelier est à environ 25 minutes de Bouc-Bel-Air par l'A51 et la rocade L2 ; entre 8 h et 9 h, l'A51 est souvent saturée, mieux vaut viser un créneau plus tardif. Le diagnostic coûte <strong>49 € TTC</strong>, compte-rendu écrit compris, et il est offert si vous validez la réparation chez Garage Boost. Le devis suit sous 24 heures." }
+    ],
+    faq: [
+      { q: "Les à-coups disparaissent quand le moteur est chaud, cela complique-t-il le diagnostic ?", a: "Un peu, mais les défauts mémorisés gardent la trace de la température et du régime au moment de l'incident. Pour un symptôme lié au froid, un rendez-vous avec un moteur qui n'a pas encore roulé aide à le reproduire." },
+      { q: "Un additif dans le réservoir peut-il régler le problème ?", a: "Rien ne permet de l'affirmer sans connaître la cause. Un capteur défaillant ou une fuite d'air à l'admission ne seront pas corrigés par un additif ; le diagnostic indique d'abord ce qui est en cause." }
     ]
   }
 };

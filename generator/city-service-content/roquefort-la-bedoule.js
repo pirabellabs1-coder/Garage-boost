@@ -42,7 +42,7 @@ module.exports = {
     lead: "Bouclier arrière frotté contre un pilier, bas de caisse touché en haut d'une allée en pente : à Roquefort-la-Bédoule, ces chocs de manœuvre se réparent souvent sans changer l'élément.",
     metaDesc: "Carrosserie pour Roquefort-la-Bédoule : petit choc 90 à 290 €, réparation d'élément 350 à 590 €, peinture en cabine. Devis sous 24h, garantie 12 mois.",
     intro: [
-      "Dans une commune résidentielle comme Roquefort-la-Bédoule, beaucoup de dégâts de carrosserie naissent loin de la circulation : une marche arrière un peu courte devant le portail, un angle de mur mal estimé en sortant du garage, un bas de caisse qui racle en haut d'une rampe. Ce sont des <strong>chocs à très faible vitesse</strong>, mais répétés, et ils finissent par marquer les mêmes zones du véhicule.",
+      "Dans une commune résidentielle comme Roquefort-la-Bédoule, une partie des dégâts de carrosserie peut naître loin de la circulation : une marche arrière un peu courte devant le portail, un angle de mur mal estimé en sortant du garage, un bas de caisse qui racle en haut d'une rampe. Ce sont des <strong>chocs à très faible vitesse</strong>, mais répétés, et ils finissent par marquer les mêmes zones du véhicule.",
       "Ces contacts lents déforment la tôle ou le plastique sans toujours casser la peinture. Selon l'état de la zone, nous choisissons entre un redressage léger avec retouche localisée, la réparation de l'élément avec peinture en cabine, ou son remplacement quand réparer ne se justifie plus."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Pouvez-vous charger une voiture dont une roue est arrachée ?", a: "Oui. Le plateau hydraulique et les sangles d'attache certifiées permettent de transporter un véhicule accidenté, même sans roues, comme une citadine, un SUV ou un utilitaire léger." },
       { q: "Puis-je faire déposer la voiture chez le carrossier proposé par mon assureur ?", a: "Oui, nous acheminons le véhicule vers le garage de votre choix dans notre zone d'intervention. Vous restez aussi libre de choisir votre réparateur : la remise en état peut être confiée à notre propre atelier de carrosserie." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Démarrage pénible le matin à Roquefort-la-Bédoule",
+    lead: "Le moteur tourne longtemps avant de partir, cale à froid ou tremble au ralenti ? Pour 49 €, nous en cherchons la cause, à 25 minutes de Roquefort-la-Bédoule par la D3.",
+    metaDesc: "Diagnostic moteur pour Roquefort-la-Bédoule : démarrage difficile ou ralenti instable, 49 € offerts si réparation validée. Atelier à 25 min par la D3.",
+    intro: [
+      "Le matin, au pied du massif, la voiture qui a passé la nuit dehors met plus de temps à partir. Le démarreur insiste, le moteur finit par prendre, puis le <strong>ralenti</strong> oscille quelques instants avant de se stabiliser. Une fois chaud, tout paraît normal, et l'on remet le problème à plus tard.",
+      "Un démarrage difficile à froid a pourtant des causes identifiables : sonde de température qui trompe le calculateur sur le dosage, bougies de préchauffage fatiguées sur un diesel, pression de carburant qui chute à l'arrêt, ou batterie en limite."
+    ],
+    sections: [
+      { h: "Observer le moteur à froid", p: "Pour ce type de symptôme, l'idéal est que la voiture arrive le moteur aussi froid que possible. La lecture des calculateurs est complétée par des mesures pendant les premières minutes de fonctionnement : température annoncée par la sonde, débit d'air, richesse du mélange. Si le défaut ne se reproduit pas à l'atelier, un enregistreur OBD peut être confié quelques jours pour capter un démarrage du matin chez vous." },
+      { h: "Ce que vous payez", p: "Le diagnostic coûte <strong>49 € TTC</strong>, avec un compte-rendu écrit qui désigne la cause et chiffre la réparation. Si vous validez cette réparation chez Garage Boost, les 49 € vous sont offerts. Depuis Roquefort-la-Bédoule, comptez 25 minutes par la D3 vers Aubagne puis la D4F ; un rendez-vous en début de matinée permet un examen moteur froid." }
+    ],
+    faq: [
+      { q: "Mon diesel démarre mal seulement l'hiver : le diagnostic peut-il attendre ?", a: "Mieux vaut ne pas attendre les premières gelées. Un préchauffage défaillant ou une sonde de température faussée se détectent aussi en saison douce, et le démarreur s'use à chaque tentative prolongée." },
+      { q: "Le problème peut-il venir de la batterie et non du moteur ?", a: "Oui, une batterie faible fait tourner le démarreur trop lentement et peut perturber certains calculateurs. Le diagnostic permet de vérifier la tension avant de mettre en cause le moteur." }
     ]
   }
 };

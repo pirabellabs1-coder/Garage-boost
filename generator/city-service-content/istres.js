@@ -6,7 +6,7 @@ module.exports = {
     lead: "Vidange, plaquettes, climatisation, points de contrôle technique : Garage Boost prépare les véhicules d'Istres avec un devis sous 24 h et une vidange à partir de 89 €.",
     metaDesc: "Mécanique pour Istres : vidange dès 89 €, plaquettes avant 159 €, climatisation de 79 à 149 €, devis sous 24h, garantie 12 mois.",
     intro: [
-      "Beaucoup d'Istréens découvrent les défauts de leur voiture au moment du <strong>contrôle technique</strong> : plaquettes en limite, pneus usés, feux, fuite d'huile. Une révision faite quelques semaines avant évite la contre-visite et les déplacements inutiles, d'autant que les trajets quotidiens par la D5, vers Martigues ou vers Salon, usent régulièrement le freinage et les pneumatiques.",
+      "Il arrive qu'on découvre les défauts de sa voiture au moment du <strong>contrôle technique</strong> : plaquettes en limite, pneus usés, feux, fuite d'huile. Une révision faite quelques semaines avant évite la contre-visite et les déplacements inutiles, d'autant que les trajets quotidiens par la D5, vers Martigues ou vers Salon, usent régulièrement le freinage et les pneumatiques.",
       "Autre point sensible dans l'ouest de l'étang de Berre : la <strong>climatisation</strong>, mise à rude épreuve pendant les étés chauds de la plaine de la Crau. Une recharge ou une recherche de fuite se fait idéalement avant les premières chaleurs."
     ],
     sections: [
@@ -60,7 +60,7 @@ module.exports = {
     lead: "Arrivée ou départ d'Istres, installation au Tubé ou à Rassuen : nos utilitaires de 3 à 12 m³ se louent de 49 à 79 € par jour, 250 km inclus, assurance tous risques comprise.",
     metaDesc: "Location d'utilitaire pour déménager à Istres : 3 à 12 m³ de 49 à 79 €/jour, 250 km inclus, rampe et sangles fournies. Réservation par WhatsApp.",
     intro: [
-      "Avec la base aérienne d'Istres-Le Tubé et ses affectations, Istres voit régulièrement des foyers <strong>arriver ou repartir</strong>. Un déménagement au sein de la ville, de La Bayanne vers le centre ou de Trigance vers Rassuen, ne justifie pas toujours de faire appel à un déménageur : un utilitaire bien choisi et quelques bras suffisent souvent.",
+      "Avec la base aérienne d'Istres-Le Tubé et ses affectations, un foyer peut être amené à <strong>arriver à Istres ou en repartir</strong>. Un déménagement au sein de la ville, de La Bayanne vers le centre ou de Trigance vers Rassuen, ne justifie pas toujours de faire appel à un déménageur : un utilitaire bien choisi et quelques bras suffisent souvent.",
       "Nos véhicules vont du Kangoo au Master de 12 m³, entretenus dans notre propre atelier et livrés propres, avec <strong>rampe d'accès</strong> sur Trafic et Master et sangles d'arrimage fournies."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Peut-on modifier ou annuler une réservation ?", a: "Oui, sans frais jusqu'à 72 heures avant le retrait, ce qui laisse de la marge si votre date de déménagement change." },
       { q: "Quels documents faut-il pour louer ?", a: "Un permis B, une pièce d'identité et une carte bancaire pour la caution prise en empreinte. La caution est libérée sous 7 jours après la restitution." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Bilan électronique avant une mutation depuis Istres",
+    lead: "Une affectation se termine et la voiture doit être vendue ou partir loin ? Pour 49 €, nous lisons ses calculateurs et vous remettons un compte-rendu écrit, sur rendez-vous à 50 minutes d'Istres.",
+    metaDesc: "Diagnostic moteur pour Istres : 49 €, lecture OBD2 multimarque et compte-rendu écrit avant une revente ou un long trajet. Sur rendez-vous, à 50 min.",
+    intro: [
+      "Quand une mutation approche, la voiture se retrouve au centre de deux décisions : la revendre sur place, ou lui confier un long trajet vers la nouvelle affectation. Dans les deux cas, mieux vaut savoir ce que ses calculateurs ont enregistré. Un défaut peut être mémorisé sans qu'aucun voyant ne soit allumé au tableau de bord.",
+      "Le diagnostic se fait à notre atelier de Plan-de-Cuques, à 46 km, soit une cinquantaine de minutes par la D5, l'A55 et la L2. Il associe une <strong>lecture OBD2 multimarque</strong> et une valise constructeur, et dure en général de 30 à 90 minutes."
+    ],
+    sections: [
+      { h: "Vendre avec un document en main", p: "Le compte-rendu écrit liste les codes défauts relevés, présents comme passés, et la cause identifiée pour chacun. Pour une revente, c'est un élément concret à présenter à l'acheteur. S'il révèle une réparation à prévoir, vous décidez en connaissance de cause : la faire avant la vente, ou l'intégrer au prix. Le diagnostic coûte <strong>49 € TTC</strong> et vous est offert si vous validez la réparation chez Garage Boost." },
+      { h: "Avant de traverser la France", p: "Si la voiture vous suit dans votre nouvelle affectation, un long trajet autoroutier n'est pas le moment de découvrir un mode dégradé. Nous relevons les valeurs en temps réel, pression de turbo, sonde lambda, température d'échappement, et complétons par un essai routier si nécessaire. Prenez rendez-vous quelques semaines avant le départ pour garder le temps de réparer." }
+    ],
+    faq: [
+      { q: "Le diagnostic est-il utile si aucun voyant n'est allumé ?", a: "Oui, car les calculateurs conservent aussi les défauts passés et les conditions de leur apparition. C'est précisément ce qui intéresse avant une revente ou un long trajet." },
+      { q: "Peut-on venir d'Istres sans rendez-vous ?", a: "Avec près d'une heure de route, nous vous recommandons de réserver un créneau : vous êtes sûr d'être reçu dès votre arrivée à Plan-de-Cuques." }
     ]
   }
 };

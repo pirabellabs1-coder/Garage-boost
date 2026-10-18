@@ -60,7 +60,7 @@ module.exports = {
     lead: "Horaires décalés, retour de poste à l'aube : une panne à Fos-sur-Mer arrive rarement aux heures de bureau. Notre dépanneuse roule 7 jours sur 7 ; à 50 km, le trajet est facturé au kilomètre.",
     metaDesc: "Dépannage à Fos-sur-Mer 7j/7 : remorquage 1,80 €/km au-delà de 25 km, majoration 50 % nuit, dimanche et fériés, montant annoncé avant départ.",
     intro: [
-      "Dans une commune rythmée par le port et les sites industriels, beaucoup de conducteurs circulent <strong>tôt le matin, tard le soir ou le week-end</strong>. Si la voiture refuse de repartir à ces heures-là, il faut savoir à quoi s'attendre avant d'appeler.",
+      "Dans une commune rythmée par le port et les sites industriels, quand on travaille en horaires décalés, on circule <strong>tôt le matin, tard le soir ou le week-end</strong>. Si la voiture refuse de repartir à ces heures-là, il faut savoir à quoi s'attendre avant d'appeler.",
       "Fos-sur-Mer étant à environ 50 km de Plan-de-Cuques, nos forfaits de 89 et 149 € ne s'appliquent pas : le remorquage est facturé <strong>1,80 € par kilomètre</strong> au-delà de 25 km, et le montant vous est donné au téléphone avant que la dépanneuse ne parte."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Le dépanneur peut-il remettre le véhicule en route sur place ?", a: "C'est la première chose qu'il tente : démarrage assisté, contrôle de batterie, fusible. Ce dépannage sur place est inclus dans le tarif, et le diagnostic sur place est offert." },
       { q: "Comment rentrer chez moi si la voiture part au garage ?", a: "Le retour se fait par vos propres moyens, en taxi à votre charge, ou avec un véhicule de prêt si l'un d'eux est disponible. Le devis de réparation suit sous 24 heures ouvrées." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Démarrage difficile à froid à Fos-sur-Mer : un diagnostic ciblé",
+    lead: "Le moteur peine à partir au petit matin avant le poste ? Préchauffage, capteurs, injection : notre diagnostic à 49 € isole la cause, avec récupération possible depuis Fos-sur-Mer sur devis.",
+    metaDesc: "Démarrage difficile à Fos-sur-Mer : diagnostic moteur 49 €, lecture multimarque et mesures en temps réel, offert si réparation validée.",
+    intro: [
+      "Démarrer à 5 h pour rejoindre le port ou une usine, c'est solliciter le moteur au moment où il est le plus froid. Un démarreur qui tourne longtemps avant que le moteur accroche, une fumée blanche puis un ralenti chaotique : ce symptôme s'installe en général progressivement, et finit un matin par un véhicule qui ne part plus.",
+      "Sur un diesel, les <strong>bougies de préchauffage</strong> et leur commande sont souvent suspectées, mais une sonde de température qui renvoie une valeur fausse, une pression de carburant insuffisante ou un injecteur fatigué produisent le même effet. Le diagnostic sépare ces hypothèses."
+    ],
+    sections: [
+      { h: "Observer le moteur au démarrage", p: "Nous relevons les codes enregistrés, y compris ceux qui datent de démarrages précédents, puis suivons les valeurs des capteurs pendant la mise en route : température moteur annoncée, débit des injecteurs, débit d'air. Si le défaut ne se manifeste qu'après une nuit dehors, un <strong>enregistreur OBD</strong> peut rester quelques jours sur la voiture pour capturer un démarrage réel." },
+      { h: "Prix et prise en charge depuis Fos", p: "Le diagnostic est facturé <strong>49 € TTC</strong>, rapport écrit compris, et offert si vous faites réparer chez nous. Fos-sur-Mer est à 50 km de l'atelier, une heure environ par l'A55, l'A7 et la L2 : notre service de récupération longue distance s'organise sur devis, ce qui vous évite de poser une journée." }
+    ],
+    faq: [
+      { q: "Une batterie faible peut-elle expliquer le démarrage difficile ?", a: "Oui, c'est l'une des causes à écarter d'abord, car une tension insuffisante perturbe aussi les calculateurs. Elle est vérifiée avant d'orienter la recherche vers l'injection ou le préchauffage." },
+      { q: "Le défaut n'apparaît qu'à froid : comment le voir à l'atelier ?", a: "Les codes mémorisés lors des démarrages précédents donnent déjà des indices. Si cela ne suffit pas, l'enregistreur OBD capte le défaut sur vos propres trajets, dans les conditions où il se produit." }
     ]
   }
 };

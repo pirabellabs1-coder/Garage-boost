@@ -3,7 +3,7 @@ module.exports = {
 
   'mecanique-generale': {
     title: "Saint-Savournin : entretenir une voiture qui a de la bouteille",
-    lead: "Beaucoup de voitures de Saint-Savournin ont dépassé les dix ans et roulent sur des routes de colline. Nous classons ce qui doit être remplacé, ce qui peut attendre et ce qui va bien, avec un chiffrage écrit.",
+    lead: "Une voiture de plus de dix ans qui roule sur les routes de colline de Saint-Savournin mérite un bilan franc. Nous classons ce qui doit être remplacé, ce qui peut attendre et ce qui va bien, avec un chiffrage écrit.",
     metaDesc: "Mécanique pour Saint-Savournin : voiture ancienne, suspension, freinage, vidange dès 89 €. Pré-contrôle technique gratuit avant votre passage au contrôle.",
     intro: [
       "Dans un village perché où la voiture est indispensable, on garde souvent son véhicule longtemps. Avec les années, ce ne sont plus seulement les consommables qui s'usent : les <strong>pièces en caoutchouc durcissent</strong>, les durites se craquellent, les silentblocs se fendent et le liquide de frein absorbe de l'humidité. Les lacets de la D46 et de la D908, eux, sollicitent sans relâche la direction et les amortisseurs.",
@@ -43,7 +43,7 @@ module.exports = {
     metaDesc: "Voyant moteur à Saint-Savournin : lecture complète à 49 €, non facturée si vous faites réparer chez nous, compte-rendu écrit et devis sous 24h.",
     intro: [
       "À Saint-Savournin, rejoindre un garage suppose de descendre par des routes étroites et sinueuses. Quand un voyant s'allume, la première question est donc simple : <strong>peut-on prendre la route</strong> ou faut-il laisser la voiture où elle est ? La réponse dépend surtout de la couleur du témoin et de son comportement.",
-      "Les véhicules anciens, nombreux au village, affichent plus souvent ce type d'alerte : capteurs vieillissants, faisceaux fragilisés, vanne EGR ou sonde lambda fatiguées. Un diagnostic électronique permet de mettre un nom précis sur le défaut."
+      "Un véhicule ancien affiche plus souvent ce type d'alerte : capteurs vieillissants, faisceaux fragilisés, vanne EGR ou sonde lambda fatiguées. Un diagnostic électronique permet de mettre un nom précis sur le défaut."
     ],
     sections: [
       { h: "Orange fixe, orange clignotant, rouge : la conduite à tenir", p: "Un voyant <strong>orange fixe</strong> signale un défaut détecté mais pas immédiatement dangereux : vous pouvez rouler, en prenant rendez-vous dans la semaine. S'il clignote, un raté de combustion est en cours et peut endommager le catalyseur en quelques minutes : réduisez l'allure, évitez de monter dans les tours et venez directement. Un voyant <strong>rouge</strong> impose l'arrêt dès que possible et un remorquage. Si la voiture ne roule plus, nous pouvons la récupérer chez vous." },
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Ma batterie est vide un matin d'hiver : faut-il forcément remorquer ?", a: "Non. Le technicien teste d'abord la batterie et tente un démarrage assisté ; une recharge ou un remplacement de batterie peut se faire sur place, et cette intervention est comprise dans le prix du déplacement." },
       { q: "Pouvez-vous intervenir si je suis couvert par une assistance ?", a: "Oui, nous travaillons directement avec les assurances et sociétés d'assistance. Contactez d'abord votre assisteur : il peut nous mandater et prendre en charge tout ou partie du coût." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Démarrage difficile le matin à Saint-Savournin : le diagnostic",
+    lead: "Le moteur tousse, met plusieurs secondes à partir ou broute une fois lancé sur la D46 ? Notre diagnostic électronique à 49 € cherche la cause d'un démarrage pénible à froid, à 25 minutes du village.",
+    metaDesc: "Démarrage difficile à froid à Saint-Savournin : diagnostic moteur 49 €, offert si la réparation est validée, compte-rendu écrit. À 25 min.",
+    intro: [
+      "Sur les hauteurs de Saint-Savournin, une voiture qui passe la nuit dehors démarre par des matinées fraîches. Si le démarreur tourne longtemps avant que le moteur prenne, ou si celui-ci <strong>broute les premières minutes</strong> avant de se stabiliser, quelque chose dérègle la mise en route à froid.",
+      "Ce symptôme n'allume pas toujours de voyant, ce qui pousse à le laisser traîner. Pourtant, les calculateurs enregistrent souvent des valeurs anormales au démarrage : c'est elles que notre diagnostic va chercher."
+    ],
+    sections: [
+      { h: "Ce que l'on mesure sur un départ à froid", p: "Idéalement, la voiture arrive moteur encore froid, ou reste à l'atelier pour être démarrée après refroidissement. Nous lisons les codes défauts présents et passés, puis observons au moment du démarrage les informations de température, de débit d'air et d'injection. L'objectif est de distinguer une batterie faible, un problème d'alimentation ou d'allumage, ou un capteur qui renseigne mal le calculateur." },
+      { h: "Combien et en combien de temps", p: "Le diagnostic coûte <strong>49 € TTC</strong> et vous est offert si la réparation est validée chez Garage Boost. La plupart durent entre 30 et 90 minutes et se terminent par un compte-rendu écrit et un devis. Pour venir, descendez vers la vallée de l'Huveaune en dehors des heures de pointe ; si la voiture refuse de démarrer, appelez-nous : à 16 km, le remorquage relève du forfait de 149 €." }
+    ],
+    faq: [
+      { q: "Ma voiture finit toujours par démarrer, pourquoi faire un diagnostic ?", a: "Parce qu'un démarrage laborieux sollicite le démarreur et la batterie à chaque fois, et peut annoncer une panne franche un matin. Identifier la cause tôt évite souvent une réparation en chaîne." },
+      { q: "Le diagnostic diffère-t-il d'une recherche de voyant allumé ?", a: "La méthode est la même, lecture des calculateurs et mesures en direct, mais ici l'attention se porte sur la phase de démarrage. Nous adaptons le protocole au symptôme que vous décrivez." }
     ]
   }
 };

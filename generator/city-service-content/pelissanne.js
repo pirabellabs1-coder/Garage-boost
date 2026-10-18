@@ -60,7 +60,7 @@ module.exports = {
     lead: "Face avant piquée par les gravillons de l'autoroute, pare-chocs heurté sur un parking : depuis Pélissanne, envoyez vos photos pour un premier chiffrage. Petit choc de 90 à 290 €.",
     metaDesc: "Carrosserie pour Pélissanne : éclats et petits chocs de 90 à 290 €, élément repeint de 350 à 590 €, premier chiffrage sur photos. Garantie 12 mois.",
     intro: [
-      "Quand on fait régulièrement de l'autoroute, comme beaucoup de Pélissannais vers Marseille ou Aix, la carrosserie s'use surtout à l'avant : <strong>éclats de gravillons</strong> sur le capot et le pare-chocs, petits impacts au bord des phares. Ils paraissent anodins, mais un éclat qui met la tôle à nu laisse entrer l'humidité.",
+      "Quand on fait régulièrement de l'autoroute, par exemple vers Marseille ou Aix, la carrosserie s'use surtout à l'avant : <strong>éclats de gravillons</strong> sur le capot et le pare-chocs, petits impacts au bord des phares. Ils paraissent anodins, mais un éclat qui met la tôle à nu laisse entrer l'humidité.",
       "Le reste du temps, ce sont les classiques du quotidien : rayure sur une portière dans un parking de supermarché, coin de pare-chocs frotté contre un muret ou un poteau."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Faut-il reprendre rapidement un éclat de gravillon ?", a: "Oui si la tôle est visible : sans protection, l'humidité peut amorcer une corrosion sous la peinture. Une reprise localisée reste peu coûteuse tant que la rouille ne s'est pas étendue." },
       { q: "Mon assureur peut-il traiter directement avec vous ?", a: "Oui, nous travaillons avec la plupart des compagnies. Si le sinistre est couvert, nous gérons les échanges avec l'assureur ; seule la franchise prévue au contrat peut rester à votre charge." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Consommation qui grimpe : diagnostic pour Pélissanne",
+    lead: "Un plein qui dure moins longtemps sur vos trajets vers Aix ou Marseille, sans voyant allumé ? Les mesures en temps réel du diagnostic à 49 € cherchent l'origine de la dérive.",
+    metaDesc: "Surconsommation sans voyant ? Diagnostic moteur pour Pélissanne : 49 €, mesures en temps réel, compte-rendu écrit. Sur rendez-vous, à 48 min par l'A7.",
+    intro: [
+      "La surconsommation est un symptôme discret : aucun voyant ne s'allume, la voiture roule, mais le plein se vide plus vite d'un mois sur l'autre sur les mêmes trajets par l'A7. Elle peut venir d'un capteur qui transmet une valeur faussée au calculateur, lequel corrige alors l'injection à tort.",
+      "Pour la remonter jusqu'à sa source, la lecture des codes ne suffit pas toujours. Ce sont les <strong>valeurs mesurées en direct</strong>, comparées à ce qu'elles devraient être, qui orientent vers le bon composant."
+    ],
+    sections: [
+      { h: "Débit d'air, sonde lambda, injecteurs", p: "Nous suivons en temps réel le débit d'air, la sonde lambda, la température d'échappement et le débit des injecteurs, moteur au ralenti puis en charge. Un essai sur route complète les mesures si nécessaire. L'objectif : identifier le composant qui fausse le mélange, plutôt que de remplacer plusieurs pièces en espérant tomber juste." },
+      { h: "Le déroulé depuis Pélissanne", p: "L'atelier est à 45 km, environ 48 minutes par l'A7 et la L2. Sur rendez-vous, comptez de 30 à 90 minutes de diagnostic, puis un compte-rendu écrit et un devis de réparation. Le diagnostic coûte <strong>49 € TTC</strong> et il est offert si vous validez l'intervention chez Garage Boost." }
+    ],
+    faq: [
+      { q: "Une surconsommation peut-elle venir d'autre chose que du moteur ?", a: "Oui : pneus sous-gonflés, freins qui frottent ou chargement important jouent aussi. Le diagnostic électronique vérifie la partie que les calculateurs pilotent et mesurent, ce qui permet d'écarter ou de confirmer une cause moteur." },
+      { q: "Combien de temps faut-il prévoir sur place ?", a: "La plupart des diagnostics prennent entre 30 et 90 minutes. Si l'analyse doit se prolonger, nous vous appelons avant de poursuivre." }
     ]
   }
 };

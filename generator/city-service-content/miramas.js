@@ -6,7 +6,7 @@ module.exports = {
     lead: "Du Kangoo pour quelques colis au Master de 12 m³ pour un déménagement complet : nous aidons les Miramasséens à choisir le bon volume, de 49 à 79 € par jour avec 250 km inclus.",
     metaDesc: "Location d'utilitaire pour Miramas : Kangoo 49 €, Trafic 65 €, Master 12 m³ 79 € par jour, 250 km inclus, conseil sur le volume. Retrait à Plan-de-Cuques.",
     intro: [
-      "Miramas vit au rythme de la logistique et du rail : la plateforme Clésud, les entrepôts et les activités liées au ferroviaire génèrent beaucoup de petits transports de marchandises. Les familles, elles, s'installent souvent dans les quartiers de La Péronne ou des Molières, ou en repartent. Dans les deux cas, la question est la même : <strong>quel volume faut-il vraiment</strong> ?",
+      "Miramas vit au rythme de la logistique et du rail : la plateforme Clésud, les entrepôts et les activités liées au ferroviaire génèrent de petits transports de marchandises. Une famille qui s'installe à La Péronne ou aux Molières, ou qui en repart, a aussi besoin d'un véhicule de transport. Dans les deux cas, la question est la même : <strong>quel volume faut-il vraiment</strong> ?",
       "Prendre trop petit oblige à multiplier les allers-retours ; prendre trop grand fait payer pour du vide. Nous vous conseillons selon le nombre de pièces ou le type de chargement avant de réserver."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Mon véhicule est encore sous garantie, puis-je le faire entretenir chez vous ?", a: "Oui. La réglementation européenne vous autorise à faire entretenir votre véhicule dans le garage de votre choix sans perdre la garantie constructeur, à condition de respecter le carnet et d'utiliser des pièces de qualité équivalente. Nous complétons votre carnet à chaque passage." },
       { q: "Prenez-vous en charge les véhicules hybrides ?", a: "Oui, sur la partie thermique : moteur, transmission et freinage. Pour les véhicules 100 % électriques, nous orientons vers des spécialistes habilités haute tension." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Utilitaire en mode dégradé à Miramas : trouver la cause",
+    lead: "Votre fourgon de livraison bride sa puissance autour de Clésud ? Nous lisons ses calculateurs et ses valeurs moteur pour 49 €, offerts si la réparation est validée, sur rendez-vous à 55 minutes.",
+    metaDesc: "Diagnostic moteur pour utilitaires et voitures de Miramas : 49 €, offert si réparation validée, lecture multimarque, rapport écrit. Sur rendez-vous.",
+    intro: [
+      "Pour un utilitaire qui livre entre les entrepôts de Miramas et la zone de Clésud, un passage en <strong>mode dégradé</strong> n'est pas qu'un désagrément : c'est une tournée compromise. Le calculateur limite la puissance pour protéger le moteur, et le voyant ne dit rien de l'origine du problème.",
+      "Notre lecture multimarque couvre les fourgons comme les voitures particulières. Nous interrogeons les calculateurs, relevons les codes défauts et observons les valeurs en direct pour remonter à la cause, au lieu de changer une pièce au hasard."
+    ],
+    sections: [
+      { h: "Pression de turbo, EGR, injecteurs : ce qu'on mesure", p: "Sur un diesel chargé, le mode dégradé a plusieurs origines possibles. Les mesures en temps réel de la pression de suralimentation, du débit d'air, de la position de la vanne EGR et du débit des injecteurs permettent de les départager. Un essai sur route vient compléter l'analyse si le défaut n'apparaît qu'en charge. Le compte-rendu écrit et le devis vous permettent de planifier l'immobilisation." },
+      { h: "Organiser la venue depuis Miramas", p: "Comptez environ 55 minutes et 50 km par l'A54, l'A7 puis la L2 jusqu'à Plan-de-Cuques. Prenez rendez-vous pour que le véhicule soit pris en charge dès son arrivée : le diagnostic dure en général de 30 à 90 minutes. Il coûte <strong>49 € TTC</strong>, et il est offert si vous nous confiez la réparation." }
+    ],
+    faq: [
+      { q: "Peut-on rouler jusqu'à Plan-de-Cuques en mode dégradé ?", a: "Un mode dégradé sans autre alerte permet en général de rouler calmement, mais un voyant rouge, une fumée importante ou un bruit anormal imposent l'arrêt. En cas de doute, appelez-nous avant de prendre la route." },
+      { q: "Effacer le voyant suffit-il pour finir la tournée ?", a: "Non, nous ne le faisons pas : sans traitement de la cause, le défaut revient au démarrage suivant, parfois au pire moment." }
     ]
   }
 };

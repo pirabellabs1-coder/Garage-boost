@@ -42,7 +42,7 @@ module.exports = {
     lead: "Propriétaire d'une sportive ou d'une berline puissante qui roule aussi sur circuit ? Le Stage 2 associe cartographie et pièces adaptées, de 690 à 990 € hors accessoires. Voici ce qu'il implique.",
     metaDesc: "Reprogrammation pour Cassis : Stage 2 de 690 à 990 € hors pièces, Stage 1 de 350 à 690 €, validation sur banc dynamométrique, garantie 24 mois.",
     intro: [
-      "La plupart des conducteurs n'ont besoin que d'un Stage 1, une optimisation purement logicielle. Le <strong>Stage 2</strong> s'adresse à un autre profil : véhicule à vocation sportive, sorties sur circuit, recherche de performance au-delà de ce que permet le seul calculateur.",
+      "Pour un usage courant, un Stage 1 suffit en général, une optimisation purement logicielle. Le <strong>Stage 2</strong> s'adresse à un autre profil : véhicule à vocation sportive, sorties sur circuit, recherche de performance au-delà de ce que permet le seul calculateur.",
       "Il suppose des modifications matérielles, comme un échangeur plus performant ou une admission renforcée, et une cartographie développée en conséquence. C'est un projet à mûrir, pas un réglage de confort."
     ],
     sections: [
@@ -70,6 +70,24 @@ module.exports = {
     faq: [
       { q: "Quelle différence entre les fluides R134a et R1234yf ?", a: "Ce sont deux générations de gaz réfrigérant. Les véhicules récents utilisent le R1234yf, les plus anciens le R134a. Ils ne sont pas interchangeables : nous utilisons celui prévu par le constructeur." },
       { q: "Ma climatisation sent mauvais au démarrage, est-ce une panne ?", a: "Le plus souvent, ce sont des bactéries et moisissures installées dans le circuit et le filtre d'habitacle. Une désinfection et le remplacement du filtre règlent généralement le problème." }
+    ]
+  },
+
+  'diagnostic-moteur': {
+    title: "Devis élevé reçu à Cassis ? Faites vérifier la panne d'abord",
+    lead: "On vous annonce un turbo ou un calculateur à remplacer ? Avant de signer, notre diagnostic à 49 € vérifie la cause sur les mesures réelles, à 30 minutes de Cassis par l'A50.",
+    metaDesc: "Diagnostic moteur pour Cassis : 49 €, deuxième avis avant une réparation coûteuse, lecture multimarque et rapport écrit. Atelier à 30 min de Cassis.",
+    intro: [
+      "Un devis qui annonce un turbo, un injecteur ou une vanne EGR à remplacer engage souvent une somme importante. Or un code défaut ne désigne pas toujours la pièce fautive : il signale un circuit en anomalie, qui peut venir d'un connecteur, d'une durite ou d'un capteur bien moins coûteux.",
+      "Sur une voiture récente ou haut de gamme, comme on en croise sur la route de Cassis, un <strong>second avis</strong> fondé sur des mesures permet de décider en connaissance de cause avant d'engager la dépense."
+    ],
+    sections: [
+      { h: "Repartir de zéro sur la même panne", p: "Nous ne nous contentons pas de relire le code qu'on vous a communiqué. La valise interroge l'ensemble des calculateurs accessibles, défauts actifs et passés, puis nous contrôlons en direct les valeurs liées au symptôme : pression de turbo, débit d'air, sonde lambda, température d'échappement. Si les mesures confirment la pièce annoncée, vous le savez ; si elles pointent ailleurs, le compte-rendu écrit l'explique." },
+      { h: "Tarif et organisation depuis Cassis", p: "Le diagnostic coûte <strong>49 € TTC</strong> et vous est offert si la réparation est ensuite validée chez Garage Boost. Le trajet prend une trentaine de minutes hors saison, par la D559 puis l'A50 ; le matin en semaine reste le plus fluide. Le devis de réparation, sans engagement, vous parvient sous 24 heures ouvrées." }
+    ],
+    faq: [
+      { q: "Dois-je apporter le devis de l'autre garage ?", a: "C'est utile : il indique ce qui a été observé et quelle pièce est mise en cause. Nous refaisons néanmoins notre propre lecture et nos propres mesures, pour un avis indépendant." },
+      { q: "Les marques allemandes haut de gamme sont-elles couvertes ?", a: "Oui. Notre matériel multimarque couvre notamment BMW, Mercedes, Audi et Porsche, comme la plupart des marques européennes, asiatiques et américaines." }
     ]
   }
 };
