@@ -89,5 +89,41 @@ module.exports = {
       { q: "Peut-on rouler avec un moteur qui cale de temps en temps ?", a: "C'est déconseillé : caler au milieu d'une intersection ou en s'insérant expose à un accrochage. Si le phénomène se répète, limitez les trajets et faites lire les calculateurs rapidement." },
       { q: "Et si le défaut ne se reproduit pas le jour du rendez-vous ?", a: "Le calculateur conserve en général une trace des défauts passés. Si ce n'est pas suffisant, nous proposons une session prolongée : essai sur route plus long, voire enregistreur OBD laissé quelques jours dans la voiture." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "AdBlue à La Destrousse : du simple niveau à la vraie panne",
+    lead: "Niveau bas à refaire, ou système SCR en défaut ? Savoir faire la différence évite une immobilisation. En cas de panne, diagnostic dès 90 €, déduit de la réparation.",
+    metaDesc: "AdBlue à La Destrousse : niveau ou panne SCR ? Diagnostic dès 90 € déduit si réparation, réparation de 90 à 690 € selon la pièce, garantie 12 mois.",
+    intro: [
+      "L'AdBlue est un liquide composé d'urée et d'eau déminéralisée, que le diesel consomme en même temps que le gazole, en bien moindre quantité. Quand son réservoir se vide, le véhicule prévient longtemps à l'avance, puis <strong>refuse de redémarrer</strong> une fois à zéro. Ce cas-là ne relève pas de l'atelier : il suffit de refaire le niveau avant l'échéance.",
+      "La situation change si le message évoque un défaut du système SCR, s'il apparaît réservoir rempli, ou si le <strong>compte à rebours</strong> continue après l'appoint. Un composant est alors en cause, capteur, pompe, injecteur ou sonde NOx, et seul un diagnostic permet de le désigner."
+    ],
+    sections: [
+      { h: "Les bons réflexes avant d'en arriver là", p: "Refaites le niveau dès la première alerte, sans attendre le dernier palier, et ne versez jamais autre chose que de l'AdBlue dans le réservoir dédié. Si la voiture reste longtemps immobilisée, le liquide peut laisser des cristaux dans la pompe ou l'injecteur : un voyant qui apparaît à la reprise justifie un contrôle." },
+      { h: "Quand c'est une panne : diagnostiquer, puis réparer", p: "Le diagnostic, dès 90 € et déduit si vous faites réparer chez nous, localise le composant défaillant. La réparation coûte de 90 à 690 € selon la pièce, sur devis écrit validé avant intervention, et elle est garantie 12 mois. Depuis La Destrousse, l'atelier est à 22 km ; l'A52 puis l'A50 contournent le croisement D96/D560 aux heures chargées. Un véhicule qui ne redémarre plus est remorqué au forfait de 149 €." }
+    ],
+    faq: [
+      { q: "Ma voiture refuse de démarrer à zéro AdBlue : un plein suffit-il ?", a: "S'il s'agit seulement d'un réservoir vide, l'appoint permet en général de redémarrer. Si le moteur refuse toujours, un défaut du système empêche la reprise et il faut un diagnostic." },
+      { q: "Pourquoi ne pas simplement effacer le code défaut ?", a: "Parce que le défaut reviendrait aussitôt : le calculateur détecte à nouveau la panne tant que la pièce n'est pas réparée. L'effacement des codes et la réinitialisation du décompte n'interviennent qu'après la réparation, suivis d'un essai routier." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Trou à la relance dans les ronds-points de La Destrousse : l'EGR ?",
+    lead: "Un diesel qui peine à reprendre en sortie de rond-point ou au croisement D96/D560 peut avoir une vanne EGR encrassée. Diagnostic, puis nettoyage ultrason de 180 à 290 €.",
+    metaDesc: "Vanne EGR encrassée à La Destrousse : diagnostic, démontage, bain ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €, garantie 12 mois.",
+    intro: [
+      "Traverser La Destrousse, c'est enchaîner les ralentissements : ronds-points le long de la D96, croisement avec la D560, circulation commerciale du bourg. Le moteur passe son temps à décélérer puis à réaccélérer à bas régime. Quand la <strong>vanne EGR</strong> est grippée par la suie, c'est dans ces relances que le défaut se sent : la voiture marque un temps, puis repart par à-coups.",
+      "D'autres signes accompagnent ce manque de réponse : fumée noire, consommation en hausse, et un jour un voyant moteur avec un code compris entre P0401 et P0403. Mais un trou à l'accélération peut aussi venir d'ailleurs ; tout commence donc par des mesures."
+    ],
+    sections: [
+      { h: "Confirmer avant de démonter", p: "La lecture des codes et le contrôle de la vanne en fonctionnement indiquent si elle est bien en cause. Si c'est le cas, nous la déposons, la nettoyons en <strong>bain ultrason</strong> haute température et la remontons avec des joints neufs, pour 180 à 290 € selon le moteur. Si la cause relève d'un autre organe, comme le turbo ou l'électronique moteur, vous le savez dès cette étape, sans travaux inutiles engagés chez nous." },
+      { h: "Les injecteurs, à contrôler dans la foulée", p: "Une pulvérisation dégradée fournit à la vanne la suie qui l'encrasse. Le diagnostic mesure le débit des injecteurs ; selon leur état, un traitement par additif (120 à 220 €) ou un démontage avec bain ultrason (290 à 490 €) est proposé. Diagnostic final, effacement des codes et essai routier concluent l'intervention, garantie 12 mois. L'atelier est à environ 25 minutes par la D96, la D560 et la D2." }
+    ],
+    faq: [
+      { q: "Puis-je continuer à rouler en attendant le rendez-vous ?", a: "Si la voiture n'est pas en mode dégradé, rouler calmement jusqu'au rendez-vous reste possible. Mais la suie continue de s'accumuler et peut atteindre le filtre à particules : ne laissez pas traîner plusieurs semaines." },
+      { q: "Le nettoyage tient-il dans une circulation aussi hachée ?", a: "Comptez 60 000 à 100 000 km lorsque la cause de l'encrassement est traitée, un peu moins quand les trajets ne sont faits que d'arrêts et de relances. Associer un décalaminage environ tous les 30 000 km repousse le prochain nettoyage." }
+    ]
   }
 };

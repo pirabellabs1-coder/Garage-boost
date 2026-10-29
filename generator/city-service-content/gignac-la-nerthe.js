@@ -89,5 +89,59 @@ module.exports = {
       { q: "Une fumée noire signifie-t-elle forcément un FAP bouché ?", a: "Non. Sur un diesel équipé d'un filtre à particules en bon état, la fumée noire est normalement retenue ; si elle sort, il faut justement comprendre pourquoi. Le dosage, l'admission d'air et le filtre lui-même sont vérifiés pendant l'examen." },
       { q: "La fumée peut-elle faire échouer le contrôle technique ?", a: "Oui, l'opacité des fumées est mesurée sur les diesels et les émissions polluantes sur les essences. Identifier la cause avant le contrôle évite une contre-visite." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Taxi, VTC ou navette à Gignac-la-Nerthe : la panne AdBlue",
+    lead: "Pour un diesel qui fait des courses vers l'aéroport, un voyant AdBlue menace l'activité. Diagnostic du système SCR dès 90 €, déduit en cas de réparation, garantie 12 mois.",
+    metaDesc: "Panne AdBlue à Gignac-la-Nerthe : diagnostic SCR dès 90 € déduit, réparation ciblée de 90 à 690 €, devis avant intervention, garantie 12 mois.",
+    intro: [
+      "Un véhicule de taxi, de VTC ou de navette qui dessert l'aéroport depuis Gignac-la-Nerthe enchaîne les kilomètres, les attentes et les redémarrages. Sur un diesel récent, le <strong>système AdBlue</strong> travaille en permanence, et une défaillance se traduit par un voyant puis un décompte de kilomètres avant le blocage du démarrage.",
+      "Pour un professionnel, ce décompte se mesure en courses perdues. L'objectif est donc d'aller droit au <strong>composant fautif</strong> plutôt que d'enchaîner les essais, et de fixer le coût avant de lancer la réparation."
+    ],
+    sections: [
+      { h: "Identifier la pièce, chiffrer, réparer", p: "Le diagnostic, dès 90 € et déduit si la réparation est faite à l'atelier, couvre l'ensemble du circuit : capteur de qualité, pompe, injecteur d'AdBlue, sondes NOx en amont et en aval. Un injecteur ou une pompe pris par les cristaux d'urée se décristallise ; un capteur de qualité se remplace, généralement entre 200 et 400 € ; une sonde NOx entre 350 et 650 €. Le devis écrit précède toute intervention, et les réparations s'inscrivent dans une fourchette de 90 à 690 € selon le composant." },
+      { h: "Organiser le passage autour de vos courses", p: "L'atelier est à 25 km de Gignac-la-Nerthe, une trentaine de minutes par l'A55 et la rocade L2, davantage aux heures de pointe où le trafic de l'aéroport s'ajoute aux navetteurs. Un créneau en milieu de journée limite le temps perdu. Si le véhicule ne démarre plus, le remorquage coûte 149 € en journée, la commune restant dans le rayon de 25 km. Après réparation, codes effacés et compte à rebours réinitialisé, la garantie couvre pièces et main-d'œuvre pendant 12 mois." }
+    ],
+    faq: [
+      { q: "Le paiement peut-il être étalé pour un professionnel ?", a: "Pour toute prestation de plus de 500 €, un paiement en 3 ou 4 fois sans frais est possible, sous réserve d'éligibilité. Le diagnostic et les petites réparations se règlent par carte, virement, chèque ou espèces." },
+      { q: "Une sonde NOx en défaut immobilise-t-elle aussitôt le véhicule ?", a: "Pas immédiatement : le système affiche d'abord un voyant, puis lance le décompte. Ce délai permet de venir au diagnostic, à condition de ne pas attendre que le compteur arrive à zéro." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Gignac-la-Nerthe : à-coups en montée, la vanne EGR en question",
+    lead: "Le diesel peine dans les côtes de la commune ou de la chaîne de la Nerthe ? Une vanne EGR encrassée peut en être l'origine : nettoyage ultrason et joints neufs de 180 à 290 €.",
+    metaDesc: "Vanne EGR à Gignac-la-Nerthe : diagnostic, nettoyage ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €, garantie 12 mois.",
+    intro: [
+      "Gignac-la-Nerthe s'adosse à la chaîne de la Nerthe, au-dessus de la plaine de Marignane. Les routes qui relient Laure, Le Pelletan ou La Nerthe au centre demandent au moteur de la <strong>reprise en montée</strong>, et c'est là qu'une vanne EGR encrassée se trahit : à-coups, trou à l'accélération, impression que le moteur s'étouffe.",
+      "En descente ou sur le plat, le défaut passe presque inaperçu. Sous charge, le clapet grippé par la suie dose mal les gaz recyclés, et le moteur manque d'air frais. Il le fait sentir, puis le calculateur finit par allumer le <strong>voyant moteur</strong>."
+    ],
+    sections: [
+      { h: "S'assurer que la vanne est bien coupable", p: "Une perte de puissance en montée peut aussi venir d'un débitmètre, d'une fuite d'air ou d'injecteurs fatigués. Nous lisons donc les codes, comparons les valeurs mesurées en roulant et pilotons la vanne avant toute dépose. Si la cause sort de notre domaine, turbo, mécanique interne ou électronique, nous vous le disons tout de suite, compte-rendu à l'appui." },
+      { h: "Le nettoyage et son prix", p: "La vanne est démontée, plongée dans une cuve à ultrasons chauffée qui décroche la calamine durcie, puis remontée avec des <strong>joints neufs</strong> en respectant les couples de serrage d'origine. Effacement des codes et essai routier terminent l'intervention : de 180 à 290 € selon le moteur, garantie 12 mois. Si les injecteurs participent à l'encrassement, nous proposons leur traitement, de 120 à 220 € par additif ou de 290 à 490 € avec démontage." }
+    ],
+    faq: [
+      { q: "Pourquoi le moteur tire-t-il normalement sur l'A55 mais pas dans les côtes ?", a: "À allure stable sur autoroute, le moteur demande moins de reprise qu'au pied d'une rampe. Le défaut d'une vanne grippée se manifeste surtout lors des fortes demandes de couple, d'où cette différence de comportement." },
+      { q: "Puis-je continuer à rouler en attendant le rendez-vous ?", a: "Tant que le véhicule n'est pas en mode dégradé et qu'aucun voyant rouge n'est allumé, des trajets modérés restent généralement possibles. Évitez toutefois de laisser traîner : une vanne qui se bloque finit par encrasser davantage l'admission." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP qui se rebouche à Gignac-la-Nerthe : chercher la cause en amont",
+    lead: "Votre filtre à particules a déjà été nettoyé et le voyant revient ? Nous mesurons le filtre et contrôlons ce qui produit la suie avant de le régénérer, dès 250 € sans démontage.",
+    metaDesc: "FAP qui sature à nouveau à Gignac-la-Nerthe : diagnostic inclus, régénération dès 250 €, bain ultrason 390 à 650 €, garantie 12 mois.",
+    intro: [
+      "Un filtre à particules ne s'encrasse pas tout seul : il retient ce que le moteur lui envoie. Quand il sature de nouveau quelques mois après un nettoyage, la question n'est plus seulement le filtre, mais ce qui le remplit. Une <strong>vanne EGR</strong> qui reste ouverte, un injecteur qui pulvérise mal, un débitmètre qui fausse le dosage d'air : chacun peut multiplier la suie produite.",
+      "Pour un véhicule qui roule beaucoup depuis Gignac-la-Nerthe, sur l'A55 vers Marseille ou vers l'aéroport, refaire un nettoyage sans comprendre revient à repousser le problème. Nous traitons donc <strong>le filtre et sa cause</strong>."
+    ],
+    sections: [
+      { h: "Un diagnostic en deux temps", p: "D'abord le filtre : contre-pression, niveau de charge et état de la céramique, mesures comprises dans le prix de l'intervention. Ensuite l'amont : codes défauts, comportement de la vanne EGR, débit des injecteurs, valeurs du débitmètre. Le devis distingue ce qui revient au filtre et ce qui revient à l'origine du colmatage, pour que vous décidiez sur pièces." },
+      { h: "Les solutions et leurs tarifs", p: "Un filtre moyennement chargé se régénère sans démontage en 90 minutes, <strong>dès 250 €</strong>. Un filtre très colmaté passe au bain ultrason après dépose, de 390 à 650 €, avec un à deux jours d'immobilisation. Si la vanne EGR est en cause, son nettoyage aux ultrasons coûte de 180 à 290 €. Traiter les deux évite qu'un filtre propre se remplisse aussitôt ; chaque intervention est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Mon filtre a été nettoyé ailleurs il y a peu, pouvez-vous intervenir quand même ?", a: "Oui. Apportez si possible la facture précédente : elle indique la méthode employée. Nous refaisons nos propres mesures, puis cherchons pourquoi le filtre s'est rechargé si vite." },
+      { q: "Un FAP qui sature souvent est-il usé ?", a: "Pas forcément. Tant que la céramique est intacte, le nettoyage reste possible ; c'est une fissure ou une fusion du support qui rend la régénération impossible. Dans ce cas, nous proposons un FAP reconditionné, environ moitié prix du neuf." }
+    ]
   }
 };

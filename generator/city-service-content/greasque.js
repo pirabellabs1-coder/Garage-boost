@@ -89,5 +89,59 @@ module.exports = {
       { q: "Ma consommation a augmenté mais aucun voyant n'est allumé, est-ce normal ?", a: "Oui, c'est possible : un capteur qui dérive lentement peut rester dans les tolérances du calculateur sans déclencher d'alerte. Les mesures en temps réel permettent de repérer ces écarts discrets." },
       { q: "Faut-il noter quelque chose avant de venir ?", a: "Vos derniers pleins, les kilomètres parcourus et le type de trajet nous aident. Plus la description du symptôme est précise, plus l'analyse est rapide." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Plein d'AdBlue fait, voyant toujours allumé à Gréasque",
+    lead: "Le réservoir est plein mais le voyant AdBlue persiste : la panne est ailleurs, par exemple du côté du capteur de qualité. Diagnostic du système SCR dès 90 €, déduit de la réparation.",
+    metaDesc: "Voyant AdBlue persistant à Gréasque : diagnostic SCR dès 90 €, déduit si réparation, capteur de qualité, pompe ou sonde NOx, garantie 12 mois.",
+    intro: [
+      "Premier réflexe devant un voyant AdBlue : refaire le niveau. Si le message disparaît, tout va bien. S'il reste affiché après le plein, ou revient au bout de quelques jours, le réservoir n'était pas le problème. Le système <strong>SCR</strong> d'un diesel récent dépend de plusieurs éléments, et l'un d'eux transmet une information erronée au calculateur ou ne remplit plus son rôle.",
+      "Le <strong>capteur de qualité</strong> fait partie des premiers suspects : il vérifie que le liquide présent est conforme et, s'il défaille, le système se croit alimenté avec un mauvais produit. Mais une pompe grippée, un injecteur bouché par des cristaux ou une sonde NOx en défaut produisent des messages voisins."
+    ],
+    sections: [
+      { h: "Ce que coûte chaque piste", p: "Le diagnostic, à partir de 90 € et déduit si vous faites réparer chez nous, désigne la pièce en défaut. Les ordres de grandeur sont connus : un capteur de qualité se situe entre 200 et 400 €, une sonde NOx entre 350 et 650 €. Selon le composant, la réparation va de 90 à 690 €, avec un devis validé avant intervention et une garantie de 12 mois." },
+      { h: "Venir depuis Gréasque, même en hiver", p: "L'atelier est à 18 km, soit environ 25 minutes par Mimet et les routes de crête, ou par la vallée si vous préférez éviter les portions sinueuses. Les matins de verglas, attendez que les passages ombragés dégèlent, ou confiez-nous la voiture : la récupération à domicile est offerte au-delà de 200 € d'intervention validée. Si un compte à rebours est en cours, signalez-le dès la prise de rendez-vous." }
+    ],
+    faq: [
+      { q: "Peut-on rouler avec ce voyant allumé ?", a: "Oui, tant qu'aucun compte à rebours n'est affiché ou qu'il reste une marge. Mais le décompte peut démarrer à tout moment et, arrivé à zéro, le moteur ne redémarre plus : mieux vaut faire le diagnostic sans attendre." },
+      { q: "Remplacez-vous le réservoir complet ?", a: "Seulement si le diagnostic montre que c'est lui qui est en cause. Le plus souvent, une seule pièce est défaillante, et nous ne remplaçons qu'elle plutôt que l'ensemble du système, facturé 1 500 à 2 500 € en concession." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Injecteurs encrassés à Gréasque : additif ou bain ultrason ?",
+    lead: "Sur les petits parcours de piémont, les injecteurs d'un diesel s'encrassent et entraînent la vanne EGR avec eux. Traitement par additif de 120 à 220 €, démontage et ultrason de 290 à 490 €.",
+    metaDesc: "Injecteurs et vanne EGR à Gréasque : additif de 120 à 220 €, démontage et ultrason de 290 à 490 €, vanne EGR de 180 à 290 €, garantie 12 mois.",
+    intro: [
+      "Quand un diesel de Gréasque fait surtout des allers-retours entre Le Vallon, La Grande Bastide et le centre, ou rejoint Gardanne par la D6, ses trajets sont trop courts pour atteindre la température de fonctionnement. Ces conditions favorisent les dépôts de gomme et de calamine sur le nez des <strong>injecteurs</strong>, qui pulvérisent le gazole sous très haute pression. Quand le jet se dégrade, la combustion n'est plus complète.",
+      "Cette combustion imparfaite produit davantage de suie, qui va encrasser la <strong>vanne EGR</strong> puis le filtre à particules. Ralenti irrégulier, démarrage plus laborieux à froid, consommation en hausse : traiter les injecteurs, c'est agir sur le premier maillon de la chaîne."
+    ],
+    sections: [
+      { h: "Deux niveaux de traitement", p: "Le diagnostic mesure le débit de chaque injecteur. Pour un encrassement léger, un <strong>additif premium</strong> suffit, de 120 à 220 €. Quand les dépôts sont installés, les injecteurs sont démontés et nettoyés en <strong>bain ultrason</strong>, de 290 à 490 €, puis remontés avec des joints neufs. Si un injecteur présente un défaut interne que le nettoyage ne corrige pas, nous vous l'indiquons avant toute intervention." },
+      { h: "Et la vanne EGR ?", p: "Si les mesures montrent qu'elle est déjà encrassée, la traiter dans le même rendez-vous évite qu'elle continue à perturber le moteur : démontage, ultrason et joints neufs de 180 à 290 €. Un produit versé dans le réservoir n'atteint pas les dépôts internes d'une vanne très chargée ; seul le démontage les élimine. L'ensemble est garanti 12 mois." }
+    ],
+    faq: [
+      { q: "Comment savoir si l'additif suffira pour mes injecteurs ?", a: "C'est la mesure de débit qui tranche : un écart modéré se corrige par additif, des écarts marqués imposent le démontage. Le devis précise la formule retenue avant que nous commencions." },
+      { q: "Pourquoi traiter les injecteurs si c'est la vanne EGR qui est en défaut ?", a: "Parce qu'une vanne nettoyée se recharge vite si les injecteurs continuent à produire trop de suie. Traiter les deux remet la chaîne en ordre et fait durer le résultat." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Hiver à Gréasque : le FAP d'un diesel qui ne chauffe plus",
+    lead: "Par temps froid, un diesel met plus longtemps à chauffer et les petits trajets de Gréasque ne suffisent plus à régénérer le filtre à particules. Régénération chimique dès 250 €, diagnostic inclus.",
+    metaDesc: "Nettoyage FAP pour Gréasque : régénération chimique dès 250 € en 90 min, bain ultrason de 390 à 650 €, diagnostic inclus, garantie 12 mois.",
+    intro: [
+      "L'hiver, un moteur diesel met plus de temps à monter en température, surtout après une nuit dehors. Un trajet de dix minutes vers le centre ou vers Fuveau se termine alors avant même que le moteur soit chaud, et le <strong>filtre à particules</strong> encore moins. Les régénérations, qui exigent une température très élevée dans la ligne d'échappement, n'ont aucune chance d'aboutir.",
+      "Au fil des semaines froides, la suie s'accumule. Le voyant FAP s'allume en fin d'hiver, parfois accompagné d'un <strong>mode dégradé</strong> et d'une consommation en hausse d'un à deux litres aux cent kilomètres."
+    ],
+    sections: [
+      { h: "Ce que comprend l'intervention", p: "Le diagnostic, inclus, mesure la contre-pression et le taux de saturation et contrôle la céramique. Moins de 80 % de saturation : <strong>régénération chimique</strong> sans démontage, additif injecté puis régénération pilotée, en 90 minutes, à partir de 250 €. Au-delà : dépose et <strong>bain ultrason</strong> haute température, de 390 à 650 €, 1 à 2 jours. Effacement des défauts, essai routier et compte-rendu avec les mesures avant et après." },
+      { h: "Garder le filtre propre jusqu'au printemps", p: "Une fois par mois, profitez d'un déplacement vers Gardanne pour prolonger sur l'A51 : une trentaine de kilomètres à vitesse stabilisée, vers 110 km/h, permet en général au filtre de se régénérer seul. Les matins de verglas sur les portions ombragées, rien ne presse : la récupération à domicile, offerte au-delà de 200 € d'intervention validée, s'applique à tout nettoyage de FAP." }
+    ],
+    faq: [
+      { q: "Faire chauffer le moteur à l'arrêt avant de partir aide-t-il le filtre ?", a: "Non : au ralenti, le moteur chauffe lentement et la ligne d'échappement reste loin de la température de régénération. Mieux vaut partir en douceur et, de temps en temps, rouler plus longtemps à allure soutenue." },
+      { q: "Le voyant FAP s'est éteint tout seul : dois-je quand même consulter ?", a: "Un voyant qui s'éteint peut signifier qu'une régénération a enfin abouti. S'il revient régulièrement, le filtre est proche de la saturation : un contrôle de la contre-pression permet d'intervenir avant le mode dégradé." }
+    ]
   }
 };

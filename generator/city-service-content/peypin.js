@@ -89,5 +89,59 @@ module.exports = {
       { q: "Peut-on continuer à rouler avec des à-coups ?", a: "Brièvement, mais sans tarder à faire contrôler : un raté de combustion envoie du carburant imbrûlé dans l'échappement, ce qui peut endommager le catalyseur. Si le voyant moteur clignote, réduisez l'allure et faites vérifier rapidement." },
       { q: "Changer les bougies suffit-il en général ?", a: "Parfois, mais pas toujours : une bobine ou un injecteur peuvent produire le même symptôme. Le diagnostic indique le cylindre concerné et la pièce en cause, ce qui évite de remplacer des pièces au hasard." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Utilitaire d'artisan à Peypin : réparer l'AdBlue sans tout changer",
+    lead: "Un fourgon immobilisé par une panne AdBlue, c'est une journée de chantier perdue. Garage Boost localise le composant en cause et ne répare que lui, avec un diagnostic dès 90 € déduit de la réparation.",
+    metaDesc: "Panne AdBlue sur utilitaire à Peypin : diagnostic SCR dès 90 €, déduit si réparation, réparation de 90 à 690 € selon la pièce, garantie 12 mois.",
+    intro: [
+      "Pour un artisan installé à Peypin, à Valdonne ou aux Fauyes, l'utilitaire est un outil de travail. Un fourgon diesel récent est généralement équipé du système <strong>SCR</strong>, qui injecte de l'AdBlue dans l'échappement pour réduire les oxydes d'azote. Quand un capteur, la pompe ou l'injecteur flanche, le voyant s'allume et un compte à rebours démarre : il reste quelques centaines de kilomètres avant que le moteur refuse de repartir.",
+      "Quand la journée commence tôt sur la D96, ce message tombe rarement au bon moment. Mieux vaut appeler avant de reprendre la tournée : un rendez-vous fixé rapidement permet de traiter la panne tant qu'il reste de la marge au compteur."
+    ],
+    sections: [
+      { h: "Une réparation ciblée, chiffrée avant de commencer", p: "Le diagnostic, dès 90 € et déduit si la réparation est confiée à l'atelier, lit les codes du système SCR et teste chaque composant. Vous recevez un devis écrit qui désigne la pièce en cause : capteur de qualité, sonde NOx, pompe, injecteur ou simple décristallisation. Selon le cas, la réparation coûte de 90 à 690 €, à comparer aux 1 500 à 2 500 € d'un remplacement complet en concession. Pièces et main-d'œuvre sont garanties 12 mois." },
+      { h: "Réduire le temps d'arrêt", p: "Précisez à la prise de rendez-vous que le véhicule sert à travailler, et visez de préférence le milieu de matinée, quand la D96 et la vallée de l'Huveaune sont dégagées. Si vous ne pouvez pas vous libérer, nous récupérons l'utilitaire à Peypin, prestation offerte au-delà de 200 € d'intervention validée. Un fourgon déjà bloqué, à 18 km de l'atelier, est remorqué au forfait de 149 €." }
+    ],
+    faq: [
+      { q: "Un utilitaire en compte à rebours peut-il finir sa journée ?", a: "Tant que le compteur indique une marge, le véhicule roule normalement. Mais chaque kilomètre la réduit, et une fois à zéro le moteur ne redémarre plus. Organisez le diagnostic avant de vous engager dans une longue tournée." },
+      { q: "Un garage peut-il éteindre le voyant sans réparer ?", a: "Pas chez nous. Faire taire le système en le rendant inopérant est illégal sur route et fait échouer le contrôle technique. Nous remettons le système SCR en état de fonctionner, ce qui règle la panne durablement." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Bouchons de la D96 : la vanne EGR des pendulaires de Peypin",
+    lead: "La file de 7 h 30 à 9 h sur la D96, en première et en deuxième, est un terrain propice à l'encrassement de la vanne EGR. Démontage, nettoyage ultrason et joints neufs de 180 à 290 €.",
+    metaDesc: "Vanne EGR encrassée à Peypin : démontage, bain ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €. Atelier à 25 min par la D96.",
+    intro: [
+      "Le matin, quand tout le bassin descend de Peypin vers Aubagne, la D96 devient une file lente entre 7 h 30 et 9 h. Avancer au pas, moteur à bas régime, s'arrêter, repartir : c'est le type d'usage dans lequel la <strong>vanne EGR</strong> d'un diesel se charge de suie et de vapeurs d'huile, jusqu'à ce que son clapet ne bouge plus librement.",
+      "L'encrassement s'installe sans bruit. La <strong>consommation grimpe</strong> de plein en plein, la puissance baisse progressivement, un panache sombre apparaît quand la file se libère, puis le voyant moteur s'allume avec un code défaut EGR."
+    ],
+    sections: [
+      { h: "Déposer, nettoyer, remonter", p: "Nous commençons par lire les codes et vérifier le fonctionnement de la vanne. Si elle est en cause, elle est démontée, passée une à deux heures en <strong>machine ultrason</strong>, puis remontée avec des joints neufs. Le tarif, de 180 à 290 € selon la motorisation, est annoncé avant de commencer ; diagnostic de contrôle, effacement des codes et essai routier concluent l'intervention, garantie 12 mois." },
+      { h: "Faire durer le résultat malgré les bouchons", p: "On ne choisit pas toujours ses horaires, mais décaler son départ après le pic, quand c'est possible, réduit le temps passé au pas. Des injecteurs propres limitent aussi la suie produite : un traitement par additif coûte de 120 à 220 €, un nettoyage complet après démontage de 290 à 490 €. Un décalaminage tous les 30 000 km environ complète cet entretien." }
+    ],
+    faq: [
+      { q: "Ma vanne a déjà été nettoyée il y a quelques années : est-il normal qu'elle recommence ?", a: "Oui, si les conditions de roulage n'ont pas changé. Lorsque la cause de l'encrassement est traitée, un nettoyage tient en général 60 000 à 100 000 km, moins dans une circulation lente et répétée chaque jour." },
+      { q: "Puis-je déposer la voiture avant d'aller travailler ?", a: "Oui, en convenant de l'horaire à l'avance. L'intervention sur la vanne occupe environ une demi-journée ; vous pouvez aussi nous laisser venir chercher la voiture à Peypin, ce qui est offert au-delà de 200 € d'intervention validée." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP de nouveau saturé à Peypin : comprendre la rechute",
+    lead: "Un filtre à particules nettoyé qui se colmate à nouveau au bout de quelques mois signale une cause restée en place. Diagnostic compris, régénération sans démontage dès 250 €.",
+    metaDesc: "FAP qui se rebouche à Peypin : diagnostic inclus, recherche de la cause, régénération dès 250 €, bain ultrason de 390 à 650 €, garantie 12 mois.",
+    intro: [
+      "Un diesel de Peypin qui alterne petits trajets en côte au départ du village et quelques kilomètres de voie rapide vers Marseille ou Aubagne met son <strong>filtre à particules</strong> à rude épreuve. Le nettoyer remet les compteurs à zéro ; mais si le voyant revient au bout de quelques mois, le filtre n'est plus le seul en cause.",
+      "Un FAP se remplit d'autant plus vite que le moteur produit de la suie. Une <strong>vanne EGR</strong> encrassée, un débitmètre qui mesure mal l'air admis, un turbo fatigué ou des injecteurs qui pulvérisent mal augmentent cette production. Tant que la source n'est pas identifiée, le filtre se charge plus vite qu'il ne se vide."
+    ],
+    sections: [
+      { h: "Remonter à la source avant de nettoyer", p: "Le diagnostic préalable, inclus dans le prix, ne se limite pas au filtre : lecture des codes défauts, contre-pression, taux de saturation, état de la céramique, et contrôle des éléments qui l'alimentent en suie. Si la vanne EGR ou les injecteurs sont en cause, nous chiffrons leur traitement à part. Si la piste mène au turbo ou à un organe interne du moteur, vous en êtes informé par écrit, sans travaux engagés de notre côté." },
+      { h: "Le nettoyage, puis les bonnes habitudes", p: "Un filtre chargé à moins de 80 % est traité par régénération chimique sans démontage, à partir de 250 € et en 90 minutes ; au-delà, dépose et bain ultrason haute température, de 390 à 650 €, 1 à 2 jours. Ensuite, une huile faibles cendres adaptée au diesel et, une fois par mois, une trentaine de kilomètres vers 110 km/h laissent au filtre l'occasion de se régénérer seul." }
+    ],
+    faq: [
+      { q: "La garantie couvre-t-elle un filtre qui se rebouche ?", a: "La régénération est garantie 12 mois : si un défaut est lié à notre travail, la reprise est gratuite. Un nouvel encrassement dû à une autre cause, comme une vanne EGR qui continue d'envoyer de la suie, relève d'un traitement distinct, d'où l'intérêt du diagnostic préalable." },
+      { q: "Le décalaminage aide-t-il à éviter une nouvelle saturation ?", a: "Il limite la calamine produite en amont du filtre. Réalisé environ tous les 30 000 km, il complète utilement un nettoyage de FAP sur un moteur qui fait surtout des trajets courts." }
+    ]
   }
 };

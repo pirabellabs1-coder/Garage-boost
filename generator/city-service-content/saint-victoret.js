@@ -89,5 +89,59 @@ module.exports = {
       { q: "Le moteur cale seulement quand la climatisation tourne, est-ce lié ?", a: "C'est possible : la climatisation ajoute une charge que le calculateur doit compenser au ralenti. Le diagnostic vérifie comment le régime réagit à cette charge et quel élément empêche la compensation." },
       { q: "Ma voiture de société est en location longue durée, puis-je vous la confier ?", a: "Pour un diagnostic, rien ne s'y oppose en général, mais votre contrat peut imposer un réseau d'entretien. Vérifiez-le avant le rendez-vous ; notre compte-rendu écrit reste utilisable auprès du loueur." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Utilitaire bloqué par l'AdBlue à Saint-Victoret : remise en route",
+    lead: "Fourgon de livraison ou véhicule d'activité qui refuse de démarrer à cause de l'AdBlue ? Nous le remorquons pour 149 €, diagnostiquons le système SCR dès 90 € et réparons la pièce en cause.",
+    metaDesc: "AdBlue en panne à Saint-Victoret : dépannage 149 €, diagnostic SCR dès 90 € déduit, réparation 90 à 690 € selon la pièce, garantie 12 mois.",
+    intro: [
+      "Entre l'aéroport, les entrepôts et les axes A7 et A55, un utilitaire de livraison ou de service peut enchaîner les journées sans répit. Sur un diesel récent, le système SCR fait partie de ce qui travaille sans qu'on y pense, jusqu'au jour où le <strong>compte à rebours</strong> arrive à zéro : le moteur ne redémarre plus, chargement à bord.",
+      "À ce stade, plus aucun trajet n'est possible. Mais la panne elle-même se limite souvent à un seul élément : <strong>pompe ou injecteur cristallisé</strong>, capteur de qualité, sonde NOx. Identifier cet élément est la priorité pour remettre le véhicule au travail."
+    ],
+    sections: [
+      { h: "De l'appel à la remise en service", p: "Saint-Victoret se trouve à 22 km de l'atelier : le remorquage jusqu'à Plan-de-Cuques coûte <strong>149 €</strong> en journée, majoré de 50 % la nuit, le dimanche et les jours fériés. Sur l'autoroute elle-même, ce sont les dépanneurs agréés de l'autoroute qui interviennent. À l'atelier, le diagnostic du circuit AdBlue, dès 90 € et déduit en cas de réparation, désigne la pièce fautive. Vous recevez un devis écrit, de 90 à 690 € selon le composant, avant toute intervention." },
+      { h: "Un système remis en conformité", p: "La pièce défaillante est décristallisée, réparée ou remplacée, le dosage d'AdBlue contrôlé, puis les codes effacés et le compte à rebours réinitialisé. Un essai sur route confirme l'extinction du voyant. L'utilitaire repart avec une dépollution qui fonctionne, ce qui compte aussi pour le prochain contrôle technique, et une garantie de 12 mois sur les pièces et la main-d'œuvre." }
+    ],
+    faq: [
+      { q: "Le voyant AdBlue s'est allumé après plusieurs jours sans rouler, pourquoi ?", a: "Une immobilisation prolongée favorise la formation de cristaux d'urée dans la pompe ou l'injecteur. Une décristallisation suffit parfois, ce que le diagnostic permet de vérifier avant d'envisager un remplacement." },
+      { q: "Existe-t-il un moyen de rouler en attendant la réparation ?", a: "Une fois le décompte épuisé, non : le démarrage est bloqué. Tant qu'il reste des kilomètres, prenez rendez-vous sans attendre. Contourner le système n'est pas une option : c'est illégal, et nous ne le faisons pas." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Diesel d'ex-location acheté à Saint-Victoret : EGR et injecteurs",
+    lead: "Un diesel d'occasion venu d'une flotte de location ou d'entreprise peut avoir accumulé beaucoup de kilomètres en peu d'années. Nous contrôlons sa vanne EGR et ses injecteurs, puis les nettoyons si besoin.",
+    metaDesc: "Vanne EGR et injecteurs à Saint-Victoret : nettoyage EGR ultrason 180 à 290 €, injecteurs 120 à 490 € selon l'état. Garantie 12 mois.",
+    intro: [
+      "Près de l'aéroport, les loueurs et les flottes d'entreprise renouvellent leurs véhicules, et certains se retrouvent ensuite sur le marché de l'occasion. Un tel diesel a parfois connu des conducteurs successifs, des <strong>trajets courts répétés</strong> et de longs moments au ralenti : le profil qui encrasse le plus la vanne EGR et les injecteurs.",
+      "Le carnet d'entretien indique les vidanges, rarement l'état de ces organes. Juste après l'achat, un passage à l'atelier permet de savoir si un <strong>nettoyage</strong> est à prévoir et à quel prix, avant que les symptômes ne s'installent."
+    ],
+    sections: [
+      { h: "Ce que révèle le contrôle", p: "Nous lisons les défauts mémorisés, y compris ceux qui ne sont plus actifs, mesurons le débit de chaque injecteur et commandons l'ouverture de la vanne EGR pour vérifier sa réponse. Mesurer plutôt que se fier au seul tableau de bord donne une image fidèle : un voyant éteint ne dit pas qu'une vanne est propre. Vous repartez avec un état clair de ce qui est sain et de ce qui demande une intervention." },
+      { h: "Les tarifs si un nettoyage s'impose", p: "La vanne EGR est déposée, nettoyée en bain ultrason haute température et remontée avec des joints neufs : de 180 à 290 € selon la motorisation. Pour les injecteurs, un additif professionnel traite un encrassement léger (120 à 220 €) ; un démontage avec nettoyage aux ultrasons s'impose au-delà (290 à 490 €). Ces interventions sont garanties 12 mois. Si le contrôle révèle un souci plus lourd, moteur ou électronique, nous vous le signalons franchement : ce n'est pas notre périmètre, mais vous saurez à quoi vous en tenir." }
+    ],
+    faq: [
+      { q: "Le vendeur affirme que la voiture a toujours roulé sur autoroute : cela change-t-il quelque chose ?", a: "Un usage autoroutier encrasse moins la vanne EGR, mais il ne la protège pas totalement, ni les injecteurs. Seules les mesures disent où en sont réellement ces pièces." },
+      { q: "Puis-je faire venir la voiture sans la conduire moi-même ?", a: "Oui. Saint-Victoret est à 22 km, environ une demi-heure par l'A7 ou l'A55 et la rocade L2. Si vous préférez, nous récupérons la voiture à domicile, gratuitement au-delà de 200 € d'intervention validée." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP et moteur au ralenti : le cas des conducteurs de Saint-Victoret",
+    lead: "Attendre moteur tournant devant l'aérogare ou dans les files de l'A7, c'est charger le filtre à particules sans le nettoyer. Régénération sans démontage dès 250 €, diagnostic inclus.",
+    metaDesc: "FAP saturé à Saint-Victoret : régénération sans démontage dès 250 €, bain ultrason 390 à 650 € si besoin, diagnostic inclus, garantie 12 mois.",
+    intro: [
+      "Déposer un voyageur à l'aéroport, patienter au parking d'attente, avancer par à-coups dans les files de l'A7 ou de l'A55 aux heures de pointe : dans toutes ces situations, le diesel tourne sans effort, l'échappement reste tiède et le <strong>filtre à particules</strong> accumule des suies qu'il ne peut pas brûler.",
+      "Un moteur au ralenti produit peu, mais longtemps. Quand ces moments s'ajoutent à des trajets courts dans Saint-Victoret, au Griffon ou vers La Palun, le filtre atteint son seuil de saturation plus tôt qu'on ne le pense, avec à la clé voyant, perte de puissance ou <strong>mode dégradé</strong>."
+    ],
+    sections: [
+      { h: "Mesurer avant de choisir", p: "Nous commençons par relever la contre-pression, le taux de charge du filtre et l'état de son support, mesures comprises dans le prix. Un filtre modérément chargé est traité sur la voiture : <strong>additif injecté</strong> puis régénération conduite par la valise, en 90 minutes et dès 250 €. S'il est trop colmaté, il est démonté pour un bain ultrason à chaud et un séchage avant remontage, entre 390 et 650 €, soit un à deux jours d'atelier. Dans les deux cas, vous recevez un compte-rendu écrit avec les mesures avant et après, et une garantie de 12 mois." },
+      { h: "Couper le moteur quand on attend", p: "Le geste le plus simple reste d'arrêter le moteur lors des attentes prolongées, sauf si le tableau de bord signale une régénération en cours. Ajoutez-y, une fois par mois, une trentaine de kilomètres à allure régulière sur autoroute, à un horaire où l'A7 roule. Si le filtre se recharge malgré tout très vite, le diagnostic recherche une cause en amont, vanne EGR ou injecteurs." }
+    ],
+    faq: [
+      { q: "Le ralenti est-il vraiment si néfaste pour le filtre ?", a: "Pris isolément, non. C'est la répétition, ajoutée à des trajets trop courts pour chauffer l'échappement, qui empêche le filtre de se vider. Un usage mixte avec de vrais trajets réguliers rééquilibre les choses." },
+      { q: "Que se passe-t-il si mon filtre ne peut pas être nettoyé ?", a: "Si la céramique est fissurée ou fondue, nous le constatons au diagnostic et proposons un FAP reconditionné, environ moitié prix du neuf, ou un neuf. Dans tous les cas, le véhicule garde un filtre : rouler sans est interdit et nous ne le faisons pas." }
+    ]
   }
 };

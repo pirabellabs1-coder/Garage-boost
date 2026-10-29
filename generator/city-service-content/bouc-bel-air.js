@@ -107,5 +107,59 @@ module.exports = {
       { q: "Les à-coups disparaissent quand le moteur est chaud, cela complique-t-il le diagnostic ?", a: "Un peu, mais les défauts mémorisés gardent la trace de la température et du régime au moment de l'incident. Pour un symptôme lié au froid, un rendez-vous avec un moteur qui n'a pas encore roulé aide à le reproduire." },
       { q: "Un additif dans le réservoir peut-il régler le problème ?", a: "Rien ne permet de l'affirmer sans connaître la cause. Un capteur défaillant ou une fuite d'air à l'admission ne seront pas corrigés par un additif ; le diagnostic indique d'abord ce qui est en cause." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Voyant AdBlue avant un départ depuis Bouc-Bel-Air : réparer à temps",
+    lead: "Le compte à rebours AdBlue s'affiche juste avant de prendre la route des vacances ? Diagnostic du système SCR dès 90 €, déduit si nous réparons, à 25 minutes de Bouc-Bel-Air par l'A51.",
+    metaDesc: "Panne AdBlue à Bouc-Bel-Air : diagnostic SCR dès 90 € déduit de la réparation, devis avant intervention, garantie 12 mois. Atelier à 25 min.",
+    intro: [
+      "Le message apparaît souvent au pire moment : la voiture est chargée, l'itinéraire passe par l'A51 puis l'A7, et l'ordinateur de bord annonce un <strong>nombre de kilomètres restants</strong> avant que le moteur refuse de redémarrer. Ce décompte descend par paliers jusqu'à l'immobilisation : il ne laisse pas le loisir de faire un aller-retour de vacances en espérant que tout rentre dans l'ordre.",
+      "Compléter le réservoir d'AdBlue ne suffit pas toujours. Si le voyant persiste après le plein, c'est qu'un <strong>composant du système SCR</strong> est en défaut, et c'est lui qu'il faut identifier avant de partir."
+    ],
+    sections: [
+      { h: "Ce que l'on cherche lors du diagnostic", p: "Nous lisons les codes enregistrés par le calculateur, puis testons un à un le capteur de qualité, la pompe, l'injecteur d'AdBlue et les sondes NOx. Un dépôt de cristaux dans l'injecteur ou la pompe se traite par décristallisation ; une sonde ou un capteur défaillant se remplace seul, sans toucher au reste du circuit. Le diagnostic coûte <strong>dès 90 €</strong> et il est déduit si vous faites réparer chez nous. Selon la pièce en cause, la réparation va de 90 à 690 €, chiffrée par écrit avant toute intervention." },
+      { h: "Prendre rendez-vous sans attendre la veille du départ", p: "Depuis Bouc-Bel-Air, l'atelier se rejoint en 25 minutes par l'A51 et la rocade L2, ou par la D6 si l'on n'est pas pressé. Entre 8 h et 9 h, les navetteurs aixois chargent l'autoroute : un dépôt en milieu de matinée est plus confortable. Si le compte à rebours est presque épuisé, mieux vaut ne pas tenter le trajet : notre dépannage vers l'atelier coûte 149 € en journée, la commune étant à moins de 25 km." }
+    ],
+    faq: [
+      { q: "Le voyant s'est allumé juste après le plein d'AdBlue, est-ce lié ?", a: "Ce peut être une coïncidence ou un signal du capteur de qualité, qui contrôle la concentration du liquide. Le diagnostic permet de savoir si le produit, le capteur ou un autre élément du circuit est en cause, avant de remplacer quoi que ce soit." },
+      { q: "Peut-on partir en vacances avec le décompte affiché ?", a: "Nous le déconseillons. Le nombre de kilomètres restants diminue jusqu'à l'impossibilité de redémarrer, et une immobilisation loin de chez soi coûte bien plus cher qu'une réparation ciblée faite avant le départ." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR et bouchons de l'A51 : le diesel des navetteurs bouquerons",
+    lead: "À-coups en s'insérant sur l'A51, moteur qui hésite au sortir des bouchons ? La vanne EGR est un suspect sérieux : nettoyage par ultrasons avec joints neufs de 180 à 290 €, à 25 minutes de Bouc-Bel-Air.",
+    metaDesc: "Vanne EGR encrassée à Bouc-Bel-Air : nettoyage ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €, garantie 12 mois. Atelier à 25 min.",
+    intro: [
+      "Rouler au pas sur l'A51 entre 8 h et 9 h, c'est demander au moteur de fonctionner longtemps à faible charge. C'est précisément dans ces conditions que la <strong>vanne EGR</strong> renvoie le plus de gaz d'échappement vers l'admission, avec leur suie et leurs vapeurs d'huile. Jour après jour, ces dépôts durcissent autour du clapet jusqu'à le freiner ou le bloquer entrouvert.",
+      "Le conducteur le ressent au moment où il réclame de la puissance : une <strong>insertion hésitante</strong> sur la voie rapide, un trou à la relance après le bouchon, parfois une fumée sombre et un voyant moteur qui s'invite."
+    ],
+    sections: [
+      { h: "Démonter, nettoyer, remonter dans la journée", p: "Après lecture des codes et contrôle du fonctionnement de la vanne, celle-ci est déposée et passée en bain ultrason haute température, qui détache la suie cuite là où aucun produit versé dans le réservoir n'arrive. Elle est remontée avec des <strong>joints neufs</strong>, puis les codes sont effacés et un essai routier valide le résultat. Comptez de 180 à 290 € selon la motorisation et environ une demi-journée d'atelier, avec une garantie de 12 mois." },
+      { h: "Les injecteurs, l'autre moitié du problème", p: "Un injecteur qui pulvérise mal brûle moins bien le gazole et produit plus de suie, qui finit dans la vanne. Si le diagnostic les met en cause, un traitement par additif (120 à 220 €) suffit quand l'encrassement est léger ; au-delà, ils sont démontés et nettoyés aux ultrasons (290 à 490 €). Si la cause sort de l'antipollution, par exemple un problème mécanique ou électronique plus lourd, nous vous le disons dès le diagnostic plutôt que d'intervenir pour rien." }
+    ],
+    faq: [
+      { q: "Changer d'horaire pour éviter les bouchons préserve-t-il la vanne ?", a: "Cela aide un peu, car un moteur qui tourne à allure régulière s'encrasse moins qu'au ralenti. Mais une vanne déjà chargée ne se nettoie pas d'elle-même : une fois les symptômes installés, seul un nettoyage la remet en état." },
+      { q: "Combien de temps la voiture reste-t-elle à l'atelier ?", a: "Pour la vanne EGR seule, une demi-journée suffit en général. En déposant la voiture en milieu de matinée, après le pic de l'A51, vous pouvez la récupérer dans la journée si aucune autre pièce n'est à traiter." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Bouc-Bel-Air : le FAP du diesel réservé aux petits trajets",
+    lead: "Dans un foyer à deux voitures, le diesel qui ne fait que l'école et les courses sature vite son filtre. Régénération sans démontage dès 250 €, diagnostic préalable inclus, à 25 minutes.",
+    metaDesc: "Nettoyage FAP à Bouc-Bel-Air : régénération sans démontage dès 250 €, bain ultrason 390 à 650 €, diagnostic inclus, garantie 12 mois.",
+    intro: [
+      "Quand un foyer dispose de deux voitures, l'une part souvent sur l'A51 pendant que l'autre enchaîne les petits déplacements autour du centre, de La Salle ou des Cèdres : école, commerces, activités. Si cette seconde voiture est un diesel, son <strong>filtre à particules</strong> collecte des suies à chaque démarrage sans jamais atteindre la température qui lui permettrait de les brûler.",
+      "Les régénérations lancées par le calculateur sont interrompues dès que le moteur est coupé. Au bout de quelques mois, le voyant FAP s'allume, la voiture perd de sa vigueur, puis le <strong>mode dégradé</strong> s'enclenche."
+    ],
+    sections: [
+      { h: "Deux méthodes, un choix guidé par la mesure", p: "Le diagnostic, compris dans le prix, mesure la contre-pression et la charge du filtre et vérifie l'état de la céramique. Si la saturation reste modérée, la <strong>régénération chimique sans démontage</strong> se fait en 90 minutes, dès 250 €. Un filtre plus chargé est déposé et plongé dans un bain ultrason chauffé, puis séché et remonté : de 390 à 650 €, pour un à deux jours d'immobilisation. Quand le foyer a une autre voiture, cette seconde option s'organise plus facilement." },
+      { h: "Éviter de revenir dans quelques mois", p: "Le nettoyage remet le filtre à niveau, il ne change pas l'usage. Confier à ce diesel, une fois par mois, un vrai trajet à allure stable, une trentaine de kilomètres sur l'A51 vers Aix par exemple, laisse le système terminer ses régénérations. Si le moteur produit lui-même trop de suie, à cause de la vanne EGR ou des injecteurs, nous le signalons après la mesure. L'intervention est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Une essence ne serait-elle pas plus adaptée à ce type d'usage ?", a: "Pour une voiture qui ne fait que des trajets de quelques kilomètres, la question se pose au moment de la remplacer. En attendant, un FAP nettoyé et un trajet plus long de temps en temps permettent de garder le diesel actuel en bon état de marche." },
+      { q: "La voiture est en mode dégradé, puis-je venir par l'autoroute ?", a: "Sur 25 minutes de route, le trajet reste généralement faisable à allure modérée tant qu'aucun voyant rouge n'est allumé. Dans le doute, appelez-nous : nous pouvons venir la chercher à domicile, gratuitement au-delà de 200 € d'intervention validée, montant qu'un nettoyage de FAP dépasse toujours." }
+    ]
   }
 };

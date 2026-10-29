@@ -89,5 +89,59 @@ module.exports = {
       { q: "La voiture roule encore après l'accrochage : puis-je la conduire jusqu'à l'atelier ?", a: "Seulement si rien ne frotte, si la direction reste droite, si aucun voyant rouge ne s'allume et si aucun liquide ne s'écoule. Au moindre doute, préférez un remorquage : rouler avec un radiateur percé ou une roue faussée aggrave les dégâts." },
       { q: "Le remorquage après un accident est-il pris en charge ?", a: "Souvent, au titre de l'assistance de votre contrat auto ou d'une carte bancaire qui en comporte une. Appelez-la en premier : elle peut organiser l'intervention et la régler directement. Sans assistance, le forfait de 149 € depuis La Penne vous est annoncé avant notre départ." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Compte à rebours AdBlue à La Penne : venir avant le blocage",
+    lead: "Message de décompte AdBlue sur votre diesel ? Depuis La Penne-sur-Huveaune, l'atelier est à un quart d'heure : diagnostic du système SCR dès 90 €, déduit si vous faites réparer chez nous.",
+    metaDesc: "AdBlue en défaut à La Penne-sur-Huveaune : diagnostic SCR dès 90 €, déduit de la réparation, devis avant travaux, garantie 12 mois. Atelier à 15 min.",
+    intro: [
+      "Sur un diesel récent, une panne du système AdBlue ne s'arrête pas au voyant : le tableau de bord affiche ensuite un <strong>décompte de kilomètres</strong>, par paliers, au terme duquel le moteur refusera de redémarrer. Quand on fait chaque jour l'aller-retour entre La Penne et Marseille par l'A50, ou qu'on descend à Aubagne pour les courses, ces kilomètres fondent plus vite qu'on ne l'imagine.",
+      "L'avantage, ici, c'est la distance : depuis le centre de La Penne, Les Pallières ou La Millière, l'atelier de Plan-de-Cuques se rejoint en quinze minutes par la D4F ou l'A50. Rien n'oblige donc à attendre le dernier palier pour réagir."
+    ],
+    sections: [
+      { h: "Ce que nous vérifions en premier", p: "Le diagnostic, facturé dès <strong>90 €</strong> et déduit si la réparation est faite chez nous, passe en revue les codes du système SCR, le capteur de qualité, la pompe, l'injecteur AdBlue et les sondes NOx. Le but est de trouver la pièce réellement fautive : une sonde NOx se change de 350 à 650 €, un capteur de qualité de 200 à 400 €, et un injecteur simplement cristallisé peut être décristallisé. Le devis écrit vous est présenté avant d'intervenir." },
+      { h: "Une fois la pièce remise en état", p: "Nous contrôlons le dosage, effaçons les défauts et le décompte est réinitialisé. Un essai sur route confirme que le voyant reste éteint et que la dépollution fonctionne. L'intervention est garantie 12 mois, pièces et main-d'œuvre. Si le diagnostic révèle un défaut qui sort de l'antipollution, côté électronique ou moteur, nous vous le signalons tout de suite plutôt que de chercher à tâtons." }
+    ],
+    faq: [
+      { q: "Le décompte est déjà bien entamé, puis-je encore venir par la route ?", a: "Tant qu'il n'est pas arrivé à zéro, le véhicule roule normalement et les 12 km jusqu'à l'atelier ne posent pas de difficulté. S'il ne redémarre plus, le remorquage depuis La Penne est facturé au forfait de 149 €, hors majoration de nuit, de dimanche ou de jour férié." },
+      { q: "Remettre de l'AdBlue suffit-il à faire disparaître le message ?", a: "Si le réservoir était simplement vide, en général oui. Si le message persiste après le plein, c'est qu'un composant est en défaut : capteur, pompe, injecteur ou sonde. Seule une lecture des codes permet alors de savoir lequel." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Injecteurs diesel à La Penne-sur-Huveaune : additif ou ultrason ?",
+    lead: "Ralenti instable, combustion plus bruyante, consommation en hausse : pour La Penne, nous mesurons l'état des injecteurs avant de choisir entre additif, de 120 à 220 €, et nettoyage après dépose.",
+    metaDesc: "Injecteurs et vanne EGR pour La Penne-sur-Huveaune : additif de 120 à 220 €, dépose et ultrason de 290 à 490 €, vanne EGR de 180 à 290 €.",
+    intro: [
+      "Un injecteur diesel travaille sous très forte pression et pulvérise le gazole en un brouillard fin. Avec les kilomètres, gommes et calamine se déposent sur son nez : le jet se déforme, la combustion devient moins complète, et la suie produite finit par charger la <strong>vanne EGR</strong> puis le filtre à particules. Un trajet quotidien dans la vallée de l'Huveaune, à vitesse modérée et souvent ralenti sur l'A50, ne corrige pas cette dérive.",
+      "Les signes restent discrets au départ : ralenti qui fluctue à l'arrêt, bruit de combustion plus dur, quelques dixièmes de consommation en plus. C'est pourtant le bon moment pour agir, avant que l'encrassement ne gagne le reste de la ligne."
+    ],
+    sections: [
+      { h: "Deux niveaux de traitement pour les injecteurs", p: "Si le diagnostic montre des injecteurs faiblement encrassés, un <strong>traitement par additif professionnel</strong> suffit, de 120 à 220 €, sans démontage. Si les débits mesurés s'écartent trop, les injecteurs sont déposés et passés en bain à ultrasons, de 290 à 490 € selon leur état, puis remontés avec des joints neufs. Le contrôle préalable sert précisément à ne pas payer la méthode lourde quand la légère fait l'affaire." },
+      { h: "La vanne EGR dans la même visite", p: "Puisque des injecteurs fatigués salissent la vanne EGR, il est logique de la contrôler en même temps. Si elle est chargée, elle est démontée, nettoyée aux ultrasons et remontée avec des joints neufs, de <strong>180 à 290 €</strong>. À 12 km de l'atelier, vous pouvez en principe laisser la voiture le matin et la reprendre le soir. Un injecteur dont l'élément piézo est défaillant, en revanche, ne se nettoie pas : nous vous le disons avant tout démontage." }
+    ],
+    faq: [
+      { q: "Les injecteurs nettoyés sont-ils garantis ?", a: "Oui. Comme le nettoyage de la vanne EGR, le traitement des injecteurs est couvert par la garantie de 12 mois de l'atelier, que la méthode retenue soit l'additif ou le bain à ultrasons." },
+      { q: "Dois-je attendre un voyant pour faire contrôler les injecteurs ?", a: "Non. Le voyant moteur s'allume souvent tard, quand l'encrassement est déjà avancé. Un ralenti irrégulier ou une consommation qui grimpe sans raison justifient un contrôle, d'autant que l'atelier n'est qu'à un quart d'heure de La Penne." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Bouchons de l'A50 et FAP saturé : la solution pour La Penne",
+    lead: "Le matin, l'A50 ralentit entre La Penne et Marseille, et le filtre à particules ne chauffe jamais assez. Régénération sans démontage dès 250 €, en 90 minutes, à quinze minutes de chez vous.",
+    metaDesc: "Nettoyage FAP pour La Penne-sur-Huveaune : régénération sans démontage dès 250 € en 90 min, bain ultrason de 390 à 650 €, diagnostic inclus.",
+    intro: [
+      "Sur le papier, l'A50 est une autoroute ; aux heures de pointe, entre La Penne et l'entrée de Marseille, c'est souvent une file qui avance au pas. Un diesel qui fait ce trajet chaque matin roule longtemps à faible charge, sans atteindre la température qui permet au <strong>filtre à particules</strong> de brûler ses suies. La régénération démarre, s'interrompt au ralentissement suivant, et le filtre se remplit un peu plus.",
+      "Au bout de quelques mois, le voyant FAP apparaît, puis la voiture limite sa puissance. À ce stade, il est encore temps de nettoyer le filtre plutôt que de le remplacer."
+    ],
+    sections: [
+      { h: "Profiter de la proximité de l'atelier", p: "La Penne compte parmi les communes les plus proches de Plan-de-Cuques : un quart d'heure par la D4F. Si la mesure de contre-pression montre un filtre modérément chargé, la <strong>régénération chimique sans démontage</strong> dure environ 90 minutes, dès 250 € : vous pouvez attendre sur place ou repasser chez vous. Pour un filtre très colmaté, la dépose et le bain ultrason, de 390 à 650 €, immobilisent la voiture un à deux jours. Le diagnostic préalable est inclus dans les deux cas." },
+      { h: "Changer une habitude pour que ça dure", p: "Une fois le filtre propre, le même trajet le rebouchera si rien ne change. Quand l'emploi du temps le permet, partir avant la saturation de l'A50, ou s'accorder de temps en temps une portion roulante vers Aubagne et au-delà, laisse au filtre l'occasion de se vider seul. Le compte-rendu remis après l'intervention indique la contre-pression mesurée avant et après le nettoyage." }
+    ],
+    faq: [
+      { q: "Que faire si le voyant FAP s'allume en plein ralentissement sur l'A50 ?", a: "Si la voiture roule normalement, poursuivez à allure régulière dès que la circulation se libère : la régénération peut encore aboutir. Si le voyant reste allumé, prenez rendez-vous. En mode dégradé, le véhicule roule en général à puissance réduite et peut rejoindre l'atelier, à 12 km." },
+      { q: "Et si la mesure montre un filtre impossible à récupérer ?", a: "Cela arrive quand la céramique est fissurée ou fondue. Nous vous proposons alors un FAP reconditionné, moins cher qu'un neuf. Quand le nettoyage est possible, la régénération est garantie 12 mois, avec reprise gratuite en cas de défaut lié à notre travail." }
+    ]
   }
 };

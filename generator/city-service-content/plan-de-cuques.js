@@ -107,5 +107,59 @@ module.exports = {
       { q: "Faut-il prendre rendez-vous tôt le matin ?", a: "C'est l'idéal pour un défaut qui n'apparaît qu'à froid : un créneau en début de matinée, avec une voiture qui n'a pas encore roulé, permet d'observer le symptôme tel que vous le vivez." },
       { q: "Ma batterie est neuve, le problème peut-il venir d'ailleurs ?", a: "Oui. Un démarrage laborieux peut venir de l'injection, d'un capteur, de l'alimentation en carburant ou de l'allumage. La lecture des calculateurs et les mesures servent justement à faire le tri avant de remplacer quoi que ce soit." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Compte à rebours AdBlue à Plan-de-Cuques : l'atelier est à côté",
+    lead: "Le tableau de bord annonce un nombre de kilomètres avant blocage du démarrage ? À Plan-de-Cuques, l'atelier est à quelques minutes : diagnostic du système SCR dès 90 €, déduit si vous réparez chez nous.",
+    metaDesc: "Compte à rebours AdBlue à Plan-de-Cuques : diagnostic SCR dès 90 € déduit de la réparation, réparation de 90 à 690 €, garantie 12 mois.",
+    intro: [
+      "Quand le système AdBlue détecte un défaut qu'il ne sait pas corriger, il ne se contente pas d'un voyant : il lance un <strong>compte à rebours</strong>, souvent affiché par paliers de 300, 200 puis 100 km, au terme duquel le moteur refusera de redémarrer. Pour un conducteur de Plan-de-Cuques, la situation a un avantage rare : l'atelier du 1 avenue des Pères Blancs se rejoint en quelques minutes depuis n'importe quel quartier, sans entamer sérieusement le crédit de kilomètres.",
+      "Le bon réflexe est donc de ne pas attendre que le décompte approche de zéro. Tant que la voiture démarre, venir par la route reste le plus simple et le moins coûteux."
+    ],
+    sections: [
+      { h: "Ce que nous faisons du décompte", p: "Le diagnostic commence par la lecture des codes défauts du système SCR, puis par le test des éléments qui le composent : capteur de qualité, pompe, injecteur AdBlue, sondes NOx. Il coûte à partir de 90 €, montant déduit si vous faites réparer à l'atelier. Une fois la pièce fautive réparée, remplacée ou décristallisée, les codes sont effacés et le compte à rebours réinitialisé ; un essai routier vérifie ensuite que le voyant reste éteint." },
+      { h: "Si la voiture ne redémarre plus", p: "Lorsque le décompte est arrivé à son terme, le véhicule ne se déplace plus par ses propres moyens. Sur la commune, le remorquage jusqu'à l'atelier relève du forfait local de <strong>89 €</strong> (moins de 10 km), majoré de 50 % la nuit, le dimanche et les jours fériés. Selon le composant en cause, la réparation se situe entre 90 et 690 €, avec un devis écrit avant toute intervention et une garantie de 12 mois." }
+    ],
+    faq: [
+      { q: "Le décompte s'arrête-t-il si je refais simplement le niveau d'AdBlue ?", a: "Seulement s'il a été déclenché par un réservoir vide. S'il vient d'un capteur, d'une pompe ou d'un injecteur défaillant, ajouter du liquide ne change rien : le système continue de décompter tant que la cause n'est pas réparée." },
+      { q: "Puis-je laisser la voiture et rentrer chez moi pendant la recherche de panne ?", a: "Oui. Depuis les quartiers de la commune, un retour à pied ou en bus est facile le temps du diagnostic. Nous vous appelons avec le devis, et aucune réparation n'est lancée sans votre accord." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR à Plan-de-Cuques : le flacon du commerce n'a rien changé",
+    lead: "Vous avez versé un nettoyant dans le réservoir et les à-coups sont toujours là ? Pour une vanne EGR colmatée, seul le démontage atteint les dépôts : de 180 à 290 €, joints neufs compris, à deux pas de chez vous.",
+    metaDesc: "Vanne EGR encrassée à Plan-de-Cuques : démontage, bain ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €. Garantie 12 mois.",
+    intro: [
+      "Le nettoyant versé dans le réservoir circule avec le gazole : il passe par la pompe et les injecteurs, mais jamais par la <strong>vanne EGR</strong>, qui se trouve sur le circuit des gaz d'échappement recyclés. La croûte de suie et de vapeurs d'huile qui grippe son clapet reste donc en place, et les symptômes avec elle : à-coups en accélérant, manque de reprise, voyant moteur qui revient.",
+      "Ces produits ne sont pas inutiles pour autant : sur des injecteurs peu encrassés, un traitement par additif choisi après mesure peut suffire. Tout l'enjeu est de savoir quelle pièce est en cause avant de dépenser."
+    ],
+    sections: [
+      { h: "Mesurer d'abord, puis choisir la méthode", p: "Le diagnostic préalable relève les codes défauts, le fonctionnement de la vanne et le débit des injecteurs. Si la vanne est colmatée, elle est déposée, passée en bain ultrason haute température, puis remontée avec des <strong>joints neufs</strong> et serrée aux couples du constructeur : de 180 à 290 €. Pour les injecteurs, l'additif premium coûte de 120 à 220 € ; quand les dépôts sont installés, le démontage avec bain ultrason revient de 290 à 490 €." },
+      { h: "Une demi-journée sans quitter la commune", p: "L'intervention sur la vanne demande environ quatre heures. Habitant Plan-de-Cuques, vous pouvez laisser la voiture en début de matinée et la reprendre dans l'après-midi, après l'effacement des codes et l'essai routier de validation. Le nettoyage est garanti 12 mois. Si le moteur électrique de la vanne est hors service ou si la pièce est fissurée, nous vous l'indiquons et chiffrons le remplacement, plutôt que de facturer un nettoyage sans effet." }
+    ],
+    faq: [
+      { q: "Pourquoi le voyant est-il revenu quelques jours après mon traitement en bidon ?", a: "Le produit a pu atténuer un symptôme côté injection sans toucher la vanne. Le défaut enregistré par le calculateur réapparaît alors dès que la vanne ne répond plus comme attendu. La lecture des codes permet de savoir lequel des deux organes est en cause." },
+      { q: "Le résultat dure-t-il si je ne fais que de petits trajets ?", a: "Il dure moins longtemps qu'en usage mixte. Pour espacer les rechutes, une sortie régulière sur voie rapide aide le moteur à travailler chaud, et un décalaminage hydrogène tous les 30 000 km environ limite les dépôts en amont de la vanne." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Contrôle technique en vue à Plan-de-Cuques : vérifier le FAP avant",
+    lead: "Votre diesel passe bientôt le contrôle et le filtre à particules montre des signes de fatigue ? Mesure de la contre-pression puis régénération sans démontage dès 250 €, en 90 minutes, à l'atelier de la commune.",
+    metaDesc: "FAP avant contrôle technique à Plan-de-Cuques : mesure de contre-pression, régénération sans démontage dès 250 € en 90 min, garantie 12 mois.",
+    intro: [
+      "Au contrôle technique, un diesel passe un test d'<strong>opacité des fumées</strong>. Un filtre à particules saturé, fissuré ou mal régénéré peut faire échouer ce test, et la voiture repart alors avec une contre-visite à organiser dans un délai limité. Quand la date approche et que des signes apparaissent, perte de reprise, fumée sombre en accélérant, voyant FAP fugace, mieux vaut faire contrôler le filtre avant le rendez-vous qu'après.",
+      "À Plan-de-Cuques, la vérification ne demande aucun déplacement : l'atelier est dans la commune, et le diagnostic du filtre est compris dans le prix du nettoyage."
+    ],
+    sections: [
+      { h: "Une mesure, puis une décision", p: "Nous relevons la contre-pression à l'échappement, le taux de charge et l'état du support céramique. Si le filtre est chargé sans être saturé, la régénération chimique suffit : un additif est introduit par la sonde différentielle, puis une régénération forcée pilotée brûle les suies, en 90 minutes, à partir de 250 €. Vous pouvez patienter sur place ou rentrer chez vous entre-temps. Le compte-rendu écrit indique les mesures avant et après." },
+      { h: "Quand le filtre est trop chargé", p: "Au-delà, le filtre est démonté, traité en bain ultrason haute température, séché puis remonté : de 390 à 650 €, pour une à deux journées d'atelier. Prévoyez donc cette éventualité quelques jours avant le contrôle. Si la céramique est fendue, nous vous proposons plutôt un FAP reconditionné, environ moitié prix d'un neuf, et nous vous le disons avant de commencer. L'intervention est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Combien de jours avant le contrôle faut-il prendre rendez-vous ?", a: "Une semaine est une marge confortable : elle laisse le temps d'un bain ultrason si la mesure le justifie. Pour une régénération sans démontage, le véhicule est rendu le jour même." },
+      { q: "Effacer le voyant juste avant le contrôle ne suffirait-il pas ?", a: "Non. Le test d'opacité mesure ce qui sort réellement de l'échappement, voyant allumé ou non. Seuls un filtre nettoyé et un moteur qui brûle correctement permettent d'aborder le contrôle sereinement." }
+    ]
   }
 };

@@ -107,5 +107,41 @@ module.exports = {
       { q: "Mon contrôle technique signale la pollution mais aucun voyant n'est allumé, est-ce normal ?", a: "Cela arrive. Le calculateur n'allume pas forcément de voyant pour un écart progressif, mais il enregistre souvent des valeurs ou des défauts passés que la lecture fait apparaître. Les mesures en temps réel complètent ce que les codes ne disent pas." },
       { q: "Le compte-rendu peut-il servir pour la contre-visite ?", a: "La contre-visite porte sur le véhicule lui-même, pas sur un document. Notre compte-rendu vous sert surtout à comprendre la panne et à vérifier que la réparation proposée correspond bien au défaut relevé." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Utilitaire bloqué par l'AdBlue à Marseille : réparer vite et juste",
+    lead: "Fourgon de chantier ou de livraison qui affiche un défaut AdBlue en pleine semaine ? Nous localisons le composant fautif et réparons celui-là seulement : diagnostic dès 90 €, déduit, à 15 minutes du centre.",
+    metaDesc: "Panne AdBlue sur utilitaire à Marseille : diagnostic SCR dès 90 € déduit, réparation ciblée de 90 à 690 €, devis avant travaux, garantie 12 mois.",
+    intro: [
+      "Pour un artisan ou un livreur qui circule toute la journée dans Marseille, le fourgon est l'outil de travail. Un message AdBlue qui apparaît entre deux chantiers n'est pas qu'une gêne : si le défaut persiste, le système engage un <strong>décompte</strong> au terme duquel le moteur ne redémarre plus, et c'est la tournée du lendemain qui saute. Attendre que le voyant s'éteigne seul revient souvent à repousser le problème au pire moment.",
+      "Notre approche vise l'immobilisation la plus courte possible : trouver le composant réellement en cause, plutôt que remplacer l'ensemble du circuit comme le prévoient certains devis de concession, facturés de 1 500 à 2 500 €."
+    ],
+    sections: [
+      { h: "Du code défaut à la pièce fautive", p: "La valise de diagnostic multimarque lit les défauts du circuit SCR, puis nous testons un à un le <strong>capteur de qualité</strong>, la pompe, l'injecteur AdBlue et les sondes NOx. Le diagnostic coûte dès 90 €, déduit en cas de réparation. Un injecteur ou une pompe figés par des cristaux se décristallisent ; un capteur ou une sonde hors service se remplacent. Le chiffrage, entre 90 et 690 € selon la pièce, vous est remis par écrit avant tout travail." },
+      { h: "Organiser l'intervention autour de la tournée", p: "Depuis les 13e et 14e arrondissements, la rocade L2 mène à la sortie Plan-de-Cuques en 12 à 18 minutes hors pointes ; depuis le centre, la D4 en demande une quinzaine. Un dépôt en milieu de matinée, après le premier pic de circulation, laisse le temps du diagnostic. Si vous ne pouvez pas lâcher le volant, la récupération à domicile couvre Marseille et devient gratuite au-delà de 200 € d'intervention validée. La réparation est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Mon fourgon affiche encore 300 km avant blocage : puis-je finir la semaine ?", a: "C'est possible si vos trajets restent courts, mais chaque kilomètre rapproche du blocage. Appelez-nous dès l'apparition du décompte : un diagnostic en début de semaine évite un fourgon immobilisé devant un chantier." },
+      { q: "Le système AdBlue d'un utilitaire se répare-t-il comme celui d'une voiture ?", a: "Oui, le principe est le même : réservoir, pompe, injecteur, capteurs et sondes NOx. Nous traitons les utilitaires de toutes marques équipés de ce système, avec la même méthode de diagnostic et la même garantie de 12 mois." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "À-coups au démarrage des feux à Marseille : la vanne EGR en cause ?",
+    lead: "Votre diesel hoquette en repartant d'un feu ou manque de souffle en s'insérant sur la rocade ? Une vanne EGR colmatée en est souvent responsable : nettoyage par démontage et ultrason de 180 à 290 €.",
+    metaDesc: "Vanne EGR encrassée à Marseille : à-coups, manque de reprise. Démontage, ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €. À 15 min.",
+    intro: [
+      "Démarrer, freiner, repartir : un diesel qui circule sur les boulevards marseillais passe une grande partie de son temps à faible charge, la plage où la <strong>vanne EGR</strong> est la plus sollicitée. Les gaz qu'elle renvoie vers l'admission, chargés de suie et de vapeurs d'huile, se déposent sur son clapet et dans le conduit. Quand la vanne ne s'ouvre ou ne se ferme plus au bon moment, le dosage d'air se dérègle : la voiture hésite au démarrage d'un feu, broute à bas régime ou manque de puissance pour s'insérer sur la L2.",
+      "Ces symptômes ressemblent à ceux d'autres pannes, d'où l'intérêt de vérifier la vanne avant de la démonter."
+    ],
+    sections: [
+      { h: "Ce que comprend le nettoyage", p: "Après lecture des codes et contrôle du fonctionnement de la vanne, nous la déposons et la plongeons une à deux heures dans un bain ultrason haute température qui décolle les dépôts jusque dans les recoins du conduit. Elle est remontée avec des joints neufs, jamais réutilisés, puis le calculateur est purgé de ses défauts et un essai routier valide le résultat. Tarif : 180 à 290 € selon l'accès, intervention d'environ quatre heures, garantie 12 mois." },
+      { h: "Les injecteurs, l'autre moitié du problème", p: "Un injecteur qui pulvérise mal produit davantage de suie, et cette suie finit dans la vanne. Si la mesure de débit montre un écart, les injecteurs peuvent être traités en même temps : par additif premium de 120 à 220 € quand l'encrassement est léger, par démontage et bain ultrason de 290 à 490 € sinon. Quand la cause sort de l'antipollution, moteur ou électronique, nous vous le signalons dès le diagnostic plutôt que d'intervenir à l'aveugle." }
+    ],
+    faq: [
+      { q: "La vanne EGR peut-elle expliquer une consommation en hausse en ville ?", a: "Elle peut y contribuer : une vanne qui reste partiellement ouverte réduit l'air frais admis et dégrade la combustion. Ce n'est toutefois pas la seule cause possible, et la lecture des valeurs moteur permet de faire la part des choses avant toute dépense." },
+      { q: "Mieux vaut-il venir par la rocade ou par la D4 ?", a: "Depuis les quartiers nord et est, la L2 jusqu'à la sortie Plan-de-Cuques est la plus directe ; depuis le centre, la D4 par la traverse de la Valbarelle prend une quinzaine de minutes. Évitez simplement les tranches 7 h 30-9 h et 17 h-19 h 30, où les durées peuvent doubler." }
+    ]
   }
 };

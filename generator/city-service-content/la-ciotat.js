@@ -107,5 +107,59 @@ module.exports = {
       { q: "L'aiguille de température est montée puis redescendue : est-ce grave ?", a: "Pas forcément, mais ce n'est pas à ignorer. Si le moteur a réellement chauffé, le joint de culasse peut en souffrir ; si c'est la sonde, le ventilateur risque de ne pas se déclencher la prochaine fois. Le diagnostic permet de faire la différence avant les prochains embouteillages." },
       { q: "Que faire si un voyant rouge s'allume dans les bouchons ?", a: "Rangez-vous dès que possible en sécurité et coupez le moteur : un voyant rouge de température ou de pression d'huile ne doit pas être ignoré. Appelez-nous ensuite pour organiser la suite." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Sonde NOx et capteurs AdBlue à La Ciotat : le défaut en bord de mer",
+    lead: "Voyant AdBlue allumé alors que le réservoir est plein ? En ville côtière, un capteur ou une sonde NOx fait partie des premiers suspects. Diagnostic SCR dès 90 €, déduit si vous réparez chez nous.",
+    metaDesc: "Panne AdBlue à La Ciotat : diagnostic SCR dès 90 €, sonde NOx ou capteur de qualité remplacé seul, devis avant travaux, garantie 12 mois.",
+    intro: [
+      "À La Ciotat, l'air marin s'invite partout, jusque sous les voitures. Il accélère l'<strong>oxydation des capteurs</strong> et de leurs connexions, exposés aux embruns et à l'humidité de l'échappement. Sur un diesel équipé du système SCR, les sondes NOx et le capteur de qualité d'AdBlue font partie de ces éléments sensibles.",
+      "Quand l'un d'eux envoie une valeur incohérente, le calculateur considère que la dépollution n'est plus assurée : voyant AdBlue, puis <strong>décompte de kilomètres</strong> avant le blocage du démarrage, même avec un réservoir plein."
+    ],
+    sections: [
+      { h: "Tester chaque élément plutôt que tout changer", p: "Nous lisons les codes du circuit SCR, contrôlons les valeurs renvoyées par les sondes NOx en amont et en aval du catalyseur, puis testons le capteur de qualité, la pompe et l'injecteur. Le diagnostic coûte dès 90 € et il est déduit de la réparation validée. Une sonde NOx se remplace seule, de 350 à 650 € ; un capteur de qualité, de 200 à 400 € ; une décristallisation coûte moins. L'ensemble reste dans une fourchette de 90 à 690 € selon la pièce, sur devis écrit." },
+      { h: "Venir depuis La Ciotat, en saison comme hors saison", p: "Par l'A50 et la sortie de La Penne-sur-Huveaune, l'atelier est à une trentaine de minutes, mais il faut compter 45 à 60 minutes les week-ends de juillet et d'août. Un jour de semaine est préférable. Si le compte à rebours est presque épuisé, le remorquage depuis La Ciotat coûte 149 € en journée. Après réparation, le voyant est éteint, le système dépollue de nouveau et la garantie court sur 12 mois." }
+    ],
+    faq: [
+      { q: "Rincer le dessous de caisse protège-t-il les capteurs ?", a: "Un rinçage régulier limite le dépôt de sel, mais il ne remet pas en état une sonde déjà défaillante. Mieux vaut d'ailleurs ne pas diriger un jet haute pression directement sur les connecteurs." },
+      { q: "Le voyant peut-il s'éteindre tout seul ?", a: "Un défaut intermittent peut disparaître un temps, mais il reste mémorisé et revient en général. Mieux vaut faire lire les codes dès la première alerte, tant que le décompte laisse de la marge." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR à La Ciotat : la faire nettoyer avant l'été",
+    lead: "Les bouchons de l'été sur l'A50 et en ville sont rudes pour une vanne EGR déjà chargée. Nettoyage par ultrasons avec joints neufs de 180 à 290 €, à prévoir de préférence hors saison.",
+    metaDesc: "Nettoyage vanne EGR pour La Ciotat : dépose, ultrasons et joints neufs de 180 à 290 €, injecteurs dès 120 €. Atelier à 30 min hors saison.",
+    intro: [
+      "En juillet et en août, rouler à La Ciotat prend une autre allure : files vers le port, la Vieille Ville ou le Mugel, A50 saturée le week-end. Le moteur passe de longs moments au ralenti ou à faible charge, conditions dans lesquelles la <strong>vanne EGR</strong> recycle beaucoup de gaz chargés de suie.",
+      "Une vanne déjà encrassée au printemps risque de se manifester en plein été, au moment où l'atelier devient plus long à rejoindre. <strong>Anticiper</strong> permet de traiter le problème quand le trajet par l'A50 ne prend qu'une demi-heure."
+    ],
+    sections: [
+      { h: "Les signes à surveiller dès le printemps", p: "Démarrage difficile à froid, petits à-coups en reprise, fumée noire en accélérant vers l'A50, consommation qui grimpe : ces signaux annoncent souvent une vanne qui se grippe. Un diagnostic électronique confirme ou écarte la piste en lisant les codes et en vérifiant la réponse de la vanne pilotée. Si la cause dépasse l'antipollution, nous vous orientons sans engager de travaux inutiles." },
+      { h: "Une intervention qui tient dans la journée", p: "La vanne est déposée, nettoyée en bain ultrason à haute température, puis reposée avec des joints neufs ; effacement des codes et essai routier concluent. L'ensemble demande environ une demi-journée et coûte de 180 à 290 € selon la motorisation, garanti 12 mois. Si les injecteurs contribuent à l'encrassement, nous les traitons dans la foulée : additif de 120 à 220 €, ou démontage et ultrasons de 290 à 490 €." }
+    ],
+    faq: [
+      { q: "Pourquoi ne pas attendre la rentrée ?", a: "Si la vanne est seulement un peu chargée, c'est envisageable. Mais un clapet qui commence à gripper supporte mal des semaines de circulation au ralenti, et une panne en août oblige à composer avec un trajet plus long et une A50 encombrée." },
+      { q: "Combien de kilomètres avant de devoir recommencer ?", a: "Quand la source d'encrassement est traitée, comptez en général 60 000 à 100 000 km, un peu moins pour une voiture qui roule surtout en ville. Un décalaminage tous les 30 000 km aide à repousser l'échéance." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Filtre à particules à La Ciotat : le piège des trajets entre quartiers",
+    lead: "Quand un diesel ne fait que relier le port, Athéna ou Les Séveriers, son filtre à particules se vide mal. Régénération sans démontage dès 250 €, diagnostic préalable inclus.",
+    metaDesc: "Nettoyage FAP à La Ciotat : régénération chimique dès 250 €, bain ultrason 390 à 650 €, diagnostic inclus, garantie 12 mois. Atelier à 30 min.",
+    intro: [
+      "La Ciotat s'étire le long de sa baie, et bien des déplacements du quotidien y tiennent en quelques kilomètres : Vieille Ville, port, Athéna, La Garoupe. Pour un diesel, ces trajets sont trop courts pour que l'échappement atteigne les <strong>600 à 700 °C</strong> nécessaires à la régénération du filtre à particules. En été, les embouteillages ajoutent du ralenti à la liste.",
+      "Le filtre se remplit donc un peu à chaque sortie. Le jour où il dépasse son seuil, le calculateur réclame une régénération que la conduite en ville ne permet pas de terminer, et le <strong>voyant FAP</strong> s'allume."
+    ],
+    sections: [
+      { h: "Nettoyer selon le niveau de charge", p: "Nos mesures portent sur la contre-pression et la charge du filtre ainsi que sur l'intégrité de la céramique ; elles sont comprises dans le prix. Pour un filtre modérément chargé, une régénération chimique sans dépose suffit, en 90 minutes et dès 250 €. Un filtre très colmaté est démonté, passé au bain ultrason chaud puis séché avant remontage, pour 390 à 650 € et un à deux jours d'immobilisation. Le nettoyage est garanti 12 mois." },
+      { h: "Un trajet régulier sur l'A50", p: "Pour que le filtre reste propre, une sortie mensuelle d'une trentaine de kilomètres à allure régulière sur l'A50, hors des week-ends d'été, aide le système à finir ses cycles. Le trajet vers l'atelier en fait d'ailleurs partie : une demi-heure d'autoroute jusqu'à la sortie de La Penne-sur-Huveaune. Si la voiture est déjà en mode dégradé, le remorquage depuis La Ciotat coûte 149 € en journée." }
+    ],
+    faq: [
+      { q: "Le voyant s'est allumé en plein mois d'août, que faire ?", a: "Si la voiture roule normalement, un trajet d'autoroute à allure constante peut parfois permettre une régénération. Si le voyant reste allumé ou si la puissance baisse, prenez rendez-vous un jour de semaine, quand l'A50 est plus dégagée, plutôt que de rouler en ville en mode dégradé." },
+      { q: "Le décalaminage peut-il éviter un nouveau colmatage ?", a: "Il réduit la calamine produite en amont, donc la suie qui arrive au filtre. Associé à des trajets plus longs de temps en temps, il fait partie des gestes qui prolongent la vie d'un FAP régénéré." }
+    ]
   }
 };

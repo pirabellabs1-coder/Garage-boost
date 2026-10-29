@@ -107,5 +107,59 @@ module.exports = {
       { q: "Puis-je continuer à rouler en mode dégradé jusqu'à l'atelier ?", a: "Sur quelques kilomètres et sans forcer, c'est en général possible, puisque le calculateur limite justement la puissance. En revanche, un voyant rouge ou un bruit anormal impose de s'arrêter et de nous appeler." },
       { q: "Le mode dégradé a disparu après un redémarrage, le diagnostic sert-il encore ?", a: "Oui. Le défaut qui l'a déclenché est enregistré par le calculateur avec ses conditions d'apparition. Le lire maintenant évite que la protection ne se déclenche de nouveau au pire moment, en pleine montée." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "AdBlue figé sur un diesel qui dort à Allauch : décristalliser",
+    lead: "Le diesel qui ne sort que le week-end affiche un défaut AdBlue après plusieurs semaines au garage ? Pompe ou injecteur cristallisés se traitent sans changer tout le système, à 10 minutes d'Allauch.",
+    metaDesc: "Défaut AdBlue après immobilisation à Allauch : diagnostic SCR dès 90 € déduit, décristallisation de pompe ou injecteur, garantie 12 mois. À 5 km.",
+    intro: [
+      "L'AdBlue est une solution d'urée et d'eau déminéralisée. Quand un véhicule reste plusieurs semaines sans rouler, par exemple la seconde voiture garée au Logis-Neuf ou au Vieil Allauch pendant que l'autre assure les trajets, le liquide resté dans le circuit peut former des <strong>dépôts cristallins</strong> dans la pompe ou dans l'injecteur. Au redémarrage, le système ne parvient plus à doser l'additif et signale un défaut.",
+      "Ce scénario n'impose presque jamais de changer l'ensemble du circuit : une pièce cristallisée se nettoie, à condition d'avoir vérifié que c'est bien elle qui bloque."
+    ],
+    sections: [
+      { h: "Vérifier que la cristallisation est bien la cause", p: "Un défaut AdBlue au redémarrage peut aussi venir d'un capteur de qualité ou d'une sonde NOx. Le diagnostic, à partir de 90 € et déduit si vous réparez chez nous, lit les codes du système SCR puis teste pompe, injecteur, capteurs et sondes. S'il confirme la cristallisation, la pièce est décristallisée et remise en place ; le dosage est contrôlé, les codes effacés et le compte à rebours éventuel réinitialisé." },
+      { h: "Depuis Allauch, venir avant le blocage", p: "La D4F relie le centre d'Allauch à l'atelier en une dizaine de minutes : tant que le moteur démarre, le trajet ne pose pas de problème. Si le décompte est déjà arrivé à son terme, le dépannage depuis la commune, à 5 km, relève du forfait local de 89 €. La réparation se situe entre 90 et 690 € selon le composant, avec un devis écrit avant intervention et une garantie de 12 mois." }
+    ],
+    faq: [
+      { q: "Comment limiter le risque sur une voiture qui roule peu ?", a: "Lui faire faire un vrai trajet de temps en temps, plutôt que de la laisser des semaines à l'arrêt, aide le circuit à rester en état. Si un défaut apparaît malgré tout, mieux vaut le faire lire rapidement que d'attendre qu'il s'aggrave." },
+      { q: "Une décristallisation revient-elle aussi cher qu'une pompe neuve ?", a: "Elle évite le remplacement lorsque la pièce est seulement encombrée de cristaux. Son prix dépend du composant et de son accès, dans la fourchette de réparation de 90 à 690 € ; il figure sur le devis remis avant tout travail." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR et décalaminage en un seul passage pour les Allaudiens",
+    lead: "À 10 minutes d'Allauch, faites nettoyer la vanne EGR et, si le diagnostic le justifie, le moteur lors du même rendez-vous : vanne de 180 à 290 €, formule combinée avec décalaminage de 350 à 450 €.",
+    metaDesc: "Vanne EGR à Allauch : démontage, ultrason et joints neufs 180 à 290 €, formule avec décalaminage hydrogène 350 à 450 €. Atelier à 10 min par la D4F.",
+    intro: [
+      "Une vanne EGR ne s'encrasse jamais seule. La suie qu'elle recycle vient de la combustion, et la calamine qui gêne la vanne se dépose aussi sur les soupapes et dans le collecteur d'admission. Nettoyer uniquement la vanne soulage le symptôme ; traiter en même temps l'amont et la pièce démontable donne un résultat plus durable.",
+      "Pour un conducteur d'Allauch, la proximité de l'atelier, à 5 km par la D4F, rend ce regroupement simple : un seul dépôt du véhicule, un seul retour, et une seule facture détaillée."
+    ],
+    sections: [
+      { h: "Deux traitements complémentaires", p: "Le <strong>décalaminage hydrogène</strong> nettoie sans démontage la chambre de combustion et le collecteur. La vanne EGR, elle, est déposée, passée au bain ultrason haute température et remontée avec des joints neufs. Seule, la vanne coûte de 180 à 290 € ; associée au décalaminage, la formule revient de 350 à 450 €, moins cher que les deux interventions réservées séparément. Le diagnostic préalable indique si la combinaison est utile ou si la vanne suffit." },
+      { h: "Ce que l'on ressent avant, ce que l'on vérifie après", p: "Une vanne colmatée se manifeste par des à-coups à l'accélération, une perte de puissance qui s'installe peu à peu, un démarrage laborieux à froid ou un voyant moteur. Après l'intervention, les codes défauts sont effacés et un essai routier confirme le fonctionnement. Si la vanne est électriquement défaillante ou si le problème relève du moteur lui-même, vous le savez dès le diagnostic, avant tout engagement. L'intervention est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Faut-il refaire un décalaminage à chaque nettoyage de vanne ?", a: "Non. Un décalaminage tous les 30 000 km environ suffit à limiter l'arrivée de calamine. Si le dernier est récent, la vanne seule peut être traitée ; le diagnostic tranche." },
+      { q: "Une voiture essence a-t-elle aussi une vanne EGR ?", a: "Certains moteurs essence en sont équipés, mais l'encrassement concerne surtout les diesels. La lecture des codes et l'examen de la vanne indiquent si un nettoyage se justifie sur votre motorisation." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Voyant FAP avant les vacances à Allauch : traiter avant de partir",
+    lead: "Le filtre à particules donne des signes de saturation à quelques jours d'un long trajet ? À 10 minutes d'Allauch, nous le régénérons sans démontage dès 250 €, ou en bain ultrason de 390 à 650 €.",
+    metaDesc: "Nettoyage FAP avant un long trajet à Allauch : régénération sans démontage dès 250 € en 90 min, bain ultrason 390 à 650 €, diagnostic inclus.",
+    intro: [
+      "On imagine souvent qu'une longue route suffira à « déboucher » le filtre à particules. C'est vrai pour un filtre simplement chargé, qui profite d'un régime soutenu pour se régénérer. Mais quand il est déjà saturé, la voiture peut basculer en <strong>mode dégradé</strong> sur l'autoroute, puissance bridée, avec la famille et les bagages à bord, loin de tout atelier connu.",
+      "Les semaines passées à circuler entre le centre historique, La Pounche et les commerces sont justement celles où le filtre se remplit. Le faire vérifier avant le départ coûte peu au regard d'une panne sur la route."
+    ],
+    sections: [
+      { h: "Choisir la méthode selon la date du départ", p: "La mesure de contre-pression et du taux de charge, comprise dans le prix, oriente le choix. Filtre chargé mais récupérable sans dépose : additif injecté par la sonde différentielle et régénération forcée pilotée, 90 minutes, à partir de 250 €. Filtre fortement colmaté : dépose, bain ultrason haute température et séchage, de 390 à 650 €, comptez une à deux journées. Prenez donc rendez-vous une semaine avant le départ pour garder toutes les options." },
+      { h: "Sur la route, aider le filtre à rester propre", p: "Un trajet d'autoroute à allure régulière favorise ensuite les régénérations naturelles : les vacances sont le bon moment pour en profiter. Au retour, si les trajets courts reprennent, une trentaine de kilomètres sur voie rapide une fois par mois entretient le résultat. En juillet et en août, la fréquentation des moulins charge les routes d'Allauch : un rendez-vous en matinée facilite l'accès à l'atelier. L'intervention est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Puis-je partir avec un voyant FAP allumé si la voiture roule normalement ?", a: "C'est un pari : le voyant signale que le filtre n'arrive plus à se vider seul, et le mode dégradé peut survenir en cours de route. Une mesure avant le départ dit s'il suffit de rouler ou s'il faut intervenir." },
+      { q: "Le nettoyage sans démontage convient-il à un filtre jamais entretenu ?", a: "Cela dépend de son taux de charge, pas de son âge. Sous un certain seuil, la régénération chimique est efficace ; au-delà, seul le bain ultrason permet de récupérer le filtre. Si la céramique est abîmée, nous proposons un FAP reconditionné." }
+    ]
   }
 };

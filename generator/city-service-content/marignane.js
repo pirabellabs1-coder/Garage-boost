@@ -107,5 +107,59 @@ module.exports = {
       { q: "Une perte de puissance vient-elle toujours du turbo ?", a: "Non. Le turbo est souvent soupçonné, mais une durite fendue, un capteur de pression défaillant, une vanne EGR grippée ou un filtre colmaté produisent le même ressenti. Les mesures permettent de ne pas remplacer un turbo en bon état." },
       { q: "Peut-on envisager une reprogrammation après le diagnostic ?", a: "Uniquement sur un moteur sain : le diagnostic est justement la première étape. Une reprogrammation modifie les caractéristiques du véhicule, doit être déclarée à l'assureur, et une hausse de puissance relève en principe d'une nouvelle homologation." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Compte à rebours AdBlue à Marignane : réparer sans perdre la journée",
+    lead: "Le décompte AdBlue s'affiche en quittant le travail ? Nous diagnostiquons le système SCR dès 90 €, déduits si vous réparez chez nous, et pouvons récupérer la voiture à domicile à Marignane.",
+    metaDesc: "Panne AdBlue à Marignane : diagnostic du système SCR dès 90 €, réparation de 90 à 690 € selon la pièce, garantie 12 mois. Récupération possible.",
+    intro: [
+      "Sur un diesel récent, le système SCR injecte de l'AdBlue dans l'échappement pour réduire les oxydes d'azote. Quand l'un de ses éléments faiblit, le tableau de bord n'affiche pas seulement un voyant : il annonce le <strong>nombre de kilomètres</strong> avant que le démarrage soit refusé. Pour qui rejoint chaque jour la zone aéroportuaire ou les sites industriels de Marignane, la question devient vite : combien de trajets reste-t-il ?",
+      "La réponse tient à la nature de la panne. Un <strong>capteur de qualité</strong> défaillant, une sonde NOx, une pompe ou un injecteur pris dans les cristaux n'appellent pas la même réparation, et rarement le remplacement de tout le système."
+    ],
+    sections: [
+      { h: "Un devis pièce par pièce", p: "Notre valise multimarque lit les codes du système SCR, puis nous testons le capteur de qualité, la pompe, l'injecteur d'AdBlue et les sondes NOx pour isoler l'élément en cause. Le diagnostic coûte <strong>dès 90 €</strong>, déduit si vous validez la réparation. Celle-ci est chiffrée par écrit avant intervention : de 90 à 690 € selon le composant, bien en dessous des 1 500 à 2 500 € d'un remplacement complet en concession. Une fois la pièce remise en état, les codes sont effacés, le compte à rebours réinitialisé, et l'intervention est garantie 12 mois." },
+      { h: "Ne pas sacrifier une journée de congé", p: "Depuis Marignane, l'A55 puis la rocade L2 mènent à l'atelier en une trentaine de minutes, mais l'A55 sature matin et soir comme l'A7. Plutôt que de jongler avec ces horaires, vous pouvez nous laisser venir chercher la voiture chez vous, au Jardin du Roy, à Saint-Pierre ou dans un autre quartier. Cette récupération à domicile est gratuite au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Combien de kilomètres me reste-t-il une fois le décompte lancé ?", a: "Le chiffre affiché fait foi : il descend par paliers, par exemple 300, 200 puis 100 km, jusqu'au refus de démarrer. Mieux vaut prendre rendez-vous dès son apparition que d'attendre les derniers kilomètres." },
+      { q: "Pourquoi ne pas simplement couper le système pour éteindre le voyant ?", a: "Parce que c'est illégal sur route en France : le véhicule perd sa conformité et échoue au contrôle technique. Nous ne le faisons pas ; nous réparons l'élément défaillant pour que la dépollution fonctionne à nouveau." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Injecteurs et vanne EGR à Marignane : nettoyer selon l'encrassement",
+    lead: "Démarrage laborieux, fumée à l'accélération, ralenti irrégulier ? Selon le diagnostic, nous traitons les injecteurs par additif dès 120 € ou par ultrasons, et la vanne EGR de 180 à 290 €.",
+    metaDesc: "Injecteurs et vanne EGR pour Marignane : additif 120 à 220 €, injecteurs aux ultrasons 290 à 490 €, vanne EGR 180 à 290 €. Garantie 12 mois.",
+    intro: [
+      "Sur un diesel, les injecteurs pulvérisent le gazole à très haute pression. Avec le temps, gommes et calamine déforment ce jet : la combustion devient incomplète, le moteur <strong>broute au ralenti</strong>, démarre mal à froid et noircit l'échappement à l'accélération. Cette suie supplémentaire file ensuite vers la vanne EGR, qui s'encrasse d'autant plus vite.",
+      "Traiter l'une sans regarder l'autre expose à voir revenir les mêmes symptômes. Pour une voiture qui fait chaque jour la navette par l'A55 entre Marignane et Marseille, nous examinons donc <strong>les deux ensemble</strong> avant de proposer quoi que ce soit."
+    ],
+    sections: [
+      { h: "Additif ou démontage : le degré d'encrassement décide", p: "Après lecture des codes et mesure du débit des injecteurs, deux protocoles sont possibles. Un encrassement léger se traite par un <strong>additif professionnel</strong> passé dans le circuit, de 120 à 220 €. Des injecteurs plus atteints sont démontés et nettoyés en bain ultrason, de 290 à 490 €. Si un injecteur présente un défaut que le nettoyage ne corrige pas, nous vous l'indiquons et vous orientons vers son remplacement plutôt que de le nettoyer sans résultat." },
+      { h: "La vanne EGR dans la même visite", p: "Si la vanne est également chargée, elle est déposée, nettoyée aux ultrasons à haute température et remontée avec des joints neufs, de 180 à 290 € selon le moteur. Les codes sont effacés, puis un essai sur route valide le résultat ; l'intervention est garantie 12 mois. Depuis Marignane, prévoyez la demi-heure d'A55 et de rocade L2 en dehors des pointes du matin et du soir." }
+    ],
+    faq: [
+      { q: "Les additifs vendus en station suffisent-ils pour mes injecteurs ?", a: "Ils peuvent entretenir un circuit propre, mais ne traitent pas un injecteur déjà gommé. Le traitement professionnel est encadré par un diagnostic avant et après, et le démontage reste nécessaire quand l'encrassement est avancé." },
+      { q: "Comment savoir si c'est la vanne ou les injecteurs ?", a: "Les symptômes se ressemblent, d'où l'intérêt du diagnostic : codes défauts, débit de chaque injecteur et fonctionnement commandé de la vanne. Il arrive que les deux soient en cause, l'un ayant encrassé l'autre." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Marignane : le FAP des diesels qui travaillent à cinq minutes",
+    lead: "Habiter Marignane et y travailler, c'est une chance, sauf pour le filtre à particules d'un diesel. Nettoyage sans démontage dès 250 € ou bain ultrason de 390 à 650 €, diagnostic inclus.",
+    metaDesc: "Nettoyage FAP pour Marignane : régénération chimique dès 250 € en 90 min, bain ultrason 390 à 650 €, diagnostic inclus, garantie 12 mois.",
+    intro: [
+      "Entre Notre-Dame, La Tapie ou le centre et les zones d'activités qui bordent l'aéroport, certains trajets domicile-travail ne durent que quelques minutes. Un moteur diesel n'a alors pas le temps de monter en température, et son <strong>filtre à particules</strong> se remplit de suie sans pouvoir la brûler : la régénération réclame plusieurs minutes de conduite soutenue.",
+      "Le calculateur tente bien de rattraper le retard en lançant des régénérations forcées, mais le parking est atteint avant qu'elles aboutissent. Viennent alors le <strong>voyant FAP</strong>, une perte de puissance et, si rien n'est fait, le mode dégradé."
+    ],
+    sections: [
+      { h: "Ce que nous faisons du filtre", p: "Le diagnostic préalable, inclus, chiffre la saturation et contrôle que la céramique est intacte. Quand la charge reste sous le seuil de 80 % environ, la méthode chimique suffit : produit introduit par la prise de la sonde différentielle, puis cycle de régénération déclenché et surveillé depuis notre valise, le tout en 90 minutes, dès 250 €. Plus encrassé, le filtre quitte la voiture pour un bain ultrason chauffé, un séchage à 200 °C et un remontage, en un à deux jours, de 390 à 650 €. Une céramique fêlée ou fondue ne se récupère pas : nous chiffrons alors un FAP reconditionné, qui coûte à peu près la moitié d'un neuf." },
+      { h: "Allonger le trajet de temps en temps", p: "Un détour régulier par l'A55 ou l'A7, une trentaine de kilomètres à allure constante, offre au filtre la chaleur qui lui manque sur les petits parcours. Aux heures où ces autoroutes sont chargées, le bénéfice est moindre : un dimanche matin ou un milieu de journée conviennent mieux. Une huile faible en cendres adaptée au diesel, à chaque vidange, ménage aussi le filtre. Le nettoyage est garanti 12 mois." }
+    ],
+    faq: [
+      { q: "Mon trajet est court, mais la voiture fait de l'autoroute le week-end : est-ce suffisant ?", a: "Cela dépend de la régularité et de la longueur de ces sorties. Si le voyant revient malgré elles, une autre cause, vanne EGR ou injecteurs, peut produire trop de suie : le diagnostic le vérifie." },
+      { q: "Combien de temps sans voiture faut-il prévoir ?", a: "Une heure et demie pour la méthode chimique, un à deux jours si le filtre doit être démonté. La récupération à domicile, gratuite au-delà de 200 € d'intervention validée, évite de faire soi-même l'aller-retour par l'A55." }
+    ]
   }
 };

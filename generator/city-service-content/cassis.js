@@ -89,5 +89,59 @@ module.exports = {
       { q: "Dois-je apporter le devis de l'autre garage ?", a: "C'est utile : il indique ce qui a été observé et quelle pièce est mise en cause. Nous refaisons néanmoins notre propre lecture et nos propres mesures, pour un avis indépendant." },
       { q: "Les marques allemandes haut de gamme sont-elles couvertes ?", a: "Oui. Notre matériel multimarque couvre notamment BMW, Mercedes, Audi et Porsche, comme la plupart des marques européennes, asiatiques et américaines." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Devis AdBlue élevé pour un SUV à Cassis ? Faites cibler la panne",
+    lead: "Remplacer tout le système SCR d'un SUV ou d'une berline diesel coûte cher en concession. Notre diagnostic dès 90 € isole la pièce en cause, réparée de 90 à 690 € selon le composant.",
+    metaDesc: "Panne AdBlue à Cassis : diagnostic SCR dès 90 € déduit, réparation de la seule pièce fautive de 90 à 690 €, garantie 12 mois. Atelier à 30 min.",
+    intro: [
+      "Sur une berline ou un SUV diesel, la panne du système AdBlue débouche parfois sur un devis de <strong>remplacement complet</strong>, de 1 500 à 2 500 € en concession. Avant de signer, il vaut la peine de savoir quel élément est réellement défaillant : dans la grande majorité des cas, un seul composant est en cause.",
+      "Capteur de qualité, sonde NOx, pompe ou injecteur d'AdBlue : chacun se teste, se répare ou se remplace isolément. C'est ce que nous faisons à l'atelier, sur toutes les marques équipées, de BMW à Mercedes en passant par Audi ou Volkswagen."
+    ],
+    sections: [
+      { h: "Tester le circuit avant de tout changer", p: "Le devis de remplacement global part du principe que tout le circuit est à changer. Notre démarche inverse consiste à tester chaque élément du système SCR, puis à vous remettre un chiffrage écrit pour la seule pièce défaillante. Pour situer les montants : capteur de qualité de 200 à 400 €, sonde NOx de 350 à 650 €, décristallisation d'une pompe ou d'un injecteur pour moins. Le diagnostic, <strong>dès 90 €</strong>, est déduit si la réparation est faite chez nous." },
+      { h: "Remise en conformité et trajet depuis Cassis", p: "Une fois la pièce traitée, le dosage est vérifié, les codes effacés et le décompte réinitialisé ; un essai sur route confirme que le voyant reste éteint. La réparation est garantie 12 mois. Depuis Cassis, l'atelier se rejoint en une trentaine de minutes par la D559 et l'A50, à condition d'éviter les journées chargées de juillet et d'août : un matin de semaine reste le plus simple." }
+    ],
+    faq: [
+      { q: "Réparer une seule pièce, n'est-ce pas une solution provisoire ?", a: "Non, tant que le diagnostic a bien identifié la cause : les autres éléments du circuit ont été testés et fonctionnent. Si un second composant montrait des signes de faiblesse, nous vous le dirions avant de commencer." },
+      { q: "Mon SUV est encore sous garantie constructeur, dois-je passer par la concession ?", a: "Une panne couverte par la garantie constructeur se traite en principe dans le réseau de la marque, sans frais pour vous. Notre intervention prend tout son intérêt une fois cette garantie échue." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Cassis : vanne EGR et injecteurs d'un diesel qui dort hors saison",
+    lead: "Voiture de résidence secondaire ou seconde voiture garée des mois ? Au redémarrage, vanne EGR et injecteurs peuvent faire défaut. Vanne nettoyée de 180 à 290 €, injecteurs dès 120 €.",
+    metaDesc: "Vanne EGR et injecteurs à Cassis : nettoyage EGR aux ultrasons 180 à 290 €, injecteurs 120 à 490 € selon l'état. Garantie 12 mois.",
+    intro: [
+      "Une voiture garée au village ou dans une résidence de Cassis pendant tout l'hiver, puis sollicitée d'un coup quand la saison reprend : ce rythme ne convient pas à un diesel. Le gazole vieillit dans le circuit, les dépôts sèchent dans la <strong>vanne EGR</strong>, et les injecteurs, déjà marqués par les petits trajets de l'été précédent, pulvérisent moins bien.",
+      "Le jour du redémarrage, cela se traduit par un moteur qui tousse à froid, un ralenti instable ou une fumée inhabituelle. Les montées vers la route des Crêtes ou le col de la Gineste, qui réclament du couple, achèvent de <strong>révéler le problème</strong>."
+    ],
+    sections: [
+      { h: "Remettre en état plutôt que remplacer", p: "Le diagnostic lit les codes, mesure le débit de chaque injecteur et vérifie la réponse de la vanne EGR. Selon le résultat, la vanne est déposée, nettoyée en cuve à ultrasons chauffée puis remontée avec des joints neufs, de 180 à 290 €. Les injecteurs reçoivent un traitement par additif, de 120 à 220 €, ou sont démontés et passés aux ultrasons, de 290 à 490 €, si l'encrassement est profond. Chaque intervention est garantie 12 mois." },
+      { h: "Préparer la remise en route", p: "Si vous savez que la voiture va reprendre du service au printemps, prévoyez le passage avant les premiers trajets chargés de l'été, quand la D559 et l'A50 sont encore fluides. Nous pouvons aussi venir la chercher à domicile, gratuitement au-delà de 200 € d'intervention validée. Lorsque la cause dépasse l'antipollution, mécanique lourde ou électronique, le diagnostic le dit clairement et vous repartez avec un compte-rendu écrit." }
+    ],
+    faq: [
+      { q: "Faut-il faire tourner le moteur pendant l'hiver pour l'éviter ?", a: "Le laisser tourner quelques minutes à l'arrêt n'aide pas, cela encrasse plutôt. Mieux vaut, si possible, un vrai trajet de temps en temps, assez long pour que le moteur atteigne sa température." },
+      { q: "Peut-on traiter vanne et injecteurs en une seule visite ?", a: "Oui, c'est même souvent pertinent, car des injecteurs qui pulvérisent mal produisent la suie qui encrasse la vanne. Le devis détaille chaque poste pour que vous choisissiez." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP saturé à Cassis : ni le village ni la Gineste ne suffisent",
+    lead: "Trajets de quelques minutes autour du port, route en lacets vers la Gineste : un diesel qui ne connaît que cela chauffe mal son filtre. Nettoyage FAP dès 250 €, diagnostic préalable inclus.",
+    metaDesc: "Nettoyage FAP pour Cassis : régénération sans démontage dès 250 €, bain ultrason 390 à 650 €, diagnostic inclus, garantie 12 mois.",
+    intro: [
+      "Dans le village, du port au Bestouan ou à La Couronne, les trajets se comptent en minutes et s'achèvent souvent par une recherche de stationnement. Le moteur n'y atteint pas la température qui permet au <strong>filtre à particules</strong> de brûler ses suies.",
+      "On pourrait penser que la route de la Gineste compense. Mais une montée en lacets, où l'on ralentit à chaque virage avant de relancer, ne garantit pas la <strong>chaleur stable</strong> qu'une régénération complète demande, et la descente qui suit refroidit l'échappement."
+    ],
+    sections: [
+      { h: "Le traitement adapté au niveau de colmatage", p: "Avant tout, le diagnostic, inclus dans le prix, mesure la contre-pression, estime la charge du filtre et contrôle sa céramique. Un filtre encore récupérable sur place est traité sans dépose : produit injecté, régénération pilotée, 90 minutes, <strong>dès 250 €</strong>. Un filtre très encrassé est démonté et nettoyé en bain ultrason chaud, puis séché et reposé, pour 390 à 650 € en un à deux jours. Une céramique endommagée appelle un FAP reconditionné, à environ la moitié du prix d'un neuf." },
+      { h: "Après l'atelier, une habitude à prendre", p: "Le meilleur entretien reste une sortie d'une trentaine de kilomètres à vitesse constante chaque mois. Depuis Cassis, rejoindre l'A50 par la D559 puis rouler un moment à allure stable remplit ce rôle, de préférence hors des journées chargées de l'été. Le trajet jusqu'à l'atelier, une demi-heure en matinée de semaine, en est déjà une bonne occasion. Le nettoyage est garanti 12 mois." }
+    ],
+    faq: [
+      { q: "Un FAP nettoyé suffit-il pour repasser le contrôle technique ?", a: "Le nettoyage rétablit l'écoulement des gaz et la capacité de filtration. Le contrôle de l'opacité des fumées dépend ensuite de l'état global du moteur : si une autre cause persiste, nous vous le signalons après l'essai de validation." },
+      { q: "Puis-je faire venir la voiture sans prendre la route moi-même ?", a: "Oui, la récupération à domicile est gratuite au-delà de 200 € d'intervention validée, ce qui couvre tout nettoyage de FAP. Si le véhicule est en mode dégradé, le remorquage depuis Cassis coûte 149 € en journée." }
+    ]
   }
 };

@@ -107,5 +107,59 @@ module.exports = {
       { q: "Une boutique m'a lu le code gratuitement, pourquoi payer un diagnostic ?", a: "Un simple lecteur affiche un code, sans dire s'il vient du capteur, de son câblage ou de la pièce surveillée. Notre diagnostic croise ce code avec les valeurs des capteurs mesurées en direct et, si nécessaire, un essai routier, pour désigner la vraie cause." },
       { q: "Lisez-vous aussi les autres calculateurs que celui du moteur ?", a: "Oui. La valise interroge aussi l'ABS, l'ESP, les airbags ou le boîtier de servitude, ce qui permet de repérer un défaut lié à un autre système et qui se répercute sur le moteur." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Diesel hors garantie à Septèmes : réparer l'AdBlue pièce par pièce",
+    lead: "Votre diesel familial vient de sortir de garantie et le système AdBlue signale un défaut ? À 15 minutes de Septèmes-les-Vallons, nous réparons le seul composant défaillant, diagnostic dès 90 €.",
+    metaDesc: "Panne AdBlue hors garantie à Septèmes-les-Vallons : diagnostic dès 90 € déduit, sonde NOx, capteur, pompe ou injecteur de 90 à 690 €.",
+    intro: [
+      "Les pannes du système SCR surviennent souvent une fois la garantie constructeur terminée. Pour le diesel familial garé devant un pavillon de La Gavotte ou des Termes, le voyant AdBlue tombe alors au mauvais moment : la facture est pour soi, et le premier devis reçu porte parfois sur le remplacement de tout le circuit.",
+      "Or le système AdBlue est fait de plusieurs pièces distinctes, réservoir, pompe, injecteur, capteur de qualité, <strong>sondes NOx</strong> amont et aval, et une panne n'en concerne en général qu'une seule."
+    ],
+    sections: [
+      { h: "Payer la pièce en cause, pas les autres", p: "Notre diagnostic, à partir de 90 € et déduit si la réparation est faite chez nous, isole le composant défaillant : lecture des codes, test des capteurs, de la pompe et des sondes. Une sonde NOx ou un capteur de qualité hors service se remplacent, une pompe ou un injecteur cristallisés se décristallisent. Selon la pièce, la réparation va de 90 à 690 €, chiffrée par écrit avant tout travail et garantie 12 mois pièces et main-d'œuvre." },
+      { h: "Venir depuis Septèmes, ou se faire remorquer", p: "Par l'A507 en direction d'Aix, sortie Plan-de-Cuques, l'atelier est à un quart d'heure ; aux heures de pointe, la D908 offre une alternative plus longue mais moins chargée. Si le décompte a déjà immobilisé la voiture, Septèmes étant à 11 km, le remorquage relève du forfait de 149 €. Si le défaut dépasse le circuit AdBlue, par exemple un problème électronique plus large, le compte-rendu vous l'indique sans réparation engagée au hasard." }
+    ],
+    faq: [
+      { q: "Une sonde NOx se change-t-elle sans toucher au reste du système ?", a: "Oui. Les sondes NOx amont et aval sont des pièces à part entière, remplacées individuellement lorsque le diagnostic les désigne. Le reste du circuit, s'il fonctionne, n'est pas touché." },
+      { q: "Que se passe-t-il si un autre défaut apparaît après la réparation ?", a: "La réparation est garantie 12 mois : si le défaut traité revient du fait de notre travail, la reprise est gratuite. Si un autre composant lâche plus tard, il fait l'objet d'un nouveau diagnostic et d'un devis distinct, comme toute nouvelle panne." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Contrôle technique à Septèmes-les-Vallons : EGR et injecteurs prêts",
+    lead: "Votre diesel passe le contrôle dans quelques semaines et fume ou manque de reprise ? À 15 minutes de Septèmes, nous vérifions vanne EGR et injecteurs avant le rendez-vous : nettoyage de la vanne de 180 à 290 €.",
+    metaDesc: "Avant le contrôle technique à Septèmes-les-Vallons : nettoyage vanne EGR 180 à 290 €, injecteurs 120 à 490 € selon méthode, garantie 12 mois.",
+    intro: [
+      "Une vanne EGR qui colle et des injecteurs qui pulvérisent mal se traduisent souvent par une <strong>fumée plus sombre</strong> à l'accélération. C'est précisément ce que mesure le test d'opacité au contrôle technique. Traiter ces organes quelques semaines avant le rendez-vous évite de découvrir le problème sur le procès-verbal, avec une contre-visite à caser dans un délai court.",
+      "La démarche commence par une mesure : rien ne sert de démonter une vanne saine si l'écart vient des injecteurs, ou l'inverse."
+    ],
+    sections: [
+      { h: "Le contrôle préalable", p: "Nous lisons les codes défauts, dont les P0401, P0402 ou P0403 liés à la vanne, observons sa réponse et mesurons le débit des injecteurs. Selon le résultat : vanne déposée, passée au bain ultrason et remontée avec joints neufs, de 180 à 290 € ; injecteurs traités par additif premium, de 120 à 220 €, ou démontés et nettoyés aux ultrasons, de 290 à 490 €. Après l'intervention, les codes sont effacés et un essai routier valide le comportement." },
+      { h: "Caler le rendez-vous avant la date du contrôle", p: "Le nettoyage de la vanne demande environ quatre heures ; laissez-vous une à deux semaines de marge pour pouvoir y associer, si nécessaire, un décalaminage hydrogène. Depuis Septèmes, l'A507 conduit à la sortie Plan-de-Cuques en un quart d'heure, à condition d'éviter les pointes : avant 8 h ou en milieu de journée. L'intervention est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Le nettoyage garantit-il un résultat favorable au test d'opacité ?", a: "Il remet en état les organes en cause, ce qui améliore la combustion. Le verdict du contrôle dépend toutefois de l'ensemble du véhicule, filtre à particules compris : si une autre pièce pose problème, le diagnostic vous le signale avant le rendez-vous." },
+      { q: "Une vanne peut-elle être trop usée pour être nettoyée ?", a: "Oui, si son moteur électrique est en panne ou si la pièce est fissurée ou déformée. Le diagnostic l'identifie, et nous chiffrons alors une vanne neuve, de 350 à 700 € pour la pièce d'origine, plutôt qu'un nettoyage sans effet." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP à Septèmes-les-Vallons : traiter aussi ce qui l'encrasse",
+    lead: "Un filtre à particules qui sature à répétition a souvent un complice en amont. À 15 minutes de Septèmes par l'A507, nous mesurons le filtre et cherchons la cause : nettoyage dès 250 € sans démontage.",
+    metaDesc: "Nettoyage FAP pour Septèmes-les-Vallons : dès 250 € sans démontage, 390 à 650 € en bain ultrason, diagnostic préalable inclus, garantie 12 mois.",
+    intro: [
+      "Le filtre à particules est le dernier maillon de la chaîne : il récupère ce que le moteur produit. Si une <strong>vanne EGR</strong> colle, si un injecteur pulvérise mal ou si le débitmètre mesure de travers, la combustion fabrique plus de suie et le filtre se remplit plus vite que prévu. Le nettoyer sans chercher pourquoi il s'est rempli, c'est s'exposer à revoir le voyant quelques mois plus tard.",
+      "Le trajet quotidien de Septèmes vers Marseille par l'A507 n'arrange rien : quelques kilomètres de rocade, souvent ralentis aux heures de pointe, ne laissent pas toujours au filtre le temps de terminer une régénération."
+    ],
+    sections: [
+      { h: "Le bon ordre : la cause, puis le filtre", p: "Le diagnostic inclus dans le prix relève la contre-pression, le taux de charge et l'état de la céramique, mais aussi les codes défauts qui trahissent un problème en amont. Si une vanne EGR ou des injecteurs sont en cause, nous vous le disons et chiffrons leur traitement séparément : à vous de décider. Le filtre est ensuite régénéré sans démontage, en 90 minutes à partir de 250 €, ou déposé et passé au bain ultrason, de 390 à 650 € pour une à deux journées." },
+      { h: "Garder le bénéfice du nettoyage", p: "Après l'intervention, garantie 12 mois, une sortie mensuelle d'une trentaine de kilomètres sur autoroute, par exemple vers Aix, laisse le calculateur mener une régénération complète. Une huile faible en cendres, adaptée au diesel, ménage aussi le filtre lors des vidanges. Le compte-rendu écrit, avec les mesures avant et après, permet de suivre son évolution au prochain passage." }
+    ],
+    faq: [
+      { q: "Mon filtre a été nettoyé l'an dernier : est-il normal qu'il soit de nouveau plein ?", a: "En usage mixte, c'est rarement normal : c'est souvent le signe d'une cause en amont non traitée ou de trajets trop courts. La lecture des codes et des valeurs moteur permet de faire la différence avant de nettoyer à nouveau." },
+      { q: "Faut-il un rendez-vous plus long si la vanne EGR doit aussi être nettoyée ?", a: "Oui, prévoyez la journée : le nettoyage de la vanne demande environ quatre heures, auxquelles s'ajoutent les 90 minutes de régénération du filtre. Si le filtre doit passer au bain ultrason, l'immobilisation passe à une ou deux journées." }
+    ]
   }
 };

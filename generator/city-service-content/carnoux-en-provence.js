@@ -89,5 +89,59 @@ module.exports = {
       { q: "Effacer le voyant suffit-il pour passer la contre-visite ?", a: "Non. Le voyant revient tant que la cause n'est pas traitée, et les émissions restent hors limites. Nous ne l'effaçons qu'une fois la réparation faite et vérifiée." },
       { q: "Quel document apporter pour le diagnostic ?", a: "Le procès-verbal du contrôle technique, qui précise les défaillances relevées et les valeurs mesurées. Il oriente directement nos recherches." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "SUV diesel à Carnoux : panne AdBlue sortie de garantie",
+    lead: "Voyant AdBlue sur un SUV ou une berline diesel tout juste sortis de garantie, et devis pour tout le système ? À Carnoux, demandez d'abord un diagnostic ciblé, dès 90 €.",
+    metaDesc: "Panne AdBlue à Carnoux-en-Provence : diagnostic SCR dès 90 €, déduit, réparation de la seule pièce fautive de 90 à 690 €, garantie 12 mois.",
+    intro: [
+      "Un système SCR à AdBlue tombe en panne assez régulièrement, et souvent après la fin de la garantie constructeur. Le devis de concession conclut parfois au <strong>remplacement de l'ensemble</strong>, pompe, injecteur, capteur, sondes, pour 1 500 à 2 500 €.",
+      "Pour un SUV entretenu avec soin et garé à La Crémade ou aux Hauts de Carnoux, ce chiffre surprend. Avant de l'accepter, il est utile de savoir quel composant est réellement défaillant : il est rare qu'ils le soient tous."
+    ],
+    sections: [
+      { h: "Comparer avec le devis de concession", p: "Le diagnostic du système SCR, dès <strong>90 €</strong> et déduit si vous nous confiez la réparation, teste séparément le capteur de qualité, la pompe, l'injecteur AdBlue et les sondes NOx. Sur cette base, nous chiffrons la réparation de la seule pièce en cause : de 200 à 400 € pour un capteur de qualité, de 350 à 650 € pour une sonde NOx, moins pour une décristallisation. Vous comparez en connaissance de cause." },
+      { h: "Toutes marques, conformité respectée", p: "L'atelier intervient sur les marques équipées d'AdBlue, de Mercedes, BMW, Audi ou Volkswagen à Renault, Peugeot ou Citroën. La pièce est réparée ou remplacée, le dosage contrôlé, les défauts effacés et le décompte réinitialisé ; la dépollution redevient active et l'homologation est préservée. Depuis Carnoux, l'atelier se rejoint en 22 minutes par la D41 puis la D4F, et la réparation est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Puis-je faire réparer hors concession sans perdre mes droits ?", a: "Une fois la garantie constructeur échue, vous choisissez librement l'atelier. Si votre véhicule est encore couvert, interrogez d'abord la marque : le défaut peut relever de sa garantie." },
+      { q: "Le réservoir d'AdBlue est-il en cause dans ce genre de panne ?", a: "Rarement à lui seul. Le voyant vient le plus souvent d'un capteur, d'une sonde ou d'une pièce cristallisée. Si le réservoir ou sa jauge sont concernés, le diagnostic le montre et le devis le précise." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR et injecteurs d'un SUV qui roule court à Carnoux",
+    lead: "Courtes boucles entre Carnoux, Aubagne et la côte : un SUV diesel chauffe rarement à fond, et vanne EGR comme injecteurs s'encrassent. Nettoyage de la vanne de 180 à 290 €.",
+    metaDesc: "Vanne EGR et injecteurs à Carnoux-en-Provence : nettoyage ultrason de 180 à 290 €, injecteurs de 120 à 490 €, garantie 12 mois.",
+    intro: [
+      "Un SUV diesel est conçu pour avaler les kilomètres. S'il sert surtout pour l'école, les courses à Aubagne ou une sortie à Cassis, il reste pourtant dans la plage de régime où la <strong>vanne EGR</strong> recycle le plus de gaz chargés de suie. Un moteur lourd qui enchaîne les trajets courts n'atteint pas toujours sa pleine température, et les dépôts s'accumulent sans être brûlés.",
+      "Les injecteurs suivent le même chemin. Leur pulvérisation se dégrade, la combustion produit plus de suie, et la vanne s'encrasse encore plus vite : c'est un cercle qu'il faut couper des deux côtés."
+    ],
+    sections: [
+      { h: "Traiter la vanne et les injecteurs ensemble", p: "Après lecture des défauts et mesure du débit des injecteurs, la vanne EGR est démontée, nettoyée en bain ultrason et remontée avec des <strong>joints neufs</strong>, de 180 à 290 €. Pour les injecteurs, le choix dépend de leur état : additif professionnel de 120 à 220 €, ou dépose et ultrason de 290 à 490 €. Les deux interventions figurent sur le même devis, que vous validez avant que nous commencions." },
+      { h: "Compléter par un décalaminage", p: "Sur un moteur qui vit de trajets courts, la calamine se dépose aussi dans la chambre de combustion et le collecteur, hors de portée d'un démontage de vanne. Le pack qui associe le traitement EGR à un <strong>décalaminage à l'hydrogène</strong> revient de 350 à 450 €, environ 15 % de moins que les deux prestations prises séparément. Le traitement EGR est garanti 12 mois." }
+    ],
+    faq: [
+      { q: "Mon SUV ne fume pas, la vanne EGR peut-elle quand même être encrassée ?", a: "Oui. La fumée noire arrive plutôt à un stade avancé. Avant cela, on remarque surtout une reprise moins franche, une consommation en légère hausse ou un ralenti irrégulier. Le diagnostic fait la part des choses." },
+      { q: "L'été, la circulation vers Cassis aggrave-t-elle l'encrassement ?", a: "Les ralentissements prolongés font tourner le moteur à faible charge, ce qui favorise les dépôts. Un parcours roulant de temps en temps, sur l'A50 par exemple, aide à les limiter." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Carnoux : le FAP après un été de bouchons vers Cassis",
+    lead: "Juillet et août au pas vers le littoral, puis le voyant FAP à la rentrée : pour Carnoux, nous mesurons le filtre et le nettoyons sans démontage dès 250 €, en 90 minutes environ.",
+    metaDesc: "FAP colmaté à Carnoux-en-Provence : régénération sans démontage dès 250 €, bain ultrason de 390 à 650 €, diagnostic inclus, garantie 12 mois.",
+    intro: [
+      "Entre Carnoux, Cassis et La Ciotat, la circulation se densifie nettement en été avec l'afflux vers le littoral. Un diesel qui fait ces trajets en juillet et en août roule souvent au pas, sur des distances courtes. Le <strong>filtre à particules</strong> n'a pas l'occasion d'atteindre les températures nécessaires pour se régénérer, et les suies s'empilent semaine après semaine.",
+      "Le voyant n'apparaît pas forcément pendant l'été : il surgit parfois à la rentrée, sur le premier trajet plus long, quand une régénération forcée échoue sur un filtre déjà plein."
+    ],
+    sections: [
+      { h: "Une rentrée sans remplacement", p: "Le diagnostic préalable, inclus, mesure la contre-pression et contrôle l'état de la céramique. Si le filtre reste modérément chargé, la <strong>régénération chimique sans démontage</strong>, dès 250 €, s'effectue en 90 minutes environ ; s'il est très colmaté, la dépose et le bain ultrason haute température, de 390 à 650 €, demandent un à deux jours. Dans les deux cas, c'est bien moins qu'un filtre neuf, chiffré de 1 200 à 2 500 €." },
+      { h: "Venir à l'atelier, ou se faire chercher", p: "Depuis Carnoux, la D41 vers Aubagne puis la D4F mènent à Plan-de-Cuques en 22 minutes, avec quelques ralentissements vers Aubagne en fin de journée. Si le bain ultrason immobilise la voiture deux jours, la récupération à domicile évite les allers-retours. Le compte-rendu remis indique les mesures de contre-pression avant et après, et la régénération est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Faut-il attendre la fin de l'été pour faire nettoyer le filtre ?", a: "Non. Si le voyant s'allume en pleine saison, mieux vaut intervenir tout de suite : chaque régénération manquée charge un peu plus le filtre et peut rendre la méthode sans démontage insuffisante." },
+      { q: "Comment éviter que le problème revienne l'été suivant ?", a: "En dehors de la période chargée, une trentaine de kilomètres d'autoroute à allure stable, au moins une fois par mois, laissent le filtre se vider seul. Une huile faible teneur en cendres adaptée au diesel et un contrôle des codes au moindre voyant complètent ces précautions." }
+    ]
   }
 };

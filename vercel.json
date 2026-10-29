@@ -101,7 +101,7 @@
     },
     {
       "source": "/maintenance-moteur-anti-pollution/suppression-adblue-scr-plan-de-cuques-marseille",
-      "destination": "/maintenance-moteur/gestion-adblue/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/gestion-adblue/marseille",
       "permanent": true
     },
     {
@@ -256,7 +256,7 @@
     },
     {
       "source": "/maintenance-moteur-anti-pollution/traitement-egr-injecteurs/traitement-egr-injecteurs-plan-de-cuques-marseille",
-      "destination": "/maintenance-moteur/traitement-egr/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/traitement-egr/marseille",
       "permanent": true
     },
     {
@@ -281,7 +281,7 @@
     },
     {
       "source": "/suppression-adblue-scr-plan-de-cuques-marseille",
-      "destination": "/maintenance-moteur/gestion-adblue/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/gestion-adblue/marseille",
       "permanent": true
     },
     {
@@ -486,7 +486,7 @@
     },
     {
       "source": "/maintenance-moteur-anti-pollution/traitement-egr-injecteurs/nettoyage-injecteurs-aubagne-la-ciotat-cassis",
-      "destination": "/maintenance-moteur/traitement-egr/aubagne-la-ciotat-cassis",
+      "destination": "/maintenance-moteur/traitement-egr/aubagne",
       "permanent": true
     },
     {
@@ -771,12 +771,12 @@
     },
     {
       "source": "/maintenance-moteur/nettoyage-fap/vitrolles-marignane-martigues",
-      "destination": "/maintenance-moteur/nettoyage-fap/martigues",
+      "destination": "/maintenance-moteur/nettoyage-fap/marignane",
       "permanent": true
     },
     {
       "source": "/maintenance-moteur/nettoyage-fap/vitrolles-marignane-martigues.html",
-      "destination": "/maintenance-moteur/nettoyage-fap/martigues",
+      "destination": "/maintenance-moteur/nettoyage-fap/marignane",
       "permanent": true
     },
     {
@@ -791,12 +791,12 @@
     },
     {
       "source": "/maintenance-moteur/traitement-egr/vitrolles-marignane-martigues",
-      "destination": "/maintenance-moteur/traitement-egr/martigues",
+      "destination": "/maintenance-moteur/traitement-egr/marignane",
       "permanent": true
     },
     {
       "source": "/maintenance-moteur/traitement-egr/vitrolles-marignane-martigues.html",
-      "destination": "/maintenance-moteur/traitement-egr/martigues",
+      "destination": "/maintenance-moteur/traitement-egr/marignane",
       "permanent": true
     },
     {
@@ -897,6 +897,66 @@
     {
       "source": "/maintenance-moteur/diagnostic-moteur/var-vaucluse-alpes-maritimes.html",
       "destination": "/maintenance-moteur/diagnostic-moteur/toulon",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/nettoyage-fap/aubagne-la-ciotat-cassis",
+      "destination": "/maintenance-moteur/nettoyage-fap/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/nettoyage-fap/aubagne-la-ciotat-cassis.html",
+      "destination": "/maintenance-moteur/nettoyage-fap/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/gestion-adblue/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/gestion-adblue/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/gestion-adblue/plan-de-cuques-marseille.html",
+      "destination": "/maintenance-moteur/gestion-adblue/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/gestion-adblue/aubagne-la-ciotat-cassis",
+      "destination": "/maintenance-moteur/gestion-adblue/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/gestion-adblue/aubagne-la-ciotat-cassis.html",
+      "destination": "/maintenance-moteur/gestion-adblue/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/gestion-adblue/vitrolles-marignane-martigues",
+      "destination": "/maintenance-moteur/gestion-adblue/marignane",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/gestion-adblue/vitrolles-marignane-martigues.html",
+      "destination": "/maintenance-moteur/gestion-adblue/marignane",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/traitement-egr/plan-de-cuques-marseille",
+      "destination": "/maintenance-moteur/traitement-egr/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/traitement-egr/plan-de-cuques-marseille.html",
+      "destination": "/maintenance-moteur/traitement-egr/marseille",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/traitement-egr/aubagne-la-ciotat-cassis",
+      "destination": "/maintenance-moteur/traitement-egr/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/traitement-egr/aubagne-la-ciotat-cassis.html",
+      "destination": "/maintenance-moteur/traitement-egr/aubagne",
       "permanent": true
     }
   ],

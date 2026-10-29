@@ -107,5 +107,59 @@ module.exports = {
       { q: "Mon fourgon roule encore en mode dégradé : puis-je venir par mes propres moyens depuis Aubagne ?", a: "Si aucun voyant rouge n'est allumé et que la température reste normale, un trajet court à allure modérée est généralement possible. Au moindre voyant rouge, bruit inhabituel ou fumée, arrêtez-vous et appelez-nous plutôt que de forcer." },
       { q: "Le compte-rendu peut-il servir pour la gestion de ma flotte ?", a: "Oui. Il liste les défauts relevés sur chaque calculateur, la cause identifiée et la réparation proposée : un document utile pour suivre l'historique d'un véhicule de société." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Panne AdBlue sur un fourgon d'artisan à Aubagne",
+    lead: "Voyant AdBlue sur l'utilitaire qui part chaque matin des Paluds ou de Camp Major ? Diagnostic du système SCR dès 90 €, déduit de la réparation, et devis écrit avant toute intervention.",
+    metaDesc: "Fourgon en panne AdBlue à Aubagne : diagnostic SCR dès 90 € déduit, réparation de 90 à 690 € selon la pièce, garantie 12 mois. Atelier à 20 min.",
+    intro: [
+      "Pour un artisan, un livreur ou un commerçant installé dans les zones des Paluds ou de Camp Major, l'utilitaire est un outil de travail. Un fourgon diesel récent est en général équipé d'un <strong>système SCR à AdBlue</strong>, et quand celui-ci se met en défaut, le décompte de kilomètres affiché au tableau de bord transforme une simple alerte en échéance : une fois arrivé au bout, le moteur ne redémarre plus.",
+      "Avant de signer un devis de remplacement complet du système, facturé de 1 500 à 2 500 € en concession, il vaut la peine de savoir quelle pièce est réellement en cause. Le plus souvent, une seule l'est."
+    ],
+    sections: [
+      { h: "Un diagnostic qui cible la pièce", p: "La lecture des codes et les tests de la pompe, de l'injecteur AdBlue, du capteur de qualité et des sondes NOx localisent le défaut. Le diagnostic démarre à <strong>90 €</strong> et vient en déduction si vous validez la réparation. Selon le composant, l'intervention se situe entre 90 et 690 € : décristallisation d'une pompe ou d'un injecteur, capteur de qualité, sonde NOx. Le devis écrit précède toujours les travaux." },
+      { h: "Caler l'immobilisation sur votre planning", p: "Depuis Aubagne, l'atelier est à une vingtaine de minutes par la D2 et la D4F, ou par l'A50 quand la D2 se charge entre 17 h et 19 h. Nous appeler dès l'apparition du voyant permet de choisir un jour creux de votre activité, au lieu de subir un blocage au pied d'un chantier. La réparation est garantie 12 mois, pièces et main-d'œuvre, et le système retrouve une dépollution active." }
+    ],
+    faq: [
+      { q: "Mon utilitaire a encore de l'AdBlue mais le voyant reste allumé, pourquoi ?", a: "Le niveau n'est pas en cause : c'est un composant du circuit qui signale un défaut, souvent le capteur de qualité, la pompe ou une sonde NOx. Le diagnostic désigne lequel avant de remplacer quoi que ce soit." },
+      { q: "Le fourgon est déjà bloqué sur un chantier à Aubagne, comment faire ?", a: "Notre dépanneuse intervient à Aubagne en 30 à 45 minutes en cas d'immobilisation, au forfait de 149 € pour cette distance, majoré de 50 % la nuit, le dimanche et les jours fériés. Le véhicule est ensuite diagnostiqué à l'atelier." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR et tournées dans Aubagne : le moteur qui s'étouffe",
+    lead: "Arrêts répétés, ralenti prolongé, relances à froid : un véhicule de tournée encrasse vite sa vanne EGR. Pour Aubagne, nettoyage ultrason et joints neufs de 180 à 290 €.",
+    metaDesc: "Vanne EGR encrassée à Aubagne : dépose, nettoyage ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €. Utilitaires et voitures.",
+    intro: [
+      "Une tournée de livraison dans Aubagne, c'est une succession d'arrêts : centre-ville, Les Solans, Beaudinard, puis retour vers la zone d'activités. Le moteur passe une bonne partie de la journée à <strong>bas régime ou au ralenti</strong>, la plage où la vanne EGR renvoie le plus de gaz d'échappement vers l'admission. Suie et vapeurs d'huile s'y accumulent jusqu'à gêner son mouvement.",
+      "Les symptômes se manifestent souvent quand le véhicule est chargé : trou à l'accélération en sortant d'un rond-point, fumée noire, voire passage en mode dégradé. Pour un professionnel, c'est une journée de tournée compromise."
+    ],
+    sections: [
+      { h: "La remise en état, étape par étape", p: "Après lecture des codes et contrôle de la vanne, celle-ci est déposée, nettoyée en bain à ultrasons haute température pendant une à deux heures, puis remontée avec des <strong>joints neufs</strong> selon les couples du constructeur. Les codes sont effacés et un essai routier valide le résultat. Comptez de 180 à 290 € selon le moteur, tarif fixé avant l'intervention et garanti 12 mois." },
+      { h: "Aller plus loin sur un moteur très encrassé", p: "Un utilitaire qui vit au ralenti charge aussi ses injecteurs et sa chambre de combustion. Le diagnostic dira si un traitement des injecteurs s'impose, par additif de 120 à 220 € ou après dépose de 290 à 490 €. Associé à un décalaminage à l'hydrogène, le traitement EGR passe en formule combinée de 350 à 450 €, moins cher que les deux interventions séparées. Si c'est le moteur électrique de la vanne qui est hors service, nous vous le montrons avant de parler remplacement." }
+    ],
+    faq: [
+      { q: "Une vanne EGR peut-elle se bloquer en position ouverte ?", a: "Oui. Bloquée ouverte, elle envoie trop de gaz brûlés à l'admission : le moteur fume et manque de souffle. Bloquée fermée, il tourne mais peut allumer le voyant moteur. Dans les deux cas, le nettoyage rétablit son mouvement si le mécanisme n'est pas endommagé." },
+      { q: "Combien de jours l'utilitaire reste-t-il immobilisé ?", a: "Le nettoyage de la vanne se fait en général dans la journée. Si un traitement des injecteurs après dépose ou un décalaminage s'y ajoute, le délai figure sur le devis, pour que vous puissiez réorganiser vos tournées." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP à Aubagne : D2 ou A50, le trajet qui change tout",
+    lead: "Même diesel, même conducteur : dans les ralentissements de la D2, le filtre à particules se charge ; sur l'A50 fluide, il peut se vider. Quand il est trop tard, nettoyage dès 250 €.",
+    metaDesc: "FAP colmaté à Aubagne : régénération chimique dès 250 € (90 min), dépose et bain ultrason de 390 à 650 €, diagnostic inclus. Atelier à 20 min.",
+    intro: [
+      "Pour rejoindre Marseille ou Plan-de-Cuques depuis Aubagne, deux options : la D2, directe mais chargée entre 17 h et 19 h, ou l'A50 jusqu'à La Penne. Pour le conducteur, c'est une affaire de minutes. Pour le <strong>filtre à particules</strong>, c'est autre chose : la régénération a besoin de plusieurs minutes à régime soutenu, avec des gaz très chauds. Une file arrêtée sur une départementale ne les lui donne pas ; une portion d'autoroute fluide, si.",
+      "Quand les trajets se font presque toujours au ralenti, le filtre accumule plus qu'il ne brûle. Le voyant finit par s'allumer, la voiture perd de la puissance, et le devis de remplacement arrive."
+    ],
+    sections: [
+      { h: "Ce que coûte un filtre nettoyé plutôt que neuf", p: "Un FAP neuf se chiffre de 1 200 à 2 500 €. Après un diagnostic inclus, qui mesure la contre-pression et vérifie la céramique, nous proposons la <strong>régénération chimique sans démontage</strong>, dès 250 € et en 90 minutes environ, pour un filtre encore modérément chargé, ou la <strong>dépose avec bain ultrason</strong>, de 390 à 650 € et un à deux jours d'atelier, pour un filtre très colmaté. Si la céramique est fissurée, un FAP reconditionné reste moins cher que le neuf." },
+      { h: "Garder l'A50 dans ses habitudes", p: "Après le nettoyage, préférer l'A50 aux heures chargées aide le filtre à se régénérer seul. Une vidange avec une huile faible teneur en cendres adaptée au diesel, et un contrôle de la vanne EGR et du débitmètre, limitent aussi les rechutes. La régénération elle-même est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Faut-il vraiment faire de l'autoroute pour entretenir un FAP ?", a: "C'est le moyen le plus simple : une trentaine de kilomètres à allure stable, au moins une fois par mois, permettent au filtre de se régénérer naturellement. Depuis Aubagne, l'A50 offre ce type de parcours sans grand détour." },
+      { q: "Le voyant FAP est allumé, puis-je attendre la fin de la semaine ?", a: "Quelques jours de trajets normaux sont en général possibles, mais chaque régénération ratée charge davantage le filtre et peut faire basculer de la méthode sans démontage vers le bain ultrason, plus long et plus cher. Mieux vaut appeler rapidement." }
+    ]
   }
 };

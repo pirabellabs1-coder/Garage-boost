@@ -107,5 +107,59 @@ module.exports = {
       { q: "Dois-je apporter le devis de l'autre garage ?", a: "C'est utile : il nous indique ce qui a été envisagé. Notre lecture reste cependant indépendante, et le compte-rendu repose sur nos propres relevés et mesures." },
       { q: "Que se passe-t-il si la panne ne se manifeste pas pendant l'examen ?", a: "Nous vous prévenons avant d'aller plus loin. Une session prolongée peut alors être proposée, avec essai routier et mesures dans différentes conditions, voire un enregistreur OBD à garder quelques jours." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Message AdBlue malgré un réservoir plein à Cabriès",
+    lead: "Vous venez de faire le plein d'AdBlue et le tableau de bord réclame toujours l'additif ou signale une qualité incorrecte ? À 25 minutes de Cabriès, nous testons capteurs et pompe : diagnostic dès 90 €.",
+    metaDesc: "Message AdBlue persistant à Cabriès malgré le plein : diagnostic SCR dès 90 € déduit, capteur, pompe ou sonde NOx de 90 à 690 €, garantie 12 mois.",
+    intro: [
+      "Le scénario déroute : le réservoir AdBlue vient d'être rempli, et l'alerte demeure. Le système ne surveille pas le liquide à l'œil mais par ses capteurs, et il vérifie aussi que l'additif a la bonne composition. Si le <strong>capteur de qualité</strong> envoie une valeur incohérente, ou si la pompe ne parvient pas à aspirer, le calculateur considère que l'additif fait défaut, quel que soit le volume présent dans le réservoir.",
+      "Ajouter encore du liquide n'y change rien. Ce qu'il faut, c'est savoir quelle pièce fournit la mauvaise information."
+    ],
+    sections: [
+      { h: "Les pistes que nous suivons", p: "Le diagnostic, dès 90 € et déduit en cas de réparation, commence par la lecture des codes du système SCR. Viennent ensuite le test du capteur de qualité, de la pompe, de l'injecteur et des sondes NOx. Un capteur défaillant ou une pompe cristallisée ne se traitent pas de la même manière : remplacement de la pièce dans un cas, décristallisation dans l'autre. Le devis écrit, de 90 à 690 € selon le composant, précède toute intervention." },
+      { h: "Depuis Cabriès ou Calas", p: "L'A51 puis l'A507 mènent à la sortie Plan-de-Cuques en 25 minutes environ. En semaine, le trajet est rapide ; le samedi, la circulation autour de Plan-de-Campagne entre 10 h et 18 h incite à venir tôt. Si un décompte a fini par bloquer le démarrage, le remorquage depuis Cabriès, à 16 km, coûte 149 €. Après réparation : codes effacés, contrôle du dosage, essai routier et garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Ai-je pu abîmer le système en versant un mauvais produit ?", a: "Un liquide non conforme, ou souillé lors du remplissage, peut fausser la mesure du capteur de qualité et perturber le circuit. Dites-nous ce qui a été versé : cela oriente le diagnostic, qui vérifie ensuite l'état réel des composants." },
+      { q: "Le message peut-il venir de l'injecteur AdBlue ?", a: "Oui. Un injecteur bouché par des cristaux empêche le dosage, et le système peut alors signaler un défaut alors que le réservoir est plein. Quand la pièce n'est pas endommagée, une décristallisation règle ce cas sans la remplacer." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Fumée noire à Cabriès : nettoyer les injecteurs diesel",
+    lead: "Panache sombre en accélérant sur l'A51, consommation qui grimpe ? Des injecteurs encrassés en sont souvent la source. Traitement par additif de 120 à 220 €, ou démontage et ultrasons de 290 à 490 €.",
+    metaDesc: "Injecteurs diesel encrassés à Cabriès : additif 120 à 220 €, démontage et bain ultrason 290 à 490 €, vanne EGR 180 à 290 €. Garantie 12 mois.",
+    intro: [
+      "Un injecteur diesel pulvérise le gazole sous une pression de 1 500 à 2 500 bars. Lorsque des dépôts de gomme et de calamine se forment sur son nez, le jet perd sa finesse : le carburant brûle moins bien, une <strong>fumée noire</strong> sort à l'accélération, par exemple en s'insérant sur l'A51, et la consommation augmente.",
+      "Cette combustion incomplète a une conséquence en chaîne : plus de suie, donc une vanne EGR et un filtre à particules qui s'encrassent plus vite. Traiter les injecteurs, c'est aussi protéger le reste de la ligne."
+    ],
+    sections: [
+      { h: "Additif ou démontage : la mesure décide", p: "Le diagnostic mesure le débit de chaque injecteur. Si l'encrassement reste léger, un traitement par additif premium, de 120 à 220 €, suffit à dissoudre les dépôts. S'ils sont installés, les injecteurs sont démontés, passés en bain ultrason haute température puis remontés avec des joints neufs, de 290 à 490 €. Lorsque la vanne EGR est elle aussi chargée, son nettoyage, de 180 à 290 €, peut être fait dans la foulée." },
+      { h: "Ce que le nettoyage ne règle pas", p: "Un injecteur dont l'élément piézo est défaillant, ou une pièce fissurée, ne se nettoie pas : il se remplace, comptez de 200 à 400 € pour un injecteur neuf. Le diagnostic préalable repère ces cas avant toute dépense. Si l'origine de la fumée se trouve ailleurs, turbo ou moteur, nous vous le disons sans chercher à intervenir hors de notre périmètre. L'intervention est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Faut-il nettoyer tous les injecteurs ou seulement celui qui dévie ?", a: "La mesure de débit montre si un seul injecteur s'écarte ou si l'ensemble est encrassé. Ayant vieilli dans les mêmes conditions, ils sont le plus souvent traités ensemble, ce que le devis détaille avant intervention." },
+      { q: "Les trajets vers Plan-de-Campagne encrassent-ils les injecteurs ?", a: "Des trajets courts, moteur pas tout à fait chaud, favorisent les dépôts, et les allers-retours de quelques kilomètres entre Cabriès, Calas et la zone commerciale en font partie. Un parcours régulier sur l'A51 et un décalaminage tous les 30 000 km environ aident à limiter le phénomène." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP de SUV diesel à Cabriès : régénérer ou passer au reconditionné",
+    lead: "Le SUV diesel qui sert surtout aux allers-retours vers Plan-de-Campagne et l'école sature son filtre ? À 25 minutes de Cabriès, nous mesurons, puis régénérons dès 250 € ou proposons un FAP reconditionné.",
+    metaDesc: "FAP saturé à Cabriès : régénération dès 250 €, bain ultrason 390 à 650 €, FAP reconditionné si la céramique est abîmée. Diagnostic inclus.",
+    intro: [
+      "Un SUV ou une grande berline diesel est fait pour avaler des kilomètres. Lorsqu'il sert à des trajets de quelques minutes, entre les Pommiers, le centre de Cabriès, les écoles et les parkings de Plan-de-Campagne, son <strong>filtre à particules</strong> se remplit sans jamais recevoir la chaleur nécessaire pour se vider.",
+      "Au bout du compte, le voyant s'allume, la voiture manque de souffle, et le devis d'un filtre neuf, de 1 200 à 2 500 €, fait réfléchir. Deux solutions moins coûteuses existent selon l'état de la pièce."
+    ],
+    sections: [
+      { h: "Quand le filtre peut être régénéré", p: "Le diagnostic inclus mesure la contre-pression, la charge et l'état du support céramique. Si la céramique est intacte, deux méthodes : additif injecté par la sonde différentielle et régénération forcée pilotée, 90 minutes, dès 250 € ; ou dépose, bain ultrason haute température, séchage et remontage, de 390 à 650 €, en une à deux journées. Un compte-rendu écrit compare les mesures avant et après, et la régénération est garantie 12 mois." },
+      { h: "Quand il faut passer au reconditionné", p: "Si une régénération mal conduite a fissuré ou fait fondre la céramique, aucun nettoyage ne la répare. Nous proposons alors un <strong>FAP reconditionné</strong>, environ moitié prix d'un filtre neuf, et vous présentons les options chiffrées. Rouler sans filtre n'en est pas une : c'est illégal sur route, et nous ne le proposons pas." }
+    ],
+    faq: [
+      { q: "Comment savoir si la céramique de mon filtre est abîmée ?", a: "Cela ne se voit pas de l'extérieur. Les mesures de contre-pression et le comportement du filtre pendant le diagnostic l'indiquent, et la dépose le confirme. Nous ne lançons pas de nettoyage sur un filtre irrécupérable." },
+      { q: "Pour un SUV, le tarif est-il différent ?", a: "Le prix dépend de la méthode et de l'accès au filtre : de 250 à 450 € en régénération sans démontage, de 390 à 650 € avec dépose et ultrasons. Le montant exact, fixé après la mesure, figure sur le devis avant intervention." }
+    ]
   }
 };

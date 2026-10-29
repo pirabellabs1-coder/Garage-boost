@@ -107,5 +107,59 @@ module.exports = {
       { q: "Une fumée blanche le matin est-elle inquiétante ?", a: "Une légère vapeur qui disparaît en quelques minutes par temps frais est de la condensation, sans gravité. Une fumée blanche dense qui persiste moteur chaud, surtout si le niveau de liquide de refroidissement baisse, doit être contrôlée rapidement." },
       { q: "Puis-je filmer la fumée pour vous aider ?", a: "Oui, une courte vidéo prise au moment où la fumée apparaît, avec le contexte (démarrage, relance, montée), aide à orienter la lecture et les mesures." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Code défaut SCR à Auriol : quand la sonde NOx est en cause",
+    lead: "Un voyant AdBlue ne vient pas toujours du réservoir ou de la pompe : les sondes NOx, qui contrôlent l'efficacité de la dépollution, tombent aussi en panne. Diagnostic dès 90 €, déduit de la réparation.",
+    metaDesc: "Panne AdBlue à Auriol : diagnostic du système SCR dès 90 €, déduit si réparation, sonde NOx de 350 à 650 €, devis préalable, garantie 12 mois.",
+    intro: [
+      "Le système SCR ne se contente pas d'injecter de l'AdBlue dans l'échappement : il vérifie le résultat. Deux <strong>sondes NOx</strong>, l'une en amont, l'autre en aval du catalyseur, mesurent les oxydes d'azote et permettent au calculateur d'ajuster le dosage. Exposées en permanence aux gaz chauds, elles peuvent se dérégler ou cesser de répondre.",
+      "Pour un conducteur d'Auriol, le symptôme est le même que pour toute autre panne AdBlue : voyant, code défaut SCR, puis <strong>compte à rebours</strong> avant immobilisation. Seul un diagnostic dit si la sonde est réellement défaillante ou si elle signale fidèlement un défaut situé ailleurs."
+    ],
+    sections: [
+      { h: "Distinguer la sonde fautive de la sonde messagère", p: "Une sonde qui annonce trop de NOx n'est pas forcément en panne : elle peut simplement constater que l'AdBlue n'arrive pas. Le diagnostic, dès 90 € et déduit en cas de réparation chez nous, compare les valeurs des deux sondes et contrôle le dosage, la pompe et l'injecteur. Remplacer une sonde saine reviendrait à payer 350 à 650 € pour rien ; nous changeons uniquement la pièce désignée, sur devis validé." },
+      { h: "Les prix et l'organisation depuis Auriol", p: "Selon le composant, la réparation se situe entre 90 et 690 €, garantie 12 mois pièces et main-d'œuvre. L'atelier est à 22 km, environ 25 minutes par la D560, la D2 et la D4F ; évitez le début de matinée, quand la D560 est chargée vers Aubagne. Si le décompte touche à sa fin, la récupération à domicile, offerte au-delà de 200 € d'intervention validée, ou le remorquage au forfait de 149 € évitent de prendre un risque." }
+    ],
+    faq: [
+      { q: "Une sonde NOx neuve règle-t-elle forcément la panne ?", a: "Non, si elle n'était pas la cause. Quand le défaut vient du dosage ou d'un injecteur cristallisé, la sonde neuve relève le même excès de NOx et le voyant revient. D'où un diagnostic complet avant de commander la moindre pièce." },
+      { q: "Partir en vacances avec un voyant AdBlue, est-ce raisonnable ?", a: "Pas si un compte à rebours est affiché : quelques centaines de kilomètres d'autoroute peuvent suffire à l'épuiser, et le moteur ne redémarre plus une fois à zéro. Faites lire les codes avant le départ." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Auriol : vanne EGR ou décalaminage, par où commencer ?",
+    lead: "Perte de puissance, fumée, voyant : les symptômes d'une vanne EGR encrassée ressemblent à ceux de la calamine. Le diagnostic tranche ; vanne nettoyée par ultrason de 180 à 290 €.",
+    metaDesc: "Vanne EGR à Auriol : diagnostic, démontage et bain ultrason de 180 à 290 €, pack avec décalaminage de 350 à 450 €, garantie 12 mois.",
+    intro: [
+      "Sur un diesel qui grimpe vers la Sainte-Baume par Pont de Joux ou enchaîne les petits trajets dans la haute vallée de l'Huveaune, l'encrassement ne touche pas un seul organe. La calamine se dépose dans la chambre de combustion et le collecteur, la suie s'accumule dans la <strong>vanne EGR</strong>, et les deux phénomènes s'entretiennent. On le ressent par un moteur qui manque de reprise, fume et consomme davantage.",
+      "Faut-il décalaminer, nettoyer la vanne, ou les deux ? La réponse ne se devine pas au volant. Elle dépend de ce que révèlent la lecture des codes, notamment les défauts EGR enregistrés (P0401 à P0403), et les mesures sur le comportement de la vanne."
+    ],
+    sections: [
+      { h: "Quand la vanne seule est en cause", p: "Si les codes et les mesures désignent la vanne, nous la démontons, la nettoyons une à deux heures en bain ultrason haute température et la remontons avec des joints neufs. Comptez de 180 à 290 € selon la motorisation. Si son moteur électrique ne répond plus, le nettoyage est inutile : un remplacement est alors chiffré, et vous le savez dès le diagnostic." },
+      { h: "Quand il vaut mieux tout traiter", p: "Si la calamine est aussi présente, le <strong>pack combiné</strong> décalaminage et traitement EGR revient à 350 à 450 €, moins cher que les deux interventions réalisées séparément. Le décalaminage s'occupe de ce qui ne se démonte pas, le traitement EGR des pièces que l'on peut déposer. Le résultat est vérifié par un nouveau diagnostic et un essai routier, et garanti 12 mois." }
+    ],
+    faq: [
+      { q: "Un décalaminage seul peut-il débloquer une vanne collée ?", a: "Pas quand les dépôts sont épais : ils sont incrustés dans le mécanisme et seul un démontage de la vanne les élimine. Le diagnostic indique dans quel cas se trouve votre moteur." },
+      { q: "Auriol est à 22 km : faut-il prévoir deux trajets ?", a: "Pas nécessairement. Le nettoyage de la vanne se fait en une demi-journée environ. Pour éviter la D560 chargée du matin, un rendez-vous en milieu de journée est le plus confortable, et la récupération à domicile reste possible." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Diesel familial à Auriol : préparer le FAP avant les grands départs",
+    lead: "Le diesel de la famille fait l'école et les courses toute l'année, puis part chargé sur l'autoroute des vacances. Un filtre à particules saturé peut tout gâcher. Diagnostic inclus, régénération dès 250 €.",
+    metaDesc: "Nettoyage FAP pour Auriol : diagnostic inclus, régénération sans démontage dès 250 € en 90 min, bain ultrason 390 à 650 €. Avant les départs.",
+    intro: [
+      "Pendant l'année, le diesel familial d'Auriol vit au rythme des allers-retours entre le centre-village, Moulin de Redon ou La Vallée Heureuse et les commerces de la vallée : de courts parcours où le <strong>filtre à particules</strong> se charge sans pouvoir se vider. L'autoroute ne revient qu'avec les vacances, la voiture pleine.",
+      "C'est précisément ce jour-là qu'un filtre presque saturé risque de déclencher le <strong>mode dégradé</strong> : puissance limitée, voyant allumé, loin de chez soi et de son garage. Faire contrôler le filtre quelques semaines avant le départ laisse le temps d'agir sans pression."
+    ],
+    sections: [
+      { h: "Le bon calendrier", p: "Prévoyez le rendez-vous au moins une semaine avant la date du départ. La <strong>régénération chimique</strong> sans démontage se fait en 90 minutes, à partir de 250 €, pour un filtre chargé à moins de 80 %. Un filtre plus colmaté part au <strong>bain ultrason</strong> haute température, de 390 à 650 €, avec 1 à 2 jours d'immobilisation : d'où l'intérêt de ne pas s'y prendre la veille. Le diagnostic préalable, compris, mesure la contre-pression et l'état de la céramique." },
+      { h: "Au retour, garder l'élan", p: "Les longs trajets de l'été font du bien au filtre ; le reste de l'année, une sortie mensuelle d'une trentaine de kilomètres vers 110 km/h, par exemple sur l'A52, prolonge cet effet. Une huile faibles cendres adaptée au diesel, à chaque vidange, ralentit aussi la charge. La régénération est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Le voyant FAP s'allume sur la route des vacances : que faire ?", a: "Si la puissance reste normale, un long trajet à allure stable peut permettre au filtre de se régénérer et au voyant de s'éteindre. Si la voiture passe en mode dégradé, roulez prudemment, sans forcer, et faites lire les codes au plus tôt. Dans tous les cas, faites contrôler le filtre au retour." },
+      { q: "Récupérez-vous la voiture à Auriol ?", a: "Oui, la récupération à domicile couvre Auriol et ses quartiers. Elle est offerte au-delà de 200 € d'intervention validée, ce qui inclut un nettoyage de FAP, dont le prix démarre à 250 €." }
+    ]
   }
 };

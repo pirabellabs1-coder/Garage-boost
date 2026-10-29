@@ -89,5 +89,59 @@ module.exports = {
       { q: "La réparation d'un impact laisse-t-elle une trace ?", a: "La résine restaure largement la transparence, mais une légère marque peut rester visible selon la forme de l'éclat. C'est pour cette raison qu'un impact placé dans le champ de vision direct du conducteur n'est pas réparé." },
       { q: "Mon assurance paie-t-elle la réparation ?", a: "La garantie bris de glace prend souvent en charge la réparation d'impact sans franchise. Pour un remplacement, la franchise dépend de votre contrat, généralement de 50 à 150 €. Nous gérons le dossier avec votre assureur." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "AdBlue cristallisé après une longue immobilisation à Roquevaire",
+    lead: "Diesel resté plusieurs semaines sans rouler à Roquevaire ou à Lascours, et voyant AdBlue au redémarrage ? La cristallisation de la pompe ou de l'injecteur se traite : diagnostic dès 90 €.",
+    metaDesc: "Voyant AdBlue après immobilisation à Roquevaire : diagnostic SCR dès 90 €, décristallisation pompe ou injecteur, devis préalable, garantie 12 mois.",
+    intro: [
+      "L'AdBlue est une solution d'urée dans de l'eau. Quand un diesel reste longtemps sans rouler, seconde voiture du foyer, véhicule laissé pendant un séjour loin de chez soi, utilitaire en attente d'un chantier, le liquide resté dans le circuit peut <strong>former des cristaux</strong> dans la pompe ou sur l'injecteur. Au redémarrage, le système ne dose plus correctement et le voyant s'allume, parfois suivi du décompte de kilomètres avant blocage.",
+      "Quand la voiture est le seul moyen de descendre vers Aubagne ou Marseille par la D2, découvrir ce message le matin du départ tombe mal. Il se règle pourtant, le plus souvent, sans changer tout le système."
+    ],
+    sections: [
+      { h: "Décristalliser avant de remplacer", p: "Le diagnostic, dès <strong>90 €</strong> et déduit en cas de réparation, vérifie d'abord si la panne vient bien d'un dépôt cristallin ou d'un composant défaillant : capteur de qualité, sonde NOx, pompe. Une pompe ou un injecteur simplement bouchés par les cristaux sont décristallisés ; une pièce hors service est remplacée seule. L'ensemble se situe entre 90 et 690 € selon le cas, avec un devis écrit avant toute intervention." },
+      { h: "Avant de laisser la voiture au repos", p: "Si vous savez que le véhicule va rester immobile plusieurs semaines, quelques sorties régulières font circuler le liquide. Utiliser un AdBlue récent, issu d'un bidon bien fermé, évite aussi d'introduire un produit dégradé. Après réparation, le dosage est contrôlé, les défauts effacés, le décompte réinitialisé, et la garantie de 12 mois s'applique." }
+    ],
+    faq: [
+      { q: "Pourquoi le voyant est-il apparu alors que la voiture ne roulait pas ?", a: "C'est justement l'immobilisation qui est en cause : le liquide stagne dans la pompe et les conduits, et les cristaux se forment avec le temps. Le défaut est détecté au premier démarrage, quand le système tente de doser l'AdBlue." },
+      { q: "La voiture ne redémarre plus, comment l'amener depuis Roquevaire ?", a: "Si le décompte est arrivé à zéro, il faut la remorquer : depuis Roquevaire, à 15 km de l'atelier, le forfait est de 149 €, majoré de 50 % la nuit, le dimanche et les jours fériés." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Démarrage poussif et à-coups le matin : la vanne EGR à Roquevaire",
+    lead: "Moteur qui peine à froid, à-coups en remontant la file sur la D2 vers Aubagne : la vanne EGR est un suspect sérieux. Nettoyage aux ultrasons avec joints neufs, de 180 à 290 €.",
+    metaDesc: "Vanne EGR à Roquevaire : à-coups et démarrage difficile à froid, nettoyage ultrason et joints neufs de 180 à 290 €, injecteurs de 120 à 490 €.",
+    intro: [
+      "Quand la journée commence par la D2 vers Aubagne aux heures de pointe, le moteur fait ses premiers kilomètres à froid et au pas. C'est la pire situation pour une <strong>vanne EGR</strong> : les gaz recyclés, chargés de suie et de vapeurs d'huile, se condensent sur des parois encore tièdes et forment une pâte qui durcit au fil des semaines.",
+      "Le résultat se ressent surtout le matin : démarrage plus long, ralenti irrégulier les premières minutes, à-coups à la relance dans la file. Plus tard, le voyant moteur s'allume et un code de type P0401 ou P0402 apparaît à la lecture."
+    ],
+    sections: [
+      { h: "Ce qui se passe à l'atelier", p: "Nous commençons par lire les défauts et commander la vanne pour vérifier sa course. Si elle est encrassée, elle est déposée et passe une à deux heures dans un <strong>bain ultrason haute température</strong>, qui détache les dépôts durcis sur le clapet et dans le conduit, puis elle est remontée avec des joints neufs. Effacement des codes, essai sur route, et la voiture vous est rendue avec une garantie de 12 mois. Prix : de 180 à 290 € selon la motorisation." },
+      { h: "Les injecteurs, l'autre moitié du problème", p: "Un démarrage difficile à froid peut aussi venir d'injecteurs qui pulvérisent mal. Le diagnostic mesure leur débit : un traitement par additif, de 120 à 220 €, suffit quand ils sont peu encrassés ; une dépose avec nettoyage ultrason, de 290 à 490 €, s'impose quand ils le sont davantage. Traiter les deux évite que des injecteurs fatigués ne salissent une vanne fraîchement nettoyée. Si la cause est ailleurs, électrique ou mécanique, nous vous le disons d'emblée." }
+    ],
+    faq: [
+      { q: "Les à-coups disparaissent une fois le moteur chaud, faut-il s'inquiéter ?", a: "C'est souvent le premier stade : l'encrassement gêne surtout la vanne tant que le moteur est froid. La faire contrôler maintenant évite qu'elle ne finisse bloquée, ce qui rendrait la conduite plus pénible à toute heure." },
+      { q: "Peut-on laisser la voiture tôt et la reprendre le soir ?", a: "Pour un nettoyage de vanne EGR, c'est en général possible dans la journée. Depuis Roquevaire, partez tôt pour éviter la D2 chargée vers Aubagne ; si vous ne pouvez pas vous libérer, demandez-nous la récupération du véhicule à domicile." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Avant les vacances par l'A52 : le point FAP pour Roquevaire",
+    lead: "Un voyant FAP loin de chez soi, voiture chargée, gâche un départ. Depuis Roquevaire, un contrôle du filtre quelques jours avant de prendre l'A52 évite la mauvaise surprise ; nettoyage dès 250 €.",
+    metaDesc: "FAP à Roquevaire : contrôle avant un long trajet, régénération sans démontage dès 250 €, bain ultrason de 390 à 650 €, diagnostic inclus.",
+    intro: [
+      "Quand la voiture fait toute l'année des trajets de vallée, D2 vers Aubagne, montée vers Lascours, courses au village, le filtre à particules s'y remplit sans vraiment se vider. Vient ensuite le grand départ par l'A52 et l'A8, coffre plein, moteur sollicité longtemps : c'est souvent là qu'une régénération forcée, sur un <strong>filtre déjà saturé</strong>, échoue et allume le voyant, loin de l'atelier.",
+      "Un contrôle quelques jours avant le départ évite de découvrir le problème sur une aire d'autoroute. S'il révèle un filtre chargé, le nettoyage se fait avant de partir."
+    ],
+    sections: [
+      { h: "Prévoir le bon délai", p: "Le diagnostic, inclus dans la prestation, mesure la contre-pression du filtre et l'état de sa céramique. Pour un filtre encore modérément chargé, la <strong>régénération chimique sans démontage</strong> prend environ 90 minutes, dès 250 €. Pour un filtre très colmaté, la dépose et le bain ultrason, de 390 à 650 €, demandent un à deux jours : prenez rendez-vous au moins une semaine avant le départ pour garder de la marge." },
+      { h: "Pendant le trajet, laisser travailler le filtre", p: "Un filtre propre profite au contraire des longs parcours à régime stable : c'est sur autoroute qu'il se régénère le mieux. Si votre véhicule signale une régénération en cours, évitez de couper le moteur aussitôt arrivé sur une aire. Au retour, reprendre de temps en temps une portion d'A52 plutôt que la seule D2 aide à le garder propre jusqu'aux vacances suivantes." }
+    ],
+    faq: [
+      { q: "Mon FAP peut-il lâcher pendant un long trajet sans avoir prévenu ?", a: "C'est possible si le filtre est déjà très chargé : la régénération forcée qui se déclenche sur autoroute peut échouer et entraîner un mode dégradé. Une mesure de la contre-pression avant le départ permet de le savoir." },
+      { q: "Le voyant FAP s'allume pendant les vacances, que faire ?", a: "Si la voiture roule normalement, continuez à allure régulière : la régénération peut aboutir. En mode dégradé, elle roule en général à puissance réduite ; ne forcez pas et faites-la contrôler. Au retour à Roquevaire, nous mesurons l'état du filtre avant de choisir la méthode." }
+    ]
   }
 };

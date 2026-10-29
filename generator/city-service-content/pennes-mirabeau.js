@@ -107,5 +107,59 @@ module.exports = {
       { q: "Ma consommation a augmenté mais aucun voyant n'est allumé, le diagnostic peut-il trouver quelque chose ?", a: "Oui, c'est même tout l'intérêt des mesures en temps réel. Un capteur peut dériver sans franchir le seuil qui allume le voyant, tout en faussant le dosage du carburant." },
       { q: "Faites-vous un diagnostic sur une voiture de VTC hybride ?", a: "Oui, les hybrides légères et rechargeables sont prises en charge, moteur thermique compris. Seule la batterie de traction d'un véhicule électrique relève d'intervenants habilités haute tension." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Devis AdBlue de concession aux Pennes-Mirabeau : à vérifier",
+    lead: "On vous annonce le remplacement complet du système AdBlue ? Avant de signer, faites identifier la pièce réellement en cause : diagnostic dès 90 €, déduit de la réparation, à 20 minutes des Pennes-Mirabeau.",
+    metaDesc: "Devis AdBlue élevé aux Pennes-Mirabeau ? Diagnostic SCR dès 90 € déduit, réparation du seul composant fautif de 90 à 690 €, garantie 12 mois.",
+    intro: [
+      "Un devis qui prévoit de changer réservoir, pompe, injecteur et sondes d'un coup se chiffre de <strong>1 500 à 2 500 €</strong>. Ce remplacement global règle le problème, mais au prix fort. Or le système AdBlue réunit des pièces indépendantes, et la défaillance porte le plus souvent sur une seule d'entre elles.",
+      "Pour un véhicule qui roule beaucoup entre Les Pennes-Mirabeau, Plan-de-Campagne et l'A7, l'écart entre les deux approches pèse d'autant plus sur le budget."
+    ],
+    sections: [
+      { h: "Ce que notre diagnostic vérifie", p: "Lecture des codes du système SCR, puis test de chaque élément : capteur de qualité, pompe, injecteur AdBlue, sondes NOx amont et aval. Le résultat désigne le composant défaillant et la façon de le traiter : remplacement d'un capteur ou d'une sonde, décristallisation d'une pompe ou d'un injecteur. Le diagnostic coûte dès 90 €, déduits si vous réparez chez nous ; vous pouvez apporter le devis reçu pour comparer." },
+      { h: "Une réparation ciblée, chiffrée avant", p: "La réparation se situe entre 90 et 690 € selon la pièce, sur devis écrit validé avec vous avant toute intervention. Une fois le composant remis en état, les codes sont effacés, le compte à rebours éventuel réinitialisé et un essai routier vérifie que la dépollution fonctionne. Garantie 12 mois pièces et main-d'œuvre. La D113, l'A55 puis la L2 mènent à l'atelier en 20 minutes hors pointe du matin ; en cas d'immobilisation, le remorquage depuis la commune, à 15 km, coûte 149 €." }
+    ],
+    faq: [
+      { q: "Et si plusieurs composants sont réellement défaillants ?", a: "Cela arrive, et le diagnostic le montre. Le devis détaille alors chaque pièce, ce qui vous permet de comparer avec un remplacement complet en connaissance de cause." },
+      { q: "Une réparation ciblée laisse-t-elle le véhicule en règle ?", a: "Oui : le système est remis en état de fonctionner, la dépollution est active et l'homologation est préservée. La réparation est garantie 12 mois, avec une attestation écrite remise avec la facture." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR d'utilitaire en tournée aux Pennes-Mirabeau",
+    lead: "Fourgon de livraison ou véhicule d'artisan qui enchaîne arrêts et redémarrages autour de Plan-de-Campagne ? Sa vanne EGR travaille dur. Nettoyage par démontage et ultrason de 180 à 290 €, à 20 minutes.",
+    metaDesc: "Vanne EGR d'utilitaire aux Pennes-Mirabeau : démontage, ultrason et joints neufs de 180 à 290 €, environ 4 h d'atelier, garantie 12 mois.",
+    intro: [
+      "Une tournée de livraison ou une journée d'artisan entre Plan-de-Campagne, La Gavotte et les chantiers alentour, c'est une succession de courts trajets, de manœuvres et de minutes au ralenti moteur tournant. Ce régime à faible charge sollicite beaucoup la <strong>vanne EGR</strong>, et la suie se dépose peu à peu sur son clapet.",
+      "Les premiers effets se sentent en charge : fourgon qui peine à relancer avec du poids dans la caisse, à-coups en sortie de rond-point, voyant moteur qui s'allume en fin de journée."
+    ],
+    sections: [
+      { h: "Une intervention calée sur une demi-journée", p: "Après le diagnostic préalable, codes défauts et contrôle de la vanne, celle-ci est déposée, nettoyée en bain ultrason haute température, puis remontée avec joints neufs. Comptez environ quatre heures et 180 à 290 € selon l'accès à la vanne. Un dépôt après la tournée du matin, entre 9 h 30 et 15 h quand l'A55 et la L2 sont dégagées, permet de récupérer le véhicule dans l'après-midi." },
+      { h: "Quand plusieurs véhicules sont concernés", p: "Sur une petite flotte, traiter les véhicules l'un après l'autre évite d'arrêter toute l'activité. Si les injecteurs participent à l'encrassement, ils peuvent être traités en même temps : additif premium de 120 à 220 €, ou démontage et ultrasons de 290 à 490 €. Si la cause relève d'une panne mécanique lourde ou de l'électronique, nous vous le disons dès le diagnostic. Garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Un utilitaire à la vanne encrassée consomme-t-il davantage ?", a: "Une vanne qui ne régule plus correctement dégrade la combustion, ce qui peut se traduire par une surconsommation et des fumées plus sombres. Sur un véhicule qui roule tous les jours, le retour à un fonctionnement normal se ressent à l'usage." },
+      { q: "Peut-on prévoir un nettoyage avant que le voyant s'allume ?", a: "Oui, si le diagnostic montre une vanne déjà chargée. Associer ce nettoyage à un décalaminage hydrogène, formule de 350 à 450 €, limite aussi les dépôts en amont, ce qui espace les interventions suivantes." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP saturé dans les bouchons de l'A55 et de l'A7 aux Pennes",
+    lead: "Rouler sur autoroute ne suffit pas quand c'est à vitesse de bouchon. Si le filtre à particules de votre diesel sature malgré l'A7 ou l'A55, nous le nettoyons dès 250 €, à 20 minutes des Pennes-Mirabeau.",
+    metaDesc: "Nettoyage FAP aux Pennes-Mirabeau : régénération sans démontage dès 250 €, bain ultrason 390 à 650 €, diagnostic inclus. Dépannage 149 € si besoin.",
+    intro: [
+      "Sur le papier, un conducteur des Pennes-Mirabeau fait de l'autoroute tous les jours. En pratique, l'A7 vers Marseille et l'A55 entre 7 h 30 et 9 h se parcourent souvent au pas, avec de longs arrêts et des relances courtes. Le <strong>filtre à particules</strong> reçoit alors beaucoup de suie mais jamais la chaleur prolongée qui lui permettrait de la brûler : la régénération démarre, s'interrompt, recommence le lendemain.",
+      "Quand le filtre arrive à saturation, le calculateur bride la puissance. Sur une bretelle d'autoroute, ce mode dégradé est à prendre au sérieux."
+    ],
+    sections: [
+      { h: "Si le mode dégradé survient en route", p: "Sortez dès que possible, arrêtez-vous dans un endroit sûr et appelez-nous. Si le véhicule peut rouler prudemment, venez directement à l'atelier par la L2, sortie Plan-de-Cuques. Sinon, depuis la commune ou Plan-de-Campagne, à 15 km, le remorquage coûte <strong>149 €</strong>, avec une majoration de 50 % la nuit, le dimanche et les jours fériés. Insister plusieurs jours en mode dégradé expose le filtre à une régénération mal conduite, qui peut abîmer sa céramique." },
+      { h: "Nettoyer, puis changer de créneau", p: "Le diagnostic inclus mesure contre-pression, charge et état de la céramique. Filtre récupérable sans dépose : régénération chimique pilotée, 90 minutes, dès 250 €. Filtre trop colmaté : dépose et bain ultrason, 390 à 650 €, une à deux journées. Ensuite, une fois par mois, un trajet fluide d'une trentaine de kilomètres, en fin de matinée sur l'A7 vers le nord, donne au filtre l'occasion de se régénérer complètement. Garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Les bouchons comptent-ils vraiment autant que les petits trajets ?", a: "Pour le filtre, oui : ce qui compte est une température d'échappement maintenue plusieurs minutes. Un trajet de 15 km fait au pas ne l'apporte pas davantage qu'un aller-retour en ville." },
+      { q: "Puis-je attendre le samedi pour venir ?", a: "Si la voiture roule normalement avec un simple voyant, un rendez-vous le samedi matin, quand la circulation est fluide, convient. En mode dégradé, mieux vaut ne pas laisser passer plusieurs jours." }
+    ]
   }
 };

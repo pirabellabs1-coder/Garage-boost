@@ -107,5 +107,59 @@ module.exports = {
       { q: "Un garagiste peut-il voir un défaut qui ne s'affiche plus ?", a: "Oui, tant qu'il n'a pas été effacé de la mémoire du calculateur. Évitez donc de débrancher la batterie ou d'effacer les codes avant de venir : ce sont des indices précieux." },
       { q: "Faut-il venir le soir, quand le défaut apparaît ?", a: "Ce n'est pas nécessaire. Décrivez-nous précisément les circonstances : heure, durée de stationnement, météo. Ces informations guident la lecture et, si besoin, l'essai routier." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Pannes AdBlue sur une flotte du parc d'activités de Gémenos",
+    lead: "Plusieurs diesels récents dans l'entreprise et un voyant AdBlue qui passe d'un véhicule à l'autre ? Pour Gémenos, nous diagnostiquons chaque système SCR et réparons la seule pièce en cause.",
+    metaDesc: "Flotte diesel à Gémenos : diagnostic AdBlue dès 90 € par véhicule, réparation ciblée de 90 à 690 €, devis préalable, garantie 12 mois.",
+    intro: [
+      "Une entreprise du parc d'activités de Gémenos qui fait rouler plusieurs fourgons ou voitures de service diesel récents peut se retrouver face à un <strong>défaut AdBlue</strong> au plus mauvais moment. Pour un gestionnaire de flotte, la difficulté n'est pas seulement la facture : c'est le véhicule bloqué, le décompte qui s'égrène pendant qu'on cherche un créneau, et la tentation d'accepter le premier devis venu.",
+      "Notre méthode est la même pour chaque véhicule : identifier la pièce défaillante, la réparer ou la remplacer seule, et remettre le système en conformité. Rien de plus que nécessaire."
+    ],
+    sections: [
+      { h: "Un devis par véhicule, sans forfait global", p: "Chaque véhicule passe par un diagnostic du système SCR, dès <strong>90 €</strong>, déduit si la réparation suit. Les composants testés sont les mêmes à chaque fois : capteur de qualité, pompe, injecteur AdBlue, sondes NOx. Selon la pièce, la réparation va de 90 à 690 €. Vous recevez un devis écrit par véhicule et décidez au cas par cas ; rien n'est engagé sans votre accord." },
+      { h: "Limiter les jours d'immobilisation", p: "Depuis le parc d'activités, l'atelier est à une vingtaine de minutes par l'A50 ou la D2 puis la D4F, la D2 se chargeant surtout en fin de journée. Signaler un voyant dès son apparition, plutôt qu'à la fin du décompte, permet de planifier les passages pour ne pas arrêter deux véhicules le même jour. Si un défaut relève d'un calculateur ou d'un faisceau, nous vous le disons dès le diagnostic pour que vous l'orientiez vers un spécialiste." }
+    ],
+    faq: [
+      { q: "Le même défaut AdBlue revient sur plusieurs de nos véhicules, est-ce normal ?", a: "Des modèles proches, utilisés de la même façon, peuvent présenter des pannes semblables, par exemple une cristallisation après des arrêts prolongés ou un capteur de qualité fragile. Le diagnostic de chaque véhicule confirme la cause au lieu de la supposer." },
+      { q: "Après réparation, le véhicule passe-t-il sereinement le contrôle technique ?", a: "Oui : la réparation remet le système SCR en état de marche, la dépollution est de nouveau active et l'homologation préservée. La garantie de 12 mois couvre ensuite les pièces et la main-d'œuvre." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Perte de puissance vers l'Espigoulier : la vanne EGR à Gémenos",
+    lead: "Utilitaire chargé qui peine dans la montée vers la Sainte-Baume, fumée sombre à la relance ? Pour Gémenos, contrôle de la vanne EGR puis nettoyage ultrason avec joints neufs, de 180 à 290 €.",
+    metaDesc: "Vanne EGR à Gémenos : perte de puissance en côte, nettoyage ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €, garantie 12 mois.",
+    intro: [
+      "Au-dessus de Gémenos, la D2 grimpe vers le col de l'Espigoulier et la Sainte-Baume. C'est une route où un moteur diesel révèle ses faiblesses : charge élevée, régime qui chute dans les virages serrés, relances successives. Une <strong>vanne EGR encrassée</strong>, qui ne règle plus correctement la part de gaz recyclés, se trahit précisément là, par un manque de souffle et un nuage sombre à la réaccélération.",
+      "Le même véhicule peut sembler normal sur l'A50 à vitesse stable et devenir laborieux dès que la pente s'accentue, surtout chargé. C'est un signal à prendre au sérieux avant que la vanne ne se bloque."
+    ],
+    sections: [
+      { h: "Confirmer avant de démonter", p: "Le diagnostic lit les codes défauts, vérifie la commande de la vanne et le débit des injecteurs, car un injecteur fatigué peut produire les mêmes symptômes en côte. Une fois la vanne mise en cause, elle est déposée, nettoyée en <strong>bain ultrason haute température</strong>, remontée avec des joints neufs aux couples constructeur, puis validée par un essai routier. Prix de 180 à 290 € selon le moteur, garantie 12 mois." },
+      { h: "Pour les injecteurs, et au-delà", p: "Si le contrôle montre des injecteurs encrassés, un traitement par additif, de 120 à 220 €, ou un nettoyage après dépose et ultrason, de 290 à 490 €, est proposé selon leur état. En revanche, si la perte de puissance vient du turbo ou d'un problème interne au moteur, ce n'est plus de notre ressort : nous vous l'indiquons clairement dès le diagnostic, compte-rendu écrit à l'appui, pour que vous sachiez à quoi vous en tenir." }
+    ],
+    faq: [
+      { q: "Pourquoi le manque de puissance ne se sent-il qu'en montée ?", a: "À vitesse stable sur le plat, le moteur demande peu d'air ; en côte et chargé, il en réclame beaucoup plus. Une vanne qui reste partiellement ouverte ou se déplace mal perturbe alors le mélange, et la différence devient sensible." },
+      { q: "Un véhicule de société peut-il être pris en charge sans son chauffeur habituel ?", a: "Oui. N'importe quel membre de l'équipe peut le déposer ; le devis est adressé au responsable que vous désignez et validé avant toute intervention. Depuis le parc d'activités, l'atelier est à une vingtaine de minutes." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Mode dégradé dans la zone de Gémenos : rapatrier et nettoyer le FAP",
+    lead: "Voyant FAP et puissance bridée en pleine journée de travail au parc d'activités de Gémenos ? Remorquage au forfait de 149 €, puis nettoyage du filtre dès 250 €.",
+    metaDesc: "FAP saturé à Gémenos : remorquage au forfait de 149 €, régénération sans démontage dès 250 €, bain ultrason de 390 à 650 €, diagnostic inclus.",
+    intro: [
+      "Un véhicule de technicien ou de commercial basé au parc d'activités de Gémenos peut alterner de courts déplacements dans la zone et des trajets sur l'A50 vers Marseille ou vers l'est. Si les portions d'autoroute sont trop brèves ou trop chargées, le <strong>filtre à particules</strong> ne termine jamais ses régénérations et se remplit un peu plus à chaque tentative avortée.",
+      "Une fois saturé, le moteur est bridé pour le protéger : c'est le mode dégradé. Le véhicule roule encore, mais mal, et rarement jusqu'au bout de la journée."
+    ],
+    sections: [
+      { h: "Quand le véhicule ne peut plus rouler correctement", p: "Notre dépanneuse intervient sur la zone d'activités ; à 17 km de l'atelier, le remorquage est facturé au forfait de <strong>149 €</strong>, majoré de 50 % la nuit, le dimanche et les jours fériés. À l'arrivée, le diagnostic inclus mesure la contre-pression et l'état de la céramique pour choisir la méthode : régénération chimique sans démontage, environ 90 minutes, dès 250 €, ou dépose et bain ultrason, de 390 à 650 €, en un à deux jours." },
+      { h: "Éviter que la scène se répète", p: "Une fois le filtre nettoyé, l'idéal est de lui offrir régulièrement une trentaine de kilomètres d'autoroute à allure stable, par exemple en regroupant les déplacements longs sur l'A50. Nous vérifions aussi la vanne EGR, le débitmètre et les codes défauts : un filtre qui se rebouche vite cache souvent une autre cause. Le compte-rendu indique la contre-pression avant et après, et la régénération est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Pourquoi le mode dégradé survient-il en pleine journée de travail ?", a: "Parce que le filtre atteint son seuil après une série de régénérations interrompues. Une régénération forcée est alors tentée ; si elle n'aboutit pas, la puissance est limitée pour protéger le moteur. Un voyant FAP apparu quelques jours plus tôt en est souvent le signe avant-coureur." },
+      { q: "Le FAP d'un utilitaire de société peut-il être nettoyé le jour même ?", a: "Oui si la mesure permet la régénération sans démontage, qui dure environ 90 minutes. Pour un filtre trop colmaté, le bain ultrason demande un à deux jours : le devis le précise avant intervention pour que vous organisiez le remplacement du véhicule." }
+    ]
   }
 };

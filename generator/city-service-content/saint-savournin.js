@@ -89,5 +89,59 @@ module.exports = {
       { q: "Ma voiture finit toujours par démarrer, pourquoi faire un diagnostic ?", a: "Parce qu'un démarrage laborieux sollicite le démarreur et la batterie à chaque fois, et peut annoncer une panne franche un matin. Identifier la cause tôt évite souvent une réparation en chaîne." },
       { q: "Le diagnostic diffère-t-il d'une recherche de voyant allumé ?", a: "La méthode est la même, lecture des calculateurs et mesures en direct, mais ici l'attention se porte sur la phase de démarrage. Nous adaptons le protocole au symptôme que vous décrivez." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "AdBlue figé après des semaines à l'arrêt à Saint-Savournin",
+    lead: "Un diesel récent qui reste immobilisé plusieurs semaines au village peut retrouver sa pompe ou son injecteur AdBlue grippé par des cristaux. Garage Boost diagnostique le système SCR dès 90 €, déduits de la réparation.",
+    metaDesc: "Panne AdBlue à Saint-Savournin : diagnostic SCR dès 90 €, déduit si réparation, décristallisation de pompe ou d'injecteur, garantie 12 mois.",
+    intro: [
+      "À Saint-Savournin, une seconde voiture peut passer l'hiver garée devant la maison, aux Movies ou à La Baou, en ne sortant que pour descendre de temps en temps vers Cadolive. Pour un diesel équipé du système <strong>SCR</strong>, ces longues pauses ne sont pas anodines : l'AdBlue, mélange d'urée et d'eau déminéralisée, laisse en séchant des <strong>dépôts cristallins</strong> dans la pompe, dans les conduits ou au nez de l'injecteur.",
+      "À la reprise, le système ne dose plus correctement. Le voyant AdBlue s'allume, un code défaut SCR s'enregistre, puis le tableau de bord affiche un <strong>compte à rebours</strong> en kilomètres avant que le moteur refuse de redémarrer. Remettre du liquide dans le réservoir ne règle rien quand le circuit lui-même est obstrué."
+    ],
+    sections: [
+      { h: "Décristalliser plutôt que tout changer", p: "Le diagnostic, facturé à partir de 90 € et déduit si vous faites réparer chez nous, lit les codes et teste la pompe, l'injecteur, le capteur de qualité et les sondes NOx. Lorsque seuls des cristaux bloquent le circuit, une <strong>décristallisation</strong> rétablit le débit. Si une pièce est réellement hors d'usage, nous remplaçons celle-là et pas les autres. Selon le composant, la réparation se situe entre 90 et 690 €, sur devis validé avant d'intervenir, et elle est garantie 12 mois." },
+      { h: "Descendre au garage, ou nous laisser monter", p: "Tant que le compteur affiche une marge confortable, la descente par la D46 et la D908 jusqu'à Plan-de-Cuques, environ 25 minutes, reste possible. Si la marge fond ou si les routes de colline sont glissantes, la récupération à domicile vous évite le trajet ; elle est offerte au-delà de 200 € d'intervention validée. Si le moteur ne démarre plus du tout, le remorquage depuis Saint-Savournin, à 16 km de l'atelier, relève du forfait de 149 €." }
+    ],
+    faq: [
+      { q: "Sortir la voiture de temps en temps limite-t-il la cristallisation ?", a: "Rouler régulièrement, sur un vrai trajet plutôt que quelques minutes au ralenti, fait circuler le liquide et laisse moins de temps aux dépôts pour se former. Cela ne remplace pas un diagnostic si le voyant est déjà allumé." },
+      { q: "Le compte à rebours repart-il de zéro après la réparation ?", a: "Une fois la cause traitée, les codes défauts sont effacés et le décompte est réinitialisé. Un essai routier vérifie ensuite que le voyant reste éteint et que le système dose de nouveau normalement." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Derrière un camion sur la D908 : la vanne EGR à Saint-Savournin",
+    lead: "Des kilomètres en deuxième ou troisième derrière un poids lourd ou un engin agricole, puis un moteur qui manque de souffle à la relance : la vanne EGR est une piste sérieuse. Nettoyage par ultrason de 180 à 290 €.",
+    metaDesc: "Vanne EGR encrassée à Saint-Savournin : démontage, bain ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €, garantie 12 mois.",
+    intro: [
+      "Les routes qui relient Saint-Savournin à Cadolive, Peypin et Gréasque sont étroites : il suffit d'un poids lourd ou d'un tracteur pour qu'une file entière roule longtemps à faible allure. Ces kilomètres au ralenti, moteur diesel peu sollicité, sont propices à l'encrassement de la <strong>vanne EGR</strong>. La suie et les vapeurs d'huile des gaz recyclés se déposent sur son clapet jusqu'à le coller.",
+      "Sur une voiture qui a de la bouteille, avec un compteur au-delà de 100 000 km, les signes s'installent peu à peu : <strong>reprises molles</strong> quand le dépassement devient enfin possible, fumée noire, consommation en hausse, puis voyant moteur."
+    ],
+    sections: [
+      { h: "Ce que nous faisons sur la vanne", p: "Après lecture des codes défauts et contrôle du fonctionnement de l'EGR, la vanne est déposée, nettoyée en <strong>machine ultrason haute température</strong>, puis remontée avec des <strong>joints neufs</strong> aux couples du constructeur. Comptez de 180 à 290 € selon le moteur, annoncés avant l'intervention. Un essai routier et un nouveau passage à la valise valident le résultat ; l'intervention est garantie 12 mois." },
+      { h: "Les injecteurs, l'autre moitié du problème", p: "Un injecteur qui pulvérise mal produit davantage de suie, et cette suie réencrasse la vanne. Le diagnostic mesure leur débit : un encrassement léger se traite par additif, de 120 à 220 €, un encrassement installé par démontage et bain ultrason, de 290 à 490 €. Si le moteur électrique de la vanne est hors service, le nettoyage ne suffira pas, et nous vous le disons avant de commencer." }
+    ],
+    faq: [
+      { q: "Pourquoi l'EGR s'encrasse-t-elle alors que je roule peu ?", a: "C'est la façon de rouler, plus que le kilométrage, qui compte : des trajets courts et lents, moteur peu chargé, favorisent les dépôts de suie. Une voiture qui fait peu de kilomètres sur les routes du village peut donc avoir une vanne très chargée." },
+      { q: "Que se passe-t-il si la vanne n'est pas en cause ?", a: "Le diagnostic préalable sert justement à le vérifier. Si la panne relève d'un autre organe du moteur ou de l'électronique, nous vous le signalons dès cette étape, compte-rendu à l'appui, avant d'engager le moindre démontage." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "De hameau en hameau à Saint-Savournin : un FAP qui ne se vide pas",
+    lead: "Quelques kilomètres entre Le Village, Les Michels et Le Pas de l'Étoile ne suffisent pas à brûler les suies du filtre à particules. Régénération sans démontage à partir de 250 €, diagnostic compris.",
+    metaDesc: "FAP saturé à Saint-Savournin : régénération chimique dès 250 € en 90 min, bain ultrason de 390 à 650 €, diagnostic préalable inclus.",
+    intro: [
+      "L'habitat de Saint-Savournin est dispersé sur les collines : on prend la voiture pour rejoindre le centre depuis Les Michels, pour monter au Pas de l'Étoile ou pour descendre aux commerces de la vallée. Ces trajets de quelques minutes, moteur à peine tiède, sont ceux qu'un <strong>filtre à particules</strong> supporte le moins : il stocke de la suie à chaque démarrage sans jamais atteindre la température qui permet de la brûler.",
+      "Le calculateur tente alors des régénérations, interrompues parce qu'on est déjà arrivé. Quand le filtre approche de la saturation, le <strong>voyant FAP</strong> s'allume et la puissance peut être bridée, ce qui se ressent tout de suite dans les montées qui ramènent au village."
+    ],
+    sections: [
+      { h: "Une mesure, puis une méthode", p: "Avant de choisir, nous mesurons la contre-pression et le taux de saturation, et nous vérifions l'état du support céramique : ce diagnostic est inclus. Si le filtre est chargé à moins de 80 %, une <strong>régénération chimique</strong> sans démontage suffit, à partir de 250 € et en 90 minutes. Au-delà, il est déposé pour un <strong>bain ultrason</strong> haute température, de 390 à 650 €, avec 1 à 2 jours d'immobilisation. Vous repartez avec les valeurs relevées avant et après." },
+      { h: "Glisser un vrai trajet dans le mois", p: "Après le nettoyage, le filtre se rechargera au même rythme si rien ne change. Une sortie d'une trentaine de kilomètres à allure soutenue, vers 110 km/h sur voie rapide, au moins une fois par mois, lui laisse le temps de se régénérer seul. Une huile faibles cendres adaptée au diesel, à chaque vidange, ralentit aussi son encrassement." }
+    ],
+    faq: [
+      { q: "Mon diesel est ancien : son filtre vaut-il encore la peine d'être nettoyé ?", a: "Tant que la céramique n'est ni fissurée ni fondue, oui. Si elle est abîmée, nous vous présentons l'alternative d'un FAP reconditionné, environ moitié moins cher qu'un neuf, avec un chiffrage avant toute commande." },
+      { q: "Puis-je repartir le jour même ?", a: "Avec la régénération chimique, oui : elle demande environ 90 minutes. Le bain ultrason immobilise la voiture 1 à 2 jours ; la récupération à domicile vous évite alors deux allers-retours par les lacets." }
+    ]
   }
 };

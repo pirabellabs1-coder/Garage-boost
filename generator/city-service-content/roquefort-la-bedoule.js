@@ -89,5 +89,59 @@ module.exports = {
       { q: "Mon diesel démarre mal seulement l'hiver : le diagnostic peut-il attendre ?", a: "Mieux vaut ne pas attendre les premières gelées. Un préchauffage défaillant ou une sonde de température faussée se détectent aussi en saison douce, et le démarreur s'use à chaque tentative prolongée." },
       { q: "Le problème peut-il venir de la batterie et non du moteur ?", a: "Oui, une batterie faible fait tourner le démarreur trop lentement et peut perturber certains calculateurs. Le diagnostic permet de vérifier la tension avant de mettre en cause le moteur." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Alerte qualité AdBlue à Roquefort-la-Bédoule : que vérifier ?",
+    lead: "Le tableau de bord signale un AdBlue non conforme juste après un plein ? À Roquefort-la-Bédoule, le liquide comme le capteur de qualité peuvent être en cause. Diagnostic dès 90 €.",
+    metaDesc: "AdBlue non conforme à Roquefort-la-Bédoule : diagnostic SCR dès 90 €, capteur de qualité de 200 à 400 €, devis préalable, garantie 12 mois.",
+    intro: [
+      "Le système SCR surveille la concentration de l'AdBlue grâce à un <strong>capteur de qualité</strong>. S'il détecte un liquide trop dilué, dégradé ou pollué, il déclenche une alerte, puis le décompte de kilomètres avant immobilisation. Le message apparaît souvent peu après un remplissage.",
+      "Deux hypothèses sont alors possibles : un liquide réellement hors norme, par exemple issu d'un bidon ouvert depuis longtemps ou souillé lors du remplissage, ou un capteur qui se trompe. Les deux se traitent, mais pas de la même façon, d'où l'intérêt d'un diagnostic avant de remplacer quoi que ce soit."
+    ],
+    sections: [
+      { h: "Démêler le liquide et le capteur", p: "Le diagnostic, dès <strong>90 €</strong> et déduit si vous faites réparer, lit les codes du système, interroge le capteur de qualité et contrôle la pompe, l'injecteur et les sondes NOx. Si le capteur est défaillant, son remplacement se situe de 200 à 400 €. Si c'est le liquide, le devis précise l'intervention nécessaire sur le circuit. Rien n'est fait sans votre accord écrit, et la réparation est garantie 12 mois." },
+      { h: "Éviter que l'alerte revienne", p: "L'AdBlue supporte mal la chaleur et le soleil : un bidon stocké dans un garage surchauffé ou dans le coffre en plein été peut se dégrader. Faire le plein à la pompe ou avec un bidon neuf et bien fermé, avec un entonnoir propre réservé à cet usage, limite les risques. Depuis Roquefort-la-Bédoule, l'atelier est à 25 minutes par la D3 puis la D4F." }
+    ],
+    faq: [
+      { q: "Le message est apparu juste après le plein, est-ce forcément le liquide ?", a: "Pas forcément. Un capteur de qualité en fin de vie peut aussi être en cause, et la coïncidence avec le remplissage ne prouve rien à elle seule. Seul le diagnostic permet de faire la différence." },
+      { q: "Peut-on continuer à rouler en attendant le rendez-vous ?", a: "Oui tant que le décompte n'est pas épuisé, mais les kilomètres restants diminuent à chaque trajet. Si le moteur ne redémarre plus, le remorquage depuis Roquefort-la-Bédoule, à 20 km, est facturé au forfait de 149 €." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Roquefort-la-Bédoule : EGR et injecteurs traités en une seule visite",
+    lead: "Entre la D3 vers Aubagne et les portions plus rapides de l'A50, votre diesel alterne les régimes. Nous contrôlons et nettoyons vanne EGR et injecteurs ensemble, sur un seul devis.",
+    metaDesc: "EGR et injecteurs pour Roquefort-la-Bédoule : vanne nettoyée aux ultrasons de 180 à 290 €, injecteurs de 120 à 490 €, garantie 12 mois.",
+    intro: [
+      "Le trajet depuis Roquefort-la-Bédoule vers Aubagne passe par la D3, où l'on roule souvent à allure modérée, puis se poursuit selon la destination par l'A50 ou la D4F. À faible charge, la <strong>vanne EGR</strong> recycle beaucoup de gaz chargés de suie, qui finissent par se déposer sur son clapet et dans ses conduits.",
+      "Sur un diesel qui a déjà des kilomètres, les injecteurs participent au problème : une pulvérisation moins fine augmente la quantité de suie envoyée vers la vanne. Faire les deux contrôles ensemble évite deux déplacements de 20 km."
+    ],
+    sections: [
+      { h: "Un seul rendez-vous, un seul devis", p: "Le diagnostic préalable lit les codes, vérifie la commande de la vanne et mesure le débit de chaque injecteur. Si la vanne est encrassée, elle est déposée, passée au bain ultrason haute température et remontée avec des joints neufs, de <strong>180 à 290 €</strong>. Pour les injecteurs, un traitement par additif de 120 à 220 € ou un nettoyage après dépose de 290 à 490 €, selon leur état. Tout figure sur un même devis, validé avant de commencer." },
+      { h: "Ce qui reste hors de notre champ", p: "Si le diagnostic montre un moteur électrique de vanne hors service, un injecteur dont la partie piézo est défaillante ou une pièce fissurée, le nettoyage ne suffit plus : nous vous indiquons le remplacement à prévoir avant toute dépose inutile. Et si la cause tient au moteur lui-même ou à son électronique, nous vous le disons franchement, compte-rendu à l'appui, pour que vous puissiez vous adresser à l'atelier adéquat. Nos nettoyages sont garantis 12 mois." }
+    ],
+    faq: [
+      { q: "Le traitement par additif est-il vraiment efficace sur les injecteurs ?", a: "Il donne de bons résultats sur des injecteurs faiblement encrassés. Pour des dépôts plus anciens, ou des débits trop écartés, il ne suffit pas et le nettoyage après dépose s'impose. La mesure faite au diagnostic sert à trancher." },
+      { q: "Peut-on regrouper l'intervention avec un décalaminage ?", a: "Oui. Le pack associant le traitement EGR à un décalaminage à l'hydrogène est proposé de 350 à 450 €, soit environ 15 % de moins que les deux prestations séparées. Il agit aussi sur la chambre de combustion et le collecteur." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Diesel qui consomme plus à Roquefort-la-Bédoule : penser au FAP",
+    lead: "Un à deux litres de plus aux 100 km sans changer de conduite ? Avant le voyant, un FAP qui sature se trahit souvent à la pompe. Depuis Roquefort-la-Bédoule, nettoyage dès 250 €.",
+    metaDesc: "Surconsommation et FAP à Roquefort-la-Bédoule : diagnostic inclus, régénération sans démontage dès 250 €, bain ultrason de 390 à 650 €.",
+    intro: [
+      "Quand un filtre à particules se charge, le moteur doit pousser les gaz d'échappement à travers un filtre de plus en plus obstrué, et les tentatives de régénération se multiplient, chacune demandant un surplus de gazole. Résultat : une <strong>surconsommation de 1 à 2 litres aux 100 km</strong>, bien avant que le voyant FAP ne s'allume.",
+      "Si vous faites régulièrement le même trajet, D3 vers Aubagne puis l'A50 ou la D4F, vous connaissez votre consommation habituelle. Une hausse durable, sans changement de conduite ni de charge, mérite un contrôle du filtre : c'est le moment où il est le plus facile, et le moins cher, de le nettoyer."
+    ],
+    sections: [
+      { h: "Agir tant que la méthode légère suffit", p: "Le diagnostic, inclus dans la prestation, mesure la contre-pression et l'état de la céramique. Tant que la saturation reste sous le seuil d'environ 80 %, la <strong>régénération chimique sans démontage</strong> convient : environ 90 minutes, dès 250 €. Si le filtre a été laissé saturer, la dépose et le bain ultrason, de 390 à 650 € et un à deux jours d'immobilisation, deviennent nécessaires. Attendre le mode dégradé, c'est souvent passer de l'une à l'autre." },
+      { h: "Écarter les autres causes", p: "Une surconsommation peut aussi venir d'injecteurs encrassés, d'une vanne EGR qui reste ouverte ou d'un débitmètre fatigué. Le diagnostic vérifie ces points en même temps que le filtre, pour ne pas nettoyer un FAP qui n'est pas en cause. Le compte-rendu indique la contre-pression avant et après, et la régénération est garantie 12 mois. L'atelier est à 25 minutes par la D3 et la D4F, et la récupération à domicile est possible." }
+    ],
+    faq: [
+      { q: "Comment savoir si la surconsommation vient du filtre ?", a: "Le seul moyen fiable est de mesurer la contre-pression à l'échappement et le taux de saturation, ce que fait le diagnostic. Une fumée noire à l'accélération ou des régénérations à répétition renforcent le soupçon." },
+      { q: "La consommation redevient-elle normale après le nettoyage ?", a: "Si le filtre était bien la cause, oui : le moteur respire de nouveau librement et les régénérations s'espacent. Si une autre cause persiste, injecteurs ou vanne EGR, il faut la traiter à part, ce que le compte-rendu précise." }
+    ]
   }
 };

@@ -89,5 +89,59 @@ module.exports = {
       { q: "Le mode dégradé disparaît après un redémarrage, dois-je m'inquiéter ?", a: "Oui. Couper le contact réinitialise souvent la limitation, mais le défaut qui l'a déclenchée reste enregistré et reviendra à la prochaine sollicitation. Mieux vaut le faire lire avant qu'il ne s'aggrave." },
       { q: "Pourquoi un essai routier en plus de la lecture ?", a: "Parce que certaines pannes ne se manifestent que moteur chargé, en montée. L'essai instrumenté enregistre les valeurs à ce moment précis, ce qu'une mesure à l'arrêt ne permet pas." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Compte à rebours AdBlue à Mimet : ne pas attendre le dernier kilomètre",
+    lead: "Quand le tableau de bord décompte les kilomètres avant immobilisation, faites diagnostiquer le système SCR tant que la voiture peut encore descendre du village. Diagnostic dès 90 €, déduit de la réparation.",
+    metaDesc: "Voyant AdBlue à Mimet : diagnostic SCR dès 90 €, déduit en cas de réparation, capteur, pompe, injecteur ou sonde NOx, garantie 12 mois.",
+    intro: [
+      "Sur un diesel récent, une panne du système AdBlue ne se contente pas d'allumer un voyant. Le calculateur lance un <strong>décompte</strong>, par paliers de 300, 200 puis 100 km, au terme duquel le moteur ne redémarre plus. À Mimet, perché à plus de 500 mètres sur le versant nord de l'Étoile, une voiture qui se fige au village pose un problème concret : il faut alors la faire descendre sur un plateau par la D7 et la D8.",
+      "Le bon réflexe consiste donc à prendre rendez-vous dès l'apparition du message, et non quand le compteur touche au but. Le trajet jusqu'à l'atelier, environ 25 minutes par Simiane-Collongue et les routes de crête, reste alors une simple formalité."
+    ],
+    sections: [
+      { h: "Trouver le composant fautif", p: "Le système SCR réunit un réservoir, une pompe, un injecteur, un capteur de qualité, des sondes NOx et un catalyseur. Le diagnostic, dès 90 € et déduit si la réparation est faite chez nous, teste chacun d'eux pour isoler celui qui est en défaut. Un capteur de qualité, une sonde NOx ou un injecteur cristallisé se traitent séparément : la réparation se situe entre 90 et 690 € selon la pièce, sur devis écrit, avec une garantie de 12 mois." },
+      { h: "Si le décompte est déjà arrivé à zéro", p: "La voiture ne redémarre plus : il faut la remorquer. Depuis Mimet, à 16 km de l'atelier, le dépannage relève du forfait de 149 €, majoré de 50 % la nuit, le dimanche et les jours fériés. Par verglas sur les portions exposées au nord, ce n'est pas le moment de s'acharner au bord de la route : un appel suffit pour organiser l'enlèvement." }
+    ],
+    faq: [
+      { q: "Peut-on vous confier la voiture sans descendre soi-même ?", a: "Oui, nous montons la chercher au village et la ramenons après l'intervention. La récupération à domicile est offerte dès que l'intervention validée dépasse 200 €." },
+      { q: "Pourquoi ne pas remplacer tout le système d'un coup ?", a: "Parce que la panne vient en général d'une seule pièce. Le remplacement complet, facturé 1 500 à 2 500 € en concession, fait payer aussi des éléments encore sains ; nous ne changeons que ce que le diagnostic désigne." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "SUV diesel à Mimet : la vanne EGR à l'épreuve des remontées",
+    lead: "Un SUV ou un 4x4 chargé qui remonte au village à bas régime peut finir par fumer noir et manquer de souffle. Vanne EGR nettoyée par ultrason de 180 à 290 €, injecteurs à partir de 120 €.",
+    metaDesc: "Vanne EGR et injecteurs à Mimet : nettoyage ultrason de la vanne de 180 à 290 €, injecteurs de 120 à 490 €, joints neufs, garantie 12 mois.",
+    intro: [
+      "Pour une famille de Mimet, le SUV ou le 4x4 diesel fait chaque jour le même parcours : descente vers Gardanne ou Simiane, puis remontée chargée par des routes en lacets. Dans ces remontées lentes, le moteur force à bas régime. Si la <strong>vanne EGR</strong> est encrassée, elle ne dose plus correctement les gaz recyclés, et le moteur le fait sentir.",
+      "Les indices : <strong>fumée noire</strong> au moment où l'on appuie dans la côte, puissance qui décline au fil des semaines, démarrage moins franc les matins froids, puis voyant moteur ou code défaut EGR. Ils ressemblent à ceux d'autres pannes ; tout commence donc par une lecture des codes et des mesures."
+    ],
+    sections: [
+      { h: "Nettoyer la vanne, souvent sans la changer", p: "La vanne est déposée, plongée une à deux heures dans un bain ultrason haute température, puis remontée avec des joints neufs. Le prix, de 180 à 290 € selon le moteur, est fixé avant l'intervention, qui occupe environ une demi-journée. Un remplacement n'est proposé que si le moteur électrique de la vanne est hors service ou si la pièce est fissurée ou déformée." },
+      { h: "Vérifier aussi l'injection", p: "Sur un moteur qui fume noir, les injecteurs peuvent être en cause en même temps que la vanne : une pulvérisation dégradée donne une combustion incomplète. Selon leur état, un traitement par additif (120 à 220 €) ou un démontage avec bain ultrason (290 à 490 €) est proposé. Si l'examen oriente vers le turbo ou un problème plus profond du moteur, nous vous le signalons sans engager de travaux qui sortent de notre champ." }
+    ],
+    faq: [
+      { q: "La fumée noire en montée abîme-t-elle le moteur ?", a: "Elle signale une combustion qui se fait mal, pas une casse imminente. Mais la suie produite encrasse davantage la vanne et le filtre à particules : faites contrôler sans attendre que le voyant s'allume." },
+      { q: "Puis-je remonter au village le soir même ?", a: "Pour un nettoyage de vanne seul, c'est le cas le plus courant : l'intervention tient dans une demi-journée. Un démontage des injecteurs peut demander davantage ; le délai vous est donné avec le devis." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP saturé à Mimet : ne pas remonter au village en mode dégradé",
+    lead: "Voyant FAP allumé et puissance bridée : avec des lacets à gravir pour rentrer, mieux vaut ne pas insister. Diagnostic compris, régénération sans démontage dès 250 €.",
+    metaDesc: "Nettoyage FAP pour Mimet : régénération sans démontage dès 250 €, bain ultrason 390 à 650 €, diagnostic inclus, récupération au village.",
+    intro: [
+      "Vivre à Mimet impose une particularité au filtre à particules : tout trajet commence par une <strong>longue descente</strong>, pied levé et frein moteur, pendant laquelle le moteur produit peu de chaleur. Arrivé à Simiane ou à Gardanne, le parcours restant est souvent trop court pour que la ligne d'échappement atteigne la température qui brûle les suies.",
+      "Lorsque le filtre sature, le calculateur passe en <strong>mode dégradé</strong> : la puissance est limitée pour protéger le moteur. Sur le plat, on s'en accommode. Dans les lacets de la D7 et de la D8 qui ramènent au village, une voiture bridée peine, surtout chargée, et la forcer revient à faire travailler un moteur qui signale déjà un problème."
+    ],
+    sections: [
+      { h: "Voyant allumé : que faire concrètement", p: "Évitez d'enchaîner les petits trajets en espérant que le voyant s'éteigne. Si la voiture roule encore normalement, venez directement à l'atelier, environ 25 minutes par Simiane-Collongue. Si elle est bridée, nous pouvons monter la chercher : la récupération à domicile est offerte au-delà de 200 € d'intervention validée, ce qui inclut tout nettoyage de FAP. En cas d'immobilisation, le remorquage depuis Mimet relève du forfait de 149 €." },
+      { h: "Le nettoyage proprement dit", p: "Mesure de la contre-pression et du taux de saturation, contrôle de la céramique : le diagnostic préalable est inclus. Filtre chargé à moins de 80 % : régénération chimique sans démontage, 90 minutes, à partir de 250 €. Plus colmaté : dépose et bain ultrason haute température, de 390 à 650 €, 1 à 2 jours. Les défauts sont effacés, un essai routier valide le résultat, et la régénération est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Pourquoi mon filtre sature-t-il alors que le compteur tourne ?", a: "Parce qu'une bonne partie de ces kilomètres se fait en descente ou sur de petites routes sinueuses, à faible charge. Le compteur avance, mais le filtre n'atteint pas assez longtemps la température nécessaire pour se vider." },
+      { q: "Le mode dégradé disparaît-il après le nettoyage ?", a: "Oui, une fois le filtre régénéré et les défauts effacés, le moteur retrouve sa puissance. Si une autre source d'encrassement persiste, une vanne EGR par exemple, elle figure dans le compte-rendu pour être traitée à part." }
+    ]
   }
 };

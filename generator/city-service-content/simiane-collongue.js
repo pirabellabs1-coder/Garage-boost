@@ -89,5 +89,59 @@ module.exports = {
       { q: "Puis-je poser une batterie classique à la place de la batterie d'origine ?", a: "C'est déconseillé. Une batterie standard supporte mal les redémarrages répétés du Start & Stop et s'use bien plus vite. Mieux vaut conserver la technologie prévue par le constructeur." },
       { q: "La voiture ne démarre plus du tout, comment l'amener depuis Simiane ?", a: "Notre dépannage peut l'acheminer : Simiane-Collongue est à 14 km de l'atelier, le remorquage coûte donc 149 €, majoré de 50 % la nuit, le dimanche et les jours fériés." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Voyant AdBlue qui va et vient à Simiane-Collongue : le faire lire",
+    lead: "Le voyant AdBlue s'allume, puis disparaît au redémarrage suivant ? Ce défaut intermittent reste mémorisé. À 20 minutes de Simiane, notre diagnostic SCR dès 90 € en retrouve la trace avant qu'il ne s'installe.",
+    metaDesc: "Voyant AdBlue intermittent à Simiane-Collongue : diagnostic SCR dès 90 € déduit, réparation ciblée de 90 à 690 €, garantie 12 mois. À 20 min.",
+    intro: [
+      "Un voyant qui s'éteint tout seul rassure à tort. Le calculateur du système SCR garde en mémoire les défauts passés, même lorsque le symptôme a disparu : un <strong>capteur de qualité</strong> qui renvoie par moments des valeurs incohérentes, une sonde NOx qui faiblit, une pompe qui peine à doser. Tant que l'anomalie reste ponctuelle, la voiture roule ; le jour où elle devient permanente, le système engage un décompte avant blocage du démarrage.",
+      "Sur les routes de collines entre Simiane, Collongue et la D908, une immobilisation n'arrive jamais au bon moment. Faire lire un défaut fugace coûte moins cher qu'un remorquage."
+    ],
+    sections: [
+      { h: "Retrouver un défaut qui ne se montre pas", p: "La lecture porte sur les codes présents et passés du système AdBlue, puis sur le test des composants : capteur de qualité, pompe, injecteur, sondes NOx amont et aval. Des valeurs en limite peuvent suffire à désigner la pièce qui fatigue. Le diagnostic coûte à partir de 90 €, somme déduite si vous faites réparer ici ; la réparation, selon le composant, se situe entre 90 et 690 €, devis écrit à l'appui avant toute intervention." },
+      { h: "Simiane à vingt minutes, et un plan B", p: "La D8 puis la D908 mènent à l'atelier en une vingtaine de minutes, sur des routes peu encombrées à toute heure : inutile de viser un créneau particulier. Si le défaut devient permanent et que la voiture refuse de démarrer, Simiane étant à 14 km, le remorquage relève du forfait de 149 €. Après réparation, les codes sont effacés, un essai routier contrôle l'extinction du voyant, et l'intervention est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Faut-il attendre que le voyant revienne pour prendre rendez-vous ?", a: "Non. Le défaut reste en général inscrit dans la mémoire du calculateur après l'extinction du voyant. Venir pendant qu'il est encore récent facilite le diagnostic et évite d'être surpris par un décompte." },
+      { q: "Puis-je continuer à rouler en attendant le rendez-vous ?", a: "Tant que le voyant reste intermittent et qu'aucun nombre de kilomètres avant blocage n'est affiché, oui, avec prudence. Si un décompte apparaît, appelez-nous sans attendre pour avancer le rendez-vous." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Diesel poussif au réveil à Simiane-Collongue : la piste EGR",
+    lead: "Démarrage laborieux le matin, à-coups dans les premières côtes de la D8 ? Une vanne EGR ou des injecteurs encrassés peuvent en être la cause. À 20 minutes de Simiane, vanne nettoyée de 180 à 290 €.",
+    metaDesc: "Démarrage difficile et à-coups à Simiane-Collongue : nettoyage vanne EGR 180 à 290 €, injecteurs 120 à 490 €, joints neufs, garantie 12 mois.",
+    intro: [
+      "Les premiers kilomètres de la journée sont les plus révélateurs. Moteur froid, un diesel dont la vanne EGR reste entrouverte ou dont les injecteurs pulvérisent mal démarre en insistant, tourne de façon irrégulière puis <strong>broute</strong> dans les premières montées. Une fois chaud, le symptôme s'atténue, et l'on finit par s'en accommoder.",
+      "Ces signes annoncent pourtant une dégradation progressive : perte de puissance, fumée à l'accélération, voyant moteur. Les routes sinueuses entre le village et la D908, où l'on relance souvent à bas régime, se prêtent bien à les repérer tôt."
+    ],
+    sections: [
+      { h: "Faire la part entre vanne, injecteurs et autres causes", p: "Un démarrage difficile peut avoir d'autres origines que l'antipollution, comme la batterie ou le préchauffage. Le diagnostic préalable lit les codes, observe la vanne EGR et mesure le débit des injecteurs pour vérifier qu'ils sont bien en cause. Si l'origine est ailleurs, moteur ou électronique, nous vous le disons d'emblée plutôt que de proposer un nettoyage inutile." },
+      { h: "Le traitement et son prix", p: "La vanne est déposée, nettoyée une à deux heures en bain ultrason haute température puis remontée avec joints neufs : de 180 à 290 €, pour environ quatre heures d'atelier. Les injecteurs peu encrassés reçoivent un traitement par additif premium, de 120 à 220 € ; s'ils sont chargés de gomme et de calamine, ils sont démontés et passés aux ultrasons, de 290 à 490 €. Codes effacés, essai routier, garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Pourquoi les à-coups disparaissent-ils une fois le moteur chaud ?", a: "À chaud, la combustion se fait mieux et masque en partie le mauvais dosage d'air ou de carburant. Le défaut n'a pas disparu pour autant : il continue de produire de la suie qui encrasse un peu plus la vanne." },
+      { q: "Combien de temps la voiture reste-t-elle à l'atelier ?", a: "Environ quatre heures pour la vanne EGR. Si les injecteurs doivent être démontés, le délai s'allonge et vous est précisé sur le devis. Depuis Simiane, la route étant fluide toute la journée, un dépôt en début de matinée laisse le temps de terminer dans la journée." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Simiane-Collongue : le FAP d'un diesel qui roule moins qu'avant",
+    lead: "Télétravail, retraite, emploi plus proche : votre diesel ne fait plus ses longs trajets quotidiens et le filtre à particules s'en ressent ? Nettoyage sans démontage dès 250 €, à 20 minutes de Simiane.",
+    metaDesc: "FAP saturé à Simiane-Collongue après un changement de trajets : régénération dès 250 € en 90 min, bain ultrason 390 à 650 €, garantie 12 mois.",
+    intro: [
+      "Un diesel choisi à l'époque où il parcourait chaque jour des dizaines de kilomètres de voie rapide ne mène pas toujours la même vie ensuite. Quand le trajet domicile-travail disparaît au profit du télétravail, de la retraite ou d'un emploi plus proche, la voiture ne sert plus qu'à rejoindre le village ou les commerces voisins. Le <strong>filtre à particules</strong> continue de se remplir, mais les longues sorties qui le vidaient n'ont plus lieu.",
+      "Les premiers signes arrivent souvent plusieurs mois après le changement d'habitude : consommation en hausse, voyant FAP, puis perte de puissance."
+    ],
+    sections: [
+      { h: "Remettre le filtre en état", p: "La mesure de contre-pression et de charge, incluse, détermine la méthode. Si le filtre est récupérable sans dépose, l'additif passe par la sonde différentielle et une régénération forcée pilotée brûle les suies en 90 minutes, à partir de 250 €. S'il est très colmaté, il est déposé, plongé dans un bain ultrason haute température, séché et remonté, de 390 à 650 €, en une à deux journées. Garantie 12 mois." },
+      { h: "Adapter l'usage pour la suite", p: "Le nettoyage ne change pas le nouveau rythme de la voiture. Pour que le filtre tienne, réservez-lui une fois par mois une trentaine de kilomètres d'autoroute à allure stable, par exemple sur l'A51 en direction d'Aix. Si cette sortie n'est pas réaliste, parlons-en franchement : un diesel qui ne fait plus que quelques kilomètres par jour reverra le voyant plus tôt, et mieux vaut le savoir avant de dépenser." }
+    ],
+    faq: [
+      { q: "Mon diesel roule désormais très peu : le nettoyage vaut-il encore la peine ?", a: "Oui si le filtre est récupérable et que vous pouvez lui offrir une sortie régulière sur voie rapide. Sur de petits trajets uniquement, comptez autour de 40 000 km avant une nouvelle saturation, davantage si la voiture roule aussi sur route : à vous de juger au regard de vos déplacements." },
+      { q: "Le nettoyage du filtre fait-il baisser la consommation ?", a: "Un filtre saturé fait travailler le moteur contre une contre-pression élevée, ce qui peut ajouter 1 à 2 litres aux 100 km. Une fois le filtre vidé, cette surconsommation liée au colmatage disparaît, si aucune autre cause n'est en jeu." }
+    ]
   }
 };

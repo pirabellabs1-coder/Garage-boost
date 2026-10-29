@@ -89,5 +89,41 @@ module.exports = {
       { q: "Un voyant orange fixe m'autorise-t-il à finir ma journée ?", a: "Souvent oui, si la voiture se comporte normalement et qu'aucun autre témoin ne s'allume. Mais il ne faut pas laisser traîner : un défaut ignoré peut en entraîner d'autres. Prenez rendez-vous dans les jours qui suivent, ou appelez-nous si le comportement change." },
       { q: "Ma voiture s'est mise en mode dégradé à la sortie du village, est-ce grave ?", a: "Le mode dégradé est une protection : le calculateur bride le moteur pour limiter les risques. Il ne dit pas à lui seul la gravité de la panne. Roulez doucement jusqu'à un endroit sûr, puis faites lire les codes défauts pour connaître la cause exacte." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Remplacement complet du système AdBlue annoncé à La Bouilladisse ?",
+    lead: "Avant de signer un devis de 1 500 à 2 500 € pour remplacer tout le système SCR, faites désigner la pièce réellement en cause. Diagnostic dès 90 €, déduit de la réparation.",
+    metaDesc: "Devis AdBlue trop lourd à La Bouilladisse ? Diagnostic SCR dès 90 €, déduit si réparation, réparation ciblée de 90 à 690 €, garantie 12 mois.",
+    intro: [
+      "Un devis de concession qui propose de remplacer l'ensemble du système AdBlue, avec pompe, injecteur et capteurs, se chiffre entre <strong>1 500 et 2 500 €</strong>. Pour un foyer de La Bouilladisse, c'est une dépense qui pèse. Or une panne SCR vient en général d'<strong>un seul composant</strong> : le reste du système fonctionne encore.",
+      "Tout l'enjeu est donc d'identifier précisément la pièce fautive. Un capteur de qualité, une sonde NOx, une pompe ou un injecteur cristallisé se réparent ou se remplacent individuellement, et le véhicule retrouve une dépollution conforme, ce qui compte aussi le jour du contrôle technique."
+    ],
+    sections: [
+      { h: "Ce que le diagnostic apporte", p: "À partir de 90 €, et déduit si la réparation est faite chez nous, le diagnostic lit les codes défauts et teste les capteurs, la pompe, l'injecteur et les sondes NOx. Vous recevez un devis écrit qui nomme la pièce en cause et son prix : un capteur de qualité coûte de 200 à 400 €, une sonde NOx de 350 à 650 €. Selon le composant, la réparation se situe entre 90 et 690 €." },
+      { h: "La conformité, sans compromis", p: "Nous réparons le système pour qu'il fonctionne de nouveau, nous ne le rendons jamais inopérant : ce serait illégal sur route et sanctionné au contrôle technique. Après réparation, les codes sont effacés, le compte à rebours réinitialisé et un essai routier confirme que le voyant reste éteint. Pièces et main-d'œuvre sont garanties 12 mois. Depuis La Bouilladisse, l'atelier est à 25 minutes par la D96, la D560 puis la D2, ou par l'A52 et l'A50 hors des heures chargées." }
+    ],
+    faq: [
+      { q: "Puis-je vous montrer le devis de la concession ?", a: "Oui, apportez-le. Les codes défauts qui y figurent orientent le diagnostic, et vous comparez ensuite deux propositions sur une base claire : remplacement global d'un côté, pièce ciblée de l'autre." },
+      { q: "Et si la panne venait vraiment de plusieurs pièces ?", a: "Le devis le dira, pièce par pièce, avant que nous touchions au véhicule. Si la cause sort du système antipollution, par exemple un défaut électronique plus large, nous vous l'indiquons dès le diagnostic plutôt que d'engager des travaux qui ne relèvent pas de notre atelier." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR à La Bouilladisse : une intervention dans la journée",
+    lead: "Déposer le diesel le matin, le récupérer avec une vanne EGR nettoyée et des joints neufs : l'intervention tient en une demi-journée environ, pour 180 à 290 € selon le moteur.",
+    metaDesc: "Nettoyage vanne EGR pour La Bouilladisse : démontage, ultrason et joints neufs de 180 à 290 €, environ une demi-journée, garantie 12 mois.",
+    intro: [
+      "Quand la voiture sert chaque jour pour rejoindre Aubagne, Marseille ou la zone des Paluds, l'immobiliser est le vrai frein à la réparation. Une <strong>vanne EGR</strong> encrassée fait pourtant partie des pannes qui se traitent vite : dépose, nettoyage, remontage et contrôle tiennent en une demi-journée environ.",
+      "Les signes qui doivent conduire au rendez-vous : <strong>perte de puissance</strong> progressive, démarrage plus difficile à froid, fumée noire, surconsommation, et voyant moteur accompagné d'un code EGR. Les ralentissements autour du carrefour central, où convergent la D96 et la D560, font rouler le moteur à bas régime, ce qui favorise cet encrassement."
+    ],
+    sections: [
+      { h: "Le déroulé de la demi-journée", p: "Lecture des codes défauts et contrôle de la vanne, puis dépose, passage d'une à deux heures en <strong>bain ultrason</strong> haute température, remontage avec joints neufs aux couples constructeur. Un diagnostic final efface les défauts et un essai routier valide le comportement du moteur. Le prix, de 180 à 290 €, est fixé avant de commencer ; l'intervention est garantie 12 mois." },
+      { h: "Sans vous déplacer", p: "Si vous ne pouvez pas venir à Plan-de-Cuques, nous récupérons la voiture chez vous ou au travail, dans toute la commune et ses hameaux ; le service est offert au-delà de 200 € d'intervention validée. Si les injecteurs doivent aussi être traités, par additif (120 à 220 €) ou par démontage et ultrason (290 à 490 €), le délai peut s'allonger : il vous est annoncé avec le devis." }
+    ],
+    faq: [
+      { q: "La vanne est-elle remplacée si le nettoyage ne suffit pas ?", a: "Seulement si le diagnostic montre un moteur électrique de vanne hors service, une fissure ou une déformation. Le remplacement est alors chiffré séparément et vous décidez avant que nous commandions la pièce." },
+      { q: "Faut-il un rendez-vous tôt le matin ?", a: "Le créneau de 10 h à 16 h est le plus fluide pour traverser la vallée. Déposer la voiture en milieu de matinée permet, pour un nettoyage de vanne seul, de la reprendre en fin d'après-midi en évitant les ralentissements du carrefour central." }
+    ]
   }
 };
