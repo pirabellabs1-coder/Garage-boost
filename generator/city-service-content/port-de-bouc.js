@@ -89,5 +89,23 @@ module.exports = {
       { q: "À partir de quel écart faut-il s'inquiéter de la consommation ?", a: "Une variation légère suit la saison, la climatisation ou la charge. Une hausse nette et durable sans changement d'usage justifie un diagnostic, surtout si elle s'accompagne d'une odeur de carburant, de fumée ou d'un ralenti irrégulier." },
       { q: "Le diagnostic fonctionne-t-il sur un moteur essence comme sur un diesel ?", a: "Oui. Les deux motorisations sont gérées par des calculateurs que nous interrogeons de la même manière, ainsi que les hybrides légères ou rechargeables." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Messages AdBlue à Port-de-Bouc : lequel impose de venir vite ?",
+    lead: "Niveau bas, qualité incorrecte, défaut du système, décompte : chaque message AdBlue appelle une réaction différente. Pour Port-de-Bouc, le diagnostic SCR démarre à 90 €, déduit de la réparation.",
+    metaDesc: "Message AdBlue à Port-de-Bouc : niveau, qualité, défaut SCR ou décompte. Diagnostic dès 90 € déduit, réparation de 90 à 690 €. À 50 min par l'A55.",
+    intro: [
+      "Le tableau de bord d'un diesel récent a plusieurs façons de parler de l'AdBlue, et toutes ne se valent pas. Pour un conducteur de Port-de-Bouc qui circule entre le centre-ville, Les Aigues Douces et les sites de la zone industrialo-portuaire, savoir les distinguer évite deux erreurs : faire 45 km pour un simple niveau, ou ignorer une vraie panne jusqu'au blocage.",
+      "Voici, du plus anodin au plus pressant, quatre situations courantes et la conduite à tenir pour chacune."
+    ],
+    sections: [
+      { h: "Niveau bas, qualité incorrecte", p: "Un <strong>rappel de niveau</strong> demande seulement un plein, à la pompe ou au bidon, avec un produit conforme : rien à diagnostiquer si le message disparaît ensuite. Une alerte de <strong>qualité incorrecte</strong> juste après un remplissage peut venir du liquide lui-même ou du capteur de qualité. Si elle persiste après un nouveau plein avec un produit neuf, le capteur devient suspect : son remplacement revient de 200 à 400 €." },
+      { h: "Défaut du système, décompte affiché", p: "Un <strong>défaut du système SCR</strong> sans décompte laisse un peu de temps, pas indéfiniment : prenez rendez-vous dans les jours qui suivent. Un compte à rebours annonce, lui, le blocage du démarrage après 300, 200 puis 100 km : venez dès que possible par la N568, l'A55, l'A7 et la L2, en évitant les heures de prise et de fin de poste où l'A55 se charge. Le diagnostic, dès 90 € et déduit si la réparation est faite chez nous, désigne la pièce ; la réparation coûte de 90 à 690 € selon le composant, garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Puis-je ignorer un défaut du système tant qu'aucun décompte n'apparaît ?", a: "C'est un pari risqué : selon les modèles, le décompte peut se déclencher ensuite. Faire lire le système tant que la voiture roule librement reste plus simple, et évite d'avoir à organiser un acheminement." },
+      { q: "Le voyant moteur orange accompagne le message AdBlue : est-ce plus grave ?", a: "Pas forcément, mais le calculateur moteur a alors enregistré un défaut lié à la dépollution. Le diagnostic lit les deux, ce qui permet de savoir si une seule panne explique tout ou s'il y en a une seconde." }
+    ]
   }
 };

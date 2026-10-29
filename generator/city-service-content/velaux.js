@@ -89,5 +89,59 @@ module.exports = {
       { q: "Dois-je apporter le devis établi par un autre garage ?", a: "C'est utile : il nous indique la piste envisagée et les codes éventuellement relevés. Notre analyse reste indépendante et repart des données lues sur le véhicule." },
       { q: "Que se passe-t-il si votre conclusion diffère du premier devis ?", a: "Le compte-rendu écrit explique la cause que nous avons identifiée et les mesures qui l'étayent. Vous restez libre de faire réparer où vous le souhaitez." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Velaux : dépôts d'AdBlue sur un diesel qui ne chauffe jamais",
+    lead: "Descendre du village, faire trois courses, remonter : l'échappement reste tiède et l'AdBlue cristallise sur l'injecteur. Diagnostic du système SCR dès 90 €, déduit de la réparation.",
+    metaDesc: "AdBlue à Velaux : diagnostic SCR dès 90 €, décristallisation de l'injecteur ou réparation ciblée de 90 à 690 €, devis préalable, garantie 12 mois.",
+    intro: [
+      "L'AdBlue est pulvérisé dans une ligne d'échappement censée être chaude, où il se transforme pour neutraliser les oxydes d'azote. Sur un diesel qui ne fait que de courts trajets entre le centre-village perché de Velaux, Le Pigeonnier ou Les Cadestaux, l'échappement reste souvent <strong>trop froid</strong> : une partie du liquide ne se décompose pas et laisse des cristaux blancs autour de l'injecteur et dans le conduit.",
+      "Peu à peu, l'injecteur dose mal ou se bouche, le calculateur constate que les oxydes d'azote ne baissent plus comme prévu, et le <strong>voyant AdBlue</strong> s'allume, parfois suivi du compte à rebours avant immobilisation."
+    ],
+    sections: [
+      { h: "Débarrasser l'injecteur de ses cristaux", p: "Le diagnostic confirme d'abord que les cristaux sont bien la cause, et non un capteur de qualité ou une sonde NOx. Si l'injecteur ou la pompe sont simplement entartrés, la <strong>décristallisation</strong> leur rend leur fonctionnement, pour une facture bien inférieure à celle d'une pièce neuve. Le devis écrit, entre 90 et 690 € selon ce qu'il faut faire, vous est soumis avant tout travail ; suivent le contrôle du dosage, l'effacement des codes et un essai routier. Garantie 12 mois." },
+      { h: "Donner de la chaleur à l'échappement", p: "Pour limiter le retour des dépôts, intégrez de temps en temps un vrai trajet routier : la D10 puis l'A7 vers Marseille, ou l'A8 vers Aix, font monter la ligne en température. C'est aussi le chemin de l'atelier : 35 km et une quarantaine de minutes, plus fluides en milieu de journée qu'aux heures de pointe." }
+    ],
+    faq: [
+      { q: "Les traces blanches autour du bouchon d'AdBlue sont-elles inquiétantes ?", a: "Des cristaux autour de l'orifice de remplissage viennent souvent d'un peu de liquide renversé lors du plein ; un chiffon humide les retire. Ce sont ceux qui se forment dans l'échappement, invisibles sans démontage, qui perturbent le dosage." },
+      { q: "Le défaut peut-il revenir si je garde les mêmes trajets ?", a: "Le risque existe tant que l'échappement reste froid. Un trajet routier régulier d'une vingtaine de minutes et des pleins faits avec un AdBlue conforme limitent les chances de récidive." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "La perte de puissance qu'on ne sent plus : l'EGR à Velaux",
+    lead: "Une vanne EGR s'encrasse si lentement qu'on s'habitue au manque de reprise. Un diagnostic le mesure ; le nettoyage ultrason avec joints neufs coûte de 180 à 290 €.",
+    metaDesc: "Vanne EGR à Velaux : diagnostic, démontage, bain ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €. Garantie 12 mois, atelier à 40 min.",
+    intro: [
+      "La dégradation d'une vanne EGR ne se fait pas du jour au lendemain. Semaine après semaine, la suie réduit la course du clapet, et le moteur perd un peu de vivacité. Sur la route qui relie Velaux à la D10, on finit par rétrograder plus tôt dans les montées, par anticiper davantage les insertions sur l'A7, sans plus se souvenir que la voiture tirait autrement.",
+      "C'est souvent un passager, ou un autre conducteur qui reprend le volant, qui remarque le changement, à moins qu'un <strong>voyant moteur</strong> ne finisse par s'allumer. À ce stade, la vanne est déjà bien chargée, mais elle se nettoie le plus souvent sans remplacement."
+    ],
+    sections: [
+      { h: "Objectiver ce que l'on ressent", p: "Le ressenti ne suffit pas pour décider. Nous lisons les codes et comparons, moteur en marche, la position demandée à la vanne et sa position réelle, ainsi que le débit d'air. Si l'écart confirme l'encrassement, la vanne est déposée, passée une à deux heures en bain ultrason à haute température et remontée avec des joints neufs. Effacement des codes et essai routier concluent : de 180 à 290 € selon la motorisation." },
+      { h: "Si la vanne n'explique pas tout", p: "Des injecteurs qui s'encrassent produisent le même effet d'usure lente. Ils se traitent par additif de 120 à 220 € ou par démontage et ultrasons de 290 à 490 €. Lorsque le moteur électrique d'une vanne est hors service, le nettoyage ne suffit plus et nous vous l'indiquons, devis à l'appui. Si la perte de puissance vient du turbo ou de la mécanique interne, nous vous le disons dès le diagnostic plutôt que d'engager des frais inutiles." }
+    ],
+    faq: [
+      { q: "Comment savoir, sans outil, que ma voiture a perdu de la puissance ?", a: "Quelques indices : vous rétrogradez là où vous ne le faisiez pas, la voiture met plus de temps à reprendre dans une côte familière, la consommation augmente. Aucun n'est une preuve, mais ensemble, ils justifient une lecture du calculateur." },
+      { q: "Le nettoyage est-il garanti si je continue à faire les mêmes trajets ?", a: "L'intervention est garantie 12 mois. Sa durée de vie dépend ensuite de l'usage : en usage mixte, une vanne nettoyée tient généralement plusieurs dizaines de milliers de kilomètres, un peu moins si la voiture ne fait que de courts trajets." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Velaux : un FAP régénéré dans la matinée, trajet compris",
+    lead: "Si la mesure le permet, la régénération sans démontage prend 90 minutes, dès 250 €. Avec une quarantaine de minutes de route dans chaque sens, la voiture peut être de retour à Velaux pour le déjeuner.",
+    metaDesc: "Nettoyage FAP pour Velaux : régénération sans démontage en 90 min dès 250 €, bain ultrason de 390 à 650 € si besoin, diagnostic inclus.",
+    intro: [
+      "Pour un foyer de Velaux qui dépend de sa voiture au quotidien, le délai compte autant que le prix. Un filtre à particules saturé n'immobilise pas forcément le véhicule plusieurs jours : quand la charge reste raisonnable, il se nettoie <strong>sans être déposé</strong>, le temps d'une matinée.",
+      "Encore faut-il intervenir avant que le colmatage dépasse le seuil où cette méthode rapide fonctionne. Un voyant FAP qui revient après s'être éteint, une consommation qui grimpe, une <strong>perte de puissance</strong> en remontant vers le village : c'est le moment de prendre rendez-vous."
+    ],
+    sections: [
+      { h: "Une matinée type", p: "Partez de Velaux une fois passée la pointe sur la D10 et l'A7 : l'atelier de Plan-de-Cuques est à une quarantaine de minutes. Le diagnostic, inclus, mesure la saturation et l'état de la céramique. Si le filtre est chargé à moins de 80 % environ, un additif est introduit par la sonde différentielle et une régénération forcée est pilotée à la valise : 90 minutes, de 250 à 450 €, effacement des défauts et essai routier compris. Retour au village en fin de matinée." },
+      { h: "Quand la matinée ne suffit pas", p: "Au-delà de ce seuil, la méthode rapide ne serait pas efficace : le filtre doit être déposé, plongé dans un bain ultrason haute température, séché à 200 °C puis remonté. Comptez 1 à 2 jours et de 390 à 650 €. Pour ne pas faire deux fois l'aller-retour, la récupération à domicile, offerte au-delà de 200 € d'intervention validée, prend alors tout son sens. Dans les deux cas, la régénération est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Puis-je savoir avant de venir quelle méthode sera retenue ?", a: "Non, seule la mesure à l'atelier le dit avec certitude. Les symptômes donnent une indication : un voyant récent oriente plutôt vers la méthode rapide, un mode dégradé installé depuis des semaines vers le démontage." },
+      { q: "Que faire pour ne pas revenir l'an prochain ?", a: "Chaque mois, accordez au moteur une trentaine de kilomètres à allure stable, autour de 110 km/h, sur l'A7 ou l'A8 : le filtre se vide alors de lui-même. Une huile à faible teneur en cendres et la lecture des codes au premier voyant complètent ces précautions." }
+    ]
   }
 };

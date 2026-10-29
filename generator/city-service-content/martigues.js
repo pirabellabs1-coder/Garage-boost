@@ -107,5 +107,23 @@ module.exports = {
       { q: "Effacer le voyant avant la contre-visite, est-ce une solution ?", a: "Non. Un voyant effacé sans réparation se rallume dès que le calculateur détecte à nouveau le défaut, et les valeurs mesurées au contrôle restent les mêmes. Seule la correction de la cause permet de repasser sereinement." },
       { q: "Que faire si plusieurs défauts sont relevés en même temps ?", a: "Un défaut peut en entraîner un autre. Le diagnostic les hiérarchise, et le devis distingue ce qui conditionne la contre-visite de ce qui peut attendre." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Décompte AdBlue à Martigues : rouler 40 km ou se faire remorquer ?",
+    lead: "Le viaduc, l'A55 puis l'A7 : 45 minutes jusqu'à l'atelier. Selon les kilomètres restants, venir par la route reste possible ; sinon, assistance ou remorquage. Diagnostic SCR dès 90 €.",
+    metaDesc: "Décompte AdBlue à Martigues : diagnostic SCR dès 90 €, réparation de 90 à 690 € selon la pièce, garantie 12 mois. Atelier à 45 min par l'A55.",
+    intro: [
+      "Quand le tableau de bord affiche le nombre de kilomètres avant que le moteur refuse de redémarrer, la question se pose concrètement depuis Martigues : l'atelier est à 40 km, par le <strong>viaduc de Martigues</strong>, l'A55 puis l'A7 et la rocade L2. Un décompte qui affiche encore plusieurs centaines de kilomètres laisse de la marge ; un compteur proche de zéro, non.",
+      "Dans la plupart des cas, le blocage intervient au <strong>redémarrage</strong> : une voiture arrêtée à mi-chemin, sur une aire ou après avoir coupé le moteur dans un bouchon, peut ne plus repartir. Quitter Ferrières, Jonquières ou La Couronne avec une marge serrée, c'est prendre ce risque."
+    ],
+    sections: [
+      { h: "Les options selon le compteur", p: "Avec une marge confortable, venez par la route, de préférence en dehors des heures industrielles (6 h à 7 h 30 et 16 h à 17 h 30), quand l'A55 se charge. Avec une marge courte, la récupération du véhicule à domicile, offerte au-delà de 200 € d'intervention validée, évite de conduire vous-même. Si la voiture ne démarre plus, le remorquage depuis Martigues est facturé 1,80 €/km sur devis, majoré de 50 % la nuit, le dimanche et les jours fériés ; l'assistance de votre contrat peut s'en charger." },
+      { h: "À l'atelier, réparer la bonne pièce", p: "La valise multimarque lit les défauts du système SCR, puis chaque composant est testé : capteur de qualité, sonde NOx, pompe, injecteur d'AdBlue. Le diagnostic coûte dès 90 €, somme déduite si vous nous confiez la réparation, chiffrée par écrit entre 90 et 690 € selon la pièce. Une fois le composant remis en état, le décompte est réinitialisé, les codes effacés, et un essai routier confirme que le système dépollue. Garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Couper et remettre le contact peut-il effacer le décompte ?", a: "Non. Le compteur est mémorisé par le calculateur et ne repart qu'après réparation et réinitialisation. Multiplier les démarrages n'apporte rien et, près de zéro, chaque arrêt du moteur devient un risque." },
+      { q: "Que faire si le message apparaît sur le viaduc ou dans un bouchon de l'A55 ?", a: "Poursuivez calmement jusqu'à un endroit sûr sans couper le moteur inutilement : en règle générale, le décompte ne bloque pas un moteur qui tourne. Une fois arrêté, appelez-nous avec le kilométrage affiché pour décider de la suite." }
+    ]
   }
 };

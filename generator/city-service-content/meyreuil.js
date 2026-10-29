@@ -89,5 +89,59 @@ module.exports = {
       { q: "Les à-coups disparaissent quand je roule doucement, puis-je attendre ?", a: "Il vaut mieux éviter. Un défaut d'allumage ou d'injection qui persiste peut endommager d'autres organes, notamment l'échappement. Un diagnostic précoce limite la facture." },
       { q: "Que contient le compte-rendu remis après l'examen ?", a: "Les défauts relevés, l'interprétation des mesures, la cause identifiée et, si une réparation est nécessaire, un devis transparent. Vous décidez ensuite librement de la suite." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Vendre son diesel à Meyreuil avec un défaut AdBlue : réparer avant",
+    lead: "Un voyant AdBlue allumé fait fuir les acheteurs ou fond la valeur de reprise. Avant de vendre, faites localiser la panne : diagnostic dès 90 €, déduit, réparation ciblée de 90 à 690 €.",
+    metaDesc: "Défaut AdBlue avant une revente à Meyreuil : diagnostic SCR dès 90 € déduit, réparation de 90 à 690 €, devis écrit et garantie 12 mois. À 32 min.",
+    intro: [
+      "Mettre en vente un diesel récent dont le tableau de bord affiche un défaut AdBlue, c'est s'exposer à des offres très basses : l'acheteur imagine le pire, souvent le remplacement complet du système, que les concessions facturent <strong>1 500 à 2 500 €</strong>. Un professionnel qui reprend le véhicule fera le même calcul.",
+      "Dans la grande majorité des cas, pourtant, un seul composant est fautif. Le faire réparer avant la vente peut coûter moins que la décote qu'il provoquerait, et vous permet de céder un véhicule conforme."
+    ],
+    sections: [
+      { h: "Un diagnostic qui rassure aussi l'acheteur", p: "Notre recherche de panne teste le capteur de qualité, les sondes NOx, la pompe et l'injecteur d'additif pour isoler la pièce en cause. Vous recevez un <strong>devis écrit</strong> avant toute intervention, puis une facture détaillée qui pourra accompagner l'annonce : un argument concret face à un acheteur méfiant. Le diagnostic coûte dès 90 €, somme déduite si la réparation se fait chez nous." },
+      { h: "Réparer sans dépasser le juste nécessaire", p: "La remise en état va de 90 à 690 € selon la pièce : décristallisation d'une pompe ou d'un injecteur, capteur de qualité, sonde NOx. Nous ne remplaçons que ce qui est défaillant, puis effaçons les codes et réinitialisons le décompte. La réparation est garantie 12 mois. Depuis le Canet ou Valbrillant, comptez 32 à 40 minutes de route par la D6 et l'A51." }
+    ],
+    faq: [
+      { q: "Vaut-il mieux baisser le prix que réparer ?", a: "Cela dépend de la pièce en cause, d'où l'intérêt du diagnostic : une fois le montant de la réparation connu, vous pouvez le comparer avec la remise que demanderait un acheteur. Sans ce chiffre, la négociation se fait sur l'hypothèse la plus chère." },
+      { q: "Pouvez-vous effacer le défaut pour la vente sans changer la pièce ?", a: "Non. Un code effacé sans réparation revient vite, et présenter le véhicule ainsi exposerait l'acheteur à une panne immédiate. Nous effaçons les défauts uniquement après avoir remis la pièce en état." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "À-coups certains jours seulement à Meyreuil : une vanne EGR qui colle",
+    lead: "Le moteur hésite un matin, tire normalement le lendemain ? Une vanne EGR qui accroche par moments donne ce genre de symptômes. Nous la contrôlons, puis la nettoyons aux ultrasons, de 180 à 290 €.",
+    metaDesc: "Vanne EGR qui accroche par intermittence à Meyreuil : contrôle, nettoyage ultrason et joints neufs de 180 à 290 €, garantie 12 mois. À 32 min.",
+    intro: [
+      "Les dépôts ne bloquent pas une vanne EGR du jour au lendemain. Pendant des semaines, le clapet coulisse plus difficilement, se coince à certaines températures puis se libère. Résultat : un <strong>trou à l'accélération</strong> en quittant le Canet, rien le lendemain, puis un voyant qui s'allume et s'éteint au fil des démarrages.",
+      "Ce caractère aléatoire pousse souvent à attendre. C'est pourtant le meilleur moment pour agir : une vanne encore mobile se nettoie très bien, alors qu'une vanne grippée depuis longtemps peut avoir fatigué son moteur électrique."
+    ],
+    sections: [
+      { h: "Retrouver un défaut qui ne se montre pas toujours", p: "Même éteint, un voyant laisse une trace dans la mémoire du calculateur. Nous relevons ces <strong>défauts mémorisés</strong>, observons la réponse de la vanne à froid et à chaud, et mesurons le débit des injecteurs pour écarter une autre piste. Si un organe étranger à l'antipollution est en cause, nous vous le disons dès ce diagnostic." },
+      { h: "Le nettoyage et ce qu'il coûte", p: "La vanne est démontée, passée en bain ultrason haute température, remontée avec des <strong>joints neufs</strong>, puis les codes sont effacés et un essai sur route valide le résultat. Comptez 180 à 290 € selon le moteur, garantie 12 mois. Depuis Meyreuil, l'atelier est à une trentaine de minutes par la D6 et l'A51 ; le matin, les navetteurs vers Marseille allongent le trajet, le milieu de journée est plus calme." }
+    ],
+    faq: [
+      { q: "Le voyant s'est éteint : le défaut est-il réglé ?", a: "Pas forcément. Le calculateur éteint le témoin quand le défaut ne se reproduit pas pendant un certain temps, mais il le garde en mémoire. Si les à-coups reviennent, c'est que la vanne continue de coller." },
+      { q: "Un nettoyage fait tôt dure-t-il plus longtemps ?", a: "Il part d'une vanne moins abîmée, ce qui aide. La durée dépend surtout de l'usage : si la cause de l'encrassement est traitée, le résultat tient en général 60 000 à 100 000 km, moins en usage purement urbain." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP à Meyreuil : profiter de l'A51 pour garder le filtre propre",
+    lead: "Habiter à quelques minutes de l'A51 est un atout pour un diesel, à condition de s'en servir. Si le filtre à particules est déjà saturé, nous le régénérons dès 250 €, mesure de saturation comprise.",
+    metaDesc: "Nettoyage FAP pour Meyreuil : régénération dès 250 €, bain ultrason de 390 à 650 €, mesure incluse, conseils de conduite pour la suite. À 32 min.",
+    intro: [
+      "Entre le Canet, Valbrillant et la Croix de Meyreuil, les déplacements du quotidien sont courts : école, commerces, Gardanne ou la périphérie d'Aix. Ce sont précisément ces trajets-là qui empêchent un <strong>filtre à particules</strong> de se vider, car il ne reste jamais assez longtemps en température.",
+      "La commune a pourtant un avantage : la voie rapide n'est jamais loin. Une fois le filtre remis en état, quelques gestes suffisent souvent à espacer nettement le prochain passage à l'atelier."
+    ],
+    sections: [
+      { h: "Remettre le filtre à niveau", p: "La mesure de contre-pression et de saturation, comprise dans le prix, choisit la méthode. Pour un filtre moyennement chargé, l'additif est introduit sans dépose et une régénération forcée, pilotée par la valise, brûle les suies : <strong>250 à 450 €</strong>, environ 90 minutes. Pour un filtre colmaté en profondeur, la dépose et le bain ultrason à chaud coûtent de 390 à 650 € et demandent un à deux jours. Garantie 12 mois sur la régénération." },
+      { h: "Le trajet d'entretien, mode d'emploi", p: "Une fois par mois au minimum, prévoyez environ <strong>30 km d'autoroute vers 110 km/h</strong>, sur le rapport le plus long, sans couper le moteur à mi-parcours. Depuis Meyreuil, une boucle par l'A51 vers Aix ou vers Marseille s'y prête bien. Si un voyant s'allume malgré tout, faites lire les défauts sans tarder : une vanne EGR ou un débitmètre en cause se traite mieux tôt." }
+    ],
+    faq: [
+      { q: "Puis-je rouler normalement dès la sortie de l'atelier ?", a: "Oui. Après une régénération sans démontage, un trajet routier dans les jours qui suivent aide à évacuer les derniers résidus ; après un bain ultrason, le filtre est remonté sec et contrôlé, et la voiture repart sans précaution particulière." },
+      { q: "Combien coûte un filtre neuf en comparaison ?", a: "Un filtre à particules neuf se situe généralement entre 1 200 et 2 500 €. Quand le support céramique est intact, le nettoyage évite cette dépense ; quand il ne l'est plus, un filtre reconditionné, environ moitié moins cher qu'un neuf, reste une alternative." }
+    ]
   }
 };

@@ -89,5 +89,59 @@ module.exports = {
       { q: "Un voyant airbag allumé empêche-t-il de rouler ?", a: "La voiture roule, mais le système de retenue peut ne pas fonctionner en cas de choc. C'est un défaut de sécurité à faire contrôler rapidement." },
       { q: "Intervenez-vous sur les marques premium ?", a: "Oui. Notre matériel couvre notamment BMW, Mercedes, Audi, Volvo, Land Rover ou Porsche, en essence, diesel et hybride. Seule la batterie de traction des voitures 100 % électriques relève de spécialistes habilités haute tension." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "AdBlue d'une berline allemande à Carry-le-Rouet : réparer hors réseau",
+    lead: "Mercedes, BMW, Audi ou Volkswagen : le système SCR d'une berline ou d'un SUV hors garantie se répare composant par composant. Diagnostic dès 90 €, déduit de la réparation.",
+    metaDesc: "AdBlue sur berline ou SUV à Carry-le-Rouet : diagnostic SCR dès 90 €, réparation ciblée de 90 à 690 €, toutes marques, garantie 12 mois.",
+    intro: [
+      "Sur une berline ou un SUV diesel sorti de garantie, un défaut AdBlue mène souvent au réseau de la marque, qui peut chiffrer le <strong>remplacement du système complet</strong>, entre 1 500 et 2 500 €. Pour une voiture de Carry, du Rouet à La Tuilière, ce montant fait parfois hésiter à la garder.",
+      "Or le système SCR est fait de pièces distinctes, réservoir, pompe, injecteur, capteur de qualité, sondes NOx, et la panne vient le plus souvent d'une seule d'entre elles. Notre <strong>diagnostic multimarque</strong> couvre notamment Mercedes, BMW, Audi et Volkswagen, comme Renault, Peugeot ou Citroën."
+    ],
+    sections: [
+      { h: "Le devis à la pièce, face au devis global", p: "Apportez, si vous l'avez, le devis déjà reçu : nous le confrontons à nos mesures. Le diagnostic, dès 90 € et déduit si vous faites réparer chez nous, désigne la pièce fautive. À titre indicatif, un capteur de qualité se situe entre 200 et 400 €, une sonde NOx entre 350 et 650 € ; une pompe ou un injecteur cristallisé peuvent souvent être <strong>décristallisés</strong>. Le devis écrit précède toute intervention, et la réparation est garantie 12 mois." },
+      { h: "Garder le véhicule conforme", p: "La réparation rétablit la dépollution : le véhicule reste conforme à son homologation et aborde le contrôle technique sans réserve sur ce point. Désactiver le système serait illégal, nous ne le proposons pas. Depuis Carry, l'atelier est à 33 km par la D5, l'A55 puis la rocade L2 ; en été, préférez la récupération à domicile, offerte au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Faire réparer hors réseau pose-t-il problème pour une future revente ?", a: "Non : ce qui compte est que le système fonctionne et que l'intervention soit facturée et documentée. Vous conservez la facture détaillée et le compte-rendu du diagnostic, utiles face à un acheteur." },
+      { q: "La sonde NOx d'un modèle haut de gamme coûte-t-elle plus cher ?", a: "Le prix dépend du modèle et de la référence, dans une fourchette de 350 à 650 € pour une sonde NOx. Le devis précise le montant exact avant toute commande." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Injecteurs d'une berline diesel à Carry-le-Rouet : nettoyer ou changer",
+    lead: "Additif, bain ultrason ou remplacement : le choix dépend de ce que mesure le diagnostic. Nettoyage des injecteurs de 120 à 490 €, vanne EGR de 180 à 290 €.",
+    metaDesc: "Injecteurs et vanne EGR à Carry-le-Rouet : additif de 120 à 220 €, ultrason de 290 à 490 €, vanne EGR de 180 à 290 €. Garantie 12 mois.",
+    intro: [
+      "Les diesels modernes injectent le gazole sous une pression très élevée, de 1 500 à 2 500 bars, à travers des orifices minuscules. Il suffit d'un fin dépôt de gomme ou de calamine pour que le jet se déforme : combustion moins complète, <strong>fumée</strong> à l'accélération, consommation qui grimpe, démarrage moins franc.",
+      "Sur une berline ou un SUV qui alterne la D5 sinueuse de la Côte Bleue et l'A55, l'encrassement s'installe sans bruit. Quand il est constaté, la vraie question est de savoir si un nettoyage suffit ou si l'injecteur est arrivé au bout de sa vie."
+    ],
+    sections: [
+      { h: "Trois réponses possibles", p: "Le débit de chaque injecteur est mesuré avant toute décision. Encrassement léger : un <strong>additif professionnel</strong> fait le travail, de 120 à 220 €. Dépôts installés : dépose et bain ultrason à haute température, de 290 à 490 €. Défaillance interne, par exemple un élément piézoélectrique hors service : le nettoyage serait de l'argent perdu, et nous vous le disons ; une pièce neuve se situe entre 200 et 400 € l'unité." },
+      { h: "La vanne EGR dans le même examen", p: "Des injecteurs fatigués envoient plus de suie vers la vanne EGR, qui finit par coller. Elle est contrôlée lors du même diagnostic ; si elle est encrassée, elle est démontée, passée aux ultrasons et remontée avec des joints neufs, de 180 à 290 €. Si son moteur électrique est hors service, seul le remplacement convient, à partir de 350 € pour une pièce neuve d'origine. Ces interventions sont garanties 12 mois." }
+    ],
+    faq: [
+      { q: "Les injecteurs d'une marque premium se traitent-ils de la même façon ?", a: "Oui, le principe est identique quelle que soit la marque : mesurer, puis choisir entre additif, ultrason ou remplacement. Seuls l'accessibilité et le prix des pièces varient selon le modèle, ce que précise le devis." },
+      { q: "Pourquoi ne pas remplacer directement tous les injecteurs ?", a: "Parce que, le plus souvent, ils sont simplement encrassés et retrouvent un débit correct après nettoyage. Changer des injecteurs sains alourdirait la facture sans bénéfice ; la mesure permet de ne remplacer que celui qui le justifie." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Lacets de la Côte Bleue : pourquoi le FAP sature à Carry-le-Rouet",
+    lead: "Virages, relances en deuxième, vitesse jamais stable : la D5 ne laisse pas au filtre à particules le temps de se régénérer. Nettoyage dès 250 €, diagnostic inclus.",
+    metaDesc: "Nettoyage FAP à Carry-le-Rouet : régénération sans démontage dès 250 €, bain ultrason de 390 à 650 €, diagnostic inclus. Atelier à 40 min.",
+    intro: [
+      "Pour brûler ses suies, un filtre à particules a besoin de plusieurs minutes de fonctionnement à régime soutenu et constant. Les routes de la Côte Bleue font l'inverse : la D5 sinueuse et les rues qui descendent vers Le Rouet imposent freinages, virages et <strong>relances en rapports courts</strong>. Le moteur chauffe, mais la température d'échappement monte et retombe sans cesse.",
+      "Une régénération entamée sur l'A55 peut ainsi s'interrompre dès la sortie vers Carry. À force, le filtre se charge, le <strong>voyant FAP</strong> s'allume et le moteur perd de sa vigueur dans les montées."
+    ],
+    sections: [
+      { h: "Le nettoyage adapté", p: "Le diagnostic, inclus, mesure la contre-pression et l'état du support céramique. Filtre chargé à moins de 80 % environ : <strong>régénération chimique</strong> sans démontage en 90 minutes, de 250 à 450 €. Au-delà : dépose, bain ultrason à haute température, séchage à 200 °C et remontage, de 390 à 650 €, en 1 à 2 jours. Vous recevez les mesures avant et après, et l'intervention est garantie 12 mois." },
+      { h: "Laisser au filtre une vraie ligne droite", p: "Une fois par mois, prolongez un trajet sur l'A55 : une trentaine de kilomètres à vitesse régulière, en cinquième ou en sixième, permettent au filtre de se régénérer complètement. Si le colmatage revient malgré cela, la cause est souvent en amont, une vanne EGR ou un capteur qui dérègle la combustion : nous la cherchons avant de renettoyer." }
+    ],
+    faq: [
+      { q: "Rouler en rapport court pour garder du régime aide-t-il ?", a: "Un régime un peu plus élevé sur un trajet stable peut aider, mais sur une route sinueuse, les variations constantes empêchent la régénération d'aboutir. C'est la durée à allure régulière qui compte, pas le régime seul." },
+      { q: "La régénération sans démontage laisse-t-elle des résidus dans l'échappement ?", a: "Non : les suies sont brûlées pendant la régénération forcée pilotée et les résidus sont évacués. Le diagnostic final vérifie que la contre-pression est revenue à un niveau normal." }
+    ]
   }
 };

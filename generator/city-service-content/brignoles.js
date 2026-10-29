@@ -89,5 +89,41 @@ module.exports = {
       { q: "Dois-je noter le code relevé avec mon lecteur ?", a: "Oui, notez-le avec la date et les circonstances : c'est une information utile, même si nous relisons l'ensemble des calculateurs avec notre propre matériel." },
       { q: "Que se passe-t-il si je fais réparer à Brignoles ensuite ?", a: "Vous gardez le compte-rendu écrit et vous êtes libre de faire réaliser la réparation où vous le souhaitez. Le diagnostic reste alors facturé 49 €." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Panne AdBlue à Brignoles : ce que couvrent 90 à 690 €",
+    lead: "Avant de faire 60 km, sachez ce que vous pourriez payer. Diagnostic SCR dès 90 €, déduit si vous réparez chez nous, puis réparation de la seule pièce en cause, de 90 à 690 € selon le composant.",
+    metaDesc: "Panne AdBlue pour Brignoles : diagnostic SCR dès 90 € déduit, capteur, sonde NOx, pompe ou injecteur de 90 à 690 €, devis écrit avant. À 1h05.",
+    intro: [
+      "Brignoles est à <strong>60 km et environ 1h05</strong> de l'atelier par l'A8, l'A7 et la L2. Un tel trajet n'a de sens que si l'écart de prix ou de méthode le justifie. Pour une panne AdBlue, cet écart tient souvent à la différence entre deux approches : remplacer l'ensemble du système SCR, ce qui coûte de 1 500 à 2 500 € en concession, ou désigner le composant défaillant et ne réparer que lui.",
+      "Si un garage près de chez vous pratique déjà la réparation ciblée, faites-lui confiance et économisez la route. Ce qui suit s'adresse à ceux qui ont reçu un devis global et veulent un second regard avant de signer."
+    ],
+    sections: [
+      { h: "Ce que recouvre la fourchette", p: "Le bas de la fourchette correspond aux interventions simples, comme la <strong>décristallisation</strong> d'une pompe ou d'un injecteur d'AdBlue. Un capteur de qualité se situe en général entre 200 et 400 €, une sonde NOx entre 350 et 650 €. Le diagnostic, à partir de 90 €, est déduit du montant si la réparation se fait chez nous, et le devis écrit est validé avec vous avant le moindre démontage. Garantie 12 mois." },
+      { h: "Limiter les allers-retours", p: "Pour éviter deux trajets, transmettez-nous à l'avance le devis reçu et les codes défauts dont vous disposez : nous pourrons préparer le rendez-vous et, si une pièce doit être commandée, réduire le délai de réparation. Une récupération longue distance est proposée sur devis. Si le moteur ne redémarre plus, le remorquage depuis Brignoles est facturé 1,80 € par kilomètre, sur devis ; l'assistance de votre contrat est alors souvent plus adaptée." }
+    ],
+    faq: [
+      { q: "Le diagnostic peut-il se faire à distance à partir de mes codes ?", a: "Non : les codes orientent, mais seul un test des composants sur le véhicule désigne la pièce fautive. Ils nous aident en revanche à vous dire, avant votre venue, si la piste semble compatible avec une réparation ciblée." },
+      { q: "Le voyant sera-t-il éteint pour le retour à Brignoles ?", a: "Oui, si la réparation corrige le défaut : les codes sont effacés, le compte à rebours réinitialisé, et un essai routier vérifie que le voyant reste éteint avant de vous rendre le véhicule." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR pour Brignoles : l'aller-retour dans la journée",
+    lead: "Partir le matin par l'A8, repartir en fin de journée avec une vanne EGR nettoyée et des joints neufs : c'est l'organisation que nous proposons depuis Brignoles, pour 180 à 290 € selon le moteur.",
+    metaDesc: "Vanne EGR pour Brignoles : nettoyage ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €, garantie 12 mois. Atelier à 1h05 par l'A8.",
+    intro: [
+      "Un code EGR relevé à Brignoles, des à-coups en reprise sur l'A8 : la vanne est peut-être simplement encrassée. Dans ce cas, elle se <strong>nettoie</strong> au lieu de se remplacer, et l'intervention tient en général dans la journée, ce qui rend le trajet jusqu'à Plan-de-Cuques compatible avec un retour le soir même.",
+      "Nous ne prétendons pas être indispensables : un garage brignolais qui démonte et nettoie réellement les vannes vous rendra le même service. L'intérêt de venir tient au prix annoncé d'avance et au diagnostic qui précède le devis."
+    ],
+    sections: [
+      { h: "Le déroulé d'une journée type", p: "Départ en début de matinée, environ 1h05 de route hors vacances scolaires et week-ends d'été. À l'arrivée, le diagnostic confirme que la vanne est en cause et contrôle les injecteurs. La vanne est ensuite déposée, nettoyée en bain ultrason haute température, remontée avec des joints neufs aux couples du constructeur, puis validée par un essai routier. Comptez de 180 à 290 €, garantie 12 mois." },
+      { h: "Quand nous vous conseillerons de rester chez vous", p: "Si la vanne présente une panne électrique, une fissure ou une déformation, le nettoyage ne sert à rien : il faut la remplacer, avec une pièce neuve d'origine de 350 à 700 €. Nous pouvons vous le dire dès le diagnostic, et rien ne vous empêche alors de faire poser la pièce près de Brignoles. Pour des injecteurs encrassés, le traitement par additif coûte de 120 à 220 €, le nettoyage après dépose de 290 à 490 €." }
+    ],
+    faq: [
+      { q: "Que se passe-t-il si l'intervention déborde sur le lendemain ?", a: "Cela peut arriver si une pièce supplémentaire, joint spécifique ou capteur, doit être commandée. Nous vous prévenons dès le diagnostic, et une récupération longue distance peut être organisée sur devis." },
+      { q: "Le code EGR relevé par mon garage suffit-il pour réserver directement le nettoyage ?", a: "Il oriente, mais nous vérifions toujours la commande de la vanne et l'injection avant de démonter. Un code EGR peut être déclenché par un débitmètre ou un capteur, auquel cas nettoyer la vanne ne changerait rien." }
+    ]
   }
 };

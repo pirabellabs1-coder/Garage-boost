@@ -89,5 +89,41 @@ module.exports = {
       { q: "Dois-je venir avec la remorque ou la caravane ?", a: "Non, le véhicule suffit. Les données enregistrées par le calculateur et l'essai routier permettent d'analyser le défaut sans l'attelage. Indiquez-nous simplement le poids tracté et le parcours au moment de l'incident." },
       { q: "Une fumée à l'échappement est-elle forcément grave ?", a: "Pas forcément, mais elle ne doit pas être ignorée. Selon sa couleur et le moment où elle apparaît, elle peut signaler un encrassement, un défaut d'injection ou un problème plus sérieux ; le diagnostic permet de faire la différence." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Fourgon aménagé à Peyrolles : défaut AdBlue après l'hivernage",
+    lead: "Le van ou le fourgon aménagé diesel a passé l'hiver garé et affiche un défaut AdBlue au premier départ ? La cristallisation est une piste à vérifier en priorité. Diagnostic SCR dès 90 €, déduit.",
+    metaDesc: "Défaut AdBlue après hivernage à Peyrolles-en-Provence : diagnostic SCR dès 90 € déduit, décristallisation ou réparation de 90 à 690 €, garantie 12 mois.",
+    intro: [
+      "Les fourgons aménagés et vans de loisirs diesel récents peuvent être équipés, comme les voitures, d'un <strong>système AdBlue</strong>. Leur usage est saisonnier : de longues semaines à l'arrêt, puis des week-ends au bord des plans d'eau ou des départs vers les Alpes par l'A51.",
+      "Pendant l'immobilisation, l'additif resté dans la pompe et l'injecteur peut former des cristaux. Au redémarrage, le système ne dose plus correctement et le tableau de bord le signale, parfois dès les premiers kilomètres."
+    ],
+    sections: [
+      { h: "Décristalliser plutôt que remplacer", p: "Le diagnostic confirme que la cristallisation est en cause et écarte les autres pistes, capteur de qualité ou sondes NOx notamment. Quand la pompe ou l'injecteur sont simplement grippés, une <strong>décristallisation</strong> les remet en service sans changer de pièce. Le diagnostic coûte dès 90 €, déduits si la réparation est faite chez nous ; l'ensemble des réparations se situe entre 90 et 690 €, sur devis écrit." },
+      { h: "Préparer la saison suivante", p: "Avant l'hivernage, un trajet d'une certaine durée permet au système de fonctionner normalement avant l'arrêt ; pendant la pause, une sortie de temps à autre limite le risque. Au printemps, prévoyez une remise en route quelques jours avant le premier départ, pour avoir le temps de réagir à un message. Depuis Peyrolles, l'atelier est à 40 minutes par la D96 et l'A51." }
+    ],
+    faq: [
+      { q: "La décristallisation est-elle garantie ?", a: "Oui, comme toutes nos réparations AdBlue : 12 mois, pièces et main-d'œuvre. Si un défaut lié à notre intervention réapparaît dans ce délai, la reprise est gratuite." },
+      { q: "Puis-je partir en week-end avec le message affiché ?", a: "Tant qu'aucun décompte n'est lancé, le véhicule roule, mais le défaut ne disparaîtra pas seul. S'il y a un décompte, ne partez pas loin : un refus de démarrer à l'autre bout de la région coûterait bien plus cher qu'un diagnostic." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Remorque ou caravane depuis Peyrolles : vanne EGR et injecteurs",
+    lead: "Tracter une remorque, un van ou une caravane fait travailler le moteur en charge, et une vanne EGR ou des injecteurs fatigués se trahissent vite. Contrôle puis nettoyage : vanne de 180 à 290 €, injecteurs dès 120 €.",
+    metaDesc: "Diesel qui tracte à Peyrolles-en-Provence : contrôle vanne EGR et injecteurs, vanne 180 à 290 €, injecteurs 120 à 490 €, garantie 12 mois. À 40 min.",
+    intro: [
+      "Avec une remorque de bateau, un van à chevaux ou une caravane à l'arrière, un diesel réclame davantage de carburant et d'air à chaque relance, sur la D96 comme sur l'A51. C'est dans ces situations qu'une <strong>vanne EGR encrassée</strong> ou des injecteurs qui pulvérisent mal se manifestent : fumée noire en accélérant, montée en régime laborieuse, parfois voyant moteur.",
+      "Sans charge, la même voiture peut sembler normale. L'attelage ne crée pas la panne, il la révèle."
+    ],
+    sections: [
+      { h: "Avant une sortie attelée, un contrôle ciblé", p: "Le diagnostic lit les défauts mémorisés, vérifie que la vanne EGR s'ouvre et se ferme comme le calculateur le demande, et mesure le <strong>débit de chaque injecteur</strong>. Si rien n'est anormal, vous partez rassuré ; si un organe est encrassé, il est traité avant le départ plutôt qu'au bord de la route. Si le problème dépasse l'antipollution, embrayage ou turbo par exemple, nous vous le disons sans l'engager." },
+      { h: "Ce que coûte la remise en état", p: "Vanne EGR déposée, nettoyée en bain ultrason et remontée avec joints neufs : de 180 à 290 €. Injecteurs : de 120 à 220 € avec un additif professionnel, de 290 à 490 € avec démontage et ultrason. Garantie 12 mois. Peyrolles est à environ 40 minutes par la D96 et l'A51 ; la récupération du véhicule, offerte au-delà de 200 € validés, s'étend jusqu'à la commune." }
+    ],
+    faq: [
+      { q: "Ma voiture fume noir seulement quand elle tracte : faut-il s'inquiéter ?", a: "Un léger panache sous forte charge peut exister, mais une fumée franche et répétée signale une combustion incomplète. Mieux vaut vérifier la vanne et les injecteurs avant qu'ils n'encrassent aussi le filtre à particules." },
+      { q: "Peut-on prévoir l'intervention juste avant les vacances ?", a: "Oui, mais gardez une marge : si un démontage des injecteurs s'avère nécessaire, l'immobilisation peut dépasser la journée. Un rendez-vous une à deux semaines avant le départ laisse le temps de tout traiter." }
+    ]
   }
 };

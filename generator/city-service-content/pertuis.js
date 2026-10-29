@@ -89,5 +89,41 @@ module.exports = {
       { q: "Une surconsommation sans voyant justifie-t-elle un diagnostic ?", a: "Oui, si elle apparaît sans changement de conduite, de pneumatiques ou de charge. Un capteur qui dérive progressivement peut rester sous le seuil d'alerte du calculateur tout en faussant le dosage du carburant." },
       { q: "Que contient le compte-rendu remis à la fin ?", a: "Les codes relevés sur les calculateurs, les valeurs anormales constatées, la cause identifiée et un devis de réparation transparent, sans engagement." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "AdBlue depuis Pertuis : un seul déplacement bien préparé",
+    lead: "Entre Pertuis et l'atelier, il y a la Durance, l'A51 et 50 minutes de route. Pour une panne AdBlue, mieux vaut un seul voyage bien préparé. Diagnostic SCR dès 90 €, déduit si vous réparez chez nous.",
+    metaDesc: "Panne AdBlue à Pertuis : diagnostic SCR dès 90 € déduit, réparation de 90 à 690 €, garantie 12 mois. Atelier à 50 min par la D556 et l'A51.",
+    intro: [
+      "Depuis Pertuis, rejoindre Plan-de-Cuques suppose de franchir la <strong>Durance</strong>, puis de suivre la D556 et l'A51 jusqu'à la rocade L2 : 45 km, 50 à 60 minutes. Pour une panne du système AdBlue, l'enjeu est d'éviter un premier voyage pour le diagnostic et un second pour la réparation.",
+      "Cela passe par une préparation simple : nous transmettre ce que vous savez déjà, et nous laisser organiser le reste."
+    ],
+    sections: [
+      { h: "Ce qui nous aide à tout faire en une fois", p: "Le message exact affiché au tableau de bord, le kilométrage restant si un décompte est lancé, et d'éventuels codes déjà relevés par un autre garage. Avec ces éléments, nous réservons le temps nécessaire. Sur place, le diagnostic, dès 90 € et déduit si la réparation suit, teste pompe, injecteur d'AdBlue, capteur de qualité et sondes NOx. Une décristallisation peut souvent être réalisée dans la foulée ; si une pièce doit être commandée, la récupération longue distance, sur devis, vous évite de refaire la route." },
+      { h: "Prix et garanties", p: "La réparation va de 90 à 690 € selon le composant, sur devis écrit validé avant intervention, avec une garantie de 12 mois. Nous ne remplaçons pas l'ensemble du système quand une seule pièce est en défaut. Et si la voiture ne redémarre plus, le remorquage depuis Pertuis est facturé 1,80 € par kilomètre, sur devis, majoré de 50 % la nuit, le dimanche et les jours fériés : l'assistance de votre contrat est alors à considérer." }
+    ],
+    faq: [
+      { q: "Le décompte affiche 200 km : ai-je le temps de venir ?", a: "Oui, les 45 km jusqu'à l'atelier tiennent largement dans cette marge. Prévenez-nous simplement avant de partir pour que la voiture soit prise en charge à son arrivée, et n'attendez pas le dernier palier." },
+      { q: "Pourquoi le message est-il apparu après un long trajet sur l'A51 ?", a: "C'est en roulant longtemps que le système SCR travaille le plus et que le calculateur contrôle son efficacité ; un composant affaibli, comme une sonde NOx ou un injecteur partiellement bouché, peut alors être détecté. Le diagnostic dit lequel." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Grand rouleur à Pertuis : pourquoi la vanne EGR s'encrasse quand même",
+    lead: "L'autoroute aide le filtre à particules, pas la vanne EGR, qui recycle des gaz à chaque kilomètre. Pour les conducteurs de Pertuis, nettoyage ultrason et joints neufs de 180 à 290 €.",
+    metaDesc: "Vanne EGR à Pertuis : encrassement des gros kilométrages, nettoyage ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €. Atelier à 50 min.",
+    intro: [
+      "Un conseil revient souvent pour les diesels : rouler sur autoroute pour garder l'antipollution propre. C'est vrai pour le filtre à particules, qui profite de la chaleur pour brûler ses suies. Pour la <strong>vanne EGR</strong>, c'est différent : elle fonctionne en permanence pendant la conduite et laisse passer des gaz chargés de suie et de vapeurs d'huile, sur l'A51 le long de la Durance comme en ville.",
+      "Plus on roule, plus elle travaille. Chez un conducteur qui relie chaque jour Pertuis à Aix ou à Marseille, les dépôts finissent donc par se former, simplement par accumulation."
+    ],
+    sections: [
+      { h: "Les signes, puis le traitement", p: "Trou à l'accélération en s'insérant sur l'A51, démarrage plus laborieux à froid, fumée sombre, voyant moteur : après un diagnostic qui confirme la piste et vérifie l'injection, la vanne est déposée, nettoyée dans un bain ultrason haute température et remontée avec des joints neufs. De 180 à 290 € selon le moteur, garantie 12 mois. Les injecteurs, qui vieillissent eux aussi avec les kilomètres, se traitent par additif de 120 à 220 € ou après dépose de 290 à 490 €." },
+      { h: "Anticiper plutôt que subir", p: "Pour un grand rouleur, contrôler la vanne lors d'un passage à l'atelier permet d'intervenir avant qu'elle ne se bloque. Depuis Pertuis, comptez 50 à 60 minutes par la D556 et l'A51 ; le trajet est plus fluide hors heures de pointe et hors week-ends d'été. Si l'analyse révèle une cause qui dépasse l'antipollution, électronique ou mécanique interne, vous le saurez dès le diagnostic." }
+    ],
+    faq: [
+      { q: "Tous les combien faut-il faire contrôler la vanne EGR ?", a: "Il n'existe pas d'échéance unique : cela dépend du moteur et de l'usage. Un contrôle dès que des à-coups ou une hausse de consommation apparaissent reste la démarche la plus sûre." },
+      { q: "Un nettoyage tient-il plus longtemps chez un grand rouleur ?", a: "En kilomètres, souvent oui : un usage routier régulier encrasse moins vite qu'une circulation hachée. En années, le délai peut être plus court, puisque les kilomètres s'accumulent vite." }
+    ]
   }
 };

@@ -89,5 +89,59 @@ module.exports = {
       { q: "Le diagnostic est-il utile si aucun voyant n'est allumé ?", a: "Oui, car les calculateurs conservent aussi les défauts passés et les conditions de leur apparition. C'est précisément ce qui intéresse avant une revente ou un long trajet." },
       { q: "Peut-on venir d'Istres sans rendez-vous ?", a: "Avec près d'une heure de route, nous vous recommandons de réserver un créneau : vous êtes sûr d'être reçu dès votre arrivée à Plan-de-Cuques." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Message AdBlue à Istres : une photo avant de prendre la route",
+    lead: "Avant de faire 46 km, photographiez le tableau de bord et envoyez-nous l'image : le libellé exact du message AdBlue oriente le diagnostic, facturé dès 90 € et déduit si nous réparons.",
+    metaDesc: "Message AdBlue à Istres : envoyez une photo du tableau de bord. Diagnostic SCR dès 90 € déduit de la réparation, devis avant travaux. Atelier à 50 min.",
+    intro: [
+      "Sur un diesel récent, le système SCR ne s'exprime pas toujours de la même manière : simple rappel de niveau, alerte sur la qualité du liquide, défaut du système ou <strong>décompte de kilomètres</strong> avant que le démarrage ne soit plus autorisé. Pour un conducteur d'Istres, à 46 km de l'atelier, la nuance compte : elle décide s'il faut venir cette semaine, dès demain matin, ou organiser autrement l'acheminement du véhicule.",
+      "Le geste le plus utile tient en quelques secondes : <strong>photographier l'écran</strong> au moment où le message apparaît, avec le kilométrage visible si possible. Envoyée par WhatsApp, cette image nous permet de vous dire au téléphone ce que le message signifie et comment préparer le rendez-vous."
+    ],
+    sections: [
+      { h: "Ce que nous demandons avant votre venue", p: "Outre la photo, quatre précisions nous aident : la date et le lieu du dernier plein d'AdBlue, la présence d'autres voyants, le nombre de kilomètres restants si un décompte est affiché, et le modèle exact avec sa motorisation. Si vous possédez un lecteur de codes, notez le code relevé sans l'effacer : il restera lisible pour notre valise multimarque, alors que l'effacer ne ferait que repousser le retour du message." },
+      { h: "Le jour du rendez-vous à Plan-de-Cuques", p: "Le trajet prend une cinquantaine de minutes par la D5, l'A55 et la rocade L2. À l'arrivée, le diagnostic du circuit SCR passe en revue capteur de qualité, pompe, injecteur AdBlue et sondes NOx pour localiser la pièce en cause. Il coûte <strong>à partir de 90 €</strong>, montant déduit si la réparation est confiée à l'atelier. Vous recevez ensuite un devis écrit : selon le composant, la réparation se situe entre 90 et 690 €, avec une garantie de 12 mois." }
+    ],
+    faq: [
+      { q: "La photo suffit-elle pour connaître la panne ?", a: "Non, elle sert à trier les situations et à vous conseiller sur l'urgence. Seules la lecture des calculateurs et la vérification des composants permettent de désigner la pièce défaillante et d'en chiffrer la réparation." },
+      { q: "Le message a disparu depuis la photo : dois-je quand même venir ?", a: "Une alerte AdBlue qui quitte le tableau de bord reste en général inscrite dans le calculateur. Si elle est revenue plusieurs fois, un diagnostic évite de la voir réapparaître sous forme de décompte au plus mauvais moment." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR depuis Istres : diagnostic et nettoyage le même jour",
+    lead: "À 46 km de l'atelier, mieux vaut ne faire qu'un déplacement : le contrôle de la vanne EGR et son nettoyage par ultrasons, de 180 à 290 €, s'enchaînent dans la journée si la cause est confirmée.",
+    metaDesc: "Vanne EGR pour Istres : contrôle puis nettoyage ultrason avec joints neufs, de 180 à 290 €, dans la même journée. Atelier à 50 min par l'A55.",
+    intro: [
+      "Perte de reprise en quittant Le Tubé, à-coups en s'insérant sur l'A55, fumée sombre à l'accélération : ces signes orientent vers une <strong>vanne EGR encrassée</strong>, sans le prouver. Depuis Istres, l'aller-retour vers Plan-de-Cuques représente près de deux heures de route ; venir une première fois pour le diagnostic, puis une seconde pour l'intervention, ferait perdre une journée de plus.",
+      "Nous organisons donc le rendez-vous pour que la recherche de cause et le nettoyage tiennent dans la même journée. Décrivez vos symptômes au moment de réserver : le créneau est dimensionné en conséquence."
+    ],
+    sections: [
+      { h: "Le déroulé d'une journée type", p: "Le matin, lecture des codes défauts, mesure du débit d'air et commande de la vanne pour vérifier qu'elle s'ouvre et se ferme. Si l'encrassement est confirmé, la vanne est déposée et passe une à deux heures dans un bain à ultrasons chauffé. Elle est remontée avec des <strong>joints neufs</strong>, au couple constructeur, avant l'effacement des codes et un essai sur route. L'intervention représente environ quatre heures ; son prix, <strong>de 180 à 290 €</strong> selon la motorisation, est annoncé avant de démonter." },
+      { h: "Si les injecteurs ou une autre pièce sont en cause", p: "Le contrôle porte aussi sur le débit des injecteurs, dont l'état pèse sur l'encrassement de la vanne. Un traitement par additif, de 120 à 220 €, peut s'ajouter le jour même ; une dépose avec nettoyage ultrason, de 290 à 490 €, demande plus de temps et se planifie avec vous. Si l'origine du problème dépasse l'antipollution et relève du moteur ou de l'électronique, nous vous le disons dès cette première lecture, avant tout démontage." }
+    ],
+    faq: [
+      { q: "À quelle heure faut-il arriver depuis Istres ?", a: "Un rendez-vous en matinée laisse le temps de diagnostiquer, nettoyer et faire l'essai routier avant la fin de journée. Partir une fois passé le pic du matin rend aussi le trajet par l'A55 plus régulier." },
+      { q: "La vanne nettoyée est-elle garantie ?", a: "Oui, l'intervention est garantie 12 mois. La vanne reste en place et pleinement fonctionnelle : elle fait partie du dispositif antipollution d'origine, et nous ne la neutralisons jamais." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP saturé à Istres : 80 km/h en plaine ne suffit pas toujours",
+    lead: "Rouler longtemps sur les routes de la Crau ne garantit pas un filtre à particules propre : à 80 km/h sur le dernier rapport, le régime reste modeste. Quand le FAP sature, nettoyage dès 250 €, diagnostic inclus.",
+    metaDesc: "FAP saturé à Istres : régénération sans démontage dès 250 €, bain ultrason de 390 à 650 €, diagnostic préalable inclus. Atelier à 50 min par l'A55.",
+    intro: [
+      "Entre Istres, Miramas et Fos, les routes de la plaine de la Crau alignent de longues lignes droites. On pourrait croire qu'un diesel qui les parcourt chaque jour entretient seul son filtre. Pourtant, à 80 km/h sur le dernier rapport, le moteur tourne souvent à un régime modéré et l'échappement n'atteint pas toujours les <strong>600 à 700 °C</strong> nécessaires pour brûler les suies accumulées.",
+      "Le filtre se charge alors lentement, régénération incomplète après régénération incomplète, jusqu'au voyant ou au mode dégradé. Ce n'est pas la distance parcourue qui compte, mais la <strong>température atteinte et tenue</strong> assez longtemps."
+    ],
+    sections: [
+      { h: "Une sortie mensuelle par l'A55 ou l'A54", p: "Une fois par mois au minimum, une trentaine de kilomètres d'autoroute vers 110 km/h, en cinquième ou sixième, laisse au calculateur le temps de mener une régénération complète. Depuis Istres, l'A55 vers Martigues ou l'A54 vers Salon s'y prêtent bien. Évitez de couper le contact dès l'arrivée si le moteur semble en pleine régénération : ventilateur qui tourne, ralenti plus haut que d'habitude." },
+      { h: "Quand le filtre est déjà saturé", p: "Le diagnostic, compris dans le prix, mesure la contre-pression et vérifie la céramique. Filtre modérément chargé : <strong>régénération chimique sans démontage</strong> en 90 minutes environ, dès 250 €, avec la possibilité de patienter dans notre salle d'accueil. Filtre très colmaté : dépose et bain ultrason de 390 à 650 €, pour un à deux jours d'immobilisation. Si la céramique est fissurée ou fondue, nous chiffrons un FAP reconditionné, environ moitié prix d'un neuf." }
+    ],
+    faq: [
+      { q: "Rouler à 90 km/h plutôt qu'à 80 change-t-il quelque chose ?", a: "Le gain reste faible. Ce qui compte, c'est un régime soutenu maintenu une vingtaine de minutes, ce que permet l'autoroute à 110 km/h. Les routes de plaine limitées à 80 km/h ne l'offrent qu'imparfaitement." },
+      { q: "Faut-il changer d'huile après un nettoyage du filtre ?", a: "Pas systématiquement. Une huile faible en cendres adaptée au diesel limite toutefois les résidus qui finissent dans le filtre : nous vérifions la référence utilisée et vous signalons si la vidange approche." }
+    ]
   }
 };

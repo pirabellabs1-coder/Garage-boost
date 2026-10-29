@@ -89,5 +89,41 @@ module.exports = {
       { q: "Peut-on reprendre l'autoroute avec un voyant orange fixe ?", a: "Si la voiture se comporte normalement, un trajet calme reste généralement possible jusqu'au diagnostic. En cas de perte de puissance marquée, de fumée ou de voyant rouge, ne reprenez pas la route et appelez votre assistance." },
       { q: "Pourquoi ne pas simplement effacer le code ?", a: "Parce que la cause resterait en place et le voyant reviendrait. Nous ne pratiquons pas cet effacement sans réparation." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Lançon-Provence : voyant AdBlue à l'approche du contrôle technique",
+    lead: "Le contrôle technique approche et un défaut AdBlue s'affiche ? Pour Lançon-Provence, mieux vaut réparer le système SCR avant le passage : diagnostic dès 90 €, déduit de la réparation.",
+    metaDesc: "Voyant AdBlue avant le contrôle technique à Lançon-Provence : diagnostic SCR dès 90 €, réparation ciblée de 90 à 690 €, garantie 12 mois. À 45 min.",
+    intro: [
+      "Un système AdBlue en défaut n'est pas qu'une gêne au tableau de bord. Au contrôle technique, les voyants allumés et l'état des dispositifs antipollution sont examinés, et un SCR en panne peut valoir une <strong>contre-visite</strong>, avec un délai imposé pour repasser. Pour un diesel de Lançon qui roule chaque jour sur l'A7, le plus confortable est de traiter la panne avant la date du contrôle plutôt qu'après.",
+      "Le calendrier se tient sans difficulté : réserver le diagnostic dès l'apparition du message, réparer la pièce en cause, puis présenter un véhicule dont le système dépollue normalement."
+    ],
+    sections: [
+      { h: "Viser la cause, pas l'apparence", p: "Effacer le code pour arriver au contrôle avec un tableau de bord vierge ne règle rien : le défaut revient, souvent dans les jours suivants. Notre diagnostic, <strong>dès 90 €</strong>, isole le composant défaillant entre capteur de qualité, pompe, injecteur AdBlue et sondes NOx. La réparation coûte de 90 à 690 € selon la pièce, avec un devis écrit avant toute intervention. Rendre le système inopérant serait illégal : ce n'est pas notre métier." },
+      { h: "Le bon délai depuis Lançon", p: "Prévoyez le rendez-vous deux à trois semaines avant le contrôle : cela laisse le temps de recevoir une pièce si elle doit être commandée. L'atelier est à 42 km, environ 45 minutes par l'A7 et la rocade L2, à condition d'éviter les heures de pointe. Une fois le composant remis en état, les codes sont effacés, un essai routier vérifie l'extinction du voyant, et l'intervention est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "J'ai déjà une contre-visite pour l'AdBlue, que faire ?", a: "Contactez-nous dès réception du procès-verbal pour réserver un créneau. Le diagnostic identifie la pièce en cause, et la réparation se planifie ensuite dans le délai accordé pour la contre-visite." },
+      { q: "Un défaut AdBlue peut-il exister sans voyant allumé ?", a: "Oui, un défaut peut être mémorisé sans être affiché, par exemple s'il est intermittent. En cas de doute avant le contrôle, la lecture des calculateurs lors du diagnostic le fait apparaître." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR à Lançon-Provence : nettoyer ou remplacer ?",
+    lead: "Toutes les vannes EGR ne se sauvent pas au nettoyage. Pour Lançon-Provence, le diagnostic distingue l'encrassement, traité de 180 à 290 €, de la panne électrique, qui impose une pièce neuve.",
+    metaDesc: "Vanne EGR à Lançon-Provence : nettoyage ultrason de 180 à 290 € si elle est encrassée, remplacement chiffré si elle est hors service. Atelier à 45 min.",
+    intro: [
+      "Un diesel qui avale l'A7 jour après jour finit par charger sa vanne EGR de suie et de vapeurs d'huile. Dans la grande majorité des cas, ces dépôts se retirent et la vanne repart pour de nombreux kilomètres. Mais la vanne est aussi un organe électrique, avec un <strong>moteur de commande</strong> et un capteur de position : quand l'un d'eux lâche, le nettoyage n'y change rien.",
+      "Avant de choisir, il faut donc savoir à quel type de défaut on a affaire. C'est l'objet de la vérification faite à l'atelier, avant tout démontage."
+    ],
+    sections: [
+      { h: "Les indices d'une vanne simplement encrassée", p: "La vanne obéit à la commande, mais avec retard ou en restant entrouverte ; le débit d'air mesuré s'écarte de la valeur attendue ; les symptômes, à-coups, fumée noire, trou à la relance, se sont installés progressivement. Dans ce cas, elle est déposée, passée au <strong>bain ultrason haute température</strong>, puis remontée avec des joints neufs. Le prix, de 180 à 290 € selon la motorisation, est fixé avant l'intervention, garantie 12 mois." },
+      { h: "Les indices d'une vanne hors service", p: "La vanne ne bouge plus du tout à la commande, un code de circuit électrique apparaît, ou la position relevée ne correspond à rien de cohérent. Le remplacement se chiffre alors de 350 à 700 € pour une pièce neuve d'origine, et nous vous le présentons clairement plutôt que de facturer un nettoyage inutile. Nettoyée ou remplacée, la vanne reste fonctionnelle : nous ne mettons jamais ce dispositif antipollution hors circuit." }
+    ],
+    faq: [
+      { q: "Une vanne nettoyée tient-elle aussi longtemps qu'une neuve ?", a: "Une vanne mécaniquement saine et bien nettoyée retrouve son fonctionnement d'origine. Sa tenue dépend ensuite de l'usage et de l'état des injecteurs : de 60 000 à 100 000 km lorsque la cause de l'encrassement est traitée." },
+      { q: "Combien de déplacements prévoir depuis Lançon ?", a: "Un seul quand la vanne est simplement encrassée : contrôle et nettoyage s'enchaînent. Si une pièce neuve doit être commandée, un second passage ou une immobilisation sera nécessaire selon le délai de livraison, ce que nous vous indiquons dès le diagnostic." }
+    ]
   }
 };

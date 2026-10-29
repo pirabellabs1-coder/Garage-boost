@@ -89,5 +89,59 @@ module.exports = {
       { q: "Faut-il recharger la batterie avant de venir ?", a: "Si la voiture démarre et roule normalement, venez telle quelle : la lecture des codes donnera justement des indices sur l'état électrique. Si elle ne démarre plus, appelez-nous pour en parler avant d'organiser quoi que ce soit." },
       { q: "Les voyants peuvent-ils disparaître seuls ?", a: "Certains s'éteignent après quelques démarrages, mais les codes restent en mémoire. Les lire permet de vérifier qu'aucun défaut réel ne se cache derrière." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Panne AdBlue à Saint-Chamas : diagnostiquer et réparer d'une traite",
+    lead: "Avec 46 km jusqu'à l'atelier, l'objectif est un seul aller-retour : diagnostic du système SCR dès 90 €, devis validé par téléphone, puis réparation enchaînée dès que la pièce le permet.",
+    metaDesc: "Panne AdBlue à Saint-Chamas : diagnostic SCR dès 90 € déduit, réparation de 90 à 690 € enchaînée si possible, garantie 12 mois. Atelier à 50 min.",
+    intro: [
+      "Depuis Saint-Chamas, rejoindre Plan-de-Cuques demande une cinquantaine de minutes par la D10, l'A7 et la rocade L2, sur un axe chargé aux heures de pointe. Faire ce trajet pour un diagnostic, rentrer, puis revenir pour la réparation doublerait l'effort. Nous traitons donc la <strong>panne AdBlue</strong> comme un seul rendez-vous, chaque fois que la nature de la panne le permet.",
+      "Le principe : un créneau réservé assez long pour enchaîner la recherche de panne et l'intervention, avec entre les deux une décision prise avec vous au téléphone, sur la base d'un devis écrit."
+    ],
+    sections: [
+      { h: "Ce qui peut se faire dans la journée", p: "Le diagnostic, facturé <strong>dès 90 €</strong> et déduit si vous faites réparer chez nous, teste un à un les éléments du circuit SCR. Une <strong>décristallisation</strong> de pompe ou d'injecteur AdBlue, qui ne demande pas de pièce neuve, peut suivre immédiatement. Pour un capteur de qualité, de 200 à 400 €, ou une sonde NOx, de 350 à 650 €, tout dépend de la disponibilité de la pièce : nous vous indiquons le délai dès que le diagnostic l'a désignée." },
+      { h: "Si une pièce doit être commandée", p: "Deux options vous sont proposées : laisser le véhicule à l'atelier jusqu'à la réparation, ou repartir et revenir à une date fixée, si le système vous en laisse la marge. Dans les deux cas, le prix de la réparation, entre 90 et 690 € selon le composant, figure sur le devis avant le moindre démontage, et l'intervention est garantie 12 mois. Une fois la pièce remise en état, les codes sont effacés et le compte à rebours réinitialisé." }
+    ],
+    faq: [
+      { q: "Comment savoir si la réparation pourra se faire le jour même ?", a: "On ne le sait qu'après le diagnostic. Décrivez-nous les messages affichés au moment de réserver : nous prévoyons un créneau suffisant, sans pouvoir garantir à l'avance la nature de la panne." },
+      { q: "Puis-je repartir de l'atelier avec un décompte en cours ?", a: "Oui, si les kilomètres restants couvrent largement le retour à Saint-Chamas puis le trajet suivant vers l'atelier. Si la marge est trop juste, mieux vaut laisser le véhicule chez nous jusqu'à la réparation." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Code défaut EGR lu soi-même à Saint-Chamas : et maintenant ?",
+    lead: "Votre petit lecteur OBD affiche un code de la famille P0400 ? C'est une piste, pas un verdict. Transmettez-le avant de venir : la vanne EGR se contrôle, puis se nettoie de 180 à 290 €.",
+    metaDesc: "Code EGR relevé à Saint-Chamas : contrôle de la vanne, nettoyage ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €. Atelier à 50 min.",
+    intro: [
+      "Les lecteurs de codes vendus quelques dizaines d'euros se branchent sur la prise de diagnostic et affichent un code comme <strong>P0401, P0402 ou P0403</strong>. Ils renvoient au circuit de recirculation des gaz : débit jugé insuffisant, débit excessif, ou défaut de commande. L'information est précieuse, mais incomplète : le code dit ce que le calculateur a constaté, pas pourquoi.",
+      "Un débit trop faible peut venir d'un clapet colmaté, mais aussi d'un conduit obstrué ou d'un capteur qui mesure mal. Un défaut de commande peut signaler un moteur de vanne en panne, qu'aucun nettoyage ne remettra en marche."
+    ],
+    sections: [
+      { h: "Ce qu'il faut nous transmettre", p: "Envoyez le code exact, sa mention éventuelle « présent » ou « mémorisé », le kilométrage et les symptômes ressentis : à-coups, fumée, perte de puissance. N'effacez pas le code avant le rendez-vous : nous en avons besoin, avec les conditions dans lesquelles il est apparu. Ces éléments nous permettent de prévoir la durée de l'intervention et vous évitent 46 km par la D10 et l'A7 pour un premier avis qu'un appel suffisait à donner." },
+      { h: "À l'atelier, de la piste à la réparation", p: "Notre valise multimarque lit l'ensemble des calculateurs, puis nous comparons la position commandée de la vanne avec sa position réelle et mesurons le débit d'air. Si l'encrassement est confirmé, la vanne est déposée, nettoyée en <strong>bain ultrason</strong> et remontée avec des joints neufs, de 180 à 290 €. Si c'est son moteur électrique qui a lâché, nous chiffrons le remplacement par une pièce neuve, de 350 à 700 €, plutôt qu'un nettoyage sans effet." }
+    ],
+    faq: [
+      { q: "Effacer le code avec mon lecteur pose-t-il un problème ?", a: "Le voyant s'éteint un temps, puis revient si la cause persiste. Surtout, l'effacement fait disparaître des informations utiles au diagnostic : mieux vaut noter le code et le laisser en mémoire." },
+      { q: "Un lecteur grand public lit-il tout ce qui concerne la vanne ?", a: "Il lit en général les codes moteur normalisés, mais pas toujours les informations propres au constructeur ni les mesures en temps réel. C'est pourquoi la lecture complète à l'atelier reste nécessaire avant de démonter quoi que ce soit." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Voyant FAP à Saint-Chamas : le trajet par l'A7, allié ou piège ?",
+    lead: "Un voyant FAP seul, sans perte de puissance, s'éteint parfois après un parcours soutenu ; en mode dégradé, mieux vaut ne pas insister. Diagnostic inclus, régénération dès 250 €.",
+    metaDesc: "Voyant FAP à Saint-Chamas : diagnostic inclus, régénération sans démontage dès 250 €, bain ultrason de 390 à 650 €. Atelier à 50 min par l'A7.",
+    intro: [
+      "Pour rejoindre l'atelier, un conducteur de Saint-Chamas parcourt 46 km, dont une bonne partie sur l'A7. Ce trajet peut jouer en faveur du filtre à particules : quelques dizaines de kilomètres à allure régulière offrent au calculateur les conditions d'une <strong>régénération</strong>. Il arrive ainsi qu'un voyant FAP isolé s'éteigne en chemin.",
+      "Le même trajet devient un piège aux heures de pointe, quand l'A7 se fige : moteur au ralenti, échappement qui refroidit, régénération interrompue. Et si le moteur a déjà basculé en <strong>mode dégradé</strong>, rouler cinquante minutes à puissance bridée n'a rien de raisonnable."
+    ],
+    sections: [
+      { h: "Choisir l'heure, ou renoncer au trajet", p: "Voyant FAP allumé, voiture qui tire normalement : réservez un créneau en milieu de matinée, hors saturation de l'A7, et roulez à allure constante. Puissance réduite, plusieurs voyants, odeur de chaud : ne prenez pas l'autoroute. L'acheminement passe alors par votre assistance ou par notre remorquage, facturé 1,80 € par kilomètre au-delà de 25 km, sur devis annoncé avant le départ." },
+      { h: "Même éteint, le voyant mérite une mesure", p: "Un témoin qui s'éteint en route signifie que le filtre a pu se vider en partie, pas qu'il est sain. À l'atelier, le diagnostic compris dans le prix mesure la contre-pression. Filtre encore chargé : régénération chimique pilotée, environ 90 minutes, <strong>dès 250 €</strong>. Filtre colmaté en profondeur : dépose et bain ultrason, de 390 à 650 €, pour un à deux jours. Si la mesure montre un filtre propre, nous n'entreprenons rien." }
+    ],
+    faq: [
+      { q: "Le voyant s'est éteint sur l'A7 : dois-je maintenir le rendez-vous ?", a: "Oui, si l'alerte revient régulièrement : cela montre que les régénérations n'aboutissent plus dans votre usage habituel. La mesure indique où en est le filtre, et le contrôle de la vanne EGR ou des capteurs permet de chercher ce qui l'encrasse." },
+      { q: "Faut-il prévenir avant de venir en mode dégradé ?", a: "Appelez-nous avant de partir. Selon les symptômes que vous décrivez, nous vous conseillons de venir, de reporter le trajet ou de faire acheminer le véhicule." }
+    ]
   }
 };

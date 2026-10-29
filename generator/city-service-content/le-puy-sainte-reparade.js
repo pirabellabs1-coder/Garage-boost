@@ -89,5 +89,59 @@ module.exports = {
       { q: "Que dois-je noter quand le défaut se produit ?", a: "Le moment, la température extérieure, si le moteur était froid ou chaud, le type de route et ce que vous faisiez : accélération, freinage, passage sur une bosse. Ces éléments orientent les mesures et font gagner du temps." },
       { q: "Pourquoi ne pas remplacer directement la pièce la plus probable ?", a: "Parce qu'un défaut intermittent a souvent une origine électrique, connecteur ou câblage, que le remplacement d'une pièce ne corrige pas. Identifier la cause évite de payer une pièce inutile." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Décompte AdBlue au Puy-Sainte-Réparade : rejoindre l'atelier à temps",
+    lead: "Le tableau de bord annonce les kilomètres restants avant blocage ? L'atelier est à 40 km : ne laissez pas fondre la marge dans les trajets du quotidien. Diagnostic du système SCR dès 90 €, déduit.",
+    metaDesc: "Compte à rebours AdBlue au Puy-Sainte-Réparade : diagnostic SCR dès 90 € déduit, réparation de 90 à 690 €, garantie 12 mois. Atelier à 40 km.",
+    intro: [
+      "Quand le calculateur détecte un défaut du système AdBlue qu'il ne parvient pas à corriger, il lance un <strong>compte à rebours</strong> : quelques centaines de kilomètres, puis un démarrage refusé. Le chiffre affiché paraît confortable, mais entre les trajets vers Aix, les allers-retours au village et les courses, il diminue vite.",
+      "Depuis Le Puy-Sainte-Réparade, Plan-de-Cuques est à 40 km. Il faut donc garder au moins cette distance en réserve, et de préférence bien davantage, au moment de prendre la route."
+    ],
+    sections: [
+      { h: "Dès l'apparition du message", p: "Appelez-nous en indiquant le nombre de kilomètres restants. Nous fixons un rendez-vous en conséquence, en évitant les heures où l'A51 sature à l'entrée d'Aix. À l'atelier, la valise multimarque lit les codes SCR, puis capteur de qualité, sondes NOx, pompe et injecteur sont testés. Le <strong>diagnostic dès 90 €</strong> est déduit de la réparation si vous la faites chez nous." },
+      { h: "Si la voiture ne redémarre plus", p: "Passé 25 km, chaque kilomètre de dépanneuse coûte 1,80 €, sur devis préalable, avec 50 % de plus de nuit, le dimanche et les jours fériés. Vérifiez d'abord l'assistance de votre assurance ou de votre carte bancaire : elle peut prendre en charge le transport jusqu'à notre adresse. Une fois la pièce remise en état, de 90 à 690 € selon le cas, nous réinitialisons le décompte. Garantie 12 mois." }
+    ],
+    faq: [
+      { q: "La voiture roule normalement : pourquoi se presser ?", a: "En général, la conduite ne change pas jusqu'au blocage. C'est justement ce qui pousse à repousser le rendez-vous : le refus de démarrer survient ensuite à un arrêt, parfois loin de chez soi, et le transport coûte alors plus cher que le trajet." },
+      { q: "Réparez-vous aussi les utilitaires et les 4x4 des domaines ?", a: "Oui, tout véhicule routier diesel équipé d'un système AdBlue, voiture comme utilitaire, toutes marques. Le diagnostic est le même ; c'est surtout la pièce en cause qui fait varier le montant." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "EGR, injecteurs, calamine : tout traiter en une venue depuis Le Puy",
+    lead: "À 40 minutes de l'atelier, mieux vaut ne pas revenir trois fois. Un seul diagnostic détermine ce qu'il faut traiter : vanne EGR de 180 à 290 €, injecteurs dès 120 €, formule avec décalaminage de 350 à 450 €.",
+    metaDesc: "Le Puy-Sainte-Réparade : vanne EGR 180 à 290 €, injecteurs dès 120 €, formule EGR et décalaminage 350 à 450 €, en une seule venue si possible.",
+    intro: [
+      "Perte de reprise sur la D14, fumée sombre en accélérant, voyant moteur : ces symptômes peuvent venir de la vanne EGR, des injecteurs, de la calamine dans l'admission, ou des trois à la fois. Les traiter l'un après l'autre, au gré des rechutes, signifierait plusieurs trajets de 40 minutes dans chaque sens.",
+      "Nous préférons l'inverse : un <strong>examen complet</strong> au premier rendez-vous, puis un devis qui regroupe ce qui doit l'être, pour que la voiture reparte remise en état en une seule immobilisation."
+    ],
+    sections: [
+      { h: "Ce que le premier examen établit", p: "Lecture des défauts, comportement de la vanne EGR, débit des injecteurs, signes d'encrassement de l'admission : à l'issue de ce bilan, vous savez ce qui est encrassé et ce qui ne l'est pas. Le devis sépare chaque poste et vous validez ce que vous souhaitez faire. Si l'origine se trouve hors de l'antipollution et de l'encrassement, nous vous l'indiquons franchement plutôt que de vous faire revenir." },
+      { h: "Les combinaisons possibles", p: "Vanne EGR déposée, nettoyée aux ultrasons et remontée avec joints neufs : 180 à 290 €. Injecteurs : 120 à 220 € par additif, 290 à 490 € avec démontage. Vanne EGR associée à un <strong>décalaminage hydrogène</strong> : 350 à 450 €, moins cher que les deux séparément. Au-delà de 200 € validés, la récupération du véhicule au Puy-Sainte-Réparade est offerte, ce qui couvre la plupart de ces combinaisons. Garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Tout traiter d'un coup, n'est-ce pas faire des frais inutiles ?", a: "Seulement si l'on traite des organes sains, ce que le bilan permet d'éviter. Nous ne proposons un poste que si la mesure le justifie : regrouper sert à limiter les trajets, pas à gonfler le devis." },
+      { q: "Faut-il prévoir de laisser la voiture plusieurs jours ?", a: "Vanne EGR et décalaminage tiennent en général dans la journée. Un démontage des injecteurs peut prolonger l'immobilisation ; le délai vous est donné avec le devis, avant toute décision." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP saturé au Puy-Sainte-Réparade : les routes lentes des coteaux",
+    lead: "D556, D14, chemins entre les domaines : des routes agréables, rarement roulées à régime soutenu. Un diesel qui ne connaît qu'elles finit par saturer son filtre. Régénération dès 250 €, mesure incluse.",
+    metaDesc: "Nettoyage FAP pour Le Puy-Sainte-Réparade : régénération dès 250 €, bain ultrason 390 à 650 €, récupération offerte. Atelier à 40 min.",
+    intro: [
+      "Au Puy-Sainte-Réparade, rouler signifie souvent enchaîner virages, traversées de hameaux et portions où l'on suit un engin viticole, surtout pendant les vendanges. On dépasse rarement les régimes moyens, et le trajet vers Saint-Canadet ou le Puy Haut ne dure que quelques minutes. Pour un <strong>filtre à particules</strong>, ce rythme est trop doux : la suie s'accumule sans jamais être brûlée.",
+      "Ce n'est pas un défaut du véhicule, c'est un usage qui ne correspond pas à ce que le filtre attend. Une fois saturé, il se nettoie ; ensuite, quelques habitudes évitent la rechute."
+    ],
+    sections: [
+      { h: "Le nettoyage, sans aller plus loin que nécessaire", p: "La mesure de saturation et l'examen du support céramique sont compris dans le prix. Filtre moyennement chargé : additif et régénération forcée sous contrôle de la valise, environ 90 minutes, à partir de <strong>250 €</strong>. Filtre colmaté en profondeur : dépose, bain ultrason à chaud, séchage et remontage, de 390 à 650 €, sur un à deux jours. Garantie 12 mois sur la régénération." },
+      { h: "Venir depuis le val de Durance", p: "L'atelier est à 40 km, environ 40 minutes par la D556, la D14 puis l'A51 et la rocade L2. Ce trajet, avec sa partie autoroutière, ne fait d'ailleurs pas de mal à un filtre encore capable de rouler normalement. En mode dégradé, en revanche, ne forcez pas : la récupération du véhicule à domicile, offerte pour un nettoyage FAP, évite de parcourir les coteaux avec un moteur bridé." }
+    ],
+    faq: [
+      { q: "Le trajet jusqu'à Aix suffit-il à entretenir le filtre ?", a: "Il aide s'il comporte une portion assez longue roulée à allure régulière. Si la circulation à l'entrée d'Aix vous fait avancer au pas, ajoutez une sortie mensuelle d'une trentaine de kilomètres sur voie rapide dégagée." },
+      { q: "Un pick-up ou un 4x4 de domaine peut-il être traité ?", a: "Oui, dès lors qu'il s'agit d'un véhicule routier diesel équipé d'un filtre à particules. La méthode dépend de la saturation mesurée, pas du type de carrosserie." }
+    ]
   }
 };

@@ -89,5 +89,59 @@ module.exports = {
       { q: "Ma voiture est encore sous garantie, puis-je venir chez vous ?", a: "Oui pour établir un diagnostic. Si la panne relève de la garantie constructeur, le compte-rendu vous aide à faire valoir vos droits auprès du réseau de la marque." },
       { q: "Un message d'alerte au tableau de bord est-il forcément lié au moteur ?", a: "Non. Sur une voiture récente, il peut provenir du freinage, de la sécurité passive ou de l'électronique de confort. C'est pourquoi nous lisons l'ensemble des calculateurs accessibles." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Rousset : l'AdBlue d'un diesel qui ne fait que village et zone",
+    lead: "Quelques kilomètres entre le village et le pôle d'activités, puis une journée au parking : un système SCR qui chauffe rarement forme des dépôts. Diagnostic dès 90 €, déduit en cas de réparation.",
+    metaDesc: "Défaut AdBlue à Rousset : diagnostic SCR dès 90 € déduit, injecteur, pompe ou sonde NOx réparés de 90 à 690 €, devis écrit, garantie 12 mois.",
+    intro: [
+      "Habiter Rousset et travailler au pôle d'activités, c'est un trajet de quelques minutes. Pour un diesel récent, c'est aussi un usage délicat : l'AdBlue est injecté dans un échappement qui n'atteint pas toujours sa température de fonctionnement, et l'urée peut alors former des <strong>dépôts cristallins</strong> autour de l'injecteur ou dans la ligne.",
+      "Le défaut s'installe sans bruit, jusqu'au jour où le tableau de bord signale un problème de dépollution, puis lance le compte à rebours. À ce stade, un seul composant est souvent en cause, et c'est lui qu'il faut trouver."
+    ],
+    sections: [
+      { h: "Tester avant de remplacer", p: "Notre diagnostic du système SCR, dès 90 € et déduit si la réparation est confiée à Garage Boost, contrôle la pompe, l'injecteur d'AdBlue, le capteur de qualité et les sondes NOx. Un injecteur entartré se décristallise souvent ; une sonde ou un capteur hors service se remplacent seuls. La réparation se situe entre 90 et 690 € selon la pièce, chiffrée par écrit avant intervention et garantie 12 mois." },
+      { h: "Rompre avec les trajets trop courts", p: "Une fois le système remis en état, l'idéal est d'offrir de temps en temps au moteur un vrai parcours : une liaison vers Aix par l'A8, par exemple, laisse à la ligne d'échappement le temps de monter en température. Le jour du rendez-vous, le trajet jusqu'à l'atelier, 33 km et environ 35 minutes par la D6, l'A8 ou l'A51 puis la L2, joue d'ailleurs ce rôle." }
+    ],
+    faq: [
+      { q: "Une voiture récente peut-elle déjà souffrir de dépôts d'AdBlue ?", a: "Oui, l'âge compte moins que l'usage. Un diesel qui enchaîne les trajets froids peut développer des dépôts en quelques années, alors qu'un modèle plus ancien utilisé sur route en sera davantage préservé." },
+      { q: "Le diagnostic vaut-il le déplacement si la voiture est encore sous garantie ?", a: "Sous garantie constructeur, adressez-vous d'abord au réseau de la marque, qui prend en charge les défauts couverts. Notre diagnostic est utile une fois la garantie échue, ou pour comprendre une panne avant d'engager des frais." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR à Rousset : une intervention calée sur votre semaine",
+    lead: "Un diesel qui hésite en s'insérant sur l'A8 ou l'A51 n'a pas à vous coûter une journée de congé. Vanne EGR nettoyée par ultrason avec joints neufs, de 180 à 290 € ; injecteurs dès 120 €.",
+    metaDesc: "Vanne EGR à Rousset : nettoyage ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €, garantie 12 mois. Récupération à domicile conseillée.",
+    intro: [
+      "Quand on travaille à Rousset, la voiture ne quitte le parking qu'aux heures où tout le monde roule. Les ralentissements de la D6 et des bretelles de l'A8 aux heures de pointe font tourner le diesel longtemps à faible charge, et la <strong>vanne EGR</strong> recycle alors des gaz chargés de suie qui s'y déposent couche après couche.",
+      "Le symptôme typique : un trou à l'accélération au moment de s'insérer, un moteur qui manque de vigueur à froid, puis un voyant orange. Rien de grave dans l'immédiat, mais une vanne qui se grippe finit par rester bloquée, et le moteur passe alors en mode dégradé."
+    ],
+    sections: [
+      { h: "Une demi-journée d'atelier", p: "Après un diagnostic qui vérifie la commande de la vanne et l'état de l'injection, la vanne est déposée, nettoyée dans un bain ultrason haute température puis remontée avec des joints neufs. L'essai routier final et l'effacement des codes concluent l'intervention. Comptez de 180 à 290 € selon la motorisation, garantie 12 mois. Si les injecteurs sont aussi encrassés, nous les traitons par additif, de 120 à 220 €, ou après dépose, de 290 à 490 €." },
+      { h: "Ne pas sacrifier sa journée", p: "Rousset est à 33 km de l'atelier, soit 35 à 45 minutes selon l'heure. Pour un actif, la récupération à domicile est souvent la solution la plus simple : la voiture part le matin et revient une fois l'intervention validée. Si le diagnostic révèle une cause électronique ou mécanique étrangère à l'antipollution, nous vous le signalons avant d'aller plus loin." }
+    ],
+    faq: [
+      { q: "Le voyant s'allume puis s'éteint : faut-il quand même consulter ?", a: "Oui. Un défaut fugitif reste mémorisé dans le calculateur, et il annonce souvent une vanne qui commence à accrocher. Le traiter tôt évite d'en arriver au mode dégradé." },
+      { q: "Peut-on nettoyer la vanne sans la démonter ?", a: "Pour une vanne réellement encrassée, non : les dépôts sont durs et logés dans le mécanisme, hors de portée d'un produit versé dans le réservoir. Le traitement par additif est réservé aux injecteurs peu encrassés." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Nettoyage FAP pour Rousset : des mesures avant et après",
+    lead: "Vous préférez des chiffres à une promesse ? Pour Rousset, nous mesurons la contre-pression du filtre avant et après traitement. Régénération dès 250 €, diagnostic inclus.",
+    metaDesc: "FAP à Rousset : contre-pression mesurée avant et après, compte-rendu écrit, régénération dès 250 €, bain ultrason de 390 à 650 €. Atelier à 35 min.",
+    intro: [
+      "Un voyant FAP ne dit pas grand-chose de l'état réel du filtre. La donnée utile, c'est la <strong>contre-pression</strong> : la résistance que le filtre oppose aux gaz d'échappement. Elle indique à quel point la céramique est chargée et permet de choisir la méthode de nettoyage sur une base objective.",
+      "Pour les conducteurs de Rousset qui souhaitent comprendre ce qu'ils paient, nous remettons un <strong>compte-rendu écrit</strong> avec les valeurs relevées avant l'intervention et après. Le résultat se vérifie, il ne se croit pas sur parole."
+    ],
+    sections: [
+      { h: "De la mesure à la méthode", p: "Avec une saturation modérée, l'additif est injecté par la prise de la sonde différentielle, puis une régénération forcée est pilotée à la valise : environ 90 minutes, à partir de 250 €. Au-delà, le filtre est déposé, traité en bain ultrason à chaud puis séché à 200 °C avant remontage, en un à deux jours, de 390 à 650 €. Le diagnostic préalable est inclus et la régénération est garantie 12 mois." },
+      { h: "Lire les chiffres après coup", p: "Une contre-pression revenue à la normale confirme que le filtre respire de nouveau. Si elle remonte vite dans les mois suivants, c'est qu'une cause en amont, vanne EGR ou injecteurs, continue de produire de la suie : le compte-rendu vous l'aura signalé. Depuis Rousset, l'atelier est à 33 km par la D6 puis l'A8 ou l'A51 et la L2." }
+    ],
+    faq: [
+      { q: "Puis-je obtenir les valeurs mesurées sur mon filtre ?", a: "Oui, elles figurent dans le compte-rendu remis avec la facture, avant et après traitement, avec la méthode employée." },
+      { q: "Un filtre dont la mesure reste mauvaise après nettoyage est-il perdu ?", a: "Cela peut signaler une céramique endommagée. Dans ce cas, nous vous présentons l'option d'un FAP reconditionné, environ moitié prix d'un neuf, ou d'un filtre neuf, chiffrée avant toute décision." }
+    ]
   }
 };

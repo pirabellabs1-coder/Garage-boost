@@ -89,5 +89,59 @@ module.exports = {
       { q: "Les à-coups peuvent-ils endommager le moteur ?", a: "Un raté d'allumage prolongé peut envoyer du carburant imbrûlé vers le catalyseur et l'abîmer. Si le voyant moteur clignote pendant les à-coups, réduisez l'allure et faites contrôler le véhicule sans attendre." },
       { q: "Le ralenti instable est-il lié au même problème ?", a: "Parfois : une prise d'air, un capteur ou une vanne EGR encrassée peuvent provoquer les deux. Le diagnostic vérifie si les symptômes ont une origine commune ou deux causes distinctes." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Ensuès-la-Redonne : stocker et verser son AdBlue sans risque",
+    lead: "Un bidon d'AdBlue resté des mois au chaud ou un plein fait avec un entonnoir sale peuvent déclencher une alerte. Si elle persiste, diagnostic du système SCR dès 90 €, déduit de la réparation.",
+    metaDesc: "Alerte AdBlue à Ensuès-la-Redonne : conseils de plein, diagnostic SCR dès 90 €, réparation de 90 à 690 € selon la pièce, garantie 12 mois.",
+    intro: [
+      "Garder un bidon d'AdBlue chez soi évite de chercher une pompe le jour où le niveau baisse. Encore faut-il le conserver correctement : sur la Côte Bleue, un bidon entamé laissé dans un coffre ou un abri exposé à la chaleur de l'été peut <strong>se dégrader</strong>, et un récipient mal refermé, ou un entonnoir ayant servi à autre chose, introduit des impuretés dans le réservoir.",
+      "Le système SCR ne tolère ni un liquide hors norme ni une pollution : le capteur de qualité réagit, l'injecteur peut s'obstruer, et le <strong>voyant AdBlue</strong> s'allume, parfois suivi d'un compte à rebours."
+    ],
+    sections: [
+      { h: "Les bons gestes au moment du plein", p: "Utilisez un AdBlue conforme, dans un bidon bien fermé, rangé à l'abri du soleil et des fortes chaleurs, et ne le laissez pas traîner des mois une fois ouvert. Versez-le avec le bec fourni ou un entonnoir réservé à cet usage, jamais un ustensile ayant contenu de l'huile ou du carburant. Essuyez les éventuelles coulures : en séchant, elles laissent des cristaux blancs." },
+      { h: "Quand l'alerte persiste", p: "Si le message reste affiché après quelques trajets, il faut lire le système. Le diagnostic, dès 90 € et déduit si vous réparez chez nous, vérifie le capteur de qualité, la pompe, l'injecteur et les sondes NOx. Le devis écrit précède toute intervention, entre 90 et 690 € selon la pièce ou la décristallisation nécessaire, avec garantie 12 mois. Depuis Ensuès, à 40 km, la récupération à domicile évite le trajet par l'A55, gratuite au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "L'AdBlue des stations est-il préférable à celui en bidon ?", a: "Les deux conviennent s'ils sont conformes. À la pompe, le produit est renouvelé régulièrement ; en bidon, il suffit de respecter les conditions de stockage indiquées sur l'emballage." },
+      { q: "Peut-on faire contrôler le système avant l'été ?", a: "Oui, un diagnostic en dehors de toute alerte permet de lire les défauts mémorisés et de vérifier les composants. C'est utile avant de longs trajets, mais pas indispensable si aucun message n'est jamais apparu." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Ensuès-la-Redonne : vanne EGR et trajets entre village et calanques",
+    lead: "Village, Méjean, La Redonne : quelques kilomètres, moteur à peine chaud, et la vanne EGR se charge de suie. Nettoyage ultrason et joints neufs de 180 à 290 €.",
+    metaDesc: "Vanne EGR à Ensuès-la-Redonne : diagnostic, bain ultrason et joints neufs de 180 à 290 €, injecteurs de 120 à 490 €, garantie 12 mois.",
+    intro: [
+      "Descendre du village vers Méjean ou La Redonne, remonter vers Les Figuières, rejoindre La Madrague-de-Gignac : à Ensuès, les déplacements du quotidien peuvent se limiter à quelques kilomètres sur des routes en balcon. Le moteur n'a pas le temps d'atteindre sa température normale, et la <strong>vanne EGR</strong> travaille à froid, là où suie et vapeurs d'huile se déposent le plus facilement.",
+      "Ce dépôt gras durcit au fil des semaines. Le clapet finit par répondre avec retard ou par rester bloqué : à-coups, <strong>démarrages laborieux</strong>, fumée à la relance, puis voyant moteur."
+    ],
+    sections: [
+      { h: "Nettoyer la vanne, contrôler l'injection", p: "Après lecture des codes et vérification du fonctionnement de la vanne, celle-ci est démontée, nettoyée une à deux heures dans une cuve à ultrasons chauffée et remontée avec des joints neufs. L'effacement des défauts et un essai routier valident l'intervention : de 180 à 290 € selon le moteur. Les injecteurs sont contrôlés dans la foulée ; s'ils sont encrassés, additif de 120 à 220 € ou démontage et ultrasons de 290 à 490 €." },
+      { h: "Organiser la venue depuis la Côte Bleue", p: "L'atelier est à 40 km, environ 40 minutes par la D5, l'A55, l'A7 puis la rocade L2. Évitez les heures de pointe à l'entrée de Marseille et les week-ends d'été sur l'A55. La récupération du véhicule à domicile, offerte au-delà de 200 € d'intervention validée, vous épargne l'aller-retour. Garantie 12 mois ; si la cause dépasse l'encrassement, nous vous le signalons dès le diagnostic." }
+    ],
+    faq: [
+      { q: "Un trajet hebdomadaire vers Marseille suffit-il à compenser ?", a: "Il aide, surtout s'il comprend une portion d'A55 à allure régulière, mais il ne nettoie pas une vanne déjà collée. Une fois le dépôt durci, seul un nettoyage après démontage le retire." },
+      { q: "Une vanne EGR peut-elle souffrir de l'air marin ?", a: "Elle se trouve dans le circuit moteur, à l'abri des embruns, et c'est la suie qui l'encrasse. Son connecteur électrique peut en revanche s'oxyder : nous le contrôlons lors du diagnostic." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "A55 côtière depuis Ensuès : l'alliée du FAP, sauf les week-ends d'été",
+    lead: "Une portion d'A55 à allure régulière permet au filtre à particules de se vider ; les bouchons estivaux font l'inverse. Quand il est saturé : régénération dès 250 €, diagnostic inclus.",
+    metaDesc: "FAP saturé à Ensuès-la-Redonne : régénération sans démontage dès 250 €, bain ultrason de 390 à 650 €, diagnostic inclus, garantie 12 mois.",
+    intro: [
+      "Ensuès-la-Redonne est desservie par l'A55, rejointe par la D5. Quand elle est fluide, un trajet vers Marseille fait monter l'échappement assez longtemps pour que le <strong>filtre à particules</strong> brûle ses suies : exactement ce dont il a besoin. Mais les week-ends d'été, quand le littoral attire les visiteurs, la même autoroute se transforme en file lente.",
+      "Un diesel qui ne fait l'autoroute que dans ces conditions, et des trajets courts le reste du temps, cumule les deux handicaps. Le filtre se charge, le <strong>voyant FAP</strong> s'allume, et un mode dégradé peut suivre."
+    ],
+    sections: [
+      { h: "Deux traitements, un seuil", p: "Le diagnostic, compris dans le tarif, mesure la saturation et inspecte la céramique. Sous un seuil d'environ 80 %, un additif est injecté par la sonde différentielle et une régénération forcée est pilotée : 90 minutes, de 250 à 450 €. Au-dessus, le filtre est déposé, nettoyé en bain ultrason haute température, rincé et séché à 200 °C : 1 à 2 jours, de 390 à 650 €. Mesures avant et après remises par écrit, garantie 12 mois." },
+      { h: "Choisir ses créneaux d'autoroute", p: "Pour entretenir le filtre, visez un trajet mensuel d'une trentaine de kilomètres sur l'A55 en semaine ou hors saison, à allure stable, plutôt que de compter sur les départs du samedi en été. Pour venir à l'atelier, à 40 km, le milieu de journée en semaine est le plus sûr ; sinon, la récupération à domicile est gratuite dès 200 € d'intervention validée, un montant que dépasse tout nettoyage du filtre." }
+    ],
+    faq: [
+      { q: "La régénération sans démontage peut-elle se faire le jour de mon arrivée ?", a: "Oui, si la mesure confirme qu'elle convient : elle prend environ 90 minutes, ce qui permet un aller-retour depuis Ensuès dans la demi-journée. Le bain ultrason, en revanche, demande 1 à 2 jours." },
+      { q: "La garantie joue-t-elle si le filtre se recharge l'été suivant ?", a: "La garantie de 12 mois couvre un défaut lié à notre intervention. Un filtre qui se recharge à cause d'un usage très urbain ou d'une cause en amont non traitée relève d'un nouveau diagnostic, d'où l'intérêt de chercher cette cause dès la première visite." }
+    ]
   }
 };

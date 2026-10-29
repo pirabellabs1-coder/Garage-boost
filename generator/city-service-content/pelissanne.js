@@ -89,5 +89,59 @@ module.exports = {
       { q: "Une surconsommation peut-elle venir d'autre chose que du moteur ?", a: "Oui : pneus sous-gonflés, freins qui frottent ou chargement important jouent aussi. Le diagnostic électronique vérifie la partie que les calculateurs pilotent et mesurent, ce qui permet d'écarter ou de confirmer une cause moteur." },
       { q: "Combien de temps faut-il prévoir sur place ?", a: "La plupart des diagnostics prennent entre 30 et 90 minutes. Si l'analyse doit se prolonger, nous vous appelons avant de poursuivre." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Pélissanne : chiffrer une panne AdBlue avant de prendre l'A7",
+    lead: "Combien va coûter la panne AdBlue ? Tout dépend du composant en cause. Pour Pélissanne, voici les fourchettes réelles, du diagnostic SCR dès 90 € à la réparation, de 90 à 690 €.",
+    metaDesc: "Panne AdBlue à Pélissanne : diagnostic SCR dès 90 € déduit, capteur 200 à 400 €, sonde NOx 350 à 650 €, devis avant travaux. Atelier à 48 min.",
+    intro: [
+      "Quand un voyant AdBlue s'allume sur la voiture de la famille, la première inquiétude est souvent financière, surtout si un premier devis évoque le remplacement complet du système, facturé <strong>1 500 à 2 500 €</strong> en concession. Avant de faire les 45 km qui séparent Pélissanne de l'atelier, il est utile de connaître les ordres de grandeur, composant par composant.",
+      "Ces fourchettes ne remplacent pas le diagnostic : elles permettent de savoir à quoi s'attendre et de comparer avec un devis déjà reçu."
+    ],
+    sections: [
+      { h: "Les montants, pièce par pièce", p: "Le <strong>diagnostic du système SCR</strong> commence à 90 € et se déduit de la facture si la réparation est faite chez nous. Un capteur de qualité AdBlue défaillant revient de 200 à 400 €, une sonde NOx de 350 à 650 €. Une pompe ou un injecteur bloqués par des cristaux peuvent souvent être décristallisés plutôt que remplacés. Au total, la réparation ciblée se situe entre 90 et 690 € selon la pièce, garantie 12 mois, et le devis écrit précède toute intervention." },
+      { h: "Venir au bon moment depuis Pélissanne", p: "L'atelier est à 48 minutes par l'A7 et la rocade L2. Le trajet est plus fluide en milieu de journée : un rendez-vous en fin de matinée vous épargne les ralentissements des navetteurs. Si un compte à rebours est affiché, donnez-nous les kilomètres restants en appelant : nous ajustons la date pour que vous arriviez avec de la marge." }
+    ],
+    faq: [
+      { q: "Le diagnostic est-il perdu si je ne fais pas réparer chez vous ?", a: "Il reste facturé, à partir de 90 €, et vous repartez avec l'identification de la pièce en cause. Il n'est déduit que si la réparation est confiée à Garage Boost." },
+      { q: "Le prix annoncé peut-il augmenter en cours de réparation ?", a: "Le devis porte sur la pièce identifiée. Si une autre anomalie apparaissait pendant l'intervention, nous vous appellerions avant d'aller plus loin : aucun travail supplémentaire n'est engagé sans votre accord." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Diesel qui cale au ralenti à Pélissanne : la vanne EGR bloquée ?",
+    lead: "Le moteur tremble au feu, puis cale à l'arrêt ? Une vanne EGR qui ne se ferme plus en est une cause possible. Pour Pélissanne, contrôle puis nettoyage ultrason, de 180 à 290 € joints neufs compris.",
+    metaDesc: "Ralenti instable ou calage à Pélissanne : contrôle de la vanne EGR, nettoyage ultrason et joints neufs de 180 à 290 €, garantie 12 mois. À 48 min.",
+    intro: [
+      "Le calculateur dose en permanence la quantité de gaz d'échappement que la vanne EGR renvoie vers l'admission. Quand la suie empêche le clapet de se refermer au moment voulu, trop de gaz arrive dans les cylindres, et c'est au ralenti, là où le moteur a le moins de marge, que cela se voit : <strong>régime qui ondule</strong>, vibrations à l'arrêt, parfois un calage en arrivant à un feu ou à un rond-point du centre de Pélissanne.",
+      "Le symptôme s'efface souvent une fois lancé sur la route, ce qui le rend trompeur. D'autres causes produisent d'ailleurs le même effet, d'où l'intérêt de vérifier avant de démonter."
+    ],
+    sections: [
+      { h: "Écarter les fausses pistes", p: "Un débitmètre qui sous-évalue l'air, une prise d'air sur le circuit d'admission ou un injecteur qui goutte peuvent eux aussi faire trembler le moteur. Nous lisons les codes, commandons la vanne pour vérifier qu'elle se ferme complètement et suivons le débit d'air au ralenti. Le compte-rendu vous dit ce qui est en cause, et seulement ensuite ce qu'il convient de faire." },
+      { h: "Remettre la vanne en état", p: "Si elle est bien coupable, la vanne est démontée, plongée une à deux heures dans un bain ultrason chauffé, puis reposée avec des <strong>joints neufs</strong> : de 180 à 290 € selon le moteur, garantie 12 mois. L'essai sur route final vérifie que le ralenti est redevenu stable. L'intervention dure environ quatre heures : depuis Pélissanne, à 48 minutes par l'A7, un rendez-vous en matinée permet de repartir dans la journée." }
+    ],
+    faq: [
+      { q: "Puis-je continuer à rouler si la voiture cale de temps en temps ?", a: "Un calage en pleine circulation, dans un rond-point ou lors d'une insertion, présente un vrai risque. Limitez les trajets au strict nécessaire, et si les calages deviennent fréquents, appelez-nous avant de prendre l'A7 pour décider de la meilleure façon de venir." },
+      { q: "Le nettoyage règle-t-il aussi les à-coups à l'accélération ?", a: "Si ces à-coups viennent de la même vanne encrassée, oui, ils disparaissent en général avec elle. S'ils persistent, nous regardons du côté des injecteurs, traités de 120 à 220 € par additif ou de 290 à 490 € après dépose." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP à Pélissanne : une matinée sur place, ou deux jours sans voiture",
+    lead: "Pour un filtre à particules modérément chargé, 90 minutes de régénération dès 250 € suffisent et vous patientez sur place. Pour un filtre colmaté, comptez un à deux jours et de 390 à 650 €.",
+    metaDesc: "Nettoyage FAP pour Pélissanne : 90 min sur place dès 250 €, ou bain ultrason en 1 à 2 jours de 390 à 650 €, diagnostic inclus. Atelier à 48 min.",
+    intro: [
+      "Pour un foyer de Pélissanne qui n'a qu'un diesel, la vraie question face à un voyant FAP est l'organisation : récupère-t-on la voiture le jour même, ou faut-il s'en passer plusieurs jours ? La réponse tient au <strong>niveau de colmatage</strong> du filtre, que mesure le diagnostic compris dans le prix.",
+      "Les deux méthodes que nous pratiquons n'imposent pas la même immobilisation. Les connaître avant de partir permet de prévoir le retour, l'école, les trajets du lendemain."
+    ],
+    sections: [
+      { h: "Le scénario court : régénération sans dépose", p: "Le filtre reste en place. Un produit est injecté par la prise de la sonde de pression différentielle, puis la valise pilote une régénération forcée à haute température. Comptez environ <strong>90 minutes</strong>, dès 250 €, à patienter dans notre salle d'accueil. En venant en milieu de journée, quand l'A7 est plus fluide, l'aller, l'intervention et le retour tiennent en une demi-journée environ." },
+      { h: "Le scénario long : dépose et bain ultrason", p: "Quand les dépôts sont trop compacts, le filtre est démonté, lavé en bain ultrason haute température, séché puis remonté : un à deux jours d'immobilisation, de 390 à 650 €. Il faut alors prévoir un autre moyen de déplacement, par exemple une citadine louée à l'atelier, ou caler l'intervention sur une période où la voiture sert moins. Dans les deux cas, un compte-rendu avec les mesures de contre-pression avant et après vous est remis, et le travail est garanti 12 mois." }
+    ],
+    faq: [
+      { q: "Peut-on savoir à l'avance quel scénario s'appliquera ?", a: "Une estimation est possible au téléphone d'après les symptômes et le kilométrage, mais seule la mesure de contre-pression tranche. Un voyant tout juste allumé sur une voiture qui roule normalement laisse plus de chances au scénario court." },
+      { q: "La voiture retrouve-t-elle sa puissance après le nettoyage ?", a: "Si la perte de puissance venait du filtre saturé et du mode dégradé, oui : une fois le filtre vidé et les défauts effacés, le moteur fonctionne de nouveau normalement. Si une autre cause persiste, comme une vanne EGR défaillante, elle est signalée et chiffrée à part." }
+    ]
   }
 };

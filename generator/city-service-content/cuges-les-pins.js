@@ -89,5 +89,41 @@ module.exports = {
       { q: "Est-il risqué de continuer à rouler avec ces pertes de puissance ?", a: "Le mode dégradé protège le moteur, mais il réduit fortement les capacités d'accélération, ce qui peut être dangereux sur autoroute. La cause, comme une durite de turbo fendue, peut aussi s'aggraver : mieux vaut faire contrôler sans tarder." },
       { q: "La panne ne se produit qu'en montée chargée : pourrez-vous la voir ?", a: "C'est le rôle de l'essai routier instrumenté, qui place le moteur dans les conditions où le défaut survient tout en enregistrant les valeurs des capteurs." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Voyant AdBlue entre Cuges et le col de l'Ange : que faire ?",
+    lead: "Le compte à rebours AdBlue s'affiche sur le plateau de Cuges ou dans la montée du col de l'Ange ? Il laisse en général le temps de rejoindre l'atelier, à 30 minutes. Diagnostic SCR dès 90 €.",
+    metaDesc: "Compte à rebours AdBlue à Cuges-les-Pins : diagnostic SCR dès 90 € déduit, réparation de 90 à 690 €, garantie 12 mois. Atelier à 30 min par l'A50.",
+    intro: [
+      "Le message apparaît souvent au mauvais moment : en quittant le village au petit matin, ou dans la montée du col de l'Ange en direction de Gémenos. Le calculateur annonce un nombre de kilomètres avant que le moteur refuse de redémarrer, par paliers de 300, 200 puis 100 km. Tant que le décompte n'a pas atteint le dernier palier, les 28 km qui séparent Cuges de l'atelier restent largement couverts.",
+      "Le piège, c'est de remettre à plus tard. Au rythme des allers-retours vers Aubagne, Marseille ou le Var, le crédit de kilomètres fond plus vite qu'on ne l'imagine."
+    ],
+    sections: [
+      { h: "Ce que fait le diagnostic", p: "Nous identifions lequel des composants du système SCR est en défaut : <strong>pompe, injecteur d'AdBlue, capteur de qualité ou sonde NOx</strong>. Le diagnostic coûte à partir de 90 € et il est déduit si la réparation se fait chez nous. Le devis écrit précède toute intervention ; la réparation, de 90 à 690 € selon la pièce, est garantie 12 mois, et le compte à rebours est réinitialisé une fois le défaut réellement corrigé." },
+      { h: "Si le moteur ne redémarre plus", p: "Cuges se trouve juste au-delà de notre zone forfaitaire de 25 km : le remorquage est donc facturé 1,80 € par kilomètre, sur devis, avec une majoration de 50 % la nuit, le dimanche et les jours fériés. Si votre contrat d'assurance comprend une assistance, elle peut aussi prendre en charge l'acheminement ; renseignez-vous sur ses conditions. Dans tous les cas, mieux vaut appeler dès les premiers paliers." }
+    ],
+    faq: [
+      { q: "La montée du col fatigue-t-elle le système AdBlue ?", a: "Pas particulièrement : c'est un effort pour le moteur, pas pour le circuit d'AdBlue. Les pannes viennent plutôt d'un composant usé, d'un produit de mauvaise qualité ou de dépôts formés lors de trajets courts. Le diagnostic dit lequel." },
+      { q: "Faut-il prévenir avant de venir avec le décompte affiché ?", a: "C'est préférable. En nous indiquant le nombre de kilomètres restants, vous nous permettez de vous recevoir rapidement et, si une pièce doit être commandée, de gagner du temps sur la réparation." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Injecteurs d'un gros rouleur de Cuges : additif ou bain ultrason",
+    lead: "Les kilomètres avalés sur l'A50 vers Aubagne, Marseille ou Toulon finissent par encrasser injecteurs et vanne EGR. Additif de 120 à 220 €, ou dépose et ultrason de 290 à 490 €.",
+    metaDesc: "Injecteurs et vanne EGR à Cuges-les-Pins : additif de 120 à 220 €, dépose et ultrason de 290 à 490 €, vanne de 180 à 290 €. Atelier à 30 min.",
+    intro: [
+      "Depuis Cuges-les-Pins, la voiture accumule vite les kilomètres : l'A50 vers Aubagne et Marseille d'un côté, vers le Var de l'autre. Un diesel qui tourne autant fait travailler ses <strong>injecteurs</strong> à très haute pression des heures durant ; peu à peu, des dépôts de gomme et de calamine déforment le jet de carburant.",
+      "La combustion devient moins nette : ralenti un peu rugueux, consommation qui grimpe sur un trajet pourtant identique, fumée à la relance. Et la suie en surplus ne disparaît pas : elle va encrasser la vanne EGR et, plus loin, le filtre à particules."
+    ],
+    sections: [
+      { h: "Mesurer avant de choisir le traitement", p: "Le diagnostic contrôle le débit de chaque injecteur. Pour un encrassement léger, un <strong>traitement par additif</strong> de 120 à 220 € suffit souvent. Si les écarts sont marqués, les injecteurs sont déposés et nettoyés en bain ultrason, de 290 à 490 €. Un injecteur dont le siège piézo est défaillant ne se nettoie pas : nous l'indiquons, avec le prix d'une pièce neuve, de l'ordre de 200 à 400 € l'unité, avant toute décision." },
+      { h: "La vanne EGR, dans la même visite", p: "Puisque des injecteurs fatigués encrassent la vanne EGR, il est logique de la contrôler en même temps. Si elle est chargée, elle est déposée, nettoyée par ultrason et remontée avec des joints neufs, de 180 à 290 €. Les interventions sont garanties 12 mois. L'atelier est à 30 minutes par l'A50, la sortie Aubagne et la D4F ; le milieu de journée évite la charge du matin vers Marseille." }
+    ],
+    faq: [
+      { q: "Rouler souvent à vitesse soutenue ne nettoie-t-il pas les injecteurs ?", a: "Cela aide la combustion à rester propre, mais ne dissout pas les dépôts déjà formés au nez de l'injecteur. Passé un certain kilométrage, seul un traitement ciblé les retire." },
+      { q: "L'intervention immobilise-t-elle la voiture plusieurs jours ?", a: "Le traitement par additif se fait sur place. Avec dépose et ultrason, la voiture reste en général la journée à l'atelier ; nous vous donnons le délai précis avec le devis." }
+    ]
   }
 };

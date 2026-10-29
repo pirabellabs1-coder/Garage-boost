@@ -89,5 +89,59 @@ module.exports = {
       { q: "Diagnostiquez-vous les utilitaires comme les voitures ?", a: "Oui, notre lecture multimarque couvre les fourgons et utilitaires jusqu'aux motorisations diesel courantes du marché, comme les voitures particulières, essence, diesel ou hybrides." },
       { q: "Que se passe-t-il si la panne demande plus de temps que prévu ?", a: "Si l'analyse doit se prolonger, par exemple pour un défaut intermittent ou plusieurs défauts qui se masquent, nous vous appelons avant de poursuivre et vous proposons un devis horaire transparent." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Panne AdBlue d'utilitaire à Saint-Cannat : réparer avant les récoltes",
+    lead: "Un premier message AdBlue sur le fourgon de l'exploitation, quelques semaines avant les récoltes ? C'est le moment de le faire diagnostiquer, pas en pleine saison. Diagnostic SCR dès 90 €, déduit.",
+    metaDesc: "Panne AdBlue d'utilitaire à Saint-Cannat : diagnostic SCR dès 90 € déduit, réparation ciblée de 90 à 690 €, garantie 12 mois. Atelier à 45 min.",
+    intro: [
+      "Pour une exploitation de la plaine de Saint-Cannat, le fourgon diesel n'a pas la même importance selon la période. Immobilisé en hiver, il gêne ; bloqué en pleine récolte, il désorganise tout. Or un défaut du <strong>système AdBlue</strong> non traité finit par un décompte, puis par un démarrage refusé.",
+      "Les composants concernés, capteur de qualité, sondes NOx, pompe, injecteur d'additif, se réparent un par un. Encore faut-il choisir le moment."
+    ],
+    sections: [
+      { h: "Profiter d'une période creuse", p: "Dès le premier message, même si la jauge est pleine et que le fourgon roule normalement, prenez rendez-vous. Le diagnostic, <strong>dès 90 €</strong> et déduit de la réparation, désigne la pièce fautive. Si une commande est nécessaire, vous avez encore le temps de l'attendre sans pression ; une fois la saison lancée, ce délai deviendrait une contrainte." },
+      { h: "Une réparation limitée à ce qui est défaillant", p: "Pompe ou injecteur grippés par des cristaux après une période au hangar, capteur de qualité ou sonde NOx en défaut : la réparation va de 90 à 690 € selon le composant, sur devis écrit validé au préalable. Après l'intervention, les codes sont effacés, le décompte remis à zéro et un essai vérifie la dépollution. Garantie 12 mois. Saint-Cannat est à 45 minutes ; la récupération du véhicule est offerte au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Le défaut est apparu à la reprise après une longue pause : est-ce lié ?", a: "C'est possible. Quand un système reste longtemps sans fonctionner, l'additif peut cristalliser dans la pompe ou l'injecteur. Une décristallisation remet alors souvent les pièces en service sans les remplacer, ce que le diagnostic confirme." },
+      { q: "Le compte à rebours peut-il démarrer en pleine journée de travail ?", a: "Oui, il peut s'afficher en roulant. Le fourgon fonctionne jusqu'à épuisement des kilomètres annoncés, mais une fois ce cap atteint et le moteur coupé, il ne redémarrera plus. Notez le chiffre et appelez-nous sans attendre la fin de la saison." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Saint-Cannat : un diesel qui consomme plus, la vanne EGR en cause ?",
+    lead: "Pleins plus rapprochés sur la route d'Aix ou de Salon, sans changement de conduite ? Vanne EGR ou injecteurs encrassés font partie des suspects. Vanne nettoyée de 180 à 290 €, injecteurs dès 120 €.",
+    metaDesc: "Surconsommation diesel à Saint-Cannat : contrôle vanne EGR et injecteurs, nettoyage vanne 180 à 290 €, injecteurs 120 à 490 €. Garantie 12 mois.",
+    intro: [
+      "Quand on parcourt chaque semaine la D7n et l'A8 vers Aix ou Salon, on connaît l'autonomie de sa voiture presque au kilomètre près. Si elle diminue sans raison apparente, c'est un indice à prendre au sérieux : une combustion moins efficace se paie d'abord à la pompe, avant de se traduire par un voyant.",
+      "Parmi les causes possibles, la <strong>vanne EGR</strong> encrassée et les <strong>injecteurs</strong> qui pulvérisent mal reviennent souvent. Ils ne sont pas les seuls : pneus sous-gonflés, filtre à air colmaté ou capteur défaillant jouent aussi. Le diagnostic sert à trancher."
+    ],
+    sections: [
+      { h: "Éliminer les fausses pistes", p: "Nous lisons les défauts mémorisés, contrôlons la réponse de la vanne EGR et mesurons le débit de chaque injecteur. Si la surconsommation vient d'ailleurs, d'un problème qui dépasse l'encrassement ou l'antipollution, vous le savez avant toute dépense. Si la vanne ou l'injection sont en cause, le devis précise exactement ce qui sera fait." },
+      { h: "Les traitements et leurs prix", p: "Vanne EGR : démontage, bain ultrason haute température, <strong>joints neufs</strong> et essai routier, de 180 à 290 €. Injecteurs légèrement encrassés : additif professionnel, de 120 à 220 €. Injecteurs plus atteints : dépose et ultrason, de 290 à 490 €. Garantie 12 mois. À 42 km de l'atelier, soit environ 45 minutes, la récupération du véhicule, offerte au-delà de 200 € validés, évite un aller-retour de près de deux heures." }
+    ],
+    faq: [
+      { q: "De combien la consommation peut-elle baisser après le nettoyage ?", a: "Cela dépend de l'encrassement de départ, nous ne promettons donc pas de chiffre. Lorsque la vanne ou les injecteurs étaient vraiment en cause, la consommation revient en général vers ses valeurs habituelles." },
+      { q: "Comment suivre sa consommation pour repérer le problème ?", a: "Le plus fiable reste de noter les kilomètres et les litres à chaque plein, sur des trajets comparables. L'ordinateur de bord donne une tendance utile ; une dérive qui s'installe sur plusieurs pleins mérite un contrôle." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Fourgon d'exploitation à Saint-Cannat : le FAP des petits trajets",
+    lead: "Entre les parcelles, le hangar et le bourg, un fourgon diesel de la plaine de Saint-Cannat roule peu et souvent. Son filtre à particules sature : nous le régénérons dès 250 €, diagnostic inclus.",
+    metaDesc: "Nettoyage FAP d'utilitaire pour Saint-Cannat : régénération dès 250 €, bain ultrason 390 à 650 €, récupération offerte. Atelier à 45 min.",
+    intro: [
+      "Un véhicule de travail agricole ou maraîcher fait rarement de longues étapes : quelques kilomètres jusqu'à une parcelle, des attentes moteur tournant pendant un chargement, un passage par la D7n pour rejoindre le bourg. Ce rythme convient au travail, beaucoup moins au <strong>filtre à particules</strong>, qui accumule la suie sans atteindre la température nécessaire pour la brûler.",
+      "Le premier signe est souvent un voyant, parfois une perte de puissance en charge. À ce stade, le filtre est rarement perdu : il est plein."
+    ],
+    sections: [
+      { h: "Remettre le fourgon au travail", p: "La mesure de contre-pression, comprise dans la prestation, détermine la méthode. Régénération chimique sans dépose : environ <strong>90 minutes</strong>, de 250 à 450 €, et le fourgon repart le jour même. Bain ultrason après démontage : de 390 à 650 €, un à deux jours d'immobilisation, à placer de préférence hors de la période des récoltes. Si la céramique est endommagée, nous chiffrons un filtre reconditionné." },
+      { h: "Faire durer le résultat avec un usage de plaine", p: "Quand le véhicule part vers Aix ou Salon, laissez-lui l'A8 plutôt que les petites routes : une trentaine de kilomètres à allure régulière, une fois par mois, permet des régénérations complètes. Une huile faible en cendres adaptée au diesel limite aussi le colmatage. Depuis Saint-Cannat, la récupération du véhicule est offerte pour un nettoyage FAP, ce qui évite d'immobiliser un chauffeur pendant le trajet." }
+    ],
+    faq: [
+      { q: "Le fourgon tourne souvent au ralenti pendant le chargement : faut-il couper le moteur ?", a: "Quand c'est possible, oui. Un moteur au ralenti produit de la suie sans chauffer suffisamment le filtre ; le couper pendant les attentes longues limite la charge." },
+      { q: "Le voyant FAP s'est allumé en pleine saison : que faire ?", a: "Si le fourgon garde sa puissance, prenez rendez-vous rapidement pour une régénération sans dépose, qui tient dans la journée. S'il est en mode dégradé, limitez-vous aux trajets indispensables et appelez-nous : nous verrons ensemble comment l'acheminer sans aggraver la saturation." }
+    ]
   }
 };

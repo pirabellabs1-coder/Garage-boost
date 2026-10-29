@@ -89,5 +89,23 @@ module.exports = {
       { q: "Une fumée blanche par temps froid est-elle normale ?", a: "Une légère vapeur qui disparaît une fois le moteur chaud est normale. Une fumée blanche épaisse qui persiste moteur chaud, surtout avec une baisse du niveau de liquide de refroidissement, doit être examinée rapidement." },
       { q: "La fumée noire peut-elle faire échouer le contrôle technique ?", a: "Oui, sur un diesel, l'opacité des fumées est mesurée lors du contrôle. Identifier la cause avant le passage évite une contre-visite." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "AdBlue en défaut à Berre-l'Étang : garder le véhicule disponible",
+    lead: "Pour un véhicule qui doit pouvoir partir à toute heure vers les sites industriels de l'étang, un décompte AdBlue est un vrai risque. Diagnostic SCR dès 90 €, réparation de la seule pièce en cause.",
+    metaDesc: "Panne AdBlue à Berre-l'Étang : diagnostic SCR dès 90 €, déduit si vous réparez, réparation de 90 à 690 € selon la pièce. Garantie 12 mois.",
+    intro: [
+      "Autour du pôle pétrochimique de Berre, certains véhicules ne peuvent pas se permettre d'être bloqués : voiture d'un salarié en horaires décalés, véhicule de service d'une entreprise sous-traitante, utilitaire d'intervention. Démarrages à répétition, poussière, kilométrages élevés : le <strong>système SCR</strong> y travaille dans des conditions exigeantes.",
+      "Le danger n'est pas le voyant lui-même, mais ce qu'il annonce : au bout du décompte, le moteur <strong>refuse de redémarrer</strong>. Mieux vaut traiter la panne quand elle se déclare, à un moment choisi, que la subir un matin de départ."
+    ],
+    sections: [
+      { h: "Une réparation planifiée plutôt que subie", p: "Dès l'apparition du message, appelez pour fixer un créneau. À l'atelier, le diagnostic, facturé dès 90 € et déduit si vous faites réparer, identifie le composant fautif : capteur de qualité, sonde NOx, pompe ou injecteur d'AdBlue. Le devis écrit précise le prix, de 90 à 690 € selon la pièce et l'opération, et vous décidez avant toute intervention. La remise en service se termine par le contrôle du dosage, l'effacement des codes et un essai routier ; garantie 12 mois." },
+      { h: "Si le véhicule est déjà immobilisé", p: "Berre-l'Étang se trouve à 38 km de l'atelier, soit 42 minutes par l'A7 et la rocade L2 hors pointe. Au-delà de 25 km, le remorquage est facturé 1,80 €/km sur devis, avec une majoration de 50 % la nuit, le dimanche et les jours fériés : avant d'appeler, vérifiez si votre contrat d'assurance inclut une assistance. Pour un véhicule qui roule encore, la récupération à domicile est gratuite dès 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Pourquoi le défaut revient-il après un effacement fait ailleurs ?", a: "Effacer un code ne répare rien : le calculateur refait ses contrôles et, si la pièce reste défaillante, l'alerte réapparaît, souvent avec un décompte. Seule la remise en état du composant met fin au cycle." },
+      { q: "Après la réparation, le véhicule reste-t-il en règle ?", a: "Oui : la pièce défaillante est remise en état, la dépollution fonctionne à nouveau et le véhicule reste conforme à son homologation. Désactiver le système serait illégal, et nous ne le faisons pas." }
+    ]
   }
 };

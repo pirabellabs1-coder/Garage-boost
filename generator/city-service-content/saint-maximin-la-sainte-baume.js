@@ -89,5 +89,59 @@ module.exports = {
       { q: "Faut-il apporter le procès-verbal du contrôle ?", a: "Oui, apportez-le : les défauts relevés par le contrôleur orientent nos mesures et font gagner du temps sur l'analyse." },
       { q: "Le diagnostic garantit-il la réussite de la contre-visite ?", a: "Il identifie la cause du défaut ; c'est la réparation qui en découle qui permet de repasser le contrôle. Nous vous indiquons clairement ce qui est nécessaire pour cela." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Compte à rebours AdBlue à Saint-Maximin : 48 km d'A8 à prévoir",
+    lead: "Le décompte AdBlue est lancé et l'atelier est à 48 km ? Le trajet par l'A8 se fait sereinement si vous partez au bon palier. Diagnostic SCR dès 90 €, déduit si vous réparez chez nous.",
+    metaDesc: "Décompte AdBlue à Saint-Maximin : diagnostic SCR dès 90 € déduit, pièce réparée de 90 à 690 €, garantie 12 mois. Atelier à 55 min par l'A8.",
+    intro: [
+      "Depuis Saint-Maximin, l'atelier de Plan-de-Cuques se trouve à <strong>48 km, soit 55 à 65 minutes</strong> par l'A8, l'A7 et la L2. Avec un défaut AdBlue, la question pratique est donc simple : le décompte affiché me laisse-t-il le temps de faire la route ? Le système SCR compte par paliers de 300, 200 puis 100 km avant d'interdire le redémarrage.",
+      "Au premier palier, l'aller ne pose aucun problème. Au dernier, la marge se réduit : une erreur d'estimation ou un détour imprévu deviennent risqués, car une fois le compteur à zéro, le moteur ne repart plus après l'arrêt. Le plus sûr est de nous appeler dès l'apparition du message, en précisant le kilométrage restant."
+    ],
+    sections: [
+      { h: "Une visite, un diagnostic, un devis", p: "À l'arrivée, nous testons le système SCR composant par composant : pompe, injecteur d'AdBlue, capteur de qualité, sondes NOx. Le diagnostic, à partir de 90 €, est déduit si la réparation est faite chez nous. Le devis écrit précise la pièce et son prix, de 90 à 690 € selon le composant, avec une garantie de 12 mois. Si une pièce doit être commandée, la récupération à domicile, très recommandée à cette distance, vous évite un second aller-retour par l'A8." },
+      { h: "Si le compteur est déjà à zéro", p: "À 48 km, le remorquage dépasse largement notre zone forfaitaire : il est facturé 1,80 € par kilomètre, sur devis, majoré de 50 % la nuit, le dimanche et les jours fériés. L'assistance de votre contrat auto, si vous en disposez, peut s'avérer plus avantageuse sur une telle distance : vérifiez vos garanties avant d'appeler." }
+    ],
+    faq: [
+      { q: "Puis-je rouler normalement sur l'A8 pendant le décompte ?", a: "Le décompte limite avant tout le nombre de kilomètres avant l'interdiction de redémarrer ; certains modèles réduisent aussi la puissance. Si votre tableau de bord signale une limitation, prévenez-nous avant de partir et restez sur la voie de droite." },
+      { q: "Le diagnostic est-il facturé si je fais réparer ailleurs ?", a: "Oui, il reste dû, à partir de 90 €, mais vous repartez avec un compte-rendu qui désigne la pièce en cause. Il n'est déduit que si la réparation est réalisée chez nous." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Saint-Maximin : vanne EGR et décalaminage dans le même trajet",
+    lead: "Quitte à faire 48 km, autant traiter la cause et la conséquence en une fois. Vanne EGR nettoyée de 180 à 290 €, ou formule combinée avec décalaminage hydrogène de 350 à 450 €.",
+    metaDesc: "Vanne EGR pour Saint-Maximin : nettoyage ultrason de 180 à 290 €, formule avec décalaminage de 350 à 450 €, garantie 12 mois. Atelier à 55 min.",
+    intro: [
+      "Depuis Saint-Maximin, chaque rendez-vous à Plan-de-Cuques représente près de deux heures de route aller-retour par l'A8. Il est donc raisonnable de regrouper ce qui peut l'être. Lorsqu'une <strong>vanne EGR</strong> est encrassée au point de provoquer à-coups et voyant moteur, la calamine ne s'arrête généralement pas à elle : elle tapisse aussi le collecteur d'admission et la chambre de combustion.",
+      "Nettoyer la vanne seule règle le symptôme ; traiter en même temps le reste du circuit d'admission évite que les dépôts restants ne la recouvrent trop vite."
+    ],
+    sections: [
+      { h: "Deux traitements, un seul rendez-vous", p: "La vanne est déposée, nettoyée en bain ultrason haute température et remontée avec des joints neufs, de 180 à 290 €. Le <strong>décalaminage hydrogène</strong>, réalisé moteur en marche et sans démontage, traite la chambre de combustion et le collecteur. Ensemble, ils coûtent de 350 à 450 €, soit environ 15 % de moins que séparément. Le diagnostic préalable indique si cette combinaison se justifie sur votre moteur, ou si la vanne seule suffit." },
+      { h: "Organiser la journée depuis le Var", p: "L'A8 est en général fluide hors vacances scolaires et week-ends d'été. Une arrivée en milieu de matinée laisse le temps de traiter le véhicule dans la journée. Si vous ne pouvez pas vous passer de la voiture, la récupération à domicile est recommandée pour Saint-Maximin. Si les injecteurs sont également en cause, un traitement par additif coûte de 120 à 220 €. Les interventions sont garanties 12 mois." }
+    ],
+    faq: [
+      { q: "Ma vanne a été changée il y a peu : le décalaminage a-t-il encore un intérêt ?", a: "Oui si le moteur reste encrassé : une vanne neuve placée dans un circuit chargé de calamine se salit plus vite. Le diagnostic évalue l'encrassement avant de vous proposer quoi que ce soit." },
+      { q: "La formule combinée convient-elle à un utilitaire ?", a: "Oui, les deux traitements s'appliquent aux utilitaires diesel comme aux voitures ; le tarif dépend de la motorisation et figure sur le devis avant intervention." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Voyant FAP à Saint-Maximin : filtre plein ou mesure faussée ?",
+    lead: "Avant de faire 48 km pour un nettoyage, sachez que le voyant FAP n'accuse pas toujours le filtre. Le diagnostic, inclus, vérifie la mesure ; régénération dès 250 € si le filtre est vraiment saturé.",
+    metaDesc: "Voyant FAP à Saint-Maximin : diagnostic inclus pour confirmer la saturation, régénération dès 250 €, bain ultrason de 390 à 650 €. À 55 min par l'A8.",
+    intro: [
+      "Le calculateur estime le remplissage du filtre à particules grâce à un <strong>capteur de pression différentielle</strong>, relié à l'échappement par de petites durites. Si l'une d'elles est fendue ou bouchée, ou si le capteur dérive, le calculateur peut croire le filtre plein alors qu'il ne l'est pas, ou l'inverse.",
+      "Pour un conducteur de Saint-Maximin, à près d'une heure de l'atelier, la nuance compte : on ne fait pas la route pour régénérer un filtre qui n'en a pas besoin. C'est pourquoi le nettoyage commence toujours par une mesure."
+    ],
+    sections: [
+      { h: "Un diagnostic qui vérifie l'instrument", p: "Nous comparons la contre-pression réellement mesurée à la valeur lue par le calculateur et examinons l'historique des régénérations. Si le filtre est bien saturé, il est régénéré sans démontage, dès 250 € en 90 minutes environ, ou déposé et passé au bain ultrason, de 390 à 650 € en un à deux jours. Si c'est la mesure qui est en défaut, le devis le précise et nous ne nettoyons pas un filtre qui n'en a pas besoin." },
+      { h: "Venir du Var dans de bonnes conditions", p: "En mode dégradé, la puissance est bridée : restez sur la voie de droite de l'A8 et évitez si possible les week-ends d'été, où la circulation se densifie. La récupération à domicile est très recommandée à cette distance. Si la régénération est impossible, céramique fissurée par exemple, nous proposons un filtre reconditionné, environ deux fois moins cher qu'un neuf. La régénération est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Une durite de capteur peut-elle vraiment allumer le voyant FAP ?", a: "Oui. Le capteur mesure une différence de pression entre l'entrée et la sortie du filtre ; une durite percée ou obstruée fausse ce calcul. C'est une vérification simple, qui fait partie du diagnostic." },
+      { q: "Et si le capteur lui-même est en cause ?", a: "Le diagnostic le désigne et le devis vous en indique le coût avant toute intervention. Si la cause relève d'un autre domaine que l'antipollution, nous vous le disons clairement pour que vous puissiez choisir où faire réparer." }
+    ]
   }
 };

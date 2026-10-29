@@ -89,5 +89,41 @@ module.exports = {
       { q: "Avez-vous besoin du procès-verbal du contrôle technique ?", a: "Oui, apportez-le : les valeurs relevées par le contrôleur orientent l'analyse et permettent de vérifier, après réparation, que le défaut constaté est bien traité." },
       { q: "Le diagnostic garantit-il la réussite de la contre-visite ?", a: "Il identifie la cause et la réparation nécessaire, mais c'est le contrôleur qui délivre le résultat. Une fois la réparation faite, une nouvelle lecture permet de vérifier que les valeurs sont revenues à la normale." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Défaut AdBlue sur un diesel autoroutier à Éguilles : les sondes NOx",
+    lead: "Sur un diesel qui avale chaque jour l'A8 et l'A51, un voyant AdBlue avec réservoir plein peut venir des sondes NOx ou du dosage d'additif. Diagnostic SCR dès 90 €, déduit de la réparation.",
+    metaDesc: "Voyant AdBlue à Éguilles : diagnostic SCR dès 90 € déduit, sonde NOx de 350 à 650 €, capteur qualité 200 à 400 €, garantie 12 mois. À 35 min.",
+    intro: [
+      "Le système AdBlue ne se limite pas à un réservoir et une pompe. Deux <strong>sondes NOx</strong>, placées avant et après le catalyseur SCR, mesurent les oxydes d'azote et permettent au calculateur de vérifier que l'additif fait son travail. Exposées en permanence aux gaz chauds, elles peuvent finir par fournir des valeurs incohérentes.",
+      "Sur un diesel qui fait beaucoup d'autoroute depuis Éguilles, le réservoir est complété régulièrement et la pompe reste rarement longtemps inactive : quand un défaut apparaît, il faut donc aussi regarder du côté des capteurs."
+    ],
+    sections: [
+      { h: "Ne pas changer une sonde au hasard", p: "Une sonde qui signale une mauvaise dépollution n'est pas forcément défectueuse : elle peut simplement constater un dosage insuffisant, dû à l'injecteur d'additif ou à la pompe. Notre diagnostic compare les valeurs des deux sondes, teste le dosage et contrôle le <strong>capteur de qualité</strong>, pour remplacer la bonne pièce et seulement elle." },
+      { h: "Fourchettes de prix et organisation", p: "Le diagnostic démarre à 90 €, déduits si vous faites réparer chez nous. Une sonde NOx se situe entre 350 et 650 €, un capteur de qualité entre 200 et 400 € ; l'ensemble des réparations possibles va de 90 à 690 €, garanties 12 mois. Depuis Éguilles, le nœud A8 – A51 est à éviter aux heures de pointe : un rendez-vous en milieu de matinée rend le trajet de 35 minutes bien plus agréable." }
+    ],
+    faq: [
+      { q: "Faut-il changer les deux sondes NOx en même temps ?", a: "Non, sauf si les deux sont défaillantes, ce que le diagnostic vérifie. Remplacer une sonde saine par précaution n'apporte rien et alourdit la facture." },
+      { q: "Pouvez-vous venir chercher la voiture à Éguilles ?", a: "Oui, la récupération à domicile couvre Éguilles et ses environs, et elle est offerte dès que l'intervention validée dépasse 200 €, ce qui est le cas d'un remplacement de sonde NOx." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Injecteurs d'un gros rouleur de l'A8 à Éguilles : les remettre en état",
+    lead: "Des dizaines de milliers de kilomètres entre Éguilles, Aix, Les Milles et Marseille finissent par encrasser l'injection. Selon la mesure : additif de 120 à 220 €, ou démontage et ultrason de 290 à 490 €.",
+    metaDesc: "Injecteurs et vanne EGR pour Éguilles : additif 120 à 220 €, démontage et ultrason 290 à 490 €, vanne EGR 180 à 290 €. Garantie 12 mois.",
+    intro: [
+      "On associe souvent l'encrassement aux petits trajets urbains. Les gros kilométrages autoroutiers ont aussi leurs effets, plus lents : au fil des cycles, les <strong>injecteurs</strong> accumulent dépôts de gomme et de calamine. La pulvérisation se dégrade, la combustion devient moins complète, la consommation augmente insensiblement.",
+      "Pour un conducteur qui enchaîne chaque jour la D17, l'A8 et l'A51, ces signes passent inaperçus jusqu'au jour où le moteur claque davantage à froid, fume à la relance ou hésite à l'insertion."
+    ],
+    sections: [
+      { h: "Mesurer chaque injecteur", p: "Nous relevons le <strong>débit de chaque injecteur</strong> et les corrections que le calculateur leur applique. Un léger écart se traite par un additif professionnel, de 120 à 220 €, sans démontage. Des injecteurs nettement déréglés sont déposés et nettoyés en bain ultrason, de 290 à 490 €. Si un injecteur présente un défaut mécanique ou électrique, le nettoyage ne suffira pas : nous le disons et chiffrons une pièce neuve, entre 200 et 400 € l'unité." },
+      { h: "La vanne EGR, conséquence directe", p: "Une combustion incomplète produit plus de suie, et la vanne EGR en reçoit sa part. Nous la contrôlons donc lors du même examen ; si elle est encrassée, le nettoyage par ultrason avec joints neufs coûte de 180 à 290 €. Depuis Éguilles, comptez 35 minutes hors heures de pointe. La récupération du véhicule à domicile est offerte au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Mon diesel a dépassé 150 000 km sans souci : faut-il anticiper ?", a: "Sans symptôme, il n'y a pas d'urgence. En revanche, une consommation qui augmente sans raison, un ralenti moins rond ou une fumée à l'accélération justifient une mesure : un encrassement pris tôt se traite souvent par additif." },
+      { q: "Faut-il nettoyer les injecteurs avant un long voyage ?", a: "Si la mesure révèle un encrassement, mieux vaut le traiter avant de partir : un injecteur qui pulvérise mal fatigue la vanne EGR et le filtre à particules, et un voyant à plusieurs centaines de kilomètres de chez soi est plus compliqué à gérer." }
+    ]
   }
 };

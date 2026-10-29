@@ -89,5 +89,41 @@ module.exports = {
       { q: "Faut-il laisser la voiture la veille pour un problème de démarrage à froid ?", a: "C'est souvent la meilleure solution : un moteur qui a refroidi toute la nuit présente le symptôme dans les conditions réelles. Prévenez-nous à la prise de rendez-vous et nous organisons l'examen dès le matin." },
       { q: "Un ralenti instable peut-il venir de l'électronique plutôt que de la mécanique ?", a: "Oui, et c'est fréquent. Une valeur erronée transmise par un capteur suffit à dérégler le ralenti d'un moteur mécaniquement sain ; c'est ce que la mesure en temps réel permet de repérer." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Alerte AdBlue à Ventabren : préparer le rendez-vous à distance",
+    lead: "À 40 minutes de l'atelier, mieux vaut un seul déplacement. Une photo du message AdBlue et le kilométrage restant nous aident à préparer le diagnostic, dès 90 € et déduit si vous réparez.",
+    metaDesc: "Voyant AdBlue à Ventabren : diagnostic du système SCR dès 90 €, réparation de 90 à 690 € selon la pièce, devis avant travaux, garantie 12 mois.",
+    intro: [
+      "Entre le vieux village, Les Cauvets ou Roquefavour et l'atelier de Plan-de-Cuques, il y a 38 km : la D10, l'A8 jusqu'à Aix, puis l'A51, l'A7 et la rocade L2. Autant ne pas faire le trajet pour rien. Quand un message AdBlue apparaît, sa formulation exacte compte : <strong>niveau bas</strong>, <strong>qualité non conforme</strong>, <strong>défaut du système</strong> ou décompte avant démarrage impossible n'orientent pas vers les mêmes vérifications.",
+      "Photographiez l'écran, notez le kilométrage restant s'il s'affiche et la circonstance d'apparition : après un plein, au démarrage à froid, en pleine autoroute. Transmises par téléphone ou par WhatsApp, ces informations nous aident à <strong>réserver le bon créneau</strong> et à évaluer si la voiture peut faire la route."
+    ],
+    sections: [
+      { h: "Ce que le diagnostic tranche", p: "Sur place, la valise multimarque lit les codes du système SCR et nous testons capteur de qualité, pompe, injecteur d'AdBlue et sondes NOx. Le diagnostic, dès 90 €, est déduit si la réparation se fait chez nous ; le devis écrit nomme ensuite la pièce en cause, entre 90 et 690 € selon le composant et l'opération, décristallisation comprise. Après réparation : codes effacés, compte à rebours réinitialisé, essai routier. L'intervention est garantie 12 mois." },
+      { h: "Si la route n'est plus possible", p: "Lorsque le décompte est trop avancé, mieux vaut ne pas tenter l'échangeur d'Aix avec quelques kilomètres de marge. Nous pouvons organiser la récupération du véhicule à Ventabren, offerte au-delà de 200 € d'intervention validée. Si la voiture refuse déjà de démarrer, le remorquage depuis Ventabren, au-delà de 25 km, est facturé 1,80 €/km sur devis, avec 50 % de majoration la nuit, le dimanche et les jours fériés ; l'assistance de votre contrat peut aussi s'en charger." }
+    ],
+    faq: [
+      { q: "Le message évoque un défaut du système et non un niveau bas : est-ce grave ?", a: "Cette formulation signale un problème technique plutôt qu'un simple manque de liquide. Tant qu'aucun décompte n'apparaît, la voiture roule normalement, mais le défaut ne disparaîtra pas seul : prenez rendez-vous sans attendre qu'il s'aggrave." },
+      { q: "Faut-il refaire le niveau d'AdBlue avant de venir ?", a: "Si le niveau est bas, oui, avec un AdBlue conforme : cela écarte une cause simple. Si le message persiste après le plein, la panne est ailleurs, et c'est au diagnostic de la localiser." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Fumée noire à l'insertion sur l'A8 : EGR et injecteurs à Ventabren",
+    lead: "Un nuage sombre dans le rétroviseur quand vous accélérez sur la bretelle ? Vanne EGR ou injecteurs encrassés : diagnostic, puis nettoyage de la vanne de 180 à 290 €.",
+    metaDesc: "Fumée noire à Ventabren : nettoyage de vanne EGR de 180 à 290 €, injecteurs par additif de 120 à 220 € ou ultrason de 290 à 490 €. Garantie 12 mois.",
+    intro: [
+      "Après la descente du village par la D10, l'entrée sur l'A8 en direction d'Aix est souvent le premier moment de la journée où l'on appuie franchement sur l'accélérateur. C'est là qu'un diesel encrassé se trahit : un <strong>panache de fumée noire</strong> s'échappe pendant la relance, puis se dissipe une fois la vitesse stabilisée.",
+      "Cette fumée, ce sont des particules de gazole mal brûlé. Deux suspects principaux : la <strong>vanne EGR</strong>, qui laisse passer trop de gaz recyclés et prive le moteur d'air frais, et les <strong>injecteurs</strong>, dont le jet n'est plus assez fin. Ils se nuisent mutuellement : chaque combustion ratée ajoute de la suie dans la vanne."
+    ],
+    sections: [
+      { h: "Désigner le bon coupable", p: "Nous lisons les codes, puis contrôlons le débit de chaque injecteur et le comportement de la vanne. Si la vanne est en cause, elle est déposée, nettoyée en bain ultrason à haute température pendant une à deux heures et remontée avec des joints neufs : 180 à 290 € selon le moteur. Pour les injecteurs, l'additif professionnel suffit sur un dépôt léger (120 à 220 €) ; un encrassement marqué impose démontage et ultrasons (290 à 490 €)." },
+      { h: "Un seul déplacement depuis le village", p: "Pour limiter les allers-retours, venez en milieu de matinée ou en début d'après-midi, quand l'échangeur d'Aix et l'A8 sont moins chargés. Le traitement de la vanne tient en général dans la journée. Si vous ne pouvez pas vous libérer, nous venons chercher la voiture à Ventabren, gratuitement au-delà de 200 € d'intervention validée. Garantie 12 mois ; et si la fumée trahit une cause mécanique plus lourde, nous vous le disons dès le diagnostic." }
+    ],
+    faq: [
+      { q: "Pourquoi la fumée disparaît-elle une fois lancé sur l'autoroute ?", a: "À vitesse stable, le moteur demande peu de carburant supplémentaire et la combustion reste correcte. C'est lors des fortes accélérations que l'excès de gazole et le manque d'air deviennent visibles." },
+      { q: "Un carburant premium peut-il remplacer le nettoyage ?", a: "Il peut aider à garder des injecteurs propres, mais il ne décolle pas les dépôts durcis dans une vanne EGR. Sur un moteur qui fume déjà, il ne remplace pas un nettoyage ciblé." }
+    ]
   }
 };

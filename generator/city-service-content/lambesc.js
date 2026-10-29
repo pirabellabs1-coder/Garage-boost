@@ -89,5 +89,41 @@ module.exports = {
       { q: "Mon hybride affiche une alerte système, est-ce un problème moteur ?", a: "Pas nécessairement. L'alerte peut venir du moteur thermique, d'un capteur ou d'un périphérique. La lecture de tous les calculateurs accessibles permet de localiser l'origine avant toute intervention." },
       { q: "Pourquoi le diagnostic est-il payant ?", a: "Il mobilise un technicien et un matériel professionnel pendant 30 à 90 minutes. Ces 49 € sont offerts si vous validez ensuite la réparation chez Garage Boost." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Lambesc : le réservoir d'AdBlue se vide plus vite qu'avant ?",
+    lead: "Des pleins d'AdBlue plus rapprochés sans changement d'usage peuvent trahir une fuite ou un dosage anormal. Pour Lambesc, diagnostic du système SCR dès 90 €, déduit de la réparation.",
+    metaDesc: "AdBlue qui baisse vite à Lambesc : contrôle du dosage, recherche de fuite, diagnostic SCR dès 90 € déduit, réparation de 90 à 690 €. Atelier à 50 min.",
+    intro: [
+      "Pour un conducteur de Lambesc qui enchaîne la D7n et l'A7, la consommation d'AdBlue suit le kilométrage : plus on roule, plus on remplit. Elle reste pourtant assez régulière d'un plein à l'autre. Si l'intervalle se raccourcit nettement sans que vos trajets aient changé, le système mérite un contrôle : une <strong>fuite sur le circuit</strong>, un injecteur AdBlue qui goutte ou un dosage déréglé peuvent en être la cause.",
+      "Un indice se repère sans outil : l'AdBlue qui s'échappe forme en séchant des <strong>dépôts blanchâtres</strong>, autour du bouchon, sous le réservoir ou près de l'injecteur monté sur la ligne d'échappement."
+    ],
+    sections: [
+      { h: "Tenir un relevé avant de venir", p: "Notez la date et le kilométrage de vos deux ou trois derniers pleins d'AdBlue, ainsi que la quantité versée. Transmis à la prise de rendez-vous, ces chiffres permettent de comparer avec l'usage normal du véhicule. Une photo des traces blanches éventuelles, sous la voiture ou dans la trappe de remplissage, nous aide aussi à orienter la recherche avant votre trajet de 48 km." },
+      { h: "Ce que l'atelier vérifie", p: "Le diagnostic, <strong>dès 90 €</strong> et déduit si vous faites réparer chez nous, lit les codes du système SCR, teste la pompe, l'injecteur AdBlue et le capteur de qualité, puis contrôle le dosage. La réparation porte sur le seul élément en cause, de 90 à 690 € selon le composant, avec un devis écrit avant de commencer et une garantie de 12 mois. Depuis Lambesc, comptez environ 50 minutes par la D7n, l'A7 et la rocade L2." }
+    ],
+    faq: [
+      { q: "Une petite fuite d'AdBlue peut-elle attendre ?", a: "Pas longtemps. Le liquide qui s'écoule finit par vider le réservoir et déclencher le compte à rebours avant immobilisation, et les cristaux qu'il laisse peuvent gripper les pièces qu'ils recouvrent." },
+      { q: "Rouler surtout sur autoroute augmente-t-il la consommation d'AdBlue ?", a: "La consommation suit surtout le kilométrage et la charge du moteur. Un usage autoroutier régulier ne provoque pas de variation brutale : c'est un changement net, à usage constant, qui doit alerter." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Utilitaire de commerce à Lambesc : la vanne EGR des petites livraisons",
+    lead: "Livraisons de quelques kilomètres, moteur qui tourne pendant le déchargement, redémarrages à froid : la camionnette d'un commerce de Lambesc encrasse sa vanne EGR. Nettoyage ultrason de 180 à 290 €.",
+    metaDesc: "Vanne EGR d'utilitaire à Lambesc : nettoyage ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €, garantie 12 mois. Atelier à 50 min.",
+    intro: [
+      "Les commerces du bourg de Lambesc s'appuient sur des camionnettes qui assurent livraisons et approvisionnements. Leur journée type est l'inverse de celle d'un gros rouleur : <strong>quelques kilomètres</strong> entre deux arrêts, moteur qui tourne pendant le déchargement, redémarrages répétés sans jamais monter vraiment en température. C'est le régime où la vanne EGR accumule le plus vite suie et vapeurs d'huile.",
+      "Le résultat arrive sans prévenir : un utilitaire qui manque de souffle une fois chargé, qui fume à la relance dans la traversée du bourg, ou qui affiche un voyant moteur un matin de tournée."
+    ],
+    sections: [
+      { h: "Une intervention calée sur une journée creuse", p: "Pour un commerçant, l'enjeu est de ne pas perdre un jour d'activité. Choisissez la journée la plus calme de votre semaine et un dépôt en début de matinée : diagnostic, dépose, bain ultrason d'une à deux heures, remontage avec <strong>joints neufs</strong> et essai routier se font dans la journée, pour quatre heures d'intervention environ. Le prix, de 180 à 290 € selon le moteur, est fixé à l'avance." },
+      { h: "Garder la camionnette propre plus longtemps", p: "Couper le moteur pendant les déchargements, et lui offrir de temps en temps un trajet soutenu par l'A7, limitent l'encrassement. Les injecteurs, éprouvés par ce type d'usage, peuvent être traités lors de la même visite : de 120 à 220 € par additif, de 290 à 490 € après dépose. Associé à un décalaminage hydrogène, le nettoyage de la vanne forme un forfait de 350 à 450 €." }
+    ],
+    faq: [
+      { q: "Les jours de marché, la traversée du bourg aggrave-t-elle l'encrassement ?", a: "Les minutes passées au pas sur la D7n quand elle se charge ajoutent du fonctionnement au ralenti, défavorable à la vanne. Ce n'est pas décisif à lui seul, mais cela s'additionne aux arrêts répétés des livraisons." },
+      { q: "La récupération de l'utilitaire est-elle possible depuis Lambesc ?", a: "Oui, nous pouvons organiser l'enlèvement et la restitution du véhicule. Cette récupération est offerte au-delà de 200 € d'intervention validée ; selon le moteur, un nettoyage de vanne seul peut déjà atteindre ce seuil." }
+    ]
   }
 };

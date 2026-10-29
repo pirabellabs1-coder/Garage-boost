@@ -586,17 +586,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/gardanne-aix-en-provence</loc>
-    <lastmod>2026-10-29</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/salon-de-provence</loc>
-    <lastmod>2026-10-29</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/var-vaucluse-alpes-maritimes</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -651,17 +641,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/gardanne-aix-en-provence</loc>
-    <lastmod>2026-10-29</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/salon-de-provence</loc>
-    <lastmod>2026-10-29</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/var-vaucluse-alpes-maritimes</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -671,17 +651,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/gardanne-aix-en-provence</loc>
-    <lastmod>2026-10-29</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/salon-de-provence</loc>
-    <lastmod>2026-10-29</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/var-vaucluse-alpes-maritimes</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -1551,6 +1521,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/vitrolles</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/vitrolles</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/vitrolles</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/carrosserie/debosselage-grele/marignane</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -1716,6 +1701,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/gardanne</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/gardanne</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/gardanne</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/carrosserie/debosselage-grele/aix-en-provence</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -1742,6 +1742,21 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/aix-en-provence</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/aix-en-provence</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/aix-en-provence</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/aix-en-provence</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -1776,6 +1791,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/martigues</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/saint-maximin-la-sainte-baume</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -1801,6 +1821,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/saint-maximin-la-sainte-baume</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/saint-maximin-la-sainte-baume</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/saint-maximin-la-sainte-baume</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/toulon</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -1817,6 +1852,21 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/toulon</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/toulon</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/toulon</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/toulon</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -1842,6 +1892,21 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/istres</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/istres</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/istres</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/istres</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -2126,6 +2191,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/fuveau</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/fuveau</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/fuveau</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/trets</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -2147,6 +2227,21 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/trets</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/trets</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/trets</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/trets</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -2176,6 +2271,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/venelles</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/venelles</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/venelles</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/pertuis</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -2197,6 +2307,16 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/pertuis</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/pertuis</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/pertuis</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -2226,6 +2346,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/berre-letang</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/entretien-assistance/mecanique-generale/pelissanne</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -2247,6 +2372,21 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/pelissanne</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/pelissanne</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/pelissanne</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/pelissanne</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -2276,6 +2416,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/lancon-provence</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/lancon-provence</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/location/utilitaires/miramas</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -2297,6 +2447,16 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/miramas</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/miramas</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/miramas</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -2326,6 +2486,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/chateauneuf-les-martigues</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/chateauneuf-les-martigues</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/chateauneuf-les-martigues</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/location/utilitaires/rognac</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -2347,6 +2522,16 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/rognac</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/rognac</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/rognac</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -2416,6 +2601,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/cuges-les-pins</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/cuges-les-pins</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/rousset</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -2437,6 +2632,21 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/rousset</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/rousset</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/rousset</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/rousset</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -2466,6 +2676,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/meyreuil</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/meyreuil</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/meyreuil</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/entretien-assistance/mecanique-generale/saint-chamas</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -2487,6 +2712,21 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/saint-chamas</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/saint-chamas</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/saint-chamas</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/saint-chamas</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -2516,6 +2756,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/eyguieres</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/eyguieres</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/senas</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -2537,6 +2787,16 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/senas</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/senas</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/senas</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -2566,6 +2826,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/port-de-bouc</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/location/utilitaires/fos-sur-mer</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -2587,6 +2852,11 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/fos-sur-mer</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/fos-sur-mer</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -2616,6 +2886,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/sausset-les-pins</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/sausset-les-pins</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/sausset-les-pins</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/carrosserie/carrosserie-auto/carry-le-rouet</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -2637,6 +2922,21 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/carry-le-rouet</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/carry-le-rouet</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/carry-le-rouet</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/carry-le-rouet</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -2746,6 +3046,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/velaux</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/velaux</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/velaux</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/brignoles</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -2767,6 +3082,16 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/brignoles</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/brignoles</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/brignoles</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -3026,6 +3351,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/ceyreste</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/ceyreste</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/ceyreste</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/entretien-assistance/mecanique-generale/saint-zacharie</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -3047,6 +3387,16 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/saint-zacharie</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/saint-zacharie</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/saint-zacharie</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -3076,6 +3426,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/ensues-la-redonne</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/ensues-la-redonne</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/ensues-la-redonne</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/maintenance-moteur/reprogrammation-moteur/eguilles</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -3097,6 +3462,16 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/eguilles</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/eguilles</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/eguilles</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -3126,6 +3501,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/ventabren</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/ventabren</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/entretien-assistance/mecanique-generale/saint-cannat</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -3147,6 +3532,21 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/saint-cannat</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/saint-cannat</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/saint-cannat</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/saint-cannat</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -3176,6 +3576,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/peyrolles-en-provence</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/peyrolles-en-provence</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/entretien-assistance/mecanique-generale/le-puy-sainte-reparade</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -3197,6 +3607,21 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/le-puy-sainte-reparade</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/le-puy-sainte-reparade</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/le-puy-sainte-reparade</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/le-puy-sainte-reparade</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>
@@ -3226,6 +3651,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/rognes</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/rognes</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/nettoyage-fap/rognes</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://garageboost.fr/maintenance-moteur/decalaminage-hydrogene/lambesc</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
@@ -3247,6 +3687,16 @@
   </url>
   <url>
     <loc>https://garageboost.fr/maintenance-moteur/diagnostic-moteur/lambesc</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/gestion-adblue/lambesc</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://garageboost.fr/maintenance-moteur/traitement-egr/lambesc</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.6</priority>
   </url>

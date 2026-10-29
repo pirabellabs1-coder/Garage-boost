@@ -89,5 +89,41 @@ module.exports = {
       { q: "Couper le contact suffit-il à sortir du mode dégradé ?", a: "Parfois, la puissance revient au redémarrage, mais le code reste en mémoire et le mode dégradé se réactivera dès que les mêmes conditions se représenteront. Ce retour temporaire ne dispense pas de chercher la cause." },
       { q: "Peut-on rouler jusqu'à Plan-de-Cuques en mode dégradé ?", a: "Sur un trajet court et sans voyant rouge, c'est généralement possible à allure modérée. Sur l'A7 avec une puissance très réduite, l'insertion devient dangereuse : mieux vaut nous appeler pour organiser la prise en charge." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Diesel d'occasion récent à Rognac : contrôler le système AdBlue",
+    lead: "Avant ou juste après l'achat d'un diesel récent, un diagnostic du système SCR, dès 90 €, dit si l'AdBlue fonctionne vraiment ou si une panne couve.",
+    metaDesc: "Diesel d'occasion à Rognac : diagnostic du système AdBlue dès 90 €, réparation ciblée de 90 à 690 €, devis avant intervention, garantie 12 mois.",
+    intro: [
+      "Le voyant AdBlue n'apparaît pas forcément le jour de l'essai. Un défaut effacé récemment, une sonde NOx qui commence à dériver, un injecteur d'AdBlue partiellement cristallisé : autant de pannes qui peuvent se déclarer quelques centaines de kilomètres après l'achat. Que le diesel soit acheté dans une zone commerciale proche de Rognac ou chez un particulier des Barjaquets, l'état du <strong>système SCR</strong> fait partie de ce qu'il faut vérifier.",
+      "Le diagnostic interroge le calculateur dédié, lit les codes mémorisés, y compris ceux qui ne s'affichent pas au tableau de bord, et teste les composants un par un : <strong>capteur de qualité</strong>, pompe, injecteur, sondes NOx amont et aval."
+    ],
+    sections: [
+      { h: "Ce que vous savez en sortant", p: "Soit le système dépollue normalement et vous repartez avec cette certitude, soit une pièce faiblit et le devis la désigne avec son prix : capteur de qualité de 200 à 400 €, sonde NOx de 350 à 650 €, décristallisation d'une pompe ou d'un injecteur. Le diagnostic, dès 90 €, est déduit si vous faites réparer chez nous, et la réparation est garantie 12 mois. Si l'anomalie relève d'autre chose que l'antipollution, nous vous le disons pour que vous puissiez en tenir compte, sans travaux engagés." },
+      { h: "Venir depuis Rognac", p: "Comptez 38 minutes par l'A7 puis la rocade L2, davantage aux heures de pointe, quand l'A7 sature. Un rendez-vous en milieu de matinée ou en début d'après-midi rend le trajet prévisible. Si la voiture n'est pas encore à vous, rien n'empêche de venir avec le vendeur pour le contrôle." }
+    ],
+    faq: [
+      { q: "Un voyant AdBlue éteint pendant l'essai suffit-il à me rassurer ?", a: "Pas entièrement. Certains défauts ne rallument le voyant qu'après plusieurs cycles de roulage. La lecture des codes mémorisés et le test des composants donnent une image plus fiable que le seul tableau de bord." },
+      { q: "Si une pièce est en cause, faut-il tout réparer immédiatement ?", a: "Le devis distingue ce qui menace la conduite à court terme, par exemple un décompte déjà lancé, de ce qui peut être planifié. Vous décidez ensuite, et rien n'est fait sans votre accord." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Consommation en hausse sur l'A7 depuis Rognac : penser à l'EGR",
+    lead: "Même trajet, même conduite, mais un plein qui dure moins longtemps : une vanne EGR ou des injecteurs encrassés en sont souvent la cause. Nettoyage de la vanne de 180 à 290 €.",
+    metaDesc: "Surconsommation d'un diesel à Rognac : nettoyage de vanne EGR de 180 à 290 €, injecteurs de 120 à 490 € selon la méthode, garantie 12 mois.",
+    intro: [
+      "Quand on emprunte chaque jour la même portion d'A7 depuis Rognac, la consommation devient un bon instrument de mesure. Si l'autonomie d'un plein recule sans changement d'itinéraire ni de conduite, le moteur brûle moins bien son gazole. Une <strong>vanne EGR</strong> qui reste entrouverte ou se bloque fausse le mélange d'air ; des injecteurs encrassés pulvérisent en grosses gouttes au lieu d'un brouillard fin.",
+      "Les deux défauts s'entretiennent : une combustion incomplète produit plus de suie, et cette suie revient encrasser la vanne. D'autres signes accompagnent souvent la dérive, comme une <strong>fumée noire</strong> à l'accélération ou un démarrage plus laborieux à froid."
+    ],
+    sections: [
+      { h: "Partir de vos chiffres", p: "Notez vos consommations sur quelques pleins et apportez-les : elles complètent la lecture des codes, le contrôle du débit des injecteurs et celui du fonctionnement de la vanne. Si celle-ci est en cause, elle est déposée, nettoyée une à deux heures en bain ultrason chauffé et remontée avec des joints neufs, puis validée par effacement des codes et essai routier : de 180 à 290 € selon le moteur." },
+      { h: "Les injecteurs, selon leur état", p: "Légèrement encrassés, ils se traitent par un additif professionnel, de 120 à 220 €. Plus atteints, ils sont démontés et passés aux ultrasons, de 290 à 490 €. Si un injecteur est défaillant de l'intérieur, le nettoyage ne le sauvera pas : le diagnostic le montre avant toute dépense, et une pièce neuve coûte de 200 à 400 €. Ces interventions sont garanties 12 mois." }
+    ],
+    faq: [
+      { q: "Quelle hausse de consommation doit alerter ?", a: "Il n'existe pas de seuil unique, mais une dérive durable sur plusieurs pleins, à trajet identique, mérite un contrôle. Une hausse ponctuelle peut venir du vent, de la climatisation ou d'un bouchon exceptionnel ; une tendance régulière, plus rarement." },
+      { q: "Et si la consommation ne baisse pas après le nettoyage ?", a: "Cela signifie que l'encrassement n'était pas seul en cause. Nous cherchons alors du côté du filtre à particules ou d'un capteur, et vous indiquons la piste retenue avant toute nouvelle dépense." }
+    ]
   }
 };

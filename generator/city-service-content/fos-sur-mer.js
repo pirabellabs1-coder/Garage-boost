@@ -89,5 +89,23 @@ module.exports = {
       { q: "Une batterie faible peut-elle expliquer le démarrage difficile ?", a: "Oui, c'est l'une des causes à écarter d'abord, car une tension insuffisante perturbe aussi les calculateurs. Elle est vérifiée avant d'orienter la recherche vers l'injection ou le préchauffage." },
       { q: "Le défaut n'apparaît qu'à froid : comment le voir à l'atelier ?", a: "Les codes mémorisés lors des démarrages précédents donnent déjà des indices. Si cela ne suffit pas, l'enregistreur OBD capte le défaut sur vos propres trajets, dans les conditions où il se produit." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Fos-sur-Mer : AdBlue et poussière de chantier, remplir proprement",
+    lead: "Sur un site poussiéreux, quelques grains dans le réservoir suffisent à perturber le capteur de qualité ou l'injecteur AdBlue. Si le défaut est là, diagnostic SCR dès 90 €, déduit de la réparation.",
+    metaDesc: "Défaut AdBlue à Fos-sur-Mer : capteur de qualité, injecteur, pompe. Diagnostic SCR dès 90 € déduit, réparation de 90 à 690 €, garantie 12 mois.",
+    intro: [
+      "Autour du port et des sites industriels de Fos-sur-Mer, les véhicules de travail vivent dans la <strong>poussière</strong> : pistes, aires de stockage, zones de chantier. L'AdBlue, lui, supporte mal les impuretés. Un plein fait trappe ouverte au milieu d'un site balayé par le vent, avec un entonnoir qui a traîné dans la benne ou un bidon entamé depuis des semaines, peut introduire des particules dans le réservoir.",
+      "Les conséquences ne sont pas immédiates : une alerte de <strong>qualité AdBlue</strong> incorrecte, une pompe qui peine, un injecteur qui dose mal, puis un défaut du système et un compte à rebours avant immobilisation."
+    ],
+    sections: [
+      { h: "Les bons gestes au remplissage", p: "Faites le plein d'AdBlue de préférence à la pompe, ou avec un bidon neuf ouvert au dernier moment. Essuyez le pourtour de la trappe avant d'ôter le bouchon, utilisez un bec verseur propre réservé à cet usage, et refermez aussitôt. Ne transvasez jamais l'AdBlue dans un récipient ayant contenu un autre produit : un mélange, même en petite quantité, peut fausser la mesure du capteur de qualité." },
+      { h: "Quand le défaut est déjà installé", p: "Le diagnostic, <strong>dès 90 €</strong> et déduit si vous nous confiez la réparation, teste le capteur de qualité, la pompe, l'injecteur AdBlue et les sondes NOx pour isoler l'élément touché. Selon le cas : remplacement du capteur, de 200 à 400 €, décristallisation ou réparation de l'injecteur ou de la pompe, ou autre pièce, pour un total de 90 à 690 €, sur devis écrit et avec une garantie de 12 mois. Depuis Fos, l'atelier est à 55 minutes par la N568, l'A55, l'A7 et la L2." }
+    ],
+    faq: [
+      { q: "L'alerte de qualité peut-elle venir d'autre chose que d'une impureté ?", a: "Oui : un produit inadapté, un liquide trop ancien ou un capteur défaillant affichent le même message. Le diagnostic fait la part entre le liquide et la pièce avant toute dépense." },
+      { q: "Un utilitaire en compte à rebours peut-il rejoindre l'atelier depuis Fos ?", a: "Oui, si les kilomètres restants dépassent nettement les 50 km du trajet. Sinon, l'acheminement passe par votre assistance ou par notre remorquage, facturé 1,80 € par kilomètre au-delà de 25 km, sur devis donné avant le départ." }
+    ]
   }
 };

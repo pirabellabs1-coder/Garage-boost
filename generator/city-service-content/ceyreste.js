@@ -89,5 +89,59 @@ module.exports = {
       { q: "Comment mesurer la hausse avant de venir ?", a: "Notez les kilomètres parcourus entre deux pleins complets sur vos trajets habituels. Comparés à ceux d'il y a quelques mois, ces relevés donnent un ordre de grandeur utile pour l'analyse." },
       { q: "Des pneus sous-gonflés peuvent-ils expliquer la surconsommation ?", a: "Ils y contribuent, tout comme une charge permanente dans le coffre. Vérifiez la pression avant de venir : si la consommation reste élevée, la piste moteur devient plus probable." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Ceyreste : l'AdBlue d'un diesel qui descend moteur froid",
+    lead: "De Ceyreste à La Ciotat, on descend souvent moteur froid, pied levé : un échappement tiède favorise les dépôts d'AdBlue. Diagnostic du système SCR dès 90 €, déduit si vous réparez chez nous.",
+    metaDesc: "Défaut AdBlue à Ceyreste : diagnostic SCR dès 90 € déduit, injecteur décristallisé ou pièce remplacée de 90 à 690 €, garantie 12 mois. À 35 min.",
+    intro: [
+      "Ceyreste domine La Ciotat depuis ses collines : chaque trajet vers la côte commence donc par une <strong>descente</strong>. Moteur à peine démarré, pied levé, frein moteur dans les virages : la ligne d'échappement reste longtemps tiède. Or l'AdBlue a besoin de chaleur pour réagir ; injecté dans un échappement qui n'a pas atteint sa température, il peut laisser des <strong>cristaux</strong> sur l'injecteur ou dans la ligne.",
+      "Au fil des mois, ces dépôts perturbent le dosage, et le calculateur finit par signaler un défaut de dépollution, parfois suivi d'un compte à rebours."
+    ],
+    sections: [
+      { h: "Décristalliser avant de remplacer", p: "Notre diagnostic, à partir de 90 € et déduit si la réparation est faite chez nous, vérifie le débit de l'injecteur d'AdBlue, le fonctionnement de la pompe, le capteur de qualité et les sondes NOx. Un injecteur entartré se <strong>décristallise</strong> le plus souvent ; une pièce réellement hors service est remplacée seule. Selon le cas, la réparation coûte de 90 à 690 €, devis écrit validé avant intervention, garantie 12 mois." },
+      { h: "Remonter l'A50, puis la colline", p: "L'atelier est à 33 km, environ 35 minutes : descente vers La Ciotat, A50 jusqu'à Aubagne, puis D2 et D4F. En été, le littoral attire du monde et l'A50 ralentit : un rendez-vous en matinée, hors vacances, reste le plus sûr. La récupération de véhicule couvre Ceyreste ; elle est offerte au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Un trajet régulier sur l'A50 aide-t-il le système AdBlue ?", a: "Oui, une portion d'autoroute à allure stable porte l'échappement à bonne température et limite la formation de dépôts. Elle ne dissout pas en revanche des cristaux déjà installés : s'il y a un défaut, il faut le traiter." },
+      { q: "Le défaut peut-il venir de l'humidité marine ?", a: "La corrosion d'un connecteur ou d'une sonde fait partie des pistes que le diagnostic confirme ou écarte. Si la cause relève du câblage ou de l'électronique plutôt que du système AdBlue lui-même, nous vous le disons avant d'aller plus loin." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Remonter à Ceyreste en charge : la vanne EGR mise à l'épreuve",
+    lead: "La côte du retour depuis La Ciotat, en deuxième, moteur en charge : une vanne EGR encrassée s'y trahit par un manque de souffle. Nettoyage ultrason et joints neufs de 180 à 290 €.",
+    metaDesc: "Vanne EGR à Ceyreste : manque de souffle en côte, nettoyage ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €, garantie 12 mois. À 35 min.",
+    intro: [
+      "Pour rentrer à Ceyreste, il faut remonter depuis La Ciotat par des routes de coteau, virage après virage. Le diesel y travaille en charge à bas régime, juste ce qu'il faut pour produire de la suie, dont une partie revient vers l'admission par la <strong>vanne EGR</strong>. À la longue, les dépôts la freinent, puis la grippent.",
+      "On le sent d'abord dans cette montée : la voiture paraît moins vive, laisse un panache sombre en relançant après un virage serré, et le voyant moteur finit par s'inviter. Sur l'A50 à vitesse stable, en revanche, tout semble normal."
+    ],
+    sections: [
+      { h: "Déposer, nettoyer, valider", p: "Après lecture des défauts et contrôle de la commande de vanne, celle-ci est démontée, débarrassée de sa calamine en bain ultrason à haute température, puis remontée avec des joints neufs aux couples prévus par le constructeur. L'essai routier final vérifie que le voyant reste éteint. Comptez de 180 à 290 € selon le moteur ; l'intervention est garantie 12 mois." },
+      { h: "Un regard sur les injecteurs", p: "Si les injecteurs pulvérisent mal, ils alimentent l'encrassement de la vanne : nous les contrôlons dans la foulée. Un traitement par additif coûte de 120 à 220 €, un nettoyage après dépose de 290 à 490 €. L'atelier est à 33 km, environ 35 minutes par l'A50 ; la récupération de véhicule couvre Ceyreste et devient gratuite au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Le frein moteur dans la descente encrasse-t-il aussi la vanne ?", a: "Pied levé, le moteur n'injecte presque pas de carburant et produit peu de suie : la descente n'est pas le moment critique. C'est la remontée, en charge et à bas régime, qui encrasse le plus." },
+      { q: "Rétrograder dans la côte change-t-il quelque chose ?", a: "Monter un rapport plus bas, moteur un peu plus haut dans les tours, réduit les phases de sous-régime propices à la suie. Cela ralentit l'encrassement, sans nettoyer une vanne déjà chargée." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP à Ceyreste : quand le seul trajet est la descente vers La Ciotat",
+    lead: "Village et La Ciotat, aller puis retour : des parcours de quelques kilomètres, en pente, qui ne laissent pas au filtre le temps de se régénérer. Diagnostic inclus, régénération dès 250 €.",
+    metaDesc: "Nettoyage FAP à Ceyreste : diagnostic inclus, régénération sans démontage dès 250 €, bain ultrason de 390 à 650 €, garantie 12 mois. À 35 min.",
+    intro: [
+      "Entre le village, Fontsainte ou le Grand Vallon et les commerces de La Ciotat, un diesel de Ceyreste peut ne faire que des parcours de quelques kilomètres : une descente, quelques rues, une remontée. Le filtre à particules a besoin de plusieurs minutes de chaleur soutenue pour brûler ses suies, et ces trajets ne les lui offrent pas.",
+      "La suie s'accumule donc, cycle inachevé après cycle inachevé, jusqu'au voyant puis au mode dégradé. Ironie de la situation : le trajet jusqu'à l'atelier, 35 minutes dont une bonne part d'A50, est justement le type de parcours qui aurait aidé le filtre s'il avait été fait plus tôt."
+    ],
+    sections: [
+      { h: "Nettoyer selon la charge mesurée", p: "Le diagnostic préalable, inclus, mesure la contre-pression du filtre et vérifie l'état de la céramique. Un filtre modérément chargé est régénéré sans démontage, en 90 minutes environ, à partir de 250 €. Un filtre très colmaté est déposé et traité en bain ultrason haute température, de 390 à 650 €, ce qui immobilise la voiture un à deux jours. La régénération est garantie 12 mois." },
+      { h: "Une sortie mensuelle sur l'A50", p: "Une fois par mois, une trentaine de kilomètres sur l'A50 vers 110 km/h, en cinquième ou sixième, laisse au filtre le temps de se vider naturellement. Une huile faible en cendres et un contrôle des causes d'encrassement en amont, vanne EGR ou injecteurs, complètent ces précautions. La récupération de véhicule couvre Ceyreste, offerte au-delà de 200 € d'intervention." }
+    ],
+    faq: [
+      { q: "Un aller-retour à Aubagne suffit-il à entretenir le filtre ?", a: "S'il se fait par l'A50, à allure stable et sans couper le moteur en pleine régénération à l'arrivée, c'est un bon entretien. L'essentiel est qu'il revienne régulièrement, toute l'année." },
+      { q: "La chaleur de l'été aide-t-elle le filtre à se régénérer ?", a: "Très peu : c'est la température des gaz d'échappement qui compte, et elle dépend du régime et de la charge du moteur, pas de la météo. Un trajet court reste un trajet court pour le filtre, même en août." }
+    ]
   }
 };

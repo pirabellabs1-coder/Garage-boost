@@ -71,5 +71,59 @@ module.exports = {
       { q: "Pouvez-vous analyser à distance les codes relevés par un autre garage ?", a: "Nous pouvons en discuter par téléphone pour juger de l'intérêt du déplacement, mais un avis fiable suppose de lire les calculateurs et de mesurer les valeurs sur le véhicule." },
       { q: "La réparation peut-elle être faite le même jour ?", a: "Cela dépend de la panne et de la disponibilité des pièces. Le devis vous est remis après le diagnostic, et vous décidez ensuite librement." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Panne AdBlue à Toulon : quand le trajet vaut la peine",
+    lead: "Notre atelier est à 65 km de Toulon. Le déplacement se justifie face à un devis de remplacement complet du système SCR, bien moins pour un simple niveau. Diagnostic dès 90 €, déduit.",
+    metaDesc: "Panne AdBlue depuis Toulon : diagnostic SCR dès 90 € déduit, réparation ciblée de 90 à 690 €, garantie 12 mois. Atelier à 1h10 par l'A50.",
+    intro: [
+      "Soyons concrets : notre atelier est à <strong>65 km et environ 1h10 de Toulon</strong> par l'A50, hors heures de pointe. Pour une panne AdBlue, ce trajet ne se justifie pas toujours. Un niveau à refaire, un bouchon mal refermé, un message qui disparaît après un plein : un garage toulonnais traitera cela aussi bien, sans plus de deux heures d'autoroute aller-retour.",
+      "En revanche, quand on vous annonce le <strong>remplacement de tout le système SCR</strong>, facturé de 1 500 à 2 500 € en concession, un second avis fondé sur un diagnostic composant par composant peut valoir le déplacement."
+    ],
+    sections: [
+      { h: "Les cas où venir a du sens", p: "Un devis global sans pièce clairement identifiée, un défaut qui revient après une première réparation, ou un véhicule hors garantie dont le propriétaire veut payer seulement ce qui est défaillant. Notre diagnostic, dès 90 € et déduit si la réparation suit chez nous, teste la pompe, l'injecteur d'AdBlue, le capteur de qualité et les sondes NOx. La réparation, de 90 à 690 € selon le composant, fait l'objet d'un devis écrit et d'une garantie de 12 mois." },
+      { h: "Les cas où il vaut mieux ne pas prendre l'A50", p: "Si le décompte en est à son dernier palier, faire 65 km est risqué : le compteur peut atteindre zéro avant l'atelier, et le moteur ne redémarrera plus au premier arrêt. Le remorquage depuis Toulon serait facturé 1,80 € par kilomètre, sur devis : l'assistance de votre contrat est alors plus adaptée. Enfin, l'A50 sature vers Marseille entre 7 h et 9 h ; un rendez-vous en milieu de journée ou le samedi est préférable." }
+    ],
+    faq: [
+      { q: "Comment savoir, depuis Toulon, si mon cas justifie le déplacement ?", a: "Appelez-nous avec les codes défauts relevés et le devis que l'on vous a remis. Nous vous dirons franchement si une réparation ciblée paraît possible, ou si un garage proche de chez vous peut s'en charger." },
+      { q: "La récupération du véhicule est-elle possible à Toulon ?", a: "Oui, une récupération longue distance peut être organisée sur devis personnalisé, selon votre adresse et la date souhaitée." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR neuve annoncée à Toulon ? Vérifier si un nettoyage suffit",
+    lead: "Une vanne EGR encrassée se nettoie pour 180 à 290 €, là où une pièce neuve d'origine coûte de 350 à 700 € avant pose. Pour un Toulonnais, l'écart peut justifier 1h10 de route.",
+    metaDesc: "Vanne EGR depuis Toulon : nettoyage ultrason et joints neufs de 180 à 290 € au lieu d'une pièce neuve, injecteurs dès 120 €, garantie 12 mois.",
+    intro: [
+      "Entre feux, ronds-points et remontées de file, une vanne EGR qui circule dans Toulon travaille beaucoup et se charge vite. Quand elle commence à provoquer des à-coups ou un voyant, la solution proposée peut être son <strong>remplacement</strong>. C'est parfois indispensable, mais pas toujours : si le mécanisme est seulement encrassé, un nettoyage complet lui rend son fonctionnement.",
+      "Notre méthode : déposer la vanne, la passer au <strong>bain ultrason haute température</strong>, la remonter avec des joints neufs. Pour un véhicule venu de Toulon, l'intervention peut s'organiser sur une journée."
+    ],
+    sections: [
+      { h: "Faire le tri entre nettoyage et remplacement", p: "Le diagnostic vérifie d'abord si la vanne répond à sa commande. Une vanne grippée par la calamine se nettoie, de 180 à 290 € selon le moteur. Une vanne dont le moteur électrique est hors service, ou qui est fissurée, doit être remplacée : nous vous le disons, devis à l'appui, et vous restez libre de la faire changer à Toulon. Les injecteurs, liés à l'encrassement de la vanne, se traitent par additif de 120 à 220 € ou après dépose de 290 à 490 €." },
+      { h: "Le trajet par l'A50", p: "Comptez 65 km et environ 1h10 par l'A50 jusqu'à la sortie La Penne-sur-Huveaune, puis la D4F. Évitez le créneau de 7 h à 9 h, où l'A50 sature vers Marseille. Une vanne encrassée n'empêche généralement pas de rouler ; en mode dégradé, restez prudent et prévenez-nous. Une récupération longue distance peut être étudiée sur devis. L'intervention est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Une vanne nettoyée tient-elle aussi longtemps qu'une neuve ?", a: "Si la cause de l'encrassement est traitée, le résultat tient de 60 000 à 100 000 km selon l'usage, moins en circulation très urbaine. Le diagnostic vous indique ce qui, en amont, salit la vanne." },
+      { q: "Pourquoi ne pas faire nettoyer la vanne près de Toulon ?", a: "C'est tout à fait possible si un garage proche la démonte et la nettoie réellement. Ce qui distingue notre approche, c'est un prix annoncé avant l'intervention, des joints neufs systématiques et un diagnostic qui écarte les fausses pistes avant le démontage." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP depuis Toulon : 90 minutes ou deux jours, la mesure décide",
+    lead: "Le voyage ne se prépare pas de la même façon pour une régénération sans démontage dès 250 € ou pour un bain ultrason de 390 à 650 €. Pour les Toulonnais, nous en parlons avant le départ.",
+    metaDesc: "Nettoyage FAP pour Toulon : régénération dès 250 € en 90 min ou bain ultrason de 390 à 650 € en 1 à 2 jours, diagnostic inclus. À 1h10 par l'A50.",
+    intro: [
+      "D'un quartier à l'autre de Toulon, de Saint-Roch à La Serinette ou à La Rode, les trajets sont courts et hachés : le filtre à particules d'un diesel atteint rarement la température nécessaire pour brûler ses suies. Quand il sature, deux traitements existent, et ils n'impliquent pas le même voyage.",
+      "Une <strong>régénération chimique sans démontage</strong> se fait en 90 minutes environ : vous attendez et repartez. Un <strong>bain ultrason</strong> après dépose immobilise la voiture un à deux jours : à 65 km de chez vous, cela se prépare."
+    ],
+    sections: [
+      { h: "Préparer le déplacement", p: "Le niveau de saturation se confirme à l'atelier par la mesure de contre-pression, comprise dans le prix. Avant votre venue, quelques indications, depuis quand le voyant est allumé, mode dégradé ou non, kilométrage, régénérations qui semblent interrompues, nous permettent déjà d'estimer la méthode probable et de vous dire s'il faut envisager une nuit sans voiture. La régénération sans démontage démarre à 250 € ; le bain ultrason coûte de 390 à 650 €. Garantie 12 mois." },
+      { h: "Le trajet retour, utile au filtre", p: "Après une régénération, les 65 km de l'A50 jusqu'à Toulon sont un bon début : à régime stable, ils aident le filtre à achever son nettoyage. Ensuite, glisser dans le mois un trajet d'une trentaine de kilomètres à vitesse soutenue limite la rechute. Si la céramique est abîmée, nous proposons un FAP reconditionné, environ deux fois moins cher qu'un neuf. Une récupération longue distance est possible sur devis." }
+    ],
+    faq: [
+      { q: "Le voyant FAP s'allume sur l'A50 en venant : faut-il s'arrêter ?", a: "Pas forcément. Si la voiture garde sa puissance, continuez à allure stable : le filtre profite parfois de ce trajet pour se régénérer. Si elle passe en mode dégradé, roulez sur la voie de droite et appelez-nous dès que vous êtes arrêté en sécurité." },
+      { q: "Si le bain ultrason s'impose, dois-je rentrer à Toulon sans voiture ?", a: "Oui, la voiture reste à l'atelier un à deux jours. Selon votre situation, une récupération longue distance sur devis peut vous éviter ces allers-retours, ou vous revenez la chercher une fois le filtre remonté." }
+    ]
   }
 };

@@ -89,5 +89,41 @@ module.exports = {
       { q: "Le symptôme n'apparaît qu'en montée, pourrez-vous le constater ?", a: "Un défaut survenu en charge peut être mémorisé par le calculateur avec ses conditions. Si nécessaire, l'essai routier sert à reproduire l'effort pendant les mesures." },
       { q: "Mon véhicule est un hybride, est-ce possible ?", a: "Oui pour les hybrides légers et rechargeables, partie thermique comprise. Sur un 100 % électrique, la batterie de traction relève de spécialistes habilités haute tension." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Défaut AdBlue à Saint-Zacharie : descendre la vallée à temps",
+    lead: "Message AdBlue au départ du village ? Par la D560 ou l'A52, l'atelier est à 35 minutes : venez tant que le décompte le permet. Diagnostic SCR dès 90 €, déduit si vous réparez chez nous.",
+    metaDesc: "Panne AdBlue à Saint-Zacharie : diagnostic SCR dès 90 € déduit, réparation ciblée de 90 à 690 €, garantie 12 mois, récupération à domicile possible.",
+    intro: [
+      "Tout en haut de la vallée de l'Huveaune, Saint-Zacharie est le dernier village avant le massif. Pour rejoindre la métropole, chaque trajet commence par la descente vers Auriol, et chaque retour par la remontée. Quand un diesel affiche un <strong>défaut du système AdBlue</strong>, cette géographie a son importance : une voiture bloquée au village doit être redescendue sur un plateau.",
+      "Le système SCR prévient avant de bloquer : un voyant, puis un décompte de kilomètres. Ce délai suffit pour venir par la route, à condition de ne pas le laisser filer au fil des allers-retours quotidiens."
+    ],
+    sections: [
+      { h: "Choisir son itinéraire et son heure", p: "L'itinéraire de référence suit la D560 jusqu'à Auriol, puis la vallée et la D4F ; en heure creuse, l'A52 puis l'A50 depuis Auriol vont plus vite. Comptez 32 km et environ 35 minutes. La D560 se charge le matin dans le sens de la descente : un rendez-vous en milieu de journée évite de rester au ralenti avec un moteur déjà en défaut. Si vous préférez ne pas conduire, notre récupération à domicile s'étend jusqu'au village." },
+      { h: "Réparer la seule pièce en cause", p: "Le diagnostic, dès 90 € et déduit si la réparation suit chez nous, distingue une pompe grippée, un injecteur d'AdBlue cristallisé, un capteur de qualité ou une sonde NOx hors service. Le devis écrit nomme la pièce et son prix, de 90 à 690 € selon le composant. Une fois la réparation faite, le système dépollue de nouveau, les codes sont effacés et la garantie court sur 12 mois." }
+    ],
+    faq: [
+      { q: "La voiture est déjà bloquée au village : combien coûte le remorquage ?", a: "Saint-Zacharie est à 32 km de l'atelier, au-delà de notre forfait de 25 km : le remorquage est facturé 1,80 € par kilomètre, sur devis, majoré de 50 % la nuit, le dimanche et les jours fériés. L'assistance de votre assurance peut être une alternative." },
+      { q: "Faut-il refaire le plein d'AdBlue avant de venir ?", a: "Si le niveau est bas, oui : un réservoir presque vide peut à lui seul déclencher le décompte, et il vaut mieux écarter cette cause simple. Si le message persiste réservoir plein, la panne est ailleurs et le diagnostic s'impose." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Ralenti instable à Saint-Zacharie : la vanne EGR restée ouverte ?",
+    lead: "Moteur qui tremble au ralenti, cale à l'arrêt ou fume moteur tournant ? Une vanne EGR qui ne se referme plus en est souvent la cause. Diagnostic, puis nettoyage ultrason de 180 à 290 €.",
+    metaDesc: "Vanne EGR à Saint-Zacharie : ralenti instable ou calage, nettoyage ultrason et joints neufs de 180 à 290 €, garantie 12 mois. Atelier à 35 min.",
+    intro: [
+      "On associe souvent la vanne EGR à un manque de puissance. Elle peut aussi se signaler à l'arrêt : lorsqu'un dépôt de calamine l'empêche de se refermer, des gaz d'échappement continuent d'arriver à l'admission au ralenti. Le moteur tourne alors de façon irrégulière, vibre, et peut <strong>caler</strong> au moment de s'immobiliser.",
+      "Sur les trajets de Saint-Zacharie, entre la descente vers Auriol, les arrêts dans la traversée du bourg et les ralentissements de la vallée, ces moments au ralenti ne manquent pas. C'est là que le défaut se remarque le plus."
+    ],
+    sections: [
+      { h: "Une vanne ouverte, ou autre chose ?", p: "Un ralenti instable peut aussi venir d'une prise d'air ou d'un injecteur qui fuit. Le diagnostic compare la position réelle de la vanne à sa consigne, lit les défauts enregistrés et contrôle l'injection. Si la vanne est en cause, elle est déposée, débarrassée de sa calamine en bain ultrason haute température et remontée avec des joints neufs : de 180 à 290 € selon le moteur, garantie 12 mois." },
+      { h: "Le trajet depuis la haute vallée", p: "L'atelier est à 32 km, environ 35 minutes par la D560 et la vallée de l'Huveaune, ou par l'A52 et l'A50 en heure creuse. Un moteur qui cale au ralenti reste en général conduisible, mais évitez les heures de pointe pour limiter les arrêts. La récupération à domicile, proposée jusqu'à Saint-Zacharie, évite aussi de faire la route soi-même. Si les injecteurs demandent un traitement, comptez de 120 à 220 € par additif ou de 290 à 490 € après dépose." }
+    ],
+    faq: [
+      { q: "Pourquoi le moteur tourne-t-il bien en roulant mais mal à l'arrêt ?", a: "En charge, le moteur aspire beaucoup d'air et tolère quelques gaz recyclés en trop. Au ralenti, il en demande très peu : la moindre fuite par une vanne mal fermée déséquilibre alors le mélange." },
+      { q: "Une vanne qui ne ferme plus se répare-t-elle, ou faut-il la changer ?", a: "Si c'est la calamine qui la bloque, le nettoyage lui rend sa course complète. Si son moteur électrique est hors service, elle doit être remplacée ; une vanne neuve d'origine coûte de 350 à 700 € en pièce, ce que nous chiffrons avant toute décision." }
+    ]
   }
 };

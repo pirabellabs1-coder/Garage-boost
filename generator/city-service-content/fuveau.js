@@ -107,5 +107,59 @@ module.exports = {
       { q: "Dois-je apporter le devis du premier garage ?", a: "C'est utile, ainsi que tout compte-rendu de lecture déjà réalisé. Nous faisons cependant notre propre analyse, sans nous contenter de reprendre les conclusions précédentes." },
       { q: "Suis-je obligé de faire réparer chez vous après le diagnostic ?", a: "Non. Vous repartez avec le compte-rendu et décidez librement. Le diagnostic n'est offert que si vous validez la réparation à l'atelier." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Contrôle technique en vue à Fuveau avec un voyant AdBlue allumé",
+    lead: "Votre diesel passe bientôt le contrôle technique et un défaut AdBlue reste affiché ? Faites localiser la panne avant le rendez-vous : diagnostic du système SCR dès 90 €, déduit de la réparation.",
+    metaDesc: "Voyant AdBlue avant le contrôle technique à Fuveau : diagnostic SCR dès 90 € déduit, réparation de 90 à 690 €, remise en conformité, garantie 12 mois.",
+    intro: [
+      "Le système AdBlue fait partie de la dépollution du véhicule : il neutralise les oxydes d'azote grâce à l'urée injectée dans l'échappement. Un témoin allumé signale que ce traitement ne se fait plus correctement, et se présenter au <strong>contrôle technique</strong> dans cet état n'est pas la meilleure façon d'aborder la visite.",
+      "Plutôt que d'effacer le défaut en espérant qu'il ne revienne pas avant le passage, mieux vaut identifier la pièce en cause et la remettre en état. C'est plus sûr, et souvent moins coûteux qu'on ne le redoute."
+    ],
+    sections: [
+      { h: "Le bon ordre avant la visite", p: "Prenez rendez-vous à l'atelier une à deux semaines avant le contrôle si possible, pour laisser le temps de commander une pièce si nécessaire. Le diagnostic, <strong>dès 90 €</strong>, teste capteur de qualité, sondes NOx, pompe et injecteur d'AdBlue, puis débouche sur un devis écrit. Une fois la réparation faite, nous effaçons les codes, réinitialisons le décompte et vérifions sur route que la dépollution fonctionne." },
+      { h: "Ce que coûte une remise en conformité", p: "Selon que l'on décristallise une pompe ou un injecteur ou que l'on remplace une pièce, la réparation va de 90 à 690 € : un capteur de qualité compte de 200 à 400 €, une sonde NOx de 350 à 650 €. Le remplacement intégral du système, facturé 1 500 à 2 500 € en concession, est rarement justifié. L'intervention est garantie 12 mois. Fuveau est à une demi-heure de l'atelier par la D6 et l'A51." }
+    ],
+    faq: [
+      { q: "Mon contrôle est dans trois jours : est-ce jouable ?", a: "Souvent, si la pièce est disponible rapidement ou si une décristallisation suffit. Appelez-nous en indiquant la date : nous vous proposons le premier créneau de diagnostic et vous disons honnêtement si le délai est tenable." },
+      { q: "Pourquoi le diagnostic AdBlue coûte-t-il plus cher que celui d'un voyant moteur ?", a: "Parce qu'il ne se limite pas à lire un code : chaque composant du circuit, capteur, sondes, pompe et injecteur, est testé pour isoler celui qui fait défaut. Ces 90 € sont déduits de la facture si vous nous confiez la réparation." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Ralenti irrégulier ou calage à Fuveau : la vanne EGR coincée ?",
+    lead: "Un diesel qui tremble à l'arrêt, cale en arrivant au stop ou peine à repartir peut avoir une vanne EGR restée ouverte. Diagnostic, puis nettoyage ultrason avec joints neufs de 180 à 290 €.",
+    metaDesc: "Ralenti instable ou calage à Fuveau : contrôle de la vanne EGR, nettoyage par ultrason avec joints neufs de 180 à 290 €, injecteurs dès 120 €.",
+    intro: [
+      "La vanne EGR doit se refermer quand le moteur tourne au ralenti ou réclame de l'air frais. Si des dépôts de suie l'en empêchent, une partie des gaz d'échappement continue d'entrer dans l'admission : le moteur respire mal, le <strong>ralenti devient irrégulier</strong> et il peut caler au moment de s'arrêter, par exemple à un stop du centre-village de Fuveau.",
+      "Le symptôme inverse existe aussi : vanne bloquée fermée, voyant moteur et parfois fumée à l'accélération. Dans les deux cas, la mécanique de la vanne est souvent intacte sous la couche de dépôts."
+    ],
+    sections: [
+      { h: "Vérifier avant de démonter", p: "Un ralenti instable peut aussi venir des injecteurs, d'une prise d'air ou d'un capteur. Nous lisons d'abord les codes, comparons la position demandée à la vanne avec sa position réelle et mesurons le débit des injecteurs. Si la vanne est en cause, elle est déposée, passée en <strong>bain ultrason haute température</strong> et remontée avec des joints neufs. Si la cause dépasse l'admission et l'antipollution, vous le savez dès ce stade." },
+      { h: "Tarifs et organisation depuis Fuveau", p: "Le nettoyage de la vanne coûte de 180 à 290 € selon le moteur. Si les injecteurs sont aussi encrassés, ils sont traités dans la foulée : de 120 à 220 € par additif, de 290 à 490 € après démontage et ultrason. Garantie 12 mois. L'atelier est à 26 km par la D6 vers Gardanne puis l'A51 ; le trajet est nettement plus fluide en milieu de journée que le matin." }
+    ],
+    faq: [
+      { q: "Ma voiture a calé plusieurs fois : puis-je encore rouler jusqu'à l'atelier ?", a: "Si le moteur repart sans difficulté et ne cale qu'au ralenti, le trajet par la D6 et l'A51 reste en général possible, hors heures chargées. S'il cale aussi en roulant ou si un voyant rouge s'allume, ne prenez pas de risque et faites remorquer la voiture." },
+      { q: "Pourquoi la vanne ne se nettoie-t-elle pas toute seule en roulant ?", a: "Les dépôts de suie mêlée de vapeurs d'huile durcissent avec la chaleur et adhèrent au clapet. Un trajet sur autoroute limite leur formation mais ne les décolle pas une fois installés ; seul le démontage permet d'y accéder." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Voyant FAP à Fuveau : vérifier que le filtre est vraiment en cause",
+    lead: "Un témoin de filtre à particules n'accuse pas toujours le filtre lui-même. Avant tout nettoyage, notre diagnostic inclus vérifie capteur, vanne EGR et débitmètre, puis régénère dès 250 € si besoin.",
+    metaDesc: "Voyant FAP à Fuveau : diagnostic inclus pour trouver la vraie cause, régénération dès 250 €, bain ultrason 390 à 650 €. Atelier à 30 min par la D6.",
+    intro: [
+      "Le calculateur juge l'état du filtre à particules grâce à un <strong>capteur de pression différentielle</strong> qui compare la pression avant et après le filtre. Si ce capteur ou son tuyau est en défaut, le voyant peut s'allumer sur un filtre qui n'est pas plein. À l'inverse, une vanne EGR encrassée ou un débitmètre faussé peuvent produire trop de suie et remplir un filtre sain en un temps record.",
+      "Nettoyer le filtre sans regarder ce qui l'entoure, c'est s'exposer à revoir le témoin quelques semaines plus tard. À Fuveau comme ailleurs, la mesure vient donc en premier."
+    ],
+    sections: [
+      { h: "Ce que vérifie le diagnostic avant de toucher au filtre", p: "Lecture des défauts mémorisés, contrôle de la cohérence du capteur, mesure réelle de la contre-pression et du taux de saturation, examen du support céramique : ces étapes sont <strong>comprises dans le prix</strong> du nettoyage. Si la cause se situe ailleurs, sur la vanne EGR par exemple, nous vous présentons le devis correspondant. Si elle sort de l'antipollution, nous vous le disons clairement plutôt que de nettoyer un filtre qui n'en a pas besoin." },
+      { h: "Quand le filtre est bien saturé", p: "Deux méthodes existent selon la charge mesurée : une <strong>régénération chimique sans démontage</strong>, avec un additif introduit par la prise de pression et une montée en température pilotée, à partir de 250 € et en 90 minutes environ ; ou un nettoyage après dépose en bain ultrason, de 390 à 650 €, sur un à deux jours. Une mesure finale et l'effacement des défauts précèdent l'essai routier. Depuis Fuveau, le trajet est plus rapide en milieu de journée." }
+    ],
+    faq: [
+      { q: "Le voyant FAP peut-il venir d'un simple tuyau ?", a: "Oui, une durite de prise de pression percée ou débranchée peut fausser la mesure et déclencher l'alerte. C'est l'un des premiers points que nous contrôlons, car la remise en état est alors bien plus simple qu'un nettoyage." },
+      { q: "Faut-il prévoir de rester à Plan-de-Cuques pendant l'intervention ?", a: "Pour une régénération sans démontage, vous pouvez attendre sur place ou revenir dans la journée. Pour un bain ultrason, la voiture reste un à deux jours ; la récupération du véhicule à Fuveau est possible si vous ne souhaitez pas faire deux fois la route." }
+    ]
   }
 };

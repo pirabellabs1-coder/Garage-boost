@@ -89,5 +89,41 @@ module.exports = {
       { q: "Diagnostiquez-vous les 4x4 et pick-up de toutes marques ?", a: "Oui, notre lecture est multimarque et couvre les motorisations essence, diesel et hybrides. Les marques asiatiques et américaines sont comprises." },
       { q: "Mon pick-up démarre mal seulement à froid, le verrez-vous à l'atelier ?", a: "Un défaut de démarrage à froid peut laisser une trace dans le calculateur, que nous lisons. Signalez-le à la prise de rendez-vous : cela oriente les mesures à réaliser." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "AdBlue à zéro, démarrage refusé à Eyguières : faire venir le véhicule",
+    lead: "Le décompte AdBlue est arrivé au bout et le moteur ne démarre plus ? À 55 km de l'atelier, le remorquage est facturé au kilomètre : voici comment choisir la solution la moins coûteuse.",
+    metaDesc: "Démarrage bloqué par l'AdBlue à Eyguières : remorquage 1,80 €/km sur devis ou assistance, diagnostic SCR dès 90 €, réparation de 90 à 690 €.",
+    intro: [
+      "Quand le compte à rebours AdBlue atteint zéro, le calculateur refuse un nouveau démarrage. Un pick-up laissé près d'une parcelle ou une camionnette garée au village reste alors immobile tant que la panne n'est pas réparée. Première vérification : le niveau. Si le réservoir était simplement vide, un plein d'AdBlue peut suffire à lever le blocage ; en cas de doute, appelez-nous avant de faire déplacer qui que ce soit. Si le niveau est bon, c'est le <strong>système SCR</strong> qui est en défaut.",
+      "Il faut alors acheminer le véhicule. Eyguières se trouve à 55 km de Plan-de-Cuques, bien au-delà de nos forfaits de 89 € sous 10 km et de 149 € sous 25 km."
+    ],
+    sections: [
+      { h: "Remorquage ou assistance : comparer honnêtement", p: "Au-delà de 25 km, notre remorquage est facturé <strong>1,80 € par kilomètre</strong>, sur devis communiqué avant le départ, avec une majoration de 50 % la nuit, le dimanche et les jours fériés. Sur une telle distance, la somme n'est pas négligeable. Si votre assurance ou votre carte bancaire comprend une assistance panne, appelez-la d'abord : elle peut acheminer le véhicule jusqu'au garage de votre choix, y compris le nôtre. Notre plateau prend en charge les voitures et les utilitaires légers." },
+      { h: "Une fois à l'atelier", p: "Le diagnostic du système SCR, <strong>dès 90 €</strong> et déduit de la facture si vous faites réparer chez nous, localise la pièce en cause : capteur de qualité, pompe ou injecteur AdBlue, sonde NOx, ou cristaux à dissoudre. Le devis écrit précède la réparation, de 90 à 690 € selon le composant. Après remise en état, les codes sont effacés, le blocage levé et le véhicule essayé sur route, avec une garantie de 12 mois." }
+    ],
+    faq: [
+      { q: "Peut-on éviter le blocage en réagissant plus tôt ?", a: "Oui. Le décompte laisse plusieurs centaines de kilomètres : avec 58 à 65 minutes de route par la D569 et l'A7, appeler dès la première alerte laisse en général le temps de venir par vos propres moyens et d'économiser le remorquage." },
+      { q: "Pouvez-vous faire redémarrer le véhicule sur place ?", a: "Pas lorsque le système SCR est en défaut : le blocage ne se lève qu'après réparation de la pièce en cause, ce qui demande l'atelier. Seul un réservoir simplement vide se règle sur place, par un plein." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Camionnette chargée qui fume à Eyguières : vanne EGR et injecteurs",
+    lead: "Un plateau rempli de caisses ou de matériel, et le moteur fume noir à chaque relance ? Le poids révèle un encrassement de l'EGR ou des injecteurs. Nettoyage de la vanne de 180 à 290 €.",
+    metaDesc: "Fumée noire en charge à Eyguières : vanne EGR nettoyée de 180 à 290 €, injecteurs de 120 à 490 € selon la méthode, garantie 12 mois. Atelier à 58 min.",
+    intro: [
+      "À vide, la camionnette semble en forme. C'est avec du poids, caisses de récolte, outillage, matériaux, que les défauts se montrent : panache sombre au départ d'un carrefour, moteur qui manque de couple sur la D569, besoin de rétrograder plus tôt qu'avant. La charge réclame davantage de carburant, et une combustion déjà imparfaite laisse alors passer plus de suie.",
+      "Sur un diesel de travail, deux suspects se présentent d'emblée : la <strong>vanne EGR</strong>, qui renvoie des gaz chargés vers l'admission, et les <strong>injecteurs</strong>, qui pulvérisent mal le gazole. L'un entretient l'autre : un injecteur encrassé produit de la suie, qui colmate la vanne."
+    ],
+    sections: [
+      { h: "Contrôler dans des conditions proches de la réalité", p: "Après la lecture des codes, nous mesurons le débit des injecteurs et vérifions l'ouverture commandée de la vanne. Si le défaut n'apparaît qu'avec du poids, signalez-le à la réservation : un essai routier complète les mesures. Le diagnostic distingue ainsi l'encrassement, qui se nettoie, d'une pièce usée, qui se remplace." },
+      { h: "Les traitements et leurs prix", p: "Vanne EGR : dépose, bain ultrason et <strong>joints neufs</strong>, de 180 à 290 € selon la motorisation. Injecteurs peu encrassés : additif professionnel, de 120 à 220 €. Injecteurs chargés de gomme et de calamine : dépose et nettoyage ultrason, de 290 à 490 €. Un injecteur mécaniquement défaillant ne se répare pas par un nettoyage ; son remplacement est chiffré à part. Avec près d'une heure de trajet par la D569 et l'A7, nous regroupons ces opérations sur un même rendez-vous, de préférence hors de la pleine saison." }
+    ],
+    faq: [
+      { q: "Faut-il venir avec la camionnette chargée ?", a: "Ce n'est pas nécessaire : décrivez-nous précisément les conditions dans lesquelles le défaut apparaît. Les mesures à l'atelier et l'essai routier suffisent en général à le reproduire ou à en retrouver la trace." },
+      { q: "Le nettoyage tiendra-t-il avec un usage aussi intensif ?", a: "Il tient de 60 000 à 100 000 km lorsque la cause de l'encrassement est traitée, moins sur un usage très dur. Un décalaminage hydrogène tous les 30 000 km environ aide à prolonger le résultat." }
+    ]
   }
 };

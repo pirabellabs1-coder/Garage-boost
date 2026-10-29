@@ -336,7 +336,7 @@
     },
     {
       "source": "/maintenance-moteur-anti-pollution/traitement-egr-injecteurs/nettoyage-egr-injecteurs-var-vaucluse-alpes-maritimes",
-      "destination": "/maintenance-moteur/traitement-egr/var-vaucluse-alpes-maritimes",
+      "destination": "/maintenance-moteur/traitement-egr/toulon",
       "permanent": true
     },
     {
@@ -501,7 +501,7 @@
     },
     {
       "source": "/maintenance-moteur-anti-pollution/traitement-egr-injecteurs/traitement-injecteurs-gardanne-aix-en-provence",
-      "destination": "/maintenance-moteur/traitement-egr/gardanne-aix-en-provence",
+      "destination": "/maintenance-moteur/traitement-egr/aix-en-provence",
       "permanent": true
     },
     {
@@ -771,12 +771,12 @@
     },
     {
       "source": "/maintenance-moteur/nettoyage-fap/vitrolles-marignane-martigues",
-      "destination": "/maintenance-moteur/nettoyage-fap/marignane",
+      "destination": "/maintenance-moteur/nettoyage-fap/vitrolles",
       "permanent": true
     },
     {
       "source": "/maintenance-moteur/nettoyage-fap/vitrolles-marignane-martigues.html",
-      "destination": "/maintenance-moteur/nettoyage-fap/marignane",
+      "destination": "/maintenance-moteur/nettoyage-fap/vitrolles",
       "permanent": true
     },
     {
@@ -791,12 +791,12 @@
     },
     {
       "source": "/maintenance-moteur/traitement-egr/vitrolles-marignane-martigues",
-      "destination": "/maintenance-moteur/traitement-egr/marignane",
+      "destination": "/maintenance-moteur/traitement-egr/vitrolles",
       "permanent": true
     },
     {
       "source": "/maintenance-moteur/traitement-egr/vitrolles-marignane-martigues.html",
-      "destination": "/maintenance-moteur/traitement-egr/marignane",
+      "destination": "/maintenance-moteur/traitement-egr/vitrolles",
       "permanent": true
     },
     {
@@ -931,12 +931,12 @@
     },
     {
       "source": "/maintenance-moteur/gestion-adblue/vitrolles-marignane-martigues",
-      "destination": "/maintenance-moteur/gestion-adblue/marignane",
+      "destination": "/maintenance-moteur/gestion-adblue/vitrolles",
       "permanent": true
     },
     {
       "source": "/maintenance-moteur/gestion-adblue/vitrolles-marignane-martigues.html",
-      "destination": "/maintenance-moteur/gestion-adblue/marignane",
+      "destination": "/maintenance-moteur/gestion-adblue/vitrolles",
       "permanent": true
     },
     {
@@ -957,6 +957,66 @@
     {
       "source": "/maintenance-moteur/traitement-egr/aubagne-la-ciotat-cassis.html",
       "destination": "/maintenance-moteur/traitement-egr/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/nettoyage-fap/gardanne-aix-en-provence",
+      "destination": "/maintenance-moteur/nettoyage-fap/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/nettoyage-fap/gardanne-aix-en-provence.html",
+      "destination": "/maintenance-moteur/nettoyage-fap/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/nettoyage-fap/var-vaucluse-alpes-maritimes",
+      "destination": "/maintenance-moteur/nettoyage-fap/toulon",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/nettoyage-fap/var-vaucluse-alpes-maritimes.html",
+      "destination": "/maintenance-moteur/nettoyage-fap/toulon",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/gestion-adblue/gardanne-aix-en-provence",
+      "destination": "/maintenance-moteur/gestion-adblue/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/gestion-adblue/gardanne-aix-en-provence.html",
+      "destination": "/maintenance-moteur/gestion-adblue/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/gestion-adblue/var-vaucluse-alpes-maritimes",
+      "destination": "/maintenance-moteur/gestion-adblue/toulon",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/gestion-adblue/var-vaucluse-alpes-maritimes.html",
+      "destination": "/maintenance-moteur/gestion-adblue/toulon",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/traitement-egr/gardanne-aix-en-provence",
+      "destination": "/maintenance-moteur/traitement-egr/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/traitement-egr/gardanne-aix-en-provence.html",
+      "destination": "/maintenance-moteur/traitement-egr/aix-en-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/traitement-egr/var-vaucluse-alpes-maritimes",
+      "destination": "/maintenance-moteur/traitement-egr/toulon",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur/traitement-egr/var-vaucluse-alpes-maritimes.html",
+      "destination": "/maintenance-moteur/traitement-egr/toulon",
       "permanent": true
     }
   ],

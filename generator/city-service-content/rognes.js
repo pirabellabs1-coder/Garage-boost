@@ -89,5 +89,59 @@ module.exports = {
       { q: "Le voyant moteur s'est allumé en montant vers la Trévaresse, puis-je finir mon trajet ?", a: "S'il est orange, fixe, et que la voiture se comporte normalement, vous pouvez en général rejoindre votre destination en roulant calmement avant de faire contrôler. S'il est rouge ou clignote, ou si un bruit ou une perte de puissance l'accompagne, arrêtez-vous et appelez-nous." },
       { q: "Pouvez-vous simplement effacer le voyant ?", a: "Nous ne le faisons pas sans avoir traité sa cause : un voyant effacé se rallume tant que le défaut persiste, et l'effacer fait disparaître des informations utiles au diagnostic." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Démarrage refusé par l'AdBlue à Rognes : rapatrier puis réparer",
+    lead: "Le décompte est arrivé à zéro et le diesel ne démarre plus à Rognes ? La voiture doit être transportée jusqu'à l'atelier, à 45 km. Voici comment limiter les frais, puis réparer avec un diagnostic dès 90 €.",
+    metaDesc: "Diesel bloqué par l'AdBlue à Rognes : remorquage sur devis ou via votre assistance, diagnostic SCR dès 90 € déduit, réparation de 90 à 690 €.",
+    intro: [
+      "Quand le compte à rebours d'un système AdBlue en défaut atteint zéro, le moteur ne redémarre plus après l'arrêt. Ce n'est pas une panne mécanique : c'est une protection prévue par le constructeur pour qu'un véhicule ne circule pas sans traitement des oxydes d'azote. La conséquence, elle, est bien réelle : la voiture reste immobilisée, dans la cour ou au bord d'une route de la Trévaresse.",
+      "Rognes étant à 45 km de l'atelier, le transport pèse dans le budget. Autant le maîtriser <strong>avant d'appeler une dépanneuse</strong>."
+    ],
+    sections: [
+      { h: "Organiser le transport au meilleur coût", p: "Commencez par votre contrat d'assurance ou l'assistance liée à votre carte bancaire : il peut prévoir un dépannage, parfois dès 0 km. Indiquez comme destination Garage Boost, 1 avenue des Pères Blancs à Plan-de-Cuques. Sans assistance, notre remorquage reste possible : au-delà de 25 km, il est calculé à raison de 1,80 € du kilomètre, sur devis, majoré de moitié la nuit, le dimanche et les jours fériés." },
+      { h: "Une fois la voiture à l'atelier", p: "Le <strong>diagnostic du système SCR</strong>, dès 90 € et déduit de la réparation, identifie la pièce qui a provoqué le défaut : capteur de qualité, sonde NOx, pompe ou injecteur d'additif, parfois simplement cristallisés. Après validation du devis, la pièce est réparée ou remplacée, de 90 à 690 € selon le cas, puis les codes sont effacés et le décompte réinitialisé. Le véhicule redémarre et dépollue de nouveau ; garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Combien coûterait le remorquage depuis Rognes ?", a: "Le montant dépend du point de départ exact et de l'horaire : nous l'établissons avant de partir, sur la base du tarif kilométrique applicable au-delà de 25 km. C'est pourquoi l'assistance de votre assurance, si vous en disposez, est à solliciter en premier." },
+      { q: "Comment éviter d'en arriver là la prochaine fois ?", a: "En consultant dès le premier message AdBlue, quand il reste plusieurs centaines de kilomètres : la voiture vient alors par la route, sans frais de transport. Un défaut qui va et vient mérite aussi une lecture des codes, même si le voyant s'éteint." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR à Rognes : savoir si elle se nettoie avant de partir",
+    lead: "Une vanne EGR encrassée se nettoie, une vanne au moteur électrique hors service se remplace. Depuis Rognes, mieux vaut connaître le scénario tôt : nettoyage de 180 à 290 €, joints neufs compris.",
+    metaDesc: "Vanne EGR depuis Rognes : nettoyage par ultrason de 180 à 290 €, remplacement chiffré si la vanne est hors service, garantie 12 mois. À 45 min.",
+    intro: [
+      "Le symptôme est souvent le même, perte de puissance, à-coups, voyant moteur, mais deux réalités différentes peuvent se cacher derrière. Dans le premier cas, la <strong>vanne EGR</strong> est simplement encrassée par la suie et les vapeurs d'huile : un nettoyage la remet en service. Dans le second, son moteur électrique est défaillant, et aucun nettoyage n'y changera rien.",
+      "À 45 minutes de l'atelier, la différence compte : elle détermine le coût, mais aussi le nombre de trajets entre Rognes et Plan-de-Cuques."
+    ],
+    sections: [
+      { h: "Ce qui aide à préparer le rendez-vous", p: "Un code défaut déjà relevé par un autre garage, la présence de fumée noire, des à-coups permanents ou seulement occasionnels : ces informations, données au téléphone, orientent la préparation. Elles ne remplacent pas le diagnostic, qui teste la vanne à l'atelier, mais permettent par exemple de vérifier à l'avance la disponibilité d'une pièce si un remplacement paraît probable." },
+      { h: "Les deux devis possibles", p: "Vanne récupérable : dépose, <strong>bain ultrason haute température</strong>, joints neufs, remontage au couple et essai routier, pour 180 à 290 €. Vanne hors service : remplacement par une pièce d'origine, dont le prix se situe entre 350 et 700 € pour la pièce seule. Dans les deux cas, le devis est validé avant intervention et le travail est garanti 12 mois. La récupération du véhicule à Rognes est offerte au-delà de 200 € validés." }
+    ],
+    faq: [
+      { q: "Un autre garage m'a dit que la vanne était morte : pouvez-vous vérifier ?", a: "Oui. Le diagnostic contrôle la réponse électrique de la vanne et son état mécanique. S'il confirme le verdict, nous chiffrons le remplacement ; s'il s'agit d'un encrassement, le nettoyage suffit et coûte nettement moins." },
+      { q: "Les camions de carrière que je suis sur la D543 y sont-ils pour quelque chose ?", a: "Indirectement. Ce qui encrasse une vanne EGR, c'est surtout un moteur qui tourne longtemps à bas régime ou au ralenti, situation fréquente quand on roule au pas derrière un poids lourd ou qu'on attend moteur allumé." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Nettoyage FAP depuis Rognes : un aller-retour bien préparé",
+    lead: "Trois quarts d'heure de route jusqu'à l'atelier : le nettoyage du filtre à particules se prépare. Selon la saturation, 90 minutes sur place dès 250 €, ou un à deux jours en bain ultrason.",
+    metaDesc: "Nettoyage FAP pour Rognes : régénération en 90 min dès 250 €, bain ultrason 390 à 650 € sur 1 à 2 jours, récupération offerte. Atelier à 45 min.",
+    intro: [
+      "Rognes est la commune la plus éloignée de notre secteur : 45 km par la D543, la D14, l'A51 puis la rocade L2, soit environ 45 minutes quand la circulation le permet. Pour un nettoyage de filtre à particules, l'enjeu n'est donc pas seulement technique : il s'agit de savoir si vous repartirez le jour même ou si la voiture restera à l'atelier.",
+      "Tout dépend de la <strong>charge du filtre</strong>, que seule une mesure établit. Mais quelques indices, recueillis avant le rendez-vous, permettent d'organiser la journée au mieux."
+    ],
+    sections: [
+      { h: "Ce qu'il est utile de nous dire avant", p: "Depuis quand le voyant est-il allumé, la voiture est-elle passée en mode dégradé, des régénérations ont-elles été tentées sans succès, le filtre a-t-il déjà été nettoyé ? Ces réponses ne remplacent pas la mesure, mais elles indiquent si une régénération sans dépose a des chances de suffire ou s'il faut prévoir l'immobilisation plus longue du bain ultrason." },
+      { h: "Deux scénarios pour la journée", p: "<strong>Régénération sans démontage</strong>, de 250 à 450 € : environ 90 minutes, que l'on peut attendre à l'atelier ou mettre à profit pour une course à proximité. <strong>Dépose et bain ultrason</strong>, de 390 à 650 € : un à deux jours, pendant lesquels la récupération et la restitution du véhicule à Rognes, offertes pour cette intervention, vous évitent deux trajets de trois quarts d'heure. Diagnostic préalable inclus, garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Le trajet par l'A51 ne va-t-il pas régénérer le filtre tout seul ?", a: "Il peut aider un filtre légèrement chargé, mais un filtre assez saturé pour allumer le voyant ne se vide généralement pas sur un seul trajet. Si la voiture est en mode dégradé, évitez de forcer sur l'autoroute et demandez plutôt la récupération." },
+      { q: "Que faire si la voiture ne peut plus rouler du tout ?", a: "Au-delà de 25 km, le transport par dépanneuse se paie au kilomètre, 1,80 €, sur devis, avec une majoration la nuit, le dimanche et les jours fériés. Si votre contrat prévoit une assistance, sollicitez-la en premier en indiquant notre adresse à Plan-de-Cuques." }
+    ]
   }
 };

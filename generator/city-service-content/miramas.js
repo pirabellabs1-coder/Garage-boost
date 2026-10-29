@@ -89,5 +89,41 @@ module.exports = {
       { q: "Peut-on rouler jusqu'à Plan-de-Cuques en mode dégradé ?", a: "Un mode dégradé sans autre alerte permet en général de rouler calmement, mais un voyant rouge, une fumée importante ou un bruit anormal imposent l'arrêt. En cas de doute, appelez-nous avant de prendre la route." },
       { q: "Effacer le voyant suffit-il pour finir la tournée ?", a: "Non, nous ne le faisons pas : sans traitement de la cause, le défaut revient au démarrage suivant, parfois au pire moment." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Décompte AdBlue à Miramas : les 50 km comptent dans le calcul",
+    lead: "Le tableau de bord annonce les kilomètres restants avant blocage du démarrage ? Depuis Miramas, l'atelier est à 50 km par l'A54 et l'A7 : voici comment décider, avant un diagnostic SCR dès 90 €.",
+    metaDesc: "Décompte AdBlue à Miramas : diagnostic SCR dès 90 € déduit de la réparation, réparation de 90 à 690 €, garantie 12 mois. À 55 min par l'A54 et l'A7.",
+    intro: [
+      "Quand le système AdBlue détecte une défaillance, le calculateur lance un <strong>compte à rebours</strong> : 300, puis 200, puis 100 km, avant d'interdire le démarrage. Le véhicule roule normalement pendant ce temps, ce qui incite à repousser le problème. C'est une erreur pour un conducteur de Miramas : l'atelier se trouve à environ 50 km, et chaque trajet entre Miramas-le-Vieux, La Péronne ou Clésud consomme une part de la marge.",
+      "La règle est simple : tant que le décompte affiche nettement plus que la distance jusqu'à Plan-de-Cuques, prenez rendez-vous rapidement et venez par la route. S'il approche de ce seuil, ne tentez pas le trajet : un véhicule bloqué sur l'A7 coûte plus cher qu'un acheminement préparé."
+    ],
+    sections: [
+      { h: "Lire le décompte, puis réserver", p: "Notez le chiffre affiché le jour de l'alerte et appelez-nous : nous calons un créneau qui vous laisse de la marge. Couper puis relancer le moteur ne remet pas le compteur à zéro, et un plein d'AdBlue ne l'arrête que si le niveau était la seule cause. Pour un fourgon de livraison, mieux vaut le sortir de tournée dès les premiers kilomètres du décompte que d'attendre le dernier jour." },
+      { h: "Ce que fait l'atelier", p: "Le diagnostic du système SCR, <strong>dès 90 €</strong> et déduit de la réparation, teste le capteur de qualité, la pompe, l'injecteur AdBlue et les sondes NOx. Une fois la pièce fautive réparée ou remplacée, de 90 à 690 € selon le composant, les codes sont effacés et le décompte réinitialisé. Si le compteur est déjà à zéro, le véhicule doit être acheminé : au-delà de 25 km, notre remorquage se facture 1,80 €/km sur devis, et l'assistance de votre contrat peut revenir moins cher." }
+    ],
+    faq: [
+      { q: "Le décompte peut-il s'arrêter de lui-même ?", a: "Seulement si la cause disparaît, par exemple un niveau d'AdBlue complété alors qu'il était simplement bas. Si un composant est défaillant, le compteur continue de descendre jusqu'à la réparation." },
+      { q: "Le décompte est-il le même sur un utilitaire et sur une voiture ?", a: "Le principe est identique : alerte, compte à rebours, puis blocage du démarrage. Les seuils et les messages peuvent varier d'un constructeur à l'autre, d'où l'intérêt de noter précisément ce qu'indique votre tableau de bord." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Gros rouleur à Miramas : la vanne EGR s'encrasse aussi sur l'A54",
+    lead: "Des kilomètres sur l'A54 ou la N569 ne protègent pas la vanne EGR : elle recycle des gaz d'échappement pendant toute la conduite. Sur un diesel très kilométré, nettoyage ultrason et joints neufs de 180 à 290 €.",
+    metaDesc: "Vanne EGR à Miramas : sur un diesel très kilométré, nettoyage ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €. Atelier à 55 min.",
+    intro: [
+      "On associe volontiers l'encrassement aux petits trajets urbains. La vanne EGR fait exception : sur un diesel moderne, elle renvoie une partie des gaz d'échappement vers l'admission <strong>en permanence pendant la conduite</strong>, y compris à vitesse stabilisée sur les grandes lignes droites de l'A54 ou de la N569 qui traversent la Crau. Plus le compteur tourne, plus la suie et les vapeurs d'huile se déposent sur le clapet et dans le conduit.",
+      "Sur un véhicule qui enchaîne les kilomètres, l'encrassement vient donc avec l'âge, même sans le moindre trajet court. Il se manifeste par un trou à l'accélération, une fumée sombre à la relance, parfois un voyant moteur."
+    ],
+    sections: [
+      { h: "Anticiper plutôt que subir", p: "Sur un diesel qui dépasse les 100 000 km, un contrôle de la vanne évite de découvrir le problème par un mode dégradé en pleine autoroute. La lecture des codes, de la famille P0401 à P0403, la mesure du débit d'air et un test d'ouverture commandée indiquent si elle répond encore correctement. Si elle est encrassée, elle est déposée, nettoyée en bain ultrason haute température, puis remontée avec des <strong>joints neufs</strong>, pour 180 à 290 € selon le moteur." },
+      { h: "Injecteurs et pièces usées : faire le point", p: "Sur un moteur à fort kilométrage, l'injection mérite d'être vérifiée dans la foulée : un traitement par additif coûte de 120 à 220 €, un nettoyage après dépose de 290 à 490 €. Si le moteur électrique de la vanne est hors service, le nettoyage ne suffit pas et une pièce neuve se chiffre de 350 à 700 €. Le devis présente chaque option ; rien n'est démonté sans votre accord, et le travail est garanti 12 mois." }
+    ],
+    faq: [
+      { q: "Ma vanne a 150 000 km et ne pose aucun problème : faut-il la nettoyer ?", a: "Pas forcément. Le contrôle dit si elle s'ouvre et se ferme comme prévu. Si les mesures sont bonnes, nous vous le disons, et aucun nettoyage n'est réalisé ni facturé." },
+      { q: "Un nettoyage de vanne réduit-il la consommation ?", a: "Une vanne qui colle ou reste entrouverte perturbe la combustion, ce qui peut faire grimper la consommation. Remise en état, elle rend au moteur ses réglages ; l'effet sur le plein dépend de l'importance de l'encrassement de départ." }
+    ]
   }
 };

@@ -89,5 +89,59 @@ module.exports = {
       { q: "La distance depuis Trets change-t-elle le prix du diagnostic ?", a: "Non, il coûte 49 € quelle que soit la commune. Seul un éventuel remorquage dépend de la distance : au-delà de 25 km, il est facturé au kilomètre, sur devis." },
       { q: "Puis-je attendre sur place pendant le diagnostic ?", a: "Oui, la plupart des diagnostics se règlent entre 30 et 90 minutes. Si une analyse plus longue s'impose, nous vous appelons avant de poursuivre." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Utilitaire de domaine à Trets : quand l'AdBlue tombe en panne",
+    lead: "Fourgon de cave, pick-up de domaine ou utilitaire de chantier : à Trets, un véhicule de travail en défaut AdBlue s'immobilise vite. Diagnostic du système SCR dès 90 €, déduit si la réparation suit.",
+    metaDesc: "Panne AdBlue à Trets : diagnostic SCR dès 90 € déduit de la réparation, pompe, capteur ou injecteur de 90 à 690 €, garantie 12 mois. À 38 min.",
+    intro: [
+      "Autour de Trets, entre vignes, vergers et chemins de terre, un utilitaire diesel récent travaille souvent dans la poussière. Son réservoir d'AdBlue se complète alors au bidon, parfois dans un hangar ou au bord d'une parcelle. Il suffit d'un entonnoir qui a servi à autre chose ou d'un bouchon resté ouvert pour que des impuretés entrent dans le circuit : le <strong>capteur de qualité</strong> s'alarme, la pompe peine, et le tableau de bord finit par annoncer un défaut du système SCR.",
+      "Ce scénario n'est pas le seul possible. Une sonde NOx fatiguée ou un injecteur d'AdBlue entartré produisent des messages voisins. D'où l'intérêt d'un diagnostic qui teste chaque élément avant de commander quoi que ce soit."
+    ],
+    sections: [
+      { h: "Du message au composant", p: "La lecture des défauts n'est qu'un point de départ. Nous contrôlons ensuite la pompe, le capteur de qualité, l'injecteur d'AdBlue et les sondes NOx, puis vous remettons un <strong>devis écrit</strong> qui nomme la pièce en cause. Le diagnostic démarre à 90 € et il est déduit si vous faites réparer chez nous ; selon le composant, la réparation se situe entre 90 et 690 €, garantie 12 mois. Si le circuit a été pollué, le devis en tient compte : inutile de monter une pièce neuve qui baignerait aussitôt dans un liquide souillé." },
+      { h: "Trente-cinq kilomètres à organiser", p: "Depuis Trets, l'atelier se rejoint en 38 à 45 minutes par la D6, l'A8 ou l'A51 puis la L2, de préférence en dehors des heures de pointe. Pour un véhicule de travail, le plus simple est de le déposer en début d'après-midi, ou de prévoir la récupération à domicile, conseillée à cette distance. Si le compte à rebours est arrivé au bout, le remorquage dépasse notre zone forfaitaire de 25 km : il est facturé 1,80 € par kilomètre, sur devis, sauf prise en charge par l'assistance de votre contrat." }
+    ],
+    faq: [
+      { q: "Comment compléter l'AdBlue sans risquer de polluer le circuit ?", a: "Utilisez un bidon d'AdBlue fermé jusqu'au remplissage, jamais dilué ni transvasé dans un récipient qui a contenu autre chose, et un bec verseur réservé à cet usage. Refermez le bouchon du réservoir aussitôt, surtout en terrain poussiéreux." },
+      { q: "En pleine saison, peut-on reporter la réparation ?", a: "Tant que le compte à rebours n'est pas lancé, il reste un peu de marge, mais le défaut ne disparaîtra pas seul. Une fois les paliers de 300, 200 puis 100 km affichés, mieux vaut caler l'intervention avant le dernier plutôt que risquer un véhicule bloqué au milieu des rangs." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Remorque attelée à Trets : la vanne EGR à l'épreuve",
+    lead: "Tracter une remorque, un van ou un plateau sur la D6 met un diesel en charge à bas régime, terrain idéal pour encrasser la vanne EGR. Nettoyage par ultrason et joints neufs de 180 à 290 €.",
+    metaDesc: "Vanne EGR à Trets : diesel qui tracte et perd du souffle, nettoyage ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €. Atelier à 38 min.",
+    intro: [
+      "Un 4x4 ou un véhicule familial de Trets sert parfois de tracteur : remorque de bois, van, plateau de matériel. Sollicité à bas régime, accélérateur enfoncé dans les côtes de la D6 ou en s'insérant sur l'A8, le moteur produit davantage de suie, et une partie repart vers l'admission par la <strong>vanne EGR</strong>. Les dépôts s'y accumulent jusqu'à freiner son mouvement.",
+      "Les signes se remarquent d'abord attelé : reprises molles, nuage sombre au démarrage en côte, puis un voyant moteur qui finit par rester allumé même sans charge."
+    ],
+    sections: [
+      { h: "Ce que nous contrôlons, puis ce que nous faisons", p: "Le diagnostic lit les codes, observe la commande de la vanne et vérifie l'injection, car un injecteur qui pulvérise mal donne des symptômes proches. Si la vanne est en cause, elle est déposée, passée au <strong>bain ultrason haute température</strong>, remontée avec des joints neufs, puis validée sur route : de 180 à 290 € selon le moteur, garantie 12 mois. Pour les injecteurs, un traitement par additif coûte de 120 à 220 €, un nettoyage après dépose de 290 à 490 €." },
+      { h: "Quand la perte de puissance vient d'ailleurs", p: "Un turbo fatigué ou un défaut interne au moteur peuvent aussi expliquer un diesel qui peine avec une remorque. Ces réparations sortent de notre champ : le compte-rendu vous l'indique noir sur blanc, pour que vous fassiez réparer en connaissance de cause sans avoir payé un nettoyage inutile. Depuis Trets, comptez 38 à 45 minutes de route ; la récupération à domicile est conseillée à cette distance." }
+    ],
+    faq: [
+      { q: "Faut-il venir attelé pour que le défaut se manifeste au diagnostic ?", a: "Non. Les défauts enregistrés et les mesures relevées moteur tournant suffisent en général. Décrivez-nous simplement dans quelles conditions le manque de puissance apparaît : charge, pente, moteur froid ou chaud." },
+      { q: "Une vanne nettoyée supportera-t-elle encore les trajets attelés ?", a: "Oui, elle retrouve un fonctionnement normal. Attelé, le moteur continuera à produire plus de suie qu'à vide : un contrôle de temps en temps, et un décalaminage si le moteur s'encrasse, évitent que les dépôts se reforment trop vite." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Gros rouleur à Trets : un FAP chargé de cendres, pas seulement de suie",
+    lead: "Des trajets quotidiens entre Trets, Aix et Marseille : le filtre se régénère, mais les cendres d'huile restent. Diagnostic inclus, régénération dès 250 € ou bain ultrason de 390 à 650 €.",
+    metaDesc: "Nettoyage FAP à Trets : diagnostic inclus, régénération sans démontage dès 250 €, bain ultrason de 390 à 650 € pour un filtre très chargé. À 38 min.",
+    intro: [
+      "Un diesel qui part chaque matin de Trets vers Aix ou Marseille fait assez de route pour que son filtre à particules brûle régulièrement ses suies. Ce qui ne brûle pas, en revanche, ce sont les <strong>cendres</strong> issues de l'huile moteur : elles s'accumulent régénération après régénération, et réduisent peu à peu la place disponible dans la céramique.",
+      "Résultat : sur une voiture très kilométrée, le voyant FAP peut s'allumer alors que le conducteur fait exactement ce qu'on recommande, de la route à régime soutenu. Ce n'est pas une contradiction, c'est l'usure normale d'un filtre encombré de résidus."
+    ],
+    sections: [
+      { h: "Pourquoi la méthode compte ici", p: "La régénération chimique sans démontage, dès 250 € et en 90 minutes environ, convient à un filtre modérément saturé. Quand la mesure de contre-pression révèle un filtre très encombré, la dépose et le <strong>bain ultrason haute température</strong>, de 390 à 650 € en un à deux jours, décollent mieux les dépôts incrustés. Le diagnostic préalable, inclus, oriente ce choix ; si la céramique est fissurée, nous vous proposons un FAP reconditionné, environ moitié prix d'un neuf." },
+      { h: "L'huile, alliée ou ennemie du filtre", p: "Une huile faible en cendres adaptée aux diesels équipés de FAP, et des vidanges faites à l'échéance, limitent l'apport de résidus. Pour un conducteur qui roule beaucoup, c'est le meilleur moyen de faire durer un filtre remis en état. Depuis Trets, l'atelier est à 35 km par la D6 puis l'A8 ou l'A51 ; un rendez-vous en milieu de matinée évite les files du matin. La régénération est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Comment savoir si mon filtre contient surtout des cendres ?", a: "La mesure de contre-pression et l'historique des régénérations donnent une bonne indication, complétée par le kilométrage et l'entretien du moteur. C'est sur cette base que nous recommandons l'une ou l'autre méthode." },
+      { q: "Une consommation d'huile anormale peut-elle colmater le FAP ?", a: "Oui : une huile qui passe dans la combustion augmente la quantité de cendres. Si le diagnostic pointe une cause de ce type, liée au moteur lui-même, nous vous le disons avant de nettoyer le filtre, car le nettoyage seul ne réglerait pas le problème." }
+    ]
   }
 };

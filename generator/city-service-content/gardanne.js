@@ -107,5 +107,59 @@ module.exports = {
       { q: "Le diagnostic garantit-il de passer la contre-visite ?", a: "Il identifie la cause du défaut, ce qui permet une réparation ciblée. Le résultat de la contre-visite dépend ensuite de la réparation effectuée et de l'état général du véhicule, que nous vous décrivons honnêtement." },
       { q: "Peut-on simplement effacer les défauts avant le contrôle ?", a: "Nous ne le faisons pas : effacer un code sans traiter sa cause ne règle rien, et le défaut réapparaît. Notre travail consiste à trouver l'origine et à vous chiffrer la réparation." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Décompte AdBlue sur la route de Gardanne : la marge pour venir",
+    lead: "Le compteur AdBlue s'est mis à égrener les kilomètres pendant votre trajet quotidien ? Gardanne est à 27 km de l'atelier : il reste de quoi venir, à condition d'agir vite. Diagnostic dès 90 €.",
+    metaDesc: "Compte à rebours AdBlue à Gardanne : diagnostic du système SCR dès 90 €, déduit de la réparation, devis avant intervention. Atelier à 27 km.",
+    intro: [
+      "Quand un défaut du <strong>système SCR</strong> est détecté, le tableau de bord annonce un nombre de kilomètres avant que le moteur refuse de redémarrer, souvent 300, puis 200, puis 100. Pour un conducteur qui fait chaque jour Gardanne – Aix ou Gardanne – Marseille, cette réserve fond en quelques jours de navette.",
+      "La distance jusqu'à Plan-de-Cuques, elle, ne bouge pas : 27 km par la D6, l'A51 et la rocade L2. Mieux vaut la parcourir tant que le décompte le permet plutôt que d'attendre le dernier chiffre."
+    ],
+    sections: [
+      { h: "Les composants que l'on teste", p: "Un message AdBlue peut venir du capteur de qualité, d'une sonde NOx, de la pompe ou de l'injecteur d'additif, parfois grippés par des cristaux. Notre valise multimarque lit les codes du calculateur SCR, puis chaque élément est testé. Le diagnostic coûte <strong>dès 90 €</strong>, déduits si vous faites réparer chez nous ; la réparation varie de 90 à 690 € selon la pièce, avec un devis écrit validé avant de commencer." },
+      { h: "Si le compteur arrive à zéro", p: "Le moteur ne repart plus et la voiture doit être remorquée. Gardanne se trouvant à plus de 25 km, ce transport est compté 1,80 € par kilomètre sur devis, avec une majoration de 50 % la nuit, le dimanche et les jours fériés. Si votre contrat d'assurance inclut une assistance, appelez-la d'abord et donnez-lui notre adresse : elle peut prendre en charge l'acheminement." }
+    ],
+    faq: [
+      { q: "Le décompte peut-il s'interrompre de lui-même ?", a: "Non, tant que le défaut est présent. Une fois la pièce réparée ou décristallisée, nous effaçons les codes et réinitialisons le compteur, puis un essai routier vérifie que la dépollution fonctionne de nouveau." },
+      { q: "Une pièce AdBlue changée chez vous est-elle garantie ?", a: "Oui, pièces et main-d'œuvre sont garanties 12 mois. En cas de défaut lié à notre travail pendant cette période, la reprise est gratuite et prioritaire." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR d'utilitaire à Gardanne : une seule immobilisation",
+    lead: "Fourgon d'artisan ou véhicule d'entreprise du bassin gardannais qui perd du souffle ? Nous regroupons vanne EGR, injecteurs et, si besoin, décalaminage en un passage : vanne de 180 à 290 €.",
+    metaDesc: "Vanne EGR et injecteurs d'utilitaires pour Gardanne : vanne de 180 à 290 €, injecteurs dès 120 €, formule avec décalaminage 350 à 450 €. À 30 min.",
+    intro: [
+      "Un utilitaire qui sert sur les chantiers et dans les zones d'activités de Gardanne alterne arrêts fréquents, ralenti moteur tournant pendant le chargement et petites distances à froid. Ces conditions favorisent l'accumulation de suie et de vapeurs d'huile dans la <strong>vanne EGR</strong>, jusqu'à ce qu'elle reste partiellement ouverte ou fermée.",
+      "Pour une entreprise, le vrai coût n'est pas seulement la facture : c'est la journée où le véhicule ne travaille pas. D'où l'intérêt de tout vérifier et de tout traiter lors d'une seule venue."
+    ],
+    sections: [
+      { h: "Ce qui peut être fait lors du même rendez-vous", p: "Le diagnostic commence par les codes défauts, le contrôle du fonctionnement de la vanne et la mesure du débit des injecteurs. La vanne est ensuite déposée, nettoyée en bain ultrason et remontée avec des joints neufs, pour <strong>180 à 290 €</strong>. Les injecteurs peu encrassés reçoivent un traitement par additif, de 120 à 220 € ; les plus chargés sont démontés et passés aux ultrasons, de 290 à 490 €." },
+      { h: "Ajouter le décalaminage quand le moteur est très chargé", p: "Sur un moteur qui tourne beaucoup au ralenti, la calamine se dépose aussi dans l'admission et la chambre de combustion. La formule qui associe traitement EGR et <strong>décalaminage hydrogène</strong> coûte de 350 à 450 €, moins que les deux prestations prises séparément. Depuis Gardanne, comptez une demi-heure de route ; déposer l'utilitaire en dehors du pic de 7 h 30 à 9 h sur l'A51 fait gagner du temps." }
+    ],
+    faq: [
+      { q: "Nos utilitaires roulent peu de kilomètres mais tournent beaucoup : est-ce pire ?", a: "Pour la vanne EGR, souvent oui. Le ralenti prolongé et les démarrages à froid produisent plus de dépôts qu'un trajet routier régulier. Dans ce cas, le temps passé moteur tournant compte davantage que le kilométrage." },
+      { q: "Si la vanne est hors service, faut-il revenir une seconde fois ?", a: "Le diagnostic indique avant démontage si le moteur électrique de la vanne est en défaut. Nous chiffrons alors une pièce neuve d'origine, de 350 à 700 €, et organisons la pose dès sa réception pour limiter les déplacements." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP saturé dans le bassin de Gardanne : la faute aux boucles courtes",
+    lead: "Biver, Valabre, la gare, les zones d'activités : un diesel qui reste dans le bassin de Gardanne chauffe rarement son filtre. Nous le régénérons dès 250 €, mesure de saturation comprise.",
+    metaDesc: "Nettoyage FAP pour Gardanne et Biver : mesure de saturation incluse, régénération dès 250 €, bain ultrason 390 à 650 €, garantie 12 mois. À 30 min.",
+    intro: [
+      "Le bassin minier vit de petites distances : on passe de Biver au centre, de Fontvenelle aux zones d'activités ou à Meyreuil en quelques minutes, par la D6 ou les routes communales. Pour une voiture à essence, c'est sans conséquence. Pour un diesel équipé d'un filtre à particules, c'est un régime défavorable : le filtre accumule la suie mais n'atteint presque jamais les <strong>600 à 700 °C</strong> qui permettent de la brûler.",
+      "Les régénérations lancées par le calculateur sont alors interrompues à chaque arrêt du moteur. Au fil des semaines, la charge augmente jusqu'au voyant, puis parfois jusqu'au mode dégradé."
+    ],
+    sections: [
+      { h: "Ce que nous mesurons, puis ce que nous faisons", p: "À l'atelier, la valise relève la <strong>pression différentielle</strong> du filtre, son taux de saturation et les tentatives de régénération restées sans succès. Si la charge reste modérée, la régénération chimique sans démontage, d'environ 90 minutes, coûte de 250 à 450 €. Au-delà, le filtre est déposé et nettoyé en bain ultrason, de 390 à 650 €, ce qui immobilise la voiture un à deux jours. Une mesure finale confirme le résultat." },
+      { h: "Sortir du bassin de temps en temps", p: "Le plus efficace pour la suite tient dans une habitude : une fois par mois, emprunter une voie rapide sur une trentaine de kilomètres à allure régulière, en cinquième ou sixième. Depuis Gardanne, un aller-retour vers Aix par la D6 et l'A51 couvre à peu près cette distance. Une huile faible en cendres, conforme à la norme du constructeur, complète la prévention." }
+    ],
+    faq: [
+      { q: "Ma voiture ne quitte presque jamais Gardanne : le nettoyage tiendra-t-il ?", a: "Il tiendra moins longtemps qu'en usage routier, parfois autour de 40 000 km en usage purement urbain contre 60 000 à 100 000 km en usage mixte. Glisser un trajet sur voie rapide chaque mois fait une vraie différence." },
+      { q: "Que se passe-t-il si votre mesure révèle une céramique endommagée ?", a: "Nous arrêtons là : nettoyer un support fissuré ou fondu n'aurait pas d'effet durable. Vous recevez un devis pour un filtre reconditionné, environ deux fois moins cher qu'un neuf, ou pour un filtre neuf, et vous décidez." }
+    ]
   }
 };

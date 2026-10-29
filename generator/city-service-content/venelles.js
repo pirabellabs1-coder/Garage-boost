@@ -89,5 +89,59 @@ module.exports = {
       { q: "Puis-je continuer à rouler en mode dégradé jusqu'à Plan-de-Cuques ?", a: "Le mode dégradé sert justement à limiter les risques, mais rouler longtemps ainsi n'est pas conseillé, surtout sur autoroute où la puissance manque pour s'insérer. Appelez-nous avant de prendre la route : selon les symptômes, nous vous orientons vers la solution la plus sûre." },
       { q: "Le défaut peut-il venir d'autre chose que le moteur ?", a: "Oui. Nous interrogeons aussi les autres calculateurs accessibles, comme l'ABS ou l'ESP, car un défaut enregistré ailleurs peut entraîner une limitation de puissance." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Panne AdBlue depuis Venelles : diagnostic et réparation d'un trait",
+    lead: "À 42 minutes de l'atelier, chaque aller-retour compte. Pour une panne AdBlue, nous organisons diagnostic et réparation dans la même venue autant que possible : diagnostic dès 90 €, déduit.",
+    metaDesc: "Panne AdBlue à Venelles : diagnostic SCR dès 90 € déduit, réparation de 90 à 690 € dans la même venue si possible, garantie 12 mois. À 42 min.",
+    intro: [
+      "Pour un diesel venellois, venir à Plan-de-Cuques signifie 38 km par l'A51 et la rocade L2, soit 42 minutes dans de bonnes conditions et jusqu'à 50 minutes quand l'autoroute sature. Faire un premier trajet pour le diagnostic puis un second pour la réparation double ce temps.",
+      "La panne AdBlue se prête pourtant bien à un <strong>passage unique</strong>, à condition de préparer le rendez-vous : les informations données au téléphone permettent souvent d'anticiper les pistes."
+    ],
+    sections: [
+      { h: "Préparer l'appel", p: "Notez le message exact affiché, le nombre de kilomètres restants s'il y a un décompte, la date du dernier plein d'AdBlue et le contexte : voyant apparu après un plein, après une immobilisation, par temps froid. Avec la marque, le modèle et la motorisation, ces éléments orientent vers un <strong>capteur de qualité</strong>, une sonde NOx, une pompe ou un injecteur cristallisé." },
+      { h: "Une seule venue, quand c'est possible", p: "Le jour du rendez-vous, le diagnostic, dès 90 € et déduit de la réparation, confirme la pièce en cause. Si elle est disponible ou si une décristallisation suffit, la réparation suit dans la foulée, après validation du devis écrit. Sinon, la voiture peut rester sur place jusqu'à réception de la pièce, ou nous la récupérons à Venelles pour vous épargner le second trajet. Tarifs de 90 à 690 €, garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Que se passe-t-il si la pièce doit être commandée ?", a: "Nous vous indiquons le délai dès le diagnostic. Vous choisissez alors de laisser la voiture à l'atelier, de repartir avec si le décompte le permet, ou de nous la confier via la récupération à domicile une fois la pièce arrivée." },
+      { q: "Le diagnostic est-il utile si un autre garage a déjà lu le code ?", a: "Oui : un code oriente vers un circuit, pas toujours vers une pièce. Les tests de chaque composant évitent de remplacer un élément sain sur la seule foi d'un code." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vanne EGR et filtre à particules à Venelles : le bon ordre",
+    lead: "Un filtre à particules qui sature trop vite a parfois une vanne EGR encrassée en amont. Pour les diesels venellois, nous traitons d'abord la source : vanne nettoyée aux ultrasons de 180 à 290 €.",
+    metaDesc: "Vanne EGR encrassée à Venelles : nettoyage ultrason avec joints neufs de 180 à 290 €, pour protéger aussi le filtre à particules. À 42 min de l'atelier.",
+    intro: [
+      "Sur un diesel, la vanne EGR, les injecteurs et le filtre à particules forment une chaîne. Quand la vanne recycle mal les gaz ou que l'injection pulvérise mal, la combustion devient incomplète : le moteur produit davantage de suie, que le <strong>filtre à particules</strong> doit ensuite stocker et brûler.",
+      "Nettoyer le filtre sans regarder la vanne revient à vider un seau placé sous un robinet qui fuit. Quand les deux sont concernés, l'ordre compte : on traite d'abord ce qui produit la suie."
+    ],
+    sections: [
+      { h: "Ce que le diagnostic regarde", p: "Les codes défauts, la réponse de la vanne aux commandes du calculateur, le débit des injecteurs et la charge du filtre sont relevés lors du même examen. On sait alors si la vanne seule est en cause, si les injecteurs participent au problème, et si le filtre a besoin d'un nettoyage ou peut retrouver un fonctionnement normal grâce à ses régénérations habituelles." },
+      { h: "Les tarifs, poste par poste", p: "Vanne EGR démontée, nettoyée en bain ultrason et remontée avec des joints neufs : <strong>180 à 290 €</strong>. Injecteurs : 120 à 220 € par additif, 290 à 490 € avec démontage et ultrason. Si le filtre doit lui aussi être traité, la régénération sans dépose démarre à 250 €. Chaque poste figure séparément sur le devis, et l'intervention est garantie 12 mois. Venelles est à 42 minutes de l'atelier par l'A51 et la rocade L2, davantage aux heures de pointe." }
+    ],
+    faq: [
+      { q: "Pourquoi ne pas nettoyer seulement le filtre, puisque c'est son voyant qui s'allume ?", a: "Parce que si la vanne continue d'envoyer trop de suie, le filtre se remplira de nouveau rapidement. Le diagnostic indique si c'est le cas ; sinon, nous nous en tenons au filtre." },
+      { q: "Peut-on tout faire dans la même journée depuis Venelles ?", a: "Vanne EGR et régénération du filtre sans dépose peuvent en général s'enchaîner sur une journée. Si un bain ultrason du filtre ou un démontage des injecteurs est nécessaire, prévoyez un à deux jours, et pensez à la récupération du véhicule pour éviter deux trajets." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP saturé à Venelles : quelques kilomètres d'A51 ne suffisent pas",
+    lead: "Prendre l'autoroute chaque jour ne garantit rien si le trajet Venelles – Aix dure quelques minutes puis s'enlise dans les ralentissements. Quand le filtre sature, nettoyage dès 250 €, diagnostic compris.",
+    metaDesc: "Nettoyage FAP pour Venelles : régénération dès 250 €, bain ultrason 390 à 650 €, mesure de saturation incluse, garantie 12 mois. À 42 min par l'A51.",
+    intro: [
+      "Depuis Venelles, l'A51 mène à Aix en quelques kilomètres. Sur le papier, c'est un trajet autoroutier ; dans les faits, le moteur à peine chaud rejoint les files de l'entrée d'Aix aux heures de pointe. Le filtre à particules reçoit sa dose de suie mais rarement la <strong>montée en température prolongée</strong> qui permettrait de la brûler.",
+      "Sur un SUV ou une berline diesel récents, cela se traduit un jour par un voyant, des régénérations qui échouent et une consommation qui grimpe d'un à deux litres aux 100 km."
+    ],
+    sections: [
+      { h: "Mesure d'abord, méthode ensuite", p: "Avant de proposer quoi que ce soit, nous mesurons la contre-pression et le niveau de saturation, et contrôlons l'état de la céramique. Filtre récupérable sans dépose : <strong>régénération chimique pilotée</strong>, de 250 à 450 €, environ 90 minutes. Filtre fortement colmaté : démontage, bain ultrason chaud, rinçage et séchage avant remontage, de 390 à 650 €, sur un à deux jours. Un compte-rendu avec les valeurs avant et après vous est remis." },
+      { h: "Une journée bien organisée depuis Venelles", p: "À 38 km de l'atelier, mieux vaut éviter de faire la route deux fois. Si vous nous décrivez les symptômes au téléphone, nous pouvons estimer la méthode probable ; la mesure à l'atelier tranche ensuite. Pour une régénération sans dépose, un rendez-vous en milieu de matinée permet de repartir l'après-midi. Si le bain ultrason s'impose, la récupération du véhicule à domicile évite les allers-retours sur une A51 souvent saturée." }
+    ],
+    faq: [
+      { q: "Un trajet plus long le week-end peut-il compenser la semaine ?", a: "Oui, en partie : une trentaine de kilomètres à allure soutenue sur une voie dégagée, au moins une fois par mois, laisse au filtre le temps de se régénérer complètement. L'A51 en dehors des heures de pointe s'y prête." },
+      { q: "Mon SUV est encore récent : le filtre peut-il déjà être plein ?", a: "Oui, la saturation dépend de l'usage plus que de l'âge. Un véhicule de quelques années qui n'a fait que des trajets courts peut avoir un filtre plus chargé qu'un diesel bien plus ancien utilisé sur route." }
+    ]
   }
 };

@@ -89,5 +89,41 @@ module.exports = {
       { q: "Faut-il venir avec le moteur froid ?", a: "Le trajet depuis Sénas réchauffera forcément le moteur. Ce n'est pas bloquant : les défauts survenus à froid restent en mémoire avec leurs conditions d'apparition. Décrivez-nous précisément le symptôme lors de la prise de rendez-vous." },
       { q: "Et si le défaut n'a laissé aucun code ?", a: "Cela arrive. Les mesures en temps réel et un essai routier aident alors à orienter la recherche, et nous vous expliquons honnêtement ce qui a pu être établi ou non." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Panne AdBlue à Sénas : quand le trajet de 60 km vaut la peine",
+    lead: "À plus d'une heure de l'atelier, le déplacement n'a de sens que pour une vraie panne du système SCR. Diagnostic dès 90 €, déduit de la réparation, puis réparation ciblée de 90 à 690 €.",
+    metaDesc: "Panne AdBlue à Sénas : diagnostic SCR dès 90 € déduit, réparation ciblée de 90 à 690 €, garantie 12 mois. Atelier à 1h05 : appelez avant de venir.",
+    intro: [
+      "Sénas est à 60 km de Plan-de-Cuques, soit environ 1h05 par l'A7 et la rocade L2. Nous préférons le dire franchement : pour certains messages AdBlue, ce trajet ne se justifie pas. Un simple <strong>rappel de niveau</strong> se règle à la pompe ou avec un bidon, et un garage proche de Sénas peut tout à fait lire un code défaut courant.",
+      "Le déplacement prend son sens quand on vous annonce le <strong>remplacement complet du système</strong>, souvent chiffré entre 1 500 et 2 500 €, ou quand une panne revient malgré des réparations antérieures : c'est là qu'une recherche ciblée de la pièce en cause change la facture."
+    ],
+    sections: [
+      { h: "Le tri au téléphone", p: "Avant de prendre la route, appelez-nous avec le message exact affiché, le kilométrage, l'éventuel décompte en cours et, s'il existe, le devis déjà reçu. Une camionnette qui transporte fruits et légumes en pleine saison n'a pas les mêmes contraintes qu'une voiture particulière : nous en tenons compte pour fixer la date. Si notre intervention n'apporte rien de plus qu'un garage local, nous vous le disons." },
+      { h: "Quand vous venez : ce qui est fait", p: "Le diagnostic du circuit SCR, <strong>dès 90 €</strong> et déduit si la réparation est faite chez nous, teste tour à tour capteur de qualité, pompe, injecteur AdBlue et sondes NOx. Seule la pièce défaillante est réparée ou remplacée, de 90 à 690 € selon le composant, sur devis écrit préalable. Les codes sont ensuite effacés, le compte à rebours réinitialisé, et l'intervention garantie 12 mois : le système est remis en état de fonctionner, rien d'autre." }
+    ],
+    faq: [
+      { q: "Puis-je faire diagnostiquer près de Sénas puis réparer chez vous ?", a: "C'est envisageable. Transmettez-nous le compte-rendu et les codes relevés : nous vous dirons s'ils suffisent ou si un contrôle complémentaire du circuit est nécessaire avant de commander une pièce." },
+      { q: "Le décompte affiche moins de 100 km : puis-je faire le trajet ?", a: "Les 60 km jusqu'à l'atelier absorbent alors l'essentiel de la marge. Appelez-nous : selon le chiffre exact, nous vous conseillons de venir aussitôt ou de prévoir un acheminement, par votre assistance ou par notre remorquage, facturé 1,80 €/km au-delà de 25 km." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Injecteurs d'un utilitaire très kilométré à Sénas : par où commencer",
+    lead: "Démarrage plus long, moteur plus bruyant, fumée à la relance : sur un utilitaire qui a beaucoup roulé, les injecteurs encrassent aussi la vanne EGR. Additif dès 120 €, vanne nettoyée de 180 à 290 €.",
+    metaDesc: "Utilitaire très kilométré à Sénas : injecteurs traités dès 120 €, ou 290 à 490 € après dépose, vanne EGR nettoyée de 180 à 290 €. Atelier à 1h05.",
+    intro: [
+      "Sur les utilitaires qui sillonnent la vallée de la Durance et l'A7 entre exploitations, marchés et plateformes, le kilométrage grimpe vite. Les <strong>injecteurs</strong> sont parmi les premiers à en porter la trace : pulvérisant le gazole sous 1 500 à 2 500 bars, ils se couvrent peu à peu de gomme et de calamine, et le jet se dégrade. Le moteur devient plus bruyant, démarre moins franchement, consomme davantage.",
+      "Une pulvérisation dégradée brûle moins bien le carburant et produit plus de suie, que la vanne EGR renvoie ensuite vers l'admission. Commencer par la vanne sans regarder l'injection expose à la voir se colmater de nouveau."
+    ],
+    sections: [
+      { h: "Mesurer l'injection avant de choisir", p: "Le diagnostic relève les codes et compare le débit de chaque injecteur. Encrassement léger : un traitement par <strong>additif professionnel</strong>, de 120 à 220 €, sans démontage. Dépôts installés : dépose des injecteurs et nettoyage en bain ultrason, de 290 à 490 €. Si un injecteur est mécaniquement défaillant, le nettoyage ne le sauvera pas, et nous chiffrons son remplacement avant toute décision." },
+      { h: "La vanne ensuite, et un seul trajet", p: "Si la vanne EGR est elle aussi encrassée, elle est déposée, nettoyée aux ultrasons et remontée avec des joints neufs, de 180 à 290 €. Avec 1h05 de route, nous regroupons injecteurs et vanne sur un même rendez-vous, idéalement en dehors des périodes de pointe de votre activité. Les interventions sont garanties 12 mois, et le devis détaille chaque ligne avant de commencer." }
+    ],
+    faq: [
+      { q: "Un utilitaire à 250 000 km mérite-t-il encore ce nettoyage ?", a: "Tout dépend de l'état des pièces, et le diagnostic le dit. Si injecteurs et vanne sont encrassés mais sains, le nettoyage coûte bien moins qu'un remplacement. S'ils sont usés, ou si le problème dépasse l'antipollution et touche le moteur lui-même, nous vous le disons honnêtement." },
+      { q: "Le carburant utilisé joue-t-il un rôle ?", a: "Oui, un carburant de qualité médiocre fait partie des causes d'encrassement. Une fois cette cause écartée et l'entretien à jour, le résultat du nettoyage tient de 60 000 à 100 000 km." }
+    ]
   }
 };

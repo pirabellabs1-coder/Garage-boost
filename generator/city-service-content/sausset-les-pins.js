@@ -89,5 +89,59 @@ module.exports = {
       { q: "Puis-je effacer moi-même les voyants avec un lecteur OBD ?", a: "Un lecteur grand public efface les codes sans en analyser la cause ; si le défaut est réel, il réapparaîtra. Faire lire et interpréter les défauts avant effacement évite de passer à côté d'une panne naissante." },
       { q: "Faut-il prévoir un diagnostic avant chaque saison ?", a: "Non, seulement si des voyants ou un comportement anormal apparaissent à la remise en route. Un véhicule qui redémarre sans alerte et roule normalement n'en a pas besoin." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Sausset-les-Pins : l'AdBlue d'une voiture qui a dormi tout l'hiver",
+    lead: "Plusieurs mois sans tourner, et le système SCR peut se figer : au premier vrai trajet du printemps, message AdBlue. Diagnostic dès 90 €, décristallisation avant tout remplacement.",
+    metaDesc: "Message AdBlue après l'hiver à Sausset-les-Pins : diagnostic SCR dès 90 €, décristallisation ou réparation de 90 à 690 €, garantie 12 mois.",
+    intro: [
+      "Une voiture de résidence secondaire ou de villégiature peut rester garée près du port ou aux Tamaris de l'automne au printemps. Pendant ce temps, l'AdBlue resté dans la pompe, les conduits et l'injecteur n'est pas renouvelé, et l'urée peut <strong>cristalliser</strong> jusqu'à gêner les pièces mobiles.",
+      "Au premier vrai trajet, le système fait ses contrôles : pression insuffisante, dosage incorrect, <strong>voyant AdBlue</strong> et parfois décompte. L'air marin peut fragiliser les connexions des capteurs, mais l'immobilisation prolongée reste la première piste à vérifier."
+    ],
+    sections: [
+      { h: "Remettre le circuit en mouvement", p: "Le diagnostic, dès 90 € et déduit si la réparation suit chez nous, vérifie la mise en pression, le dosage et les signaux des capteurs. Quand des cristaux bloquent la pompe ou l'injecteur, une <strong>décristallisation</strong> leur rend leur liberté sans changer la pièce. Si une sonde NOx ou un capteur de qualité a lâché pendant l'hiver, le devis écrit le précise : de 90 à 690 € selon l'opération, garantie 12 mois." },
+      { h: "Venir avant la saison", p: "Hors saison, la D5 puis l'A55 mènent à l'atelier en 42 minutes environ, sans difficulté. En juillet et en août, le trafic littoral allonge nettement le trajet. Mieux vaut donc programmer la remise en route au printemps, ou nous confier la voiture par la récupération à domicile, gratuite au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Que faire avant de laisser la voiture pour l'hiver ?", a: "Partir avec un AdBlue récent et conforme dans le réservoir, puis, si quelqu'un peut s'en charger, faire rouler la voiture une vingtaine de minutes toutes les quelques semaines pour faire circuler le liquide. Ce n'est pas une garantie, mais cela limite la formation de cristaux." },
+      { q: "Les capteurs souffrent-ils de l'air marin pendant l'hiver ?", a: "Leurs connecteurs peuvent s'oxyder, surtout sur une voiture garée près du rivage. Le diagnostic contrôle les signaux électriques des capteurs ; si une connexion est en cause, nous vous indiquons la suite à donner." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Trafic estival sur la Côte Bleue : la vanne EGR à Sausset-les-Pins",
+    lead: "En juillet et en août, on avance au pas entre Sausset et l'A55, moteur à bas régime : le terrain idéal pour encrasser la vanne EGR. Nettoyage ultrason et joints neufs de 180 à 290 €.",
+    metaDesc: "Vanne EGR à Sausset-les-Pins : démontage, bain ultrason et joints neufs de 180 à 290 €, injecteurs dès 120 €, garantie 12 mois.",
+    intro: [
+      "L'été, le trafic littoral devient très chargé sur la Côte Bleue. Rouler longtemps en première et en deuxième, presque au ralenti, c'est exactement le régime où la <strong>vanne EGR</strong> renvoie beaucoup de gaz d'échappement vers l'admission, avec leur suie et leurs vapeurs d'huile.",
+      "Après une saison passée à avancer par à-coups vers le port ou sur la D5, la vanne peut commencer à coller. À la rentrée, les signes apparaissent : reprises molles, <strong>à-coups</strong> à la relance, démarrage difficile, puis voyant moteur."
+    ],
+    sections: [
+      { h: "Profiter de l'automne", p: "Hors saison, le trajet jusqu'à Plan-de-Cuques est fluide : D5, A55 puis rocade L2, une quarantaine de minutes. C'est le bon moment pour faire contrôler la vanne. Après lecture des codes et contrôle de son fonctionnement, elle est déposée, nettoyée une à deux heures en bain ultrason chauffé, et remontée avec des <strong>joints neufs</strong> au couple prévu. Effacement des codes, essai routier : de 180 à 290 € selon le moteur, garantie 12 mois." },
+      { h: "Compléter si l'encrassement est général", p: "Une vanne très chargée signale souvent un encrassement plus large. Si les injecteurs dosent mal, un additif professionnel suffit sur des dépôts légers (120 à 220 €), sinon démontage et ultrasons (290 à 490 €). Un décalaminage hydrogène peut aussi être associé : le pack combiné coûte de 350 à 450 €. Si le diagnostic révèle une cause étrangère à l'antipollution, nous vous le disons avant tout devis." }
+    ],
+    faq: [
+      { q: "Faut-il attendre l'automne si les à-coups apparaissent en plein été ?", a: "Non. Si le voyant moteur s'allume ou si la voiture passe en mode dégradé, venez sans attendre, ou demandez une récupération à domicile pour éviter de conduire dans le trafic estival. L'automne est simplement plus confortable pour un contrôle préventif." },
+      { q: "La climatisation qui tourne dans les bouchons joue-t-elle un rôle ?", a: "Indirectement : elle ajoute une charge au moteur à bas régime, mais ce sont surtout la lenteur et la durée des trajets qui favorisent l'encrassement. Couper le moteur lors d'un arrêt prolongé limite l'exposition." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Sausset-les-Pins hors saison : le FAP des trajets de quelques minutes",
+    lead: "Le marché, le port, l'école : hors saison, tout se fait en quelques minutes, trop peu pour que le filtre à particules se vide. Régénération dès 250 €, diagnostic de saturation inclus.",
+    metaDesc: "Nettoyage FAP à Sausset-les-Pins : régénération sans démontage dès 250 €, bain ultrason de 390 à 650 €, diagnostic inclus, garantie 12 mois.",
+    intro: [
+      "Hors saison, la vie quotidienne à Sausset peut tenir dans un périmètre court : centre-ville, port, La Couronne voisine. Un diesel qui ne fait que ces trajets atteint rarement la température qui permet au <strong>filtre à particules</strong> de brûler ses suies. Le calculateur tente bien des régénérations, mais elles s'arrêtent avec le moteur.",
+      "La charge monte alors de trajet en trajet. Les signes : voyant FAP, consommation en hausse, puis <strong>perte de puissance</strong> sur la D5 en direction de l'A55."
+    ],
+    sections: [
+      { h: "Un chiffre avant une méthode", p: "Le diagnostic, compris dans le prix, donne le taux de saturation et l'état de la céramique. Sous 80 % environ, la <strong>régénération chimique</strong> sans démontage suffit : additif introduit par la sonde différentielle, régénération forcée pilotée, 90 minutes, de 250 à 450 €. Au-delà, dépose du filtre, bain ultrason à haute température et séchage avant remontage : 1 à 2 jours, de 390 à 650 €. Garantie 12 mois dans les deux cas." },
+      { h: "Une sortie mensuelle sur l'A55", p: "Pour que le filtre reste propre, glissez une fois par mois une trentaine de kilomètres d'autoroute à allure régulière : l'A55 vers Marseille, hors des week-ends d'été, s'y prête. Le même trajet vous amène à l'atelier en 42 minutes environ hors saison. Une huile adaptée aux diesels équipés de FAP et la lecture des codes au premier voyant complètent le dispositif." }
+    ],
+    faq: [
+      { q: "Un trajet par semaine jusqu'à Martigues suffit-il ?", a: "Tout dépend de sa durée et de son allure. Une vingtaine de minutes à vitesse stable aide le filtre ; un parcours urbain ponctué de ronds-points beaucoup moins. Le diagnostic, en mesurant la charge, montre si vos habitudes suffisent." },
+      { q: "Le filtre risque-t-il quelque chose si j'attends l'été pour agir ?", a: "Oui : une saturation prolongée augmente le risque d'une régénération mal maîtrisée qui fissure ou fait fondre la céramique, et le filtre devient alors irrécupérable. Mieux vaut intervenir dès le premier voyant." }
+    ]
   }
 };

@@ -107,5 +107,59 @@ module.exports = {
       { q: "Mon utilitaire roule encore normalement malgré le voyant, est-ce grave ?", a: "Pas forcément, mais un voyant orange signale un défaut enregistré qui peut s'aggraver. Un voyant rouge impose en revanche de s'arrêter. Dans le doute, faites lire les codes avant que le défaut ne déclenche un mode dégradé en pleine tournée." },
       { q: "Diagnostiquez-vous les utilitaires de toutes marques ?", a: "Oui. Notre matériel couvre les marques européennes, asiatiques et américaines, en essence comme en diesel. Les fourgons de flotte se diagnostiquent comme une voiture, par la prise OBD." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "AdBlue sur un véhicule partagé d'une zone d'activités de Vitrolles",
+    lead: "Quand plusieurs salariés se relaient au volant, l'alerte AdBlue passe parfois de main en main sans être signalée. Nous diagnostiquons le système SCR dès 90 €, somme déduite si la réparation est faite chez nous.",
+    metaDesc: "AdBlue en défaut à Vitrolles : diagnostic SCR dès 90 € déduit de la réparation, intervention de 90 à 690 € selon la pièce, garantie 12 mois.",
+    intro: [
+      "Couperigne, Anjoly, Estroublans : dans les zones d'activités de Vitrolles, un même véhicule de service peut changer de conducteur plusieurs fois dans la semaine. Le voyant AdBlue s'allume un mardi, le conducteur du jour pense que quelqu'un a déjà prévenu, et c'est le <strong>compte à rebours</strong> affiché quelques jours plus tard qui donne l'alerte. À ce moment, le nombre de kilomètres restants avant le refus de démarrage dicte le calendrier.",
+      "Un défaut du système SCR n'est pas toujours lié au niveau du réservoir. Capteur de qualité, sonde NOx, pompe, injecteur d'AdBlue pris dans les cristaux : chaque cause appelle une réparation différente, et presque jamais le <strong>remplacement de l'ensemble</strong> que la concession facture de 1 500 à 2 500 €."
+    ],
+    sections: [
+      { h: "Une consigne simple pour le parc", p: "Le réflexe utile tient en une ligne sur la feuille de route du véhicule : noter la date d'apparition du voyant et le kilométrage affiché. Avec ces deux informations, nous savons s'il reste de la marge pour un rendez-vous classique ou s'il faut agir dans la journée. À l'atelier, la valise multimarque lit les codes du SCR, puis chaque composant est testé ; le devis écrit nomme la pièce en cause et son prix, de 90 à 690 € selon le cas, avant tout démontage." },
+      { h: "Caler le trajet sur l'A7", p: "L'atelier de Plan-de-Cuques est à 29 km de Vitrolles, soit 35 minutes par l'A7 puis la rocade L2, mais 50 à 60 minutes entre 8 h et 9 h 30 ou entre 17 h et 19 h. Un dépôt en fin de matinée évite ces créneaux. Si personne ne peut s'absenter, la récupération du véhicule sur le site est gratuite dès que l'intervention validée dépasse 200 €. Une fois la pièce remise en état, nous effaçons les codes, réinitialisons le décompte, et l'intervention est garantie 12 mois." }
+    ],
+    faq: [
+      { q: "Le compte à rebours a déjà bien entamé sa course : que faire en priorité ?", a: "Appelez-nous en indiquant les kilomètres restants affichés. S'ils couvrent largement le trajet jusqu'à Plan-de-Cuques, mieux vaut venir sans attendre ; sinon, nous organisons la récupération ou un remorquage, facturé 1,80 €/km au-delà de 25 km, sur devis." },
+      { q: "Recevez-vous les véhicules de plusieurs marques d'un même parc ?", a: "Oui. Le diagnostic du système SCR se fait sur toutes les marques équipées, de Renault et Peugeot à Mercedes ou Volkswagen. Chaque véhicule fait l'objet de son propre chiffrage." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Vitrolles : la vanne EGR des navettes entre zones d'activités",
+    lead: "Quelques kilomètres entre Couperigne, Anjoly et Estroublans, moteur coupé à chaque arrêt : la vanne EGR s'encrasse vite. Nettoyage ultrason et joints neufs de 180 à 290 €.",
+    metaDesc: "Vanne EGR à Vitrolles : nettoyage ultrason, joints neufs et essai routier de 180 à 290 €, injecteurs dès 120 €. Atelier à 35 min par l'A7.",
+    intro: [
+      "Livrer un client à Anjoly, repasser au dépôt à Couperigne, finir la journée à Estroublans : dans les zones d'activités de Vitrolles, un véhicule peut aligner de courts trajets du matin au soir sans jamais rouler assez longtemps pour chauffer franchement. Or c'est précisément à bas régime et moteur tiède que la <strong>vanne EGR</strong> recycle le plus de gaz d'échappement, chargés de suie et de vapeurs d'huile.",
+      "Ces dépôts durcissent sur le clapet et dans le conduit. La vanne finit par se figer : le moteur s'étouffe à la relance, des à-coups apparaissent en sortie de rond-point, et le <strong>voyant moteur</strong> s'allume, souvent avec un code de la famille P0401 à P0403."
+    ],
+    sections: [
+      { h: "Ce que nous faisons de la vanne", p: "Avant de déposer quoi que ce soit, nous lisons les codes et observons le fonctionnement de la vanne pour confirmer qu'elle est bien en cause. Elle est ensuite démontée, plongée une à deux heures dans un bain ultrason à haute température, puis remontée avec des joints neufs aux couples prévus par le constructeur. Effacement des codes et essai routier valident le résultat. Comptez de 180 à 290 € selon la motorisation, prix fixé avant l'intervention et garanti 12 mois." },
+      { h: "Les injecteurs, à regarder dans la même visite", p: "Un injecteur qui pulvérise mal produit davantage de suie, qui retourne encrasser la vanne. S'ils sont en cause, un traitement par additif suffit sur un encrassement léger (120 à 220 €) ; au-delà, ils sont déposés et nettoyés aux ultrasons (290 à 490 €). Si le diagnostic montre un problème extérieur à l'antipollution, mécanique interne ou électronique, nous vous le signalons sans engager de travaux." }
+    ],
+    faq: [
+      { q: "Couper le moteur à chaque arrêt de livraison aggrave-t-il l'encrassement ?", a: "Ce n'est pas l'arrêt lui-même qui pose problème, mais l'enchaînement de trajets trop courts pour que le moteur atteigne sa température. Quand le planning le permet, regrouper les livraisons et glisser un trajet plus long sur l'A7 aide la mécanique." },
+      { q: "Peut-on déposer le véhicule le matin et le récupérer le soir ?", a: "Oui, l'intervention sur la vanne tient en général dans la journée. Pour éviter la pointe de l'A7, déposez-le après 9 h 30 ; la récupération sur votre site est aussi possible, gratuite au-delà de 200 € d'intervention validée." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "Revendre un diesel de flotte à Vitrolles : faire le point sur le FAP",
+    lead: "Revente, fin d'utilisation ou reprise d'un diesel de société ? Nous mesurons l'état du filtre à particules et le régénérons si besoin, dès 250 € sans démontage, avec un compte-rendu chiffré.",
+    metaDesc: "FAP à Vitrolles : mesure de contre-pression, régénération dès 250 € ou bain ultrason de 390 à 650 €, compte-rendu avant et après remis.",
+    intro: [
+      "Un diesel qui a passé plusieurs années dans les zones d'activités de Vitrolles a souvent alterné petits trajets entre Couperigne et Estroublans et files d'attente sur l'A7. Au moment de le <strong>céder ou de le sortir du parc</strong>, un filtre à particules très chargé peut peser lourd : voyant qui s'allume pendant l'essai d'un acheteur, perte de puissance, refus au contrôle anti-pollution.",
+      "Avant d'en arriver là, une mesure de la <strong>contre-pression</strong> et du taux de saturation dit précisément où en est le filtre. Si un nettoyage s'impose, il coûte une fraction d'un FAP neuf, facturé de 1 200 à 2 500 €."
+    ],
+    sections: [
+      { h: "Un compte-rendu à joindre au dossier du véhicule", p: "Le diagnostic préalable, inclus dans le prix, relève la saturation et contrôle le support céramique. Nous remettons ensuite un <strong>compte-rendu écrit</strong> avec les valeurs de contre-pression avant et après traitement : une trace utile pour un gestionnaire de parc comme pour un acheteur. Si le filtre ne peut pas être sauvé, le document le dit, et nous chiffrons un FAP reconditionné, environ moitié prix du neuf." },
+      { h: "Quelle méthode, quel délai", p: "Jusqu'à 80 % de saturation environ, une régénération chimique sans démontage suffit : additif injecté par la sonde différentielle puis régénération forcée pilotée, en 90 minutes, de 250 à 450 €. Plus chargé, le filtre est déposé, nettoyé en bain ultrason puis séché à 200 °C avant remontage : 1 à 2 jours, de 390 à 650 €. Les deux méthodes sont garanties 12 mois." }
+    ],
+    faq: [
+      { q: "Faut-il faire nettoyer le FAP avant de revendre un diesel de société ?", a: "Pas systématiquement. Si la mesure montre un filtre peu chargé, le compte-rendu suffit à rassurer l'acheteur. S'il approche de la saturation, le traiter avant la vente évite qu'un voyant apparaisse quelques semaines après la transaction." },
+      { q: "Combien de temps le véhicule quitte-t-il Vitrolles ?", a: "Pour la méthode sans démontage, une demi-journée suffit en comptant les 35 minutes de trajet par l'A7 dans chaque sens, hors heures de pointe. Avec le bain ultrason, prévoyez 1 à 2 jours d'immobilisation." }
+    ]
   }
 };

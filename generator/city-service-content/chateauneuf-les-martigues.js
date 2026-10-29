@@ -89,5 +89,59 @@ module.exports = {
       { q: "Pourquoi le voyant revient-il surtout par temps humide ?", a: "L'humidité peut perturber une connexion déjà fragilisée par l'oxydation : le signal d'un capteur devient instable et le calculateur enregistre un défaut. Une fois sec, tout semble rentrer dans l'ordre jusqu'au prochain épisode. La lecture des défauts passés permet d'en retrouver la trace." },
       { q: "Que contient le compte-rendu remis après l'examen ?", a: "Il liste les codes relevés, indique la cause identifiée pour chacun et s'accompagne d'un devis de réparation transparent. Vous pouvez le conserver ou le présenter à un autre professionnel." }
     ]
+  },
+
+  'gestion-adblue': {
+    title: "Châteauneuf-les-Martigues : la pompe AdBlue en défaut",
+    lead: "Message de défaut AdBlue alors que le réservoir est plein ? La pompe qui alimente l'injecteur est l'une des pistes. Diagnostic SCR dès 90 €, déduit de la réparation, devis avant travaux.",
+    metaDesc: "Pompe AdBlue à Châteauneuf-les-Martigues : diagnostic SCR dès 90 €, décristallisation ou réparation de 90 à 690 €, garantie 12 mois.",
+    intro: [
+      "Dans le système SCR, la pompe aspire l'AdBlue dans son réservoir et le met sous pression pour que l'injecteur le pulvérise dans l'échappement. Si elle peine, le calculateur constate une <strong>pression insuffisante</strong> et affiche un défaut, même avec un réservoir plein. Parfois, c'est un dépôt cristallin qui la freine ; plus rarement, la pompe elle-même est usée.",
+      "Pour un conducteur de Châteauneuf qui rejoint Marseille, Marignane ou Martigues par l'A55, le défaut peut d'abord apparaître de façon intermittente, puis s'installer. Le distinguer d'une sonde NOx ou d'un <strong>capteur de qualité</strong> fautif évite de payer la mauvaise pièce."
+    ],
+    sections: [
+      { h: "Tester avant de commander", p: "Le diagnostic, dès 90 € et déduit si vous faites réparer, lit les codes du système puis vérifie la mise en pression et le débit envoyé à l'injecteur. Si la pompe est seulement entravée par des cristaux, une <strong>décristallisation</strong> suffit souvent ; si elle est réellement hors d'usage, le devis l'indique. Selon le cas, la réparation se situe entre 90 et 690 €, chiffrée par écrit avant intervention et garantie 12 mois." },
+      { h: "L'A55 en milieu de journée", p: "L'atelier est à 28 km, environ 35 minutes par l'A55 puis la rocade L2. Aux heures industrielles, le matin et en fin d'après-midi, l'A55 se charge : un rendez-vous en milieu de journée rend le trajet plus serein, surtout si un décompte est en cours. Sinon, la récupération du véhicule à La Mède, aux Ventrons, à Tamaris ou dans le centre est offerte au-delà de 200 € d'intervention validée." }
+    ],
+    faq: [
+      { q: "Pourquoi le défaut apparaît-il surtout au démarrage ?", a: "C'est au démarrage que le système s'amorce et vérifie sa mise en pression. Une pompe faible ou partiellement bloquée peut échouer à ce contrôle, puis fonctionner à peu près en roulant, d'où un défaut d'abord intermittent." },
+      { q: "Combien de temps puis-je rouler avec ce défaut ?", a: "Tant qu'aucun décompte n'est affiché, la voiture roule normalement. Dès qu'un nombre de kilomètres apparaît, il diminue jusqu'au refus de démarrer : fixez le rendez-vous bien avant les derniers kilomètres." }
+    ]
+  },
+
+  'traitement-egr': {
+    title: "Ralenti qui vacille à Châteauneuf-les-Martigues : la vanne EGR ?",
+    lead: "Le moteur tremble au feu rouge, cale parfois en manœuvre ? Une vanne EGR qui ne se ferme plus bien en est une cause fréquente. Nettoyage ultrason et joints neufs de 180 à 290 €.",
+    metaDesc: "Ralenti instable à Châteauneuf-les-Martigues : contrôle et nettoyage de vanne EGR de 180 à 290 €, injecteurs dès 120 €, garantie 12 mois.",
+    intro: [
+      "Au ralenti, un moteur diesel a besoin d'un mélange stable. Si la <strong>vanne EGR</strong> reste entrouverte parce que la suie l'empêche de se refermer, elle continue d'envoyer des gaz brûlés dans l'admission alors que le moteur n'en veut pas. Résultat : régime qui oscille au feu rouge, vibrations à l'arrêt, calage en manœuvre de stationnement.",
+      "Les trajets courts entre La Mède, Les Ventrons et Tamaris, ajoutés aux files de l'A55 aux heures industrielles, font justement travailler la vanne à bas régime, là où elle s'encrasse le plus. Le défaut s'aggrave ensuite jusqu'au <strong>voyant moteur</strong>."
+    ],
+    sections: [
+      { h: "Un ralenti instable a plusieurs origines possibles", p: "Prise d'air, capteur qui transmet une valeur fausse, injecteur qui fuit : nous vérifions ces pistes avant de toucher à la vanne, codes lus et paramètres observés en temps réel. Si la vanne est confirmée, elle est démontée, nettoyée une à deux heures en bain ultrason chauffé et remontée avec des joints neufs. Effacement des défauts et essai routier : de 180 à 290 € selon le moteur, garantie 12 mois." },
+      { h: "Injecteurs : deux degrés de traitement", p: "Un injecteur qui goutte au lieu de pulvériser peut aussi faire vaciller le ralenti. Un additif professionnel traite un encrassement léger, de 120 à 220 € ; un dépôt plus ancien demande la dépose et un bain ultrason, de 290 à 490 €. Si le problème relève de l'électronique du moteur plutôt que de l'encrassement, nous vous l'annonçons dès le diagnostic, sans engager de travaux. L'atelier est à 35 minutes par l'A55, plus fluide en milieu de journée." }
+    ],
+    faq: [
+      { q: "Le calage en manœuvre peut-il abîmer le moteur ?", a: "Pas directement, mais il devient gênant et parfois dangereux lors d'une insertion ou dans un rond-point. Il signale surtout un défaut qui, laissé en l'état, finit par encrasser davantage l'admission." },
+      { q: "Le ralenti redevient-il stable aussitôt après le nettoyage ?", a: "Si la vanne était la cause, oui, dès l'essai routier qui suit l'effacement des codes. S'il reste instable, une seconde cause est en jeu, et nous vous l'indiquons avant toute nouvelle dépense." }
+    ]
+  },
+
+  'nettoyage-fap': {
+    title: "FAP très chargé à Châteauneuf-les-Martigues : le bain ultrason",
+    lead: "Quand la saturation dépasse le seuil de la méthode rapide, le filtre est déposé et nettoyé en bain ultrason : de 390 à 650 €, 1 à 2 jours, contre 1 200 à 2 500 € pour un FAP neuf.",
+    metaDesc: "FAP saturé à Châteauneuf-les-Martigues : bain ultrason de 390 à 650 € ou régénération dès 250 €, diagnostic inclus, garantie 12 mois.",
+    intro: [
+      "Un filtre à particules qui a longtemps roulé avec un voyant allumé, ou qui a enchaîné des régénérations avortées sur les petits trajets entre le centre, La Mède et Tamaris, finit par dépasser environ 80 % de saturation. À ce stade, injecter un additif et forcer une régénération ne suffit plus : les suies sont trop tassées dans le nid d'abeilles en céramique.",
+      "Reste une solution avant le remplacement : <strong>déposer le filtre</strong> et le nettoyer en profondeur. C'est la méthode la plus poussée de l'atelier, celle qui permet de récupérer les filtres les plus colmatés."
+    ],
+    sections: [
+      { h: "Le déroulé du bain ultrason", p: "Le diagnostic, inclus, mesure la contre-pression et vérifie que la céramique n'est ni fêlée ni fondue. Le filtre est ensuite démonté et plongé dans un <strong>bain ultrason à haute température</strong> avec un produit spécifique : les vibrations décollent les particules incrustées, le bain dissout les résidus. Rinçage, séchage à 200 °C, remontage, puis diagnostic final, effacement des défauts et essai routier. Vous recevez les mesures de contre-pression avant et après." },
+      { h: "Budget et organisation", p: "Comptez de 390 à 650 € selon le modèle, et 1 à 2 jours d'immobilisation. Au-delà de 500 €, le règlement peut être étalé en 3 ou 4 fois sans frais, sous réserve d'éligibilité. Depuis Châteauneuf, à 28 km, la récupération du véhicule à domicile est offerte, l'intervention dépassant 200 €. Si la céramique est abîmée, nous le disons et proposons un FAP reconditionné, environ moitié prix du neuf." }
+    ],
+    faq: [
+      { q: "Peut-on tenter d'abord la méthode sans démontage pour économiser ?", a: "Si la mesure dépasse le seuil, nous le déconseillons : la régénération chimique risquerait de ne pas suffire et vous paieriez deux interventions. En dessous, elle reste la bonne option, dès 250 € et en 90 minutes." },
+      { q: "Le filtre nettoyé est-il aussi efficace qu'un neuf ?", a: "Le bain ultrason restaure jusqu'à 95 % de la capacité de filtration d'origine. Le filtre retrouve une contre-pression normale et repart pour plusieurs dizaines de milliers de kilomètres, selon l'usage." }
+    ]
   }
 };
