@@ -74,20 +74,20 @@ module.exports = {
   },
 
   'electricite-automobile': {
-    title: "Câbles abîmés, voyants en cascade : l'électricité auto à Simiane",
-    lead: "Plusieurs voyants qui s'allument d'un coup, une fonction qui disparaît sans raison ? Le faisceau électrique est souvent en cause. Diagnostic à 59 € la première heure, à 20 minutes de Simiane.",
-    metaDesc: "Électricité auto pour Simiane-Collongue : faisceaux, capteurs, voyants multiples. 59 € la 1re heure, offerte si réparation validée. À 20 min.",
+    title: "Batterie Start & Stop à changer à Simiane-Collongue",
+    lead: "Sur une voiture équipée du Start & Stop, la batterie se choisit et s'installe avec soin. Nous la remplaçons avec codage au véhicule, de 160 à 290 €, à 20 minutes de Simiane.",
+    metaDesc: "Batterie Start & Stop pour Simiane-Collongue : test, remplacement avec codage de 160 à 290 €. Diagnostic 59 € la 1re heure, offert si réparation validée.",
     intro: [
-      "Les capteurs et les faisceaux représentent une large part des pannes électriques. Un câble frotté contre une pièce chaude, un connecteur gagné par l'humidité, une gaine attaquée par un rongeur quand la voiture stationne près de la végétation : un seul fil endommagé peut déclencher <strong>plusieurs voyants à la fois</strong>, car les calculateurs échangent leurs informations sur le même réseau.",
-      "Remplacer des capteurs un par un dans ce cas coûte cher et ne règle rien. Il faut remonter le circuit jusqu'au point de rupture."
+      "Le système Start & Stop coupe le moteur à chaque arrêt et le relance au démarrage suivant. Sur les routes vallonnées qui descendent de l'Étoile, entre stops, ronds-points et traversées de village, il peut se déclencher des dizaines de fois par trajet. La batterie de ces voitures est donc <strong>d'une technologie spécifique</strong>, conçue pour ces cycles répétés.",
+      "Premier signe d'usure : le Start & Stop ne coupe plus le moteur à l'arrêt. La voiture démarre encore normalement, mais le calculateur a jugé la batterie trop faible pour prendre le risque."
     ],
     sections: [
-      { h: "Localiser le défaut sur le circuit", p: "Nous lisons d'abord tous les calculateurs accessibles, puis nous mesurons la tension, les masses et la continuité des lignes suspectes au multimètre et à l'oscilloscope. Les capteurs et relais sont testés individuellement. Lorsque le faisceau est en cause, nous vérifions câbles et connecteurs sur le tronçon concerné avant de proposer une réparation." },
-      { h: "Ce que coûte la recherche, puis la réparation", p: "La première heure de diagnostic électrique est facturée <strong>59 €</strong>, et elle vous est offerte si vous validez la réparation. Une intervention sur un capteur ou un faisceau se situe en général entre 80 et 350 € selon la difficulté d'accès. Le devis vous parvient sous 24 heures, et la réparation est garantie 12 mois." }
+      { h: "Pourquoi le codage compte", p: "Sur beaucoup de modèles récents, un boîtier surveille l'état de la batterie et adapte la recharge à son âge. Poser une batterie neuve sans la déclarer au véhicule, c'est laisser l'alternateur la recharger comme une batterie usée, ce qui raccourcit sa vie. Nous installons une batterie adaptée puis réalisons le <strong>codage au véhicule</strong> quand le constructeur l'exige. Comptez de 160 à 290 € selon le modèle, codage compris." },
+      { h: "Tester avant de remplacer", p: "Un Start & Stop inactif n'impose pas toujours une batterie neuve : trajets trop courts, consommateurs nombreux ou alternateur fatigué peuvent aussi l'expliquer. Nous mesurons la capacité réelle de la batterie et la charge de l'alternateur avant de conclure. Si un diagnostic est nécessaire, la première heure coûte 59 €, offerte si vous validez la réparation, garantie 12 mois." }
     ],
     faq: [
-      { q: "Pourquoi tant de voyants s'allument-ils pour une seule panne ?", a: "Les calculateurs du moteur, de l'ABS ou de l'ESP partagent des informations. Si un capteur ou un câble commun envoie une valeur incohérente, chacun d'eux signale un défaut. C'est pourquoi un diagnostic complet du réseau est plus utile qu'une lecture de code isolée." },
-      { q: "Puis-je continuer à rouler en attendant le rendez-vous ?", a: "Cela dépend des voyants. Un voyant rouge, un fusible qui saute de façon répétée ou une odeur de brûlé imposent de s'arrêter : un court-circuit peut endommager d'autres composants. En cas de doute, appelez-nous avant de reprendre la route." }
+      { q: "Puis-je poser une batterie classique à la place de la batterie d'origine ?", a: "C'est déconseillé. Une batterie standard supporte mal les redémarrages répétés du Start & Stop et s'use bien plus vite. Mieux vaut conserver la technologie prévue par le constructeur." },
+      { q: "La voiture ne démarre plus du tout, comment l'amener depuis Simiane ?", a: "Notre dépannage peut l'acheminer : Simiane-Collongue est à 14 km de l'atelier, le remorquage coûte donc 149 €, majoré de 50 % la nuit, le dimanche et les jours fériés." }
     ]
   }
 };

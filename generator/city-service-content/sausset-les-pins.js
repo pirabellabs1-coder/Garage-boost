@@ -22,13 +22,13 @@ module.exports = {
   'electricite-automobile': {
     title: "Batterie à plat après des semaines garée à Sausset-les-Pins",
     lead: "Résidence secondaire, voiture qui ne sort qu'aux vacances : à Sausset-les-Pins, une voiture peut dormir longtemps. Quand ils ne redémarrent plus, nous cherchons la cause, 59 € la première heure.",
-    metaDesc: "Électricité auto pour Sausset-les-Pins : batterie à plat, fuite de courant, démarreur, diagnostic 59 € la 1re heure, offert si la réparation est validée.",
+    metaDesc: "Électricité auto pour Sausset-les-Pins : batterie à plat, consommation à l'arrêt, démarreur, diagnostic 59 € la 1re heure, offert si la réparation est validée.",
     intro: [
       "Dans une station de villégiature comme Sausset, une voiture peut <strong>rester immobile plusieurs semaines</strong> : seconde voiture d'une résidence de vacances, véhicule laissé sur place entre deux séjours. Même moteur coupé, une voiture récente consomme un peu de courant pour son alarme, sa télécommande et ses calculateurs en veille.",
       "Sur une batterie en bonne santé, quelques semaines passent. Sur une batterie de 4 à 6 ans, ou en présence d'une <strong>fuite de courant</strong>, le démarrage devient impossible au retour."
     ],
     sections: [
-      { h: "Batterie usée ou consommation anormale ?", p: "Nous mesurons d'abord la capacité réelle de la batterie et la charge fournie par l'alternateur. Si tout est normal, nous mesurons le courant consommé à l'arrêt, une fois les calculateurs endormis, puis isolons les circuits un à un pour trouver le <strong>consommateur qui reste alimenté</strong> : plafonnier, module d'attelage, autoradio, relais collé. Le diagnostic coûte 59 € la première heure et devient gratuit si vous validez la réparation." },
+      { h: "Batterie usée ou consommation anormale ?", p: "Nous mesurons d'abord la capacité réelle de la batterie et la charge fournie par l'alternateur. Si tout est normal, nous mesurons le courant consommé à l'arrêt et vérifions les <strong>équipements courants qui restent parfois alimentés</strong> : plafonnier, autoradio, relais collé. Si la consommation vient du faisceau ou d'un calculateur qui ne se met pas en veille, la recherche relève d'un atelier spécialisé en électronique. Le diagnostic coûte 59 € la première heure et devient gratuit si vous validez la réparation." },
       { h: "Repères de prix si une pièce est en cause", p: "Une batterie neuve avec codage au véhicule coûte de 160 à 290 €. Un démarreur fatigué, qui tourne lentement même avec une batterie chargée, se remplace de 290 à 490 € ; un alternateur de 390 à 590 €. Le devis détaillé est envoyé sous 24 heures et la réparation est garantie 12 mois." }
     ],
     faq: [

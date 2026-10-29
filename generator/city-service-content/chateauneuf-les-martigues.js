@@ -20,20 +20,20 @@ module.exports = {
   },
 
   'electricite-automobile': {
-    title: "Pannes électriques à Châteauneuf-les-Martigues : le diagnostic",
-    lead: "Batterie qui se vide, voyants qui s'allument sans raison, centralisation capricieuse : nous localisons la panne électrique des véhicules castelneuvais, 59 € la première heure.",
-    metaDesc: "Électricité auto pour Châteauneuf-les-Martigues : diagnostic 59 € la 1re heure, offert si la réparation est validée. Batterie, alternateur, faisceaux.",
+    title: "Cosses et masses oxydées à Châteauneuf-les-Martigues",
+    lead: "Près de l'étang et du littoral, le sel attaque les cosses de batterie et les masses du circuit de démarrage. Démarrages hésitants, voyant de charge : nous contrôlons et remettons en état, 59 € la première heure.",
+    metaDesc: "Électricité auto pour Châteauneuf-les-Martigues : cosses, masses, batterie, démarreur. Diagnostic 59 € la 1re heure, offert si réparation validée.",
     intro: [
-      "Sur une voiture moderne, des dizaines de calculateurs dialoguent entre eux, et une simple masse oxydée peut provoquer des symptômes déroutants. En bord de mer, <strong>l'humidité et le sel</strong> attaquent plus volontiers les connecteurs, les cosses de batterie et les faisceaux exposés, ce qui explique bien des pannes intermittentes.",
-      "Notre poste électricité permet de lire tous les calculateurs, de mesurer tensions et continuités et de tester les composants un par un. Le diagnostic coûte <strong>59 € la première heure</strong> et devient gratuit si vous validez la réparation."
+      "À Châteauneuf-les-Martigues, l'<strong>air marin</strong> ne s'en prend pas qu'à la carrosserie. Sous le capot, il dépose sur les cosses de batterie une croûte blanchâtre ou verdâtre, et il oxyde les tresses de masse qui relient le moteur et la caisse à la batterie.",
+      "Le résultat ressemble à une batterie faible : démarreur qui tourne lentement, clic sans démarrage, voyant de charge qui clignote. Remplacer la batterie sans traiter les contacts ne règle alors rien."
     ],
     sections: [
-      { h: "Batterie, alternateur ou fuite de courant ?", p: "Une batterie qui se décharge a trois causes principales : elle arrive en fin de vie, généralement entre 4 et 6 ans ; l'alternateur ne la recharge plus ; ou un consommateur reste alimenté à l'arrêt. Le diagnostic tranche en 30 à 60 minutes. À titre indicatif, une batterie avec codage coûte de 160 à 290 € et un alternateur de 390 à 590 €." },
-      { h: "Les pannes qui n'apparaissent que par temps humide", p: "Un défaut qui se manifeste seulement les matins humides ou après une averse est typique d'un faisceau ou d'un connecteur fatigué. Pour ces cas, nous menons une session de diagnostic prolongée en reproduisant les conditions de la panne, et pouvons poser un enregistreur pendant plusieurs jours. Le devis vous est transmis sous 24 heures, la réparation est garantie 12 mois." }
+      { h: "Le contrôle des contacts avant les pièces", p: "Nous mesurons la chute de tension entre la batterie et le démarreur, puis entre le moteur et la caisse. Une valeur anormale désigne une cosse ou une masse à reprendre. Le nettoyage, le serrage ou le remplacement d'une cosse ou d'une tresse de masse coûte bien moins qu'une batterie neuve. Si la batterie est réellement usée, son remplacement avec codage revient de 160 à 290 € ; un démarreur, de 290 à 490 €." },
+      { h: "Venir depuis Châteauneuf", p: "L'atelier est à 28 km, environ 35 minutes par l'A55 puis la rocade L2 ; l'A55 se charge aux heures de pointe industrielles. Si la voiture ne démarre plus, l'acheminement au-delà de 25 km se fait sur devis, facturé au kilomètre, ou par votre assistance. Le diagnostic coûte 59 € la première heure, offert si vous validez la réparation ; le devis arrive sous 24 heures." }
     ],
     faq: [
-      { q: "Un fusible saute régulièrement, puis-je continuer à rouler ?", a: "Mieux vaut éviter. Un fusible qui saute signale un court-circuit : continuer peut endommager d'autres composants, voire provoquer un départ de feu. Un diagnostic rapide est recommandé." },
-      { q: "Ma voiture ne démarre plus à Châteauneuf, que faire ?", a: "Si le véhicule ne peut pas venir par ses propres moyens, faites appel à votre assistance ou à notre service de dépannage. Le diagnostic électrique sera ensuite réalisé à l'atelier de Plan-de-Cuques." }
+      { q: "Faut-il nettoyer soi-même les cosses de batterie ?", a: "Un dépôt léger peut se retirer moteur coupé, avec des gants, en débranchant toujours la borne négative en premier. Si la cosse est rongée ou si le démarrage reste difficile après nettoyage, faites contrôler le circuit." },
+      { q: "Ma voiture a des voyants qui s'allument au hasard, pouvez-vous la prendre ?", a: "Nous contrôlons la batterie, la charge et les masses, qui expliquent une partie de ces symptômes. Si la cause est dans le faisceau ou un calculateur, elle relève d'un atelier spécialisé en électronique et nous vous le disons dès le premier contrôle." }
     ]
   },
 

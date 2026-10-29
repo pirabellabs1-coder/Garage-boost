@@ -74,20 +74,20 @@ module.exports = {
   },
 
   'electricite-automobile': {
-    title: "Voyant ABS ou ESP allumé à Bouc-Bel-Air : trouver la cause",
-    lead: "Un voyant ABS ou ESP ne bloque pas toujours la voiture, mais il prive le conducteur d'aides importantes. Nous localisons le capteur ou le faisceau en cause, diagnostic à 59 € la première heure.",
-    metaDesc: "Électricité auto pour Bouc-Bel-Air : voyant ABS ou ESP, capteur de roue, faisceau. Diagnostic 59 € la 1re heure, offert si réparation validée.",
+    title: "Feux, ampoules, fusibles : l'éclairage auto à Bouc-Bel-Air",
+    lead: "Un feu stop muet, un clignotant qui bat trop vite, un phare plus faible que l'autre : depuis Bouc-Bel-Air, nous remettons l'éclairage en ordre, devis avant toute intervention.",
+    metaDesc: "Électricité auto pour Bouc-Bel-Air : feux, ampoules, fusibles, relais. Diagnostic 59 € la 1re heure, offert si réparation validée. À 25 min par l'A51.",
     intro: [
-      "L'antiblocage ABS et le contrôle de stabilité ESP s'appuient sur des <strong>capteurs placés à chaque roue</strong>, reliés par des faisceaux qui cheminent près du sol, exposés aux projections, à l'eau et aux chocs. Dès qu'un signal devient incohérent, le calculateur coupe la fonction et allume le voyant. Le freinage de base demeure, mais la voiture perd l'antiblocage et l'aide à la stabilité, justement précieux sur chaussée mouillée.",
-      "Dans un foyer de Bouc-Bel-Air où chaque véhicule a son conducteur attitré, ce voyant est souvent signalé tard. Mieux vaut ne pas s'habituer à le voir allumé."
+      "Un feu qui ne s'allume plus se remarque rarement depuis le siège conducteur. Quand plusieurs voitures se partagent l'allée d'une maison de Bouc-Bel-Air, c'est souvent le conducteur de derrière, ou le contrôleur technique, qui le signale. Pourtant, un <strong>feu stop ou un clignotant défaillant</strong> vous rend moins visible et peut valoir une contre-visite.",
+      "Ces pannes sont presque toujours simples : ampoule grillée, fusible, relais de clignotant, contact oxydé dans le support d'une optique. Elles se règlent en général en un passage à l'atelier."
     ],
     sections: [
-      { h: "Remonter jusqu'à la cause", p: "Nous lisons d'abord les codes défauts du calculateur de freinage, puis mesurons le signal de chaque capteur et la continuité de son faisceau. Un capteur encrassé ou abîmé, un connecteur oxydé ou un câble endommagé près de la roue figurent parmi les causes courantes. Réparer un capteur ou un faisceau coûte de 80 à 350 € selon la difficulté d'accès. Le diagnostic est facturé <strong>59 € la première heure</strong> et devient gratuit si vous validez la réparation." },
-      { h: "Après une intervention ou un choc", p: "Un voyant apparu juste après un changement de roulement ou de disques, ou après un choc contre une bordure, oriente vers un capteur déplacé ou un connecteur mal rebranché. Sur certains véhicules, un capteur ou un calculateur remplacé doit en outre être <strong>codé</strong> pour être reconnu. Le devis détaillé vous parvient sous 24 heures et la réparation est garantie 12 mois." }
+      { h: "Trouver pourquoi la lampe ne s'allume plus", p: "Nous contrôlons d'abord l'ampoule et son culot, puis le fusible et le relais du circuit, et enfin l'arrivée de tension au connecteur de l'optique. Un clignotant qui bat deux fois plus vite que d'habitude signale presque toujours une ampoule grillée du même côté. Une intervention d'éclairage est courte et <strong>chiffrée avant d'être réalisée</strong> ; si un diagnostic est nécessaire, la première heure coûte 59 €, offerte si vous validez la réparation." },
+      { h: "Avant le contrôle technique", p: "Le contrôle technique vérifie le fonctionnement de chaque feu. Faire le tour de l'éclairage quelques jours avant le rendez-vous évite une contre-visite pour une ampoule à quelques euros. Depuis Bouc-Bel-Air, l'atelier est à 25 minutes par l'A51 puis la rocade L2 ; évitez si possible le créneau de 8 h à 9 h, quand l'A51 se charge de navetteurs." }
     ],
     faq: [
-      { q: "Puis-je continuer à rouler avec le voyant ABS allumé ?", a: "Le freinage de base fonctionne en général, mais sans antiblocage ni aide à la stabilité. Roulez prudemment, allongez les distances de sécurité et faites contrôler rapidement. Si le voyant rouge de freinage s'allume aussi, arrêtez-vous et appelez une assistance." },
-      { q: "La voiture ne peut plus rouler : comment l'amener depuis Bouc-Bel-Air ?", a: "Notre service de dépannage peut l'acheminer : Bouc-Bel-Air étant à 17 km de l'atelier, le remorquage coûte 149 €, majoré de 50 % la nuit, le dimanche et les jours fériés. Votre assistance peut aussi s'en charger." }
+      { q: "Mon clignotant clignote très vite, que se passe-t-il ?", a: "C'est le signal classique d'une ampoule de clignotant grillée, à l'avant, à l'arrière ou sur le rétroviseur du même côté. Le remplacement est rapide une fois l'ampoule identifiée." },
+      { q: "Prenez-vous aussi les pannes de faisceau ou de calculateur ?", a: "Non. Si l'éclairage ne revient pas après contrôle de l'ampoule, du fusible, du relais et du connecteur, et que la panne vient du faisceau ou d'un calculateur, elle relève d'un atelier spécialisé en électronique. Nous vous le disons tout de suite." }
     ]
   },
 

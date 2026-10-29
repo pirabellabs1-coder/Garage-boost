@@ -38,14 +38,14 @@ module.exports = {
           keywords: 'diagnostic moteur Marseille, OBD2 Plan-de-Cuques, codes défauts auto, valise diagnostic Marseille, lecture calculateur',
           h1Pre: 'Diagnostic moteur',
           h1Accent: 'précis & fiable.',
-          lead: "Voyant moteur allumé, perte de puissance, ralenti instable ? Notre diagnostic électronique multimarque identifie la cause racine en 30 à 90 minutes. OBD2 + valise constructeur, mesures temps réel.",
+          lead: "Voyant moteur allumé, perte de puissance, mode dégradé ? Notre diagnostic multimarque identifie la cause en 30 à 90 minutes. Notre spécialité : les défauts liés à l'antipollution et à l'encrassement (FAP, EGR, AdBlue, injecteurs, calamine).",
           image1: IMG.mechanic, imageAlt1: 'Diagnostic électronique moteur sur véhicule à Plan-de-Cuques',
           image2: IMG.engineBay, imageAlt2: 'Outil de diagnostic OBD2 multimarque Garage Boost',
           price: 'Dès 49 €', priceMin: '49',
           pricingDesc: "Diagnostic complet 49€ TTC, incluant lecture multimarque, mesures temps réel et compte-rendu écrit. Offert si intervention de réparation validée chez Garage Boost.",
           introTitle: 'Comprendre la panne avant de la réparer.',
           introP1: "Quand un voyant s'allume sur le tableau de bord ou que le moteur fonctionne bizarrement, le premier réflexe doit être un <strong>diagnostic électronique professionnel</strong>. Trop de mécaniciens débutent par changer des pièces au pif, ce qui entraîne des frais inutiles et ne résout souvent pas le problème de fond.",
-          introP2: "Chez Garage Boost à Plan-de-Cuques, le diagnostic est <strong>la base de toute intervention sérieuse</strong> sur un véhicule moderne. Notre valise dernière génération dialogue avec l'ensemble des calculateurs (moteur, ABS, ESP, airbags, BSI), lit les codes défauts présents et passés, accède aux valeurs en temps réel et permet la reprogrammation de paramètres.",
+          introP2: "Chez Garage Boost à Plan-de-Cuques, le diagnostic est <strong>la base de toute intervention sérieuse</strong> sur un véhicule moderne. Notre valise multimarque lit les codes défauts présents et passés et les valeurs en temps réel. Nous sommes <strong>spécialisés sur les pannes liées à l'antipollution et à l'encrassement</strong> — FAP, EGR, AdBlue, injecteurs, calamine — que nous réparons ensuite dans notre atelier.",
           symptoms: [
             'Voyant moteur orange ou rouge allumé',
             'Perte de puissance soudaine',
@@ -59,7 +59,7 @@ module.exports = {
           benefitsTitle: 'Le diagnostic, première étape essentielle.',
           stats: [
             { value: '30 min', label: 'Diagnostic standard' },
-            { value: '50+', label: 'Calculateurs lus' },
+            { value: '49 €', label: 'Offert si réparation validée' },
             { value: '95%', label: 'Pannes identifiées du 1er coup' }
           ],
           benefits: [
@@ -70,7 +70,7 @@ module.exports = {
           whatIsTitle: "Le diagnostic moteur, c'est quoi exactement ?",
           whatIsP1: "Le <strong>diagnostic moteur électronique</strong> consiste à interroger les calculateurs (ECU) qui pilotent votre véhicule via le port OBD2 standardisé. Sur les véhicules modernes, jusqu'à 50 calculateurs interagissent en permanence : gestion moteur, transmission, ABS, ESP, airbags, climatisation, suspension pilotée, ADAS. Quand un dysfonctionnement est détecté, le calculateur enregistre un <strong>code défaut (DTC)</strong> et allume parfois un voyant.",
           whatIsP2: "Notre rôle de mécanicien-diagnosticien, c'est de lire ces codes, d'analyser les conditions dans lesquelles ils sont apparus (freezframes), de mesurer en temps réel les valeurs des capteurs, et d'<strong>interpréter</strong> ces données pour remonter à la cause racine. Un même code peut avoir plusieurs origines : capteur défectueux, câblage abîmé, pièce défaillante en amont, problème mécanique sous-jacent.",
-          whatIsP3: "C'est cette analyse fine qui distingue un véritable diagnostic d'un simple <strong>scan OBD basique</strong>. Notre valise multimarque, couplée à 10 ans d'expérience sur les motorisations modernes, nous permet d'identifier la cause précise dans 95% des cas dès la première intervention. Sur les pannes intermittentes ou complexes, un essai routier instrumenté vient compléter l'analyse.",
+          whatIsP3: "C'est cette analyse fine qui distingue un véritable diagnostic d'un simple <strong>scan OBD basique</strong>. Notre valise multimarque, couplée à 10 ans d'expérience sur les motorisations modernes, nous permet d'identifier la cause précise dans 95% des cas dès la première intervention. Quand le diagnostic révèle une <strong>panne lourde</strong> (moteur à ouvrir, culasse, boîte de vitesses, électronique), nous vous remettons le compte-rendu et vous le disons clairement : ces réparations ne sont pas réalisées à l'atelier.",
           processIntro: "Notre processus de diagnostic suit 5 étapes éprouvées pour identifier la cause racine de tout dysfonctionnement, en moins de 90 minutes dans la majorité des cas.",
           processSteps: [
             { num: '1', title: 'Connexion OBD', desc: 'Branchement de la valise au port OBD sous tableau de bord, lecture initiale.' },
@@ -87,8 +87,8 @@ module.exports = {
             "Automobilistes ayant <strong>échoué au contrôle technique</strong> pour cause de pollution",
             "Acheteurs souhaitant un <strong>contrôle préalable avant achat occasion</strong>",
             "Propriétaires constatant une <strong>surconsommation soudaine</strong> sans raison apparente",
-            "Conducteurs avec <strong>bruits, vibrations ou comportements anormaux</strong> du véhicule",
-            "Garages indépendants demandant un <strong>second avis technique</strong> sur un cas complexe"
+            "Diesels avec un <strong>voyant FAP, EGR ou AdBlue</strong> allumé",
+            "Moteurs <strong>encrassés</strong> : fumée noire, à-coups, reprises molles"
           ],
           whyP: "Garage Boost, c'est l'expertise diagnostic d'un atelier spécialisé moteur, à Plan-de-Cuques au cœur de Marseille. Voici les raisons pour lesquelles nos clients reviennent et nous recommandent dans toute la métropole Aix-Marseille-Provence.",
           whyList: [
@@ -103,17 +103,17 @@ module.exports = {
           content: [
             { h: "Diagnostic = cause, pas symptôme", p: "Un voyant moteur n'est qu'un <strong>symptôme</strong>. Le code défaut associé désigne soit le composant défaillant, soit le circuit qui présente une anomalie. Mais attention : le code peut indiquer le capteur défectueux, ou le câblage du capteur, ou la pièce que ce capteur surveille. Notre travail, c'est d'<strong>interpréter correctement</strong> le code et les valeurs réelles pour identifier la cause racine, pas juste de remplacer la première pièce qui apparaît à la lecture du défaut. Cette analyse fine évite des dépenses inutiles." },
             { h: "Toutes marques, toutes motorisations", p: "Notre matériel professionnel couvre Renault, Peugeot, Citroën, Volkswagen, Audi, BMW, Mercedes, Ford, Opel, Fiat, Toyota, Honda, Nissan, Hyundai, Kia, Mazda, Volvo, Skoda, Seat, Dacia, Mini, Land Rover, Jeep, Porsche et plus. Toutes motorisations (essence, diesel, hybride léger ou rechargeable). Sur les véhicules électriques, nous diagnostiquons les périphériques (climatisation, freinage régénératif, capteurs) mais renvoyons sur des spécialistes habilités haute tension pour la batterie principale." },
-            { h: "Cas particuliers : pannes intermittentes", p: "Les pannes les plus difficiles à diagnostiquer sont les <strong>pannes intermittentes</strong> : voyant qui s'allume puis s'éteint, défaut qui ne réapparaît pas en atelier, comportement bizarre uniquement à chaud ou à froid. Pour ces cas, nous proposons une <strong>session diagnostic étendue</strong> incluant essai routier prolongé, mesures sous différents régimes et températures, parfois pose temporaire d'un enregistreur OBD que vous emportez quelques jours. Cette approche permet de capturer le défaut en conditions réelles." }
+            { h: "Après le diagnostic : ce que nous réparons, et ce que nous ne réparons pas", p: "Nous réparons à l'atelier ce qui touche à l'<strong>antipollution et à l'encrassement</strong> : <a href=\"/maintenance-moteur/nettoyage-fap\">nettoyage FAP</a>, <a href=\"/maintenance-moteur/traitement-egr\">vanne EGR et injecteurs</a>, <a href=\"/maintenance-moteur/gestion-adblue\">système AdBlue</a>, <a href=\"/maintenance-moteur/decalaminage-hydrogene\">décalaminage</a>, catalyseur, ainsi que les capteurs associés. En revanche, nous ne prenons pas en charge les <strong>pannes moteur lourdes</strong> (moteur à ouvrir, culasse, distribution cassée, boîte de vitesses) ni les <strong>pannes électroniques complexes</strong> (faisceaux, calculateurs, multiplexage). Si le diagnostic mène là, vous repartez avec le compte-rendu écrit pour vous adresser à un atelier spécialisé." }
           ],
           faq: [
             { q: "Pourquoi le diagnostic est-il payant si je ne fais pas la réparation ?", a: "Parce que le diagnostic mobilise une heure de technicien spécialisé et un matériel professionnel coûteux. Un atelier qui propose un diagnostic gratuit sans contrepartie compense inévitablement ailleurs (pièces gonflées, prestations facturées). Notre transparence : 49€ de diagnostic offerts dès lors que vous validez l'intervention." },
-            { q: "Le diagnostic peut-il prendre plus longtemps ?", a: "Oui, dans 5% des cas environ : symptômes intermittents qui ne se manifestent pas à l'examen, défauts multiples qui se masquent les uns les autres, ou pannes électriques complexes nécessitant un démontage partiel. Dans ce cas, nous vous appelons avant de poursuivre et établissons un devis horaire transparent." },
+            { q: "Le diagnostic peut-il prendre plus longtemps ?", a: "Parfois, quand le défaut est intermittent ou que plusieurs défauts se masquent. Nous vous appelons avant de poursuivre. Si l'analyse montre une panne lourde (mécanique interne du moteur, boîte, électronique), nous arrêtons là : ces réparations ne sont pas réalisées à l'atelier, et vous repartez avec le compte-rendu." },
             { q: "Pouvez-vous effacer un voyant sans réparer ?", a: "Techniquement oui, mais ce serait masquer un problème qui réapparaîtra au prochain démarrage. Nous refusons cette pratique. Notre engagement : trouver la cause, vous l'expliquer, vous chiffrer la réparation. La décision finale vous revient." },
             { q: "Faut-il prendre rendez-vous ?", a: "C'est préférable pour vous garantir un créneau dédié, mais nous acceptons aussi les passages sans rendez-vous aux heures ouvrées. Pour un diagnostic urgent (voyant allumé en route), appelez-nous directement, on s'arrange." },
             COMMON_FAQ_GUARANTEE,
             COMMON_FAQ_PAYMENT
           ],
-          related: ['decalaminage-hydrogene', 'reprogrammation-moteur', 'voyants-moteur'],
+          related: ['nettoyage-fap', 'traitement-egr', 'gestion-adblue'],
           ctaTitle: 'Voyant moteur allumé ?',
           ctaTitleAccent: 'Diagnostic en 30 minutes.',
           ctaText: 'Apportez votre véhicule à Plan-de-Cuques ou demandez la récupération à domicile dans toute la zone Marseille.'
@@ -582,7 +582,7 @@ module.exports = {
           metaDesc: "Diagnostic voyants moteur (orange, rouge, clignotant) à Plan-de-Cuques (Marseille). Lecture codes défauts, identification cause, devis sous 24h. Résolution durable.",
           keywords: 'voyant moteur allumé Marseille, voyant moteur orange Plan-de-Cuques, voyant rouge moteur, code défaut auto, voyant moteur clignotant solution',
           h1Pre: 'Voyants', h1Accent: 'moteur résolus.',
-          lead: "Voyant moteur orange, rouge ou clignotant ? Notre diagnostic identifie la cause précise sous 90 minutes. Lecture multimarque OBD2 + valise constructeur, devis transparent.",
+          lead: "Voyant moteur orange, rouge ou clignotant ? Notre diagnostic identifie la cause précise sous 90 minutes. Voyants FAP, EGR, AdBlue ou préchauffage : nous les réparons à l'atelier.",
           image1: IMG.mechanic, imageAlt1: 'Diagnostic voyant moteur Marseille',
           image2: IMG.engineBay, imageAlt2: 'Résolution voyant moteur Garage Boost Plan-de-Cuques',
           price: 'Dès 49 €', priceMin: '49',
@@ -590,7 +590,7 @@ module.exports = {
           introTitle: "Voyant moteur : ne pas l'ignorer.",
           introP1: "Un voyant moteur qui s'allume, c'est votre véhicule qui vous parle. Le <strong>voyant orange</strong> signale un défaut non immédiatement dangereux mais à traiter rapidement. Le <strong>voyant rouge</strong> impose un arrêt rapide pour éviter une casse moteur. Le <strong>voyant clignotant</strong> indique un raté de combustion en cours qui peut endommager le catalyseur en quelques minutes.",
           introP2: "Notre approche : <strong>diagnostiquer précisément la cause</strong> avant toute action. Lecture des codes défauts, mesures temps réel des capteurs, essai routier si nécessaire. Le diagnostic complet est facturé 49€ et devient gratuit si vous validez la réparation chez Garage Boost.",
-          symptoms: ['Voyant moteur orange permanent', 'Voyant moteur clignotant', 'Voyant rouge avec mode dégradé', 'Voyant qui s\'éteint puis se rallume', 'Plusieurs voyants simultanés', 'Voyant FAP ou EGR allumé', 'Voyant ABS ou ESP avec voyant moteur', 'Voyant après ravitaillement carburant'],
+          symptoms: ['Voyant moteur orange permanent', 'Voyant moteur clignotant', 'Voyant rouge avec mode dégradé', 'Voyant qui s\'éteint puis se rallume', 'Plusieurs voyants simultanés', 'Voyant FAP ou EGR allumé', 'Message AdBlue « démarrage impossible dans X km »', 'Voyant après ravitaillement carburant'],
           benefitsTitle: 'Identification précise de la cause.',
           stats: [{value:'30 min', label:'Diagnostic standard'}, {value:'95%', label:'Pannes identifiées du 1er coup'}, {value:'24h', label:'Devis de réparation'}],
           benefits: [
@@ -618,9 +618,9 @@ module.exports = {
             "<strong>Voyant orange permanent</strong> : RDV sous quelques jours pour éviter aggravation",
             "<strong>Voyant qui s'allume après ravitaillement</strong> : possible mauvais carburant ou défaut bouchon",
             "<strong>Plusieurs voyants simultanés</strong> : diagnostic complet nécessaire",
-            "<strong>Voyant après choc ou impact</strong> : capteur déplacé ou faisceau abîmé"
+            "<strong>Voyant FAP, EGR ou AdBlue</strong> : notre spécialité, diagnostic et réparation à l'atelier"
           ],
-          whyP: "Garage Boost résout plus de 200 voyants moteur par mois à Plan-de-Cuques. Voici pourquoi nous faire confiance pour identifier et traiter votre défaut.",
+          whyP: "Garage Boost est spécialisé sur les voyants liés à l'antipollution et à l'encrassement moteur. Voici pourquoi nous faire confiance pour identifier et traiter votre défaut.",
           whyList: [
             "<strong>Valise multimarque dernière génération</strong> mise à jour mensuellement",
             "<strong>10 ans d'expérience</strong> sur les motorisations modernes",
@@ -641,7 +641,7 @@ module.exports = {
             COMMON_FAQ_GUARANTEE,
             COMMON_FAQ_PAYMENT
           ],
-          related: ['diagnostic-moteur', 'decalaminage-hydrogene', 'nettoyage-fap'],
+          related: ['diagnostic-moteur', 'nettoyage-fap', 'gestion-adblue'],
           ctaTitle: 'Voyant moteur allumé ?',
           ctaTitleAccent: 'Diagnostic en 30 min.',
           ctaText: 'On identifie la cause précise avant de toucher à la moindre pièce.'
@@ -730,73 +730,72 @@ module.exports = {
 
         'electricite-automobile': {
           name: 'Électricité automobile',
-          title: 'Électricité automobile Marseille | Diagnostic & réparation - Garage Boost',
-          metaDesc: "Électricité automobile à Plan-de-Cuques (Marseille). Diagnostic batterie, alternateur, démarreur, faisceaux, calculateurs, ABS, ESP. Toutes marques. 59€/h.",
-          keywords: 'électricité automobile Marseille, diagnostic électrique auto, batterie alternateur Plan-de-Cuques, court-circuit voiture, calculateur HS',
+          title: 'Électricité auto Marseille | Batterie, alternateur, démarreur - Garage Boost',
+          metaDesc: "Électricité auto courante à Plan-de-Cuques (Marseille) : batterie, alternateur, démarreur, éclairage, fusibles. Toutes marques. 59 €/h, devis avant intervention.",
+          keywords: 'électricité automobile Marseille, batterie voiture Plan-de-Cuques, alternateur Marseille, démarreur voiture 13380, voyant batterie allumé',
           h1Pre: 'Électricité', h1Accent: 'automobile.',
-          lead: "Diagnostic des problèmes électriques et électroniques : batterie, alternateur, démarreur, faisceaux, calculateurs, ABS, ESP, capteurs. Notre poste électrique professionnel résout les pannes complexes.",
-          image1: IMG.engineBay, imageAlt1: 'Diagnostic électrique automobile Marseille',
-          image2: IMG.workshop, imageAlt2: 'Poste électricité auto Garage Boost Plan-de-Cuques',
+          lead: "Batterie, alternateur, démarreur, éclairage, fusibles : nous traitons l'électricité courante de votre véhicule. Les pannes électroniques lourdes (faisceaux, calculateurs, multiplexage) ne sont pas prises en charge à l'atelier.",
+          image1: IMG.engineBay, imageAlt1: 'Contrôle batterie et alternateur à Plan-de-Cuques',
+          image2: IMG.workshop, imageAlt2: 'Électricité automobile courante Garage Boost Plan-de-Cuques',
           price: '59 €/h', priceMin: '59',
           pricingDesc: "59€ la première heure de diagnostic électrique. Réparation selon cause identifiée — devis transparent envoyé sous 24h. Diagnostic offert si intervention validée.",
-          introTitle: "L'électronique auto, notre spécialité.",
-          introP1: "Les véhicules modernes embarquent jusqu'à <strong>50 calculateurs</strong> connectés sur plusieurs bus CAN, des dizaines de capteurs, des systèmes ADAS (caméras, radars), et une électronique présente jusque dans les sièges. Quand un voyant bizarre s'allume ou qu'un fusible saute, le diagnostic peut être complexe.",
-          introP2: "Nos outils professionnels permettent de tester chaque ligne, vérifier les masses, identifier les fuites de courant et reprogrammer les calculateurs si nécessaire. <strong>Tarif de base : 59€ la première heure</strong>, devis ensuite selon cause identifiée.",
-          symptoms: ['Voyants multiples allumés', 'Fusible qui saute systématiquement', 'Voyant batterie allumé', 'Démarrage difficile ou impossible', 'Vitres ou centralisation HS', 'Climatisation ou éclairage défaillants', 'Voyant ABS ou ESP', 'Décharge batterie inexpliquée'],
-          benefitsTitle: 'Diagnostic et réparation électronique.',
-          stats: [{value:'50+', label:'Calculateurs lus'}, {value:'95%', label:'Pannes identifiées'}, {value:'59 €', label:'1ère heure diagnostic'}],
+          introTitle: "L'électricité courante, sans détour.",
+          introP1: "Une batterie qui faiblit, un alternateur qui ne charge plus, un démarreur qui claque : ce sont les pannes électriques les plus fréquentes, et celles que nous traitons au quotidien à Plan-de-Cuques. Le <strong>circuit de charge et de démarrage</strong> se teste rapidement et se répare sans immobiliser votre véhicule des jours.",
+          introP2: "Nous préférons être clairs : les <strong>pannes électroniques lourdes</strong> (court-circuit à rechercher dans un faisceau, calculateur à remplacer et à coder, défaut de multiplexage, aides à la conduite) relèvent d'un atelier spécialisé en électronique. Nous ne les prenons pas en charge et nous vous le disons dès votre appel. <strong>Tarif : 59€ la première heure</strong>, devis avant toute réparation.",
+          symptoms: ['Voyant batterie allumé', 'Démarrage difficile ou impossible', 'Batterie qui se décharge', 'Démarreur qui claque ou ne lance pas', 'Accessoires faibles moteur tournant', 'Ampoule ou feu défaillant', 'Fusible grillé', 'Klaxon ou essuie-glaces muets'],
+          benefitsTitle: 'Charge, démarrage, éclairage.',
+          stats: [{value:'59 €', label:'1ère heure diagnostic'}, {value:'24h', label:'Devis sous'}, {value:'12 mois', label:'Garantie réparation'}],
           benefits: [
-            {icon:'bolt', title:'Diagnostic complet', desc:"Test de chaque ligne, vérification masses, identification fuites de courant."},
-            {icon:'circuit-board', title:'Reprogrammation', desc:"Calculateurs, codages capteurs, mise à jour firmware si nécessaire."},
+            {icon:'car-battery', title:'Batterie & charge', desc:"Test de la batterie, de l'alternateur et du régulateur, remplacement de la batterie avec codage si le véhicule l'exige."},
+            {icon:'bolt', title:'Démarrage', desc:"Démarreur, relais, câbles et masses du circuit de démarrage."},
             {icon:'gift', title:'Offert si validé', desc:"Le diagnostic devient gratuit dès lors que vous validez la réparation."}
           ],
-          whatIsTitle: "L'électricité automobile, qu'est-ce qui peut tomber ?",
+          whatIsTitle: "Ce que nous traitons, et ce que nous ne traitons pas",
           whatIsP1: "Le <strong>circuit de charge</strong> (batterie, alternateur, régulateur) est le premier point de vigilance. Une batterie a une durée de vie de 4 à 6 ans en moyenne (160-290€ remplacement avec codage). L'alternateur dure 200 000-300 000 km (390-590€). Le démarreur tient 250 000+ km (290-490€). Symptômes typiques : démarrage difficile, voyant batterie, accessoires faibles.",
-          whatIsP2: "Le <strong>réseau de calculateurs</strong> (ECU, BSI, ABS, climatisation, instrumentation) communique via bus CAN/LIN. Une panne d'un calculateur peut paralyser plusieurs fonctions. Le diagnostic exige des outils professionnels qui dialoguent avec chaque calculateur. Réparation : reprogrammation logicielle (89-290€), remplacement (souvent 800-2 500€ neuf, alternative reconditionnée).",
-          whatIsP3: "Les <strong>capteurs et faisceaux</strong> représentent 60% des pannes électriques. Capteurs vilebrequin, arbre à cames, pression, débit, température : leur défaillance déclenche des codes défauts moteur. Faisceaux : usure, rongeurs, humidité créent des courts-circuits. Réparation : 80-350€ selon la complexité de l'accès.",
-          processIntro: "Notre processus de diagnostic électrique en 5 étapes pour identifier précisément la cause de toute panne électronique.",
+          whatIsP2: "<strong>L'éclairage et les petits équipements</strong> : ampoules, feux, fusibles, relais, klaxon, essuie-glaces. Des interventions courtes, chiffrées avant d'être réalisées.",
+          whatIsP3: "<strong>Ce que nous ne prenons pas en charge</strong> : la recherche de panne dans un faisceau (court-circuit, fil coupé, rongeurs), le remplacement et le codage de calculateurs, les défauts de multiplexage (bus CAN/LIN) et le calibrage des aides à la conduite (ADAS). Ces pannes demandent un atelier spécialisé en électronique automobile : nous vous le disons dès votre appel, pour ne pas vous faire perdre de temps.",
+          processIntro: "Notre processus en 5 étapes pour les pannes de charge, de démarrage et d'éclairage.",
           processSteps: [
-            {num:'1', title:'Lecture multi-ECU', desc:'Diagnostic complet de tous les calculateurs accessibles via OBD.'},
+            {num:'1', title:'Écoute', desc:'Vous nous décrivez la panne : on vous dit tout de suite si elle relève de notre atelier.'},
             {num:'2', title:'Mesures électriques', desc:'Tension batterie, charge alternateur, masses, continuités.'},
-            {num:'3', title:'Test composants', desc:'Test individuel des capteurs, actionneurs, relais suspects.'},
-            {num:'4', title:'Analyse faisceau', desc:'Si nécessaire, vérification des faisceaux et connecteurs.'},
-            {num:'5', title:'Réparation', desc:'Devis transparent, intervention après validation, contrôle final.'}
+            {num:'3', title:'Test composants', desc:'Batterie, alternateur, démarreur, relais et fusibles concernés.'},
+            {num:'4', title:'Devis', desc:'Devis transparent avant toute intervention.'},
+            {num:'5', title:'Réparation', desc:'Intervention après validation, contrôle de charge final.'}
           ],
-          targetTitle: "À qui s'adresse le diagnostic électrique ?",
-          targetIntro: "Tous les conducteurs confrontés à un problème électrique ou électronique sur leur véhicule peuvent bénéficier de notre intervention :",
+          targetTitle: "Pour quelles pannes nous appeler ?",
+          targetIntro: "Nous intervenons sur les pannes électriques courantes :",
           targetList: [
-            "Voyants multiples allumés simultanément (plus complexe qu'un simple voyant moteur)",
-            "<strong>Fusibles qui sautent</strong> systématiquement (court-circuit à identifier)",
+            "<strong>Voyant batterie</strong> allumé ou accessoires qui faiblissent",
             "<strong>Démarrages difficiles</strong> ou véhicule qui ne démarre plus",
-            "Pannes de fonctions électroniques (vitres, centralisation, climatisation, autoradio)",
-            "Suspicion de <strong>fuite de courant</strong> (batterie déchargée régulièrement)",
-            "Calculateurs HS suite à inversion polarité ou foudre",
-            "Mises à jour calculateurs (codages, programmations OEM)"
+            "<strong>Batterie déchargée</strong> régulièrement (test batterie et alternateur)",
+            "<strong>Démarreur</strong> qui claque ou ne lance plus le moteur",
+            "Ampoules, feux, fusibles, relais, klaxon, essuie-glaces",
+            "<strong>Non pris en charge</strong> : faisceaux, calculateurs, multiplexage, ADAS"
           ],
-          whyP: "Garage Boost à Plan-de-Cuques dispose d'un poste électricité automobile complet et 10 ans d'expérience sur les pannes électriques complexes des véhicules modernes.",
+          whyP: "Garage Boost traite l'électricité courante à Plan-de-Cuques, avec un tarif clair et un devis avant toute intervention.",
           whyList: [
-            "<strong>Multimètres et oscilloscopes</strong> professionnels",
-            "<strong>Valise multimarque</strong> dialoguant avec tous calculateurs",
-            "<strong>Outils de codage et reprogrammation</strong> calculateurs",
-            "<strong>Banc de test composants</strong> (capteurs, alternateurs, démarreurs)",
+            "<strong>Valise multimarque</strong> pour la lecture des défauts",
             "<strong>Stock pièces électriques courantes</strong> (batteries, fusibles, relais, ampoules)",
-            "<strong>Tarif horaire transparent</strong> à 59€ avec devis détaillé sous 24h"
+            "<strong>Tarif horaire transparent</strong> à 59€ avec devis détaillé sous 24h",
+            "<strong>Diagnostic offert</strong> dès lors que vous validez la réparation",
+            "<strong>Garantie 12 mois</strong> sur la réparation",
+            "<strong>Franc-parler</strong> : si la panne ne relève pas de notre atelier, on vous le dit dès l'appel"
           ],
           content: [
-            {h:"Pannes intermittentes : nos méthodes", p:"Les pannes électriques intermittentes sont les plus difficiles à diagnostiquer : court-circuit qui apparaît uniquement par temps humide, capteur qui défaille à chaud, calculateur qui plante après vibration. Notre approche : <strong>session diagnostic prolongée</strong>, simulation des conditions de défaillance, parfois pose temporaire d'un enregistreur OBD sur plusieurs jours pour capturer le défaut en conditions réelles."},
-            {h:"Codage et apprentissage calculateurs", p:"Sur les véhicules récents, le simple remplacement d'un calculateur ne suffit pas : il faut le <strong>coder et l'apprendre</strong> au véhicule (codes VIN, paramètres optionnels, apprentissage des autres calculateurs). Nous disposons des outils OEM ou équivalents pour réaliser ces opérations délicates : codage clés, ajustement débit injecteurs, codage caméras ADAS, paramétrage suspension pilotée, etc."}
+            {h:"Batterie qui se décharge : par où commencer ?", p:"Trois causes reviennent le plus souvent : une <strong>batterie en fin de vie</strong> (4 à 6 ans), un <strong>alternateur qui ne charge plus</strong>, ou un consommateur qui reste allumé moteur coupé. Le test de la batterie et du circuit de charge permet de trancher rapidement entre les deux premières causes. Si les deux sont sains et que la batterie se vide quand même, il s'agit d'une fuite de courant à rechercher dans le faisceau : ce travail relève d'un spécialiste en électronique."},
+            {h:"Pannes électroniques lourdes : pourquoi nous ne les prenons pas", p:"Un court-circuit caché dans un faisceau, un calculateur à remplacer puis à coder, un défaut de multiplexage : ces pannes peuvent immobiliser un véhicule des jours et demandent un outillage et une spécialisation que nous avons choisi de ne pas proposer. Plutôt que de garder votre voiture sans certitude de résultat, <strong>nous vous le disons dès le premier appel</strong>. Notre atelier se concentre sur ce qu'il fait bien : l'électricité courante, l'antipollution (FAP, EGR, AdBlue, décalaminage) et le dépannage."}
           ],
           faq: [
-            {q:"Pourquoi ma batterie se décharge sans raison ?", a:"Trois causes principales : batterie en fin de vie (4-6 ans), alternateur qui ne charge plus (test simple), ou fuite de courant (consommateur qui reste allumé). Notre diagnostic identifie précisément la cause en 30-60 minutes."},
-            {q:"Pouvez-vous reprogrammer les clés perdues ?", a:"Oui pour la majorité des marques. Nous codons les clés vierges au véhicule et désactivons les anciennes clés (sécurité). Tarif : 89-290€ selon véhicule, plus la clé physique."},
-            {q:"Fait sauter mes fusibles, c'est grave ?", a:"Cela signifie qu'il y a un court-circuit quelque part. Continuer peut endommager des composants ou provoquer un incendie. Diagnostic urgent recommandé."},
+            {q:"Pourquoi ma batterie se décharge sans raison ?", a:"Trois causes principales : batterie en fin de vie (4-6 ans), alternateur qui ne charge plus, ou fuite de courant (consommateur qui reste allumé). Nous testons la batterie et l'alternateur ; une fuite de courant dans le faisceau relève en revanche d'un spécialiste en électronique."},
+            {q:"Prenez-vous les pannes de calculateur ou de faisceau ?", a:"Non. La recherche de court-circuit dans un faisceau, le remplacement et le codage de calculateurs et les défauts de multiplexage ne sont pas réalisés à l'atelier. Nous vous le disons dès votre appel pour que vous puissiez vous adresser directement à un spécialiste en électronique."},
+            {q:"Mon fusible a grillé, c'est grave ?", a:"Un fusible qui grille une fois se remplace simplement. S'il grille à répétition, il y a un court-circuit dans le faisceau : ce type de recherche relève d'un atelier spécialisé en électronique, que nous ne pratiquons pas."},
             COMMON_FAQ_GUARANTEE,
             COMMON_FAQ_PAYMENT
           ],
-          related: ['mecanique-generale', 'diagnostic-moteur', 'depannage-remorquage'],
-          ctaTitle: 'Panne électrique mystérieuse ?',
-          ctaTitleAccent: 'On la trouve.',
-          ctaText: '59€ la première heure de diagnostic. Devis transparent et garantie 12 mois sur la réparation.'
+          related: ['depannage-remorquage', 'mecanique-generale', 'diagnostic-moteur'],
+          ctaTitle: 'Batterie, alternateur, démarreur ?',
+          ctaTitleAccent: 'On s\'en occupe.',
+          ctaText: '59€ la première heure de diagnostic, offerte si vous validez la réparation. Devis avant toute intervention.'
         },
 
         'depannage-remorquage': {

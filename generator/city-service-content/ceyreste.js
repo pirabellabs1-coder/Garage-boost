@@ -47,7 +47,7 @@ module.exports = {
     ],
     sections: [
       { h: "Batterie, alternateur ou consommateur parasite", p: "Nous mesurons d'abord la capacité de la batterie, puis la tension de charge de l'alternateur moteur tournant, et enfin le courant consommé à l'arrêt, véhicule verrouillé. Ces trois mesures suffisent le plus souvent à trancher. Repères de prix : batterie avec codage de <strong>160 à 290 €</strong>, alternateur de 390 à 590 €, démarreur de 290 à 490 €." },
-      { h: "Climatisation et ventilateurs : la partie électrique", p: "Une climatisation qui souffle chaud n'est pas toujours une question de gaz : relais, sonde de pression, commande de compresseur ou motoventilateur peuvent être en cause. Notre poste électricité teste chaque élément du circuit. Le diagnostic coûte <strong>59 € la première heure</strong> et devient gratuit si vous validez la réparation, garantie 12 mois." }
+      { h: "Climatisation et ventilateurs : la partie électrique", p: "Une climatisation qui souffle chaud n'est pas toujours une question de gaz : relais, sonde de pression, commande de compresseur ou motoventilateur peuvent être en cause. Nous contrôlons ces éléments un à un. Le diagnostic coûte <strong>59 € la première heure</strong> et devient gratuit si vous validez la réparation, garantie 12 mois." }
     ],
     faq: [
       { q: "Ma voiture ne démarre plus après une semaine à l'arrêt, que vérifier ?", a: "Si la batterie a plus de quatre ou cinq ans, elle est la première suspecte. Si elle est récente, un équipement qui reste alimenté à l'arrêt, comme un plafonnier, un boîtier ou un calculateur qui ne se met pas en veille, peut la vider. La mesure du courant de fuite le révèle." },

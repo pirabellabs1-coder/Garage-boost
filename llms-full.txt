@@ -33,7 +33,7 @@
 
 - **URL** : https://garageboost.fr/maintenance-moteur/diagnostic-moteur
 - **Tarif** : Dès 49 € — Diagnostic complet 49€ TTC, incluant lecture multimarque, mesures temps réel et compte-rendu écrit. Offert si intervention de réparation validée chez Garage Boost.
-- **En résumé** : Voyant moteur allumé, perte de puissance, ralenti instable ?
+- **En résumé** : Voyant moteur allumé, perte de puissance, mode dégradé ?
 - **Question fréquente** : Pourquoi le diagnostic est-il payant si je ne fais pas la réparation ? — Parce que le diagnostic mobilise une heure de technicien spécialisé et un matériel professionnel coûteux. Un atelier qui propose un diagnostic gratuit sans contrepartie compense inévitablement ailleurs (pièces gonflées, prestations facturées). Notre transparence : 49€ de diagnostic offerts dès lors que vous validez l'intervention.
 - **Pages locales** : [Marseille](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/marseille) · [Aubagne](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/aubagne) · [Vitrolles](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/vitrolles) · [Aix-en-Provence](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/salon-de-provence) · [Toulon](https://garageboost.fr/maintenance-moteur/diagnostic-moteur/toulon)
 
@@ -109,8 +109,8 @@
 
 - **URL** : https://garageboost.fr/entretien-assistance/electricite-automobile
 - **Tarif** : 59 €/h — 59€ la première heure de diagnostic électrique. Réparation selon cause identifiée — devis transparent envoyé sous 24h. Diagnostic offert si intervention validée.
-- **En résumé** : Diagnostic des problèmes électriques et électroniques : batterie, alternateur, démarreur, faisceaux, calculateurs, ABS, ESP, capteurs.
-- **Question fréquente** : Pourquoi ma batterie se décharge sans raison ? — Trois causes principales : batterie en fin de vie (4-6 ans), alternateur qui ne charge plus (test simple), ou fuite de courant (consommateur qui reste allumé). Notre diagnostic identifie précisément la cause en 30-60 minutes.
+- **En résumé** : Batterie, alternateur, démarreur, éclairage, fusibles : nous traitons l'électricité courante de votre véhicule.
+- **Question fréquente** : Pourquoi ma batterie se décharge sans raison ? — Trois causes principales : batterie en fin de vie (4-6 ans), alternateur qui ne charge plus, ou fuite de courant (consommateur qui reste allumé). Nous testons la batterie et l'alternateur ; une fuite de courant dans le faisceau relève en revanche d'un spécialiste en électronique.
 - **Pages locales** : [Plan-de-Cuques & Marseille](https://garageboost.fr/entretien-assistance/electricite-automobile/plan-de-cuques-marseille) · [La Ciotat](https://garageboost.fr/entretien-assistance/electricite-automobile/la-ciotat) · [Vitrolles, Marignane & Martigues](https://garageboost.fr/entretien-assistance/electricite-automobile/vitrolles-marignane-martigues) · [Gardanne & Aix-en-Provence](https://garageboost.fr/entretien-assistance/electricite-automobile/gardanne-aix-en-provence) · [Salon-de-Provence](https://garageboost.fr/entretien-assistance/electricite-automobile/salon-de-provence) · [Var, Vaucluse & Alpes-Maritimes](https://garageboost.fr/entretien-assistance/electricite-automobile/var-vaucluse-alpes-maritimes)
 
 #### Dépannage & remorquage

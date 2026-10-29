@@ -58,17 +58,17 @@ module.exports = {
   'electricite-automobile': {
     title: "Démarreur fatigué ou fusible qui saute à Saint-Victoret",
     lead: "Cliquetis à la clé, moteur qui tourne lentement, accessoire qui grille un fusible : à Saint-Victoret, nous trouvons la cause électrique avant de changer une pièce. Diagnostic 59 € la première heure.",
-    metaDesc: "Électricité auto pour Saint-Victoret : démarreur, court-circuit, fusible qui saute. Diagnostic 59 € la 1re heure, offert si réparation validée.",
+    metaDesc: "Électricité auto pour Saint-Victoret : démarreur, batterie, fusible grillé. Diagnostic 59 € la 1re heure, offert si réparation validée.",
     intro: [
       "Une voiture qui démarre plusieurs fois par jour, au fil d'allers-retours entre la maison, le parking du site et les courses, sollicite fortement son <strong>démarreur</strong> et sa batterie. Le jour où le moteur tourne mollement ou ne répond plus que par un clic, il faut savoir lequel des deux est en cause.",
       "Autre panne typique des véhicules d'usage intensif : l'accessoire branché après coup, caméra de bord, chargeur ou boîtier, qui finit par faire <strong>sauter un fusible</strong> à répétition."
     ],
     sections: [
       { h: "Batterie ou démarreur ?", p: "Une batterie chargée qui ne parvient pas à entraîner le moteur oriente vers le démarreur ; une batterie qui ne tient pas la charge oriente vers elle-même ou vers l'alternateur. Nous mesurons la tension au repos et pendant le démarrage, puis la charge moteur tournant. Repères de prix : démarreur de <strong>290 à 490 €</strong>, batterie avec codage de 160 à 290 €, alternateur de 390 à 590 €." },
-      { h: "Un fusible n'est jamais la panne", p: "Remplacer un fusible qui grille, c'est traiter le symptôme. Il protège un circuit où le courant dépasse la limite prévue : câble pincé, connexion mal faite lors de la pose d'un accessoire, composant en court-circuit. Nous suivons le circuit au multimètre et lisons les calculateurs avec une valise multimarque. Le diagnostic coûte <strong>59 € la première heure</strong>, offert si vous validez la réparation ; le devis arrive sous 24 heures et la réparation est garantie 12 mois." }
+      { h: "Un fusible n'est jamais la panne", p: "Remplacer un fusible qui grille, c'est traiter le symptôme. Quand il saute depuis la pose d'un accessoire, nous contrôlons ce branchement et le refaisons proprement ou le retirons. Si le défaut se trouve dans le faisceau d'origine, la recherche relève d'un atelier spécialisé en électronique : nous vous le disons dès le contrôle. Le diagnostic coûte <strong>59 € la première heure</strong>, offert si vous validez la réparation ; le devis arrive sous 24 heures et la réparation est garantie 12 mois." }
     ],
     faq: [
-      { q: "Je remplace le fusible et il saute de nouveau : puis-je en mettre un plus gros ?", a: "Surtout pas. Un fusible de calibre supérieur laisse passer un courant que le câblage ne supporte pas, avec un risque d'échauffement et de départ de feu. Remettez le calibre d'origine et faites rechercher le court-circuit." },
+      { q: "Je remplace le fusible et il saute de nouveau : puis-je en mettre un plus gros ?", a: "Surtout pas. Un fusible de calibre supérieur laisse passer un courant que le câblage ne supporte pas, avec un risque d'échauffement et de départ de feu. Remettez le calibre d'origine et faites contrôler le circuit concerné." },
       { q: "Le démarrage est difficile seulement le matin : est-ce le démarreur ?", a: "Pas forcément. Une batterie affaiblie montre d'abord ses limites après une nuit à l'arrêt. La mesure de sa capacité réelle, puis celle du courant absorbé par le démarreur, permet de trancher sans remplacer une pièce au hasard." }
     ]
   },

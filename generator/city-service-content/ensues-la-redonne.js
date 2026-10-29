@@ -65,7 +65,7 @@ module.exports = {
     ],
     sections: [
       { h: "Refaire une clé et sécuriser le véhicule", p: "Nous codons une clé vierge au véhicule, pour la plupart des marques, et <strong>désactivons la clé perdue</strong> : si quelqu'un la retrouve, elle ne démarrera plus la voiture. Le codage coûte de 89 à 290 € selon le modèle, auquel s'ajoute le prix de la clé elle-même. Si vous n'avez plus aucune clé, le véhicule doit être acheminé à l'atelier : notre dépannage peut s'en charger." },
-      { h: "Télécommande ou centralisation ?", p: "Une télécommande qui faiblit n'a parfois besoin que d'une pile. Si le problème persiste, nous testons l'émetteur, puis le récepteur et la <strong>centralisation</strong> du véhicule : moteurs de serrure, faisceaux de portière, calculateur d'habitacle. Le diagnostic électrique coûte 59 € la première heure, offert si vous validez la réparation ; le devis est envoyé sous 24 heures." }
+      { h: "Télécommande ou centralisation ?", p: "Une télécommande qui faiblit n'a parfois besoin que d'une pile. Si le problème persiste, nous testons l'émetteur, puis les fusibles et les <strong>moteurs de serrure</strong> de la centralisation. Une panne logée dans les faisceaux de portière ou le calculateur d'habitacle relève en revanche d'un spécialiste en électronique. Le diagnostic électrique coûte 59 € la première heure, offert si vous validez la réparation ; le devis est envoyé sous 24 heures." }
     ],
     faq: [
       { q: "Une clé tombée dans l'eau de mer est-elle récupérable ?", a: "Rincez-la à l'eau douce, retirez la pile et laissez-la sécher complètement. Si elle ne fonctionne plus ensuite, le circuit est probablement oxydé : nous vérifions s'il peut être réparé ou s'il faut coder une nouvelle clé." },

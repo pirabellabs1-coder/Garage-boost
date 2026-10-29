@@ -38,20 +38,20 @@ module.exports = {
   },
 
   'electricite-automobile': {
-    title: "Capteurs et sondes à La Ciotat : quand l'électronique s'oxyde",
-    lead: "Voyant moteur, voyant ABS ou ESP allumé : près de la mer, sondes et capteurs vieillissent plus vite. Nous lisons tous les calculateurs et testons le composant suspect, 59 € la première heure.",
-    metaDesc: "Électricité auto pour La Ciotat : sonde lambda, capteurs ABS, voyants testés, diagnostic 59 € la 1re heure, offert si réparation validée. Garantie 12 mois.",
+    title: "Petits trajets à La Ciotat : la batterie qui ne se recharge pas",
+    lead: "Trajets de quelques minutes, embouteillages d'été, accessoires branchés : à La Ciotat, une batterie peut s'épuiser sans être usée. Nous testons batterie et charge, 59 € la première heure.",
+    metaDesc: "Batterie et charge à La Ciotat : test, recharge, remplacement avec codage de 160 à 290 €. Diagnostic 59 € la 1re heure, offert si réparation validée.",
     intro: [
-      "Sur une voiture moderne, des dizaines de capteurs renseignent les calculateurs : sondes lambda dans l'échappement, capteurs de vitesse de roue pour l'ABS et l'ESP, sondes de température et de pression. Beaucoup sont placés <strong>sous la caisse ou près des roues</strong>, exposés aux projections et à l'humidité.",
-      "À La Ciotat, l'air marin accélère l'oxydation de ces composants et de leurs connecteurs. Un capteur qui dérive ou un contact qui s'oxyde suffit à allumer un voyant, parfois de façon intermittente."
+      "Chaque démarrage puise dans la batterie, et c'est l'alternateur qui la remplit ensuite en roulant. Sur un trajet de quelques minutes entre le port, le centre et les quartiers, il n'a <strong>pas le temps de compenser</strong>. Ajoutez les files de l'été, ventilation et climatisation au maximum, et la batterie finit par descendre jour après jour.",
+      "Un matin, le démarreur tourne lentement ou ne répond plus. La batterie n'est pas forcément morte : elle est vide, et elle a parfois perdu une partie de sa capacité à force de rester déchargée."
     ],
     sections: [
-      { h: "Le code défaut n'est qu'un point de départ", p: "Un code qui désigne une sonde lambda ou un capteur de roue ne prouve pas que la pièce est hors service : le défaut peut venir du câblage, d'un connecteur oxydé ou de la pièce que le capteur surveille. Nous lisons l'ensemble des calculateurs avec une <strong>valise multimarque</strong>, puis mesurons signaux et continuités à l'oscilloscope et au multimètre. Remplacer un capteur sain ne règle rien ; le mesurer évite cette dépense." },
-      { h: "Tarifs et réparation", p: "Le diagnostic électrique coûte <strong>59 € la première heure</strong> et devient gratuit si vous validez la réparation. Selon l'accès, le remplacement d'un capteur ou la reprise d'un faisceau revient de 80 à 350 €. Le devis est transmis sous 24 heures et la réparation garantie 12 mois. Depuis La Ciotat, l'atelier est à 30 minutes par l'A50 hors saison ; en juillet et août, comptez plutôt 45 à 60 minutes." }
+      { h: "Batterie vide ou batterie usée ?", p: "Nous mesurons la capacité réelle de la batterie, puis la tension de charge de l'alternateur. Une batterie encore saine est rechargée et contrôlée ; une batterie qui a perdu sa capacité se remplace, avec codage au véhicule si le modèle l'exige, de <strong>160 à 290 €</strong>. Si l'alternateur charge mal, comptez de 390 à 590 €. La première heure de diagnostic coûte 59 €, offerte si vous validez la réparation." },
+      { h: "Venir de La Ciotat", p: "L'atelier est à 24 km, environ 30 minutes par l'A50 hors saison ; en juillet et août, prévoyez plutôt 45 à 60 minutes. Si la voiture ne démarre plus, notre dépannage l'achemine pour 149 €, majoré de 50 % la nuit, le dimanche et les jours fériés. Le devis vous parvient sous 24 heures et la réparation est garantie 12 mois." }
     ],
     faq: [
-      { q: "Un voyant ABS allumé empêche-t-il de rouler ?", a: "Le freinage classique reste en général actif, mais l'antiblocage et souvent l'ESP sont désactivés : en freinage d'urgence ou sur chaussée glissante, les roues peuvent se bloquer. Mieux vaut faire contrôler rapidement." },
-      { q: "Une sonde lambda défectueuse a-t-elle des conséquences ?", a: "Oui. Le calculateur dose alors moins bien le mélange air-carburant, ce qui peut augmenter la consommation, dégrader les émissions et fatiguer le catalyseur. Le voyant moteur s'allume le plus souvent." }
+      { q: "Comment limiter la décharge si je fais surtout de petits trajets ?", a: "Un trajet plus long de temps en temps, une vingtaine de minutes sur voie rapide, permet à l'alternateur de recharger correctement. Débrancher les accessoires inutiles moteur coupé aide aussi." },
+      { q: "Mon voyant ABS ou un capteur est en défaut, pouvez-vous intervenir ?", a: "Les pannes de capteurs, de faisceaux et de calculateurs ne sont pas prises en charge à l'atelier : elles relèvent d'un spécialiste en électronique. Notre atelier s'occupe de la batterie, de la charge, du démarrage et de l'éclairage." }
     ]
   },
 

@@ -74,20 +74,20 @@ module.exports = {
   },
 
   'electricite-automobile': {
-    title: "Voyant batterie, ABS ou ESP allumé à Septèmes-les-Vallons",
-    lead: "Un témoin rouge de charge en roulant ou un voyant ABS qui reste allumé : ce sont des alertes électriques à faire vérifier vite. Diagnostic à 59 € la première heure, offert si vous validez la réparation.",
-    metaDesc: "Électricité auto pour Septèmes-les-Vallons : voyant batterie, ABS, ESP, alternateur, capteurs. Diagnostic 59 € la 1re heure, offert si réparation validée.",
+    title: "Voyant batterie allumé à Septèmes : alternateur ou courroie ?",
+    lead: "Un témoin rouge de charge qui s'allume en roulant doit être vérifié vite : la voiture vit alors sur sa batterie. Diagnostic à 59 € la première heure, offert si vous validez la réparation.",
+    metaDesc: "Voyant batterie à Septèmes-les-Vallons : alternateur, courroie, régulateur. Diagnostic 59 € la 1re heure, offert si réparation validée. À 15 min par la L2.",
     intro: [
-      "Sur une voiture moderne, la plupart des défauts électriques s'annoncent par un témoin au tableau de bord. Deux d'entre eux méritent une attention particulière. Le <strong>voyant de batterie</strong> allumé moteur tournant ne désigne pas une batterie usée mais un défaut de charge : alternateur, courroie d'accessoires ou régulateur. Le <strong>témoin ABS ou ESP</strong> signale que l'antiblocage ou le contrôle de stabilité est désactivé, le freinage classique restant opérationnel.",
-      "Les files de la rocade L2 et de l'A7 aux heures de pointe sont un bon révélateur d'alternateur fatigué : au ralenti, phares, ventilation, climatisation et ventilateur de refroidissement réclament du courant alors que l'alternateur tourne lentement. Un défaut de charge se manifeste donc souvent d'abord dans les embouteillages."
+      "Le <strong>voyant de batterie</strong> allumé moteur tournant ne désigne pas une batterie usée mais un défaut de charge. L'alternateur, entraîné par la courroie d'accessoires, ne fournit plus assez de courant, et chaque équipement puise dans la réserve de la batterie.",
+      "Les files de la rocade L2 et de l'A7 aux heures de pointe révèlent souvent ce défaut : au ralenti, phares, ventilation, climatisation et ventilateur de refroidissement réclament du courant alors que l'alternateur tourne lentement."
     ],
     sections: [
-      { h: "Voyant de charge : ne pas attendre la panne", p: "Quand l'alternateur ne recharge plus, la voiture vit sur la réserve de la batterie, puis s'arrête, parfois au milieu d'une file. Nous mesurons la tension de charge moteur tournant, l'état de la courroie et la capacité réelle de la batterie. Repères de prix : alternateur de 390 à 590 €, batterie avec codage de 160 à 290 €, démarreur de 290 à 490 €. Depuis Septèmes, le trajet reste envisageable si le voyant vient d'apparaître ; s'il s'accompagne d'autres alertes, faites plutôt appel au dépannage." },
-      { h: "ABS et ESP : souvent un capteur de roue", p: "Le témoin ABS provient fréquemment d'un capteur de vitesse de roue encrassé, d'un câble abîmé ou d'une cible corrodée. Notre valise multimarque interroge le calculateur concerné et désigne la roue en cause, puis l'oscilloscope permet de contrôler le signal du capteur. La réparation d'un capteur ou d'un faisceau se situe en général entre 80 et 350 € selon l'accès. Le diagnostic coûte 59 € la première heure et devient gratuit si vous validez l'intervention, garantie 12 mois." }
+      { h: "Trois suspects, un ordre de contrôle", p: "Nous vérifions d'abord la <strong>courroie d'accessoires</strong> : une courroie qui patine ou se craquelle entraîne mal l'alternateur. Nous mesurons ensuite la tension de charge moteur tournant, au ralenti puis en charge, pour juger l'alternateur et son régulateur. Enfin, la capacité réelle de la batterie dit si elle a souffert. Repères de prix : alternateur de 390 à 590 €, batterie avec codage de 160 à 290 €." },
+      { h: "Rouler ou se faire remorquer ?", p: "Si le voyant vient d'apparaître et que rien d'autre ne s'allume, les 15 minutes de trajet par la L2 restent souvent possibles, phares et climatisation coupés si les conditions le permettent. Si d'autres voyants suivent ou si la direction durcit, arrêtez-vous : notre dépannage intervient depuis Septèmes pour 149 €, majoré de 50 % la nuit, le dimanche et les jours fériés." }
     ],
     faq: [
-      { q: "Puis-je rouler avec le voyant ABS allumé ?", a: "Le freinage reste assuré, mais sans l'antiblocage : en freinage d'urgence ou sur chaussée mouillée, les roues peuvent se bloquer. Roulez prudemment jusqu'au diagnostic et ne tardez pas, d'autant qu'un témoin ABS allumé peut être relevé au contrôle technique." },
-      { q: "Le voyant de batterie s'allume puis s'éteint, est-ce grave ?", a: "Un témoin de charge intermittent annonce souvent une courroie qui patine, une connexion oxydée ou un alternateur en fin de vie. Faites-le contrôler rapidement, avant qu'il ne reste allumé et que la batterie se vide en roulant." }
+      { q: "Le voyant de batterie s'allume puis s'éteint, est-ce grave ?", a: "Un témoin de charge intermittent annonce souvent une courroie qui patine, une connexion oxydée ou un alternateur en fin de vie. Faites-le contrôler rapidement, avant qu'il ne reste allumé et que la batterie se vide en roulant." },
+      { q: "Changer la batterie suffit-il quand le voyant est allumé ?", a: "Rarement. Si l'alternateur ne charge plus, une batterie neuve se videra à son tour en quelques trajets. La mesure de la charge permet de remplacer la bonne pièce du premier coup." }
     ]
   },
 

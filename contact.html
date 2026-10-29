@@ -100,6 +100,18 @@
       <ul class="nav-menu">
         <li><a href="tarifs">Tarifs</a></li>
         <li><a href="rendez-vous">Prise de rendez-vous</a></li>
+        <li><a href="maintenance-moteur" class="has-sub">Maintenance moteur &amp; anti-pollution</a>
+          <ul class="nav-submenu">
+            <li><a href="maintenance-moteur/nettoyage-fap">Nettoyage FAP</a></li>
+            <li><a href="maintenance-moteur/traitement-egr">Traitement EGR & injecteurs</a></li>
+            <li><a href="maintenance-moteur/gestion-adblue">Gestion AdBlue</a></li>
+            <li><a href="maintenance-moteur/decalaminage-hydrogene">Décalaminage hydrogène</a></li>
+            <li><a href="maintenance-moteur/nettoyage-catalyseur">Nettoyage catalyseur</a></li>
+            <li><a href="maintenance-moteur/diagnostic-moteur">Diagnostic moteur</a></li>
+            <li><a href="maintenance-moteur/voyants-moteur">Voyants moteur</a></li>
+            <li><a href="maintenance-moteur/reprogrammation-moteur">Reprogrammation moteur</a></li>
+          </ul>
+        </li>
         <li><a href="entretien-assistance" class="has-sub">Entretien & assistance</a>
           <ul class="nav-submenu">
             <li><a href="entretien-assistance/depannage-remorquage">Dépannage & remorquage</a></li>
@@ -109,18 +121,6 @@
             <li><a href="entretien-assistance/ouverture-vehicule">Ouverture de véhicule</a></li>
             <li><a href="entretien-assistance/reproduction-cles">Reproduction de clés</a></li>
             <li><a href="entretien-assistance/enlevement-epaves">Enlèvement d'épaves</a></li>
-          </ul>
-        </li>
-        <li><a href="maintenance-moteur" class="has-sub">Maintenance moteur &amp; anti-pollution</a>
-          <ul class="nav-submenu">
-            <li><a href="maintenance-moteur/diagnostic-moteur">Diagnostic moteur</a></li>
-            <li><a href="maintenance-moteur/decalaminage-hydrogene">Décalaminage hydrogène</a></li>
-            <li><a href="maintenance-moteur/nettoyage-fap">Nettoyage FAP</a></li>
-            <li><a href="maintenance-moteur/nettoyage-catalyseur">Nettoyage catalyseur</a></li>
-            <li><a href="maintenance-moteur/reprogrammation-moteur">Reprogrammation moteur</a></li>
-            <li><a href="maintenance-moteur/gestion-adblue">Gestion AdBlue</a></li>
-            <li><a href="maintenance-moteur/traitement-egr">Traitement EGR & injecteurs</a></li>
-            <li><a href="maintenance-moteur/voyants-moteur">Voyants moteur</a></li>
           </ul>
         </li>
         <li><a href="carrosserie" class="has-sub">Carrosserie</a>
@@ -288,18 +288,20 @@
             </div>
             <div class="form-group">
               <label for="service">Service souhaité <span style="color:var(--accent)">*</span></label>
-              <select id="service" name="Service" class="form-control" required>
+              <select id="service" name="Service" class="form-control" required aria-describedby="service-scope">
                 <option value="">— Choisir —</option>
-                <option>Diagnostic moteur</option>
-                <option>Reprogrammation moteur</option>
-                <option>Décalaminage hydrogène</option>
                 <option>Nettoyage FAP / EGR / catalyseur</option>
+                <option>Problème AdBlue</option>
+                <option>Décalaminage hydrogène</option>
+                <option>Diagnostic moteur / voyant allumé</option>
+                <option>Dépannage / remorquage</option>
+                <option>Reprogrammation moteur</option>
                 <option>Mécanique générale (vidange, freins, distribution…)</option>
                 <option>Carrosserie / peinture / pare-brise</option>
-                <option>Dépannage / remorquage</option>
                 <option>Location de véhicule</option>
                 <option>Autre</option>
               </select>
+              <p id="service-scope" style="margin:10px 0 0;font-size:0.85rem;line-height:1.5;color:var(--text-muted)"><i class="fa-solid fa-circle-info" aria-hidden="true" style="color:var(--accent)"></i> Nous ne prenons pas en charge les <strong style="color:var(--white)">pannes moteur lourdes</strong> (moteur à ouvrir, culasse, boîte de vitesses) ni l'<strong style="color:var(--white)">électronique complexe</strong> (faisceaux, calculateurs). Spécialités&nbsp;: FAP, EGR, AdBlue, décalaminage, diagnostic, dépannage.</p>
             </div>
           </div>
 
