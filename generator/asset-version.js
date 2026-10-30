@@ -18,7 +18,8 @@ function hashFile(rel) {
 }
 
 const THEME_MARK = 'gb-theme';
-const THEME_SNIPPET = `<script>try{if(localStorage.getItem('gb-theme')==='light')document.documentElement.dataset.theme='light'}catch(e){}</script>`;
+// Clair par défaut ; sombre seulement si le visiteur l'a choisi (bouton dans main.js)
+const THEME_SNIPPET = `<script>try{if(localStorage.getItem('gb-theme')!=='dark')document.documentElement.dataset.theme='light'}catch(e){document.documentElement.dataset.theme='light'}</script>`;
 
 const cssV = hashFile('assets/css/style.css');
 const jsV = hashFile('assets/js/main.js');
@@ -40,8 +41,9 @@ for (const f of files) {
   let h = before;
   if (cssV) h = h.replace(/assets\/css\/style\.css(\?v=[a-z0-9]+)?/g, `assets/css/style.css?v=${cssV}`);
   if (jsV) h = h.replace(/assets\/js\/main\.js(\?v=[a-z0-9]+)?/g, `assets/js/main.js?v=${jsV}`);
-  // Thème clair mémorisé : appliqué avant le CSS pour éviter un flash sombre (bouton dans main.js)
-  if (!h.includes(THEME_MARK)) h = h.replace(/<head>/i, `<head>\n${THEME_SNIPPET}`);
+  // Thème appliqué avant le CSS pour éviter un flash (snippet remplacé s'il a changé)
+  if (h.includes(THEME_MARK)) h = h.replace(/<script>try\{if\(localStorage\.getItem\('gb-theme'\)[^\n]*?<\/script>/, THEME_SNIPPET);
+  else h = h.replace(/<head>/i, `<head>\n${THEME_SNIPPET}`);
   if (h !== before) { fs.writeFileSync(f, h); changed++; }
 }
 console.log(`✓ Cache-busting : style.css?v=${cssV} · main.js?v=${jsV} — ${changed} fichiers`);
