@@ -194,4 +194,29 @@ document.addEventListener('DOMContentLoaded', () => {
     track.innerHTML = track.innerHTML + track.innerHTML;
   });
 
+  /* ---------- Bouton thème clair / sombre (sombre par défaut) ---------- */
+  // Le thème mémorisé est appliqué dans <head> (script en ligne) pour éviter le flash.
+  const themeSlot = document.querySelector('.nav-cta');
+  if (themeSlot) {
+    const root = document.documentElement;
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'theme-toggle';
+    btn.innerHTML = '<i class="fa-solid fa-moon" aria-hidden="true"></i><i class="fa-solid fa-sun" aria-hidden="true"></i>';
+    const sync = () => {
+      const light = root.dataset.theme === 'light';
+      btn.setAttribute('aria-pressed', String(light));
+      btn.setAttribute('aria-label', light ? 'Passer en thème sombre' : 'Passer en thème clair');
+      btn.title = btn.getAttribute('aria-label');
+    };
+    btn.addEventListener('click', () => {
+      const light = root.dataset.theme !== 'light';
+      if (light) root.dataset.theme = 'light'; else delete root.dataset.theme;
+      try { localStorage.setItem('gb-theme', light ? 'light' : 'dark'); } catch (e) {}
+      sync();
+    });
+    sync();
+    themeSlot.prepend(btn);
+  }
+
 });
