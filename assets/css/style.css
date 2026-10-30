@@ -654,6 +654,20 @@ h1, h2, h3, h4 {
   .breadcrumb { font-size: 0.7rem; margin-bottom: 14px; }
 }
 /* Bandeau « réponse rapide » sous le H1 des pages services */
+.answer-box {
+  max-width: 760px;
+  margin: 22px auto 0;
+  padding: 16px 20px;
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+  text-align: left;
+  background: rgba(189,227,45,0.05);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 12px;
+}
+.answer-box strong { color: var(--white); }
 .quick-facts {
   list-style: none;
   display: flex;

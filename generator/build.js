@@ -9,6 +9,7 @@ const ROOT = path.resolve(__dirname, '..');
 const TEMPLATE = fs.readFileSync(path.join(__dirname, 'template.html'), 'utf8');
 const data = require('./data.js');
 const { quickFacts } = require('./quick-facts.js');
+const SERVICE_SEO = require('./service-seo.js');
 const { fitTitle, clampMeta, excerpt } = require('./seo-text.js');
 const zones = require('./zones.js');
 const articles = require('./articles.js');
@@ -242,6 +243,8 @@ for (const [categorySlug, category] of Object.entries(data.categories)) {
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
   for (const [slug, service] of Object.entries(category.services)) {
+    const seo = SERVICE_SEO[slug] || {};
+    const hubFaq = [...(seo.faq || []), ...service.faq];
     const html = render(TEMPLATE, {
       categorySlug,
       categoryLabel: category.label,
@@ -279,8 +282,9 @@ for (const [categorySlug, category] of Object.entries(data.categories)) {
       whyP: service.whyP,
       whyListHTML: buildWhyList(service.whyList),
       contentHTML: buildContent(service.content),
-      faqHTML: buildFaq(service.faq),
-      faqSchema: buildFaqSchema(service.faq),
+      faqHTML: buildFaq(hubFaq),
+      faqSchema: buildFaqSchema(hubFaq),
+      answerHTML: seo.answer ? `<p class="answer-box">${seo.answer}</p>` : '',
       relatedHTML: buildRelated(service.related, categorySlug),
       quickFactsHTML: quickFacts(service),
       articlesHTML: buildArticleLinks(slug),

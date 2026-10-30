@@ -33,11 +33,11 @@ module.exports = {
 
         'diagnostic-moteur': {
           name: 'Diagnostic moteur',
-          title: 'Diagnostic moteur Marseille | OBD2 multimarque - Garage Boost Plan-de-Cuques',
-          metaDesc: "Diagnostic moteur électronique à Plan-de-Cuques (Marseille). Lecture multimarque OBD2 + valise constructeur, identification précise des codes défauts. 49€, offert si intervention validée.",
+          title: "Diagnostic moteur & voyant Marseille 49 € | Garage Boost",
+          metaDesc: "Voyant moteur allumé ? Diagnostic multimarque près de Marseille : 49 €, offert si la réparation est faite chez nous. Spécialiste FAP, EGR et AdBlue.",
           keywords: 'diagnostic moteur Marseille, OBD2 Plan-de-Cuques, codes défauts auto, valise diagnostic Marseille, lecture calculateur',
           h1Pre: 'Diagnostic moteur',
-          h1Accent: 'précis & fiable.',
+          h1Accent: "à Marseille.",
           lead: "Voyant moteur allumé, perte de puissance, mode dégradé ? Notre diagnostic multimarque identifie la cause en 30 à 90 minutes. Notre spécialité : les défauts liés à l'antipollution et à l'encrassement (FAP, EGR, AdBlue, injecteurs, calamine).",
           image1: IMG.mechanic, imageAlt1: 'Diagnostic électronique moteur sur véhicule à Plan-de-Cuques',
           image2: IMG.engineBay, imageAlt2: 'Outil de diagnostic OBD2 multimarque Garage Boost',
@@ -121,11 +121,11 @@ module.exports = {
 
         'decalaminage-hydrogene': {
           name: 'Décalaminage hydrogène',
-          title: 'Décalaminage hydrogène Marseille | Sans démontage - Garage Boost Plan-de-Cuques',
-          metaDesc: "Décalaminage hydrogène à Plan-de-Cuques (Marseille). Nettoyage moteur sans démontage en 60-90 min, élimine la calamine, restaure performances et protège FAP/EGR/turbo. 100% écologique. Dès 89€.",
+          title: "Décalaminage hydrogène Marseille dès 89 € | Garage Boost",
+          metaDesc: "Décalaminage hydrogène près de Marseille : 89 € jusqu'à 1.6 L, 119 € jusqu'à 2.5 L, 149 € au-delà. Sans démontage, 60 à 90 min, diagnostic OBD inclus.",
           keywords: 'décalaminage hydrogène Marseille, nettoyage moteur sans démontage, décrassage moteur Plan-de-Cuques, décarbonisation moteur, anti-calamine',
           h1Pre: 'Décalaminage',
-          h1Accent: 'hydrogène moteur.',
+          h1Accent: "hydrogène à Marseille.",
           lead: "Procédé écologique en 60-90 minutes, sans démontage. L'hydrogène délogue la calamine accumulée dans la chambre de combustion, sur les soupapes, dans le turbo et l'EGR. Performances restaurées, conso optimisée.",
           image1: IMG.carEngine, imageAlt1: 'Décalaminage hydrogène moteur diesel Marseille',
           image2: IMG.workshop, imageAlt2: 'Station hydrogène professionnelle Garage Boost Plan-de-Cuques',
@@ -209,10 +209,10 @@ module.exports = {
 
         'nettoyage-fap': {
           name: 'Nettoyage FAP',
-          title: 'Nettoyage FAP Marseille | Sans démontage ou bain ultrason - Garage Boost',
-          metaDesc: "Nettoyage filtre à particules (FAP) à Plan-de-Cuques (Marseille). Régénération sans démontage ou bain ultrason haute température. Économie 70% vs remplacement neuf. Dès 250€.",
+          title: "Nettoyage FAP Marseille dès 250 € | Garage Boost",
+          metaDesc: "Nettoyage FAP près de Marseille : régénération sans démontage 250-450 €, bain ultrason 390-650 €. Diagnostic inclus, devis sous 24 h, garantie 12 mois.",
           keywords: 'nettoyage FAP Marseille, régénération FAP Plan-de-Cuques, FAP bouché solution, alternative remplacement FAP, FAP colmaté Marseille',
-          h1Pre: 'Nettoyage FAP',
+          h1Pre: "Nettoyage FAP à Marseille",
           h1Accent: 'sans remplacement.',
           lead: "FAP saturé, voyant FAP allumé, mode dégradé déclenché ? Notre traitement professionnel restaure 95% de la capacité du filtre, en chimique sans démontage ou en bain ultrason. Économie 70% vs neuf.",
           image1: IMG.fap, imageAlt1: 'Nettoyage filtre à particules FAP diesel Marseille',
@@ -438,10 +438,10 @@ module.exports = {
 
         'gestion-adblue': {
           name: 'Gestion AdBlue',
-          title: 'Réparation & diagnostic AdBlue Marseille | Système SCR - Garage Boost',
-          metaDesc: "Panne AdBlue à Plan-de-Cuques (Marseille) ? Diagnostic et réparation du système SCR : capteur qualité, pompe, injecteur, sonde NOx, décristallisation. Remise en conformité, garantie 12 mois. Diagnostic dès 90€.",
+          title: "Réparation AdBlue Marseille, diagnostic 90 € | Garage Boost",
+          metaDesc: "Voyant AdBlue ou compte à rebours ? Diagnostic SCR 90 € (déduit si réparation) près de Marseille : capteur, sonde NOx, pompe, injecteur. Garantie 12 mois.",
           keywords: 'panne AdBlue Marseille, réparation système SCR Plan-de-Cuques, voyant AdBlue, capteur qualité AdBlue, pompe AdBlue défectueuse, diagnostic AdBlue Marseille',
-          h1Pre: 'Gestion des problèmes', h1Accent: 'AdBlue.',
+          h1Pre: "Réparation AdBlue", h1Accent: "à Marseille.",
           lead: "Voyant AdBlue allumé, compte à rebours avant immobilisation, système SCR en défaut ? On diagnostique la panne réelle et on répare le bon composant — capteur, pompe, injecteur ou sonde NOx — pour vous remettre en conformité, sans le prix d'un remplacement complet en concession.",
           image1: IMG.carEngine, imageAlt1: 'Diagnostic panne AdBlue diesel Marseille Plan-de-Cuques',
           image2: IMG.workshop, imageAlt2: 'Réparation système SCR AdBlue Garage Boost',
@@ -508,10 +508,10 @@ module.exports = {
 
         'traitement-egr': {
           name: 'Traitement EGR & injecteurs',
-          title: 'Nettoyage EGR & injecteurs Marseille | Démontage ultrason - Garage Boost',
-          metaDesc: "Nettoyage vanne EGR et injecteurs à Plan-de-Cuques (Marseille). Démontage, bain ultrason, joints neufs. Restaure les performances et résout les voyants moteur. Dès 180€.",
+          title: "Nettoyage vanne EGR Marseille 180-290 € | Garage Boost",
+          metaDesc: "Vanne EGR encrassée ? Nettoyage près de Marseille : démontage, bain ultrason et joints neufs, 180-290 € contre 350-700 € pour une vanne neuve. Garantie 12 mois.",
           keywords: 'nettoyage EGR Marseille, vanne EGR encrassée Plan-de-Cuques, nettoyage injecteurs ultrason, traitement EGR Marseille, restauration injection diesel',
-          h1Pre: 'Traitement', h1Accent: 'EGR & injecteurs.',
+          h1Pre: "Nettoyage vanne EGR", h1Accent: "& injecteurs à Marseille.",
           lead: "Vanne EGR encrassée ou injecteurs HS ? Démontage, nettoyage ultrason haute température, remontage avec joints neufs. Restauration des performances pour 180-290€ vs 800-1500€ neuf.",
           image1: IMG.engineBay, imageAlt1: 'Nettoyage vanne EGR ultrason à Marseille',
           image2: IMG.workshop, imageAlt2: 'Démontage et nettoyage injecteurs Garage Boost',
@@ -578,7 +578,7 @@ module.exports = {
 
         'voyants-moteur': {
           name: 'Voyants moteur',
-          title: 'Voyants moteur Marseille | Diagnostic & résolution - Garage Boost',
+          title: "Voyant moteur allumé Marseille | Diagnostic 49 €",
           metaDesc: "Diagnostic voyants moteur (orange, rouge, clignotant) à Plan-de-Cuques (Marseille). Lecture codes défauts, identification cause, devis sous 24h. Résolution durable.",
           keywords: 'voyant moteur allumé Marseille, voyant moteur orange Plan-de-Cuques, voyant rouge moteur, code défaut auto, voyant moteur clignotant solution',
           h1Pre: 'Voyants', h1Accent: 'moteur résolus.',

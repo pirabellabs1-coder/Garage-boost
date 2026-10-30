@@ -249,7 +249,7 @@ module.exports = [
 
 <p>Pour traiter durablement le problème, <strong>n'oubliez pas la cause amont</strong> : si votre FAP s'est saturé en seulement 80 000 km, c'est probablement qu'une autre pièce dysfonctionne (vanne EGR encrassée, débitmètre HS, sonde lambda fatiguée, mauvais carburant, vidanges espacées). Sans traitement de la cause, le FAP se rebouchera dans les 12 à 24 mois.</p>
 
-<p>Notre <a href="../maintenance-moteur/nettoyage-fap.html">page dédiée au nettoyage FAP</a> détaille notre approche en deux méthodes (chimique sans démontage et bain ultrason). Pour un diagnostic personnalisé sur votre véhicule, <a href="../rendez-vous.html">prenez rendez-vous</a> à notre atelier de Plan-de-Cuques.</p>
+<p>Notre page <a href="../maintenance-moteur/nettoyage-fap.html">nettoyage FAP à Marseille</a> détaille notre approche en deux méthodes (chimique sans démontage et bain ultrason). Pour un diagnostic personnalisé sur votre véhicule, <a href="../rendez-vous.html">prenez rendez-vous</a> à notre atelier de Plan-de-Cuques.</p>
 `
   },
 
@@ -433,7 +433,7 @@ module.exports = [
 <h2>Réparer plutôt que « tout remplacer »</h2>
 <p>Face au devis de remplacement complet annoncé en concession (1 500-3 000€), beaucoup de propriétaires paniquent. Pourtant, dans la grande majorité des cas, <strong>un seul composant est en cause</strong> : un capteur de qualité, une sonde NOx, une pompe cristallisée ou un injecteur bouché. Réparer la pièce fautive coûte bien moins cher que de changer tout le système.</p>
 <p><strong>La bonne démarche</strong> : un diagnostic électronique précis pour identifier le composant défaillant, puis une réparation ciblée. C'est la seule solution à la fois durable, économique et <strong>conforme</strong> — votre véhicule continue de dépolluer et passe le contrôle technique sans souci.</p>
-<p>À éviter : les offres de « désactivation » du système AdBlue trouvées en ligne. Retirer ou désactiver un organe anti-pollution est <strong>illégal sur route en France</strong> (échec au contrôle technique, perte d'homologation, sanctions). Pour un diagnostic honnête et une réparation dans les règles, consultez notre <a href="../maintenance-moteur/gestion-adblue.html">page dédiée à la gestion des pannes AdBlue</a>.</p>
+<p>À éviter : les offres de « désactivation » du système AdBlue trouvées en ligne. Retirer ou désactiver un organe anti-pollution est <strong>illégal sur route en France</strong> (échec au contrôle technique, perte d'homologation, sanctions). Pour un diagnostic honnête et une réparation dans les règles, consultez notre page <a href="../maintenance-moteur/gestion-adblue.html">réparation AdBlue à Marseille</a>.</p>
 
 <h2>Conseils pour préserver votre système AdBlue</h2>
 <ul>
@@ -521,7 +521,7 @@ module.exports = [
 <li>Changez le <strong>filtre à air à temps</strong> (tous les 30 000 km en usage urbain)</li>
 <li>Faites un <strong>décalaminage préventif</strong> tous les 30 000-50 000 km</li>
 </ul>
-<p>Pour traiter votre EGR, consultez notre <a href="../maintenance-moteur/traitement-egr.html">page dédiée au traitement EGR</a>.</p>
+<p>Pour traiter votre EGR, consultez notre page <a href="../maintenance-moteur/traitement-egr.html">nettoyage de vanne EGR à Marseille</a>.</p>
 `
   },
 
