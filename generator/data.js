@@ -63,7 +63,7 @@ module.exports = {
             { value: '95%', label: 'Pannes identifiées du 1er coup' }
           ],
           benefits: [
-            { icon: 'circuit-board', title: 'Multimarque', desc: 'Compatible Bosch, Siemens, Continental, Delphi, Marelli. Toutes marques européennes, asiatiques et américaines.' },
+            { icon: 'microchip', title: 'Multimarque', desc: 'Compatible Bosch, Siemens, Continental, Delphi, Marelli. Toutes marques européennes, asiatiques et américaines.' },
             { icon: 'gauge-high', title: 'Valeurs réelles', desc: 'Lecture en temps réel : pression turbo, débit air, lambda, T° échappement, position EGR, débit injecteurs.' },
             { icon: 'gift', title: 'Offert si validé', desc: 'Le diagnostic (49€) est gratuit dès lors que vous validez l\'intervention de réparation chez Garage Boost.' }
           ],
@@ -1554,7 +1554,7 @@ module.exports = {
           stats: [{value:'3-12m³', label:'Toutes tailles'}, {value:'250 km', label:'inclus/jour'}, {value:'49 €', label:'/j à partir de'}],
           benefits: [
             {icon:'box', title:'3 à 12 m³', desc:"Kangoo (3m³), Trafic (6-8m³), Master/Boxer (12m³). Adapté à votre besoin."},
-            {icon:'ramp', title:'Rampe incluse', desc:"Rampe d'accès pour charger meubles lourds, sangles d'arrimage incluses."},
+            {icon:'truck-ramp-box', title:'Rampe incluse', desc:"Rampe d'accès pour charger meubles lourds, sangles d'arrimage incluses."},
             {icon:'truck', title:'Tarifs justes', desc:"49 à 79€/jour, dégressif semaine/mois. Sans frais cachés."}
           ],
           whatIsTitle: "Notre flotte d'utilitaires",

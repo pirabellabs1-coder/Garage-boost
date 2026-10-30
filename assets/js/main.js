@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     else header.classList.remove('scrolled');
   };
   window.addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
+  setTimeout(onScroll, 0); // après le premier rendu : lire scrollY plus tôt forcerait une mise en page
 
   /* ---------- Mobile menu (auto-injection sur toutes les pages) ---------- */
   // 1. Inject le bouton menu-toggle dans .nav-cta s'il manque

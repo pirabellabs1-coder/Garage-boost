@@ -39,12 +39,19 @@ require('./faq-schema.js');
 console.log('\n=== Dimensions des images (anti-CLS) ===\n');
 require('./img-dimensions.js');
 
+console.log('\n=== Images responsive (srcset mobile) ===\n');
+require('./responsive-img.js');
+
 // Sitemap APRÈS les post-traitements : l'empreinte lastmod porte sur le HTML final
 console.log('\n=== Redirections ↔ pages restaurées (vercel.json) ===\n');
 require('./sync-redirects.js');
 
 console.log('\n=== Génération sitemap + robots ===\n');
 require('./build-sitemap.js');
+
+// Processus séparé : le sous-ensemble de polices est asynchrone et doit être fini avant le hash
+console.log('\n=== Font Awesome réduit aux icônes utilisées ===\n');
+require('child_process').execFileSync(process.execPath, [require('path').join(__dirname, 'fa-subset.js')], { stdio: 'inherit' });
 
 console.log('\n=== 10/10 — Cache-busting CSS/JS ===\n');
 require('./asset-version.js');

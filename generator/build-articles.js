@@ -261,7 +261,7 @@ const blogIndexHTML = `<!DOCTYPE html>
 
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-900.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/poppins-400.woff2" crossorigin>
-<link rel="preload" href="/assets/fa/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/fa/css/all.min.css"></noscript>
+<link rel="preload" href="/assets/fa/css/icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/fa/css/icons.css"></noscript>
 <link rel="stylesheet" href="assets/css/style.css">
 
 <script type="application/ld+json">
@@ -365,7 +365,7 @@ const blogIndexHTML = `<!DOCTYPE html>
     <!-- Desktop : pills horizontales scrollables -->
     <div class="blog-filter-wrap">
       <div class="blog-filter">
-        <button class="blog-filter-btn active" data-cat="all"><i class="fa-solid fa-grid-2"></i> Tous <span class="blog-filter-count">${articles.length}</span></button>
+        <button class="blog-filter-btn active" data-cat="all"><i class="fa-solid fa-table-cells-large"></i> Tous <span class="blog-filter-count">${articles.length}</span></button>
         ${categories.map(cat => {
           const count = articles.filter(a => a.category === cat).length;
           return `<button class="blog-filter-btn" data-cat="${cat}">${cat} <span class="blog-filter-count">${count}</span></button>`;

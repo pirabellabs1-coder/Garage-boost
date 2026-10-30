@@ -23,6 +23,7 @@ const THEME_SNIPPET = `<script>try{if(localStorage.getItem('gb-theme')!=='dark')
 
 const cssV = hashFile('assets/css/style.css');
 const jsV = hashFile('assets/js/main.js');
+const faV = hashFile('assets/fa/css/icons.css');
 
 function listHtml(dir, acc = []) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -40,6 +41,8 @@ for (const f of files) {
   const before = fs.readFileSync(f, 'utf8');
   let h = before;
   if (cssV) h = h.replace(/assets\/css\/style\.css(\?v=[a-z0-9]+)?/g, `assets/css/style.css?v=${cssV}`);
+  // Font Awesome réduit (fa-subset.js) à la place du jeu complet
+  if (faV) h = h.replace(/\/assets\/fa\/css\/(all\.min|icons)\.css(\?v=[a-z0-9]+)?/g, `/assets/fa/css/icons.css?v=${faV}`);
   if (jsV) h = h.replace(/assets\/js\/main\.js(\?v=[a-z0-9]+)?/g, `assets/js/main.js?v=${jsV}`);
   // Thème appliqué avant le CSS pour éviter un flash (snippet remplacé s'il a changé)
   if (h.includes(THEME_MARK)) h = h.replace(/<script>try\{if\(localStorage\.getItem\('gb-theme'\)[^\n]*?<\/script>/, THEME_SNIPPET);

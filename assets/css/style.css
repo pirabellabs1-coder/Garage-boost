@@ -73,9 +73,8 @@ body::before {
   inset: 0;
   pointer-events: none;
   z-index: 1000;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
-  opacity: 0.05;
-  mix-blend-mode: overlay;
+  background-image: url('/assets/img/grain.webp');
+  opacity: 0.035;
 }
 
 img { max-width: 100%; display: block; }
@@ -150,12 +149,6 @@ h1, h2, h3, h4 {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: gradient-shift 6s ease infinite;
-}
-
-@keyframes gradient-shift {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
 }
 
 /* ========================================================================
@@ -457,6 +450,14 @@ h1, h2, h3, h4 {
   background-size: cover;
   background-position: center;
 }
+/* Mobile : photo 800 px (même seuil que le preload de index.html) */
+@media (max-width: 800px) {
+  .hero-bg {
+    background-image:
+      linear-gradient(180deg, rgba(10, 14, 12, 0.55) 0%, rgba(10, 14, 12, 0.78) 60%, rgba(10, 14, 12, 0.95) 100%),
+      url('/assets/img/1486006920555-c77dcf18193c-800w.webp');
+  }
+}
 .hero-bg::after {
   content: '';
   position: absolute;
@@ -497,7 +498,6 @@ h1, h2, h3, h4 {
   border-radius: 50%;
   background: var(--accent);
   box-shadow: 0 0 8px var(--accent);
-  animation: pulse 2s ease infinite;
 }
 
 .hero-title {
@@ -2750,11 +2750,23 @@ a.zone-pill:hover { border-color: var(--accent); color: var(--accent-ink); trans
   font-size: 1.6rem;
   margin-bottom: 16px;
   box-shadow: 0 0 30px var(--accent-glow);
-  animation: pin-pulse 2.5s ease infinite;
+  position: relative;
+  isolation: isolate;
 }
-@keyframes pin-pulse {
-  0%, 100% { box-shadow: 0 0 30px var(--accent-glow); }
-  50% { box-shadow: 0 0 60px var(--accent-glow); }
+.map-pin::after, .wa-float::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid var(--accent-glow);
+  opacity: 0;
+  animation: halo 2.5s ease-out infinite;
+  pointer-events: none;
+}
+.wa-float::after { border-color: rgba(37, 211, 102, 0.6); }
+@keyframes halo {
+  from { transform: scale(1); opacity: 0.8; }
+  to { transform: scale(1.6); opacity: 0; }
 }
 .map-label {
   font-family: var(--font-display);
@@ -3106,15 +3118,9 @@ a.zone-pill:hover { border-color: var(--accent); color: var(--accent-ink); trans
   justify-content: center;
   font-size: 1.6rem;
   box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4);
-  transition: all 0.3s;
-  animation: pulse-wa 2.5s ease infinite;
+  transition: transform 0.3s;
 }
 .wa-float:hover { transform: scale(1.1); }
-@keyframes pulse-wa {
-  0%, 100% { box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4), 0 0 0 0 rgba(37, 211, 102, 0.4); }
-  50% { box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4), 0 0 0 18px rgba(37, 211, 102, 0); }
-}
-
 /* ========================================================================
    Reveal animations
    ======================================================================== */
@@ -3286,3 +3292,14 @@ a.zone-pill:hover { border-color: var(--accent); color: var(--accent-ink); trans
   background-clip: text;
 }
 [data-theme="light"] :is(.theme-toggle, .menu-toggle) { background: var(--surface-2); }
+
+/* Sections hors écran : mise en page et rendu différés jusqu'à l'approche du défilement
+   (la page d'accueil fait ~25 000 px de haut sur mobile) */
+section ~ section, .footer { content-visibility: auto; contain-intrinsic-size: auto 700px; }
+
+/* Mouvement réduit : pas d'animation en boucle ni d'apparition décalée */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  .reveal { opacity: 1; transform: none; }
+  .map-pin::after, .wa-float::after { animation: none; }
+}
