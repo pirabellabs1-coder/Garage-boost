@@ -1018,6 +1018,101 @@
       "source": "/maintenance-moteur/traitement-egr/var-vaucluse-alpes-maritimes.html",
       "destination": "/maintenance-moteur/traitement-egr/toulon",
       "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/ouverture-de-vehicule-cles-perdues-bloquees",
+      "destination": "/entretien-assistance/ouverture-vehicule",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/decalaminage-hydrogene",
+      "destination": "/maintenance-moteur/decalaminage-hydrogene",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/voyants-moteur",
+      "destination": "/maintenance-moteur/voyants-moteur",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/nettoyage-catalyseur",
+      "destination": "/maintenance-moteur/nettoyage-catalyseur",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution",
+      "destination": "/maintenance-moteur",
+      "permanent": true
+    },
+    {
+      "source": "/location-de-vehicules",
+      "destination": "/location",
+      "permanent": true
+    },
+    {
+      "source": "/location-de-vehicules/utilitaires",
+      "destination": "/location/utilitaires",
+      "permanent": true
+    },
+    {
+      "source": "/location-de-vehicules/voiture-de-rallye",
+      "destination": "/location/voiture-rallye",
+      "permanent": true
+    },
+    {
+      "source": "/location-de-vehicules/citadines",
+      "destination": "/location/citadines",
+      "permanent": true
+    },
+    {
+      "source": "/location-de-vehicules/vehicules-doccasion",
+      "destination": "/location/vehicules-occasion",
+      "permanent": true
+    },
+    {
+      "source": "/prise-de-rendez-vous",
+      "destination": "/rendez-vous",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/reproduction-de-cles-avec-codage",
+      "destination": "/entretien-assistance/reproduction-cles",
+      "permanent": true
+    },
+    {
+      "source": "/blog-car-detailing-v1",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/faq-2",
+      "destination": "/faq",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/electricite-automobile-diagnostic-plan-de-cuques-marseille/electricite-auto-salon-de-provence",
+      "destination": "/entretien-assistance/electricite-automobile/salon-de-provence",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/nettoyage-fap-filtre-particules-plan-de-cuques",
+      "destination": "/maintenance-moteur/nettoyage-fap/plan-de-cuques",
+      "permanent": true
+    },
+    {
+      "source": "/entretien-assistance/mecanique-generale-garage-plan-de-cuques-marseille/mecanique-generale-aubagne-la-ciotat-cassis",
+      "destination": "/entretien-assistance/mecanique-generale/aubagne",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance-moteur-anti-pollution/nettoyage-catalyseur/nettoyage-catalyseur-var-vaucluse-alpes-maritimes",
+      "destination": "/maintenance-moteur/nettoyage-catalyseur/var-vaucluse-alpes-maritimes",
+      "permanent": true
+    },
+    {
+      "source": "/carrosserie/peinture-automobile/peinture-auto-vitrolles-marignane-martigues",
+      "destination": "/carrosserie/peinture-automobile/vitrolles-marignane-martigues",
+      "permanent": true
     }
   ],
   "rewrites": [
