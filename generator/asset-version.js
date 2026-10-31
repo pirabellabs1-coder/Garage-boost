@@ -13,7 +13,9 @@ const ROOT = path.resolve(__dirname, '..');
 
 function hashFile(rel) {
   try {
-    return crypto.createHash('md5').update(fs.readFileSync(path.join(ROOT, rel))).digest('hex').slice(0, 8);
+    // Fins de ligne normalisées : même hash sur Windows (CRLF) et en CI Linux (LF)
+    const text = fs.readFileSync(path.join(ROOT, rel), 'utf8').replace(/\r\n/g, '\n');
+    return crypto.createHash('md5').update(text).digest('hex').slice(0, 8);
   } catch { return null; }
 }
 
