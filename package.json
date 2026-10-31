@@ -6,7 +6,8 @@
   "_comment_scripts": "NE PAS nommer un script \"build\" : Vercel le detecterait automatiquement, executerait npm run build et chercherait un dossier de sortie (public/) inexistant — le site est servi depuis la racine. Utiliser \"generate\".",
   "scripts": {
     "generate": "node generator/build-all.js",
-    "indexnow": "node generator/indexnow.js"
+    "indexnow": "node generator/indexnow.js",
+    "check": "node generator/check.js"
   },
   "dependencies": {
     "resend": "^4.0.1"

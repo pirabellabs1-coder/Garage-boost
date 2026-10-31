@@ -1,0 +1,24 @@
+# Garage Boost — contrôle qualité à chaque push et pull request.
+# Vercel déploie main dès le push : ce job ne bloque pas la mise en ligne,
+# il signale (croix rouge + e-mail GitHub). Le blocage se fait avant, par le
+# hook pre-push (.githooks/pre-push), qui lance la même commande.
+name: Qualité
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Contrôles (liens, JSON-LD, redirections, légal, unicité, syntaxe)
+        run: npm run check
+      - name: Le HTML commité correspond aux sources du générateur
+        run: |
+          npm run generate
+          git diff --stat --exit-code -- . ':(exclude)generator/lastmod.json' ':(exclude)sitemap.xml' || { echo "::error::HTML généré périmé : lancer npm run generate et commiter le résultat."; exit 1; }

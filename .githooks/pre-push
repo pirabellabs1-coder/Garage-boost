@@ -1,0 +1,5 @@
+#!/bin/sh
+# Garage Boost — bloque le push (donc la mise en ligne Vercel) si un contrôle échoue.
+# Activation (une fois par clone) : git config core.hooksPath .githooks
+# Contournement d'urgence uniquement : git push --no-verify
+npm run check --silent
